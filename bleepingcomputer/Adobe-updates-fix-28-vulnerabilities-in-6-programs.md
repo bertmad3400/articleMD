@@ -59,4 +59,4 @@ If the new update is not available via autoupdate, you can check the security bu
 
 
 #### Tags:
-[[]] [[Bleeping Computer]]
+[[Bleeping Computer]]
