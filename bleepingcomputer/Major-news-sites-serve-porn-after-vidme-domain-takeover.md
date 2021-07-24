@@ -18,7 +18,6 @@ Major news sites including The Washington Post, New York Magazine, and HuffPost
 The fiasco happened as prominent websites relied on the domain *vid.me* to embed streaming videos in their articles.
 
 
-
 The *vid.me* domain has been defunct for about four years and has had its ownership transferred over time to different parties.
 
 
@@ -72,7 +71,7 @@ In 2017, Vidme shut down its operations with *vid.me's* homepage showing a fa
 
 
 ![vidme site farewell](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)**Farewell message previously displayed on Vid.me site since 2017**(BleepingComputer)
-A [blog post](https://medium.com/vidme/goodbye-for-now-120b40becafa) followed stating Vidme had been acquired by Giphy. Any Videme-hosted videos were scheduled for deletion on December 15th, 2017.
+A [blog post](https://medium.com/vidme/goodbye-for-now-120b40becafa) followed stating Vidme had been acquired by Giphy. Any hosted videos were scheduled for deletion on December 15th, 2017.
 
 
 In practice, this meant, those iframes embedding hosted videos would have ideally shown nothing or, maybe an error message under usual circumstances.

@@ -58,6 +58,16 @@ Uber in September 2018 agreed to pay [$148 million in a US settlement](https://w
 
 Two men [pleaded guilty in October 2019](https://www.zdnet.com/article/hackers-who-extorted-uber-and-linkedin-plead-guilty/) to the hack and Uber's former chief security officer was [charged in August 2020](https://www.zdnet.com/article/former-uber-cso-charged-for-2016-hack-cover-up/) by US authorities over the cover-up.
 
+In response to the OAIC's determination, an Uber spokesperson told ZDNet it welcomed the resolution to the incident.
+
+"We learn from our mistakes and reiterate our commitment to continue to earn the trust of users," they said. 
+
+"We have made a number of technical improvements to the security of our systems, including obtaining ISO 27001 certification of our core rides business information systems and updating internal security policies, as well as making significant changes in leadership, since this incident in 2016. 
+
+"We are confident that these changes in security and governance will address the determination made by the OAIC, and will work with a third-party assessor to implement any further changes required."
+
+***Updated 4:10pm AEST Friday 23 July 2021:** Added statement from Uber spokesperson.*
+
 ### MORE FROM UBER
 
 * [Sacked Uber Eats delivery worker's Federal Court appeal commences](https://www.zdnet.com/article/sacked-uber-eats-delivery-workers-federal-court-appeal-commences/)

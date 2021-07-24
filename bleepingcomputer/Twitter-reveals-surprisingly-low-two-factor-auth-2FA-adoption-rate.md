@@ -18,7 +18,6 @@ Twitter has revealed in its latest transparency report that only 2.3% of all act
 [2FA](https://help.twitter.com/en/managing-your-account/two-factor-authentication) is an extra security layer for Twitter accounts that requires users to use a security key or enter a code together with their passwords to log into their accounts. 
 
 
-
 This ensures that only the account owner can sign in and blocks malicious takeover attempts which try to guess, use stolen credentials, or reset the password.
 
 

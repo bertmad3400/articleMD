@@ -18,7 +18,7 @@ A new NTLM relay attack called PetitPotam has been discovered that allows threa
 Many organizations utilize Microsoft Active Directory Certificate Services, which is a public key infrastructure (PKI) server that can be used to authenticate users, services, and machines on a Windows domain.
 
 
-In the past, [researchers discovered a method](https://posts.specterops.io/certified-pre-owned-d95910965cd2) to force a domain controller to authenticate against a malicious NTML relay that would then forward the request to a domain's Active Directory Certificate Services via HTTP.
+In the past, [researchers discovered a method](https://posts.specterops.io/certified-pre-owned-d95910965cd2) to force a domain controller to authenticate against a malicious NTLM relay that would then forward the request to a domain's Active Directory Certificate Services via HTTP.
 
 
 Ultimately, the attacker would be granted a Kerberos ticket granting ticket (TGT) that would allow them to assume the identity of any device on the network, including a domain controller.
@@ -109,4 +109,4 @@ Security researcher and Mimikatz creator [Benjamin Delpy](https://twitter.com/g
 
 
 #### Tags:
-[[PetitPotam]] [[NTLM]] [[Windows]] [[Microsoft]] [[MS-RPRN]] [[API]] [[MS-EFSRPC]] [[BleepingComputer]] [[PKI]] [[HTTP]] [[Bleeping Computer]]
+[[NTLM]] [[PetitPotam]] [[Windows]] [[Microsoft]] [[MS-RPRN]] [[API]] [[MS-EFSRPC]] [[BleepingComputer]] [[PKI]] [[HTTP]] [[Bleeping Computer]]

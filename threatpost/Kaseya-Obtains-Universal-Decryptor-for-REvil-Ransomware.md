@@ -32,7 +32,10 @@ Late on Thursday afternoon, the vendor announced via its [rolling advisory](http
 Deepening the mystery is the fact that REvil as a criminal organization [went dark July 13](https://threatpost.com/ransomware-revil-sites-disappears/167745/), when its sites vanished and representatives were banned on prominent underground forums.
 
 
-Threatpost has reached out to both Kaseya and Emsisoft for more details and will update this post with any additional information.
+Emsisoft isn’t releasing further details: “We are working with Kaseya to support their customer engagement efforts,” Emsisoft said in a statement given to Threatpost. “We have confirmed the key is effective at unlocking victims and will continue to provide support to Kaseya and its customers.”
+
+
+Threatpost has reached out to Kaseya as well and will update this post with any additional information.
 
 
 “The sudden appearance of this universal key suggests that it is possible that this ransom may have been paid, although it is likely that the ransom would have been negotiate to a lower price,” Ivan Righi, cyber-threat intelligence analyst at Digital Shadows, said via email.
@@ -79,4 +82,4 @@ The incidents point at a lesson for organizations of all sizes, researchers note
 
 
 #### Tags:
-[[Kaseya]] [[ransomware]] [[MSPs]] [[REvil]] [[decryptor]] [[VSA]] [[Emsisoft]] [[ThreatPost]]
+[[Kaseya]] [[ransomware]] [[MSPs]] [[REvil]] [[Emsisoft]] [[decryptor]] [[VSA]] [[Threatpost]] [[ThreatPost]]

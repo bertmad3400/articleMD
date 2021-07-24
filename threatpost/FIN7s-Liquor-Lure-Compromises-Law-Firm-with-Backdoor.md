@@ -61,7 +61,7 @@ TRU recently observed the registration of a new lookalike domain within this web
 “While in-the-wild use has not been observed, the registration and TLS certificate patterns match the previous landing page,” researchers said. “We assess this domain will replace the prior one given that it has been exposed publicly.”
 
 
-Notably for the Brown-Forman case, FIN7 threat actors registered the infrastructure months before the TRU saw it in action.
+Notably for the Brown-Forman case, FIN7 threat actors registered the infrastructure months before TRU saw it in action.
 
 
 “Either the attackers were using it for months before eSentire saw the activity, or they weaponized it after a period of time to evade email filtering by newly registered domains. If that is the case, this shows a degree of planning and sophistication on the part of FIN7.”
