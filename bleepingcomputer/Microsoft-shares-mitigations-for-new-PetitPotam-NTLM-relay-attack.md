@@ -49,7 +49,7 @@ The company also recommends on networks with NTLM enabled that services allowing
 However, PetitPotam is about abusing the EfsRpcOpenFileRaw function of the MS-EFSRPC API to pass on authentication requests, leaving the door open for other attacks.
 
 
-Microsoft”s advisory is clear about the action to prevent NTLM relay attacks but does not address the abuse of the MS-EFSRPC API, which would need a security update to fix.
+Microsoft's advisory is clear about the action to prevent NTLM relay attacks but does not address the abuse of the MS-EFSRPC API, which would need a security update to fix.
 
 
 Gilles Lionel told BleepingComputer that PetitPotam allows other atacks, such as a downgrading attack to NTLMv1 that uses the Data Encryption Standard (DES) - an insecure algorithm due to its short, 56-bit key generation that makes it easy to recover a password hash.
