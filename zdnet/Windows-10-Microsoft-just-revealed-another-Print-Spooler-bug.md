@@ -3,7 +3,7 @@
 
 ## Information:
 + Source: ZDNet
-+ Link: [article](https://www.zdnet.com/article/windows-10-microsoft-just-revealed-another-print-spool-bug/)
++ Link: [article](https://www.zdnet.com/article/windows-10-microsoft-just-revealed-another-print-spooler-bug/)
 + Date: August 12, 2021 -- 14:35 GMT (15:35 BST)
 + Author: Liam Tung
 
