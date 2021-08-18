@@ -936,6 +936,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 890	STARTTLS implementations in email clients & servers plagued by 40+ vulnerabilities	Academics said they discovered more than 40 security flaws in the implementation of the STARTTLS feature in today's most popular email clients and email servers.	https://therecord.media/starttls-implementations-in-email-clients-servers-plagued-by-40-vulnerabilities/	https://therecord.media/wp-content/uploads/2021/08/nostarttls.png	therecord	t	2021-08-18 18:00:02.503831+02	2021-08-18 17:37:47+02	Catalin Cimpanu	therecord/STARTTLS-implementations-in-email-clients--servers-plagued-by-40-vulnerabilities
 891	Microsoft begins final phase of Internet Explorer's demise	Microsoft's Internet Explorer browser is barely usable after Microsoft officially ends support for the browser in Microsoft 365.	https://www.bleepingcomputer.com/news/microsoft/microsoft-begins-final-phase-of-internet-explorers-demise/	https://www.bleepstatic.com/content/hl-images/2020/10/25/internet-explorer-fading-away.jpg	bleepingcomputer	t	2021-08-18 20:00:01.973269+02	2021-08-18 19:45:15+02	Lawrence Abrams	bleepingcomputer/Microsoft-begins-final-phase-of-Internet-Explorers-demise
 892	T-Mobile: >40 Million Customers’ Data Stolen	Attackers stole tens of millions of current, former or prospective customers' personal data, the company confirmed. It's providing 2 years of free ID protection.	https://kasperskycontenthub.com/threatpost-global/?p=168778	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/18104053/data-theft-e1629297667514.jpeg	threatpost	t	2021-08-18 20:00:01.973269+02	2021-08-18 19:54:05+02	Lisa Vaas	threatpost/T-Mobile-40-Million-Customers-Data-Stolen
+893	Bogus Cryptomining Apps Infest Google Play	The apps attempt to swindle users into buying in-app upgrades or clicking on masses of ads.	https://kasperskycontenthub.com/threatpost-global/?p=168785	https://media.threatpost.com/wp-content/uploads/sites/103/2021/01/21131141/cryptojacking.jpg	threatpost	t	2021-08-18 21:00:02.226848+02	2021-08-18 20:26:25+02	Tara Seals	threatpost/Bogus-Cryptomining-Apps-Infest-Google-Play
 \.
 
 
@@ -943,7 +944,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 892, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 893, true);
 
 
 --
