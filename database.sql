@@ -21,7 +21,7 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
--- Name: articles; Type: TABLE; Schema: public; Owner: postgres
+-- Name: articles; Type: TABLE; Schema: public; Owner: osinter_admin
 --
 
 CREATE TABLE public.articles (
@@ -39,10 +39,10 @@ CREATE TABLE public.articles (
 );
 
 
-ALTER TABLE public.articles OWNER TO postgres;
+ALTER TABLE public.articles OWNER TO osinter_admin;
 
 --
--- Name: articles_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+-- Name: articles_id_seq; Type: SEQUENCE; Schema: public; Owner: osinter_admin
 --
 
 CREATE SEQUENCE public.articles_id_seq
@@ -53,24 +53,24 @@ CREATE SEQUENCE public.articles_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.articles_id_seq OWNER TO postgres;
+ALTER TABLE public.articles_id_seq OWNER TO osinter_admin;
 
 --
--- Name: articles_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+-- Name: articles_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: osinter_admin
 --
 
 ALTER SEQUENCE public.articles_id_seq OWNED BY public.articles.id;
 
 
 --
--- Name: articles id; Type: DEFAULT; Schema: public; Owner: postgres
+-- Name: articles id; Type: DEFAULT; Schema: public; Owner: osinter_admin
 --
 
 ALTER TABLE ONLY public.articles ALTER COLUMN id SET DEFAULT nextval('public.articles_id_seq'::regclass);
 
 
 --
--- Data for Name: articles; Type: TABLE DATA; Schema: public; Owner: postgres
+-- Data for Name: articles; Type: TABLE DATA; Schema: public; Owner: osinter_admin
 --
 
 COPY public.articles (id, title, description, url, image_url, profile, scraped, inserted_at, publish_date, author, file_path) FROM stdin;
@@ -919,14 +919,14 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 
 
 --
--- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+-- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
 SELECT pg_catalog.setval('public.articles_id_seq', 871, true);
 
 
 --
--- Name: articles articles_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+-- Name: articles articles_pkey; Type: CONSTRAINT; Schema: public; Owner: osinter_admin
 --
 
 ALTER TABLE ONLY public.articles
@@ -934,7 +934,7 @@ ALTER TABLE ONLY public.articles
 
 
 --
--- Name: TABLE articles; Type: ACL; Schema: public; Owner: postgres
+-- Name: TABLE articles; Type: ACL; Schema: public; Owner: osinter_admin
 --
 
 GRANT SELECT,INSERT,UPDATE ON TABLE public.articles TO writer;
@@ -942,7 +942,7 @@ GRANT SELECT ON TABLE public.articles TO reader;
 
 
 --
--- Name: SEQUENCE articles_id_seq; Type: ACL; Schema: public; Owner: postgres
+-- Name: SEQUENCE articles_id_seq; Type: ACL; Schema: public; Owner: osinter_admin
 --
 
 GRANT UPDATE ON SEQUENCE public.articles_id_seq TO writer;
