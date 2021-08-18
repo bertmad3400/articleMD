@@ -934,6 +934,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 888	T-Mobile says hack affected more than 40 million people	T-Mobile said on Tuesday that a data breach it was informed of late last week contained more than 40 million records belonging to former or prospective customers who had applied for credit with the company, as well as information on approximately 7.8 million current postpaid customer accounts.	https://therecord.media/t-mobile-says-hack-affected-more-than-40-million-people/	https://therecord.media/wp-content/uploads/2021/08/bigstock-Indianapolis-Circa-January-403602083-1.jpg	therecord	t	2021-08-18 17:00:02.391396+02	2021-08-18 16:44:07+02	Adam Janofsky	therecord/T-Mobile-says-hack-affected-more-than-40-million-people
 889	Memory Bugs in BlackBerry's QNX Embedded OS Open Devices to Attacks	The once-dominant handset maker BlackBerry is busy squashing BadAlloc bugs in its QNX real-time operating system used in cars in medical devices.	https://kasperskycontenthub.com/threatpost-global/?p=168772	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/18102035/BlackBerry_Logo.jpg	threatpost	t	2021-08-18 17:00:02.391396+02	2021-08-18 16:30:51+02	Elizabeth Montalbano	threatpost/Memory-Bugs-in-BlackBerrys-QNX-Embedded-OS-Open-Devices-to-Attacks
 890	STARTTLS implementations in email clients & servers plagued by 40+ vulnerabilities	Academics said they discovered more than 40 security flaws in the implementation of the STARTTLS feature in today's most popular email clients and email servers.	https://therecord.media/starttls-implementations-in-email-clients-servers-plagued-by-40-vulnerabilities/	https://therecord.media/wp-content/uploads/2021/08/nostarttls.png	therecord	t	2021-08-18 18:00:02.503831+02	2021-08-18 17:37:47+02	Catalin Cimpanu	therecord/STARTTLS-implementations-in-email-clients--servers-plagued-by-40-vulnerabilities
+891	Microsoft begins final phase of Internet Explorer's demise	Microsoft's Internet Explorer browser is barely usable after Microsoft officially ends support for the browser in Microsoft 365.	https://www.bleepingcomputer.com/news/microsoft/microsoft-begins-final-phase-of-internet-explorers-demise/	https://www.bleepstatic.com/content/hl-images/2020/10/25/internet-explorer-fading-away.jpg	bleepingcomputer	t	2021-08-18 20:00:01.973269+02	2021-08-18 19:45:15+02	Lawrence Abrams	bleepingcomputer/Microsoft-begins-final-phase-of-Internet-Explorers-demise
+892	T-Mobile: >40 Million Customers’ Data Stolen	Attackers stole tens of millions of current, former or prospective customers' personal data, the company confirmed. It's providing 2 years of free ID protection.	https://kasperskycontenthub.com/threatpost-global/?p=168778	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/18104053/data-theft-e1629297667514.jpeg	threatpost	t	2021-08-18 20:00:01.973269+02	2021-08-18 19:54:05+02	Lisa Vaas	threatpost/T-Mobile-40-Million-Customers-Data-Stolen
 \.
 
 
@@ -941,7 +943,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 890, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 892, true);
 
 
 --
