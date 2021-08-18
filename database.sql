@@ -945,7 +945,8 @@ GRANT SELECT ON TABLE public.articles TO reader;
 -- Name: SEQUENCE articles_id_seq; Type: ACL; Schema: public; Owner: osinter_admin
 --
 
-GRANT UPDATE ON SEQUENCE public.articles_id_seq TO writer;
+GRANT SELECT,UPDATE ON SEQUENCE public.articles_id_seq TO writer;
+GRANT SELECT ON SEQUENCE public.articles_id_seq TO reader;
 
 
 --
