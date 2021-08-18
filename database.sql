@@ -933,6 +933,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 887	Do you trust Apple? | ZDNet	Apple's new child protection features have raised concerns about the company's trustworthiness when it comes to user data.	https://www.zdnet.com/article/do-you-trust-apple/	https://www.zdnet.com/a/hub/i/r/2020/05/15/3053554c-c824-4836-8a36-0799d582197c/thumbnail/770x578/c612d0a55e9668aaca72e2d00072204d/applestoreistock-1157988186a.jpg	zdnet	t	2021-08-18 17:00:02.391396+02	2021-08-18 12:48:00+02	Adrian Kingsley-Hughes	zdnet/Do-you-trust-Apple
 888	T-Mobile says hack affected more than 40 million people	T-Mobile said on Tuesday that a data breach it was informed of late last week contained more than 40 million records belonging to former or prospective customers who had applied for credit with the company, as well as information on approximately 7.8 million current postpaid customer accounts.	https://therecord.media/t-mobile-says-hack-affected-more-than-40-million-people/	https://therecord.media/wp-content/uploads/2021/08/bigstock-Indianapolis-Circa-January-403602083-1.jpg	therecord	t	2021-08-18 17:00:02.391396+02	2021-08-18 16:44:07+02	Adam Janofsky	therecord/T-Mobile-says-hack-affected-more-than-40-million-people
 889	Memory Bugs in BlackBerry's QNX Embedded OS Open Devices to Attacks	The once-dominant handset maker BlackBerry is busy squashing BadAlloc bugs in its QNX real-time operating system used in cars in medical devices.	https://kasperskycontenthub.com/threatpost-global/?p=168772	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/18102035/BlackBerry_Logo.jpg	threatpost	t	2021-08-18 17:00:02.391396+02	2021-08-18 16:30:51+02	Elizabeth Montalbano	threatpost/Memory-Bugs-in-BlackBerrys-QNX-Embedded-OS-Open-Devices-to-Attacks
+890	STARTTLS implementations in email clients & servers plagued by 40+ vulnerabilities	Academics said they discovered more than 40 security flaws in the implementation of the STARTTLS feature in today's most popular email clients and email servers.	https://therecord.media/starttls-implementations-in-email-clients-servers-plagued-by-40-vulnerabilities/	https://therecord.media/wp-content/uploads/2021/08/nostarttls.png	therecord	t	2021-08-18 18:00:02.503831+02	2021-08-18 17:37:47+02	Catalin Cimpanu	therecord/STARTTLS-implementations-in-email-clients--servers-plagued-by-40-vulnerabilities
 \.
 
 
@@ -940,7 +941,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 889, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 890, true);
 
 
 --
