@@ -919,6 +919,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 873	T-Mobile says hackers stole personal info of 7.8 million customers	T-Mobile has confirmed that attackers who recently breached its servers stole files containing the personal information of almost 8 million current customers.	https://www.bleepingcomputer.com/news/security/t-mobile-says-hackers-stole-personal-info-of-78-million-customers/	https://www.bleepstatic.com/content/hl-images/2021/08/18/T-Mobile_headpic.jpg	bleepingcomputer	t	2021-08-18 13:39:34.332169+02	2021-08-18 13:35:12+02	Sergiu Gatlan	bleepingcomputer/T-Mobile-says-hackers-stole-personal-info-of-78-million-customers
 874	Watering hole attack found on popular North Korean-themed news site	A North Korean cyber-espionage group has breached one of the most popular North Korean-themed news sites on the internet in order to carry out a watering hole attack and infect some of the site's visitors with malware.	https://therecord.media/watering-hole-attack-found-on-popular-north-korean-themed-news-site/	https://therecord.media/wp-content/uploads/2021/08/Kim-Jong-un.jpg	therecord	t	2021-08-18 13:39:34.332169+02	2021-08-18 12:24:27+02	Catalin Cimpanu	therecord/Watering-hole-attack-found-on-popular-North-Korean-themed-news-site
 875	HolesWarm Malware Exploits Unpatched Windows, Linux Servers   	The botnet cryptominer has already compromised 1,000-plus clouds since June.	https://kasperskycontenthub.com/threatpost-global/?p=168759	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/18071726/holes-e1629285466950.jpg	threatpost	t	2021-08-18 13:39:34.332169+02	2021-08-18 13:24:42+02	Becky Bracken	threatpost/HolesWarm-Malware-Exploits-Unpatched-Windows-Linux-Servers
+876	Diavol ransomware sample shows stronger connection to TrickBot gang	A new analysis of a Diavol ransomware sample shows a more clear connection with the gang behind the TrickBot botnet and the evolution of the malware.	https://www.bleepingcomputer.com/news/security/diavol-ransomware-sample-shows-stronger-connection-to-trickbot-gang/	https://www.bleepstatic.com/content/hl-images/2021/08/18/DiavolRansomware.jpg	bleepingcomputer	t	2021-08-18 14:00:01.915991+02	2021-08-18 13:52:00+02	Ionut Ilascu	bleepingcomputer/Diavol-ransomware-sample-shows-stronger-connection-to-TrickBot-gang
+877	T-Mobile says hackers stole personal info of 8.6 million customers	T-Mobile has confirmed that attackers who recently breached its servers stole files containing the personal information of over 8.6 million current customers.	https://www.bleepingcomputer.com/news/security/t-mobile-says-hackers-stole-personal-info-of-86-million-customers/	https://www.bleepstatic.com/content/hl-images/2021/08/18/T-Mobile_headpic.jpg	bleepingcomputer	t	2021-08-18 14:00:01.915991+02	2021-08-18 13:35:12+02	Sergiu Gatlan	bleepingcomputer/T-Mobile-says-hackers-stole-personal-info-of-86-million-customers
 \.
 
 
@@ -926,7 +928,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 875, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 877, true);
 
 
 --
