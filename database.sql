@@ -953,6 +953,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 907	Ransomware: This amateur attack shows how clueless criminals are trying to get in on the action | ZDNet	Researchers dissect an email from an attacker asking people to help install ransomware on their company's network for a cut of the profit. But while this campaign isn't very successful, it shows how appealing ransomware has become.	https://www.zdnet.com/article/ransomware-this-amateur-attack-shows-how-clueless-criminals-are-trying-to-get-in-on-the-action/	https://www.zdnet.com/a/hub/i/r/2018/12/03/017fe9bd-fc01-4e76-a133-bc16cdbb3a29/thumbnail/770x578/387c6ce983172cc2bc873c8868bbd638/hacker-hands-in-the-shadows-istock.jpg	zdnet	t	2021-08-19 15:00:01.831465+02	2021-08-19 12:00:06+02	Danny Palmer	zdnet/Ransomware-This-amateur-attack-shows-how-clueless-criminals-are-trying-to-get-in-on-the-action
 909	Postmortem on U.S. Census Hack Exposes Cybersecurity Failures	Government says cybersecurity failures were many within failed January hack of U.S. Census Bureau systems.	https://kasperskycontenthub.com/threatpost-global/?p=168814	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/19103444/people-population-security.jpg	threatpost	t	2021-08-19 17:00:02.401836+02	2021-08-19 16:35:49+02	Elizabeth Montalbano	threatpost/Postmortem-on-US-Census-Hack-Exposes-Cybersecurity-Failures
 908	How does Surfshark work? How to set up & use the VPN | ZDNet	Surfshark is a popular VPN. Here's everything you need to get it, install it, configure it, and use it successfully.	https://www.zdnet.com/article/how-does-surfshark-work-plus-how-to-set-it-up-and-use-it-tutorial/	https://www.zdnet.com/a/hub/i/r/2021/08/19/4c62a268-04f2-4840-b41c-78bbb965360f/thumbnail/770x578/cf4af89d56ecba882a37b1dcf93b46da/surfshark-review.jpg	zdnet	t	2021-08-19 17:00:02.401836+02	2021-08-19 14:18:00+02	David Gewirtz	zdnet/How-does-Surfshark-work-How-to-set-up--use-the-VPN
+910	CISA shares guidance on how to prevent ransomware data breaches	The US Cybersecurity and Infrastructure Security Agency (CISA) has released guidance to help government and private sector organizations prevent data breaches resulting from ransomware double extortion schemes.	https://www.bleepingcomputer.com/news/security/cisa-shares-guidance-on-how-to-prevent-ransomware-data-breaches/	https://www.bleepstatic.com/content/hl-images/2021/08/19/CISA_headpic.jpg	bleepingcomputer	t	2021-08-19 18:00:02.354161+02	2021-08-19 14:00:00+02	Sergiu Gatlan	bleepingcomputer/CISA-shares-guidance-on-how-to-prevent-ransomware-data-breaches
+911	Liquid cryptocurency exchange loses over $90 million following hack	Japan-based cryptocurrency exchange Liquid has suspended deposits and withdrawals after attackers have compromised its warm wallets.	https://www.bleepingcomputer.com/news/security/liquid-cryptocurency-exchange-loses-over-90-million-following-hack/	https://www.bleepstatic.com/content/hl-images/2021/03/05/cryptocurrency-assorted.jpg	bleepingcomputer	t	2021-08-19 18:00:02.354161+02	2021-08-19 11:24:44+02	Sergiu Gatlan	bleepingcomputer/Liquid-cryptocurency-exchange-loses-over-90-million-following-hack
 \.
 
 
@@ -960,7 +962,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 909, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 911, true);
 
 
 --
