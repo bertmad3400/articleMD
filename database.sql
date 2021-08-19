@@ -963,6 +963,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 917	Hackers can bypass Cisco security products in data theft attacks	Cisco said that unauthenticated attackers could bypass TLS inspection filtering tech in multiple products to exfiltrate data from previously compromised servers inside customers' networks.	https://www.bleepingcomputer.com/news/security/hackers-can-bypass-cisco-security-products-in-data-theft-attacks/	https://www.bleepstatic.com/content/hl-images/2021/02/03/Cisco.jpg	bleepingcomputer	t	2021-08-19 20:00:02.205567+02	2021-08-19 19:30:00+02	Sergiu Gatlan	bleepingcomputer/Hackers-can-bypass-Cisco-security-products-in-data-theft-attacks
 918	New unofficial Windows patch fixes more PetitPotam attack vectors	A second unofficial patch for the Windows PetitPotam NTLM relay attack has been released to fix further issues not addressed by Microsoft's official security update.	https://www.bleepingcomputer.com/news/security/new-unofficial-windows-patch-fixes-more-petitpotam-attack-vectors/	https://www.bleepstatic.com/content/hl-images/2021/05/26/Microsoft--Defender.jpg	bleepingcomputer	t	2021-08-19 21:00:01.909024+02	2021-08-19 20:30:33+02	Lawrence Abrams	bleepingcomputer/New-unofficial-Windows-patch-fixes-more-PetitPotam-attack-vectors
 919	Microsoft releases the first official Windows 11 ISOs	Microsoft has finally released the first official ISOs for Windows 11, allowing users to perform clean installs of the new operating system.	https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-the-first-official-windows-11-isos/	https://www.bleepstatic.com/content/hl-images/2021/06/15/Win--11-flare.jpg	bleepingcomputer	t	2021-08-19 21:00:01.909024+02	2021-08-19 19:57:48+02	Lawrence Abrams	bleepingcomputer/Microsoft-releases-the-first-official-Windows-11-ISOs
+921	CEO tried funding his startup by asking insiders to deploy ransomware	Likely inspired by the LockBit ransomware gang, a Nigerian threat actor tried their luck with a $1 million payment lure to recruit an insider to detonate a ransomware payload on the company servers.	https://www.bleepingcomputer.com/news/security/ceo-tried-funding-his-startup-by-asking-insiders-to-deploy-ransomware/	https://www.bleepstatic.com/content/posts/2021/08/19/slip-up_banana.jpg	bleepingcomputer	t	2021-08-19 22:00:01.698804+02	2021-08-19 21:32:48+02	Ionut Ilascu	bleepingcomputer/CEO-tried-funding-his-startup-by-asking-insiders-to-deploy-ransomware
+920	Cloud and security certifications for Google, Windows, AWS and more lead to highest-paying IT positions | ZDNet	Number one on the list was the Google Certified Professional Data Engineer, which the survey found can bring in $171,749 annually.	https://www.zdnet.com/article/cloud-and-security-certifications-for-google-windows-aws-and-more-lead-to-highest-paying-positions/	https://www.zdnet.com/a/hub/i/r/2021/07/14/87f7b6c5-0f26-4309-89a9-78fc94eea0de/thumbnail/770x578/ac1cccb2abaa55ac542c2652a233190d/older-it-worker-developer-office-senior.jpg	zdnet	t	2021-08-19 22:00:01.698804+02	2021-08-19 19:50:00+02	Jonathan Greig	zdnet/Cloud-and-security-certifications-for-Google-Windows-AWS-and-more-lead-to-highest-paying-IT-positions
 \.
 
 
@@ -970,7 +972,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 919, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 921, true);
 
 
 --
