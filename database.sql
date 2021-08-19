@@ -946,6 +946,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 900	US Census Bureau stopped 2020 cyberattack but faces criticism for security lapses | ZDNet	An OIG report said the Bureau routinely used end-of-life systems and wasted time in responding to the attack before it was stopped.	https://www.zdnet.com/article/us-census-bureau-stopped-202-cyberattack-but-faces-criticism-for-security-lapses/	https://www.zdnet.com/a/hub/i/r/2021/06/03/69b5257a-31d8-4748-84cc-83b20474413e/thumbnail/770x578/c8b91c67eaf5b21ff2b360ab1274320d/census-collector.jpg	zdnet	t	2021-08-19 02:00:02.302723+02	2021-08-18 23:31:08+02	Jonathan Greig	zdnet/US-Census-Bureau-stopped-2020-cyberattack-but-faces-criticism-for-security-lapses
 901	Citizen Lab finds Apple's China censorship process bleeds into Hong Kong and Taiwan | ZDNet	Despite Apple not having any legal obligation to perform political censorship in Taiwan, it has done so anyway.	https://www.zdnet.com/article/citizen-lab-finds-apples-china-censorship-process-bleeds-into-hong-kong-and-taiwan/	https://www.zdnet.com/a/hub/i/r/2021/08/19/54d290a0-f95e-4afe-8f1d-2c86d4a3a28b/thumbnail/770x578/359ed10b999395383589a1ef37c75b95/apple-engravings.png	zdnet	t	2021-08-19 04:00:01.771198+02	2021-08-19 01:04:54+02	Campbell Kwan	zdnet/Citizen-Lab-finds-Apples-China-censorship-process-bleeds-into-Hong-Kong-and-Taiwan
 902	Cisco: Security devices are vulnerable to SNIcat data exfiltration technique	Networking equipment vendor Cisco said today that some of its security products fail to detect and stop traffic to malicious servers that abuse a technique called SNIcat to covertly steal data from inside corporate networks.	https://therecord.media/cisco-security-devices-are-vulnerable-to-snicat-data-exfiltration-technique/	https://therecord.media/wp-content/uploads/2021/08/snicat-logo.png	therecord	t	2021-08-19 05:00:01.91347+02	2021-08-19 04:13:55+02	Catalin Cimpanu	therecord/Cisco-Security-devices-are-vulnerable-to-SNIcat-data-exfiltration-technique
+903	Half of APAC firms waver on processes to accommodate remote work | ZDNet	Some 56% of businesses in the region admit to sidestepping digital measures so new requirements for flexible work arrangements can be implemented, despite 48% expressing increased concern about their company's ability to manage security threats.	https://www.zdnet.com/article/half-of-apac-firms-waver-on-processes-to-accommodate-remote-work/	https://www.zdnet.com/a/hub/i/r/2015/04/20/f015777c-afe5-438e-bc87-89efa48c166e/thumbnail/770x578/41ddc0420ef9bea1a4b3cdca08e3d51b/business-on-security-thumb.jpg	zdnet	t	2021-08-19 08:00:02.199639+02	2021-08-19 05:46:00+02	Eileen Yu	zdnet/Half-of-APAC-firms-waver-on-processes-to-accommodate-remote-work
 \.
 
 
@@ -953,7 +954,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 902, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 903, true);
 
 
 --
