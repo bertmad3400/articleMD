@@ -944,6 +944,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 898	US Census Bureau hacked in January 2020 using Citrix exploit	US Census Bureau servers were breached on January 11, 2020, by hackers after exploiting an unpatched Citrix ADC zero-day vulnerability as the US Office of Inspector General (OIG) disclosed in a recent report.	https://www.bleepingcomputer.com/news/security/us-census-bureau-hacked-in-january-2020-using-citrix-exploit/	https://www.bleepstatic.com/content/hl-images/2021/08/18/US_Census_Bureau.jpg	bleepingcomputer	t	2021-08-19 00:00:01.826161+02	2021-08-18 23:07:55+02	Sergiu Gatlan	bleepingcomputer/US-Census-Bureau-hacked-in-January-2020-using-Citrix-exploit
 899	Bitcoin mixer owner pleads guilty to laundering over $300 million	Larry Dean Harmon, the owner of a dark web cryptocurrency laundering service known as Helix, pleaded guilty today of laundering over $300 million worth of bitcoins between 2014 and 2017.	https://www.bleepingcomputer.com/news/security/bitcoin-mixer-owner-pleads-guilty-to-laundering-over-300-million/	https://www.bleepstatic.com/content/hl-images/2021/08/12/Cryptocurrency-Bitcoin.jpg	bleepingcomputer	t	2021-08-19 00:00:01.826161+02	2021-08-18 21:34:00+02	Sergiu Gatlan	bleepingcomputer/Bitcoin-mixer-owner-pleads-guilty-to-laundering-over-300-million
 900	US Census Bureau stopped 2020 cyberattack but faces criticism for security lapses | ZDNet	An OIG report said the Bureau routinely used end-of-life systems and wasted time in responding to the attack before it was stopped.	https://www.zdnet.com/article/us-census-bureau-stopped-202-cyberattack-but-faces-criticism-for-security-lapses/	https://www.zdnet.com/a/hub/i/r/2021/06/03/69b5257a-31d8-4748-84cc-83b20474413e/thumbnail/770x578/c8b91c67eaf5b21ff2b360ab1274320d/census-collector.jpg	zdnet	t	2021-08-19 02:00:02.302723+02	2021-08-18 23:31:08+02	Jonathan Greig	zdnet/US-Census-Bureau-stopped-2020-cyberattack-but-faces-criticism-for-security-lapses
+901	Citizen Lab finds Apple's China censorship process bleeds into Hong Kong and Taiwan | ZDNet	Despite Apple not having any legal obligation to perform political censorship in Taiwan, it has done so anyway.	https://www.zdnet.com/article/citizen-lab-finds-apples-china-censorship-process-bleeds-into-hong-kong-and-taiwan/	https://www.zdnet.com/a/hub/i/r/2021/08/19/54d290a0-f95e-4afe-8f1d-2c86d4a3a28b/thumbnail/770x578/359ed10b999395383589a1ef37c75b95/apple-engravings.png	zdnet	t	2021-08-19 04:00:01.771198+02	2021-08-19 01:04:54+02	Campbell Kwan	zdnet/Citizen-Lab-finds-Apples-China-censorship-process-bleeds-into-Hong-Kong-and-Taiwan
 \.
 
 
@@ -951,7 +952,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 900, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 901, true);
 
 
 --
