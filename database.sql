@@ -951,6 +951,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 905	Liquid cryptocurrency exchange loses $94 million following hack	Japan-based cryptocurrency exchange Liquid has suspended deposits and withdrawals after attackers have compromised its warm wallets.	https://www.bleepingcomputer.com/news/security/liquid-cryptocurrency-exchange-loses-94-million-following-hack/	https://www.bleepstatic.com/content/hl-images/2021/03/05/cryptocurrency-assorted.jpg	bleepingcomputer	t	2021-08-19 12:00:01.917618+02	2021-08-19 11:24:44+02	Sergiu Gatlan	bleepingcomputer/Liquid-cryptocurrency-exchange-loses-94-million-following-hack
 906	Japanese crypto-exchange Liquid hacked for $94 million	Tokyo-based cryptocurrency exchange Liquid said that hackers breached its servers and stole crypto-assets estimated to be worth at least $94 million at today's exchange rates.	https://therecord.media/japanese-crypto-exchange-liquid-hacked-for-94-million/	https://therecord.media/wp-content/uploads/2021/08/liquid.png	therecord	t	2021-08-19 15:00:01.831465+02	2021-08-19 14:16:18+02	Catalin Cimpanu	therecord/Japanese-crypto-exchange-Liquid-hacked-for-94-million
 907	Ransomware: This amateur attack shows how clueless criminals are trying to get in on the action | ZDNet	Researchers dissect an email from an attacker asking people to help install ransomware on their company's network for a cut of the profit. But while this campaign isn't very successful, it shows how appealing ransomware has become.	https://www.zdnet.com/article/ransomware-this-amateur-attack-shows-how-clueless-criminals-are-trying-to-get-in-on-the-action/	https://www.zdnet.com/a/hub/i/r/2018/12/03/017fe9bd-fc01-4e76-a133-bc16cdbb3a29/thumbnail/770x578/387c6ce983172cc2bc873c8868bbd638/hacker-hands-in-the-shadows-istock.jpg	zdnet	t	2021-08-19 15:00:01.831465+02	2021-08-19 12:00:06+02	Danny Palmer	zdnet/Ransomware-This-amateur-attack-shows-how-clueless-criminals-are-trying-to-get-in-on-the-action
+909	Postmortem on U.S. Census Hack Exposes Cybersecurity Failures	Government says cybersecurity failures were many within failed January hack of U.S. Census Bureau systems.	https://kasperskycontenthub.com/threatpost-global/?p=168814	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/19103444/people-population-security.jpg	threatpost	t	2021-08-19 17:00:02.401836+02	2021-08-19 16:35:49+02	Elizabeth Montalbano	threatpost/Postmortem-on-US-Census-Hack-Exposes-Cybersecurity-Failures
+908	How does Surfshark work? How to set up & use the VPN | ZDNet	Surfshark is a popular VPN. Here's everything you need to get it, install it, configure it, and use it successfully.	https://www.zdnet.com/article/how-does-surfshark-work-plus-how-to-set-it-up-and-use-it-tutorial/	https://www.zdnet.com/a/hub/i/r/2021/08/19/4c62a268-04f2-4840-b41c-78bbb965360f/thumbnail/770x578/cf4af89d56ecba882a37b1dcf93b46da/surfshark-review.jpg	zdnet	t	2021-08-19 17:00:02.401836+02	2021-08-19 14:18:00+02	David Gewirtz	zdnet/How-does-Surfshark-work-How-to-set-up--use-the-VPN
 \.
 
 
@@ -958,7 +960,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 907, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 909, true);
 
 
 --
