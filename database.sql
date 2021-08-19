@@ -961,6 +961,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 915	RansomClave project uses Intel SGX enclaves for ransomware attacks	Academics have developed a proof-of-concept ransomware strain that uses highly secure Intel SGX enclaves to hide and keep encryption keys safe from the prying eyes of security tools.	https://therecord.media/ransomclave-project-uses-intel-sgx-enclaves-for-ransomware-attacks/	https://therecord.media/wp-content/uploads/2021/08/CPU-silicon-map.jpg	therecord	t	2021-08-19 20:00:02.205567+02	2021-08-19 19:40:02+02	Catalin Cimpanu	therecord/RansomClave-project-uses-Intel-SGX-enclaves-for-ransomware-attacks
 916	Microsoft releases the first official Window 11 ISOs	Microsoft has finally released the first official ISOs for Windows 11, allowing users to perform clean installs of the new operating system.	https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-the-first-official-window-11-isos/	https://www.bleepstatic.com/content/hl-images/2021/06/15/Win--11-flare.jpg	bleepingcomputer	t	2021-08-19 20:00:02.205567+02	2021-08-19 19:57:48+02	Lawrence Abrams	bleepingcomputer/Microsoft-releases-the-first-official-Window-11-ISOs
 917	Hackers can bypass Cisco security products in data theft attacks	Cisco said that unauthenticated attackers could bypass TLS inspection filtering tech in multiple products to exfiltrate data from previously compromised servers inside customers' networks.	https://www.bleepingcomputer.com/news/security/hackers-can-bypass-cisco-security-products-in-data-theft-attacks/	https://www.bleepstatic.com/content/hl-images/2021/02/03/Cisco.jpg	bleepingcomputer	t	2021-08-19 20:00:02.205567+02	2021-08-19 19:30:00+02	Sergiu Gatlan	bleepingcomputer/Hackers-can-bypass-Cisco-security-products-in-data-theft-attacks
+918	New unofficial Windows patch fixes more PetitPotam attack vectors	A second unofficial patch for the Windows PetitPotam NTLM relay attack has been released to fix further issues not addressed by Microsoft's official security update.	https://www.bleepingcomputer.com/news/security/new-unofficial-windows-patch-fixes-more-petitpotam-attack-vectors/	https://www.bleepstatic.com/content/hl-images/2021/05/26/Microsoft--Defender.jpg	bleepingcomputer	t	2021-08-19 21:00:01.909024+02	2021-08-19 20:30:33+02	Lawrence Abrams	bleepingcomputer/New-unofficial-Windows-patch-fixes-more-PetitPotam-attack-vectors
+919	Microsoft releases the first official Windows 11 ISOs	Microsoft has finally released the first official ISOs for Windows 11, allowing users to perform clean installs of the new operating system.	https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-the-first-official-windows-11-isos/	https://www.bleepstatic.com/content/hl-images/2021/06/15/Win--11-flare.jpg	bleepingcomputer	t	2021-08-19 21:00:01.909024+02	2021-08-19 19:57:48+02	Lawrence Abrams	bleepingcomputer/Microsoft-releases-the-first-official-Windows-11-ISOs
 \.
 
 
@@ -968,7 +970,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 917, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 919, true);
 
 
 --
