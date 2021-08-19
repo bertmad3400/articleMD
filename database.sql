@@ -948,6 +948,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 902	Cisco: Security devices are vulnerable to SNIcat data exfiltration technique	Networking equipment vendor Cisco said today that some of its security products fail to detect and stop traffic to malicious servers that abuse a technique called SNIcat to covertly steal data from inside corporate networks.	https://therecord.media/cisco-security-devices-are-vulnerable-to-snicat-data-exfiltration-technique/	https://therecord.media/wp-content/uploads/2021/08/snicat-logo.png	therecord	t	2021-08-19 05:00:01.91347+02	2021-08-19 04:13:55+02	Catalin Cimpanu	therecord/Cisco-Security-devices-are-vulnerable-to-SNIcat-data-exfiltration-technique
 903	Half of APAC firms waver on processes to accommodate remote work | ZDNet	Some 56% of businesses in the region admit to sidestepping digital measures so new requirements for flexible work arrangements can be implemented, despite 48% expressing increased concern about their company's ability to manage security threats.	https://www.zdnet.com/article/half-of-apac-firms-waver-on-processes-to-accommodate-remote-work/	https://www.zdnet.com/a/hub/i/r/2015/04/20/f015777c-afe5-438e-bc87-89efa48c166e/thumbnail/770x578/41ddc0420ef9bea1a4b3cdca08e3d51b/business-on-security-thumb.jpg	zdnet	t	2021-08-19 08:00:02.199639+02	2021-08-19 05:46:00+02	Eileen Yu	zdnet/Half-of-APAC-firms-waver-on-processes-to-accommodate-remote-work
 904	Cisco won’t fix zero-day RCE vulnerability in end-of-life VPN routers	In a security advisory published on Wednesday, Cisco said that a critical vulnerability in Universal Plug-and-Play (UPnP) service of multiple small business VPN routers will not be patched because the devices have reached end-of-life.	https://www.bleepingcomputer.com/news/security/cisco-won-t-fix-zero-day-rce-vulnerability-in-end-of-life-vpn-routers/	https://www.bleepstatic.com/content/hl-images/2021/08/19/Cisco_headpic.jpg	bleepingcomputer	t	2021-08-19 10:00:01.967237+02	2021-08-19 09:08:19+02	Sergiu Gatlan	bleepingcomputer/Cisco-wont-fix-zero-day-RCE-vulnerability-in-end-of-life-VPN-routers
+905	Liquid cryptocurrency exchange loses $94 million following hack	Japan-based cryptocurrency exchange Liquid has suspended deposits and withdrawals after attackers have compromised its warm wallets.	https://www.bleepingcomputer.com/news/security/liquid-cryptocurrency-exchange-loses-94-million-following-hack/	https://www.bleepstatic.com/content/hl-images/2021/03/05/cryptocurrency-assorted.jpg	bleepingcomputer	t	2021-08-19 12:00:01.917618+02	2021-08-19 11:24:44+02	Sergiu Gatlan	bleepingcomputer/Liquid-cryptocurrency-exchange-loses-94-million-following-hack
 \.
 
 
@@ -955,7 +956,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 904, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 905, true);
 
 
 --
