@@ -971,6 +971,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 925	How Ready Are You for a Ransomware Attack?	Oliver Tavakoli, CTO at Vectra, lays out the different layers of ransomware defense all companies should implement.	https://kasperskycontenthub.com/threatpost-global/?p=168837	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/19171000/ransomware-6-e1629407417209.jpg	threatpost	t	2021-08-20 08:00:06.854444+02	2021-08-19 23:13:24+02	Oliver Tavakoli	threatpost/How-Ready-Are-You-for-a-Ransomware-Attack
 926	Critical Cisco Bug in Small Business Routers to Remain Unpatched	The issue affects a range of Cisco Wireless-N and Wireless-AC VPN routers that have reached end-of-life.	https://kasperskycontenthub.com/threatpost-global/?p=168831	https://media.threatpost.com/wp-content/uploads/sites/103/2020/11/11092729/cisco.jpg	threatpost	t	2021-08-20 08:00:06.854444+02	2021-08-19 22:34:42+02	Tara Seals	threatpost/Critical-Cisco-Bug-in-Small-Business-Routers-to-Remain-Unpatched
 927	InkySquid State Actor Exploiting Known IE Bugs	The North Korea-linked APT group leverages known Internet Explorer vulns for watering-hole attacks.	https://kasperskycontenthub.com/threatpost-global/?p=168833	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/19161746/squid-e1629404306640.jpg	threatpost	t	2021-08-20 08:00:06.854444+02	2021-08-19 22:19:04+02	Becky Bracken	threatpost/InkySquid-State-Actor-Exploiting-Known-IE-Bugs
+928	Social account thief goes to prison for stealing, trading nude photos	A New York man received a three year sentence in federal prison for hacking social media accounts of dozens of female college students and stealing nude photos and videos of them.	https://www.bleepingcomputer.com/news/security/social-account-thief-goes-to-prison-for-stealing-trading-nude-photos/	https://www.bleepstatic.com/content/posts/2021/08/19/touch-screen-apps.jpg	bleepingcomputer	t	2021-08-20 10:00:02.678753+02	2021-08-20 09:29:33+02	Ionut Ilascu	bleepingcomputer/Social-account-thief-goes-to-prison-for-stealing-trading-nude-photos
 \.
 
 
@@ -978,7 +979,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 927, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 928, true);
 
 
 --
