@@ -994,6 +994,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 937	Ransomware hits Lojas Renner, Brazil's largest clothing store chain	Lojas Renner, Brazil's largest clothing department store chain, said it suffered a ransomware attack that impacted its IT infrastructure and resulted in the unavailability of some of its systems, including its official web store.	https://therecord.media/ransomware-hits-lojas-renner-brazils-largest-clothing-store-chain/	https://therecord.media/wp-content/uploads/2021/08/Renner.jpg	therecord	t	2021-08-22 12:00:06.830682+02	2021-08-20 21:24:59+02	Catalin Cimpanu	therecord/Ransomware-hits-Lojas-Renner-Brazils-largest-clothing-store-chain
 938	Fear and Covid in Las Vegas: Pen testing Hacker Summer Camp’s mask policies	I haven’t always claimed the title, but I’m a hacker. I can do some lockpicking and SQL injections, but my primary toolset is journalism—my job is fundamentally to learn about systems, discover where they might be vulnerable, and then report that information to the public in line with the hacker ethic, often with the hope that someone will patch th	https://therecord.media/fear-and-covid-in-las-vegas-pen-testing-hacker-summer-camps-mask-policies/	https://therecord.media/wp-content/uploads/2021/08/moshed-08-20-12-19-40.png	therecord	t	2021-08-22 12:00:06.830682+02	2021-08-20 18:43:44+02	Andrea Peterson	therecord/Fear-and-Covid-in-Las-Vegas-Pen-testing-Hacker-Summer-Camps-mask-policies
 950	Microsoft shares guidance on securing Windows 365 Cloud PCs	Microsoft has shared guidance on securing Windows 365 Cloud PCs and more info on their built-in security capabilities.	https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-guidance-on-securing-windows-365-cloud-pcs/	https://www.bleepstatic.com/content/hl-images/2021/08/19/Windows_365.jpg	bleepingcomputer	t	2021-08-22 18:00:02.137108+02	2021-08-22 16:00:00+02	Sergiu Gatlan	bleepingcomputer/Microsoft-shares-guidance-on-securing-Windows-365-Cloud-PCs
+951	Razer bug lets you become a Windows 10 admin by plugging in a mouse	A Razer Synapse zero-day vulnerability has been disclosed on Twitter, allowing you to gain Windows admin privileges simply by plugging in a Razer mouse or keyboard.	https://www.bleepingcomputer.com/news/security/razer-bug-lets-you-become-a-windows-10-admin-by-plugging-in-a-mouse/	https://www.bleepstatic.com/content/hl-images/2020/09/11/razer.jpg	bleepingcomputer	t	2021-08-22 19:00:02.017586+02	2021-08-22 18:40:59+02	Lawrence Abrams	bleepingcomputer/Razer-bug-lets-you-become-a-Windows-10-admin-by-plugging-in-a-mouse
 \.
 
 
@@ -1001,7 +1002,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 950, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 951, true);
 
 
 --
