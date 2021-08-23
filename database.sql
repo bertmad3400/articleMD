@@ -1009,6 +1009,9 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 963	Attackers Actively Exploiting Realtek SDK Flaws	Multiple vulnerabilities in software used by 65 vendors under active attack.	https://kasperskycontenthub.com/threatpost-global/?p=168856	https://media.threatpost.com/wp-content/uploads/sites/103/2018/10/29155707/IoT-4.jpg	threatpost	t	2021-08-23 17:00:01.914508+02	2021-08-23 16:08:42+02	Becky Bracken	threatpost/Attackers-Actively-Exploiting-Realtek-SDK-Flaws
 964	Windows 10 Admin Rights Gobbled by Razer Mouse	So much for Windows 10's security: a zero-day in the device installer software grants admin rights just by plugging in a mouse or other compatible device.	https://kasperskycontenthub.com/threatpost-global/?p=168855	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/23114538/razer.png	threatpost	t	2021-08-23 18:00:01.870662+02	2021-08-23 17:58:04+02	Lisa Vaas	threatpost/Windows-10-Admin-Rights-Gobbled-by-Razer-Devices
 965	Nokia subsidiary discloses data breach after Conti ransomware attack	SAC Wireless, a US-based and independently-operating Nokia company subsidiary, has disclosed a data breach following a ransomware attack where Conti operators were able to successfully breach its network, steal data, and encrypt systems.	https://www.bleepingcomputer.com/news/security/nokia-subsidiary-discloses-data-breach-after-conti-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/08/23/Cell-towers.jpg	bleepingcomputer	t	2021-08-23 19:00:02.676892+02	2021-08-23 18:16:54+02	Sergiu Gatlan	bleepingcomputer/Nokia-subsidiary-discloses-data-breach-after-Conti-ransomware-attack
+966	Microsoft Power Apps misconfiguration exposes 38 million data records | ZDNet	The data leaks impacted American Airlines, Microsoft, J.B. Hunt and governments of Indiana, Maryland and New York City, says Upguard.	https://www.zdnet.com/article/microsoft-power-apps-misconfiguration-exposes-38-million-data-records/	https://www.zdnet.com/a/hub/i/r/2019/11/01/5b4d0413-dafd-44fd-849a-1934fd689c14/thumbnail/770x578/cb2cf9cf2a728149380150cc3c334b9d/istock-938732700.jpg	zdnet	t	2021-08-23 21:00:02.497942+02	2021-08-23 18:46:00+02	Larry Dignan	zdnet/Microsoft-Power-Apps-misconfiguration-exposes-38-million-data-records
+968	ProxyShell Attacks Pummel Unpatched Exchange Servers	CISA is warning about a surge of ProxyShell attacks, as Huntress discovered 140 webshells launched against 1,900 unpatched Microsoft Exchange servers.	https://kasperskycontenthub.com/threatpost-global/?p=168879	https://media.threatpost.com/wp-content/uploads/sites/103/2020/04/07164022/microsoft-exchange.jpg	threatpost	t	2021-08-23 21:00:02.497942+02	2021-08-23 20:54:29+02	Becky Bracken	threatpost/ProxyShell-Attacks-Pummel-Unpatched-Exchange-Servers
+967	Hundreds of thousands of Realtek-based devices under attack from IoT botnet	A dangerous vulnerability in Realtek chipsets used in hundreds of thousands of smart devices from at least 65 vendors is currently under attack from a notorious DDoS botnet gang.	https://therecord.media/hundreds-of-thousands-of-realtek-based-devices-under-attack-from-iot-botnet/	https://therecord.media/wp-content/uploads/2021/08/router-1.png	therecord	t	2021-08-23 21:00:02.497942+02	2021-08-23 20:56:56+02	Catalin Cimpanu	therecord/Hundreds-of-thousands-of-Realtek-based-devices-under-attack-from-IoT-botnet
 \.
 
 
@@ -1016,7 +1019,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 965, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 968, true);
 
 
 --
