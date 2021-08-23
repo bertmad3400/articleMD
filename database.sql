@@ -1012,6 +1012,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 966	Microsoft Power Apps misconfiguration exposes 38 million data records | ZDNet	The data leaks impacted American Airlines, Microsoft, J.B. Hunt and governments of Indiana, Maryland and New York City, says Upguard.	https://www.zdnet.com/article/microsoft-power-apps-misconfiguration-exposes-38-million-data-records/	https://www.zdnet.com/a/hub/i/r/2019/11/01/5b4d0413-dafd-44fd-849a-1934fd689c14/thumbnail/770x578/cb2cf9cf2a728149380150cc3c334b9d/istock-938732700.jpg	zdnet	t	2021-08-23 21:00:02.497942+02	2021-08-23 18:46:00+02	Larry Dignan	zdnet/Microsoft-Power-Apps-misconfiguration-exposes-38-million-data-records
 968	ProxyShell Attacks Pummel Unpatched Exchange Servers	CISA is warning about a surge of ProxyShell attacks, as Huntress discovered 140 webshells launched against 1,900 unpatched Microsoft Exchange servers.	https://kasperskycontenthub.com/threatpost-global/?p=168879	https://media.threatpost.com/wp-content/uploads/sites/103/2020/04/07164022/microsoft-exchange.jpg	threatpost	t	2021-08-23 21:00:02.497942+02	2021-08-23 20:54:29+02	Becky Bracken	threatpost/ProxyShell-Attacks-Pummel-Unpatched-Exchange-Servers
 967	Hundreds of thousands of Realtek-based devices under attack from IoT botnet	A dangerous vulnerability in Realtek chipsets used in hundreds of thousands of smart devices from at least 65 vendors is currently under attack from a notorious DDoS botnet gang.	https://therecord.media/hundreds-of-thousands-of-realtek-based-devices-under-attack-from-iot-botnet/	https://therecord.media/wp-content/uploads/2021/08/router-1.png	therecord	t	2021-08-23 21:00:02.497942+02	2021-08-23 20:56:56+02	Catalin Cimpanu	therecord/Hundreds-of-thousands-of-Realtek-based-devices-under-attack-from-IoT-botnet
+969	Hacker gets 500K reward for returning stolen cryptocurrency	The saga of what has been dubbed the biggest hack in the world of decentralized finance appears to be over as Poly Network recovered more than $610 million in cryptocurrency assets it lost two weeks ago and the hacker received a $500,000 bounty for returning the money.	https://www.bleepingcomputer.com/news/security/hacker-gets-500k-reward-for-returning-stolen-cryptocurrency/	https://www.bleepstatic.com/content/hl-images/2021/07/15/Lights-Man-Action.jpg	bleepingcomputer	t	2021-08-23 22:00:02.634213+02	2021-08-23 21:30:59+02	Ionut Ilascu	bleepingcomputer/Hacker-gets-500K-reward-for-returning-stolen-cryptocurrency
 \.
 
 
@@ -1019,7 +1020,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 968, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 969, true);
 
 
 --
