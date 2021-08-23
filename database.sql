@@ -1008,6 +1008,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 962	Managing Privileged Access to Secure the Post-COVID Perimeter	Joseph Carson, chief security scientist & advisory CISO at ThycoticCentrify, discusses how to implement advanced privileged-access practices.	https://kasperskycontenthub.com/threatpost-global/?p=168860	https://media.threatpost.com/wp-content/uploads/sites/103/2021/04/16140201/cyberattacks.jpg	threatpost	t	2021-08-23 17:00:01.914508+02	2021-08-23 16:18:30+02	Joseph Carson	threatpost/Managing-Privileged-Access-to-Secure-the-Post-COVID-Perimeter
 963	Attackers Actively Exploiting Realtek SDK Flaws	Multiple vulnerabilities in software used by 65 vendors under active attack.	https://kasperskycontenthub.com/threatpost-global/?p=168856	https://media.threatpost.com/wp-content/uploads/sites/103/2018/10/29155707/IoT-4.jpg	threatpost	t	2021-08-23 17:00:01.914508+02	2021-08-23 16:08:42+02	Becky Bracken	threatpost/Attackers-Actively-Exploiting-Realtek-SDK-Flaws
 964	Windows 10 Admin Rights Gobbled by Razer Mouse	So much for Windows 10's security: a zero-day in the device installer software grants admin rights just by plugging in a mouse or other compatible device.	https://kasperskycontenthub.com/threatpost-global/?p=168855	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/23114538/razer.png	threatpost	t	2021-08-23 18:00:01.870662+02	2021-08-23 17:58:04+02	Lisa Vaas	threatpost/Windows-10-Admin-Rights-Gobbled-by-Razer-Devices
+965	Nokia subsidiary discloses data breach after Conti ransomware attack	SAC Wireless, a US-based and independently-operating Nokia company subsidiary, has disclosed a data breach following a ransomware attack where Conti operators were able to successfully breach its network, steal data, and encrypt systems.	https://www.bleepingcomputer.com/news/security/nokia-subsidiary-discloses-data-breach-after-conti-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/08/23/Cell-towers.jpg	bleepingcomputer	t	2021-08-23 19:00:02.676892+02	2021-08-23 18:16:54+02	Sergiu Gatlan	bleepingcomputer/Nokia-subsidiary-discloses-data-breach-after-Conti-ransomware-attack
 \.
 
 
@@ -1015,7 +1016,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 964, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 965, true);
 
 
 --
