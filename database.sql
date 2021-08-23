@@ -1018,6 +1018,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 972	Get paid to improve Linux and open-source security | ZDNet	The Linux Foundation and allies will pay developers to help secure Linux and open-source software programs.	https://www.zdnet.com/article/get-paid-to-improve-linux-and-open-source-security/	https://www.zdnet.com/a/hub/i/r/2014/08/18/afdcd90a-26bf-11e4-8c7f-00505685119a/thumbnail/770x578/0209beb5abdf5a0b91d1ca4197071cf6/securitys-future-belongs-to-open-source.jpg	zdnet	t	2021-08-24 00:00:01.728164+02	2021-08-23 21:11:00+02	Steven J. Vaughan-Nichols	zdnet/Get-paid-to-improve-Linux-and-open-source-security
 973	Phishing campaign uses UPS.com XSS vuln to distribute malware	A clever UPS phishing campaign utilized an XSS vulnerability in UPS.com to push fake and malicious 'Invoice' Word documents.	https://www.bleepingcomputer.com/news/security/phishing-campaign-uses-upscom-xss-vuln-to-distribute-malware/	https://www.bleepstatic.com/content/hl-images/2021/08/23/ups-stop.jpg	bleepingcomputer	t	2021-08-24 00:00:01.728164+02	2021-08-23 23:17:23+02	Lawrence Abrams	bleepingcomputer/Phishing-campaign-usesUPScomXSS-vuln-to-distribute-malware
 974	U.S. announces cyber deals with Singapore as Washington looks to counter Beijing	The Biden administration on Monday unveiled a series of agreements with Singapore, including three meant to bolster cybersecurity ties and combat digital threats.	https://therecord.media/u-s-announces-cyber-deals-with-singapore-as-washington-looks-to-counter-beijing/	https://therecord.media/wp-content/uploads/2021/08/hu-chen-__cBlRzLSTg-unsplash-1.jpg	therecord	t	2021-08-24 00:00:01.728164+02	2021-08-23 23:10:18+02	Martin Matishak	therecord/US-announces-cyber-deals-with-Singapore-as-Washington-looks-to-counter-Beijing
+975	FBI: OnePercent Group Ransomware targeted US orgs since Nov 2020	The Federal Bureau of Investigation (FBI) has shared info about a threat actor known as OnePercent Group that has been actively targeting US organizations in ransomware attacks since at least November 2020.	https://www.bleepingcomputer.com/news/security/fbi-onepercent-group-ransomware-targeted-us-orgs-since-nov-2020/	https://www.bleepstatic.com/content/hl-images/2021/05/17/FBI.jpg	bleepingcomputer	t	2021-08-24 01:00:02.477591+02	2021-08-24 00:17:49+02	Sergiu Gatlan	bleepingcomputer/FBI-OnePercent-Group-Ransomware-targeted-US-orgs-since-Nov-2020
 \.
 
 
@@ -1025,7 +1026,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 974, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 975, true);
 
 
 --
