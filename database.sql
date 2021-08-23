@@ -1007,6 +1007,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 961	Firefox follows Chrome and prepares to block insecure downloads	Mozilla developers are putting the finishing touches on a new feature that will block insecure file downloads in Firefox.	https://therecord.media/firefox-follows-chrome-and-prepares-to-block-insecure-downloads/	https://therecord.media/wp-content/uploads/2021/08/Firefox-block-downloads.png	therecord	t	2021-08-23 17:00:01.914508+02	2021-08-23 16:59:59+02	Catalin Cimpanu	therecord/Firefox-follows-Chrome-and-prepares-to-block-insecure-downloads
 962	Managing Privileged Access to Secure the Post-COVID Perimeter	Joseph Carson, chief security scientist & advisory CISO at ThycoticCentrify, discusses how to implement advanced privileged-access practices.	https://kasperskycontenthub.com/threatpost-global/?p=168860	https://media.threatpost.com/wp-content/uploads/sites/103/2021/04/16140201/cyberattacks.jpg	threatpost	t	2021-08-23 17:00:01.914508+02	2021-08-23 16:18:30+02	Joseph Carson	threatpost/Managing-Privileged-Access-to-Secure-the-Post-COVID-Perimeter
 963	Attackers Actively Exploiting Realtek SDK Flaws	Multiple vulnerabilities in software used by 65 vendors under active attack.	https://kasperskycontenthub.com/threatpost-global/?p=168856	https://media.threatpost.com/wp-content/uploads/sites/103/2018/10/29155707/IoT-4.jpg	threatpost	t	2021-08-23 17:00:01.914508+02	2021-08-23 16:08:42+02	Becky Bracken	threatpost/Attackers-Actively-Exploiting-Realtek-SDK-Flaws
+964	Windows 10 Admin Rights Gobbled by Razer Mouse	So much for Windows 10's security: a zero-day in the device installer software grants admin rights just by plugging in a mouse or other compatible device.	https://kasperskycontenthub.com/threatpost-global/?p=168855	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/23114538/razer.png	threatpost	t	2021-08-23 18:00:01.870662+02	2021-08-23 17:58:04+02	Lisa Vaas	threatpost/Windows-10-Admin-Rights-Gobbled-by-Razer-Devices
 \.
 
 
@@ -1014,7 +1015,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 963, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 964, true);
 
 
 --
