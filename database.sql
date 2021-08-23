@@ -1001,6 +1001,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 955	IBM finds ASX outage the result of trade platform not being ready for go-live | ZDNet	Big Blue has served the ASX with 17 recommendations and found a number of shortcomings in the ASX Trade Refresh project, which resulted in a pause of trading on the day of go-live.	https://www.zdnet.com/article/ibm-review-finds-asx-outage-the-result-of-system-not-being-ready-for-go-live/	https://www.zdnet.com/a/hub/i/r/2017/12/13/3f180be2-c877-44fd-90fe-2c23e43bc3ef/thumbnail/770x578/4e078813501d4768600096a18d7616dc/asx-listing-requirements.jpg	zdnet	t	2021-08-23 03:00:02.167906+02	2021-08-23 00:40:01+02	Asha Barbaschow	zdnet/IBM-finds-ASX-outage-the-result-of-trade-platform-not-being-ready-for-go-live
 956	UK competition authority raises alarm over Nvidia and Arm merger | ZDNet	The Competition and Markets Authority believes further investigation into the planned merger is warranted.	https://www.zdnet.com/article/uk-competition-authority-raises-alarm-over-nvidia-and-arm-merger/	https://www.zdnet.com/a/hub/i/r/2021/05/18/5c8902b4-8c44-4b85-bc11-bf9a80d21a27/thumbnail/770x578/e15e80791f2359e43913102b9acf3e04/nvidia-arm-logos-together-2021.jpg	zdnet	t	2021-08-23 04:00:02.63498+02	2021-08-23 01:11:59+02	Aimee Chanthadavong	zdnet/UK-competition-authority-raises-alarm-over-Nvidia-and-Arm-merger
 957	New LockFile ransomware gang weaponizes ProxyShell and PetitPotam attacks	A new ransomware group named LockFile has weaponized two recently disclosed vulnerabilities (PetitPotam and ProxyShell) in order to improve their chances at breaching, taking over, and encrypting corporate networks.	https://therecord.media/new-lockfile-ransomware-gang-weaponizes-proxyshell-and-petitpotam-attacks/	https://therecord.media/wp-content/uploads/2021/08/ransomware.png	therecord	t	2021-08-23 04:00:02.63498+02	2021-08-23 03:47:28+02	Catalin Cimpanu	therecord/New-LockFile-ransomware-gang-weaponizes-ProxyShell-and-PetitPotam-attacks
+958	446 Australian breach notifications with 30% of system faults found after a year | ZDNet	976 data breach notifications were made to the OAIC in the 2020-21 financial year, with health keeping its crown as the most breached sector. In the second half of the year, 30% of entities reported an incident due to a system fault they found 12 months later.	https://www.zdnet.com/article/446-australian-breach-notifications-with-30-of-system-faults-found-after-a-year/	https://www.zdnet.com/a/hub/i/r/2017/11/30/0a8bc3e3-2b3f-4b5e-92d2-ab27d641769d/thumbnail/770x578/415de89afea4e98b28d1da48fac2736e/bsod.jpg	zdnet	t	2021-08-23 07:00:02.018771+02	2021-08-23 03:45:56+02	Asha Barbaschow	zdnet/446-Australian-breach-notifications-with-30-of-system-faults-found-after-a-year
 \.
 
 
@@ -1008,7 +1009,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 957, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 958, true);
 
 
 --
