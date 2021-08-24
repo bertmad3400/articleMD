@@ -1023,6 +1023,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 977	FBI sends its first-ever alert about a 'ransomware affiliate'	The US Federal Bureau of Investigations has published today its first-ever public advisory detailing the modus operandi of a ransomware affiliate.	https://therecord.media/fbi-sends-its-first-ever-alert-about-a-ransomware-affiliate/	https://therecord.media/wp-content/uploads/2021/08/FBI-flash-OnePercent.jpg	therecord	t	2021-08-24 03:00:02.710973+02	2021-08-24 02:48:37+02	Catalin Cimpanu	therecord/FBI-sends-its-first-ever-alert-about-a-ransomware-affiliate
 978	Apple, Microsoft and Amazon chiefs to meet Biden over critical infrastructure cyber attacks | ZDNet	US President invites CEOs of US tech giants to discuss how critical infrastructure can be protected from foreign cyber attackers.	https://www.zdnet.com/article/apple-microsoft-and-amazon-chiefs-to-meet-biden-over-critical-infrastructure-cyber-attacks/	https://www.zdnet.com/a/hub/i/r/2021/08/24/7f13c8a1-c29a-47f5-b44e-2b30a5604357/thumbnail/770x578/66fc772485c0359e34f0690c5922527e/joe-biden-meeting.jpg	zdnet	t	2021-08-24 13:00:01.819862+02	2021-08-24 10:16:44+02	Liam Tung	zdnet/Apple-Microsoft-and-Amazon-chiefs-to-meet-Biden-over-critical-infrastructure-cyber-attacks
 979	Effective Threat-Hunting Queries in a Redacted World	Chad Anderson, senior security researcher for DomainTools, demonstrates how seemingly disparate pieces of infrastructure information can form perfect fingerprints for tracking cyberattackers' infrastructure.	https://kasperskycontenthub.com/threatpost-global/?p=168864	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/23103924/hunting-e1629729578301.jpg	threatpost	t	2021-08-24 15:00:02.446452+02	2021-08-24 14:00:45+02	Chad Anderson	threatpost/Effective-Threat-Hunting-Queries-in-a-Redacted-World
+980	New zero-click iPhone exploit used to deploy NSO spyware	Digital threat researchers at Citizen Lab have uncovered a new zero-click iMessage exploit used to deploy NSO Group's Pegasus spyware on devices belonging to Bahraini activists.	https://www.bleepingcomputer.com/news/apple/new-zero-click-iphone-exploit-used-to-deploy-nso-spyware/	https://www.bleepstatic.com/content/hl-images/2021/05/14/Apple--logo.jpg	bleepingcomputer	t	2021-08-24 16:00:02.112326+02	2021-08-24 15:23:35+02	Sergiu Gatlan	bleepingcomputer/New-zero-click-iPhone-exploit-used-to-deploy-NSO-spyware
+981	Bahraini activists targeted with new iOS zero-click exploit	A new Citizen Lab investigation published today has revealed the existence of a new iOS zero-click exploit that has been abused since at least February this year to hack into the iPhones of several Bahraini activists and political dissidents.	https://therecord.media/bahraini-activists-targeted-with-new-ios-zero-click-exploit/	https://therecord.media/wp-content/uploads/2021/08/Bahrain.jpg	therecord	t	2021-08-24 16:00:02.112326+02	2021-08-24 15:17:15+02	Catalin Cimpanu	therecord/Bahraini-activists-targeted-with-new-iOS-zero-click-exploit
 \.
 
 
@@ -1030,7 +1032,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 979, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 981, true);
 
 
 --
