@@ -1028,6 +1028,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 982	HYCU initiative offers free evaluation for ransomware recovery prospects | ZDNet	Using GetRScore.org, organizations now have a way to measure ransomware recovery preparation.	https://www.zdnet.com/article/hycu-initiative-offers-free-evaluation-for-ransomware-recovery-prospects/	https://www.zdnet.com/a/hub/i/r/2021/07/29/f9918276-286d-4947-a158-18608d4ccd92/thumbnail/770x578/7272d8e26d5dac037e78c5039a0ff45d/shutterstock-668772514.jpg	zdnet	t	2021-08-24 19:00:01.857565+02	2021-08-24 16:18:35+02	Chris Preimesberger	zdnet/HYCU-initiative-offers-free-evaluation-for-ransomware-recovery-prospects
 983	ALTDOS hacking group wreaks havoc across Southeast Asia	For the past eight months, a cybercrime group calling itself ALTDOS has been wreaking havoc across Southeast Asia, hacking companies left and right, in order to pilfer their data and ransom it back or sell it on underground forums.	https://therecord.media/altdos-hacking-group-wreaks-havoc-across-southeast-asia/	https://therecord.media/wp-content/uploads/2021/08/Singapore.jpg	therecord	t	2021-08-24 19:00:01.857565+02	2021-08-24 18:54:23+02	Catalin Cimpanu	therecord/ALTDOS-hacking-group-wreaks-havoc-across-Southeast-Asia
 984	Custom WhatsApp Build Delivers Triada Malware	Researchers have spotted the latest version of the Triada trojan targeting mobile devices via an advertising SDK.	https://kasperskycontenthub.com/threatpost-global/?p=168892	https://media.threatpost.com/wp-content/uploads/sites/103/2020/01/22100148/trojan-malware.jpg	threatpost	t	2021-08-24 19:00:01.857565+02	2021-08-24 18:27:01+02	Tom Spring	threatpost/Custom-WhatsApp-Build-Delivers-Triada-Malware
+985	Malicious WhatsApp mod infects Android devices with malware	A malicious version of the FMWhatsappWhatsApp mod delivers a Triadatrojan payload, a nasty surprise that infects their devices with additional malware, including the very hard-to-remove xHelper trojan.	https://www.bleepingcomputer.com/news/security/malicious-whatsapp-mod-infects-android-devices-with-malware/	https://www.bleepstatic.com/content/hl-images/2021/04/05/Android-malware.jpg	bleepingcomputer	t	2021-08-24 20:00:01.915893+02	2021-08-24 19:12:34+02	Sergiu Gatlan	bleepingcomputer/Malicious-WhatsApp-mod-infects-Android-devices-with-malware
+986	Pegasus Spyware Uses iPhone Zero-Click iMessage Zero-Day	The new exploit was deployed against iOS versions 14.4 & 14.6, blowing past Apple's new BlastDoor sandboxing to install spyware on iPhones.	https://kasperskycontenthub.com/threatpost-global/?p=168899	https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/20141444/white-pegasus-e1626804896117.jpg	threatpost	t	2021-08-24 20:00:01.915893+02	2021-08-24 19:51:56+02	Lisa Vaas	threatpost/Pegasus-Spyware-Uses-iPhone-Zero-Click-iMessage-Zero-Day
 \.
 
 
@@ -1035,7 +1037,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 984, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 986, true);
 
 
 --
