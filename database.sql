@@ -1022,6 +1022,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 976	Microsoft Spills 38 Million Sensitive Data Records Via Careless Power App Configs	Data leaked includes COVID-19 vaccination records, social security numbers and email addresses tied to American Airlines, Ford, Indiana Department of Health and New York City public schools.	https://kasperskycontenthub.com/threatpost-global/?p=168885	https://media.threatpost.com/wp-content/uploads/sites/103/2018/12/19164049/breach-2018-year-in-review.jpg	threatpost	t	2021-08-24 02:00:02.603111+02	2021-08-24 01:18:36+02	Tom Spring	threatpost/Microsoft-Spills-38-Million-Sensitive-Data-Records-Via-Careless-Power-App-Configs
 977	FBI sends its first-ever alert about a 'ransomware affiliate'	The US Federal Bureau of Investigations has published today its first-ever public advisory detailing the modus operandi of a ransomware affiliate.	https://therecord.media/fbi-sends-its-first-ever-alert-about-a-ransomware-affiliate/	https://therecord.media/wp-content/uploads/2021/08/FBI-flash-OnePercent.jpg	therecord	t	2021-08-24 03:00:02.710973+02	2021-08-24 02:48:37+02	Catalin Cimpanu	therecord/FBI-sends-its-first-ever-alert-about-a-ransomware-affiliate
 978	Apple, Microsoft and Amazon chiefs to meet Biden over critical infrastructure cyber attacks | ZDNet	US President invites CEOs of US tech giants to discuss how critical infrastructure can be protected from foreign cyber attackers.	https://www.zdnet.com/article/apple-microsoft-and-amazon-chiefs-to-meet-biden-over-critical-infrastructure-cyber-attacks/	https://www.zdnet.com/a/hub/i/r/2021/08/24/7f13c8a1-c29a-47f5-b44e-2b30a5604357/thumbnail/770x578/66fc772485c0359e34f0690c5922527e/joe-biden-meeting.jpg	zdnet	t	2021-08-24 13:00:01.819862+02	2021-08-24 10:16:44+02	Liam Tung	zdnet/Apple-Microsoft-and-Amazon-chiefs-to-meet-Biden-over-critical-infrastructure-cyber-attacks
+979	Effective Threat-Hunting Queries in a Redacted World	Chad Anderson, senior security researcher for DomainTools, demonstrates how seemingly disparate pieces of infrastructure information can form perfect fingerprints for tracking cyberattackers' infrastructure.	https://kasperskycontenthub.com/threatpost-global/?p=168864	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/23103924/hunting-e1629729578301.jpg	threatpost	t	2021-08-24 15:00:02.446452+02	2021-08-24 14:00:45+02	Chad Anderson	threatpost/Effective-Threat-Hunting-Queries-in-a-Redacted-World
 \.
 
 
@@ -1029,7 +1030,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 978, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 979, true);
 
 
 --
