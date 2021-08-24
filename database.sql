@@ -1036,6 +1036,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 990	B. Braun updates faulty IV pump after McAfee discovers vulnerability allowing attackers to change doses | ZDNet	The vulnerability has been patched by B. Braun but McAfee said hospitals routinely use out-of-date tools and software.	https://www.zdnet.com/article/b-braun-updates-faulty-iv-pump-after-mcafee-discovers-vulnerability-allowing-attackers-to-change-doses/	https://www.zdnet.com/a/hub/i/r/2020/12/16/f3f3c3ee-efca-4539-aa88-e0c756d13ab7/thumbnail/770x578/529915c4b6e49a84122bd4017ca772f1/istock-1181127245.jpg	zdnet	t	2021-08-24 23:00:02.015343+02	2021-08-24 20:30:18+02	Jonathan Greig	zdnet/B-Braun-updates-faulty-IV-pump-after-McAfee-discovers-vulnerability-allowing-attackers-to-change-doses
 991	Samsung can remotely disable their TVs worldwide using TV Block	Samsung says that it can disable any of its Samsung TV sets remotely using TV Block, a feature built into all television products sold worldwide.	https://www.bleepingcomputer.com/news/security/samsung-can-remotely-disable-their-tvs-worldwide-using-tv-block/	https://www.bleepstatic.com/content/hl-images/2021/08/24/Samsung_headpic.jpg	bleepingcomputer	t	2021-08-24 23:00:02.015343+02	2021-08-24 22:28:41+02	Sergiu Gatlan	bleepingcomputer/Samsung-can-remotely-disable-their-TVs-worldwide-using-TV-Block
 992	SteelSeries bug gives Windows 10 admin rights by plugging in a device	The official app for installing SteelSeries devices on Windows 10 can be exploited to obtain administrator rights, a security researcher has found.	https://www.bleepingcomputer.com/news/security/steelseries-bug-gives-windows-10-admin-rights-by-plugging-in-a-device/	https://www.bleepstatic.com/content/posts/2021/08/24/SteelSeriesKeyboard.jpg	bleepingcomputer	t	2021-08-24 23:00:02.015343+02	2021-08-24 20:54:17+02	Ionut Ilascu	bleepingcomputer/SteelSeries-bug-gives-Windows-10-admin-rights-by-plugging-in-a-device
+993	Hacktivists leak videos of abuse in Iran Evin prison	A hacktivist group going by the name of Adalat Ali (Ali's Justice) has breached the internal CCTV system at Evin, a prison complex in Tehran where Iran houses most of its political prisoners, and leaked videos showing extensive prisoner abuse.	https://therecord.media/hacktivists-leak-videos-of-abuse-in-iran-evin-prison/	https://therecord.media/wp-content/uploads/2021/08/Evin-prison-hack.png	therecord	t	2021-08-25 00:00:02.575721+02	2021-08-24 23:45:45+02	Catalin Cimpanu	therecord/Hacktivists-leak-videos-of-abuse-in-Iran-Evin-prison
 \.
 
 
@@ -1043,7 +1044,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 992, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 993, true);
 
 
 --
