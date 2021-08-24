@@ -1037,6 +1037,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 991	Samsung can remotely disable their TVs worldwide using TV Block	Samsung says that it can disable any of its Samsung TV sets remotely using TV Block, a feature built into all television products sold worldwide.	https://www.bleepingcomputer.com/news/security/samsung-can-remotely-disable-their-tvs-worldwide-using-tv-block/	https://www.bleepstatic.com/content/hl-images/2021/08/24/Samsung_headpic.jpg	bleepingcomputer	t	2021-08-24 23:00:02.015343+02	2021-08-24 22:28:41+02	Sergiu Gatlan	bleepingcomputer/Samsung-can-remotely-disable-their-TVs-worldwide-using-TV-Block
 992	SteelSeries bug gives Windows 10 admin rights by plugging in a device	The official app for installing SteelSeries devices on Windows 10 can be exploited to obtain administrator rights, a security researcher has found.	https://www.bleepingcomputer.com/news/security/steelseries-bug-gives-windows-10-admin-rights-by-plugging-in-a-device/	https://www.bleepstatic.com/content/posts/2021/08/24/SteelSeriesKeyboard.jpg	bleepingcomputer	t	2021-08-24 23:00:02.015343+02	2021-08-24 20:54:17+02	Ionut Ilascu	bleepingcomputer/SteelSeries-bug-gives-Windows-10-admin-rights-by-plugging-in-a-device
 993	Hacktivists leak videos of abuse in Iran Evin prison	A hacktivist group going by the name of Adalat Ali (Ali's Justice) has breached the internal CCTV system at Evin, a prison complex in Tehran where Iran houses most of its political prisoners, and leaked videos showing extensive prisoner abuse.	https://therecord.media/hacktivists-leak-videos-of-abuse-in-iran-evin-prison/	https://therecord.media/wp-content/uploads/2021/08/Evin-prison-hack.png	therecord	t	2021-08-25 00:00:02.575721+02	2021-08-24 23:45:45+02	Catalin Cimpanu	therecord/Hacktivists-leak-videos-of-abuse-in-Iran-Evin-prison
+994	Windows 10 KB5005932 fixes devices that can't install new updates	Microsoft has released the Windows 10 KB5005932 setup update to fix 'PSFX_E_MATCHING_BINARY_MISSING errors when attempting to install the latest cumulative updates.	https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5005932-fixes-devices-that-cant-install-new-updates/	https://www.bleepstatic.com/content/hl-images/2021/02/03/Windows--10.jpg	bleepingcomputer	t	2021-08-25 01:00:02.545471+02	2021-08-25 00:32:03+02	Lawrence Abrams	bleepingcomputer/Windows-10-KB5005932-fixes-devices-that-cant-install-new-updates
 \.
 
 
@@ -1044,7 +1045,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 993, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 994, true);
 
 
 --
