@@ -1032,6 +1032,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 986	Pegasus Spyware Uses iPhone Zero-Click iMessage Zero-Day	The new exploit was deployed against iOS versions 14.4 & 14.6, blowing past Apple's new BlastDoor sandboxing to install spyware on iPhones.	https://kasperskycontenthub.com/threatpost-global/?p=168899	https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/20141444/white-pegasus-e1626804896117.jpg	threatpost	t	2021-08-24 20:00:01.915893+02	2021-08-24 19:51:56+02	Lisa Vaas	threatpost/Pegasus-Spyware-Uses-iPhone-Zero-Click-iMessage-Zero-Day
 987	SteelSeries software makes you Windows 10 admin with or without a real device	The official app for installing SteelSeries devices on Windows 10 can be exploited to obtain administrator rights, a security researcher has found.	https://www.bleepingcomputer.com/news/security/steelseries-software-makes-you-windows-10-admin-with-or-without-a-real-device/	https://www.bleepstatic.com/content/posts/2021/08/24/SteelSeriesKeyboard.jpg	bleepingcomputer	t	2021-08-24 21:00:02.278019+02	2021-08-24 20:54:17+02	Ionut Ilascu	bleepingcomputer/SteelSeries-software-makes-you-Windows-10-admin-with-or-without-a-real-device
 988	Ransomware gang's script shows exactly the files they're after	A PowerShell script used by the Pysa ransomware operation gives us a sneak peek at the types of data they attempt to steal during a cyberattack.	https://www.bleepingcomputer.com/news/security/ransomware-gangs-script-shows-exactly-the-files-theyre-after/	https://www.bleepstatic.com/content/hl-images/2021/08/24/database-header.jpg	bleepingcomputer	t	2021-08-24 21:00:02.278019+02	2021-08-24 20:16:16+02	Lawrence Abrams	bleepingcomputer/Ransomware-gangs-script-shows-exactly-the-files-theyre-after
+989	Poly Network Recoups $610M Stolen from DeFi Platform	The attacker returned the loot after being offered a gig as chief security advisor with Poly Network.	https://kasperskycontenthub.com/threatpost-global/?p=168906	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/11103228/crypto-hack.jpg	threatpost	t	2021-08-24 22:00:02.26668+02	2021-08-24 21:35:41+02	Becky Bracken	threatpost/Poly-Network-Recoups-610M-Stolen-from-DeFi-Platform
 \.
 
 
@@ -1039,7 +1040,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 988, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 989, true);
 
 
 --
