@@ -1056,6 +1056,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1010	US Media, Retailers Targeted by New SparklingGoblin APT	The new APT uses an undocumented backdoor to infiltrate the education, retail and government sectors.	https://kasperskycontenthub.com/threatpost-global/?p=168928	https://media.threatpost.com/wp-content/uploads/sites/103/2018/12/21144206/APT-2018-Year-in-review2.jpg	threatpost	t	2021-08-25 18:00:02.580447+02	2021-08-25 17:10:46+02	Tom Spring	threatpost/US-Media-Retailers-Targeted-by-New-SparklingGoblin-APT
 1011	Best security camera 2021: Secure your home or office | ZDNet	Storage, flexibility, quality recording, and easy installation are some of the important factors to consider when deciding on a work-safe security system. Our top picks for commercial properties will help secure the workplace for small and large businesses alike.	https://www.zdnet.com/article/best-security-camera/	https://www.zdnet.com/a/hub/i/r/2021/08/25/d2c7a038-d569-4605-9246-c6a7a0748352/thumbnail/770x578/067b960a84419580d85220b3847f6939/image-10.jpg	zdnet	t	2021-08-25 19:00:02.289659+02	2021-08-25 16:03:00+02	Charlie Osborne	zdnet/Best-security-camera-2021-Secure-your-home-or-office
 1012	New Hampshire town loses $2.3 million to overseas scammers	Peterborough, a small New Hampshire town, has lost $2.3 million after BEC scammers redirected several bank transfers using forged documents sent to the town's Finance Department staff in multiple email exchanges.	https://www.bleepingcomputer.com/news/security/new-hampshire-town-loses-23-million-to-overseas-scammers/	https://www.bleepstatic.com/content/hl-images/2021/08/25/silhouette_headpic.jpg	bleepingcomputer	t	2021-08-25 19:00:02.289659+02	2021-08-25 18:54:49+02	Sergiu Gatlan	bleepingcomputer/New-Hampshire-town-loses-23-million-to-overseas-scammers
+1013	Cuba passes internet censorship and cybersecurity law	Following weeks of protests against its decades-long communist leadership, the Cuban government passed a series of new laws that limit freedom of expression on the internet and force local service providers to create censorship mechanisms on their networks in order to prevent the spread of false information.	https://therecord.media/cuba-passes-internet-censorship-and-cybersecurity-law/	https://therecord.media/wp-content/uploads/2021/08/Cuba.jpg	therecord	t	2021-08-25 20:00:02.332457+02	2021-08-25 19:12:28+02	Catalin Cimpanu	therecord/Cuba-passes-internet-censorship-and-cybersecurity-law
 \.
 
 
@@ -1063,7 +1064,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1012, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1013, true);
 
 
 --
