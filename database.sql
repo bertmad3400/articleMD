@@ -1062,6 +1062,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1017	Microsoft: ProxyShell bugs “might be exploited,” patch servers now!	Microsoft has finally published guidance today for the actively exploited ProxyShell vulnerabilities impacting multiple on-premises Microsoft Exchange versions.	https://www.bleepingcomputer.com/news/microsoft/microsoft-proxyshell-bugs-might-be-exploited-patch-servers-now/	https://www.bleepstatic.com/content/hl-images/2021/03/10/Exchange1.jpg	bleepingcomputer	t	2021-08-25 23:00:01.971044+02	2021-08-25 22:19:51+02	Sergiu Gatlan	bleepingcomputer/Microsoft-ProxyShell-bugs-might-be-exploited-patch-servers-now
 1016	Elastic Q1 revenue tops expectations, offers surprise profit, raises year view | ZDNet	Elastic announced the acquisition of startup Cmdwatch Security, Inc., to add infrastructure detection and response capabilities to its Elasticsearch program.	https://www.zdnet.com/article/elastic-q1-revenue-tops-expectations-offers-surprise-profit-raises-year-view/	https://www.zdnet.com/a/hub/i/r/2021/08/25/9c255d32-2999-4804-b147-f603152c7bef/thumbnail/770x578/b957542a1321d54ee376bc9a0d5daff4/elastic-buys-cmd-crop-layout-for-twitter.jpg	zdnet	t	2021-08-25 23:00:01.971044+02	2021-08-25 20:13:00+02	Tiernan Ray	zdnet/Elastic-Q1-revenue-tops-expectations-offers-surprise-profit-raises-year-view
 1018	Microsoft will add secure preview for Office 365 quarantined emails	Microsoft is updating Defender for Office 365 to protect customers from embedded email threats while previewing quarantined emails.	https://www.bleepingcomputer.com/news/microsoft/microsoft-will-add-secure-preview-for-office-365-quarantined-emails/	https://www.bleepstatic.com/content/hl-images/2020/11/06/Office-365.jpg	bleepingcomputer	t	2021-08-25 23:00:01.971044+02	2021-08-25 21:15:00+02	Sergiu Gatlan	bleepingcomputer/Microsoft-will-add-secure-preview-for-Office-365-quarantined-emails
+1019	Facebook will let bug hunters submit joint reports	Social media giant Facebook updated today its bug bounty program to allow security researchers to submit joint reports and split bug bounty payouts.	https://therecord.media/facebook-will-let-bug-hunters-submit-joint-reports/	https://therecord.media/wp-content/uploads/2021/05/Facebook-e1626363450106.png	therecord	t	2021-08-26 01:00:02.018557+02	2021-08-26 00:22:43+02	Catalin Cimpanu	therecord/Facebook-will-let-bug-hunters-submit-joint-reports
+1020	Cisco Issues Critical Fixes for High-End Nexus Gear	Networking giant issues two critical patches and six high-severity patches.	https://kasperskycontenthub.com/threatpost-global/?p=168939	https://media.threatpost.com/wp-content/uploads/sites/103/2020/07/30102437/cisco-patch.png	threatpost	t	2021-08-26 01:00:02.018557+02	2021-08-26 00:48:34+02	Tom Spring	threatpost/Cisco-Issues-Critical-Fixes-for-High-End-Nexus-Gear
 \.
 
 
@@ -1069,7 +1071,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1018, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1020, true);
 
 
 --
