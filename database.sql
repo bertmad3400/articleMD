@@ -1057,6 +1057,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1011	Best security camera 2021: Secure your home or office | ZDNet	Storage, flexibility, quality recording, and easy installation are some of the important factors to consider when deciding on a work-safe security system. Our top picks for commercial properties will help secure the workplace for small and large businesses alike.	https://www.zdnet.com/article/best-security-camera/	https://www.zdnet.com/a/hub/i/r/2021/08/25/d2c7a038-d569-4605-9246-c6a7a0748352/thumbnail/770x578/067b960a84419580d85220b3847f6939/image-10.jpg	zdnet	t	2021-08-25 19:00:02.289659+02	2021-08-25 16:03:00+02	Charlie Osborne	zdnet/Best-security-camera-2021-Secure-your-home-or-office
 1012	New Hampshire town loses $2.3 million to overseas scammers	Peterborough, a small New Hampshire town, has lost $2.3 million after BEC scammers redirected several bank transfers using forged documents sent to the town's Finance Department staff in multiple email exchanges.	https://www.bleepingcomputer.com/news/security/new-hampshire-town-loses-23-million-to-overseas-scammers/	https://www.bleepstatic.com/content/hl-images/2021/08/25/silhouette_headpic.jpg	bleepingcomputer	t	2021-08-25 19:00:02.289659+02	2021-08-25 18:54:49+02	Sergiu Gatlan	bleepingcomputer/New-Hampshire-town-loses-23-million-to-overseas-scammers
 1013	Cuba passes internet censorship and cybersecurity law	Following weeks of protests against its decades-long communist leadership, the Cuban government passed a series of new laws that limit freedom of expression on the internet and force local service providers to create censorship mechanisms on their networks in order to prevent the spread of false information.	https://therecord.media/cuba-passes-internet-censorship-and-cybersecurity-law/	https://therecord.media/wp-content/uploads/2021/08/Cuba.jpg	therecord	t	2021-08-25 20:00:02.332457+02	2021-08-25 19:12:28+02	Catalin Cimpanu	therecord/Cuba-passes-internet-censorship-and-cybersecurity-law
+1014	Critical F5 BIG-IP bug impacts customers in sensitive sectors	BIG-IP application services company F5 has fixed more than a dozen high-severity vulnerabilities in its networking device, one of them being elevated to critical severity under specific conditions.	https://www.bleepingcomputer.com/news/security/critical-f5-big-ip-bug-impacts-customers-in-sensitive-sectors/	https://www.bleepstatic.com/content/hl-images/2021/03/10/F5.jpg	bleepingcomputer	t	2021-08-25 21:00:02.05406+02	2021-08-25 20:58:35+02	Ionut Ilascu	bleepingcomputer/Critical-F5-BIG-IP-bug-impacts-customers-in-sensitive-sectors
+1015	Win10 Admin Rights Tossed Off by Yet Another Plug-In	Then again, you don’t even need the actual device – in this case, a SteelSeries peripheral – since emulation works just fine to launch with full SYSTEM rights.	https://kasperskycontenthub.com/threatpost-global/?p=168927	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/25141841/steel-series-e1629915533369.jpeg	threatpost	t	2021-08-25 21:00:02.05406+02	2021-08-25 20:23:58+02	Lisa Vaas	threatpost/Win10-Admin-Rights-Tossed-Off-by-Yet-Another-Plug-In
 \.
 
 
@@ -1064,7 +1066,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1013, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1015, true);
 
 
 --
