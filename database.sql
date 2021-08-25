@@ -1054,6 +1054,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1008	Best security system 2021: Protect your home & office | ZDNet	ZDNet has brought together the best options on the market this year, from DIY kits to full smart home setups.	https://www.zdnet.com/article/best-security-system/	https://www.zdnet.com/a/hub/i/r/2020/08/28/e0659127-a2cc-464f-9fc1-f8971dd722c0/thumbnail/770x578/1e84329082b3b8dc16d24133cef26ada/2.jpg	zdnet	t	2021-08-25 18:00:02.580447+02	2021-08-25 15:09:00+02	Charlie Osborne	zdnet/Best-security-system-2021-Protect-your-home--office
 1009	Ethereum urges Go devs to fix severe chain-split vulnerability	Ethreum project is urging developers to apply a hotfix to squash a high-severity vulnerability. The chain-split vulnerability tracked as CVE-2021-39137, impacts Geth, the official Golang implementation of the Ethereum protocol.	https://www.bleepingcomputer.com/news/security/ethereum-urges-go-devs-to-fix-severe-chain-split-vulnerability/	https://www.bleepstatic.com/content/hl-images/2018/03/03/Ethereum.jpg	bleepingcomputer	t	2021-08-25 18:00:02.580447+02	2021-08-25 17:02:59+02	Ax Sharma	bleepingcomputer/Ethereum-urges-Go-devs-to-fix-severe-chain-split-vulnerability
 1010	US Media, Retailers Targeted by New SparklingGoblin APT	The new APT uses an undocumented backdoor to infiltrate the education, retail and government sectors.	https://kasperskycontenthub.com/threatpost-global/?p=168928	https://media.threatpost.com/wp-content/uploads/sites/103/2018/12/21144206/APT-2018-Year-in-review2.jpg	threatpost	t	2021-08-25 18:00:02.580447+02	2021-08-25 17:10:46+02	Tom Spring	threatpost/US-Media-Retailers-Targeted-by-New-SparklingGoblin-APT
+1011	Best security camera 2021: Secure your home or office | ZDNet	Storage, flexibility, quality recording, and easy installation are some of the important factors to consider when deciding on a work-safe security system. Our top picks for commercial properties will help secure the workplace for small and large businesses alike.	https://www.zdnet.com/article/best-security-camera/	https://www.zdnet.com/a/hub/i/r/2021/08/25/d2c7a038-d569-4605-9246-c6a7a0748352/thumbnail/770x578/067b960a84419580d85220b3847f6939/image-10.jpg	zdnet	t	2021-08-25 19:00:02.289659+02	2021-08-25 16:03:00+02	Charlie Osborne	zdnet/Best-security-camera-2021-Secure-your-home-or-office
+1012	New Hampshire town loses $2.3 million to overseas scammers	Peterborough, a small New Hampshire town, has lost $2.3 million after BEC scammers redirected several bank transfers using forged documents sent to the town's Finance Department staff in multiple email exchanges.	https://www.bleepingcomputer.com/news/security/new-hampshire-town-loses-23-million-to-overseas-scammers/	https://www.bleepstatic.com/content/hl-images/2021/08/25/silhouette_headpic.jpg	bleepingcomputer	t	2021-08-25 19:00:02.289659+02	2021-08-25 18:54:49+02	Sergiu Gatlan	bleepingcomputer/New-Hampshire-town-loses-23-million-to-overseas-scammers
 \.
 
 
@@ -1061,7 +1063,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1010, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1012, true);
 
 
 --
