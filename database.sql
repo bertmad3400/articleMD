@@ -1040,6 +1040,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 994	Windows 10 KB5005932 fixes devices that can't install new updates	Microsoft has released the Windows 10 KB5005932 setup update to fix 'PSFX_E_MATCHING_BINARY_MISSING errors when attempting to install the latest cumulative updates.	https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5005932-fixes-devices-that-cant-install-new-updates/	https://www.bleepstatic.com/content/hl-images/2021/02/03/Windows--10.jpg	bleepingcomputer	t	2021-08-25 01:00:02.545471+02	2021-08-25 00:32:03+02	Lawrence Abrams	bleepingcomputer/Windows-10-KB5005932-fixes-devices-that-cant-install-new-updates
 995	Fake OpenSea support staff are stealing cryptowallets and NFTs	OpenSea users are being targeted in an ongoing and aggressive Discord phishing attack to steal cryptocurrency funds and NFTs.	https://www.bleepingcomputer.com/news/security/fake-opensea-support-staff-are-stealing-cryptowallets-and-nfts/	https://www.bleepstatic.com/content/hl-images/2021/08/24/opensea-header.jpg	bleepingcomputer	t	2021-08-25 02:00:02.034612+02	2021-08-25 01:46:32+02	Lawrence Abrams	bleepingcomputer/Fake-OpenSea-support-staff-are-stealing-cryptowallets-and-NFTs
 996	NSO Group facing renewed backlash after helping repressive Bahraini Government hack iPhones of politicians, activists | ZDNet	Using NSO Group's zero-click iPhone exploits, the Bahraini Government surveilled activists in Bahrain, Qatar and the UK.	https://www.zdnet.com/article/nso-group-facing-renewed-backlash-after-helping-repressive-bahraini-government-hack-blackmail-activists/	https://www.zdnet.com/a/hub/i/r/2020/12/21/4865e211-37a1-4556-83f9-86f3e885a96f/thumbnail/770x578/4e61b4147e6b2966e518ad4b450f8476/nso-group.jpg	zdnet	t	2021-08-25 03:00:02.63955+02	2021-08-25 00:31:00+02	Jonathan Greig	zdnet/NSO-Group-facing-renewed-backlash-after-helping-repressive-Bahraini-Government-hack-iPhones-of-politicians-activists
+997	Australia's 'hacking' Bill passes the Senate after House made 60 amendments | ZDNet	Shadow Home Affairs Minister declared the Bill before the Senate was a better Bill because of amendments, and as such, Labor threw its support behind it. Greens, however, took issue with cops being able to take over a person's social media.	https://www.zdnet.com/article/australias-hacking-bill-passes-the-senate-after-house-made-60-amendments/	https://www.zdnet.com/a/hub/i/r/2019/07/26/437653b7-e5bd-403e-b020-40e096469e00/thumbnail/770x578/41bb25ef9b869852a372e0b6ebe91b3d/afp-badge.jpg	zdnet	t	2021-08-25 05:00:01.912084+02	2021-08-25 02:11:00+02	Asha Barbaschow	zdnet/Australias-hacking-Bill-passes-the-Senate-after-House-made-60-amendments
 \.
 
 
@@ -1047,7 +1048,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 996, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 997, true);
 
 
 --
