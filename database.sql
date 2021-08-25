@@ -1044,6 +1044,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 998	M1 taps 5G to enrich waterfront lifestyle, operations | ZDNet	Singapore mobile operator announces 5G services that it says aims to enhance waterfront living and improve maritime operations, including automated vessel analytics and recognition technologies to facilitate real-time surveillance.	https://www.zdnet.com/article/m1-taps-5g-to-enrich-waterfront-lifestyle-operations/	https://www.zdnet.com/a/hub/i/r/2019/01/29/f9b174bb-facd-4e75-a900-76ff3eb426da/thumbnail/770x578/a5a18d8f509548340d4ff195313cbc92/artystarty-istock-926671872.jpg	zdnet	t	2021-08-25 08:00:02.540633+02	2021-08-25 05:27:00+02	Eileen Yu	zdnet/M1-taps-5G-to-enrich-waterfront-lifestyle-operations
 999	Scammers steal $2.3 million from small US town	The Town of Peterborough, New Hampshire, said it lost $2.3 million after scammers tricked town employees into sending large payments to the wrong accounts.	https://therecord.media/scammers-steal-2-3-million-from-small-us-town/	https://therecord.media/wp-content/uploads/2021/08/Petersborough.png	therecord	t	2021-08-25 08:00:02.540633+02	2021-08-25 07:04:04+02	Catalin Cimpanu	therecord/Scammers-steal-23-million-from-small-US-town
 1000	Singapore further eases access to contact tracing devices | ZDNet	Home delivery service will soon be available for new users of the country's TraceTogether wearable token, which also will be accessible via more vending machines to residents who need to replace the COVID-19 contact tracing device.	https://www.zdnet.com/article/singapore-further-eases-access-to-contact-tracing-devices/	https://www.zdnet.com/a/hub/i/r/2021/08/25/b9185ee6-6e4e-422f-9b76-0282d54d6602/thumbnail/770x578/6a984d0bd657ad451ce1246bd7855282/tracetogether-082021.png	zdnet	t	2021-08-25 09:00:01.967396+02	2021-08-25 06:39:00+02	Eileen Yu	zdnet/Singapore-further-eases-access-to-contact-tracing-devices
+1001	Proofpoint awarded $13.5 million in IP theft lawsuit against Vade Secure | ZDNet	The company claimed that Vade willfully misappropriated trade secrets.	https://www.zdnet.com/article/proofpoint-awarded-13-5-million-in-ip-theft-lawsuit-against-vade-secure/	https://www.zdnet.com/a/hub/i/r/2017/01/11/5e64bad5-a595-4751-a2b0-860b74abaa08/thumbnail/770x578/019e51e8394f26bff6338fcd184aea37/legal-digital-code.jpg	zdnet	t	2021-08-25 12:00:02.658332+02	2021-08-25 09:09:49+02	Charlie Osborne	zdnet/Proofpoint-awarded-135-million-in-IP-theft-lawsuit-against-Vade-Secure
+1002	White House to announce new cyber initiatives with private sector	The Biden administration and a roster of America’s largest private companies on Wednesday will announce a series of initiatives meant to address some of the country’s systemic cybersecurity problems, including workforce training and protection of critical infrastructure.	https://therecord.media/white-house-to-announce-new-cyber-initiatives-with-private-sector/	https://therecord.media/wp-content/uploads/2021/08/bigstock-White-House-791299-1.jpg	therecord	t	2021-08-25 12:00:02.658332+02	2021-08-25 11:01:43+02	Martin Matishak	therecord/White-House-to-announce-new-cyber-initiatives-with-private-sector
 \.
 
 
@@ -1051,7 +1053,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1000, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1002, true);
 
 
 --
