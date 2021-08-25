@@ -1047,6 +1047,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1001	Proofpoint awarded $13.5 million in IP theft lawsuit against Vade Secure | ZDNet	The company claimed that Vade willfully misappropriated trade secrets.	https://www.zdnet.com/article/proofpoint-awarded-13-5-million-in-ip-theft-lawsuit-against-vade-secure/	https://www.zdnet.com/a/hub/i/r/2017/01/11/5e64bad5-a595-4751-a2b0-860b74abaa08/thumbnail/770x578/019e51e8394f26bff6338fcd184aea37/legal-digital-code.jpg	zdnet	t	2021-08-25 12:00:02.658332+02	2021-08-25 09:09:49+02	Charlie Osborne	zdnet/Proofpoint-awarded-135-million-in-IP-theft-lawsuit-against-Vade-Secure
 1002	White House to announce new cyber initiatives with private sector	The Biden administration and a roster of America’s largest private companies on Wednesday will announce a series of initiatives meant to address some of the country’s systemic cybersecurity problems, including workforce training and protection of critical infrastructure.	https://therecord.media/white-house-to-announce-new-cyber-initiatives-with-private-sector/	https://therecord.media/wp-content/uploads/2021/08/bigstock-White-House-791299-1.jpg	therecord	t	2021-08-25 12:00:02.658332+02	2021-08-25 11:01:43+02	Martin Matishak	therecord/White-House-to-announce-new-cyber-initiatives-with-private-sector
 1003	Ransomware: These four rising gangs could be your next major cybersecurity threat | ZDNet	Cybersecurity researchers at Palo Alto Networks detail four extortion groups that have gained traction in recent months, as the threat of ransomware continues to plague businesses.	https://www.zdnet.com/article/ransomware-these-four-rising-threats-could-be-the-next-major-cybersecurity-risk-facing-your-business/	https://www.zdnet.com/a/hub/i/r/2021/08/25/99bd596a-6b7d-47a5-9d50-5726551168c3/thumbnail/770x578/e59faebfe57fe091f7428dc11b00363b/getty-hands-typing-on-a-laptop-keyboard.jpg	zdnet	t	2021-08-25 13:00:01.960718+02	2021-08-25 09:56:30+02	Danny Palmer	zdnet/Ransomware-These-four-rising-gangs-could-be-your-next-major-cybersecurity-threat
+1004	California Man Hacked iCloud Accounts to Steal Nude Photos	Hao Kou Chi pleaded guilty to four felonies in a hacker-for-hire scam that used socially engineered emails to trick people out of their credentials.	https://kasperskycontenthub.com/threatpost-global/?p=168923	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/25073635/icloud-apple.jpg	threatpost	t	2021-08-25 14:00:02.198471+02	2021-08-25 13:41:31+02	Elizabeth Montalbano	threatpost/California-Man-Hacked-iCloud-Accounts-to-Steal-Nude-Photos
 \.
 
 
@@ -1054,7 +1055,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1003, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1004, true);
 
 
 --
