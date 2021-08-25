@@ -1039,6 +1039,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 993	Hacktivists leak videos of abuse in Iran Evin prison	A hacktivist group going by the name of Adalat Ali (Ali's Justice) has breached the internal CCTV system at Evin, a prison complex in Tehran where Iran houses most of its political prisoners, and leaked videos showing extensive prisoner abuse.	https://therecord.media/hacktivists-leak-videos-of-abuse-in-iran-evin-prison/	https://therecord.media/wp-content/uploads/2021/08/Evin-prison-hack.png	therecord	t	2021-08-25 00:00:02.575721+02	2021-08-24 23:45:45+02	Catalin Cimpanu	therecord/Hacktivists-leak-videos-of-abuse-in-Iran-Evin-prison
 994	Windows 10 KB5005932 fixes devices that can't install new updates	Microsoft has released the Windows 10 KB5005932 setup update to fix 'PSFX_E_MATCHING_BINARY_MISSING errors when attempting to install the latest cumulative updates.	https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5005932-fixes-devices-that-cant-install-new-updates/	https://www.bleepstatic.com/content/hl-images/2021/02/03/Windows--10.jpg	bleepingcomputer	t	2021-08-25 01:00:02.545471+02	2021-08-25 00:32:03+02	Lawrence Abrams	bleepingcomputer/Windows-10-KB5005932-fixes-devices-that-cant-install-new-updates
 995	Fake OpenSea support staff are stealing cryptowallets and NFTs	OpenSea users are being targeted in an ongoing and aggressive Discord phishing attack to steal cryptocurrency funds and NFTs.	https://www.bleepingcomputer.com/news/security/fake-opensea-support-staff-are-stealing-cryptowallets-and-nfts/	https://www.bleepstatic.com/content/hl-images/2021/08/24/opensea-header.jpg	bleepingcomputer	t	2021-08-25 02:00:02.034612+02	2021-08-25 01:46:32+02	Lawrence Abrams	bleepingcomputer/Fake-OpenSea-support-staff-are-stealing-cryptowallets-and-NFTs
+996	NSO Group facing renewed backlash after helping repressive Bahraini Government hack iPhones of politicians, activists | ZDNet	Using NSO Group's zero-click iPhone exploits, the Bahraini Government surveilled activists in Bahrain, Qatar and the UK.	https://www.zdnet.com/article/nso-group-facing-renewed-backlash-after-helping-repressive-bahraini-government-hack-blackmail-activists/	https://www.zdnet.com/a/hub/i/r/2020/12/21/4865e211-37a1-4556-83f9-86f3e885a96f/thumbnail/770x578/4e61b4147e6b2966e518ad4b450f8476/nso-group.jpg	zdnet	t	2021-08-25 03:00:02.63955+02	2021-08-25 00:31:00+02	Jonathan Greig	zdnet/NSO-Group-facing-renewed-backlash-after-helping-repressive-Bahraini-Government-hack-iPhones-of-politicians-activists
 \.
 
 
@@ -1046,7 +1047,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 995, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 996, true);
 
 
 --
