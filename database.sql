@@ -1065,6 +1065,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1019	Facebook will let bug hunters submit joint reports	Social media giant Facebook updated today its bug bounty program to allow security researchers to submit joint reports and split bug bounty payouts.	https://therecord.media/facebook-will-let-bug-hunters-submit-joint-reports/	https://therecord.media/wp-content/uploads/2021/05/Facebook-e1626363450106.png	therecord	t	2021-08-26 01:00:02.018557+02	2021-08-26 00:22:43+02	Catalin Cimpanu	therecord/Facebook-will-let-bug-hunters-submit-joint-reports
 1020	Cisco Issues Critical Fixes for High-End Nexus Gear	Networking giant issues two critical patches and six high-severity patches.	https://kasperskycontenthub.com/threatpost-global/?p=168939	https://media.threatpost.com/wp-content/uploads/sites/103/2020/07/30102437/cisco-patch.png	threatpost	t	2021-08-26 01:00:02.018557+02	2021-08-26 00:48:34+02	Tom Spring	threatpost/Cisco-Issues-Critical-Fixes-for-High-End-Nexus-Gear
 1021	Biden gets Google, Apple, others to join whole-of-nation cybersecurity effort | ZDNet	After a meeting at the White House, Google and Microsoft committed billions to specific cybersecurity investments while Apple, Amazon and IBM made their own promises.	https://www.zdnet.com/article/tech-giants-make-cybersecurity-commitments-after-white-house-meeting/	https://www.zdnet.com/a/hub/i/r/2017/02/17/70489b0a-91dc-488d-9600-f5a0ea437e34/thumbnail/770x578/af901b091519ed656a1b9fa4471f9129/shutterstock23383342.jpg	zdnet	t	2021-08-26 03:00:02.636182+02	2021-08-25 23:45:52+02	Stephanie Condon	zdnet/Biden-gets-Google-Apple-others-to-join-whole-of-nation-cybersecurity-effort
+1022	PJCIS recommends passage of Bill that will allow incidental collection of Australian data | ZDNet	Foreign Intelligence Legislation Amendment Bill will align Australia with its Five Eyes allies, but will have stronger protections, PJCIS claims.	https://www.zdnet.com/article/pjcis-recommends-passage-of-bill-that-will-allow-incidental-collection-of-australian-data/	https://www.zdnet.com/a/hub/i/r/2016/07/26/dee2c353-598e-46d1-9f69-ed22fcc60470/thumbnail/770x578/0e4d9458bfa95fe4354f91e631a75960/macsymantec.jpg	zdnet	t	2021-08-26 07:00:02.502234+02	2021-08-26 04:44:00+02	Chris Duckett	zdnet/PJCIS-recommends-passage-of-Bill-that-will-allow-incidental-collection-of-Australian-data
+1023	US gives Huawei licence approval to buy automotive chips: Report | ZDNet	The chips will reportedly go to Huawei for vehicle components, such as video screens and sensors.	https://www.zdnet.com/article/us-gives-huawei-licence-approval-to-buy-automotive-chips-report/	https://www.zdnet.com/a/hub/i/r/2021/06/09/a9b16407-57b7-40ed-8320-bc9e54f4a0bd/thumbnail/770x578/d62d5072753666ac2982db984ef3176e/huawei-hq.jpg	zdnet	t	2021-08-26 07:00:02.502234+02	2021-08-26 04:35:26+02	Campbell Kwan	zdnet/US-gives-Huawei-licence-approval-to-buy-automotive-chips-Report
 \.
 
 
@@ -1072,7 +1074,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1021, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1023, true);
 
 
 --
