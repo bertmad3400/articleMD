@@ -1070,6 +1070,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1024	Quantum computers could read all your encrypted data. This 'quantum-safe' VPN aims to stop that | ZDNet	Verizon has successfully deployed a VPN across the Atlantic that could withstand quantum attacks.	https://www.zdnet.com/article/quantum-computers-could-read-all-our-encrypted-data-this-quantum-safe-vpn-is-trying-to-prevent-that/	https://www.zdnet.com/a/hub/i/r/2021/08/26/75ad71de-ed73-4110-a434-2ec9e761c465/thumbnail/770x578/2843ad5f4d2129d946db65bfe23d3c70/gettyimages-1130383535.jpg	zdnet	t	2021-08-26 12:00:02.48713+02	2021-08-26 09:51:00+02	Daphne Leprince-Ringuet	zdnet/Quantum-computers-could-read-all-your-encrypted-data-This-quantum-safe-VPN-aims-to-stop-that
 1025	Data protection: UK to diverge from GDPR in post-Brexit overhaul of privacy rules | ZDNet	Government claims that a new data policy will allow innovation and economic growth, but privacy experts are sceptical and warn it could result in less privacy protections for consumers.	https://www.zdnet.com/article/data-protection-to-diverge-from-gdpr-in-post-brexit-overhaul-of-privacy-rules/	https://www.zdnet.com/a/hub/i/r/2020/01/08/0baefebb-da38-4724-9897-bebc8f02dda7/thumbnail/770x578/db2964bc82901dbf5be838399eac90ee/istock-9645820681.jpg	zdnet	t	2021-08-26 13:00:01.94385+02	2021-08-26 10:36:05+02	Danny Palmer	zdnet/Data-protection-UK-to-diverge-from-GDPR-in-post-Brexit-overhaul-of-privacy-rules
 1026	Cybersecurity warning: Realtek flaw exposes dozens of brands to supply chain attacks | ZDNet	New attacks on IoT devices highlight weakness in the software supply chain.	https://www.zdnet.com/article/realtek-hardware-bugs-expose-dozens-of-brands-to-supply-chain-cyber-attack/	https://www.zdnet.com/a/hub/i/r/2016/10/04/dcbb73c7-fbb8-4544-a39f-248fe29e908b/thumbnail/770x578/aebf7b5a56ad8b261a9ed3bf7ad567e0/global-network-istock.jpg	zdnet	t	2021-08-26 13:00:01.94385+02	2021-08-26 10:05:18+02	Liam Tung	zdnet/Cybersecurity-warning-Realtek-flaw-exposes-dozens-of-brands-to-supply-chain-attacks
+1027	Cloud storage deal: Get 2TB of storage with end-to-end encryption for only $10 | ZDNet	Nothing offers more protection for your confidential files than powerful end-to-end encryption, and now you can get it in a user-friendly app at a very low cost.	https://www.zdnet.com/article/cloud-storage-deal-get-2tb-of-storage-with-end-to-end-encryption-for-only-10/	https://www.zdnet.com/a/hub/i/r/2020/04/23/504eda14-9070-488e-a2c1-ccbebe07bde7/thumbnail/770x578/862e62d65318de93999383bbaa08a3e6/istock-1069547928.jpg	zdnet	t	2021-08-26 14:00:02.660645+02	2021-08-26 11:00:04+02	ZDNet Academy	zdnet/Cloud-storage-deal-Get-2TB-of-storage-with-end-to-end-encryption-for-only-10
 \.
 
 
@@ -1077,7 +1078,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1026, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1027, true);
 
 
 --
