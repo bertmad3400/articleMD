@@ -1071,6 +1071,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1025	Data protection: UK to diverge from GDPR in post-Brexit overhaul of privacy rules | ZDNet	Government claims that a new data policy will allow innovation and economic growth, but privacy experts are sceptical and warn it could result in less privacy protections for consumers.	https://www.zdnet.com/article/data-protection-to-diverge-from-gdpr-in-post-brexit-overhaul-of-privacy-rules/	https://www.zdnet.com/a/hub/i/r/2020/01/08/0baefebb-da38-4724-9897-bebc8f02dda7/thumbnail/770x578/db2964bc82901dbf5be838399eac90ee/istock-9645820681.jpg	zdnet	t	2021-08-26 13:00:01.94385+02	2021-08-26 10:36:05+02	Danny Palmer	zdnet/Data-protection-UK-to-diverge-from-GDPR-in-post-Brexit-overhaul-of-privacy-rules
 1026	Cybersecurity warning: Realtek flaw exposes dozens of brands to supply chain attacks | ZDNet	New attacks on IoT devices highlight weakness in the software supply chain.	https://www.zdnet.com/article/realtek-hardware-bugs-expose-dozens-of-brands-to-supply-chain-cyber-attack/	https://www.zdnet.com/a/hub/i/r/2016/10/04/dcbb73c7-fbb8-4544-a39f-248fe29e908b/thumbnail/770x578/aebf7b5a56ad8b261a9ed3bf7ad567e0/global-network-istock.jpg	zdnet	t	2021-08-26 13:00:01.94385+02	2021-08-26 10:05:18+02	Liam Tung	zdnet/Cybersecurity-warning-Realtek-flaw-exposes-dozens-of-brands-to-supply-chain-attacks
 1027	Cloud storage deal: Get 2TB of storage with end-to-end encryption for only $10 | ZDNet	Nothing offers more protection for your confidential files than powerful end-to-end encryption, and now you can get it in a user-friendly app at a very low cost.	https://www.zdnet.com/article/cloud-storage-deal-get-2tb-of-storage-with-end-to-end-encryption-for-only-10/	https://www.zdnet.com/a/hub/i/r/2020/04/23/504eda14-9070-488e-a2c1-ccbebe07bde7/thumbnail/770x578/862e62d65318de93999383bbaa08a3e6/istock-1069547928.jpg	zdnet	t	2021-08-26 14:00:02.660645+02	2021-08-26 11:00:04+02	ZDNet Academy	zdnet/Cloud-storage-deal-Get-2TB-of-storage-with-end-to-end-encryption-for-only-10
+1028	Microsoft Breaks Silence on Barrage of ProxyShell Attacks	versions of the software are affected by a spate of bugs under active exploitations.	https://kasperskycontenthub.com/threatpost-global/?p=168943	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/26083932/exchange-server-microsoft.jpg	threatpost	t	2021-08-26 15:00:02.209792+02	2021-08-26 14:39:54+02	Elizabeth Montalbano	threatpost/Microsoft-Breaks-Silence-on-Barrage-of-ProxyShell-Attacks
 \.
 
 
@@ -1078,7 +1079,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1027, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1028, true);
 
 
 --
