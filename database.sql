@@ -1067,6 +1067,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1021	Biden gets Google, Apple, others to join whole-of-nation cybersecurity effort | ZDNet	After a meeting at the White House, Google and Microsoft committed billions to specific cybersecurity investments while Apple, Amazon and IBM made their own promises.	https://www.zdnet.com/article/tech-giants-make-cybersecurity-commitments-after-white-house-meeting/	https://www.zdnet.com/a/hub/i/r/2017/02/17/70489b0a-91dc-488d-9600-f5a0ea437e34/thumbnail/770x578/af901b091519ed656a1b9fa4471f9129/shutterstock23383342.jpg	zdnet	t	2021-08-26 03:00:02.636182+02	2021-08-25 23:45:52+02	Stephanie Condon	zdnet/Biden-gets-Google-Apple-others-to-join-whole-of-nation-cybersecurity-effort
 1022	PJCIS recommends passage of Bill that will allow incidental collection of Australian data | ZDNet	Foreign Intelligence Legislation Amendment Bill will align Australia with its Five Eyes allies, but will have stronger protections, PJCIS claims.	https://www.zdnet.com/article/pjcis-recommends-passage-of-bill-that-will-allow-incidental-collection-of-australian-data/	https://www.zdnet.com/a/hub/i/r/2016/07/26/dee2c353-598e-46d1-9f69-ed22fcc60470/thumbnail/770x578/0e4d9458bfa95fe4354f91e631a75960/macsymantec.jpg	zdnet	t	2021-08-26 07:00:02.502234+02	2021-08-26 04:44:00+02	Chris Duckett	zdnet/PJCIS-recommends-passage-of-Bill-that-will-allow-incidental-collection-of-Australian-data
 1023	US gives Huawei licence approval to buy automotive chips: Report | ZDNet	The chips will reportedly go to Huawei for vehicle components, such as video screens and sensors.	https://www.zdnet.com/article/us-gives-huawei-licence-approval-to-buy-automotive-chips-report/	https://www.zdnet.com/a/hub/i/r/2021/06/09/a9b16407-57b7-40ed-8320-bc9e54f4a0bd/thumbnail/770x578/d62d5072753666ac2982db984ef3176e/huawei-hq.jpg	zdnet	t	2021-08-26 07:00:02.502234+02	2021-08-26 04:35:26+02	Campbell Kwan	zdnet/US-gives-Huawei-licence-approval-to-buy-automotive-chips-Report
+1024	Quantum computers could read all your encrypted data. This 'quantum-safe' VPN aims to stop that | ZDNet	Verizon has successfully deployed a VPN across the Atlantic that could withstand quantum attacks.	https://www.zdnet.com/article/quantum-computers-could-read-all-our-encrypted-data-this-quantum-safe-vpn-is-trying-to-prevent-that/	https://www.zdnet.com/a/hub/i/r/2021/08/26/75ad71de-ed73-4110-a434-2ec9e761c465/thumbnail/770x578/2843ad5f4d2129d946db65bfe23d3c70/gettyimages-1130383535.jpg	zdnet	t	2021-08-26 12:00:02.48713+02	2021-08-26 09:51:00+02	Daphne Leprince-Ringuet	zdnet/Quantum-computers-could-read-all-your-encrypted-data-This-quantum-safe-VPN-aims-to-stop-that
 \.
 
 
@@ -1074,7 +1075,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1023, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1024, true);
 
 
 --
