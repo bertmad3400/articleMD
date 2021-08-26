@@ -1064,6 +1064,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1018	Microsoft will add secure preview for Office 365 quarantined emails	Microsoft is updating Defender for Office 365 to protect customers from embedded email threats while previewing quarantined emails.	https://www.bleepingcomputer.com/news/microsoft/microsoft-will-add-secure-preview-for-office-365-quarantined-emails/	https://www.bleepstatic.com/content/hl-images/2020/11/06/Office-365.jpg	bleepingcomputer	t	2021-08-25 23:00:01.971044+02	2021-08-25 21:15:00+02	Sergiu Gatlan	bleepingcomputer/Microsoft-will-add-secure-preview-for-Office-365-quarantined-emails
 1019	Facebook will let bug hunters submit joint reports	Social media giant Facebook updated today its bug bounty program to allow security researchers to submit joint reports and split bug bounty payouts.	https://therecord.media/facebook-will-let-bug-hunters-submit-joint-reports/	https://therecord.media/wp-content/uploads/2021/05/Facebook-e1626363450106.png	therecord	t	2021-08-26 01:00:02.018557+02	2021-08-26 00:22:43+02	Catalin Cimpanu	therecord/Facebook-will-let-bug-hunters-submit-joint-reports
 1020	Cisco Issues Critical Fixes for High-End Nexus Gear	Networking giant issues two critical patches and six high-severity patches.	https://kasperskycontenthub.com/threatpost-global/?p=168939	https://media.threatpost.com/wp-content/uploads/sites/103/2020/07/30102437/cisco-patch.png	threatpost	t	2021-08-26 01:00:02.018557+02	2021-08-26 00:48:34+02	Tom Spring	threatpost/Cisco-Issues-Critical-Fixes-for-High-End-Nexus-Gear
+1021	Biden gets Google, Apple, others to join whole-of-nation cybersecurity effort | ZDNet	After a meeting at the White House, Google and Microsoft committed billions to specific cybersecurity investments while Apple, Amazon and IBM made their own promises.	https://www.zdnet.com/article/tech-giants-make-cybersecurity-commitments-after-white-house-meeting/	https://www.zdnet.com/a/hub/i/r/2017/02/17/70489b0a-91dc-488d-9600-f5a0ea437e34/thumbnail/770x578/af901b091519ed656a1b9fa4471f9129/shutterstock23383342.jpg	zdnet	t	2021-08-26 03:00:02.636182+02	2021-08-25 23:45:52+02	Stephanie Condon	zdnet/Biden-gets-Google-Apple-others-to-join-whole-of-nation-cybersecurity-effort
 \.
 
 
@@ -1071,7 +1072,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1020, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1021, true);
 
 
 --
