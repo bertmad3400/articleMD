@@ -1086,6 +1086,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1041	WhatsApp, Facebook, and Twitter fined for not storing user data inside Russia	A Moscow court has fined WhatsApp, Facebook, and Twitter for not storing the data of Russian users inside Russia's borders, Roskomnadzor, the country's telecoms regulator, announced today.	https://therecord.media/whatsapp-facebook-and-twitter-fined-for-not-storing-user-data-inside-russia/	https://therecord.media/wp-content/uploads/2021/08/social-media-apps.jpg	therecord	t	2021-08-26 22:00:02.044412+02	2021-08-26 21:01:57+02	Catalin Cimpanu	therecord/WhatsApp-Facebook-and-Twitter-fined-for-not-storing-user-data-inside-Russia
 1040	K-12 schools face escalating cybersecurity challenges	Cybersecurity risks facing school districts are escalating as primary and secondary educational institutions have become more dependent than ever on digital systems during the pandemic, an education cybersecurity non-profit warned on Thursday.	https://therecord.media/k-12-schools-face-escalating-cybersecurity-challenges/	https://therecord.media/wp-content/uploads/2021/08/moshed-08-26-15-30-30.png	therecord	t	2021-08-26 22:00:02.044412+02	2021-08-26 21:32:41+02	Andrea Peterson	therecord/K-12-schools-face-escalating-cybersecurity-challenges
 1042	Man Sues Parents of Teens Who Hijacked Nearly $1M in Bitcoin	Now adults, the then-teens apparently used clipboard hijacking malware to steal Bitcoin.	https://kasperskycontenthub.com/threatpost-global/?p=168964	https://media.threatpost.com/wp-content/uploads/sites/103/2015/05/07004129/cyber-thief-e1630010631313.jpg	threatpost	t	2021-08-26 23:00:01.813156+02	2021-08-26 22:50:23+02	Becky Bracken	threatpost/Man-Sues-Parents-of-Teens-Who-Hijacked-Nearly-1M-in-Bitcoin
+1043	Ragnarok ransomware releases master decryptor after shutdown	Ragnarok ransomware gang appears to have called it quits and released the master key that can decrypt files locked with their malware.	https://www.bleepingcomputer.com/news/security/ragnarok-ransomware-releases-master-decryptor-after-shutdown/	https://www.bleepstatic.com/content/hl-images/2021/02/07/brighter-key.jpg	bleepingcomputer	t	2021-08-27 01:00:02.307118+02	2021-08-27 00:36:35+02	Ionut Ilascu	bleepingcomputer/Ragnarok-ransomware-releases-master-decryptor-after-shutdown
 \.
 
 
@@ -1093,7 +1094,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1042, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1043, true);
 
 
 --
