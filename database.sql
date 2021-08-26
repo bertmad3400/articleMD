@@ -1078,6 +1078,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1032	Kaseya patches Unitrends server zero-days, issues client mitigations	American software company Kaseya has issued a security updates to patch server side Kaseya Unitrends vulnerabilities found by security researchers at the Dutch Institute for Vulnerability Disclosure (DIVD).	https://www.bleepingcomputer.com/news/security/kaseya-patches-unitrends-server-zero-days-issues-client-mitigations/	https://www.bleepstatic.com/content/hl-images/2021/07/05/Kaseya.jpg	bleepingcomputer	t	2021-08-26 18:00:02.64+02	2021-08-26 17:10:48+02	Sergiu Gatlan	bleepingcomputer/Kaseya-patches-Unitrends-server-zero-days-issues-client-mitigations
 1033	F5 Bug Could Lead to Complete System Takeover	The worst of 13 bugs fixed by the August updates could lead to complete system compromise for users in sensitive sectors running products in Appliance mode.	https://kasperskycontenthub.com/threatpost-global/?p=168952	https://media.threatpost.com/wp-content/uploads/sites/103/2021/04/29155056/F5-Big-IP-e1619725870974.jpg	threatpost	t	2021-08-26 19:00:01.743363+02	2021-08-26 18:40:38+02	Lisa Vaas	threatpost/F5-Bug-Could-Lead-to-Complete-System-Takeover
 1034	Podcast: Ransomware Up Tenfold; Telecoms Getting Walloped	Derek Manky, Chief, Security Insights & Global Threat Alliances at Fortinet’s FortiGuard Labs, discusses the top threats and lessons learned from the first half of 2021.	https://kasperskycontenthub.com/threatpost-global/?p=168913	https://media.threatpost.com/wp-content/uploads/sites/103/2020/07/28082542/cybersecurity-threats.jpg	threatpost	t	2021-08-26 19:00:01.743363+02	2021-08-26 15:00:11+02	Threatpost	threatpost/Podcast-Ransomware-Up-x10-Disrupting-Cybercrime-Suppy-Chains-an-Opportunity
+1035	Chinese developers expose data belonging to Android gamers | ZDNet	In the end, Hong Kong CERT was contacted in an attempt to resolve the security issue.	https://www.zdnet.com/article/chinese-developers-expose-data-belonging-to-android-gamers/	https://www.zdnet.com/a/hub/i/r/2021/08/20/814396ab-7d28-4423-bfbd-fd97c8ad1ab2/thumbnail/770x578/97ecbd166440a9e93a96013c5bf49946/shutterstock-1589396674.jpg	zdnet	t	2021-08-26 20:00:02.308779+02	2021-08-26 16:34:56+02	Charlie Osborne	zdnet/Chinese-developers-expose-data-belonging-to-Android-gamers
+1036	Western Digital confirms speed crippling SN550 SSD flash change	Western Digital has confirmed that it changed the NAND flash memory in one of its most popular M.2 NVMe SSD models, the WD Blue SN550, which crippled writing speeds according to several reports, leading to a 50% performance hit.	https://www.bleepingcomputer.com/news/hardware/western-digital-confirms-speed-crippling-sn550-ssd-flash-change/	https://www.bleepstatic.com/content/hl-images/2021/08/26/Western-Digital.jpg	bleepingcomputer	t	2021-08-26 20:00:02.308779+02	2021-08-26 19:17:28+02	Sergiu Gatlan	bleepingcomputer/Western-Digital-confirms-speed-crippling-SN550-SSD-flash-change
 \.
 
 
@@ -1085,7 +1087,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1034, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1036, true);
 
 
 --
