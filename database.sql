@@ -1072,6 +1072,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1026	Cybersecurity warning: Realtek flaw exposes dozens of brands to supply chain attacks | ZDNet	New attacks on IoT devices highlight weakness in the software supply chain.	https://www.zdnet.com/article/realtek-hardware-bugs-expose-dozens-of-brands-to-supply-chain-cyber-attack/	https://www.zdnet.com/a/hub/i/r/2016/10/04/dcbb73c7-fbb8-4544-a39f-248fe29e908b/thumbnail/770x578/aebf7b5a56ad8b261a9ed3bf7ad567e0/global-network-istock.jpg	zdnet	t	2021-08-26 13:00:01.94385+02	2021-08-26 10:05:18+02	Liam Tung	zdnet/Cybersecurity-warning-Realtek-flaw-exposes-dozens-of-brands-to-supply-chain-attacks
 1027	Cloud storage deal: Get 2TB of storage with end-to-end encryption for only $10 | ZDNet	Nothing offers more protection for your confidential files than powerful end-to-end encryption, and now you can get it in a user-friendly app at a very low cost.	https://www.zdnet.com/article/cloud-storage-deal-get-2tb-of-storage-with-end-to-end-encryption-for-only-10/	https://www.zdnet.com/a/hub/i/r/2020/04/23/504eda14-9070-488e-a2c1-ccbebe07bde7/thumbnail/770x578/862e62d65318de93999383bbaa08a3e6/istock-1069547928.jpg	zdnet	t	2021-08-26 14:00:02.660645+02	2021-08-26 11:00:04+02	ZDNet Academy	zdnet/Cloud-storage-deal-Get-2TB-of-storage-with-end-to-end-encryption-for-only-10
 1028	Microsoft Breaks Silence on Barrage of ProxyShell Attacks	versions of the software are affected by a spate of bugs under active exploitations.	https://kasperskycontenthub.com/threatpost-global/?p=168943	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/26083932/exchange-server-microsoft.jpg	threatpost	t	2021-08-26 15:00:02.209792+02	2021-08-26 14:39:54+02	Elizabeth Montalbano	threatpost/Microsoft-Breaks-Silence-on-Barrage-of-ProxyShell-Attacks
+1029	Microsoft accidentally lowers OneDrive for Business storage limits	Microsoft is investigating an ongoing issue impacting OneDrive for Business customers and causing their storage space to shrink down to the default setting or switching them to read-only mode, forcing some to delete files to free up space to work on their projects.	https://www.bleepingcomputer.com/news/microsoft/microsoft-accidentally-lowers-onedrive-for-business-storage-limits/	https://www.bleepstatic.com/content/hl-images/2021/05/19/OneDrive.jpg	bleepingcomputer	t	2021-08-26 16:00:01.88057+02	2021-08-26 15:05:41+02	Sergiu Gatlan	bleepingcomputer/Microsoft-accidentally-lowers-OneDrive-for-Business-storage-limits
+1030	What did the White House and U.S. tech giants pledge to do on cyber, exactly?	The White House and U.S tech giants on Wednesday made a host of commitments intended to boost the country's cybersecurity.	https://therecord.media/what-did-the-white-house-and-u-s-tech-giants-pledge-to-do-on-cyber-exactly/	https://therecord.media/wp-content/uploads/2021/08/moshed-08-26-9-47-3.png	therecord	t	2021-08-26 16:00:01.88057+02	2021-08-26 15:48:09+02	Martin Matishak	therecord/What-did-the-White-House-and-US-tech-giants-pledge-to-do-on-cyber-exactly
 \.
 
 
@@ -1079,7 +1081,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1028, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1030, true);
 
 
 --
