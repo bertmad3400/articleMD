@@ -1095,6 +1095,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1049	Ransomware: It's only a matter of time before a smart city falls victim, and we need to take action now | ZDNet	Ransomware groups go after targets that downtime causes the most disruption for. That means an insecure 5G IoT connected city could be a prime target for extortion attacks.	https://www.zdnet.com/article/ransomware-its-only-a-matter-of-time-before-an-iot-smart-city-falls-victim-to-an-attack-if-action-isnt-taken-now/	https://www.zdnet.com/a/hub/i/r/2019/02/01/5099c4c1-59ac-4aca-885c-426b9da4acc7/thumbnail/770x578/85796b8fdb8e5fa87b506cd025c41a1e/5g-smart-cities2-thumb.jpg	zdnet	t	2021-08-27 12:00:02.258929+02	2021-08-27 09:17:00+02	Danny Palmer	zdnet/Ransomware-Its-only-a-matter-of-time-before-a-smart-city-falls-victim-and-we-need-to-take-action-now
 1050	Parents of teens who stole $1 million in Bitcoin sued by alleged victim | ZDNet	Clipboard malware was developed with the sole purpose of stealing cryptocurrency.	https://www.zdnet.com/article/parents-of-teens-who-stole-1-million-in-bitcoin-sued-by-alleged-victim/	https://www.zdnet.com/a/hub/i/r/2021/07/08/171c5205-7081-4092-accf-78fcc659aa0c/thumbnail/770x578/047eb0b0cd5d356deda50437f3f3e5ab/cryptocurrency-scam-apps.jpg	zdnet	t	2021-08-27 13:00:01.724446+02	2021-08-27 10:45:24+02	Charlie Osborne	zdnet/Parents-of-teens-who-stole-1-million-in-Bitcoin-sued-by-alleged-victim
 1051	Google: Here's how our $10bn investment will boost US cybersecurity | ZDNet	Google has outlined its efforts to shape the US government's zero-trust initiative based on President Biden's Executive Order on cybersecurity.	https://www.zdnet.com/article/software-supply-chain-security-google-touts-its-10bn-investment-and-zero-trust-work/	https://www.zdnet.com/a/hub/i/r/2019/08/26/841ed0f1-9175-4a93-9505-9b6bc89fa7b7/thumbnail/770x578/5c1db75999152d6a6fa80c10c1f7ff6c/istock-1054787534.jpg	zdnet	t	2021-08-27 13:00:01.724446+02	2021-08-27 10:26:51+02	Liam Tung	zdnet/Google-Heres-how-our-10bn-investment-will-boost-US-cybersecurity
+1052	IronNet closes merger, becomes public company	IronNet Cybersecurity, a company founded and led by former U.S. Cyber Command and NSA chief Keith Alexander, has completed a merger with LGL Systems Acquisition Corp., the firm said Friday.	https://therecord.media/ironnet-closes-merger-becomes-public-company/	https://therecord.media/wp-content/uploads/2021/08/logo-ironnet.jpg	therecord	t	2021-08-27 14:00:01.875884+02	2021-08-27 13:31:42+02	Martin Matishak	therecord/IronNet-closes-merger-becomes-public-company
 \.
 
 
@@ -1102,7 +1103,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1051, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1052, true);
 
 
 --
