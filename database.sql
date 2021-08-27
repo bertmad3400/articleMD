@@ -1089,6 +1089,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1043	Ragnarok ransomware releases master decryptor after shutdown	Ragnarok ransomware gang appears to have called it quits and released the master key that can decrypt files locked with their malware.	https://www.bleepingcomputer.com/news/security/ragnarok-ransomware-releases-master-decryptor-after-shutdown/	https://www.bleepstatic.com/content/hl-images/2021/02/07/brighter-key.jpg	bleepingcomputer	t	2021-08-27 01:00:02.307118+02	2021-08-27 00:36:35+02	Ionut Ilascu	bleepingcomputer/Ragnarok-ransomware-releases-master-decryptor-after-shutdown
 1044	FBI releases alert about Hive ransomware after attack on hospital system in Ohio and West Virginia | ZDNet	Hive has so far attacked at least 28 organizations, including Memorial Health System on August 15.	https://www.zdnet.com/article/fbi-releases-alert-about-hive-ransomware-after-attack-on-hospital-system/	https://www.zdnet.com/a/hub/i/r/2020/09/17/c2347b8b-a37f-46f1-b8e9-dee91dba3ccc/thumbnail/770x578/5007ea9b94f58cb373feece2c2e5ebfe/ambulance-hospital.jpg	zdnet	t	2021-08-27 02:00:02.501961+02	2021-08-26 23:14:33+02	Jonathan Greig	zdnet/FBI-releases-alert-about-Hive-ransomware-after-attack-on-hospital-system-in-Ohio-and-West-Virginia
 1045	Ragnarok ransomware operation shuts down and releases free decrypter	The Ragnarok (or Asnarök) ransomware gang shut down their operation today and released a free decryption utility to help victims recover their files.	https://therecord.media/ragnarok-ransomware-operation-shuts-down-and-releases-free-decrypter/	https://therecord.media/wp-content/uploads/2021/08/decryption-keys.jpg	therecord	t	2021-08-27 02:00:02.501961+02	2021-08-27 01:16:17+02	Catalin Cimpanu	therecord/Ragnarok-ransomware-operation-shuts-down-and-releases-free-decrypter
+1046	EU agency advises against using search & browsing history for credit scores	The European Union's lead data protection supervisor has recommended on Thursday that personal data such as search queries & internet browsing history should not be used for the assessment of credit scores and creditworthiness.	https://therecord.media/eu-agency-advises-against-using-search-browsing-history-for-credit-scores/	https://therecord.media/wp-content/uploads/2021/08/credit-loan.jpg	therecord	t	2021-08-27 06:00:02.424624+02	2021-08-27 05:05:27+02	Catalin Cimpanu	therecord/EU-agency-advises-against-using-search--browsing-history-for-credit-scores
 \.
 
 
@@ -1096,7 +1097,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1045, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1046, true);
 
 
 --
