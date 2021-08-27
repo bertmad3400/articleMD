@@ -1102,6 +1102,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1056	Fake DMCA complaints, DDoS threats lead to BazaLoader malware	Cybercriminals behind the BazaLoader malware came up with a new lure to trick website owners into opening malicious files: fake notifications about the site being engaged in distributed denial-of-service (DDoS) attacks.	https://www.bleepingcomputer.com/news/security/fake-dmca-complaints-ddos-threats-lead-to-bazaloader-malware/	https://www.bleepstatic.com/content/posts/2021/08/27/trojan-horse-chip.jpg	bleepingcomputer	t	2021-08-27 16:00:02.278895+02	2021-08-27 15:30:54+02	Ionut Ilascu	bleepingcomputer/Fake-DMCA-complaints-DDoS-threats-lead-to-BazaLoader-malware
 1057	Ragnarok Ransomware Gang Bites the Dust, Releases Decryptor	The cybercriminal group, active since late 2019, has closed its doors and released the key to unlocking victims’ files on its dark web portal.	https://kasperskycontenthub.com/threatpost-global/?p=168976	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27094723/encryption-key.jpg	threatpost	t	2021-08-27 16:00:02.278895+02	2021-08-27 15:50:44+02	Elizabeth Montalbano	threatpost/Ragnarok-Ransomware-Gang-Bites-the-Dust-Releases-Decryptor
 1058	Top Strategies That Define the Success of a Modern Vulnerability Management Program	Modern vulnerability management programs require a strategy that defines what success means for your organization’s cybersecurity goals. By incorporating a few simple cyber hygiene routines to your daily security routine, you’ll set up your IT teams to be better equipped to steer off cyberattacks.	https://kasperskycontenthub.com/threatpost-global/?p=168604	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/24130931/SecPod-Featured-Image.png	threatpost	t	2021-08-27 16:00:02.278895+02	2021-08-27 15:00:36+02	Pat Cooper	threatpost/Top-Strategies-That-Define-the-Success-of-a-Modern-Vulnerability-Management-Program
+1059	Windows 10 upgrades blocked by old CryptoPro SCP versions	Microsoft has applied a compatibility hold on systems running older versions of CryptoPro CSP, blocking them from being offered or installing Windows 10, version 2004 or later.	https://www.bleepingcomputer.com/news/microsoft/windows-10-upgrades-blocked-by-old-cryptopro-scp-versions/	https://www.bleepstatic.com/content/posts/2021/08/27/Windows-10.jpg	bleepingcomputer	t	2021-08-27 17:00:02.337408+02	2021-08-27 16:22:36+02	Sergiu Gatlan	bleepingcomputer/Windows-10-upgrades-blocked-by-old-CryptoPro-SCP-versions
+1060	A new wave of Hacktivists is turning the surveillance state against itself	Images and videos from oppressive regimes’ surveillance systems are being leaked in a new surge of suspected hacktivism that uses states’ own panopticons against them.	https://therecord.media/a-new-wave-of-hacktivists-is-turning-the-surveillance-state-against-itself/	https://therecord.media/wp-content/uploads/2021/08/moshed-08-27-10-21-54.png	therecord	t	2021-08-27 17:00:02.337408+02	2021-08-27 16:53:14+02	Andrea Peterson	therecord/A-new-wave-of-Hacktivists-is-turning-the-surveillance-state-against-itself
 \.
 
 
@@ -1109,7 +1111,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1058, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1060, true);
 
 
 --
