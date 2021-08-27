@@ -1090,6 +1090,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1044	FBI releases alert about Hive ransomware after attack on hospital system in Ohio and West Virginia | ZDNet	Hive has so far attacked at least 28 organizations, including Memorial Health System on August 15.	https://www.zdnet.com/article/fbi-releases-alert-about-hive-ransomware-after-attack-on-hospital-system/	https://www.zdnet.com/a/hub/i/r/2020/09/17/c2347b8b-a37f-46f1-b8e9-dee91dba3ccc/thumbnail/770x578/5007ea9b94f58cb373feece2c2e5ebfe/ambulance-hospital.jpg	zdnet	t	2021-08-27 02:00:02.501961+02	2021-08-26 23:14:33+02	Jonathan Greig	zdnet/FBI-releases-alert-about-Hive-ransomware-after-attack-on-hospital-system-in-Ohio-and-West-Virginia
 1045	Ragnarok ransomware operation shuts down and releases free decrypter	The Ragnarok (or Asnarök) ransomware gang shut down their operation today and released a free decryption utility to help victims recover their files.	https://therecord.media/ragnarok-ransomware-operation-shuts-down-and-releases-free-decrypter/	https://therecord.media/wp-content/uploads/2021/08/decryption-keys.jpg	therecord	t	2021-08-27 02:00:02.501961+02	2021-08-27 01:16:17+02	Catalin Cimpanu	therecord/Ragnarok-ransomware-operation-shuts-down-and-releases-free-decrypter
 1046	EU agency advises against using search & browsing history for credit scores	The European Union's lead data protection supervisor has recommended on Thursday that personal data such as search queries & internet browsing history should not be used for the assessment of credit scores and creditworthiness.	https://therecord.media/eu-agency-advises-against-using-search-browsing-history-for-credit-scores/	https://therecord.media/wp-content/uploads/2021/08/credit-loan.jpg	therecord	t	2021-08-27 06:00:02.424624+02	2021-08-27 05:05:27+02	Catalin Cimpanu	therecord/EU-agency-advises-against-using-search--browsing-history-for-credit-scores
+1047	Home Affairs believes technological capability not there yet for cryptocurrency travel rule | ZDNet	While a travel rule would be a 'game changer', both Home Affairs and Austrac believe more technology development is required before the rule is implemented.	https://www.zdnet.com/article/home-affairs-believes-technological-capability-not-there-yet-for-cryptocurrency-travel-rule/	https://www.zdnet.com/a/hub/i/r/2021/08/20/019d2a0b-1d76-42c0-84de-5465c062d592/thumbnail/770x578/e5e1b8a213ddbae926fa3b06c586bfdb/crypto-transaction.jpg	zdnet	t	2021-08-27 10:00:01.831145+02	2021-08-27 07:19:10+02	Campbell Kwan	zdnet/Home-Affairs-believes-technological-capability-not-there-yet-for-cryptocurrency-travel-rule
 \.
 
 
@@ -1097,7 +1098,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1046, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1047, true);
 
 
 --
