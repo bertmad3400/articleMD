@@ -1119,6 +1119,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1073	Parallels Offers ‘Inconvenient’ Fix for High-Severity Bug	Firm offers guidance on how to mitigate a five-months-old privilege escalation bug impacting Parallels Desktop 16 for Mac and all previous versions.	https://kasperskycontenthub.com/threatpost-global/?p=168997	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27162938/parallels-desktop.jpg	threatpost	t	2021-08-27 23:00:01.811164+02	2021-08-27 22:54:13+02	Tom Spring	threatpost/Parallels-Offers-Inconvenient-Fix-for-High-Severity-Bug
 1074	Experts: WH Cybersecurity Summit Should Be Followed by Regulation, Enforcement	Amazon, Google, Microsoft etc. making major commitments to shore up nation’s cyber-defenses just won't be enough, researchers say.	https://kasperskycontenthub.com/threatpost-global/?p=169002	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27163149/white_house_grounds-e1630096330575.jpg	threatpost	t	2021-08-27 23:00:01.811164+02	2021-08-27 22:35:05+02	Becky Bracken	threatpost/Experts-WH-Cybersecurity-Summit-Should-Be-Followed-by-Regulation-Enforcement
 1075	Winning the Cyber-Defense Race: Understand the Finish Line	Kerry Matre, Mandiant senior director, clears up misconceptions about the value to business for enterprise cyber-defense. Hint: It's not achieving visibility.	https://kasperskycontenthub.com/threatpost-global/?p=168996	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27161507/runners.jpg	threatpost	t	2021-08-27 23:00:01.811164+02	2021-08-27 22:16:34+02	Kerry Matre	threatpost/Winning-the-Cyber-Defense-Race-Understand-the-Finish-Line
+1076	Cloudflare says it stopped the largest DDoS attack ever reported | ZDNet	Cloudflare's system detected and mitigated a 17.2 million request-per-second DDoS attack, which they said is three times larger than any previous one.	https://www.zdnet.com/article/cloudflare-says-it-stopped-the-largest-ddos-attack-ever-reported/	https://www.zdnet.com/a/hub/i/r/2020/07/27/09376b6a-a21e-458a-a6e6-5cdbbb9912e4/thumbnail/770x578/86c9469a4738c436032ec8cd1213e335/ddos.png	zdnet	t	2021-08-28 01:00:02.183078+02	2021-08-27 22:01:20+02	Jonathan Greig	zdnet/Cloudflare-says-it-stopped-the-largest-DDoS-attack-ever-reported
 \.
 
 
@@ -1126,7 +1127,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1075, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1076, true);
 
 
 --
