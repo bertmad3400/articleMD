@@ -1122,6 +1122,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1076	Cloudflare says it stopped the largest DDoS attack ever reported | ZDNet	Cloudflare's system detected and mitigated a 17.2 million request-per-second DDoS attack, which they said is three times larger than any previous one.	https://www.zdnet.com/article/cloudflare-says-it-stopped-the-largest-ddos-attack-ever-reported/	https://www.zdnet.com/a/hub/i/r/2020/07/27/09376b6a-a21e-458a-a6e6-5cdbbb9912e4/thumbnail/770x578/86c9469a4738c436032ec8cd1213e335/ddos.png	zdnet	t	2021-08-28 01:00:02.183078+02	2021-08-27 22:01:20+02	Jonathan Greig	zdnet/Cloudflare-says-it-stopped-the-largest-DDoS-attack-ever-reported
 1077	DOJ launches program to train prosecutors in cybersecurity topics	The US Department of Justice announced a new fellowship program today designed to train a new generation of prosecutors and attorneys on cybersecurity issues, in order to better tackle national security threats and cybercrime.	https://therecord.media/doj-launches-program-to-train-prosecutors-in-cybersecurity-topics/	https://therecord.media/wp-content/uploads/2021/08/court-training-meeting.jpg	therecord	t	2021-08-28 03:00:02.031267+02	2021-08-28 02:34:07+02	Catalin Cimpanu	therecord/DOJ-launches-program-to-train-prosecutors-in-cybersecurity-topics
 1078	T-Mobile hack: Everything you need to know | ZDNet	More than 50 million T-Mobile customers were affected by the hack and about 48 million social security number were accessed.	https://www.zdnet.com/article/t-mobile-hack-everything-you-need-to-know/	https://www.zdnet.com/a/hub/i/r/2017/12/13/c5bef362-d6b1-488e-8f8c-db4fa85d1202/thumbnail/770x578/b65b521e3c08ebbdac8d044f312512c1/tmobile-sign.jpg	zdnet	t	2021-08-28 15:00:02.251506+02	2021-08-28 12:30:03+02	Jonathan Greig	zdnet/T-Mobile-hack-Everything-you-need-to-know
+1079	T-Mobile’s Security Is ‘Awful,’ Says Purported Thief	John Binns, claiming to be behind the massive T-Mobile theft of >50m customer records, dissed the security measures of the US's No. 2 wireless biggest carrier. T-Mobile is humbled, it said.	https://kasperskycontenthub.com/threatpost-global/?p=169011	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/28125201/thumbs-down-human-hand.jpeg	threatpost	t	2021-08-28 19:00:02.403325+02	2021-08-28 18:58:45+02	Lisa Vaas	threatpost/T-Mobiles-Security-Is-Awful-Says-Purported-Thief
 \.
 
 
@@ -1129,7 +1130,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1078, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1079, true);
 
 
 --
