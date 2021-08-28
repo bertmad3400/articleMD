@@ -1123,6 +1123,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1077	DOJ launches program to train prosecutors in cybersecurity topics	The US Department of Justice announced a new fellowship program today designed to train a new generation of prosecutors and attorneys on cybersecurity issues, in order to better tackle national security threats and cybercrime.	https://therecord.media/doj-launches-program-to-train-prosecutors-in-cybersecurity-topics/	https://therecord.media/wp-content/uploads/2021/08/court-training-meeting.jpg	therecord	t	2021-08-28 03:00:02.031267+02	2021-08-28 02:34:07+02	Catalin Cimpanu	therecord/DOJ-launches-program-to-train-prosecutors-in-cybersecurity-topics
 1078	T-Mobile hack: Everything you need to know | ZDNet	More than 50 million T-Mobile customers were affected by the hack and about 48 million social security number were accessed.	https://www.zdnet.com/article/t-mobile-hack-everything-you-need-to-know/	https://www.zdnet.com/a/hub/i/r/2017/12/13/c5bef362-d6b1-488e-8f8c-db4fa85d1202/thumbnail/770x578/b65b521e3c08ebbdac8d044f312512c1/tmobile-sign.jpg	zdnet	t	2021-08-28 15:00:02.251506+02	2021-08-28 12:30:03+02	Jonathan Greig	zdnet/T-Mobile-hack-Everything-you-need-to-know
 1079	T-Mobile’s Security Is ‘Awful,’ Says Purported Thief	John Binns, claiming to be behind the massive T-Mobile theft of >50m customer records, dissed the security measures of the US's No. 2 wireless biggest carrier. T-Mobile is humbled, it said.	https://kasperskycontenthub.com/threatpost-global/?p=169011	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/28125201/thumbs-down-human-hand.jpeg	threatpost	t	2021-08-28 19:00:02.403325+02	2021-08-28 18:58:45+02	Lisa Vaas	threatpost/T-Mobiles-Security-Is-Awful-Says-Purported-Thief
+1080	Customize your Windows 10 experience with these free tools	Windows 10 comes with built-in personalization settings to help you customize the desktop and it provides plenty of options by default. However, if you want to get the most out of your desktop, we recommend these third-party open-source programs.	https://www.bleepingcomputer.com/news/microsoft/customize-your-windows-10-experience-with-these-free-tools/	https://www.bleepstatic.com/content/hl-images/2021/05/14/Windows-10.jpg	bleepingcomputer	t	2021-08-29 00:00:01.839358+02	2021-08-28 23:51:30+02	Mayank Parmar	bleepingcomputer/Customize-your-Windows-10-experience-with-these-free-tools
+1081	New Windows 11 Dev build released with Microsoft 365 Widget	Microsoft announced a new Microsoft 365 Widget in the latest Windows 11 Dev build released for Windows Insiders in the Dev and Beta Channels.	https://www.bleepingcomputer.com/news/microsoft/new-windows-11-dev-build-released-with-microsoft-365-widget/	https://www.bleepstatic.com/content/hl-images/2021/06/24/windows-11-header.jpg	bleepingcomputer	t	2021-08-29 00:00:01.839358+02	2021-08-28 16:00:00+02	Sergiu Gatlan	bleepingcomputer/New-Windows-11-Dev-build-released-with-Microsoft-365-Widget
 \.
 
 
@@ -1130,7 +1132,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1079, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1081, true);
 
 
 --
