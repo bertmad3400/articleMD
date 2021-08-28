@@ -1120,6 +1120,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1074	Experts: WH Cybersecurity Summit Should Be Followed by Regulation, Enforcement	Amazon, Google, Microsoft etc. making major commitments to shore up nation’s cyber-defenses just won't be enough, researchers say.	https://kasperskycontenthub.com/threatpost-global/?p=169002	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27163149/white_house_grounds-e1630096330575.jpg	threatpost	t	2021-08-27 23:00:01.811164+02	2021-08-27 22:35:05+02	Becky Bracken	threatpost/Experts-WH-Cybersecurity-Summit-Should-Be-Followed-by-Regulation-Enforcement
 1075	Winning the Cyber-Defense Race: Understand the Finish Line	Kerry Matre, Mandiant senior director, clears up misconceptions about the value to business for enterprise cyber-defense. Hint: It's not achieving visibility.	https://kasperskycontenthub.com/threatpost-global/?p=168996	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/27161507/runners.jpg	threatpost	t	2021-08-27 23:00:01.811164+02	2021-08-27 22:16:34+02	Kerry Matre	threatpost/Winning-the-Cyber-Defense-Race-Understand-the-Finish-Line
 1076	Cloudflare says it stopped the largest DDoS attack ever reported | ZDNet	Cloudflare's system detected and mitigated a 17.2 million request-per-second DDoS attack, which they said is three times larger than any previous one.	https://www.zdnet.com/article/cloudflare-says-it-stopped-the-largest-ddos-attack-ever-reported/	https://www.zdnet.com/a/hub/i/r/2020/07/27/09376b6a-a21e-458a-a6e6-5cdbbb9912e4/thumbnail/770x578/86c9469a4738c436032ec8cd1213e335/ddos.png	zdnet	t	2021-08-28 01:00:02.183078+02	2021-08-27 22:01:20+02	Jonathan Greig	zdnet/Cloudflare-says-it-stopped-the-largest-DDoS-attack-ever-reported
+1077	DOJ launches program to train prosecutors in cybersecurity topics	The US Department of Justice announced a new fellowship program today designed to train a new generation of prosecutors and attorneys on cybersecurity issues, in order to better tackle national security threats and cybercrime.	https://therecord.media/doj-launches-program-to-train-prosecutors-in-cybersecurity-topics/	https://therecord.media/wp-content/uploads/2021/08/court-training-meeting.jpg	therecord	t	2021-08-28 03:00:02.031267+02	2021-08-28 02:34:07+02	Catalin Cimpanu	therecord/DOJ-launches-program-to-train-prosecutors-in-cybersecurity-topics
 \.
 
 
@@ -1127,7 +1128,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1076, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1077, true);
 
 
 --
