@@ -1125,6 +1125,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1079	T-Mobile’s Security Is ‘Awful,’ Says Purported Thief	John Binns, claiming to be behind the massive T-Mobile theft of >50m customer records, dissed the security measures of the US's No. 2 wireless biggest carrier. T-Mobile is humbled, it said.	https://kasperskycontenthub.com/threatpost-global/?p=169011	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/28125201/thumbs-down-human-hand.jpeg	threatpost	t	2021-08-28 19:00:02.403325+02	2021-08-28 18:58:45+02	Lisa Vaas	threatpost/T-Mobiles-Security-Is-Awful-Says-Purported-Thief
 1080	Customize your Windows 10 experience with these free tools	Windows 10 comes with built-in personalization settings to help you customize the desktop and it provides plenty of options by default. However, if you want to get the most out of your desktop, we recommend these third-party open-source programs.	https://www.bleepingcomputer.com/news/microsoft/customize-your-windows-10-experience-with-these-free-tools/	https://www.bleepstatic.com/content/hl-images/2021/05/14/Windows-10.jpg	bleepingcomputer	t	2021-08-29 00:00:01.839358+02	2021-08-28 23:51:30+02	Mayank Parmar	bleepingcomputer/Customize-your-Windows-10-experience-with-these-free-tools
 1081	New Windows 11 Dev build released with Microsoft 365 Widget	Microsoft announced a new Microsoft 365 Widget in the latest Windows 11 Dev build released for Windows Insiders in the Dev and Beta Channels.	https://www.bleepingcomputer.com/news/microsoft/new-windows-11-dev-build-released-with-microsoft-365-widget/	https://www.bleepstatic.com/content/hl-images/2021/06/24/windows-11-header.jpg	bleepingcomputer	t	2021-08-29 00:00:01.839358+02	2021-08-28 16:00:00+02	Sergiu Gatlan	bleepingcomputer/New-Windows-11-Dev-build-released-with-Microsoft-365-Widget
+1082	Windows 11 to only support one Intel 7th gen CPU, no AMD Zen 1 CPUs	Microsoft announced today that after investigating other potentially compatible processors for Windows 11, they only found one 7th generation Intel CPU to be compatible, and no first generation AMD Zen CPUs.	https://www.bleepingcomputer.com/news/microsoft/windows-11-to-only-support-one-intel-7th-gen-cpu-no-amd-zen-1-cpus/	https://www.bleepstatic.com/content/hl-images/2021/08/09/windows-11-square-text.jpg	bleepingcomputer	t	2021-08-29 02:00:02.133375+02	2021-08-27 19:00:00+02	Lawrence Abrams	bleepingcomputer/Windows-11-to-only-support-one-Intel-7th-gen-CPU-no-AMD-Zen-1-CPUs
 \.
 
 
@@ -1132,7 +1133,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1081, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1082, true);
 
 
 --
