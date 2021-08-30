@@ -1143,6 +1143,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1097	QNAP works on patches for OpenSSL bugs impacting its NAS devices	Network-attached storage (NAS) maker QNAP is investigating and working on security updates to address remote code execution (RCE) and denial-of-service (DoS) vulnerabilities patched by OpenSSL last week.	https://www.bleepingcomputer.com/news/security/qnap-works-on-patches-for-openssl-bugs-impacting-its-nas-devices/	https://www.bleepstatic.com/content/hl-images/2021/04/29/QNAP-headpic.jpg	bleepingcomputer	t	2021-08-30 21:00:02.266462+02	2021-08-30 20:21:12+02	Sergiu Gatlan	bleepingcomputer/QNAP-works-on-patches-for-OpenSSL-bugs-impacting-its-NAS-devices
 1098	CISA: Don’t use single-factor auth on Internet-exposed systems	Single-factor authentication (SFA) has been added today by the US Cybersecurity and Infrastructure Security Agency (CISA) to a very short list of cybersecurity bad practices it advises against.	https://www.bleepingcomputer.com/news/security/cisa-don-t-use-single-factor-auth-on-internet-exposed-systems/	https://www.bleepstatic.com/content/hl-images/2021/07/01/CISA.jpg	bleepingcomputer	t	2021-08-30 21:00:02.266462+02	2021-08-30 19:10:00+02	Sergiu Gatlan	bleepingcomputer/CISA-Dont-use-single-factor-auth-on-Internet-exposed-systems
 1099	Microsoft Exchange ‘ProxyToken’ Bug Allows Email Snooping	The bug (CVE-2021-33766) is an information-disclosure issue that could reveal victims' personal information, sensitive company data and more.	https://kasperskycontenthub.com/threatpost-global/?p=169030	https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/26141726/Windows-Abstract.jpg	threatpost	t	2021-08-30 21:00:02.266462+02	2021-08-30 19:31:06+02	Tara Seals	threatpost/Microsoft-Exchange-ProxyToken-Bug-Allows-Email-Snooping
+1101	The Underground Economy: Recon, Weaponization & Delivery for Account Takeovers	In part one of a two-part series, Akamai's director of security technology and strategy, Tony Lauro, lays out what orgs need to know to defend against account takeover attacks.	https://kasperskycontenthub.com/threatpost-global/?p=169032	https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/21130321/chrome-password-stealer.jpeg	threatpost	t	2021-08-30 22:00:01.772515+02	2021-08-30 21:44:54+02	Tony Lauro	threatpost/The-Underground-Economy-Recon-Weaponization--Delivery-for-Account-Takeovers
+1100	Google App bug blocks Android users from receiving, making calls	Google says that users of some Android phone models are affected by a Google App bug preventing them from making and receiving calls.	https://www.bleepingcomputer.com/news/google/google-app-bug-blocks-android-users-from-receiving-making-calls/	https://www.bleepstatic.com/content/hl-images/2021/08/30/Google-App.jpg	bleepingcomputer	t	2021-08-30 22:00:01.772515+02	2021-08-30 21:45:45+02	Sergiu Gatlan	bleepingcomputer/Google-App-bug-blocks-Android-users-from-receiving-making-calls
 \.
 
 
@@ -1150,7 +1152,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1099, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1101, true);
 
 
 --
