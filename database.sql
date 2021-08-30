@@ -1136,6 +1136,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1090	Bangkok Airways apologizes for passport info breach as LockBit ransomware group threatens data leak | ZDNet	The company said that it discovered a cybersecurity attack which resulted in unauthorized and unlawful access to its information system on August 23.	https://www.zdnet.com/article/bangkok-airways-apologizes-for-passport-info-breach-as-lockbit-ransomware-group-threatens-release-of-more-data/	https://www.zdnet.com/a/hub/i/r/2021/08/30/6f33e9af-0c17-47b1-9a35-6ed5f42554e5/thumbnail/770x578/7bc8f0b6d80222aa06347c14120ae8b3/all-logo-bangkokairway-01.jpg	zdnet	t	2021-08-30 15:00:01.758205+02	2021-08-30 12:00:00+02	Jonathan Greig	zdnet/Bangkok-Airways-apologizes-for-passport-info-breach-as-LockBit-ransomware-group-threatens-data-leak
 1091	ProxyToken vulnerability can modify Exchange server configs	If the ProxyShell vulnerability wasn't enough of a good reason for system administrators to apply the July 2020 Microsoft Exchange security updates, there is a second major security bug in those updates that can allow for devastating hacks.	https://therecord.media/proxytoken-vulnerability-can-modify-exchange-server-configs/	https://therecord.media/wp-content/uploads/2021/08/mouse-keyboard-hack-email.jpg	therecord	t	2021-08-30 16:00:02.67506+02	2021-08-30 15:00:00+02	Catalin Cimpanu	therecord/ProxyToken-vulnerability-can-modify-Exchange-server-configs
 1092	House defense policy bill okays $10.4 billion for DoD cybersecurity	The House version of the annual defense policy bill backs the Biden administration's proposed $10.4 billion cybersecurity budget for the Defense Department part next year, according to an aide for the panel’s Democratic majority	https://therecord.media/house-defense-policy-bill-okays-10-4-billion-for-dod-cybersecurity/	https://therecord.media/wp-content/uploads/2021/08/bigstock-Us-Pentagon-In-Washington-Dc-B-264708484-1-1.jpg	therecord	t	2021-08-30 17:00:02.600244+02	2021-08-30 16:08:14+02	Martin Matishak	therecord/House-defense-policy-bill-okays-104-billion-for-DoD-cybersecurity
+1093	Internet access in South Sudan disrupted ahead of planned protests	The streets of South Sudan's capital city Juba and local internet traffic were eerily quiet as activists hid from security forces and network watchers reported a significant disruption in online access.	https://therecord.media/internet-access-in-south-sudan-disrupted-ahead-of-planned-protests/	https://therecord.media/wp-content/uploads/2021/08/UK_Engineer_Task_Force_are_deployed_on_Op_TRENTON.jpg	therecord	t	2021-08-30 17:40:17.076524+02	2021-08-30 17:22:05+02	Andrea Peterson	therecord/Internet-access-in-South-Sudan-disrupted-ahead-of-planned-protests
+1094	LockBit Gang to Publish 103GB of Bangkok Airways Customer Data	The airline announced the breach on Thursday, and the ransomware gang started a countdown clock the next day.	https://kasperskycontenthub.com/threatpost-global/?p=169019	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/30105649/plane-crash-e1630335421107.jpeg	threatpost	t	2021-08-30 17:40:17.076524+02	2021-08-30 17:14:21+02	Lisa Vaas	threatpost/LockBit-Gang-to-Publish-103GB-of-Bangkok-Air-Customer-Data
 \.
 
 
@@ -1143,7 +1145,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1092, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1094, true);
 
 
 --
