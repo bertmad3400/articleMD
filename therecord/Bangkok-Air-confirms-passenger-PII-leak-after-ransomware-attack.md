@@ -3,7 +3,7 @@
 
 ## Information:
 + Source: The Record
-+ Link: [article](https://therecord.media/bangkok-airways-the-second-oldest-and-the-third-biggest-airline-company-in-thailand-has-admitted-last-week-that-hackers-stole-passenger-information-during-a-security-breach-following-a-ransomware-at/)
++ Link: [article](https://therecord.media/bangkok-air-confirms-passenger-pii-leak-after-ransomware-attack/)
 + Date: August 30, 2021
 + Author: Catalin Cimpanu
 
