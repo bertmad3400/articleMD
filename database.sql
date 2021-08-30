@@ -1151,6 +1151,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1105	Passport info and healthcare data leaked from Indonesia's COVID-19 test-and-trace app for travelers | ZDNet	About 1.3 million people had their sensitive personal data, COVID-19 test results and more exposed on an open server.	https://www.zdnet.com/article/passport-info-and-healthcare-data-leaked-from-indonesias-covid-19-test-and-trace-app-for-travellers/	https://www.zdnet.com/a/hub/i/r/2020/01/27/20586021-52b9-49cd-8297-6f11225b7015/thumbnail/770x578/75efd5607c8138617aa9dbd3e0c53220/magecart-indonesia.jpg	zdnet	t	2021-08-31 00:00:02.528292+02	2021-08-30 21:59:03+02	Jonathan Greig	zdnet/Passport-info-and-healthcare-data-leaked-from-Indonesias-COVID-19-test-and-trace-app-for-travelers
 1106	Bangkok Air confirms passenger PII leak after ransomware attack	Bangkok Airways, the second oldest and the third biggest airline company in Thailand, has admitted last week that hackers stole passenger information during a security breach following a ransomware attack.	https://therecord.media/bangkok-air-confirms-passenger-pii-leak-after-ransomware-attack/	https://therecord.media/wp-content/uploads/2021/08/bangkok-airways.jpg	therecord	t	2021-08-31 00:00:02.528292+02	2021-08-30 22:59:12+02	Catalin Cimpanu	therecord/Bangkok-Air-confirms-passenger-PII-leak-after-ransomware-attack
 1107	HPE Warns Sudo Bug Gives Attackers Root Privileges to Aruba Platform	HPE joins Apple in warning customers of a high-severity Sudo vulnerability.	https://kasperskycontenthub.com/threatpost-global/?p=169038	https://media.threatpost.com/wp-content/uploads/sites/103/2021/05/03132821/HPE-corp-logo.jpg	threatpost	t	2021-08-31 00:00:02.528292+02	2021-08-30 23:46:56+02	Tom Spring	threatpost/HPE-Warns-Sudo-Bug-Gives-Attackers-Root-Privileges-to-Aruba-Platform
+1108	Fujitsu says stolen data being sold on dark web 'related to customers' | ZDNet	A group called Marketo has claimed it has 4 GB of stolen data and purports to have 70 bids on it already.	https://www.zdnet.com/article/fujitsu-says-stolen-data-being-sold-on-dark-web-related-to-customers/	https://www.zdnet.com/a/hub/i/r/2020/07/20/91cd5787-75ea-44be-801e-a41994c517b0/thumbnail/770x578/08716881305866f3a8cafcb13a2898f1/fujitsu-to-expand-japanese-operations-wi-5f1502d6931ab320db2da02d-1-jul-20-2020-4-16-42-poster.jpg	zdnet	t	2021-08-31 01:00:02.706766+02	2021-08-30 22:51:34+02	Jonathan Greig	zdnet/Fujitsu-says-stolen-data-being-sold-on-dark-web-related-to-customers
 \.
 
 
@@ -1158,7 +1159,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1107, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1108, true);
 
 
 --
