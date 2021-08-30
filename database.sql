@@ -1129,6 +1129,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1083	VPN Unlimited deal: Save 80% on a lifetime subscription for 5 devices | ZDNet	There's no longer any reason to continue stressing out about the security of your identity and your most confidential data online when powerful protection is so affordable.	https://www.zdnet.com/article/vpn-unlimited-deal-save-80-on-a-lifetime-subscription-for-5-devices/	https://www.zdnet.com/a/hub/i/r/2021/08/26/408a2c34-b4a0-43f8-8754-c7c3a1a5cc99/thumbnail/770x578/f99277f8698e09149e7c8fb81be41e40/sale-197529-article-image1.jpg	zdnet	t	2021-08-29 14:00:02.621241+02	2021-08-29 11:00:03+02	ZDNet Academy	zdnet/VPN-Unlimited-deal-Save-80-on-a-lifetime-subscription-for-5-devices
 1084	Cobalt Strike, a Defender's Guide	As you have noticed from our reporting so far, Cobalt Strike is used as a post-exploitation tool with various malware droppers responsible for the initial infection stage. Some of the most common droppers we see are IcedID (a.k.a. BokBot), ZLoader, Qbot (a.k.a. QakBot), Ursnif, Hancitor, Bazar and TrickBot.	https://thedfirreport.com/2021/08/29/cobalt-strike-a-defenders-guide/	https://thedfirreport.com/wp-content/uploads/2021/08/1-10.png	dfirreport	t	2021-08-30 02:00:01.962816+02	2021-08-30 01:36:36+02	editor	dfirreport/Cobalt-Strike-a-Defenders-Guide
 1085	Apple launches service program for iPhone 12 no sound issues	Apple has announced a new free-of-charge service program for iPhone 12 and iPhone 12 Pro devices experiencing sound issues caused by a receiver module component.	https://www.bleepingcomputer.com/news/apple/apple-launches-service-program-for-iphone-12-no-sound-issues/	https://www.bleepstatic.com/content/hl-images/2021/08/27/Apple-iPhone-12.jpg	bleepingcomputer	t	2021-08-30 02:00:01.962816+02	2021-08-29 16:00:00+02	Sergiu Gatlan	bleepingcomputer/Apple-launches-service-program-for-iPhone-12-no-sound-issues
+1086	Fake DMCA and DDoS complaints lead to BazaLoader malware	Cybercriminals behind the BazaLoader malware came up with a new lure to trick website owners into opening malicious files: fake notifications about the site being engaged in distributed denial-of-service (DDoS) attacks.	https://www.bleepingcomputer.com/news/security/fake-dmca-and-ddos-complaints-lead-to-bazaloader-malware/	https://www.bleepstatic.com/content/posts/2021/08/27/trojan-horse-chip.jpg	bleepingcomputer	t	2021-08-30 09:00:02.037591+02	2021-08-27 15:30:54+02	Ionut Ilascu	bleepingcomputer/Fake-DMCA-and-DDoS-complaints-lead-to-BazaLoader-malware
 \.
 
 
@@ -1136,7 +1137,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1085, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1086, true);
 
 
 --
