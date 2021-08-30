@@ -1127,6 +1127,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1081	New Windows 11 Dev build released with Microsoft 365 Widget	Microsoft announced a new Microsoft 365 Widget in the latest Windows 11 Dev build released for Windows Insiders in the Dev and Beta Channels.	https://www.bleepingcomputer.com/news/microsoft/new-windows-11-dev-build-released-with-microsoft-365-widget/	https://www.bleepstatic.com/content/hl-images/2021/06/24/windows-11-header.jpg	bleepingcomputer	t	2021-08-29 00:00:01.839358+02	2021-08-28 16:00:00+02	Sergiu Gatlan	bleepingcomputer/New-Windows-11-Dev-build-released-with-Microsoft-365-Widget
 1082	Windows 11 to only support one Intel 7th gen CPU, no AMD Zen 1 CPUs	Microsoft announced today that after investigating other potentially compatible processors for Windows 11, they only found one 7th generation Intel CPU to be compatible, and no first generation AMD Zen CPUs.	https://www.bleepingcomputer.com/news/microsoft/windows-11-to-only-support-one-intel-7th-gen-cpu-no-amd-zen-1-cpus/	https://www.bleepstatic.com/content/hl-images/2021/08/09/windows-11-square-text.jpg	bleepingcomputer	t	2021-08-29 02:00:02.133375+02	2021-08-27 19:00:00+02	Lawrence Abrams	bleepingcomputer/Windows-11-to-only-support-one-Intel-7th-gen-CPU-no-AMD-Zen-1-CPUs
 1083	VPN Unlimited deal: Save 80% on a lifetime subscription for 5 devices | ZDNet	There's no longer any reason to continue stressing out about the security of your identity and your most confidential data online when powerful protection is so affordable.	https://www.zdnet.com/article/vpn-unlimited-deal-save-80-on-a-lifetime-subscription-for-5-devices/	https://www.zdnet.com/a/hub/i/r/2021/08/26/408a2c34-b4a0-43f8-8754-c7c3a1a5cc99/thumbnail/770x578/f99277f8698e09149e7c8fb81be41e40/sale-197529-article-image1.jpg	zdnet	t	2021-08-29 14:00:02.621241+02	2021-08-29 11:00:03+02	ZDNet Academy	zdnet/VPN-Unlimited-deal-Save-80-on-a-lifetime-subscription-for-5-devices
+1084	Cobalt Strike, a Defender's Guide	As you have noticed from our reporting so far, Cobalt Strike is used as a post-exploitation tool with various malware droppers responsible for the initial infection stage. Some of the most common droppers we see are IcedID (a.k.a. BokBot), ZLoader, Qbot (a.k.a. QakBot), Ursnif, Hancitor, Bazar and TrickBot.	https://thedfirreport.com/2021/08/29/cobalt-strike-a-defenders-guide/	https://thedfirreport.com/wp-content/uploads/2021/08/1-10.png	dfirreport	t	2021-08-30 02:00:01.962816+02	2021-08-30 01:36:36+02	editor	dfirreport/Cobalt-Strike-a-Defenders-Guide
+1085	Apple launches service program for iPhone 12 no sound issues	Apple has announced a new free-of-charge service program for iPhone 12 and iPhone 12 Pro devices experiencing sound issues caused by a receiver module component.	https://www.bleepingcomputer.com/news/apple/apple-launches-service-program-for-iphone-12-no-sound-issues/	https://www.bleepstatic.com/content/hl-images/2021/08/27/Apple-iPhone-12.jpg	bleepingcomputer	t	2021-08-30 02:00:01.962816+02	2021-08-29 16:00:00+02	Sergiu Gatlan	bleepingcomputer/Apple-launches-service-program-for-iPhone-12-no-sound-issues
 \.
 
 
@@ -1134,7 +1136,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1083, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1085, true);
 
 
 --
