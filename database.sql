@@ -1175,6 +1175,9 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1129	Fortress Home Security Open to Remote Disarmament	A pair of unpatched security vulnerabilities can allow unauthenticated cyberattackers to turn off window, door and motion-sensor monitoring.	https://kasperskycontenthub.com/threatpost-global/?p=169069	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/31151918/fortress-scaled-e1630437615681.jpg	threatpost	t	2021-08-31 23:00:02.12594+02	2021-08-31 22:35:18+02	Tara Seals	threatpost/Fortress-Home-Security-Open-to-Remote-Disarmament
 1130	Cream Finance DeFi Platform Rooked For $29M	Cream is latest DeFi platform to get fleeced in rash of attacks.	https://kasperskycontenthub.com/threatpost-global/?p=169077	https://media.threatpost.com/wp-content/uploads/sites/103/2017/11/06222144/AdobeStock_170377953.jpeg	threatpost	t	2021-08-31 23:00:02.12594+02	2021-08-31 22:33:41+02	Becky Bracken	threatpost/Cream-Finance-DeFi-Platform-Rooked-For-29M
 1131	Under Fire: Report Documents Abuse of Budding Proxyware Services	Services that let consumers resell their bandwidth for money are ripe for abuse, researchers warn.	https://kasperskycontenthub.com/threatpost-global/?p=169068	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/31151856/bandwidth.jpg	threatpost	t	2021-08-31 23:00:02.12594+02	2021-08-31 22:12:46+02	Tom Spring	threatpost/Proxyware-Services-Open-Orgs-to-Abuse--Report
+1132	FBI, CISA warn of potential cyberattacks over Labor Day weekend | ZDNet	They cited the Mother's Day weekend attack on Colonial Pipeline, the Memorial Day weekend attack on major meat processor JBS as well as the July 4 Kaseya attack.	https://www.zdnet.com/article/fbi-cisa-warns-of-potential-cyberattacks-over-labor-day-weekend/	https://www.zdnet.com/a/hub/i/r/2019/06/24/bad9f6d2-babc-448b-b5dd-9144631a0b99/thumbnail/770x578/426654bc2f9b3058b01ddc9a0c064756/istock-woman-stressed-out-at-cyberattack.jpg	zdnet	t	2021-09-01 00:00:01.946134+02	2021-08-31 21:27:52+02	Jonathan Greig	zdnet/FBI-CISA-warn-of-potential-cyberattacks-over-Labor-Day-weekend
+1133	Microsoft 365 Usage Analytics now anonymizes user info by default	Microsoft has announced that it will start anonymizing​​​​​​​ user-level info by default Microsoft 365 Usage Analytics beginning with September 1, 2021.	https://www.bleepingcomputer.com/news/microsoft/microsoft-365-usage-analytics-now-anonymizes-user-info-by-default/	https://www.bleepstatic.com/content/hl-images/2021/08/31/Microsoft-365.jpg	bleepingcomputer	t	2021-09-01 00:00:01.946134+02	2021-08-31 23:42:12+02	Sergiu Gatlan	bleepingcomputer/Microsoft-365-Usage-Analytics-now-anonymizes-user-info-by-default
+1134	CISA and the FBI warn of ransomware gangs' tendency of launching attacks over holidays and weekends	The Cybersecurity and Infrastructure Security Agency (CISA) and the Federal Bureau of Investigation (FBI) have published a joint security advisory today to warn companies about the tendency of ransomware gangs to launch attacks over weekends and national holidays.	https://therecord.media/cisa-and-the-fbi-warn-of-ransomware-gangs-tendency-of-launching-attacks-over-holidays-and-weekends/	https://therecord.media/wp-content/uploads/2021/08/holiday.jpg	therecord	t	2021-09-01 00:00:01.946134+02	2021-08-31 23:00:31+02	Catalin Cimpanu	therecord/CISA-and-the-FBI-warn-of-ransomware-gangs-tendency-of-launching-attacks-over-holidays-and-weekends
 \.
 
 
@@ -1182,7 +1185,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1131, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1134, true);
 
 
 --
