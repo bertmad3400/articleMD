@@ -1153,6 +1153,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1107	HPE Warns Sudo Bug Gives Attackers Root Privileges to Aruba Platform	HPE joins Apple in warning customers of a high-severity Sudo vulnerability.	https://kasperskycontenthub.com/threatpost-global/?p=169038	https://media.threatpost.com/wp-content/uploads/sites/103/2021/05/03132821/HPE-corp-logo.jpg	threatpost	t	2021-08-31 00:00:02.528292+02	2021-08-30 23:46:56+02	Tom Spring	threatpost/HPE-Warns-Sudo-Bug-Gives-Attackers-Root-Privileges-to-Aruba-Platform
 1108	Fujitsu says stolen data being sold on dark web 'related to customers' | ZDNet	A group called Marketo has claimed it has 4 GB of stolen data and purports to have 70 bids on it already.	https://www.zdnet.com/article/fujitsu-says-stolen-data-being-sold-on-dark-web-related-to-customers/	https://www.zdnet.com/a/hub/i/r/2020/07/20/91cd5787-75ea-44be-801e-a41994c517b0/thumbnail/770x578/08716881305866f3a8cafcb13a2898f1/fujitsu-to-expand-japanese-operations-wi-5f1502d6931ab320db2da02d-1-jul-20-2020-4-16-42-poster.jpg	zdnet	t	2021-08-31 01:00:02.706766+02	2021-08-30 22:51:34+02	Jonathan Greig	zdnet/Fujitsu-says-stolen-data-being-sold-on-dark-web-related-to-customers
 1109	Chinese state media says online gaming for minors now limited to three hours per week | ZDNet	New online gaming restrictions will mean Chinese online gamers aged under 18 will only be able to play on Fridays, weekends, and public holidays.	https://www.zdnet.com/article/chinese-state-media-says-online-gaming-for-minors-now-limited-to-three-hours-per-week/	https://www.zdnet.com/a/hub/i/r/2021/08/30/af793cfd-d619-4579-bdfc-cee6baa166ea/thumbnail/770x578/fef2f4a6f3dcac3755c07dae2db9dc93/gettyimages-465365896.jpg	zdnet	t	2021-08-31 03:00:01.960852+02	2021-08-31 00:00:59+02	Campbell Kwan	zdnet/Chinese-state-media-says-online-gaming-for-minors-now-limited-to-three-hours-per-week
+1110	CISA adds single-factor authentication to its catalog of 'Bad Practices'	Earlier this year, in June, the US Cybersecurity and Infrastructure Security Agency (CISA) launched a new project called Bad Practices that consisted of a catalog of non-recommended cybersecurity practices, techniques, and configurations.	https://therecord.media/cisa-adds-single-factor-authentication-to-its-catalog-of-bad-practices/	https://therecord.media/wp-content/uploads/2021/08/CISA_Logo.jpg	therecord	t	2021-08-31 04:00:02.547128+02	2021-08-31 03:44:04+02	Catalin Cimpanu	therecord/CISA-adds-single-factor-authentication-to-its-catalog-of-Bad-Practices
 \.
 
 
@@ -1160,7 +1161,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1109, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1110, true);
 
 
 --
