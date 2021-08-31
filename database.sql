@@ -1161,6 +1161,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1115	Texas, California, New York, Louisiana, Missouri lead list of states with most ransomware attacks on schools: report | ZDNet	A Comparitech study tracked more than 220 ransomware attacks on schools in the US since 2018.	https://www.zdnet.com/article/texas-california-new-york-and-louisiana-missouri-lead-list-of-states-with-most-ransomware-attacks-on-schools-report/	https://www.zdnet.com/a/hub/i/r/2020/09/08/4d6dd175-7087-4216-a206-ef6e6960a6bb/thumbnail/770x578/665f38fc495d9c67689d464508b4bf39/school.jpg	zdnet	t	2021-08-31 14:00:02.035834+02	2021-08-31 11:37:00+02	Jonathan Greig	zdnet/Texas-California-New-York-Louisiana-Missouri-lead-list-of-states-with-most-ransomware-attacks-on-schools-report
 1116	Initial Access Broker use, stolen account sales spike in cloud service cyberattacks | ZDNet	Current trends also include the abuse of Docker images.	https://www.zdnet.com/article/initial-access-broker-use-stolen-account-sales-spike-in-cloud-service-cyberattacks/	https://www.zdnet.com/a/hub/i/r/2020/10/19/fe13c247-ef7c-45aa-b8e8-418b041fa333/thumbnail/770x578/e7efb27e79c82da419522b78ff23315a/cloudsaas1.jpg	zdnet	t	2021-08-31 15:00:02.09051+02	2021-08-31 12:00:14+02	Charlie Osborne	zdnet/Initial-Access-Broker-use-stolen-account-sales-spike-in-cloud-service-cyberattacks
 1117	Cyberattackers are now quietly selling off their victim's internet bandwidth | ZDNet	Proxyware is yet another way for criminals to generate revenue from their victims.	https://www.zdnet.com/article/cyberattackers-are-now-quietly-selling-off-their-victims-internet-bandwidth/	https://www.zdnet.com/a/hub/i/r/2021/08/06/dd3f5a44-a1d0-4c65-b9ca-6683be4bbc2e/thumbnail/770x578/1fc50afe5d7e572d33f12d71ef32b725/best-dsl-internet.jpg	zdnet	t	2021-08-31 15:00:02.09051+02	2021-08-31 12:00:00+02	Charlie Osborne	zdnet/Cyberattackers-are-now-quietly-selling-off-their-victims-internet-bandwidth
+1118	Verizon and Microsoft team up to offer 5G edge cloud computing for businesses | ZDNet	Leveraging Verizon 5G Edge with Microsoft Azure Stack Edge, the solution enables the ultra-low latency needed to deploy real-time enterprise applications, the companies said in a statement.	https://www.zdnet.com/article/verizon-and-microsoft-team-up-to-offer-edge-cloud-computing-for-businesses/	https://www.zdnet.com/a/hub/i/r/2021/08/06/91b75e64-70c5-44fc-b882-192c142c3f22/thumbnail/770x578/86cd0144024c0f426bed98fbf1168ec8/shutterstock-1419226862.jpg	zdnet	t	2021-08-31 16:00:02.15494+02	2021-08-31 13:09:35+02	Jonathan Greig	zdnet/Verizon-and-Microsoft-team-up-to-offer-5G-edge-cloud-computing-for-businesses
+1119	Top 3 APIs Vulnerabilities: Why Apps are Owned by Cyberattackers	Jason Kent, hacker-in-residence at Cequence, talks about how cybercriminals target apps and how to thwart them.	https://kasperskycontenthub.com/threatpost-global/?p=169048	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/31092830/APIs-e1630416526184.gif	threatpost	t	2021-08-31 16:00:02.15494+02	2021-08-31 15:29:17+02	Jason Kent	threatpost/Top-3-APIs-Vulnerabilities-Why-Apps-are-Owned-by-Cyberattackers
 \.
 
 
@@ -1168,7 +1170,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1117, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1119, true);
 
 
 --
