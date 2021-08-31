@@ -1158,6 +1158,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1112	Canada accepted 7,300 more immigration applications due to technical bug	A bug in the Canadian immigration system led to the government accepting an additional 7,307 immigration applications, surpassing the imposed limit. This comprised files from international graduate stream applicants aspiring to change their temporary visa status to permanent residency.	https://www.bleepingcomputer.com/news/security/canada-accepted-7-300-more-immigration-applications-due-to-technical-bug/	https://www.bleepstatic.com/content/hl-images/2020/08/16/canada-flag.jpg	bleepingcomputer	t	2021-08-31 07:00:02.623397+02	2021-08-31 06:02:05+02	Ax Sharma	bleepingcomputer/Canada-accepted-7300-more-immigration-applications-due-to-technical-bug
 1113	This phishing attack is using a sneaky trick to steal your passwords, warns Microsoft | ZDNet	Hovering over a link in an email isn't going to be enough to check if it's going to take you to a dangerous site.	https://www.zdnet.com/article/this-phishing-attack-is-using-a-sneaky-trick-to-steal-your-passwords-warns-microsoft/	https://www.zdnet.com/a/hub/i/r/2021/08/31/f875ce08-8d9b-4399-a96e-c36c63111408/thumbnail/770x578/5f7c9b0f2217e3d8e4cec7a60f9c38a1/shutterstock-1733726426.jpg	zdnet	t	2021-08-31 13:00:02.286432+02	2021-08-31 10:15:24+02	Liam Tung	zdnet/This-phishing-attack-is-using-a-sneaky-trick-to-steal-your-passwords-warns-Microsoft
 1114	LockFile Ransomware Uses Never-Before Seen Encryption to Avoid Detection	Researchers from Sophos discovered the emerging threat in July, which exploits the ProxyShell vulnerabilities in Microsoft Exchange servers to attack systems.	https://kasperskycontenthub.com/threatpost-global/?p=169042	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/31064150/ransomware-cpu.jpg	threatpost	t	2021-08-31 13:00:02.286432+02	2021-08-31 12:42:18+02	Elizabeth Montalbano	threatpost/LockFile-Ransomware-Uses-Never-Before-Seen-Encryption-to-Avoid-Detection
+1115	Texas, California, New York, Louisiana, Missouri lead list of states with most ransomware attacks on schools: report | ZDNet	A Comparitech study tracked more than 220 ransomware attacks on schools in the US since 2018.	https://www.zdnet.com/article/texas-california-new-york-and-louisiana-missouri-lead-list-of-states-with-most-ransomware-attacks-on-schools-report/	https://www.zdnet.com/a/hub/i/r/2020/09/08/4d6dd175-7087-4216-a206-ef6e6960a6bb/thumbnail/770x578/665f38fc495d9c67689d464508b4bf39/school.jpg	zdnet	t	2021-08-31 14:00:02.035834+02	2021-08-31 11:37:00+02	Jonathan Greig	zdnet/Texas-California-New-York-Louisiana-Missouri-lead-list-of-states-with-most-ransomware-attacks-on-schools-report
 \.
 
 
@@ -1165,7 +1166,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1114, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1115, true);
 
 
 --
