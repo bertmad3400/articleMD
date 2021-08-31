@@ -1170,6 +1170,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1124	Coinbase seeds panic among users with erroneous 2FA change alerts	Coinbase, the world's second largest cryptocurrency exchange with approximately 68 million users from over 100 countries, has scared a significant amount of its users with erroneous 2FA warnings.	https://www.bleepingcomputer.com/news/security/coinbase-seeds-panic-among-users-with-erroneous-2fa-change-alerts/	https://www.bleepstatic.com/content/hl-images/2021/08/31/Coinbase.jpg	bleepingcomputer	t	2021-08-31 19:00:02.068094+02	2021-08-31 18:02:52+02	Sergiu Gatlan	bleepingcomputer/Coinbase-seeds-panic-among-users-with-erroneous-2FA-change-alerts
 1123	Don't want to get hacked? Then avoid these three exceptionally dangerous cybersecurity mistakes | ZDNet	CISA warns of risky behaviours which leave networks exposed to cyber attacks - and should be addressed immediately if employed.	https://www.zdnet.com/article/dont-want-to-get-hacked-then-avoid-these-three-exceptionally-dangerous-cybersecurity-mistakes/	https://www.zdnet.com/a/hub/i/r/2020/06/22/430e3624-0770-4c18-a796-88d6e00028de/thumbnail/770x578/d4a47cd686417f4b936615e980268c2a/pc-problems.jpg	zdnet	t	2021-08-31 19:00:02.068094+02	2021-08-31 16:03:00+02	Danny Palmer	zdnet/Dont-want-to-get-hacked-Then-avoid-these-three-exceptionally-dangerous-cybersecurity-mistakes
 1126	FBI, CISA: Ransomware attack risk increases on holidays, weekends	The FBI and CISA urged organizations not to let down their defenses against ransomware attacks during weekends or holidays to released a joint cybersecurity advisory issued earlier today.	https://www.bleepingcomputer.com/news/security/fbi-cisa-ransomware-attack-risk-increases-on-holidays-weekends/	https://www.bleepstatic.com/content/hl-images/2021/08/31/Ransomware-megaphone.jpg	bleepingcomputer	t	2021-08-31 20:00:01.964554+02	2021-08-31 19:52:41+02	Sergiu Gatlan	bleepingcomputer/FBI-CISA-Ransomware-attack-risk-increases-on-holidays-weekends
+1127	Microsoft announces Visual Studio Code for the Web public preview	Microsoft has announced the public preview launch of Visual Studio Code for the Web, a browser-based version of its free and cross-platform VS Code integrated development environment (IDE).	https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-visual-studio-code-for-the-web-public-preview/	https://www.bleepstatic.com/content/hl-images/2021/06/11/Microsoft.jpg	bleepingcomputer	t	2021-08-31 21:00:01.884249+02	2021-08-31 20:38:51+02	Sergiu Gatlan	bleepingcomputer/Microsoft-announces-Visual-Studio-Code-for-the-Web-public-preview
 \.
 
 
@@ -1177,7 +1178,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1126, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1127, true);
 
 
 --
