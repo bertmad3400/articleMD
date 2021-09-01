@@ -1194,6 +1194,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1148	LockBit Jumps Its Own Countdown, Publishes Bangkok Air Files	The ransomware gang claims to have pulled off successful attacks against two airlines and one airport with help from its Accenture attack.	https://kasperskycontenthub.com/threatpost-global/?p=169101	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/01113318/BangkokAirLeak-e1630510412111.jpeg	threatpost	t	2021-09-01 18:00:01.82542+02	2021-09-01 17:55:23+02	Lisa Vaas	threatpost/LockBit-Jumps-Its-Own-Countdown-Publishes-Bangkok-Air-Files
 1150	Twitter adds Safety Mode to automatically block online harassment	Twitter has introduced today Safety Mode, a new feature that aims to block online harassment attempts and reduce disruptive interactions on the platform.	https://www.bleepingcomputer.com/news/security/twitter-adds-safety-mode-to-automatically-block-online-harassment/	https://www.bleepstatic.com/content/hl-images/2021/09/01/Twitter.jpg	bleepingcomputer	t	2021-09-01 19:00:02.347082+02	2021-09-01 18:40:26+02	Sergiu Gatlan	bleepingcomputer/Twitter-adds-Safety-Mode-to-automatically-block-online-harassment
 1149	Confluence enterprise servers targeted with recent vulnerability	A major vulnerability in Confluence’s team collaboration server software is currently on the cusp of widespread abuse after mass scanning and initial exploitation was spotted this week. Tracked as CVE-2021-26084, the vulnerability impacts Confluence Server and Confluence Data Center software that’s usually installed on Confluence self-hosted projec	https://therecord.media/confluence-enterprise-servers-targeted-with-recent-vulnerability/	https://therecord.media/wp-content/uploads/2021/09/Confluence.jpg	therecord	t	2021-09-01 19:00:02.347082+02	2021-09-01 18:04:54+02	Catalin Cimpanu	therecord/Confluence-enterprise-servers-targeted-with-recent-vulnerability
+1151	Gutenberg Template Library & Redux Framework Bugs Plague WordPress Sites	Two vulnerabilities in the site-building plugin could be useful tools in the hands of a skilled attacker, researchers warned.	https://kasperskycontenthub.com/threatpost-global/?p=169111	https://media.threatpost.com/wp-content/uploads/sites/103/2019/01/28092447/wordpress_plugin_vuln.jpg	threatpost	t	2021-09-01 20:00:01.856349+02	2021-09-01 19:58:38+02	Tara Seals	threatpost/Gutenberg-Template-Library--Redux-Framework-Bugs-Plague-WordPress-Sites
 \.
 
 
@@ -1201,7 +1202,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1150, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1151, true);
 
 
 --
