@@ -1182,6 +1182,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1135	Microsoft will split Defender pricing plans to lower the entry bar for SMBs	Microsoft announced plans today to split the pricing model for the commercial version of its antivirus product, known as Microsoft Defender for Endpoint, introducing a cheaper plan and making its product more easily and broadly available to companies that typically couldn't afford it.	https://therecord.media/microsoft-will-split-defender-pricing-plans-to-lower-the-entry-bar-for-smbs/	https://therecord.media/wp-content/uploads/2021/08/Microsoft-Defender.jpg	therecord	t	2021-09-01 04:00:02.525578+02	2021-09-01 03:12:36+02	Catalin Cimpanu	therecord/Microsoft-will-split-Defender-pricing-plans-to-lower-the-entry-bar-for-SMBs
 1136	Logitech Bolt: New wireless protocol provides added security for mice and keyboards | ZDNet	Logitech's MX Master and Ergo ranges of keyboards and mice will get a business-focused upgrade with support for the company's new Bolt wireless technology.	https://www.zdnet.com/article/logitech-bolt-new-wireless-protocol-provides-added-security-for-mice-and-keyboards/	https://www.zdnet.com/a/hub/i/r/2021/09/01/9b5791e5-3b16-4eaf-84fc-92ce1cb6fba7/thumbnail/770x578/e30f126c2046763dbbd13f0a462c8c80/logitech-bolt-thumb.jpg	zdnet	t	2021-09-01 11:00:02.160659+02	2021-09-01 08:59:31+02	Cliff Joseph	zdnet/Logitech-Bolt-New-wireless-protocol-provides-added-security-for-mice-and-keyboards
 1138	Scam artists are recruiting English speakers for business email campaigns | ZDNet	Finding fluent speakers is becoming important to criminals conducting business-based attacks.	https://www.zdnet.com/article/scam-artists-are-recruiting-english-speakers-for-business-email-campaigns/	https://www.zdnet.com/a/hub/i/r/2021/07/01/f4d1ad40-537e-4c58-8a60-aae30e0aa1ab/thumbnail/770x578/e7821c737668f4643e143e499998045c/business-credit-cards.jpg	zdnet	t	2021-09-01 12:00:02.445478+02	2021-09-01 09:00:02+02	Charlie Osborne	zdnet/Scam-artists-are-recruiting-English-speakers-for-business-email-campaigns
+1139	This is why the Mozi botnet will linger on | ZDNet	The botnet continues to haunt IoT devices, and likely will for some time to come.	https://www.zdnet.com/article/this-is-why-the-mozi-botnet-will-linger-on/	https://www.zdnet.com/a/hub/i/r/2014/09/18/57e9d181-3f1a-11e4-b6a0-d4ae52e95e57/thumbnail/770x578/02dab18e8b7b2b9cbaf737683e5e7b3a/suspected-hackers-behind-carberp-botnet-eurograbber-arrested.jpg	zdnet	t	2021-09-01 14:00:02.264851+02	2021-09-01 11:53:33+02	Charlie Osborne	zdnet/This-is-why-the-Mozi-botnet-will-linger-on
+1140	Mozi botnet authors arrested in China	The authors of the Mozi IoT botnet have been taken into custody by Chinese law enforcement earlier this year, according to Netlab, the networking security division of Chinese tech giant Qihoo 360.	https://therecord.media/mozi-botnet-authors-arrested-in-china/	https://therecord.media/wp-content/uploads/2021/08/Mozi.png	therecord	t	2021-09-01 14:00:02.264851+02	2021-09-01 13:30:50+02	Catalin Cimpanu	therecord/Mozi-botnet-authors-arrested-in-China
 \.
 
 
@@ -1189,7 +1191,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1138, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1140, true);
 
 
 --
