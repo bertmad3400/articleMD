@@ -1192,6 +1192,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1146	BEC Scammers Seek Native English Speakers on Underground	Cybercrooks are posting help-wanted ads on dark web forums, promising to do the technical work of compromising email accounts but looking for native English speakers to carry out the social-engineering part of these lucrative scams.	https://kasperskycontenthub.com/threatpost-global/?p=169092	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/01101035/help-wanted-sign-e1630505447290.jpeg	threatpost	t	2021-09-01 17:00:02.313875+02	2021-09-01 16:40:46+02	Lisa Vaas	threatpost/BEC-Scammers-Seek-Native-English-Speakers-on-Underground
 1147	Fired NY credit union employee nukes 21GB of data in revenge	Juliana Barile, the former employee of a New York credit union, pleaded guilty to accessing the financial institution's computer systems without authorization and destroying over 21 gigabytes of data in revenge.	https://www.bleepingcomputer.com/news/security/fired-ny-credit-union-employee-nukes-21gb-of-data-in-revenge/	https://www.bleepstatic.com/content/hl-images/2021/09/01/Stressed.jpg	bleepingcomputer	t	2021-09-01 18:00:01.82542+02	2021-09-01 17:23:51+02	Sergiu Gatlan	bleepingcomputer/Fired-NY-credit-union-employee-nukes-21GB-of-data-in-revenge
 1148	LockBit Jumps Its Own Countdown, Publishes Bangkok Air Files	The ransomware gang claims to have pulled off successful attacks against two airlines and one airport with help from its Accenture attack.	https://kasperskycontenthub.com/threatpost-global/?p=169101	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/01113318/BangkokAirLeak-e1630510412111.jpeg	threatpost	t	2021-09-01 18:00:01.82542+02	2021-09-01 17:55:23+02	Lisa Vaas	threatpost/LockBit-Jumps-Its-Own-Countdown-Publishes-Bangkok-Air-Files
+1150	Twitter adds Safety Mode to automatically block online harassment	Twitter has introduced today Safety Mode, a new feature that aims to block online harassment attempts and reduce disruptive interactions on the platform.	https://www.bleepingcomputer.com/news/security/twitter-adds-safety-mode-to-automatically-block-online-harassment/	https://www.bleepstatic.com/content/hl-images/2021/09/01/Twitter.jpg	bleepingcomputer	t	2021-09-01 19:00:02.347082+02	2021-09-01 18:40:26+02	Sergiu Gatlan	bleepingcomputer/Twitter-adds-Safety-Mode-to-automatically-block-online-harassment
+1149	Confluence enterprise servers targeted with recent vulnerability	A major vulnerability in Confluence’s team collaboration server software is currently on the cusp of widespread abuse after mass scanning and initial exploitation was spotted this week. Tracked as CVE-2021-26084, the vulnerability impacts Confluence Server and Confluence Data Center software that’s usually installed on Confluence self-hosted projec	https://therecord.media/confluence-enterprise-servers-targeted-with-recent-vulnerability/	https://therecord.media/wp-content/uploads/2021/09/Confluence.jpg	therecord	t	2021-09-01 19:00:02.347082+02	2021-09-01 18:04:54+02	Catalin Cimpanu	therecord/Confluence-enterprise-servers-targeted-with-recent-vulnerability
 \.
 
 
@@ -1199,7 +1201,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1148, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1150, true);
 
 
 --
