@@ -1184,6 +1184,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1138	Scam artists are recruiting English speakers for business email campaigns | ZDNet	Finding fluent speakers is becoming important to criminals conducting business-based attacks.	https://www.zdnet.com/article/scam-artists-are-recruiting-english-speakers-for-business-email-campaigns/	https://www.zdnet.com/a/hub/i/r/2021/07/01/f4d1ad40-537e-4c58-8a60-aae30e0aa1ab/thumbnail/770x578/e7821c737668f4643e143e499998045c/business-credit-cards.jpg	zdnet	t	2021-09-01 12:00:02.445478+02	2021-09-01 09:00:02+02	Charlie Osborne	zdnet/Scam-artists-are-recruiting-English-speakers-for-business-email-campaigns
 1139	This is why the Mozi botnet will linger on | ZDNet	The botnet continues to haunt IoT devices, and likely will for some time to come.	https://www.zdnet.com/article/this-is-why-the-mozi-botnet-will-linger-on/	https://www.zdnet.com/a/hub/i/r/2014/09/18/57e9d181-3f1a-11e4-b6a0-d4ae52e95e57/thumbnail/770x578/02dab18e8b7b2b9cbaf737683e5e7b3a/suspected-hackers-behind-carberp-botnet-eurograbber-arrested.jpg	zdnet	t	2021-09-01 14:00:02.264851+02	2021-09-01 11:53:33+02	Charlie Osborne	zdnet/This-is-why-the-Mozi-botnet-will-linger-on
 1140	Mozi botnet authors arrested in China	The authors of the Mozi IoT botnet have been taken into custody by Chinese law enforcement earlier this year, according to Netlab, the networking security division of Chinese tech giant Qihoo 360.	https://therecord.media/mozi-botnet-authors-arrested-in-china/	https://therecord.media/wp-content/uploads/2021/08/Mozi.png	therecord	t	2021-09-01 14:00:02.264851+02	2021-09-01 13:30:50+02	Catalin Cimpanu	therecord/Mozi-botnet-authors-arrested-in-China
+1141	Feds Warn of Ransomware Attacks Ahead of Labor Day	Threat actors recently have used long holiday weekends — when many staff are taking time off — as a prime opportunity to ambush organizations.	https://kasperskycontenthub.com/threatpost-global/?p=169087	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/01081221/USA-flag-cyberattack.jpg	threatpost	t	2021-09-01 15:00:02.292435+02	2021-09-01 14:17:17+02	Elizabeth Montalbano	threatpost/Feds-Warn-of-Ransomware-Attacks-Ahead-of-Labor-Day
 \.
 
 
@@ -1191,7 +1192,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1140, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1141, true);
 
 
 --
