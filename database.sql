@@ -1178,6 +1178,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1132	FBI, CISA warn of potential cyberattacks over Labor Day weekend | ZDNet	They cited the Mother's Day weekend attack on Colonial Pipeline, the Memorial Day weekend attack on major meat processor JBS as well as the July 4 Kaseya attack.	https://www.zdnet.com/article/fbi-cisa-warns-of-potential-cyberattacks-over-labor-day-weekend/	https://www.zdnet.com/a/hub/i/r/2019/06/24/bad9f6d2-babc-448b-b5dd-9144631a0b99/thumbnail/770x578/426654bc2f9b3058b01ddc9a0c064756/istock-woman-stressed-out-at-cyberattack.jpg	zdnet	t	2021-09-01 00:00:01.946134+02	2021-08-31 21:27:52+02	Jonathan Greig	zdnet/FBI-CISA-warn-of-potential-cyberattacks-over-Labor-Day-weekend
 1133	Microsoft 365 Usage Analytics now anonymizes user info by default	Microsoft has announced that it will start anonymizing​​​​​​​ user-level info by default Microsoft 365 Usage Analytics beginning with September 1, 2021.	https://www.bleepingcomputer.com/news/microsoft/microsoft-365-usage-analytics-now-anonymizes-user-info-by-default/	https://www.bleepstatic.com/content/hl-images/2021/08/31/Microsoft-365.jpg	bleepingcomputer	t	2021-09-01 00:00:01.946134+02	2021-08-31 23:42:12+02	Sergiu Gatlan	bleepingcomputer/Microsoft-365-Usage-Analytics-now-anonymizes-user-info-by-default
 1134	CISA and the FBI warn of ransomware gangs' tendency of launching attacks over holidays and weekends	The Cybersecurity and Infrastructure Security Agency (CISA) and the Federal Bureau of Investigation (FBI) have published a joint security advisory today to warn companies about the tendency of ransomware gangs to launch attacks over weekends and national holidays.	https://therecord.media/cisa-and-the-fbi-warn-of-ransomware-gangs-tendency-of-launching-attacks-over-holidays-and-weekends/	https://therecord.media/wp-content/uploads/2021/08/holiday.jpg	therecord	t	2021-09-01 00:00:01.946134+02	2021-08-31 23:00:31+02	Catalin Cimpanu	therecord/CISA-and-the-FBI-warn-of-ransomware-gangs-tendency-of-launching-attacks-over-holidays-and-weekends
+1135	Microsoft will split Defender pricing plans to lower the entry bar for SMBs	Microsoft announced plans today to split the pricing model for the commercial version of its antivirus product, known as Microsoft Defender for Endpoint, introducing a cheaper plan and making its product more easily and broadly available to companies that typically couldn't afford it.	https://therecord.media/microsoft-will-split-defender-pricing-plans-to-lower-the-entry-bar-for-smbs/	https://therecord.media/wp-content/uploads/2021/08/Microsoft-Defender.jpg	therecord	t	2021-09-01 04:00:02.525578+02	2021-09-01 03:12:36+02	Catalin Cimpanu	therecord/Microsoft-will-split-Defender-pricing-plans-to-lower-the-entry-bar-for-SMBs
 \.
 
 
@@ -1185,7 +1186,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1134, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1135, true);
 
 
 --
