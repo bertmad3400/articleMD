@@ -1190,6 +1190,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1144	Microsoft kicks unsupported PCs out of Windows 11 preview program	Microsoft is kicking unsupported Windows 11 devices out of the Windows 11 preview program without warning, even though it said that wouldn't happen until the new Windows version was released.	https://www.bleepingcomputer.com/news/microsoft/microsoft-kicks-unsupported-pcs-out-of-windows-11-preview-program/	https://www.bleepstatic.com/content/hl-images/2021/09/01/windows-11-glow-glass.jpg	bleepingcomputer	t	2021-09-01 17:00:02.313875+02	2021-09-01 16:28:40+02	Lawrence Abrams	bleepingcomputer/Microsoft-kicks-unsupported-PCs-out-of-Windows-11-preview-program
 1145	LockBit gang leaks Bangkok Airways data, hits Accenture customers	Bangkok Airways, a major airline company in Thailand, confirmed it was the victim of a cyberattack earlier this month that compromised personal data of passengers.	https://www.bleepingcomputer.com/news/security/lockbit-gang-leaks-bangkok-airways-data-hits-accenture-customers/	https://www.bleepstatic.com/content/hl-images/2021/07/27/Lockbit__logo.jpg	bleepingcomputer	t	2021-09-01 17:00:02.313875+02	2021-09-01 09:36:46+02	Ionut Ilascu	bleepingcomputer/LockBit-gang-leaks-Bangkok-Airways-data-hits-Accenture-customers
 1146	BEC Scammers Seek Native English Speakers on Underground	Cybercrooks are posting help-wanted ads on dark web forums, promising to do the technical work of compromising email accounts but looking for native English speakers to carry out the social-engineering part of these lucrative scams.	https://kasperskycontenthub.com/threatpost-global/?p=169092	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/01101035/help-wanted-sign-e1630505447290.jpeg	threatpost	t	2021-09-01 17:00:02.313875+02	2021-09-01 16:40:46+02	Lisa Vaas	threatpost/BEC-Scammers-Seek-Native-English-Speakers-on-Underground
+1147	Fired NY credit union employee nukes 21GB of data in revenge	Juliana Barile, the former employee of a New York credit union, pleaded guilty to accessing the financial institution's computer systems without authorization and destroying over 21 gigabytes of data in revenge.	https://www.bleepingcomputer.com/news/security/fired-ny-credit-union-employee-nukes-21gb-of-data-in-revenge/	https://www.bleepstatic.com/content/hl-images/2021/09/01/Stressed.jpg	bleepingcomputer	t	2021-09-01 18:00:01.82542+02	2021-09-01 17:23:51+02	Sergiu Gatlan	bleepingcomputer/Fired-NY-credit-union-employee-nukes-21GB-of-data-in-revenge
+1148	LockBit Jumps Its Own Countdown, Publishes Bangkok Air Files	The ransomware gang claims to have pulled off successful attacks against two airlines and one airport with help from its Accenture attack.	https://kasperskycontenthub.com/threatpost-global/?p=169101	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/01113318/BangkokAirLeak-e1630510412111.jpeg	threatpost	t	2021-09-01 18:00:01.82542+02	2021-09-01 17:55:23+02	Lisa Vaas	threatpost/LockBit-Jumps-Its-Own-Countdown-Publishes-Bangkok-Air-Files
 \.
 
 
@@ -1197,7 +1199,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1146, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1148, true);
 
 
 --
