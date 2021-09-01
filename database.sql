@@ -1201,6 +1201,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1155	Google pauses quantum security feature in Chrome because of buggy middleware	Google said on Tuesday that it temporarily disabled its quantum computer-resistant security feature in Chrome after it received bug reports that faulty networking middleware devices have been causing unexpected website connection failures for the few users where this feature was enabled.	https://therecord.media/google-pauses-quantum-security-feature-in-chrome-because-of-buggy-middleware/	https://therecord.media/wp-content/uploads/2021/09/quantum-cryptography.jpg	therecord	t	2021-09-01 22:00:01.912707+02	2021-09-01 21:11:21+02	Catalin Cimpanu	therecord/Google-pauses-quantum-security-feature-in-Chrome-because-of-buggy-middleware
 1156	How to block Windows Plug-and-Play auto-installing insecure apps	A trick has been discovered that prevents your device from being taken over by vulnerable Windows applications when devices are plugged into your computer.	https://www.bleepingcomputer.com/news/microsoft/how-to-block-windows-plug-and-play-auto-installing-insecure-apps/	https://www.bleepstatic.com/content/hl-images/2021/09/01/usb-plug-and-play.jpg	bleepingcomputer	t	2021-09-01 22:00:01.912707+02	2021-09-01 21:29:11+02	Lawrence Abrams	bleepingcomputer/How-to-block-Windows-Plug-and-Play-auto-installing-insecure-apps
 1157	Microsoft: Windows Server 2022 is now generally available	Microsoft has announced that Window Server 2022, a Long Term Servicing Channel (LTSC) release with ten years of support, is generally available starting today.	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-is-now-generally-available/	https://www.bleepstatic.com/content/hl-images/2021/09/01/Windows-Server__2022.jpg	bleepingcomputer	t	2021-09-01 23:00:02.673945+02	2021-09-01 22:28:55+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Windows-Server-2022-is-now-generally-available
+1158	Windows 10 KB5005101 Cumulative Update released with 34 fixes	Microsoft has released the optional KB5005101 Preview cumulative update for Windows 10 2004, Windows 10 20H2, and Windows 10 21H1 with fixes for thirty-four issues.	https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5005101-cumulative-update-released-with-34-fixes/	https://www.bleepstatic.com/content/hl-images/2021/01/25/Windows-10.jpg	bleepingcomputer	t	2021-09-02 01:00:02.314227+02	2021-09-02 00:07:19+02	Lawrence Abrams	bleepingcomputer/Windows-10-KB5005101-Cumulative-Update-released-with-34-fixes
 \.
 
 
@@ -1208,7 +1209,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1157, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1158, true);
 
 
 --
