@@ -1215,6 +1215,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1169	7 Ways to Defend Mobile Apps, APIs from Cyberattacks	David Stewart, CEO, Approov, discusses the top mobile attack routes the bad guys use and the best defenses organizations can deploy against them.	https://kasperskycontenthub.com/threatpost-global/?p=169144	https://media.threatpost.com/wp-content/uploads/sites/103/2017/07/06223721/AdobeStock_72773662-e1630586165222.jpeg	threatpost	t	2021-09-02 15:00:01.799342+02	2021-09-02 14:51:59+02	David Stewart	threatpost/7-Ways-to-Defend-Mobile-Apps-APIs-from-Cyberattacks
 1170	WhatsApp Photo Filter Bug Allows Sensitive Info to Be Lifted	Users should be careful whose pics they view and should, of course, update their apps.	https://kasperskycontenthub.com/threatpost-global/?p=169141	https://media.threatpost.com/wp-content/uploads/sites/103/2020/02/05114803/whatsapp-1357489_1920-e1580921300765.jpg	threatpost	t	2021-09-02 15:00:01.799342+02	2021-09-02 14:28:13+02	Tara Seals	threatpost/WhatsApp-Photo-Filter-Bug-Allows-Sensitive-Info-to-Be-Lifted
 1171	WhatsApp to appeal $266 million fine for violating EU privacy laws	Ireland's Data Privacy Commissioner (DPC) has hit Facebook-owned messaging platform WhatsApp with a €225 million ($266 million) administrative fine for violating the EU's GDPR privacy regulation after failing to inform users and non-users on what it does with their data.	https://www.bleepingcomputer.com/news/security/whatsapp-to-appeal-266-million-fine-for-violating-eu-privacy-laws/	https://www.bleepstatic.com/content/hl-images/2021/08/25/WhatsApp.jpg	bleepingcomputer	t	2021-09-02 16:00:02.027204+02	2021-09-02 15:29:06+02	Sergiu Gatlan	bleepingcomputer/WhatsApp-to-appeal-266-million-fine-for-violating-EU-privacy-laws
+1172	WhatsApp hit with giant €225 million (~$267M) million GDPR fine	Ireland's data protection agency has announced today a €225 million ($267 million) fine against Facebook's WhatsApp for failing to comply with the European Union's General Data Protection Regulation (GDPR).	https://therecord.media/whatsapp-hit-with-giant-e225-million-267m-million-gdpr-fine/	https://therecord.media/wp-content/uploads/2021/09/WhatsApp.jpg	therecord	t	2021-09-02 17:00:02.658577+02	2021-09-02 16:22:26+02	Catalin Cimpanu	therecord/WhatsApp-hit-with-giant-225-million-267M-million-GDPR-fine
 \.
 
 
@@ -1222,7 +1223,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1171, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1172, true);
 
 
 --
