@@ -1229,6 +1229,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1183	SEC fines eight investment firms for cybersecurity breaches that leaked client info | ZDNet	Thousands of people had their personal information leaked by eight SEC-registered broker dealers and investment advisory firms over the last three years.	https://www.zdnet.com/article/sec-fines-eight-investment-advisory-firms-for-cybersecurity-breaches/	https://www.zdnet.com/a/hub/i/r/2015/12/03/e4cc1a6f-b836-4b35-94b0-d194c9128aec/thumbnail/770x578/32ffd7996dbe6efa753d92fa1665dbfa/former-dean-foods-chairman-subject-of-sec-us-attorney-s-office-insider-trading-probe-reportsstrictxxl.jpg	zdnet	t	2021-09-03 00:00:01.832034+02	2021-09-02 21:32:46+02	Jonathan Greig	zdnet/SEC-fines-eight-investment-firms-for-cybersecurity-breaches-that-leaked-client-info
 1184	Translated Conti ransomware playbook gives insight into attacks	Almost a month after a disgruntled Conti affiliate leaked the gang's attack playbook, security researchers shared a translated variant that clarifies on any misinterpretation caused by automated translation.	https://www.bleepingcomputer.com/news/security/translated-conti-ransomware-playbook-gives-insight-into-attacks/	https://www.bleepstatic.com/content/posts/2021/09/02/ContiCookbook2.jpg	bleepingcomputer	t	2021-09-03 00:00:01.832034+02	2021-09-02 23:10:45+02	Ionut Ilascu	bleepingcomputer/Translated-Conti-ransomware-playbook-gives-insight-into-attacks
 1185	NFT Collector Tricked into Buying Fake Banksy 	An attacker breached the site of famed street artist Banksy to host a fraudulent NFT auction but then gave back the money.	https://kasperskycontenthub.com/threatpost-global/?p=169179	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/02173234/banksy-e1630618370870.jpeg	threatpost	t	2021-09-03 00:00:01.832034+02	2021-09-02 23:38:40+02	Becky Bracken	threatpost/NFT-Collector-Tricked-into-Buying-Fake-Banksy
+1186	FBI: Americans lost more than $8 million to sextortion scams this year	The US Federal Bureau of Investigation said today that Americans lost more than $8 million to sextortion scams in the first seven months of the year following a massive uptick in activity from criminal groups.	https://therecord.media/fbi-americans-lost-more-than-8-million-to-sextortion-scams-this-year/	https://therecord.media/wp-content/uploads/2021/09/sextortion-worried.png	therecord	t	2021-09-03 01:00:02.107863+02	2021-09-03 00:19:29+02	Catalin Cimpanu	therecord/FBI-Americans-lost-more-than-8-million-to-sextortion-scams-this-year
 \.
 
 
@@ -1236,7 +1237,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1185, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1186, true);
 
 
 --
