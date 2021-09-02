@@ -1216,6 +1216,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1170	WhatsApp Photo Filter Bug Allows Sensitive Info to Be Lifted	Users should be careful whose pics they view and should, of course, update their apps.	https://kasperskycontenthub.com/threatpost-global/?p=169141	https://media.threatpost.com/wp-content/uploads/sites/103/2020/02/05114803/whatsapp-1357489_1920-e1580921300765.jpg	threatpost	t	2021-09-02 15:00:01.799342+02	2021-09-02 14:28:13+02	Tara Seals	threatpost/WhatsApp-Photo-Filter-Bug-Allows-Sensitive-Info-to-Be-Lifted
 1171	WhatsApp to appeal $266 million fine for violating EU privacy laws	Ireland's Data Privacy Commissioner (DPC) has hit Facebook-owned messaging platform WhatsApp with a €225 million ($266 million) administrative fine for violating the EU's GDPR privacy regulation after failing to inform users and non-users on what it does with their data.	https://www.bleepingcomputer.com/news/security/whatsapp-to-appeal-266-million-fine-for-violating-eu-privacy-laws/	https://www.bleepstatic.com/content/hl-images/2021/08/25/WhatsApp.jpg	bleepingcomputer	t	2021-09-02 16:00:02.027204+02	2021-09-02 15:29:06+02	Sergiu Gatlan	bleepingcomputer/WhatsApp-to-appeal-266-million-fine-for-violating-EU-privacy-laws
 1172	WhatsApp hit with giant €225 million (~$267M) million GDPR fine	Ireland's data protection agency has announced today a €225 million ($267 million) fine against Facebook's WhatsApp for failing to comply with the European Union's General Data Protection Regulation (GDPR).	https://therecord.media/whatsapp-hit-with-giant-e225-million-267m-million-gdpr-fine/	https://therecord.media/wp-content/uploads/2021/09/WhatsApp.jpg	therecord	t	2021-09-02 17:00:02.658577+02	2021-09-02 16:22:26+02	Catalin Cimpanu	therecord/WhatsApp-hit-with-giant-225-million-267M-million-GDPR-fine
+1173	The FTC wants to ban a stalkerware app maker and make it notify victims. Is that enough?	The FTC announced Wednesday a proposed settlement with the company behind alleged stalkerware app SpyFone, and its CEO Scott Zuckerman.	https://therecord.media/ftc-stalkerware-spyfone-support-king-scott-zuckerman/	https://therecord.media/wp-content/uploads/2021/09/rodion-kutsaev-0VGG7cqTwCo-unsplash-1.jpg	therecord	t	2021-09-02 18:00:02.239642+02	2021-09-02 17:41:37+02	Andrea Peterson	therecord/The-FTC-wants-to-ban-a-stalkerware-app-maker-and-make-it-notify-victims-Is-that-enough
+1174	Cisco Patches Critical Authentication Bug With Public Exploit	There's proof-of-concept code out for the near-maximum critical – rated at 9.8 – authentication bypass bug but Cisco hasn't seen any malicious exploit yet.	https://kasperskycontenthub.com/threatpost-global/?p=169146	https://media.threatpost.com/wp-content/uploads/sites/103/2020/07/30102437/cisco-patch.png	threatpost	t	2021-09-02 18:00:02.239642+02	2021-09-02 17:41:13+02	Lisa Vaas	threatpost/Cisco-Patches-Critical-Authentication-Bug-With-Public-Exploit
 \.
 
 
@@ -1223,7 +1225,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1172, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1174, true);
 
 
 --
