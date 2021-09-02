@@ -1222,6 +1222,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1176	US farm loses $9 million in the aftermath of a ransomware attack	A US farm lost a whopping $9 million due to a temporary shutdown of its farming operations following a ransomware attack earlier this year; the FBI said this week.	https://therecord.media/us-farm-loses-9-million-in-the-aftermath-of-a-ransomware-attack/	https://www-therecord.recfut.com/wp-content/uploads/2021/08/agriculture.jpg	therecord	t	2021-09-02 20:00:02.168928+02	2021-09-02 19:18:53+02	Catalin Cimpanu	therecord/US-farm-loses-9-million-in-the-aftermath-of-a-ransomware-attack
 1177	FBI warns of ransomware gangs targeting food, agriculture orgs	The FBI says ransomware gangs are actively targeting and disrupting the operations of organizations in the food and agriculture sector, causing financial loss and directly affecting the food supply chain.	https://www.bleepingcomputer.com/news/security/fbi-warns-of-ransomware-gangs-targeting-food-agriculture-orgs/	https://www.bleepstatic.com/content/hl-images/2020/11/06/Ransomware-headpic.jpg	bleepingcomputer	t	2021-09-02 20:00:02.168928+02	2021-09-02 19:52:55+02	Sergiu Gatlan	bleepingcomputer/FBI-warns-of-ransomware-gangs-targeting-food-agriculture-orgs
 1178	Microsoft releases first Windows 11 Nickel build to Insiders	Microsoft has released the first Windows 11 Nickel preview build 22449 to Windows Insiders in the 'Dev' channel, allowing them to test out new unstable features that are still being developed.	https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-first-windows-11-nickel-build-to-insiders/	https://www.bleepstatic.com/content/hl-images/2021/08/31/windows-11-header-light.jpg	bleepingcomputer	t	2021-09-02 20:00:02.168928+02	2021-09-02 19:31:10+02	Lawrence Abrams	bleepingcomputer/Microsoft-releases-first-Windows-11-Nickel-build-to-Insiders
+1179	White House double downs on warning about cyberattacks over the holidays	White House deputy national security adviser Anne Neuberger on Thursday urged U.S. organizations to be on guard against malicious digital activity ahead of the Labor Day holiday.	https://therecord.media/white-house-double-downs-on-warning-about-cyberattacks-over-the-holidays/	https://therecord.media/wp-content/uploads/2021/09/Screen-Shot-2021-09-02-at-2.57.09-PM.jpg	therecord	t	2021-09-02 21:00:02.152007+02	2021-09-02 20:59:23+02	Martin Matishak	therecord/White-House-double-downs-on-warning-about-cyberattacks-over-the-holidays
+1180	Bluetooth Bugs Open Billions of Devices to DoS, Code Execution	The BrakTooth set of security vulnerabilities impacts at least 11 vendors' chipsets.	https://kasperskycontenthub.com/threatpost-global/?p=169159	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/02140504/Shark-Teeth.jpg	threatpost	t	2021-09-02 21:00:02.152007+02	2021-09-02 20:32:18+02	Tara Seals	threatpost/Bluetooth-Bugs-Open-Billions-of-Devices-to-DoS-Code-Execution
 \.
 
 
@@ -1229,7 +1231,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1178, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1180, true);
 
 
 --
