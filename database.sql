@@ -1224,6 +1224,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1178	Microsoft releases first Windows 11 Nickel build to Insiders	Microsoft has released the first Windows 11 Nickel preview build 22449 to Windows Insiders in the 'Dev' channel, allowing them to test out new unstable features that are still being developed.	https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-first-windows-11-nickel-build-to-insiders/	https://www.bleepstatic.com/content/hl-images/2021/08/31/windows-11-header-light.jpg	bleepingcomputer	t	2021-09-02 20:00:02.168928+02	2021-09-02 19:31:10+02	Lawrence Abrams	bleepingcomputer/Microsoft-releases-first-Windows-11-Nickel-build-to-Insiders
 1179	White House double downs on warning about cyberattacks over the holidays	White House deputy national security adviser Anne Neuberger on Thursday urged U.S. organizations to be on guard against malicious digital activity ahead of the Labor Day holiday.	https://therecord.media/white-house-double-downs-on-warning-about-cyberattacks-over-the-holidays/	https://therecord.media/wp-content/uploads/2021/09/Screen-Shot-2021-09-02-at-2.57.09-PM.jpg	therecord	t	2021-09-02 21:00:02.152007+02	2021-09-02 20:59:23+02	Martin Matishak	therecord/White-House-double-downs-on-warning-about-cyberattacks-over-the-holidays
 1180	Bluetooth Bugs Open Billions of Devices to DoS, Code Execution	The BrakTooth set of security vulnerabilities impacts at least 11 vendors' chipsets.	https://kasperskycontenthub.com/threatpost-global/?p=169159	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/02140504/Shark-Teeth.jpg	threatpost	t	2021-09-02 21:00:02.152007+02	2021-09-02 20:32:18+02	Tara Seals	threatpost/Bluetooth-Bugs-Open-Billions-of-Devices-to-DoS-Code-Execution
+1181	Atlassian Confluence flaw actively exploited to install cryptominers	Hackers are actively scanning for and exploiting a recently disclosed Atlassian Confluence remote code execution vulnerability to install cryptominers after a PoC exploit was publicly released.	https://www.bleepingcomputer.com/news/security/atlassian-confluence-flaw-actively-exploited-to-install-cryptominers/	https://www.bleepstatic.com/content/hl-images/2021/09/02/Confluence.jpg	bleepingcomputer	t	2021-09-02 23:00:02.368237+02	2021-09-02 22:54:43+02	Lawrence Abrams	bleepingcomputer/Atlassian-Confluence-flaw-actively-exploited-to-install-cryptominers
+1182	SpyFone & CEO Banned From Stalkerware Biz	The FTC's first spyware ban nixes a company whose slipshod security practices led to exposure of thousands of victims' illegally collected personal data.	https://kasperskycontenthub.com/threatpost-global/?p=169165	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/02153256/stalkerware.jpeg	threatpost	t	2021-09-02 23:00:02.368237+02	2021-09-02 22:12:24+02	Lisa Vaas	threatpost/SpyFone--CEO-Banned-From-Stalkerware-Biz
 \.
 
 
@@ -1231,7 +1233,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1180, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1182, true);
 
 
 --
