@@ -1204,6 +1204,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1158	Windows 10 KB5005101 Cumulative Update released with 34 fixes	Microsoft has released the optional KB5005101 Preview cumulative update for Windows 10 2004, Windows 10 20H2, and Windows 10 21H1 with fixes for thirty-four issues.	https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5005101-cumulative-update-released-with-34-fixes/	https://www.bleepstatic.com/content/hl-images/2021/01/25/Windows-10.jpg	bleepingcomputer	t	2021-09-02 01:00:02.314227+02	2021-09-02 00:07:19+02	Lawrence Abrams	bleepingcomputer/Windows-10-KB5005101-Cumulative-Update-released-with-34-fixes
 1159	Windows Terminal now lets you drag and drop folders to open tabs	Microsoft released Windows Terminal Preview v1.11 yesterday, and comes numerous improvements and features, including the ability to open a Terminal window by dropping a folder on the new tab button.	https://www.bleepingcomputer.com/news/microsoft/windows-terminal-now-lets-you-drag-and-drop-folders-to-open-tabs/	https://www.bleepstatic.com/content/hl-images/2020/09/22/windows-terminal-menu.jpg	bleepingcomputer	t	2021-09-02 02:00:02.070348+02	2021-09-02 01:51:43+02	Lawrence Abrams	bleepingcomputer/Windows-Terminal-now-lets-you-drag-and-drop-folders-to-open-tabs
 1160	Billions of devices impacted by new BrakTooth Bluetooth vulnerabilities	A team of security researchers has published details this week about a suite of 16 vulnerabilities collectively known as BrakTooth that impact the Bluetooth software stack that ships with System-on-Chip (SoC) boards from several popular vendors.	https://therecord.media/billions-of-devices-impacted-by-new-braktooth-bluetooth-vulnerabilities/	https://therecord.media/wp-content/uploads/2021/09/BrakTooth.png	therecord	t	2021-09-02 03:00:01.851809+02	2021-09-02 02:47:46+02	Catalin Cimpanu	therecord/Billions-of-devices-impacted-by-new-BrakTooth-Bluetooth-vulnerabilities
+1161	Australians could soon attach a PDF or hyperlink to a payment | ZDNet	The Reserve Bank of Australia believes the information contained in the document or URL could help financial institutions with their adherence to the country's anti-money laundering and counter-terrorism financing regime.	https://www.zdnet.com/article/australians-could-soon-attach-a-pdf-or-hyperlink-to-a-payment/	https://www.zdnet.com/a/hub/i/r/2021/09/02/89f8f6a7-1872-4027-a09e-477249e9ee69/thumbnail/770x578/f0cab81f767649d867ec8c69568085f3/gettyimages-520536934.jpg	zdnet	t	2021-09-02 05:00:02.214352+02	2021-09-02 02:16:14+02	Asha Barbaschow	zdnet/Australians-could-soon-attach-a-PDF-or-hyperlink-to-a-payment
 \.
 
 
@@ -1211,7 +1212,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1160, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1161, true);
 
 
 --
