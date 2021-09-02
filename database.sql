@@ -1205,6 +1205,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1159	Windows Terminal now lets you drag and drop folders to open tabs	Microsoft released Windows Terminal Preview v1.11 yesterday, and comes numerous improvements and features, including the ability to open a Terminal window by dropping a folder on the new tab button.	https://www.bleepingcomputer.com/news/microsoft/windows-terminal-now-lets-you-drag-and-drop-folders-to-open-tabs/	https://www.bleepstatic.com/content/hl-images/2020/09/22/windows-terminal-menu.jpg	bleepingcomputer	t	2021-09-02 02:00:02.070348+02	2021-09-02 01:51:43+02	Lawrence Abrams	bleepingcomputer/Windows-Terminal-now-lets-you-drag-and-drop-folders-to-open-tabs
 1160	Billions of devices impacted by new BrakTooth Bluetooth vulnerabilities	A team of security researchers has published details this week about a suite of 16 vulnerabilities collectively known as BrakTooth that impact the Bluetooth software stack that ships with System-on-Chip (SoC) boards from several popular vendors.	https://therecord.media/billions-of-devices-impacted-by-new-braktooth-bluetooth-vulnerabilities/	https://therecord.media/wp-content/uploads/2021/09/BrakTooth.png	therecord	t	2021-09-02 03:00:01.851809+02	2021-09-02 02:47:46+02	Catalin Cimpanu	therecord/Billions-of-devices-impacted-by-new-BrakTooth-Bluetooth-vulnerabilities
 1161	Australians could soon attach a PDF or hyperlink to a payment | ZDNet	The Reserve Bank of Australia believes the information contained in the document or URL could help financial institutions with their adherence to the country's anti-money laundering and counter-terrorism financing regime.	https://www.zdnet.com/article/australians-could-soon-attach-a-pdf-or-hyperlink-to-a-payment/	https://www.zdnet.com/a/hub/i/r/2021/09/02/89f8f6a7-1872-4027-a09e-477249e9ee69/thumbnail/770x578/f0cab81f767649d867ec8c69568085f3/gettyimages-520536934.jpg	zdnet	t	2021-09-02 05:00:02.214352+02	2021-09-02 02:16:14+02	Asha Barbaschow	zdnet/Australians-could-soon-attach-a-PDF-or-hyperlink-to-a-payment
+1162	WhatsApp patches vulnerability related to image filter functionality | ZDNet	Check Point Research discovered the vulnerability, which involved maliciously crafted image files.	https://www.zdnet.com/article/whatsapp-patches-read-write-vulnerability-related-to-image-filter-functionality/	https://www.zdnet.com/a/hub/i/r/2020/09/03/95d7e6db-5986-4718-b23c-6cf7e3b59819/thumbnail/770x578/4b0d9e3f6f73c77f1f31ec14721a245c/whatsapp.png	zdnet	t	2021-09-02 13:00:01.754037+02	2021-09-02 10:00:13+02	Jonathan Greig	zdnet/WhatsApp-patches-vulnerability-related-to-image-filter-functionality
 \.
 
 
@@ -1212,7 +1213,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1161, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1162, true);
 
 
 --
