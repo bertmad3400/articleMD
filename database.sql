@@ -1218,6 +1218,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1172	WhatsApp hit with giant €225 million (~$267M) million GDPR fine	Ireland's data protection agency has announced today a €225 million ($267 million) fine against Facebook's WhatsApp for failing to comply with the European Union's General Data Protection Regulation (GDPR).	https://therecord.media/whatsapp-hit-with-giant-e225-million-267m-million-gdpr-fine/	https://therecord.media/wp-content/uploads/2021/09/WhatsApp.jpg	therecord	t	2021-09-02 17:00:02.658577+02	2021-09-02 16:22:26+02	Catalin Cimpanu	therecord/WhatsApp-hit-with-giant-225-million-267M-million-GDPR-fine
 1173	The FTC wants to ban a stalkerware app maker and make it notify victims. Is that enough?	The FTC announced Wednesday a proposed settlement with the company behind alleged stalkerware app SpyFone, and its CEO Scott Zuckerman.	https://therecord.media/ftc-stalkerware-spyfone-support-king-scott-zuckerman/	https://therecord.media/wp-content/uploads/2021/09/rodion-kutsaev-0VGG7cqTwCo-unsplash-1.jpg	therecord	t	2021-09-02 18:00:02.239642+02	2021-09-02 17:41:37+02	Andrea Peterson	therecord/The-FTC-wants-to-ban-a-stalkerware-app-maker-and-make-it-notify-victims-Is-that-enough
 1174	Cisco Patches Critical Authentication Bug With Public Exploit	There's proof-of-concept code out for the near-maximum critical – rated at 9.8 – authentication bypass bug but Cisco hasn't seen any malicious exploit yet.	https://kasperskycontenthub.com/threatpost-global/?p=169146	https://media.threatpost.com/wp-content/uploads/sites/103/2020/07/30102437/cisco-patch.png	threatpost	t	2021-09-02 18:00:02.239642+02	2021-09-02 17:41:13+02	Lisa Vaas	threatpost/Cisco-Patches-Critical-Authentication-Bug-With-Public-Exploit
+1175	Google Play Sign-Ins Allow Covert Location-Tracking	A design flaw involving Google Timeline could allow someone to track another device without installing a stalkerware app.	https://kasperskycontenthub.com/threatpost-global/?p=169151	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/02115807/Google-Timeline-e1630598317516.jpg	threatpost	t	2021-09-02 19:00:01.891443+02	2021-09-02 18:03:51+02	Tara Seals	threatpost/Google-Play-Sign-Ins-Allow-Covert-Location-Tracking
 \.
 
 
@@ -1225,7 +1226,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1174, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1175, true);
 
 
 --
