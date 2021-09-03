@@ -1233,6 +1233,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1187	Bluetooth BrakTooth bugs could affect billions of devices	Vulnerabilities collectively referred to as BrakTooth are affecting Bluetooth stacks implemented on system-on-a-chip (SoC) circuits from over a dozen vendors.	https://www.bleepingcomputer.com/news/security/bluetooth-braktooth-bugs-could-affect-billions-of-devices/	https://www.bleepstatic.com/content/hl-images/2021/09/02/braktooth.jpg	bleepingcomputer	t	2021-09-03 02:00:02.503924+02	2021-09-03 01:22:51+02	Ionut Ilascu	bleepingcomputer/Bluetooth-BrakTooth-bugs-could-affect-billions-of-devices
 1188	FBI warns of ransomware attacks targeting food and agriculture sector as White House pushes for proactive measures | ZDNet	In addition to the May attack on JBS, the FBI listed dozens of ransomware incidents that have taken place over the last six months targeting the food sector.	https://www.zdnet.com/article/fbi-warns-of-ransomware-attacks-targeting-food-and-agriculture-sector-as-white-house-pushes-for-proactive-measures/	https://www.zdnet.com/a/hub/i/r/2019/02/13/16bab08a-e627-4c1d-987a-5f67053e2ede/thumbnail/770x578/975747ff113625cc8d81b448ccf3a09f/farmer-with-tablet.jpg	zdnet	t	2021-09-03 03:00:02.246887+02	2021-09-03 00:23:53+02	Jonathan Greig	zdnet/FBI-warns-of-ransomware-attacks-targeting-food-and-agriculture-sector-as-White-House-pushes-for-proactive-measures
 1189	Tabcorp argues banks should be responsible for handling credit card gambling blocks | ZDNet	Banks and the like are the ones with data on the financial status of a customer and have the infrastructure to block a credit card from being used in an online wagering situation.	https://www.zdnet.com/article/tabcorp-argues-banks-should-be-responsible-for-handling-credit-card-gambling-blocks/	https://www.zdnet.com/a/hub/i/r/2021/09/03/4bfff675-8e0d-4139-beda-bf48ffaf183f/thumbnail/770x578/7f544684a7f25d59a96bc460a07198c8/gettyimages-670049156.jpg	zdnet	t	2021-09-03 09:00:02.093452+02	2021-09-03 06:23:32+02	Asha Barbaschow	zdnet/Tabcorp-argues-banks-should-be-responsible-for-handling-credit-card-gambling-blocks
+1190	BitConnect director pleads guilty to role in $2 billion cryptocurrency fraud | ZDNet	Prosecutors claim that the promoter earned over $24 million.	https://www.zdnet.com/article/bitconnect-director-pleads-guilty-to-cryptocurrency-fraud/	https://www.zdnet.com/a/hub/i/r/2018/01/03/a763a258-672d-41bd-95b7-d69023a6c5f7/thumbnail/770x578/2faa8f9d4fbed04b21cdf9ad60f01ba1/istock-bitcoin-and-other-currency.jpg	zdnet	t	2021-09-03 11:00:01.772297+02	2021-09-03 08:39:14+02	Charlie Osborne	zdnet/BitConnect-director-pleads-guilty-to-role-in-2-billion-cryptocurrency-fraud
 \.
 
 
@@ -1240,7 +1241,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1189, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1190, true);
 
 
 --
