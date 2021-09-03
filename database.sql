@@ -1254,6 +1254,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1207	The State of Incident Response: Measuring Risk and Evaluating Your Preparedness	Grant Oviatt, director of incident-response engagements at Red Canary, provides advice and best practices on how to get there faster.	https://kasperskycontenthub.com/threatpost-global/?p=169211	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/03121451/incident_response-e1630685709431.png	threatpost	t	2021-09-03 19:00:02.344976+02	2021-09-03 18:15:26+02	Grant Oviatt	threatpost/The-State-of-Incident-Response-Measuring-Risk-and-Evaluating-Your-Preparedness
 1208	FIN7 Capitalizes on Windows 11 Release in Latest Gambit	The financially motivated group looked to steal payment-card data from a California-based point-of-sale service provider.	https://kasperskycontenthub.com/threatpost-global/?p=169206	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/03115152/windows-11-e1630684336344.png	threatpost	t	2021-09-03 19:00:02.344976+02	2021-09-03 18:07:53+02	Tara Seals	threatpost/FIN7-Capitalizes-on-Windows-11-Release-in-Latest-Gambit
 1210	Microsoft breaks Windows 11 Start Menu, Taskbar with Teams promo	Microsoft accidentally broke the Start menu and taskbar on systems of Windows Insiders after pushing a Teams promo to the desktops of users running Windows 11 preview builds.	https://www.bleepingcomputer.com/news/microsoft/microsoft-breaks-windows-11-start-menu-taskbar-with-teams-promo/	https://www.bleepstatic.com/content/hl-images/2021/09/01/Windows_11_headpic.jpg	bleepingcomputer	t	2021-09-03 21:00:02.19401+02	2021-09-03 20:20:56+02	Sergiu Gatlan	bleepingcomputer/Microsoft-breaks-Windows-11-Start-Menu-Taskbar-with-Teams-promo
+1211	The Week in Ransomware - September 3rd 2021 - Targeting Exchange	Over the past two weeks, it has been busy with ransomware news ranging from a gang shutting down and releasing a master decryption key to threat actors turning to Microsoft Exchange exploits to breach networks.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-september-3rd-2021-targeting-exchange/	https://www.bleepstatic.com/content/hl-images/2020/11/03/Ransomware.jpg	bleepingcomputer	t	2021-09-03 23:00:02.013863+02	2021-09-03 22:17:10+02	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---September-3rd-2021---Targeting-Exchange
 \.
 
 
@@ -1261,7 +1262,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1210, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1211, true);
 
 
 --
