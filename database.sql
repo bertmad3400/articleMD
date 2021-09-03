@@ -1231,6 +1231,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1185	NFT Collector Tricked into Buying Fake Banksy 	An attacker breached the site of famed street artist Banksy to host a fraudulent NFT auction but then gave back the money.	https://kasperskycontenthub.com/threatpost-global/?p=169179	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/02173234/banksy-e1630618370870.jpeg	threatpost	t	2021-09-03 00:00:01.832034+02	2021-09-02 23:38:40+02	Becky Bracken	threatpost/NFT-Collector-Tricked-into-Buying-Fake-Banksy
 1186	FBI: Americans lost more than $8 million to sextortion scams this year	The US Federal Bureau of Investigation said today that Americans lost more than $8 million to sextortion scams in the first seven months of the year following a massive uptick in activity from criminal groups.	https://therecord.media/fbi-americans-lost-more-than-8-million-to-sextortion-scams-this-year/	https://therecord.media/wp-content/uploads/2021/09/sextortion-worried.png	therecord	t	2021-09-03 01:00:02.107863+02	2021-09-03 00:19:29+02	Catalin Cimpanu	therecord/FBI-Americans-lost-more-than-8-million-to-sextortion-scams-this-year
 1187	Bluetooth BrakTooth bugs could affect billions of devices	Vulnerabilities collectively referred to as BrakTooth are affecting Bluetooth stacks implemented on system-on-a-chip (SoC) circuits from over a dozen vendors.	https://www.bleepingcomputer.com/news/security/bluetooth-braktooth-bugs-could-affect-billions-of-devices/	https://www.bleepstatic.com/content/hl-images/2021/09/02/braktooth.jpg	bleepingcomputer	t	2021-09-03 02:00:02.503924+02	2021-09-03 01:22:51+02	Ionut Ilascu	bleepingcomputer/Bluetooth-BrakTooth-bugs-could-affect-billions-of-devices
+1188	FBI warns of ransomware attacks targeting food and agriculture sector as White House pushes for proactive measures | ZDNet	In addition to the May attack on JBS, the FBI listed dozens of ransomware incidents that have taken place over the last six months targeting the food sector.	https://www.zdnet.com/article/fbi-warns-of-ransomware-attacks-targeting-food-and-agriculture-sector-as-white-house-pushes-for-proactive-measures/	https://www.zdnet.com/a/hub/i/r/2019/02/13/16bab08a-e627-4c1d-987a-5f67053e2ede/thumbnail/770x578/975747ff113625cc8d81b448ccf3a09f/farmer-with-tablet.jpg	zdnet	t	2021-09-03 03:00:02.246887+02	2021-09-03 00:23:53+02	Jonathan Greig	zdnet/FBI-warns-of-ransomware-attacks-targeting-food-and-agriculture-sector-as-White-House-pushes-for-proactive-measures
 \.
 
 
@@ -1238,7 +1239,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1187, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1188, true);
 
 
 --
