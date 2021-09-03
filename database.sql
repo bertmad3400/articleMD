@@ -1250,6 +1250,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1204	AWS researcher merges the power of two quantum computers to help make cryptography keys stronger | ZDNet	A researcher from AWS has combined two quantum processors to create near-perfect randomness. It could help improve modern cryptography protocols.	https://www.zdnet.com/article/aws-researcher-merges-the-power-of-two-quantum-computers-to-help-make-cryptography-keys-stronger/	https://www.zdnet.com/a/hub/i/r/2021/08/11/0edc5f03-6119-49b2-8f5f-d0bde9cdc02b/thumbnail/770x578/cbd49a43d4837018edfc23830a69f63e/shutterstock-1095422036.jpg	zdnet	t	2021-09-03 18:00:02.702757+02	2021-09-03 15:56:38+02	Daphne Leprince-Ringuet	zdnet/AWS-researcher-merges-the-power-of-two-quantum-computers-to-help-make-cryptography-keys-stronger
 1205	US govt warns orgs to patch massively exploited Confluence bug	US Cyber Command (USCYBERCOM) has issued a rare alert today urging US organizations to patch a massively exploited Atlassian Confluence critical vulnerability immediately.	https://www.bleepingcomputer.com/news/security/us-govt-warns-orgs-to-patch-massively-exploited-confluence-bug/	https://www.bleepstatic.com/content/hl-images/2021/09/03/USCYBERCOM.jpg	bleepingcomputer	t	2021-09-03 18:00:02.702757+02	2021-09-03 17:23:17+02	Sergiu Gatlan	bleepingcomputer/US-govt-warns-orgs-to-patch-massively-exploited-Confluence-bug
 1206	Babuk ransomware's full source code leaked on hacker forum	A threat actor has leaked the complete source code for the Babuk ransomware on a Russian-speaking hacking forum.	https://www.bleepingcomputer.com/news/security/babuk-ransomwares-full-source-code-leaked-on-hacker-forum/	https://www.bleepstatic.com/content/hl-images/2021/09/03/threat-actor.jpg	bleepingcomputer	t	2021-09-03 18:00:02.702757+02	2021-09-03 17:22:01+02	Lawrence Abrams	bleepingcomputer/Babuk-ransomwares-full-source-code-leaked-on-hacker-forum
+1207	The State of Incident Response: Measuring Risk and Evaluating Your Preparedness	Grant Oviatt, director of incident-response engagements at Red Canary, provides advice and best practices on how to get there faster.	https://kasperskycontenthub.com/threatpost-global/?p=169211	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/03121451/incident_response-e1630685709431.png	threatpost	t	2021-09-03 19:00:02.344976+02	2021-09-03 18:15:26+02	Grant Oviatt	threatpost/The-State-of-Incident-Response-Measuring-Risk-and-Evaluating-Your-Preparedness
+1208	FIN7 Capitalizes on Windows 11 Release in Latest Gambit	The financially motivated group looked to steal payment-card data from a California-based point-of-sale service provider.	https://kasperskycontenthub.com/threatpost-global/?p=169206	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/03115152/windows-11-e1630684336344.png	threatpost	t	2021-09-03 19:00:02.344976+02	2021-09-03 18:07:53+02	Tara Seals	threatpost/FIN7-Capitalizes-on-Windows-11-Release-in-Latest-Gambit
 \.
 
 
@@ -1257,7 +1259,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1206, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1208, true);
 
 
 --
