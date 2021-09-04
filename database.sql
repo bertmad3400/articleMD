@@ -1258,6 +1258,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1212	CISA urges IT teams to address critical vulnerability affecting Cisco Enterprise Network Function Virtualization Infrastructure Software | ZDNet	CISA said a remote attacker could exploit the vulnerability to take control of an affected system.	https://www.zdnet.com/article/cisa-urges-it-teams-to-address-critical-vulnerability-affecting-cisco-enterprise-network-function-virtualization-infrastructure-software/	https://www.zdnet.com/a/hub/i/r/2021/06/09/cf344a38-83a8-4965-a89d-e2ab3e7db290/thumbnail/770x578/e7545e97f5884f3eb16a93ef6e0bca17/cisco-sign.jpg	zdnet	t	2021-09-04 00:00:02.071011+02	2021-09-03 21:41:13+02	Jonathan Greig	zdnet/CISA-urges-IT-teams-to-address-critical-vulnerability-affecting-Cisco-Enterprise-Network-Function-Virtualization-Infrastructure-Software
 1213	US Cybercom says mass exploitation of Atlassian Confluence vulnerability 'ongoing and expected to accelerate' | ZDNet	IT leaders have taken to Twitter to confirm that the exploitation is ongoing globally.	https://www.zdnet.com/article/us-cybercom-says-mass-exploitation-of-atlassian-confluence-vulnerability-ongoing-and-expected-to-accelerate/	https://www.zdnet.com/a/hub/i/r/2021/04/13/d6e9c588-5924-49dc-8d53-b351c22a4c9d/thumbnail/770x578/cd42cda1042ce440a9297efaa205c3ce/atlassian-logo-crop-layout-for-twitter.jpg	zdnet	t	2021-09-04 00:00:02.071011+02	2021-09-03 21:26:07+02	Jonathan Greig	zdnet/US-Cybercom-says-mass-exploitation-of-Atlassian-Confluence-vulnerability-ongoing-and-expected-to-accelerate
 1214	Dallas school district admits SSNs and more of all employees and students since 2010 accessed during security incident | ZDNet	The Dallas Independent School District said if you were a student, employee or contractor between 2010 and the present, your personal data was likely downloaded by an unauthorized third party.	https://www.zdnet.com/article/dallas-school-district-admits-ssns-and-more-of-all-employees-and-students-since-2010-accessed-during-security-incident/	https://www.zdnet.com/a/hub/i/r/2021/03/23/d1aa4334-cf84-4af9-8189-7586ee521574/thumbnail/770x578/808666bfc7b637b86be9cc55680c4025/school-classroom.jpg	zdnet	t	2021-09-04 01:00:02.028543+02	2021-09-03 22:19:15+02	Jonathan Greig	zdnet/Dallas-school-district-admits-SSNs-and-more-of-all-employees-and-students-since-2010-accessed-during-security-incident
+1215	The best VPN for the UK 2021 | ZDNet	There are many good reasons why Brits could benefit from a Virtual Private Network (VPN), but it's not a simple choice to make given the amount of data a VPN provider can collect about you. Here are five that we think are worth considering in the UK.	https://www.zdnet.com/article/best-vpn-for-the-uk/	https://www.zdnet.com/a/hub/i/r/2021/09/03/480b69f4-89a3-4338-85c7-a898aef5bd51/thumbnail/770x578/85a47bb1091f37b20838dd9dcdada90e/shutterstock-1935153176.jpg	zdnet	t	2021-09-04 14:00:02.240113+02	2021-09-04 11:00:02+02	Liam Tung	zdnet/The-best-VPN-for-the-UK-2021
 \.
 
 
@@ -1265,7 +1266,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1214, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1215, true);
 
 
 --
