@@ -1262,6 +1262,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1216	Watch out for new malware campaign’s 'Windows 11 Alpha' attachment	Relying on a simple recipe that has proved successful time and time again, threat actors have deployed a malware campaign recently that used a Windows 11 theme to lure recipients into activating malicious code placed inside Microsoft Word documents.	https://www.bleepingcomputer.com/news/security/watch-out-for-new-malware-campaign-s-windows-11-alpha-attachment/	https://www.bleepstatic.com/content/hl-images/2021/09/03/computer-hackerWin.jpg	bleepingcomputer	t	2021-09-04 21:00:01.777737+02	2021-09-04 18:35:55+02	Ionut Ilascu	bleepingcomputer/Watch-out-for-new-malware-campaigns-Windows-11-Alpha-attachment
 1217	US SEC: Watch out for Hurricane Ida-related investment scams	The US Securities and Exchange Commission has warned investors to be extremely wary of potential investment scams related to Hurricane Ida's aftermath.	https://www.bleepingcomputer.com/news/security/us-sec-watch-out-for-hurricane-ida-related-investment-scams/	https://www.bleepstatic.com/content/hl-images/2021/09/03/USA_SEC.jpg	bleepingcomputer	t	2021-09-04 21:00:01.777737+02	2021-09-04 17:12:24+02	Sergiu Gatlan	bleepingcomputer/US-SEC-Watch-out-for-Hurricane-Ida-related-investment-scams
 1218	Windows 11 may not get security updates on unsupported devices	Microsoft is turning a blind eye to a loophole that allows you to install Windows 11 on incompatible hardware but warns that your device may no longer receive security updates.	https://www.bleepingcomputer.com/news/microsoft/windows-11-may-not-get-security-updates-on-unsupported-devices/	https://www.bleepstatic.com/content/hl-images/2021/09/03/windows-11-dark-storm-clouds.jpg	bleepingcomputer	t	2021-09-04 21:00:01.777737+02	2021-09-04 16:11:22+02	Lawrence Abrams	bleepingcomputer/Windows-11-may-not-get-security-updates-on-unsupported-devices
+1219	Malware found preinstalled in classic push-button phones sold in Russia	A security researcher has discovered malicious code inside the firmware of four low-budget push-button mobile phones sold through Russian online stores.	https://therecord.media/malware-found-preinstalled-in-classic-push-button-phones-sold-in-russia/	https://therecord.media/wp-content/uploads/2021/09/ValdikSS-push-button-research.jpg	therecord	t	2021-09-05 08:00:02.545769+02	2021-09-05 07:35:40+02	Catalin Cimpanu	therecord/Malware-found-preinstalled-in-classic-push-button-phones-sold-in-Russia
 \.
 
 
@@ -1269,7 +1270,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1218, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1219, true);
 
 
 --
