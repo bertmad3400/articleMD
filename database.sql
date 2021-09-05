@@ -1263,6 +1263,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1217	US SEC: Watch out for Hurricane Ida-related investment scams	The US Securities and Exchange Commission has warned investors to be extremely wary of potential investment scams related to Hurricane Ida's aftermath.	https://www.bleepingcomputer.com/news/security/us-sec-watch-out-for-hurricane-ida-related-investment-scams/	https://www.bleepstatic.com/content/hl-images/2021/09/03/USA_SEC.jpg	bleepingcomputer	t	2021-09-04 21:00:01.777737+02	2021-09-04 17:12:24+02	Sergiu Gatlan	bleepingcomputer/US-SEC-Watch-out-for-Hurricane-Ida-related-investment-scams
 1218	Windows 11 may not get security updates on unsupported devices	Microsoft is turning a blind eye to a loophole that allows you to install Windows 11 on incompatible hardware but warns that your device may no longer receive security updates.	https://www.bleepingcomputer.com/news/microsoft/windows-11-may-not-get-security-updates-on-unsupported-devices/	https://www.bleepstatic.com/content/hl-images/2021/09/03/windows-11-dark-storm-clouds.jpg	bleepingcomputer	t	2021-09-04 21:00:01.777737+02	2021-09-04 16:11:22+02	Lawrence Abrams	bleepingcomputer/Windows-11-may-not-get-security-updates-on-unsupported-devices
 1219	Malware found preinstalled in classic push-button phones sold in Russia	A security researcher has discovered malicious code inside the firmware of four low-budget push-button mobile phones sold through Russian online stores.	https://therecord.media/malware-found-preinstalled-in-classic-push-button-phones-sold-in-russia/	https://therecord.media/wp-content/uploads/2021/09/ValdikSS-push-button-research.jpg	therecord	t	2021-09-05 08:00:02.545769+02	2021-09-05 07:35:40+02	Catalin Cimpanu	therecord/Malware-found-preinstalled-in-classic-push-button-phones-sold-in-Russia
+1220	Google's TensorFlow drops YAML support due to code execution flaw	TensorFlow, a popular Python-based machine learning and artificial intelligence project developed by Google has dropped support for YAML, to patch a critical code execution vulnerability. YAML is a convenient choice among developers looking for a human-readable data serialization language.	https://www.bleepingcomputer.com/news/security/googles-tensorflow-drops-yaml-support-due-to-code-execution-flaw/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Screenshot_2021-09-05_at_11.01.04-min.png	bleepingcomputer	t	2021-09-05 10:00:02.27536+02	2021-09-05 09:23:48+02	Ax Sharma	bleepingcomputer/Googles-TensorFlow-drops-YAML-support-due-to-code-execution-flaw
 \.
 
 
@@ -1270,7 +1271,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1219, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1220, true);
 
 
 --
