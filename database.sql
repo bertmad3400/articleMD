@@ -1279,6 +1279,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1232	TrickBot gang developer arrested when trying to leave Korea	An alleged Russian developer for the notorious TrickBot malware gang was arrested in South Korea after attempting to leave the country.	https://www.bleepingcomputer.com/news/security/trickbot-gang-developer-arrested-when-trying-to-leave-korea/	https://www.bleepstatic.com/content/hl-images/2020/11/20/trickbot-header.jpg	bleepingcomputer	t	2021-09-06 18:00:02.445993+02	2021-09-06 17:24:22+02	Lawrence Abrams	bleepingcomputer/TrickBot-gang-developer-arrested-when-trying-to-leave-Korea
 1233	Jenkins project discloses security breach following Confluence server hack	The developers of the Jenkins server, one of the most widely used open-source automation systems, said they suffered a security breach after hackers gained access to one of their internal servers and deployed a cryptocurrency miner.	https://therecord.media/jenkins-project-discloses-security-breach-following-confluence-server-hack/	https://therecord.media/wp-content/uploads/2021/09/Jenkins-logo.png	therecord	t	2021-09-06 18:00:02.445993+02	2021-09-06 17:13:05+02	Catalin Cimpanu	therecord/Jenkins-project-discloses-security-breach-following-Confluence-server-hack
 1235	IoT Attacks Skyrocket, Doubling in 6 Months	The first half of 2021 saw 1.5 billion attacks on smart devices, with attackers looking to steal data, mine cryptocurrency or build botnets.	https://kasperskycontenthub.com/threatpost-global/?p=169224	https://media.threatpost.com/wp-content/uploads/sites/103/2020/12/07105650/IoT-Security-Flaw.jpg	threatpost	t	2021-09-06 18:00:02.445993+02	2021-09-06 14:00:02+02	Tara Seals	threatpost/IoT-Attacks-Skyrocket-Doubling-in-6-Months
+1236	New Chainsaw tool helps IR teams analyze Windows event logs	Incident responders and blue teams have a new tool called Chainsaw that speeds up searching through Windows event log records to identify threats.	https://www.bleepingcomputer.com/news/security/new-chainsaw-tool-helps-ir-teams-analyze-windows-event-logs/	https://www.bleepstatic.com/content/hl-images/2021/09/06/Chainsaw.jpg	bleepingcomputer	t	2021-09-06 20:00:02.210099+02	2021-09-06 19:42:08+02	Ionut Ilascu	bleepingcomputer/New-Chainsaw-tool-helps-IR-teams-analyze-Windows-event-logs
 \.
 
 
@@ -1286,7 +1287,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1235, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1236, true);
 
 
 --
