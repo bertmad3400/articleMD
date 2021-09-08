@@ -1307,6 +1307,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1248	Microsoft, CISA urge use of mitigations and workarounds for Office document vulnerability | ZDNet	Microsoft said disabling the installation of all ActiveX controls in Internet Explorer mitigates the attack.	https://www.zdnet.com/article/microsoft-cisa-urge-use-of-mitigations-and-workarounds-for-office-document-vulnerability/	https://www.zdnet.com/a/hub/i/r/2021/09/07/71f26ae5-2043-43c5-b743-e09b433d87eb/thumbnail/770x578/759413828f5cd4063e720deabec9bae7/microsoft-exchange-admin-center-eac.jpg	zdnet	t	2021-09-08 10:00:03.323915+02	2021-09-07 22:52:36+02	Jonathan Greig	zdnet/Microsoft-CISA-urge-use-of-mitigations-and-workarounds-for-Office-document-vulnerability
 1251	The best outdoor security camera | ZDNet	Have peace of mind while you are far from home or simply go to sleep without worrying about troublemakers or anything bad happening. Investing in an outdoor security camera can seem confusing with a huge selection out there, so we have done the hard work for you and a list of our top picks. Here are our picks for the best outdoor security camera.	https://www.zdnet.com/article/the-best-outdoor-security-camera/	https://www.zdnet.com/a/hub/i/r/2021/08/18/8535cb8e-6014-4524-b676-16871db93fe5/thumbnail/770x578/f93271b2b66b231b0ba987a69416f03f/the-best-outdoor-security-camera.jpg	zdnet	t	2021-09-08 10:00:03.323915+02	2021-09-07 21:18:00+02	Elizabeth Rivelli	zdnet/The-best-outdoor-security-camera
 1263	BladeHawk attackers spy on Kurds with fake Android apps | ZDNet	Facebook is being abused to spread surveillanceware focused on the Kurdish ethnic group.	https://www.zdnet.com/article/bladehawk-attackers-spy-on-kurds-with-fake-android-apps/	https://www.zdnet.com/a/hub/i/r/2017/12/15/8fae416e-ebd5-4443-9b77-66c2756f2e3e/thumbnail/770x578/3b5c0232b08387ddf562ea3ce4e44d3b/spy-big-brother-digital-surveillance-istock.jpg	zdnet	t	2021-09-08 12:00:02.390183+02	2021-09-08 09:47:06+02	Charlie Osborne	zdnet/BladeHawk-attackers-spy-on-Kurds-with-fake-Android-apps
+1264	Operation Chimaera: TeamTNT hacking group strikes thousands of victims worldwide | ZDNet	The cybercriminals are now indiscriminate in the operating systems they attack.	https://www.zdnet.com/article/operation-chimaera-teamtnt-hacking-group-strikes-thousands-of-victims-worldwide/	https://www.zdnet.com/a/hub/i/r/2019/06/06/bed0ac8e-31a0-462e-9d7b-4443e584f824/thumbnail/770x578/86b695d538937f4c03015b960a9831cb/cryptocurrency.jpg	zdnet	t	2021-09-08 14:00:02.385473+02	2021-09-08 11:31:44+02	Charlie Osborne	zdnet/Operation-Chimaera-TeamTNT-hacking-group-strikes-thousands-of-victims-worldwide
 \.
 
 
@@ -1314,7 +1315,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1263, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1264, true);
 
 
 --
