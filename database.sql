@@ -1319,6 +1319,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1273	The best home security system in Tampa | ZDNet	We prioritized the best home security systems Tampa has to offer. In our analysis, we involved monitoring services (professional and self-monitoring), pricing, ease of installation, equipment quality, as well as how customers rated their experience with a particular provider's service.	https://www.zdnet.com/article/the-best-home-security-system-in-tampa/	https://www.zdnet.com/a/hub/i/r/2021/08/24/49d5adf3-a65d-4ead-8b60-fac53b4b9d31/thumbnail/770x578/57ef4b01947d4b536cedb889e603db7b/best-home-security-in-tampa.jpg	zdnet	t	2021-09-08 17:00:02.695462+02	2021-09-08 13:53:20+02	Reviews.com Staff	zdnet/The-best-home-security-system-in-Tampa
 1274	The best home security system in Dallas | ZDNet	While none of these Dallas alarm companies is perfect, each of them offers an intuitive experience, whether that be a professional or DIY install.	https://www.zdnet.com/article/the-best-home-security-system-in-dallas/	https://www.zdnet.com/a/hub/i/r/2021/08/24/33f9f16f-906e-493b-ac07-585dca7ae9c2/thumbnail/770x578/d1fee621233a8c2e5239e52b9993e23b/best-home-security-in-dallas.jpg	zdnet	t	2021-09-08 17:00:02.695462+02	2021-09-08 13:48:46+02	Reviews.com Staff	zdnet/The-best-home-security-system-in-Dallas
 1275	Worried about ransomware? Take these three key steps to protect yourself | ZDNet	Microsoft sets out a three stage process to improve your defences against ransomware.	https://www.zdnet.com/article/worried-about-ransomware-take-these-three-key-steps-to-protect-yourself/	https://www.zdnet.com/a/hub/i/r/2019/05/30/d59d04eb-50ea-4502-846c-985304e20a6a/thumbnail/770x578/87cf8607c200ac454a9b3cdaf6f837e0/istock-1124997379.jpg	zdnet	t	2021-09-08 17:00:02.695462+02	2021-09-08 13:48:23+02	Liam Tung	zdnet/Worried-about-ransomware-Take-these-three-key-steps-to-protect-yourself
+1276	New CPU side-channel attack takes aim at Chrome's Site Isolation feature	A team of academics from universities in Australia, Israel, and the US has successfully mounted CPU side-channel attacks that recover data from Google Chrome and Chromium-based browsers protected by the Site Isolation feature.	https://therecord.media/new-cpu-side-channel-attack-takes-aim-at-chromes-site-isolation-feature/	https://www-therecord.recfut.com/wp-content/uploads/2021/09/broken-glass-destroyed.jpg	therecord	t	2021-09-08 19:00:01.902834+02	2021-09-08 19:00:02+02	Catalin Cimpanu	therecord/New-CPU-side-channel-attack-takes-aim-at-Chromes-Site-Isolation-feature
 \.
 
 
@@ -1326,7 +1327,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1275, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1276, true);
 
 
 --
