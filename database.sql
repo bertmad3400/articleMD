@@ -1308,6 +1308,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1251	The best outdoor security camera | ZDNet	Have peace of mind while you are far from home or simply go to sleep without worrying about troublemakers or anything bad happening. Investing in an outdoor security camera can seem confusing with a huge selection out there, so we have done the hard work for you and a list of our top picks. Here are our picks for the best outdoor security camera.	https://www.zdnet.com/article/the-best-outdoor-security-camera/	https://www.zdnet.com/a/hub/i/r/2021/08/18/8535cb8e-6014-4524-b676-16871db93fe5/thumbnail/770x578/f93271b2b66b231b0ba987a69416f03f/the-best-outdoor-security-camera.jpg	zdnet	t	2021-09-08 10:00:03.323915+02	2021-09-07 21:18:00+02	Elizabeth Rivelli	zdnet/The-best-outdoor-security-camera
 1263	BladeHawk attackers spy on Kurds with fake Android apps | ZDNet	Facebook is being abused to spread surveillanceware focused on the Kurdish ethnic group.	https://www.zdnet.com/article/bladehawk-attackers-spy-on-kurds-with-fake-android-apps/	https://www.zdnet.com/a/hub/i/r/2017/12/15/8fae416e-ebd5-4443-9b77-66c2756f2e3e/thumbnail/770x578/3b5c0232b08387ddf562ea3ce4e44d3b/spy-big-brother-digital-surveillance-istock.jpg	zdnet	t	2021-09-08 12:00:02.390183+02	2021-09-08 09:47:06+02	Charlie Osborne	zdnet/BladeHawk-attackers-spy-on-Kurds-with-fake-Android-apps
 1264	Operation Chimaera: TeamTNT hacking group strikes thousands of victims worldwide | ZDNet	The cybercriminals are now indiscriminate in the operating systems they attack.	https://www.zdnet.com/article/operation-chimaera-teamtnt-hacking-group-strikes-thousands-of-victims-worldwide/	https://www.zdnet.com/a/hub/i/r/2019/06/06/bed0ac8e-31a0-462e-9d7b-4443e584f824/thumbnail/770x578/86b695d538937f4c03015b960a9831cb/cryptocurrency.jpg	zdnet	t	2021-09-08 14:00:02.385473+02	2021-09-08 11:31:44+02	Charlie Osborne	zdnet/Operation-Chimaera-TeamTNT-hacking-group-strikes-thousands-of-victims-worldwide
+1265	Palo Alto Networks announces new Prisma Cloud features | ZDNet	The update includes protection for virtual machines on Azure and Google Cloud as well as Windows support, service mesh support and improved API telemetry.	https://www.zdnet.com/article/palo-alto-networks-announces-new-prisma-cloud-features/	https://www.zdnet.com/a/hub/i/r/2021/09/08/a2959297-a169-4e64-bd56-2cf5991b2004/thumbnail/770x578/43e28135730570c43aaf1649e85ab553/panw-parent-brand-primary-logo-rgb.png	zdnet	t	2021-09-08 15:00:02.258442+02	2021-09-08 12:23:27+02	Jonathan Greig	zdnet/Palo-Alto-Networks-announces-new-Prisma-Cloud-features
+1266	Microsoft, CISA Urge Mitigations for Zero-Day RCE Flaw in Windows	Attackers are actively attempting to exploit a vulnerability in MSHTML that allows them to craft a malicious ActiveX control to be used by Microsoft Office files.	https://kasperskycontenthub.com/threatpost-global/?p=169273	https://media.threatpost.com/wp-content/uploads/sites/103/2020/09/15073634/Microsoft-Office.jpg	threatpost	t	2021-09-08 15:00:02.258442+02	2021-09-08 14:24:51+02	Elizabeth Montalbano	threatpost/Microsoft-CISA-Urge-Mitigations-for-Zero-Day-RCE-Flaw-in-Windows
 \.
 
 
@@ -1315,7 +1317,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1264, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1266, true);
 
 
 --
