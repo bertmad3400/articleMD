@@ -1320,6 +1320,9 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1274	The best home security system in Dallas | ZDNet	While none of these Dallas alarm companies is perfect, each of them offers an intuitive experience, whether that be a professional or DIY install.	https://www.zdnet.com/article/the-best-home-security-system-in-dallas/	https://www.zdnet.com/a/hub/i/r/2021/08/24/33f9f16f-906e-493b-ac07-585dca7ae9c2/thumbnail/770x578/d1fee621233a8c2e5239e52b9993e23b/best-home-security-in-dallas.jpg	zdnet	t	2021-09-08 17:00:02.695462+02	2021-09-08 13:48:46+02	Reviews.com Staff	zdnet/The-best-home-security-system-in-Dallas
 1275	Worried about ransomware? Take these three key steps to protect yourself | ZDNet	Microsoft sets out a three stage process to improve your defences against ransomware.	https://www.zdnet.com/article/worried-about-ransomware-take-these-three-key-steps-to-protect-yourself/	https://www.zdnet.com/a/hub/i/r/2019/05/30/d59d04eb-50ea-4502-846c-985304e20a6a/thumbnail/770x578/87cf8607c200ac454a9b3cdaf6f837e0/istock-1124997379.jpg	zdnet	t	2021-09-08 17:00:02.695462+02	2021-09-08 13:48:23+02	Liam Tung	zdnet/Worried-about-ransomware-Take-these-three-key-steps-to-protect-yourself
 1276	New CPU side-channel attack takes aim at Chrome's Site Isolation feature	A team of academics from universities in Australia, Israel, and the US has successfully mounted CPU side-channel attacks that recover data from Google Chrome and Chromium-based browsers protected by the Site Isolation feature.	https://therecord.media/new-cpu-side-channel-attack-takes-aim-at-chromes-site-isolation-feature/	https://www-therecord.recfut.com/wp-content/uploads/2021/09/broken-glass-destroyed.jpg	therecord	t	2021-09-08 19:00:01.902834+02	2021-09-08 19:00:02+02	Catalin Cimpanu	therecord/New-CPU-side-channel-attack-takes-aim-at-Chromes-Site-Isolation-feature
+1277	Ukrainian indicted for running brute-force botnet, selling hacked PC accounts	The US Department of Justice announced today the extradition of a Ukrainian national from Poland on charges of selling access to compromised computer systems via a specialized marketplace on the dark web.	https://therecord.media/ukrainian-indicted-for-running-brute-force-botnet-selling-hacked-pc-accounts/	https://therecord.media/wp-content/uploads/2021/07/prison-jail.jpg	therecord	t	2021-09-08 20:00:01.836676+02	2021-09-08 19:08:37+02	Catalin Cimpanu	therecord/Ukrainian-indicted-for-running-brute-force-botnet-selling-hacked-PC-accounts
+1278	Spoofing Bug Highlights Cybersecurity for Digital Vaccine Passports	Australian immunization app bug lets attackers fake vaccine status.	https://kasperskycontenthub.com/threatpost-global/?p=169287	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/08131614/vax-passport-e1631121391280.jpg	threatpost	t	2021-09-08 20:00:01.836676+02	2021-09-08 19:28:35+02	Becky Bracken	threatpost/Spoofing-Bug-Highlights-Cybersecurity-for-Digital-Vaccine-Passports
+1279	TeamTNT’s New Tools Target Multiple OSes	The attackers are indiscriminately striking thousands of victims worldwide with their new “Chimaera” campaign.	https://kasperskycontenthub.com/threatpost-global/?p=169279	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/08095039/chimera-e1631109057905.jpg	threatpost	t	2021-09-08 20:00:01.836676+02	2021-09-08 19:03:06+02	Lisa Vaas	threatpost/TeamTNTs-New-Tools-Target-Multiple-OS
 \.
 
 
@@ -1327,7 +1330,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1276, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1279, true);
 
 
 --
