@@ -1333,6 +1333,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1287	Hackers leak passwords for 500,000 Fortinet VPN accounts	A threat actor has leaked a list of almost 500,000 Fortinet VPN login names and passwords that were allegedly scraped from exploitable devices last summer.	https://www.bleepingcomputer.com/news/security/hackers-leak-passwords-for-500-000-fortinet-vpn-accounts/	https://www.bleepstatic.com/content/hl-images/2020/11/22/fortinet-header.jpg	bleepingcomputer	t	2021-09-09 08:00:03.806716+02	2021-09-08 21:03:32+02	Lawrence Abrams	bleepingcomputer/Hackers-leak-passwords-for-500000-Fortinet-VPN-accounts
 1288	What Ragnar Locker Got Wrong About Ransomware Negotiators – Podcast	There are a lot of tells that the ransomware group doesn't understand how negotiators work, despite threatening to dox data if victims call for help.	https://kasperskycontenthub.com/threatpost-global/?p=169292	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/08161420/bribe-e1631132078661.jpeg	threatpost	t	2021-09-09 08:00:03.806716+02	2021-09-08 23:14:06+02	Lisa Vaas	threatpost/What-Ragnar-Locker-Got-Wrong-About-Ransomware-Negotiators--Podcast
 1289	Tooling Network Detection & Response for Ransomware	Justin Jett, director of audit and compliance at Plixer, discusses how to effectively use network flow data in the fight against ransomware.	https://kasperskycontenthub.com/threatpost-global/?p=169290	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/08142255/gate-e1631125398775.jpg	threatpost	t	2021-09-09 08:00:03.806716+02	2021-09-08 21:00:26+02	Justin Jett	threatpost/Tooling-Network-Detection--Response-for-Ransomware
+1290	ANZ New Zealand back online after outage from DDoS attack | ZDNet	ANZ New Zealand's website is still facing an outage while other affected websites have slowly come back online.	https://www.zdnet.com/article/anz-new-zealand-back-online-after-outage-from-ddos-attack/	https://www.zdnet.com/a/hub/i/r/2019/03/10/b73b95c5-0d60-49af-97e8-a535db073e46/thumbnail/770x578/3ca57443a2d497a320a1b65453c4c394/anz-bank.jpg	zdnet	t	2021-09-09 09:00:01.793619+02	2021-09-09 00:36:00+02	Campbell Kwan	zdnet/ANZ-New-Zealand-back-online-after-outage-from-DDoS-attack
 \.
 
 
@@ -1340,7 +1341,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1289, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1290, true);
 
 
 --
