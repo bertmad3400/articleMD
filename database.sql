@@ -1341,6 +1341,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1295	91% of IT teams have felt 'forced' to trade security for business operations | ZDNet	When it comes to remote work, security is often the last thing on the priority list.	https://www.zdnet.com/article/91-of-it-teams-have-felt-forced-to-trade-security-for-business-operations/	https://www.zdnet.com/a/hub/i/r/2021/09/07/8e143c77-2bf4-49c4-9a31-9150db49a328/thumbnail/770x578/acca48f778b6efbaaaaf36dd5305fa8b/cybersecurity.jpg	zdnet	t	2021-09-09 14:00:02.286432+02	2021-09-09 11:05:02+02	Charlie Osborne	zdnet/91-of-IT-teams-have-felt-forced-to-trade-security-for-business-operations
 1296	BladeHawk Attackers Target Kurds with Android Apps	Pro-Kurd Facebook profiles deliver '888 RAT' and 'SpyNote' trojans, masked as legitimate apps, to perform mobile espionage.	https://kasperskycontenthub.com/threatpost-global/?p=169300	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/09072544/kurds-e1631186756340.jpg	threatpost	t	2021-09-09 14:00:02.286432+02	2021-09-09 13:26:58+02	Elizabeth Montalbano	threatpost/BladeHawk-Attackers-Target-Kurds-with-Android-Apps
 1297	Zoho Password Manager Zero-Day Bug Under Active Attack Gets a Fix	An authentication bypass vulnerability leading to remote code execution offers up the keys to the corporate kingdom.	https://kasperskycontenthub.com/threatpost-global/?p=169303	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/09085735/keys-e1631192268247.jpg	threatpost	t	2021-09-09 15:00:02.545693+02	2021-09-09 14:58:48+02	Tara Seals	threatpost/Zoho-Password-Manager-Zero-Day-Bug-Under-Active-Attack-Gets-a-Fix
+1298	Dell rolls out a set of new data security tools to address latency and scale issues | ZDNet	Dell announces three products that it claims will help keep enterprises secure while they grow.	https://www.zdnet.com/article/dell-rolls-out-a-set-of-new-data-security-tools-to-address-latency-and-scale-issues/	https://www.zdnet.com/a/hub/i/r/2019/05/01/24d70295-0373-4141-814c-c9a59bb18e88/thumbnail/770x578/d50bd352c1f0dc1786c34f72021daacc/dell-laptop-logo.jpg	zdnet	t	2021-09-09 16:00:02.047772+02	2021-09-09 13:00:18+02	Aimee Chanthadavong	zdnet/Dell-rolls-out-a-set-of-new-data-security-tools-to-address-latency-and-scale-issues
+1299	New Mēris botnet breaks DDoS record with 21.8 million RPS attack	A new distributed denial-of-service (DDoS) botnet that kept growing over the summer has been hammering Russian internet giant Yandex for the past month, the attack peaking at the unprecedented rate of 21.8 million requests per second.	https://www.bleepingcomputer.com/news/security/new-m-ris-botnet-breaks-ddos-record-with-218-million-rps-attack/	https://www.bleepstatic.com/content/hl-images/2021/09/09/Meris_Botnet.jpg	bleepingcomputer	t	2021-09-09 16:00:02.047772+02	2021-09-09 15:25:10+02	Ionut Ilascu	bleepingcomputer/New-Mris-botnet-breaks-DDoS-record-with-218-million-RPS-attack
 \.
 
 
@@ -1348,7 +1350,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1297, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1299, true);
 
 
 --
