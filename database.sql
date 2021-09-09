@@ -1334,6 +1334,9 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1288	What Ragnar Locker Got Wrong About Ransomware Negotiators – Podcast	There are a lot of tells that the ransomware group doesn't understand how negotiators work, despite threatening to dox data if victims call for help.	https://kasperskycontenthub.com/threatpost-global/?p=169292	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/08161420/bribe-e1631132078661.jpeg	threatpost	t	2021-09-09 08:00:03.806716+02	2021-09-08 23:14:06+02	Lisa Vaas	threatpost/What-Ragnar-Locker-Got-Wrong-About-Ransomware-Negotiators--Podcast
 1289	Tooling Network Detection & Response for Ransomware	Justin Jett, director of audit and compliance at Plixer, discusses how to effectively use network flow data in the fight against ransomware.	https://kasperskycontenthub.com/threatpost-global/?p=169290	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/08142255/gate-e1631125398775.jpg	threatpost	t	2021-09-09 08:00:03.806716+02	2021-09-08 21:00:26+02	Justin Jett	threatpost/Tooling-Network-Detection--Response-for-Ransomware
 1290	ANZ New Zealand back online after outage from DDoS attack | ZDNet	ANZ New Zealand's website is still facing an outage while other affected websites have slowly come back online.	https://www.zdnet.com/article/anz-new-zealand-back-online-after-outage-from-ddos-attack/	https://www.zdnet.com/a/hub/i/r/2019/03/10/b73b95c5-0d60-49af-97e8-a535db073e46/thumbnail/770x578/3ca57443a2d497a320a1b65453c4c394/anz-bank.jpg	zdnet	t	2021-09-09 09:00:01.793619+02	2021-09-09 00:36:00+02	Campbell Kwan	zdnet/ANZ-New-Zealand-back-online-after-outage-from-DDoS-attack
+1291	GitHub tackles severe vulnerabilities in Node.js packages | ZDNet	Bugs impacting tar and @npmcli/arborist were reported through a bug bounty program.	https://www.zdnet.com/article/github-tackles-seven-vulnerabilities-in-node-js-packages/	https://www.zdnet.com/a/hub/i/r/2021/06/28/20a585a6-81ff-4046-bba5-b4f43a73ca87/thumbnail/770x578/f0d2e41250187151c500ab9d536c84de/aws-bugfest-competition-to-find-and-fix-amazon-bugs.jpg	zdnet	t	2021-09-09 13:00:02.497949+02	2021-09-09 09:36:12+02	Charlie Osborne	zdnet/GitHub-tackles-severe-vulnerabilities-in-Nodejs-packages
+1292	Cloud computing: Microsoft fixes Azure container flaw that could have leaked data | ZDNet	Microsoft has plugged a container escape flaw affecting Azure Container Instances.	https://www.zdnet.com/article/cloud-computing-microsoft-fixes-azure-container-flaw-that-could-have-leaked-data/	https://www.zdnet.com/a/hub/i/r/2021/09/09/5b1a3f37-b7a2-45fc-ab47-aca3f8021a36/thumbnail/770x578/1a68e647796ebc0a5b1fbfc4699872b9/shutterstock-1836307909.jpg	zdnet	t	2021-09-09 13:00:02.497949+02	2021-09-09 09:18:30+02	Liam Tung	zdnet/Cloud-computing-Microsoft-fixes-Azure-container-flaw-that-could-have-leaked-data
+1293	Yandex is battling the largest DDoS in Russian Internet history	Russian internet giant Yandex has been targeted in a massive distributed denial-of-service (DDoS) attack that started last week and reportedly continues this week.	https://www.bleepingcomputer.com/news/security/yandex-is-battling-the-largest-ddos-in-russian-internet-history/	https://www.bleepstatic.com/content/hl-images/2021/02/04/DDoS--attack.jpg	bleepingcomputer	t	2021-09-09 13:00:02.497949+02	2021-09-09 08:26:11+02	Ionut Ilascu	bleepingcomputer/Yandex-is-battling-the-largest-DDoS-in-Russian-Internet-history
 \.
 
 
@@ -1341,7 +1344,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1290, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1293, true);
 
 
 --
