@@ -1353,6 +1353,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1307	U.S. Cyber Czar: Too soon to tell if Russia ransomware has stopped	A top U.S. cybersecurity official said on Thursday that it was too soon to tell whether Russian ransomware gangs have let up their assault on U.S. targets.	https://therecord.media/u-s-cyber-czar-too-soon-to-tell-if-russia-ransomware-has-stopped/	https://therecord.media/wp-content/uploads/2021/09/aurelien-romain-zNrKAbRsF14-unsplash-1.jpg	therecord	t	2021-09-09 19:00:02.146288+02	2021-09-09 18:48:09+02	Martin Matishak	therecord/US-Cyber-Czar-Too-soon-to-tell-if-Russia-ransomware-has-stopped
 1308	Fortinet warns customers after hackers leak passwords for 87,000 VPNs	Networking equipment vendor Fortinet has notified customers today that a cybercriminal gang has assembled a collection of access credentials for more than 87,000 FortiGate SSL-VPN devices.	https://therecord.media/fortinet-warns-customers-after-hackers-leak-passwords-for-87000-vpns/	https://therecord.media/wp-content/uploads/2021/09/FortiGate.png	therecord	t	2021-09-09 19:00:02.146288+02	2021-09-09 18:04:23+02	Catalin Cimpanu	therecord/Fortinet-warns-customers-after-hackers-leak-passwords-for-87000-VPNs
 1309	‘Azurescape’ Kubernetes Attack Allows Cross-Container Cloud Compromise	A chain of exploits could allow a malicious Azure user to infiltrate other customers' cloud instances within Microsoft's container-as-a-service offering.	https://kasperskycontenthub.com/threatpost-global/?p=169319	https://media.threatpost.com/wp-content/uploads/sites/103/2018/11/01110334/Azure-Microsoft-cloud.png	threatpost	t	2021-09-09 19:00:02.146288+02	2021-09-09 18:39:13+02	Tara Seals	threatpost/Azurescape-Kubernetes-Attack-Allows-Cross-Container-Cloud-Compromise
+1310	Financial Cybercrime: Why Cryptocurrency is the Perfect 'Getaway Car'	John Hammond, security researcher with Huntress, discusses how financially motivated cybercrooks use and abuse cryptocurrency.	https://kasperskycontenthub.com/threatpost-global/?p=169327	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/26171204/cryptocurrency_fail-405x270-1.jpeg	threatpost	t	2021-09-09 20:00:01.962574+02	2021-09-09 19:51:24+02	John Hammond	threatpost/Financial-Cybercrime-Why-Cryptocurrency-is-the-Perfect-Getaway-Car
 \.
 
 
@@ -1360,7 +1361,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1309, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1310, true);
 
 
 --
