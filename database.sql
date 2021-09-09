@@ -1340,6 +1340,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1294	Attacker releases credentials for 87,000 FortiGate SSL VPN devices | ZDNet	Access data for FortiGate devices was obtained by exploiting a known, old vulnerability.	https://www.zdnet.com/article/attacker-releases-credentials-for-87000-fortigate-ssl-vpn-devices/	https://www.zdnet.com/a/hub/i/r/2021/09/03/480b69f4-89a3-4338-85c7-a898aef5bd51/thumbnail/770x578/85a47bb1091f37b20838dd9dcdada90e/shutterstock-1935153176.jpg	zdnet	t	2021-09-09 14:00:02.286432+02	2021-09-09 11:18:55+02	Charlie Osborne	zdnet/Attacker-releases-credentials-for-87000-FortiGate-SSL-VPN-devices
 1295	91% of IT teams have felt 'forced' to trade security for business operations | ZDNet	When it comes to remote work, security is often the last thing on the priority list.	https://www.zdnet.com/article/91-of-it-teams-have-felt-forced-to-trade-security-for-business-operations/	https://www.zdnet.com/a/hub/i/r/2021/09/07/8e143c77-2bf4-49c4-9a31-9150db49a328/thumbnail/770x578/acca48f778b6efbaaaaf36dd5305fa8b/cybersecurity.jpg	zdnet	t	2021-09-09 14:00:02.286432+02	2021-09-09 11:05:02+02	Charlie Osborne	zdnet/91-of-IT-teams-have-felt-forced-to-trade-security-for-business-operations
 1296	BladeHawk Attackers Target Kurds with Android Apps	Pro-Kurd Facebook profiles deliver '888 RAT' and 'SpyNote' trojans, masked as legitimate apps, to perform mobile espionage.	https://kasperskycontenthub.com/threatpost-global/?p=169300	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/09072544/kurds-e1631186756340.jpg	threatpost	t	2021-09-09 14:00:02.286432+02	2021-09-09 13:26:58+02	Elizabeth Montalbano	threatpost/BladeHawk-Attackers-Target-Kurds-with-Android-Apps
+1297	Zoho Password Manager Zero-Day Bug Under Active Attack Gets a Fix	An authentication bypass vulnerability leading to remote code execution offers up the keys to the corporate kingdom.	https://kasperskycontenthub.com/threatpost-global/?p=169303	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/09085735/keys-e1631192268247.jpg	threatpost	t	2021-09-09 15:00:02.545693+02	2021-09-09 14:58:48+02	Tara Seals	threatpost/Zoho-Password-Manager-Zero-Day-Bug-Under-Active-Attack-Gets-a-Fix
 \.
 
 
@@ -1347,7 +1348,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1296, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1297, true);
 
 
 --
