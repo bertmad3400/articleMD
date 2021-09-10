@@ -1362,6 +1362,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1317	Thousands of Fortinet VPN Account Credentials Leaked	They were posted for free by former Babuk gang members who’ve bickered, squabbled and huffed off to start their own darn ransomware businesses, dagnabbit.	https://kasperskycontenthub.com/threatpost-global/?p=169348	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/09184513/boxing.jpeg	threatpost	t	2021-09-10 08:00:02.207213+02	2021-09-10 00:49:27+02	Lisa Vaas	threatpost/Thousands-of-Fortinet-VPN-Account-Credentials-Leaked
 1318	McDonald’s Email Blast Includes Password to Monopoly Game Database	Usernames, passwords for database sent in prize redemption emails.	https://kasperskycontenthub.com/threatpost-global/?p=169346	https://media.threatpost.com/wp-content/uploads/sites/103/2019/11/19145328/mcdonalds.jpeg	threatpost	t	2021-09-10 08:00:02.207213+02	2021-09-09 22:38:41+02	Becky Bracken	threatpost/McDonalds-Email-Blast-Includes-Password-to-Monopoly-Game-Database
 1314	MyRepublic customers compromised in third-party data breach | ZDNet	Singapore internet services provider says the security breach had occurred on a third-party data storage platform, affecting 79,388 local mobile subscribers whose identity verification documents have been compromised.	https://www.zdnet.com/article/myrepublic-customers-compromised-in-third-party-data-breach/	https://www.zdnet.com/a/hub/i/r/2019/02/11/1697151f-389b-479a-ad56-3d1f465a831a/thumbnail/770x578/81f7cd3bc5710ab1354b36409eac8fbb/istock-473158924.jpg	zdnet	t	2021-09-10 08:00:02.207213+02	2021-09-10 05:47:56+02	Eileen Yu	zdnet/MyRepublic-customers-compromised-in-third-party-data-breach
+1319	Ukrainian man extradited to the US to face botnet, data theft charges | ZDNet	The suspect has been detained ahead of his trial.	https://www.zdnet.com/article/ukrainian-extradited-to-the-us-to-face-botnet-data-theft-charges/	https://www.zdnet.com/a/hub/i/r/2016/10/04/dcbb73c7-fbb8-4544-a39f-248fe29e908b/thumbnail/770x578/aebf7b5a56ad8b261a9ed3bf7ad567e0/global-network-istock.jpg	zdnet	t	2021-09-10 11:00:02.422066+02	2021-09-10 08:46:01+02	Charlie Osborne	zdnet/Ukrainian-man-extradited-to-the-US-to-face-botnet-data-theft-charges
 \.
 
 
@@ -1369,7 +1370,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1318, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1319, true);
 
 
 --
