@@ -1368,6 +1368,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1322	HAProxy urges users to update after HTTP request smuggling vulnerability found | ZDNet	The vulnerability was announced earlier this week by researchers with JFrog, who released a report on the problem.	https://www.zdnet.com/article/haproxy-urges-users-to-update-after-http-request-smuggling-vulnerability-found/	https://www.zdnet.com/a/hub/i/r/2021/03/09/3e79ecf5-f7e1-495d-a9b6-d7887289ca6d/thumbnail/770x578/daf8304f074cd64087b821b317f8b44d/cybersecurity-ransomware-as-a-service-is-6042108a1751690ebef8b53a-1-mar-09-2021-11-35-50-poster.jpg	zdnet	t	2021-09-10 14:00:01.932217+02	2021-09-10 11:35:02+02	Jonathan Greig	zdnet/HAProxy-urges-users-to-update-after-HTTP-request-smuggling-vulnerability-found
 1323	Google debuts new Private Compute features in ramp up of Android security | ZDNet	Google will also make the source code public for external audits.	https://www.zdnet.com/article/google-debuts-new-private-compute-features-to-ramp-up-android-security/	https://www.zdnet.com/a/hub/i/r/2021/05/18/b4ed9e7e-51b8-4bce-8806-cad40b8446a3/thumbnail/770x578/b0bc17f6414f12bd654e94533fde5c53/android-updates.jpg	zdnet	t	2021-09-10 14:00:01.932217+02	2021-09-10 11:08:38+02	Charlie Osborne	zdnet/Google-debuts-new-Private-Compute-features-in-ramp-up-of-Android-security
 1324	IT leaders facing backlash from remote workers over cybersecurity measures: HP study | ZDNet	More than 30% of workers under the age of 24 admitted to outright bypassing certain corporate security policies to get work done.	https://www.zdnet.com/article/it-leaders-facing-backlash-from-remote-workers-over-cybersecurity-measures-hp-study/	https://www.zdnet.com/a/hub/i/r/2021/02/22/ec70b2e1-eb9a-4267-9048-67548714bd1a/thumbnail/770x578/95a30d4fa72575d176584ccd515a75e1/remote-management-video-conferencing.jpg	zdnet	t	2021-09-10 14:00:01.932217+02	2021-09-10 11:00:08+02	Jonathan Greig	zdnet/IT-leaders-facing-backlash-from-remote-workers-over-cybersecurity-measures-HP-study
+1325	Healthcare orgs in California, Arizona send out breach letters for nearly 150,000 after SSNs accessed during ransomware attacks | ZDNet	LifeLong Medical Care and Queen Creek Medical Center were both hit with ransomware attacks over the past year.	https://www.zdnet.com/article/healthcare-orgs-in-california-arizona-send-out-breach-notice-letters-for-nearly-150000-after-ssns-accessed-during-ransomware-attacks/	https://www.zdnet.com/a/hub/i/r/2020/04/16/9248f101-481c-4428-a6d9-5b06867b8f52/thumbnail/770x578/c5dc2d0fb2e15e6e25630f1c51eece68/remote-hospital-20-5x.jpg	zdnet	t	2021-09-10 15:00:02.199427+02	2021-09-10 12:30:02+02	Jonathan Greig	zdnet/Healthcare-orgs-in-California-Arizona-send-out-breach-letters-for-nearly-150000-after-SSNs-accessed-during-ransomware-attacks
 \.
 
 
@@ -1375,7 +1376,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1324, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1325, true);
 
 
 --
