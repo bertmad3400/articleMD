@@ -1375,6 +1375,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1327	Indonesian intelligence agency compromised in suspected Chinese hack	Chinese hackers have breached the internal networks of at least ten Indonesian government ministries and agencies, including computers from Indonesia's primary intelligence service, the Badan Intelijen Negara (BIN).	https://therecord.media/indonesian-intelligence-agency-compromised-in-suspected-chinese-hack/	https://therecord.media/wp-content/uploads/2021/09/Indonesia.png	therecord	t	2021-09-10 17:00:02.613206+02	2021-09-10 16:22:11+02	Catalin Cimpanu	therecord/Indonesian-intelligence-agency-compromised-in-suspected-Chinese-hack
 1328	5 Steps For Securing Your Remote Work Space	With so many people still working from home, cybercriminals are trying to cash in. Here are five recommendations for securing your home office.	https://kasperskycontenthub.com/threatpost-global/?p=169324	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/09125953/5-Steps-For-Securing-Your-Remote-Work-Space-1.jpeg	threatpost	t	2021-09-10 17:00:02.613206+02	2021-09-10 16:35:50+02	Pat Cooper	threatpost/5-Steps-For-Securing-Your-Remote-Work-Space
 1330	SOVA, Worryingly Sophisticated Android Trojan, Takes Flight	The malware appeared in August with an ambitious roadmap (think ransomware, DDoS) that could make it 'the most feature-rich Android malware on the market.'	https://kasperskycontenthub.com/threatpost-global/?p=169366	https://media.threatpost.com/wp-content/uploads/sites/103/2021/01/15111330/android-fix.jpg	threatpost	t	2021-09-10 19:00:02.525909+02	2021-09-10 18:25:53+02	Tara Seals	threatpost/SOVA-Worryingly-Sophisticated-Android-Trojan-Takes-Flight
+1332	Fujitsu confirms stolen data not connected to cyberattack on its systems | ZDNet	Fujitsu has finished an investigation into the data and said it is related to a customer they do business with.	https://www.zdnet.com/article/fujitsu-confirms-stolen-data-marketed-on-dark-web-not-connected-to-cyberattack-on-its-systems/	https://www.zdnet.com/a/hub/i/r/2021/09/01/b8095882-3818-489f-83ed-1d2389a94dfb/thumbnail/770x578/f850efbdbe06dbe2552e5f3f70de89ba/fujitsu.jpg	zdnet	t	2021-09-10 22:00:02.661744+02	2021-09-10 19:10:37+02	Jonathan Greig	zdnet/Fujitsu-confirms-stolen-data-not-connected-to-cyberattack-on-its-systems
+1333	Top Steps for Ransomware Recovery and Preparation	Alex Restrepo, Virtual Data Center Solutions at Veritas Technologies, discusses post-attack restoration options, and how to prepare for another one in the future.	https://kasperskycontenthub.com/threatpost-global/?p=169378	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/10134243/Recovery-e1631295778164.jpg	threatpost	t	2021-09-10 22:00:02.661744+02	2021-09-10 21:37:45+02	Alex Restrepo	threatpost/Top-Steps-for-Ransomware-Recovery-and-Preparation
 \.
 
 
@@ -1382,7 +1384,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1331, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1333, true);
 
 
 --
