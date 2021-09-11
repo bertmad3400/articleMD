@@ -1383,6 +1383,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1337	Assume breach position does not mean firms get to skip due diligence in cybersecurity | ZDNet	Recognising that security breaches are not a matter of if, but when does not mean businesses get to be cut some slack in the event of an incident, especially when they are unable to show due diligence in safeguarding their customers' data.	https://www.zdnet.com/article/assume-breach-position-does-not-mean-firms-get-to-skip-due-diligence/	https://www.zdnet.com/a/hub/i/r/2016/06/24/9ef776c0-de4f-48af-a823-40d387f4870c/thumbnail/770x578/6a4224b7810330ad5cd6d9a18a0e92fb/cloud-security.jpg	zdnet	t	2021-09-11 13:00:03.303938+02	2021-09-11 09:27:00+02	Eileen Yu	zdnet/Assume-breach-position-does-not-mean-firms-get-to-skip-due-diligence-in-cybersecurity
 1338	Bail services affected in South Africa after ransomware attack	A ransomware attack has taken down several IT services for the Department of Justice and Constitutional Development of South Africa, including systems handling the department's emails and national bail services.	https://therecord.media/bail-services-affected-in-south-africa-after-ransomware-attack/	https://therecord.media/wp-content/uploads/2021/09/Capetown-South-Africa.jpg	therecord	t	2021-09-11 13:00:03.303938+02	2021-09-11 10:59:35+02	Catalin Cimpanu	therecord/Bail-services-affected-in-South-Africa-after-ransomware-attack
 1339	Ransomware groups continue assault on healthcare orgs as COVID-19 infections increase | ZDNet	Barlow Respiratory Hospital in California escaped the worst of a recent ransomware attack but still had patient data posted to a leak site.	https://www.zdnet.com/article/ransomware-groups-continue-assault-on-healthcare-orgs-as-covid-19-infections-increase/	https://www.zdnet.com/a/hub/i/r/2021/05/14/562e11d5-19c9-4da0-aac0-4ff512d0f4d8/thumbnail/770x578/8b38ef905e6b5fe1c6134051aeb57903/getty-ambulances-outside-ireland-hospital.jpg	zdnet	t	2021-09-11 16:00:02.62761+02	2021-09-11 13:00:06+02	Jonathan Greig	zdnet/Ransomware-groups-continue-assault-on-healthcare-orgs-as-COVID-19-infections-increase
+1340	REvil ransomware is back in full attack mode and leaking data	The REvil ransomware gang has fully returned and is once again attacking new victims and publishing stolen files on a data leak site.	https://www.bleepingcomputer.com/news/security/revil-ransomware-is-back-in-full-attack-mode-and-leaking-data/	https://www.bleepstatic.com/content/hl-images/2021/07/02/REVIL-ransomware-map.jpg	bleepingcomputer	t	2021-09-11 20:00:02.635004+02	2021-09-11 19:15:28+02	Lawrence Abrams	bleepingcomputer/REvil-ransomware-is-back-in-full-attack-mode-and-leaking-data
 \.
 
 
@@ -1390,7 +1391,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1339, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1340, true);
 
 
 --
