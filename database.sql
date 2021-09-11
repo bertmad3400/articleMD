@@ -1380,6 +1380,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1334	New York State fixes vulnerability in COVID-19 passport app that allowed storage of fake vaccine credentials | ZDNet	New York users of the app are urged to update it after a patch was released on August 20.	https://www.zdnet.com/article/new-york-state-fixes-vulnerability-in-covid-19-passport-app-that-allowed-storage-of-fake-vaccine-credentials/	https://www.zdnet.com/a/hub/i/r/2021/09/02/4af397b6-6300-4ce8-bd14-b652a0b3943d/thumbnail/770x578/5261512fadf8a43ea0b0b8635d79b138/mobile-ecommerce-online-shopping-consumer-retail.jpg	zdnet	t	2021-09-10 23:00:01.882948+02	2021-09-10 20:21:32+02	Jonathan Greig	zdnet/New-York-State-fixes-vulnerability-in-COVID-19-passport-app-that-allowed-storage-of-fake-vaccine-credentials
 1335	The Week in Ransomware - September 10th 2021 - REvil returns	This week marked the return of the notorious REvil ransomware group, who disappeared in July after conducting a massive attack using a Kaseya zero-day vulnerability.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-september-10th-2021-revil-returns/	https://www.bleepstatic.com/content/hl-images/2021/04/30/smoke-hands.jpg	bleepingcomputer	t	2021-09-10 23:00:01.882948+02	2021-09-10 22:34:32+02	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---September-10th-2021---REvil-returns
 1336	MyRepublic Data Breach Raises Data-Protection Questions	The incident raises considerations for security for critical data housed in third-party infrastructure, researchers say.	https://kasperskycontenthub.com/threatpost-global/?p=169382	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/10161549/myrepublic-1-e1631305059844.jpg	threatpost	t	2021-09-10 23:00:01.882948+02	2021-09-10 22:17:59+02	Tara Seals	threatpost/MyRepublic-Data-Breach-Raises-Data-Protection-Questions
+1337	Assume breach position does not mean firms get to skip due diligence in cybersecurity | ZDNet	Recognising that security breaches are not a matter of if, but when does not mean businesses get to be cut some slack in the event of an incident, especially when they are unable to show due diligence in safeguarding their customers' data.	https://www.zdnet.com/article/assume-breach-position-does-not-mean-firms-get-to-skip-due-diligence/	https://www.zdnet.com/a/hub/i/r/2016/06/24/9ef776c0-de4f-48af-a823-40d387f4870c/thumbnail/770x578/6a4224b7810330ad5cd6d9a18a0e92fb/cloud-security.jpg	zdnet	t	2021-09-11 13:00:03.303938+02	2021-09-11 09:27:00+02	Eileen Yu	zdnet/Assume-breach-position-does-not-mean-firms-get-to-skip-due-diligence-in-cybersecurity
+1338	Bail services affected in South Africa after ransomware attack	A ransomware attack has taken down several IT services for the Department of Justice and Constitutional Development of South Africa, including systems handling the department's emails and national bail services.	https://therecord.media/bail-services-affected-in-south-africa-after-ransomware-attack/	https://therecord.media/wp-content/uploads/2021/09/Capetown-South-Africa.jpg	therecord	t	2021-09-11 13:00:03.303938+02	2021-09-11 10:59:35+02	Catalin Cimpanu	therecord/Bail-services-affected-in-South-Africa-after-ransomware-attack
 \.
 
 
@@ -1387,7 +1389,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1336, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1338, true);
 
 
 --
