@@ -1399,6 +1399,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1353	Walmart press release hoax causes Litecoin to spike 34%	A fake Walmart press release stating that the retail chain would begin accepting Litecoin caused the cryptocurrency to jump by almost 35% this morning.	https://www.bleepingcomputer.com/news/cryptocurrency/walmart-press-release-hoax-causes-litecoin-to-spike-34-percent/	https://www.bleepstatic.com/content/hl-images/2021/05/25/Walmart.jpg	bleepingcomputer	t	2021-09-13 18:00:01.852716+02	2021-09-13 17:35:03+02	Lawrence Abrams	bleepingcomputer/Walmart-press-release-hoax-causes-Litecoin-to-spike-34
 1355	FTC warns of extortionists targeting LGBTQ+ community on dating apps	The US Federal Trade Commission (FTC) warns of extortion scammers targeting the LGBTQ+ community via online dating apps such as Grindr and Feeld.	https://www.bleepingcomputer.com/news/security/ftc-warns-of-extortionists-targeting-lgbtq-plus-community-on-dating-apps/	https://www.bleepstatic.com/content/hl-images/2021/03/03/face-scammer-mask.jpg	bleepingcomputer	t	2021-09-13 19:00:02.520324+02	2021-09-13 18:08:20+02	Sergiu Gatlan	bleepingcomputer/FTC-warns-of-extortionists-targeting-LGBTQ-community-on-dating-apps
 1354	Over 60 million wearable, fitness tracking records exposed via unsecured database | ZDNet	Data sources included Apple's HealthKit and Fitbit.	https://www.zdnet.com/article/over-60-million-records-exposed-in-wearable-fitness-tracking-data-breachover-60-million-wearable-fitness-tracking-records-exposed-via-unsecured-database/	https://www.zdnet.com/a/hub/i/r/2019/09/17/8258f1d0-39e4-46dd-98ad-237cd827c531/thumbnail/770x578/3508527f0c0967f8f92bec4281bdc65b/gym.jpg	zdnet	t	2021-09-13 19:00:02.520324+02	2021-09-13 16:06:32+02	Charlie Osborne	zdnet/Over-60-million-wearable-fitness-tracking-records-exposed-via-unsecured-database
+1356	Surprise! iOS 14.8 for iPhone is out | ZDNet	Let's see what this surprise update contains.	https://www.zdnet.com/article/surprise-ios-14-8-for-iphone-is-out/	https://www.zdnet.com/a/hub/i/r/2021/09/13/6e95e5f8-0d6c-4d20-ab41-8f93b22c8855/thumbnail/770x578/f5ed067b13028c4f916170627a4a5da6/img-1440x.jpg	zdnet	t	2021-09-13 20:00:01.8284+02	2021-09-13 17:24:14+02	Adrian Kingsley-Hughes	zdnet/Surprise-iOS-148-for-iPhone-is-out
 \.
 
 
@@ -1406,7 +1407,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1355, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1356, true);
 
 
 --
