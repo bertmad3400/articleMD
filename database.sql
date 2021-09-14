@@ -1435,6 +1435,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1389	ZLoader Returns: Abusing Google AdWords, Disabling Windows Defender	The well-known banking trojan retools for stealth with a whole new attack routine, including using ads for Microsoft TeamViewer and Zoom to lure victims in.	https://kasperskycontenthub.com/threatpost-global/?p=169448	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/14124501/Letter-Z-e1631638050739.jpg	threatpost	t	2021-09-14 20:00:02.176222+02	2021-09-14 19:21:59+02	Tara Seals	threatpost/ZLoaders-Back-Abusing-Google-AdWords-Disabling-Windows-Defender
 1390	Microsoft September 2021 Patch Tuesday fixes 2 zero-days, 60 flaws	Today is Microsoft's September 2021 Patch Tuesday, and with it comes fixes for two zero-day vulnerabilities and a total of 61 flaws.	https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2021-patch-tuesday-fixes-2-zero-days-60-flaws/	https://www.bleepstatic.com/content/hl-images/2020/06/09/patch-tuesday-header.jpg	bleepingcomputer	t	2021-09-14 20:00:02.176222+02	2021-09-14 19:56:06+02	Lawrence Abrams	bleepingcomputer/Microsoft-September-2021-Patch-Tuesday-fixes-2-zero-days-60-flaws
 1391	Windows 10 KB5005565 & KB5005566 cumulative updates released	Today's cumulative updates include security fixes for PCs with May 2021 Update (version 21H1), October 2020 Update (version 20H2), and May 2020 Update (version 2004).	https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5005565-and-kb5005566-cumulative-updates-released/	https://www.bleepstatic.com/content/hl-images/2021/01/25/Windows-10.jpg	bleepingcomputer	t	2021-09-14 20:00:02.176222+02	2021-09-14 19:33:16+02	Mayank Parmar	bleepingcomputer/Windows-10-KB5005565--KB5005566-cumulative-updates-released
+1393	Google Chromebook bug causes black screens after login	Google is investigating reports of black screens showing up on users' Chromebooks when trying to log into their Chrome OS accounts.	https://www.bleepingcomputer.com/news/google/google-chromebook-bug-causes-black-screens-after-login/	https://www.bleepstatic.com/content/hl-images/2021/09/14/Chromebook_Chrome_OS.jpg	bleepingcomputer	t	2021-09-14 21:00:02.008083+02	2021-09-14 20:50:50+02	Sergiu Gatlan	bleepingcomputer/Google-Chromebook-bug-causes-black-screens-after-login
+1392	Microsoft September 2021 Patch Tuesday: Remote code execution flaws in MSHTML, OMI fixed | ZDNet	This month's round of security fixes tackles critical software issues including a zero-day flaw known to be exploited in the wild.	https://www.zdnet.com/article/microsoft-september-2021-patch-tuesday-remote-code-execution-flaws-in-mshtml-open-management-fixed/	https://www.zdnet.com/a/hub/i/r/2015/11/11/941fbd1f-57d2-4e52-959f-7e3f05dce1f7/thumbnail/770x578/ca02cffb5ad1d3c9adb5c3f27b61d665/340966-microsoft-patch-tuesday.jpg	zdnet	t	2021-09-14 21:00:02.008083+02	2021-09-14 18:14:00+02	Charlie Osborne	zdnet/Microsoft-September-2021-Patch-Tuesday-Remote-code-execution-flaws-in-MSHTML-OMI-fixed
 \.
 
 
@@ -1442,7 +1444,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1391, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1393, true);
 
 
 --
