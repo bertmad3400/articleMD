@@ -1425,6 +1425,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1379	BlackMatter Ransomware Hits Japanese Tech Giant Olympus	The incident that occurred Sept. 8 and affected its EMEA IT systems seems to signal a return to business as usual for ransomware groups.	https://kasperskycontenthub.com/threatpost-global/?p=169423	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/14072214/Olympus_BlackMatter.jpg	threatpost	t	2021-09-14 14:00:01.779654+02	2021-09-14 13:24:06+02	Elizabeth Montalbano	threatpost/BlackMatter-Ransomware-Hits-Japanese-Tech-Giant-Olympus
 1380	Quantum cryptography: This air-filled fiber optic cable can transport un-hackable keys, say researchers | ZDNet	Hollow core fiber is filled only with air, but the technology's applications for security could be very promising.	https://www.zdnet.com/article/quantum-cryptography-this-air-filled-fiber-optic-cable-can-transport-un-hackable-keys-say-researchers/	https://www.zdnet.com/a/hub/i/r/2021/09/14/cead5363-330f-40f8-81aa-ea0181a6a11f/thumbnail/770x578/ed00d82af1704b0d4e76d12aae7ccec6/lumenisitys-hollowcore-nanfr-fibre-in-manufacture.png	zdnet	t	2021-09-14 15:00:02.66226+02	2021-09-14 12:14:49+02	Daphne Leprince-Ringuet	zdnet/Quantum-cryptography-This-air-filled-fiber-optic-cable-can-transport-un-hackable-keys-say-researchers
 1381	The state of ransomware: national emergencies and million-dollar blackmail | ZDNet	Banks, however, have experienced the highest volume of ransomware attacks this year.	https://www.zdnet.com/article/the-state-of-ransomware-national-emergencies-and-million-dollar-blackmail/	https://www.zdnet.com/a/hub/i/r/2020/10/27/db3c0325-2b86-435b-8efa-93828deb6b56/thumbnail/770x578/0927057bdcbd82cb303274610aa323d3/cybersecurity-lock-resized.jpg	zdnet	t	2021-09-14 15:00:02.66226+02	2021-09-14 12:00:05+02	Charlie Osborne	zdnet/The-state-of-ransomware-national-emergencies-and-million-dollar-blackmail
+1382	46% of On-Prem Databases Vulnerable to Attack – Podcast	A five-year study found that the average on-premises database is a sitting duck: It has 26 vulnerabilities, with 56% ranked as high or critical severity.	https://kasperskycontenthub.com/threatpost-global/?p=169428	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/14082701/sitting-duck-e1631622434750.jpeg	threatpost	t	2021-09-14 16:00:02.105874+02	2021-09-14 15:45:31+02	Lisa Vaas	threatpost/Unpatched-Bugs-Plague-Databases-Your-Data-Is-Probably-Not-Secure--Podcast
+1383	Romance, BEC Scams Lands Soldier in Jail for 46 Months	A former Army Reservist pleaded guilty to scamming the elderly with catfishing and stealing from veterans.	https://kasperskycontenthub.com/threatpost-global/?p=169434	https://media.threatpost.com/wp-content/uploads/sites/103/2019/02/13125932/romance-scam.jpeg	threatpost	t	2021-09-14 16:00:02.105874+02	2021-09-14 15:10:49+02	Becky Bracken	threatpost/Romance-BEC-Scams-Lands-Soldier-in-Jail-for-46-Months
 \.
 
 
@@ -1432,7 +1434,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1381, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1383, true);
 
 
 --
