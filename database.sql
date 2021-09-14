@@ -1423,6 +1423,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1377	HP patches severe OMEN driver privilege escalation vulnerability | ZDNet	The bug can be used to achieve kernel-mode permissions.	https://www.zdnet.com/article/hp-patches-omen-driver-privilege-escalation-vulnerability/	https://www.zdnet.com/a/hub/i/r/2020/04/30/55e3608c-1e30-439a-8568-6bfc7ed38987/thumbnail/770x578/6ff3844660e058ae7f009144f12aeb9f/istock-1132282499.jpg	zdnet	t	2021-09-14 14:00:01.779654+02	2021-09-14 11:06:46+02	Charlie Osborne	zdnet/HP-patches-severe-OMEN-driver-privilege-escalation-vulnerability
 1378	Close to half of on-prem databases contain vulnerabilities, with many critical flaws | ZDNet	The Microsoft Exchange attack wave revealed the risks, but patching isn't always straightforward.	https://www.zdnet.com/article/close-to-half-of-on-prem-databases-contain-vulnerabilities-with-many-critical-flaws/	https://www.zdnet.com/a/hub/i/r/2021/04/08/b5b7fbc0-eaba-4c3d-a035-a098526d301f/thumbnail/770x578/27b6b56e4da7f55f221227dad5fbe23a/istock-1250153439.jpg	zdnet	t	2021-09-14 14:00:01.779654+02	2021-09-14 11:00:02+02	Charlie Osborne	zdnet/Close-to-half-of-on-prem-databases-contain-vulnerabilities-with-many-critical-flaws
 1379	BlackMatter Ransomware Hits Japanese Tech Giant Olympus	The incident that occurred Sept. 8 and affected its EMEA IT systems seems to signal a return to business as usual for ransomware groups.	https://kasperskycontenthub.com/threatpost-global/?p=169423	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/14072214/Olympus_BlackMatter.jpg	threatpost	t	2021-09-14 14:00:01.779654+02	2021-09-14 13:24:06+02	Elizabeth Montalbano	threatpost/BlackMatter-Ransomware-Hits-Japanese-Tech-Giant-Olympus
+1380	Quantum cryptography: This air-filled fiber optic cable can transport un-hackable keys, say researchers | ZDNet	Hollow core fiber is filled only with air, but the technology's applications for security could be very promising.	https://www.zdnet.com/article/quantum-cryptography-this-air-filled-fiber-optic-cable-can-transport-un-hackable-keys-say-researchers/	https://www.zdnet.com/a/hub/i/r/2021/09/14/cead5363-330f-40f8-81aa-ea0181a6a11f/thumbnail/770x578/ed00d82af1704b0d4e76d12aae7ccec6/lumenisitys-hollowcore-nanfr-fibre-in-manufacture.png	zdnet	t	2021-09-14 15:00:02.66226+02	2021-09-14 12:14:49+02	Daphne Leprince-Ringuet	zdnet/Quantum-cryptography-This-air-filled-fiber-optic-cable-can-transport-un-hackable-keys-say-researchers
+1381	The state of ransomware: national emergencies and million-dollar blackmail | ZDNet	Banks, however, have experienced the highest volume of ransomware attacks this year.	https://www.zdnet.com/article/the-state-of-ransomware-national-emergencies-and-million-dollar-blackmail/	https://www.zdnet.com/a/hub/i/r/2020/10/27/db3c0325-2b86-435b-8efa-93828deb6b56/thumbnail/770x578/0927057bdcbd82cb303274610aa323d3/cybersecurity-lock-resized.jpg	zdnet	t	2021-09-14 15:00:02.66226+02	2021-09-14 12:00:05+02	Charlie Osborne	zdnet/The-state-of-ransomware-national-emergencies-and-million-dollar-blackmail
 \.
 
 
@@ -1430,7 +1432,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1379, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1381, true);
 
 
 --
