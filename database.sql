@@ -1427,6 +1427,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1381	The state of ransomware: national emergencies and million-dollar blackmail | ZDNet	Banks, however, have experienced the highest volume of ransomware attacks this year.	https://www.zdnet.com/article/the-state-of-ransomware-national-emergencies-and-million-dollar-blackmail/	https://www.zdnet.com/a/hub/i/r/2020/10/27/db3c0325-2b86-435b-8efa-93828deb6b56/thumbnail/770x578/0927057bdcbd82cb303274610aa323d3/cybersecurity-lock-resized.jpg	zdnet	t	2021-09-14 15:00:02.66226+02	2021-09-14 12:00:05+02	Charlie Osborne	zdnet/The-state-of-ransomware-national-emergencies-and-million-dollar-blackmail
 1382	46% of On-Prem Databases Vulnerable to Attack – Podcast	A five-year study found that the average on-premises database is a sitting duck: It has 26 vulnerabilities, with 56% ranked as high or critical severity.	https://kasperskycontenthub.com/threatpost-global/?p=169428	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/14082701/sitting-duck-e1631622434750.jpeg	threatpost	t	2021-09-14 16:00:02.105874+02	2021-09-14 15:45:31+02	Lisa Vaas	threatpost/Unpatched-Bugs-Plague-Databases-Your-Data-Is-Probably-Not-Secure--Podcast
 1383	Romance, BEC Scams Lands Soldier in Jail for 46 Months	A former Army Reservist pleaded guilty to scamming the elderly with catfishing and stealing from veterans.	https://kasperskycontenthub.com/threatpost-global/?p=169434	https://media.threatpost.com/wp-content/uploads/sites/103/2019/02/13125932/romance-scam.jpeg	threatpost	t	2021-09-14 16:00:02.105874+02	2021-09-14 15:10:49+02	Becky Bracken	threatpost/Romance-BEC-Scams-Lands-Soldier-in-Jail-for-46-Months
+1384	New Zloader attacks disable Windows Defender to evade detection	An ongoing Zloader campaign uses a new infection chain to disable Microsoft Defender Antivirus (formerly Windows Defender) on victims' computers to evade detection.	https://www.bleepingcomputer.com/news/security/new-zloader-attacks-disable-windows-defender-to-evade-detection/	https://www.bleepstatic.com/content/hl-images/2021/07/09/Windows.jpg	bleepingcomputer	t	2021-09-14 18:00:02.243577+02	2021-09-14 17:02:43+02	Sergiu Gatlan	bleepingcomputer/New-Zloader-attacks-disable-Windows-Defender-to-evade-detection
+1385	Pair of Google Chrome Zero-Day Bugs Actively Exploited	The security vulnerabilities bring the web behemoth up to 10 browser zero-days found so far this year.	https://kasperskycontenthub.com/threatpost-global/?p=169442	https://media.threatpost.com/wp-content/uploads/sites/103/2020/11/03120131/Google-Chrome-Browser.jpg	threatpost	t	2021-09-14 18:00:02.243577+02	2021-09-14 17:03:41+02	Tara Seals	threatpost/Pair-of-Google-Chrome-Zero-Day-Bugs-Actively-Exploited
 \.
 
 
@@ -1434,7 +1436,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1383, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1385, true);
 
 
 --
