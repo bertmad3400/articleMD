@@ -1417,6 +1417,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1370	REvil’s Back; Coder Fat-Fingered Away Decryptor Key?	How did Kaseya get a universal decryptor after a mind-bogglingly big ransomware attack? A REvil coder misclicked, generated & issued it, and “That’s how we sh*t ourselves.”	https://kasperskycontenthub.com/threatpost-global/?p=169403	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/13145703/baby-hand-fingers-skin-e1631559437454.jpeg	threatpost	t	2021-09-14 10:00:03.381071+02	2021-09-13 20:59:22+02	Lisa Vaas	threatpost/REvils-Back-Coder-Fat-Fingered-Away-Its-Decryptor-Key
 1372	Honing Cybersecurity Strategy When Everyone’s a Target for Ransomware	Aamir Lakhani, researcher at FortiGuard Labs, explains why organizations must extend cyber-awareness training across the entire enterprise, from Luddites to the C-suite.	https://kasperskycontenthub.com/threatpost-global/?p=169397	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/31064150/ransomware-cpu.jpg	threatpost	t	2021-09-14 10:00:03.381071+02	2021-09-13 20:17:37+02	Aamir Lakhani	threatpost/Honing-Cybersecurity-Strategy-When-Everyones-a-Target-for-Ransomware
 1373	WooCommerce Multi Currency Bug Allows Shoppers to Change eCommerce Pricing	The security vulnerability can be exploited with a malicious CSV file.	https://kasperskycontenthub.com/threatpost-global/?p=169394	https://media.threatpost.com/wp-content/uploads/sites/103/2018/12/19142200/Click2Gov.jpeg	threatpost	t	2021-09-14 10:00:03.381071+02	2021-09-13 20:08:10+02	Tara Seals	threatpost/WooCommerce-Multi-Currency-Bug-Allows-Shoppers-to-Change-eCommerce-Pricing
+1374	OWASP Top 10 ranking has a new leader after ten years	The OWASP Top 10, a list of the most dangerous web vulnerabilities, has been updated after four years, and, after more than a decade, there is a new vulnerability at the top of the ranking.	https://therecord.media/owasp-top-10-ranking-has-a-new-leader-after-ten-years/	https://therecord.media/wp-content/uploads/2021/09/ranking-top.jpg	therecord	t	2021-09-14 13:00:02.180154+02	2021-09-14 12:50:05+02	Catalin Cimpanu	therecord/OWASP-Top-10-ranking-has-a-new-leader-after-ten-years
 \.
 
 
@@ -1424,7 +1425,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1373, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1374, true);
 
 
 --
