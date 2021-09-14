@@ -1429,6 +1429,9 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1383	Romance, BEC Scams Lands Soldier in Jail for 46 Months	A former Army Reservist pleaded guilty to scamming the elderly with catfishing and stealing from veterans.	https://kasperskycontenthub.com/threatpost-global/?p=169434	https://media.threatpost.com/wp-content/uploads/sites/103/2019/02/13125932/romance-scam.jpeg	threatpost	t	2021-09-14 16:00:02.105874+02	2021-09-14 15:10:49+02	Becky Bracken	threatpost/Romance-BEC-Scams-Lands-Soldier-in-Jail-for-46-Months
 1384	New Zloader attacks disable Windows Defender to evade detection	An ongoing Zloader campaign uses a new infection chain to disable Microsoft Defender Antivirus (formerly Windows Defender) on victims' computers to evade detection.	https://www.bleepingcomputer.com/news/security/new-zloader-attacks-disable-windows-defender-to-evade-detection/	https://www.bleepstatic.com/content/hl-images/2021/07/09/Windows.jpg	bleepingcomputer	t	2021-09-14 18:00:02.243577+02	2021-09-14 17:02:43+02	Sergiu Gatlan	bleepingcomputer/New-Zloader-attacks-disable-Windows-Defender-to-evade-detection
 1385	Pair of Google Chrome Zero-Day Bugs Actively Exploited	The security vulnerabilities bring the web behemoth up to 10 browser zero-days found so far this year.	https://kasperskycontenthub.com/threatpost-global/?p=169442	https://media.threatpost.com/wp-content/uploads/sites/103/2020/11/03120131/Google-Chrome-Browser.jpg	threatpost	t	2021-09-14 18:00:02.243577+02	2021-09-14 17:03:41+02	Tara Seals	threatpost/Pair-of-Google-Chrome-Zero-Day-Bugs-Actively-Exploited
+1386	Microsoft: Windows 10 2004 reaches end of service in December	Microsoft has reminded customers today that Windows 10 2004 (all editions) and Windows Server 2004 (Datacenter, Standard editions) will reach the end of servicing on December 14, 2021.	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-2004-reaches-end-of-service-in-december/	https://www.bleepstatic.com/content/hl-images/2021/05/12/Windows-10.jpg	bleepingcomputer	t	2021-09-14 19:00:02.48566+02	2021-09-14 18:59:26+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Windows-10-2004-reaches-end-of-service-in-December
+1387	'No indication' Russia has cracked down on ransomware gangs, top FBI official says	The FBI’s No. 2 on Tuesday said the agency has seen no evidence that the Russian government has moved against ransomware gangs operating on its soil.	https://therecord.media/no-indication-russia-has-cracked-down-on-ransomware-gangs-top-fbi-official-says/	https://therecord.media/wp-content/uploads/2021/09/moshed-09-14-12-53-43.png	therecord	t	2021-09-14 19:00:02.48566+02	2021-09-14 18:55:59+02	Martin Matishak	therecord/No-indication-Russia-has-cracked-down-on-ransomware-gangs-top-FBI-official-says
+1388	Wikimedia bans seven Chinese users citing security risk	The Wikimedia Foundation, the organization behind the Wikipedia portal, has banned seven Chinese users on Monday, citing a security risk.	https://therecord.media/wikimedia-bans-seven-chinese-users-citing-security-risk/	https://www-therecord.recfut.com/wp-content/uploads/2021/09/Wikipedia-China.jpg	therecord	t	2021-09-14 19:00:02.48566+02	2021-09-14 18:33:48+02	Catalin Cimpanu	therecord/Wikimedia-bans-seven-Chinese-users-citing-security-risk
 \.
 
 
@@ -1436,7 +1439,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1385, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1388, true);
 
 
 --
