@@ -1455,6 +1455,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1408	Attackers Impersonate DoT in Two-Day Phishing Scam	Threat actors dangled the lure of receiving funds from the $1 trillion infrastructure bill and created new domains mimicking the real federal site.	https://kasperskycontenthub.com/threatpost-global/?p=169484	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/15090435/fish-on-hook-e1631711087677.jpeg	threatpost	t	2021-09-15 17:00:04.059931+02	2021-09-15 15:06:52+02	Elizabeth Montalbano	threatpost/Attackers-Impersonate-DoT-in-Two-Day-Phishing-Scam
 1409	Adobe Snuffs Critical Bugs in Acrobat, Experience Manager	Adobe releases security updates for 59 bugs, affecting its core products including Adobe Acrobat Reader, XMP Toolkit SDK and Photoshop.	https://kasperskycontenthub.com/threatpost-global/?p=169467	https://media.threatpost.com/wp-content/uploads/sites/103/2018/08/22080754/adobe_patch.png	threatpost	t	2021-09-15 17:00:04.059931+02	2021-09-14 23:02:49+02	Tom Spring	threatpost/Adobe-Snuffs-Critical-Bugs-in-Acrobat-Experience-Manager
 1411	2021’s Most Dangerous Software Weaknesses	Saryu Nayyar, CEO at Gurucul, peeks into Mitre's list of dangerous software bug types, highlighting that the oldies are still the goodies for attackers.	https://kasperskycontenthub.com/threatpost-global/?p=169458	https://media.threatpost.com/wp-content/uploads/sites/103/2019/09/03102603/Software-Patch.jpg	threatpost	t	2021-09-15 17:00:04.059931+02	2021-09-14 22:05:52+02	Saryu Nayyar	threatpost/2021s-Most-Dangerous-Software-Weaknesses
+1412	Former AWS exec Charlie Bell to head new Microsoft Security, Compliance, Identity, and Management org | ZDNet	Microsoft announced former AWS bigwig Charlie Bell would lead a new engineering organization and report to CEO Nadella only after Microsoft comes to a resolution with Amazon.	https://www.zdnet.com/article/former-aws-exec-charlie-bell-to-head-new-microsoft-security-compliance-identity-and-management-org/	https://www.zdnet.com/a/hub/i/r/2021/09/15/82ec1a5e-3144-4f77-9909-21ce5e482dab/thumbnail/770x578/c710b2b57199ce71930cc371a32095cb/microsoft-security.jpg	zdnet	t	2021-09-15 18:00:02.43297+02	2021-09-15 15:33:00+02	Mary Jo Foley	zdnet/Former-AWS-exec-Charlie-Bell-to-head-new-Microsoft-Security-Compliance-Identity-and-Management-org
+1413	Kali Linux 2021.3 released with new pentest tools, improvements	​Kali Linux 2021.3 was released yesterday by Offensive Security and includes a new set of tools, improved virtualization support, and a new OpenSSL configuration that increases the attack surface.	https://www.bleepingcomputer.com/news/security/kali-linux-20213-released-with-new-pentest-tools-improvements/	https://www.bleepstatic.com/content/hl-images/2021/06/02/kali-linux-header.jpg	bleepingcomputer	t	2021-09-15 18:00:02.43297+02	2021-09-15 17:30:15+02	Lawrence Abrams	bleepingcomputer/Kali-Linux-20213-released-with-new-pentest-tools-improvements
 \.
 
 
@@ -1462,7 +1464,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1411, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1413, true);
 
 
 --
