@@ -1487,6 +1487,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1441	FTC: Health app and connected device makers must disclose data breaches	The FTC warned makers of health apps and connected devices to comply with a decade-old data breach notification rule.	https://therecord.media/ftc-health-app-and-connected-device-makers-must-disclose-data-breaches/	https://therecord.media/wp-content/uploads/2021/09/moshed-09-16-22-33-12.png	therecord	t	2021-09-16 17:00:02.027308+02	2021-09-16 16:19:13+02	Andrea Peterson	therecord/FTC-Health-app-and-connected-device-makers-must-disclose-data-breaches
 1443	Microsoft: Windows MSHTML bug now exploited by ransomware gangs	Microsoft says multiple threat actors, including ransomware affiliates, are targeting the recently patched Windows MSHTML remote code execution security flaw.	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-mshtml-bug-now-exploited-by-ransomware-gangs/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Microsoft--header.jpg	bleepingcomputer	t	2021-09-16 18:00:02.670846+02	2021-09-16 17:16:15+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Windows-MSHTML-bug-now-exploited-by-ransomware-gangs
 1442	Google is backing security reviews of these key open source projects | ZDNet	Google funds the security audit of eight key open source projects, and there are 17 more that need funding support.	https://www.zdnet.com/article/google-is-backing-security-reviews-of-these-key-open-source-projects/	https://www.zdnet.com/a/hub/i/r/2021/08/25/99bd596a-6b7d-47a5-9d50-5726551168c3/thumbnail/770x578/e59faebfe57fe091f7428dc11b00363b/getty-hands-typing-on-a-laptop-keyboard.jpg	zdnet	t	2021-09-16 18:00:02.670846+02	2021-09-16 14:45:00+02	Liam Tung	zdnet/Google-is-backing-security-reviews-of-these-key-open-source-projects
+1444	FBI: $113 million lost to online romance scams this year	The FBI warned today that a massive spike of online romance scams this year caused Americans to lose more than $113 million since the start of 2021.	https://www.bleepingcomputer.com/news/security/fbi-113-million-lost-to-online-romance-scams-this-year/	https://www.bleepstatic.com/content/hl-images/2021/09/01/Stressed.jpg	bleepingcomputer	t	2021-09-16 19:00:01.980862+02	2021-09-16 18:54:27+02	Sergiu Gatlan	bleepingcomputer/FBI-113-million-lost-to-online-romance-scams-this-year
+1445	New Windows security updates break network printing	Windows administrators report wide-scale network printing problems after installing this week's September 2021 Patch Tuesday security updates.	https://www.bleepingcomputer.com/news/security/new-windows-security-updates-break-network-printing/	https://www.bleepstatic.com/content/hl-images/2021/04/16/broken-windows-header.jpg	bleepingcomputer	t	2021-09-16 19:00:01.980862+02	2021-09-16 18:08:27+02	Lawrence Abrams	bleepingcomputer/New-Windows-security-updates-break-network-printing
 \.
 
 
@@ -1494,7 +1496,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1443, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1445, true);
 
 
 --
