@@ -1483,6 +1483,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1437	Get 3 Years of powerful, super-fast VPN Protection from HotSpot Shield for just $89 | ZDNet	Now you can get the utmost privacy and security, even when gaming and streaming, without sacrificing blazingly fast speeds.	https://www.zdnet.com/article/get-3-years-of-powerful-super-fast-vpn-protection-from-hotspot-shield-for-just-89/	https://www.zdnet.com/a/hub/i/r/2020/09/16/c9f44578-8158-4b50-8e18-6797843b41fb/thumbnail/770x578/ef39e579e1b206523c1e1e240daa068b/vpn-your-guide-to-staying-safe-on-the-in-5f611c63156d30063518fd1a-1-sep-16-2020-15-46-46-poster.jpg	zdnet	t	2021-09-16 16:00:02.454276+02	2021-09-16 13:00:02+02	ZDNet Academy	zdnet/Get-3-Years-of-powerful-super-fast-VPN-Protection-from-HotSpot-Shield-for-just-89
 1438	New Go malware Capoae targets WordPress installs, Linux systems | ZDNet	Capoae highlights the increase of cyberattacks designed to deploy cryptocurrency-mining payloads.	https://www.zdnet.com/article/new-go-malware-capoae-targets-wordpress-installs-linux-systems/	https://www.zdnet.com/a/hub/i/r/2019/01/23/ea1e5dd9-47ff-4ef1-bdc1-4cc05b9b1126/thumbnail/770x578/80af23a021413cf008fb60e6b7da0728/istock-cryptocurrency-coins.jpg	zdnet	t	2021-09-16 16:00:02.454276+02	2021-09-16 13:00:00+02	Charlie Osborne	zdnet/New-Go-malware-Capoae-targets-WordPress-installs-Linux-systems
 1439	Dell announces new features for EMC PowerScale and other security updates | ZDNet	Later this quarter, Dell will also be releasing updates to OneFS.	https://www.zdnet.com/article/dell-announces-new-features-for-emc-powerscale-and-other-security-updates/	https://www.zdnet.com/a/hub/i/r/2021/09/10/046d2988-229b-4894-b5b6-9c6326d06de4/thumbnail/770x578/f4c338242001582d97f5a917707b53f4/dell.jpg	zdnet	t	2021-09-16 16:00:02.454276+02	2021-09-15 19:22:00+02	Jonathan Greig	zdnet/Dell-announces-new-features-for-EMC-PowerScale-and-other-security-updates
+1440	Aruba partners with MLS franchise for digitized stadium in Cincinnati | ZDNet	The 26,000-seat TQL Stadium was designed to be entirely cashless, leveraging a slate of wired and wireless Aruba products.	https://www.zdnet.com/article/aruba-partners-with-mls-franchise-for-digitized-stadium-in-cincinnati/	https://www.zdnet.com/a/hub/i/r/2021/09/16/a3c83a20-683e-47fe-b927-fdd45923fc9e/thumbnail/770x578/d6ec2b3e4fd9f3398e438477818114b0/fc-cincinnati-1.jpg	zdnet	t	2021-09-16 17:00:02.027308+02	2021-09-16 14:51:36+02	Jonathan Greig	zdnet/Aruba-partners-with-MLS-franchise-for-digitized-stadium-in-Cincinnati
+1441	FTC: Health app and connected device makers must disclose data breaches	The FTC warned makers of health apps and connected devices to comply with a decade-old data breach notification rule.	https://therecord.media/ftc-health-app-and-connected-device-makers-must-disclose-data-breaches/	https://therecord.media/wp-content/uploads/2021/09/moshed-09-16-22-33-12.png	therecord	t	2021-09-16 17:00:02.027308+02	2021-09-16 16:19:13+02	Andrea Peterson	therecord/FTC-Health-app-and-connected-device-makers-must-disclose-data-breaches
 \.
 
 
@@ -1490,7 +1492,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1439, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1441, true);
 
 
 --
