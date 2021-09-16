@@ -1485,6 +1485,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1439	Dell announces new features for EMC PowerScale and other security updates | ZDNet	Later this quarter, Dell will also be releasing updates to OneFS.	https://www.zdnet.com/article/dell-announces-new-features-for-emc-powerscale-and-other-security-updates/	https://www.zdnet.com/a/hub/i/r/2021/09/10/046d2988-229b-4894-b5b6-9c6326d06de4/thumbnail/770x578/f4c338242001582d97f5a917707b53f4/dell.jpg	zdnet	t	2021-09-16 16:00:02.454276+02	2021-09-15 19:22:00+02	Jonathan Greig	zdnet/Dell-announces-new-features-for-EMC-PowerScale-and-other-security-updates
 1440	Aruba partners with MLS franchise for digitized stadium in Cincinnati | ZDNet	The 26,000-seat TQL Stadium was designed to be entirely cashless, leveraging a slate of wired and wireless Aruba products.	https://www.zdnet.com/article/aruba-partners-with-mls-franchise-for-digitized-stadium-in-cincinnati/	https://www.zdnet.com/a/hub/i/r/2021/09/16/a3c83a20-683e-47fe-b927-fdd45923fc9e/thumbnail/770x578/d6ec2b3e4fd9f3398e438477818114b0/fc-cincinnati-1.jpg	zdnet	t	2021-09-16 17:00:02.027308+02	2021-09-16 14:51:36+02	Jonathan Greig	zdnet/Aruba-partners-with-MLS-franchise-for-digitized-stadium-in-Cincinnati
 1441	FTC: Health app and connected device makers must disclose data breaches	The FTC warned makers of health apps and connected devices to comply with a decade-old data breach notification rule.	https://therecord.media/ftc-health-app-and-connected-device-makers-must-disclose-data-breaches/	https://therecord.media/wp-content/uploads/2021/09/moshed-09-16-22-33-12.png	therecord	t	2021-09-16 17:00:02.027308+02	2021-09-16 16:19:13+02	Andrea Peterson	therecord/FTC-Health-app-and-connected-device-makers-must-disclose-data-breaches
+1443	Microsoft: Windows MSHTML bug now exploited by ransomware gangs	Microsoft says multiple threat actors, including ransomware affiliates, are targeting the recently patched Windows MSHTML remote code execution security flaw.	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-mshtml-bug-now-exploited-by-ransomware-gangs/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Microsoft--header.jpg	bleepingcomputer	t	2021-09-16 18:00:02.670846+02	2021-09-16 17:16:15+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Windows-MSHTML-bug-now-exploited-by-ransomware-gangs
+1442	Google is backing security reviews of these key open source projects | ZDNet	Google funds the security audit of eight key open source projects, and there are 17 more that need funding support.	https://www.zdnet.com/article/google-is-backing-security-reviews-of-these-key-open-source-projects/	https://www.zdnet.com/a/hub/i/r/2021/08/25/99bd596a-6b7d-47a5-9d50-5726551168c3/thumbnail/770x578/e59faebfe57fe091f7428dc11b00363b/getty-hands-typing-on-a-laptop-keyboard.jpg	zdnet	t	2021-09-16 18:00:02.670846+02	2021-09-16 14:45:00+02	Liam Tung	zdnet/Google-is-backing-security-reviews-of-these-key-open-source-projects
 \.
 
 
@@ -1492,7 +1494,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1441, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1443, true);
 
 
 --
