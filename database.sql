@@ -1518,6 +1518,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1472	Mozilla tests Microsoft Bing as the default Firefox search engine	Mozilla is running a study to test users' responses to changing the default Firefox search engine to Microsoft Bing.	https://www.bleepingcomputer.com/news/software/mozilla-tests-microsoft-bing-as-the-default-firefox-search-engine/	https://www.bleepstatic.com/content/hl-images/2020/11/17/Firefox.jpg	bleepingcomputer	t	2021-09-17 20:00:02.271395+02	2021-09-17 19:40:30+02	Lawrence Abrams	bleepingcomputer/Mozilla-tests-Microsoft-Bing-as-the-default-Firefox-search-engine
 1473	Billions more Android devices will reset risky app permissions	Google announced today that support for a recently released Android privacy protection feature would be backported to billions of devices running older Android versions later this year.	https://www.bleepingcomputer.com/news/security/billions-more-android-devices-will-reset-risky-app-permissions/	https://www.bleepstatic.com/content/hl-images/2021/09/17/Android__headpic.jpg	bleepingcomputer	t	2021-09-17 20:00:02.271395+02	2021-09-17 19:00:00+02	Sergiu Gatlan	bleepingcomputer/Billions-more-Android-devices-will-reset-risky-app-permissions
 1474	‘Yes, we are breaking the law:’ An interview with the operator of a marketplace for stolen data	A website called Marketo emerged earlier this year, billing itself as a marketplace where people can buy leaked data. Although Marketo isn’t a ransomware group, it appears to borrow key strategies from those types of threat actors.	https://therecord.media/yes-we-are-breaking-the-law-an-interview-with-the-operator-of-a-marketplace-for-stolen-data/	https://therecord.media/wp-content/uploads/2021/09/Screen-Shot-2021-09-17-at-12.16.55-PM.jpg	therecord	t	2021-09-17 21:00:01.876885+02	2021-09-17 20:41:39+02	Dmitry Smilyanets	therecord/Yes-we-are-breaking-the-law-An-interview-with-the-operator-of-a-marketplace-for-stolen-data
+1475	Admin of DDoS service behind 200,000 attacks faces 35yrs in prison	At the end of a nine-day trial, a jury in California this week found guilty the administrator of two distributed denial-of-service (DDoS) operations.	https://www.bleepingcomputer.com/news/security/admin-of-ddos-service-behind-200-000-attacks-faces-35yrs-in-prison/	https://www.bleepstatic.com/content/hl-images/2021/03/23/Judge_Gavel.jpg	bleepingcomputer	t	2021-09-17 22:00:01.862162+02	2021-09-17 21:48:39+02	Ionut Ilascu	bleepingcomputer/Admin-of-DDoS-service-behind-200000-attacks-faces-35yrs-in-prison
 \.
 
 
@@ -1525,7 +1526,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1474, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1475, true);
 
 
 --
