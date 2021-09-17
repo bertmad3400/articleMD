@@ -1521,6 +1521,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1475	Admin of DDoS service behind 200,000 attacks faces 35yrs in prison	At the end of a nine-day trial, a jury in California this week found guilty the administrator of two distributed denial-of-service (DDoS) operations.	https://www.bleepingcomputer.com/news/security/admin-of-ddos-service-behind-200-000-attacks-faces-35yrs-in-prison/	https://www.bleepstatic.com/content/hl-images/2021/03/23/Judge_Gavel.jpg	bleepingcomputer	t	2021-09-17 22:00:01.862162+02	2021-09-17 21:48:39+02	Ionut Ilascu	bleepingcomputer/Admin-of-DDoS-service-behind-200000-attacks-faces-35yrs-in-prison
 1476	Best VPN for iPhone and iPad 2021 | ZDNet	Are you looking for a VPN service provider that integrates well into iOS? We spotlight four providers who offer top-notch iPhone and iPad clients.	https://www.zdnet.com/article/best-vpn-for-iphone-and-ipad/	https://www.zdnet.com/a/hub/i/r/2021/09/11/4a0ce6ab-500c-4b1d-92ad-3001d7678305/thumbnail/770x578/7a2f5cfee57767392edd56042797f7f7/daniel-romero-q-rqba-xcgu-unsplash.jpg	zdnet	t	2021-09-17 23:00:02.203266+02	2021-09-17 20:17:22+02	David Gewirtz	zdnet/Best-VPN-for-iPhone-and-iPad-2021
 1477	$133 million lost in online romance scams in 2021: FBI | ZDNet	The FBI said there were more than 1,800 complaints about online romance scams from January to August.	https://www.zdnet.com/article/133-million-lost-in-online-romance-scams-in-2021-fbi/	https://www.zdnet.com/a/hub/i/r/2019/02/18/2cddc2ea-6157-4068-afb1-074e1eea54f3/thumbnail/770x578/53f82c3071efa28275c9bff5bf330952/android-dating-app-flaw-could-have-opene-5c659d4560b293fba1461b8a-1-feb-18-2019-9-38-16-poster.jpg	zdnet	t	2021-09-17 23:00:02.203266+02	2021-09-17 20:08:18+02	Jonathan Greig	zdnet/133-million-lost-in-online-romance-scams-in-2021-FBI
+1478	U.S. to sanction crypto exchanges, wallets used by ransomware	The Biden administration is expected to issue sanctions against crypto exchanges, wallets, and traders used by ransomware gangs to convert ransom payments into fiat money.	https://www.bleepingcomputer.com/news/security/us-to-sanction-crypto-exchanges-wallets-used-by-ransomware/	https://www.bleepstatic.com/content/hl-images/2021/09/17/treasury-department.jpg	bleepingcomputer	t	2021-09-18 00:00:02.501147+02	2021-09-17 23:49:30+02	Lawrence Abrams	bleepingcomputer/US-to-sanction-crypto-exchanges-wallets-used-by-ransomware
 \.
 
 
@@ -1528,7 +1529,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1477, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1478, true);
 
 
 --
