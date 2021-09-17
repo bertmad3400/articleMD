@@ -1502,6 +1502,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1455	How surveillance capitalism will totally transform the domain name system | ZDNet	APNIC's Geoff Huston predicts a world where paranoid apps add 'oblivion' to the DNS to protect privacy. Their privacy, not yours.	https://www.zdnet.com/article/how-surveillance-capitalism-will-totally-transform-the-domain-name-system/	https://www.zdnet.com/a/hub/i/r/2020/11/12/04331d02-c3c4-47c6-9b82-957f0929455c/thumbnail/770x578/2745c19a29541e6b513e92f7a4dd281b/istock-1224413361.jpg	zdnet	t	2021-09-17 09:00:03.233708+02	2021-09-17 03:57:59+02	Stilgherrian 	zdnet/How-surveillance-capitalism-will-totally-transform-the-domain-name-system
 1457	Popular slot machine chain Dotty's reveals data breach exposing SSNs, financial account numbers, biometric data, medical records and more | ZDNet	The breach involved customer driver's license numbers, passport numbers, financial account and routing numbers, taxpayer identification numbers and credit card numbers as well as expiration dates.	https://www.zdnet.com/article/popular-slot-machine-chain-dottys-reveals-data-breach-exposing-ssns-financial-account-numbers-biometric-data-medical-records-and-more/	https://www.zdnet.com/a/hub/i/r/2014/01/23/ea8ce146-1d16-11e4-8c7f-00505685119a/thumbnail/770x578/17204ea7c0cdf497853170811e4bcb95/slot-machine-jackpot-winner.jpg	zdnet	t	2021-09-17 09:00:03.233708+02	2021-09-16 20:01:39+02	Jonathan Greig	zdnet/Popular-slot-machine-chain-Dottys-reveals-data-breach-exposing-SSNs-financial-account-numbers-biometric-data-medical-records-and-more
 1458	Bitdefender releases universal decryptor for REvil/Sodinokibi victims hit before July 13 | ZDNet	Bitdefender's Bogdan Botezatu said they have tested the tool against recent attacks and found that it cannot yet decrypt attacks after the July 13 date.	https://www.zdnet.com/article/bitdefender-releases-universal-decryptor-for-revilsodinokibi-victims-hit-before-july-13/	https://www.zdnet.com/a/hub/i/r/2020/01/08/390da321-13c4-47fe-bc37-b4e5514216c7/thumbnail/770x578/53c7e68bb8eb290967bfd08883a1ffe3/vpn-warning-revil-ransomware-targets-unp-5e14c03676ad0200019f507f-1-jan-08-2020-18-55-25-poster.jpg	zdnet	t	2021-09-17 09:00:03.233708+02	2021-09-16 18:40:54+02	Jonathan Greig	zdnet/Bitdefender-releases-universal-decryptor-for-REvilSodinokibi-victims-hit-before-July-13
+1459	Cyberattacks against the aviation industry linked to Nigerian threat actor | ZDNet	The investigation began after a Microsoft tweet concerning AsyncRAT.	https://www.zdnet.com/article/cyberattacks-against-the-aviation-industry-that-flew-under-the-radar-linked-to-nigerian-threat-actor/	https://www.zdnet.com/a/img/resize/e46683926b3a526e2aa773a1ca5687e96e334cb1/2021/04/26/50af69a0-abbd-4271-b3d4-ba96ba011269/travel-plane-gettyimages-648066114.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-17 12:00:01.959342+02	2021-09-17 09:06:46+02	Charlie Osborne	zdnet/Cyberattacks-against-the-aviation-industry-linked-to-Nigerian-threat-actor
 \.
 
 
@@ -1509,7 +1510,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1458, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1459, true);
 
 
 --
