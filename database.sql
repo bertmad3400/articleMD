@@ -1512,6 +1512,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1466	DDoS botnets, cryptominers target Azure systems after OMIGOD exploit goes public	Threat actors are attacking Azure Linux-based servers using a recently disclosed security flaw named OMIGOD in order to hijack vulnerable systems into DDoS or crypto-mining botnets.	https://therecord.media/ddos-botnets-cryptominers-target-azure-systems-after-omigod-exploit-goes-public/	https://therecord.media/wp-content/uploads/2021/09/hacker-attacks.png	therecord	t	2021-09-17 16:00:01.718084+02	2021-09-17 15:58:25+02	Catalin Cimpanu	therecord/DDoS-botnets-cryptominers-target-Azure-systems-after-OMIGOD-exploit-goes-public
 1467	Ditch the Alert Cannon: Modernizing IDS is a Security Must-Do	Jeff Costlow, CISO at ExtraHop, makes the case for implementing next-gen intrusion-detection systems (NG-IDS) and retiring those noisy 90s compliance platforms.	https://kasperskycontenthub.com/threatpost-global/?p=174789	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/17091747/cannon-scaled-e1631884691237.jpg	threatpost	t	2021-09-17 16:00:01.718084+02	2021-09-17 15:20:03+02	Jeff Costlow	threatpost/Ditch-the-Alert-Cannon-Modernizing-IDS-is-a-Security-Must-Do
 1468	CISA warns of APT actors exploiting newly identified vulnerability in ManageEngine ADSelfService Plus | ZDNet	Zoho released a patch for the issue on September 6.	https://www.zdnet.com/article/cisa-warns-of-apt-actors-exploiting-newly-identified-vulnerability-in-manageengine-adselfservice-plus/	https://www.zdnet.com/a/img/resize/fca2d1149787df0900b2fcde79f6979ea8816793/2020/04/14/d3f05688-1a7e-425a-8a85-88e99780f8d5/zoho.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-17 17:00:02.221838+02	2021-09-17 14:03:37+02	Jonathan Greig	zdnet/CISA-warns-of-APT-actors-exploiting-newly-identified-vulnerability-in-ManageEngine-ADSelfService-Plus
+1469	OMIGOD: Microsoft Azure VMs exploited to drop Mirai, miners 	Threat actors started actively exploiting the critical Azure OMIGOD vulnerabilities two days after Microsoft disclosed them during this month's Patch Tuesday.	https://www.bleepingcomputer.com/news/security/omigod-microsoft-azure-vms-exploited-to-drop-mirai-miners/	https://www.bleepstatic.com/content/hl-images/2021/09/15/OMIGOD_headpic.jpg	bleepingcomputer	t	2021-09-17 18:00:02.148179+02	2021-09-17 17:23:14+02	Sergiu Gatlan	bleepingcomputer/OMIGOD-Microsoft-Azure-VMs-exploited-to-drop-Mirai-miners
 \.
 
 
@@ -1519,7 +1520,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1468, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1469, true);
 
 
 --
