@@ -1519,6 +1519,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1473	Billions more Android devices will reset risky app permissions	Google announced today that support for a recently released Android privacy protection feature would be backported to billions of devices running older Android versions later this year.	https://www.bleepingcomputer.com/news/security/billions-more-android-devices-will-reset-risky-app-permissions/	https://www.bleepstatic.com/content/hl-images/2021/09/17/Android__headpic.jpg	bleepingcomputer	t	2021-09-17 20:00:02.271395+02	2021-09-17 19:00:00+02	Sergiu Gatlan	bleepingcomputer/Billions-more-Android-devices-will-reset-risky-app-permissions
 1474	‘Yes, we are breaking the law:’ An interview with the operator of a marketplace for stolen data	A website called Marketo emerged earlier this year, billing itself as a marketplace where people can buy leaked data. Although Marketo isn’t a ransomware group, it appears to borrow key strategies from those types of threat actors.	https://therecord.media/yes-we-are-breaking-the-law-an-interview-with-the-operator-of-a-marketplace-for-stolen-data/	https://therecord.media/wp-content/uploads/2021/09/Screen-Shot-2021-09-17-at-12.16.55-PM.jpg	therecord	t	2021-09-17 21:00:01.876885+02	2021-09-17 20:41:39+02	Dmitry Smilyanets	therecord/Yes-we-are-breaking-the-law-An-interview-with-the-operator-of-a-marketplace-for-stolen-data
 1475	Admin of DDoS service behind 200,000 attacks faces 35yrs in prison	At the end of a nine-day trial, a jury in California this week found guilty the administrator of two distributed denial-of-service (DDoS) operations.	https://www.bleepingcomputer.com/news/security/admin-of-ddos-service-behind-200-000-attacks-faces-35yrs-in-prison/	https://www.bleepstatic.com/content/hl-images/2021/03/23/Judge_Gavel.jpg	bleepingcomputer	t	2021-09-17 22:00:01.862162+02	2021-09-17 21:48:39+02	Ionut Ilascu	bleepingcomputer/Admin-of-DDoS-service-behind-200000-attacks-faces-35yrs-in-prison
+1476	Best VPN for iPhone and iPad 2021 | ZDNet	Are you looking for a VPN service provider that integrates well into iOS? We spotlight four providers who offer top-notch iPhone and iPad clients.	https://www.zdnet.com/article/best-vpn-for-iphone-and-ipad/	https://www.zdnet.com/a/hub/i/r/2021/09/11/4a0ce6ab-500c-4b1d-92ad-3001d7678305/thumbnail/770x578/7a2f5cfee57767392edd56042797f7f7/daniel-romero-q-rqba-xcgu-unsplash.jpg	zdnet	t	2021-09-17 23:00:02.203266+02	2021-09-17 20:17:22+02	David Gewirtz	zdnet/Best-VPN-for-iPhone-and-iPad-2021
+1477	$133 million lost in online romance scams in 2021: FBI | ZDNet	The FBI said there were more than 1,800 complaints about online romance scams from January to August.	https://www.zdnet.com/article/133-million-lost-in-online-romance-scams-in-2021-fbi/	https://www.zdnet.com/a/hub/i/r/2019/02/18/2cddc2ea-6157-4068-afb1-074e1eea54f3/thumbnail/770x578/53f82c3071efa28275c9bff5bf330952/android-dating-app-flaw-could-have-opene-5c659d4560b293fba1461b8a-1-feb-18-2019-9-38-16-poster.jpg	zdnet	t	2021-09-17 23:00:02.203266+02	2021-09-17 20:08:18+02	Jonathan Greig	zdnet/133-million-lost-in-online-romance-scams-in-2021-FBI
 \.
 
 
@@ -1526,7 +1528,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1475, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1477, true);
 
 
 --
