@@ -1509,6 +1509,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1463	Microsoft asks Azure Linux admins to manually patch OMIGOD bugs	Microsoft has issued additional guidance on securing Azure Linux machines impacted by recently addressed critical OMIGOD vulnerabilities.	https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-azure-linux-admins-to-manually-patch-omigod-bugs/	https://www.bleepstatic.com/content/hl-images/2021/09/15/OMIGOD.jpg	bleepingcomputer	t	2021-09-17 15:00:02.46445+02	2021-09-17 14:06:28+02	Sergiu Gatlan	bleepingcomputer/Microsoft-asks-Azure-Linux-admins-to-manually-patch-OMIGOD-bugs
 1464	AT&T Phone-Unlocking Malware Ring Costs Carrier $200M	With the help of malicious insiders, a fraudster was able to install malware and remotely divorce iPhones and other handsets from the carrier's U.S. network — all the way from Pakistan.	https://kasperskycontenthub.com/threatpost-global/?p=174787	https://media.threatpost.com/wp-content/uploads/sites/103/2021/05/07153428/iphone-x-lockscreen-e1620416483367.jpeg	threatpost	t	2021-09-17 15:00:02.46445+02	2021-09-17 14:57:42+02	Tara Seals	threatpost/ATT-Phone-Unlocking-Malware-Ring-Costs-Carrier-200M
 1465	Microsoft MSHTML Flaw Exploited by Ryuk Ransomware Gang	Microsoft and RiskIQ researchers have identified several campaigns using the recently patched zero-day, reiterating a call for organizations to update affected systems.	https://kasperskycontenthub.com/threatpost-global/?p=174780	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/17080004/Windows_tablet.jpg	threatpost	t	2021-09-17 15:00:02.46445+02	2021-09-17 14:07:59+02	Elizabeth Montalbano	threatpost/Microsoft-MSHTML-Flaw-Exploited-by-Ryuk-Ransomware-Gang
+1466	DDoS botnets, cryptominers target Azure systems after OMIGOD exploit goes public	Threat actors are attacking Azure Linux-based servers using a recently disclosed security flaw named OMIGOD in order to hijack vulnerable systems into DDoS or crypto-mining botnets.	https://therecord.media/ddos-botnets-cryptominers-target-azure-systems-after-omigod-exploit-goes-public/	https://therecord.media/wp-content/uploads/2021/09/hacker-attacks.png	therecord	t	2021-09-17 16:00:01.718084+02	2021-09-17 15:58:25+02	Catalin Cimpanu	therecord/DDoS-botnets-cryptominers-target-Azure-systems-after-OMIGOD-exploit-goes-public
+1467	Ditch the Alert Cannon: Modernizing IDS is a Security Must-Do	Jeff Costlow, CISO at ExtraHop, makes the case for implementing next-gen intrusion-detection systems (NG-IDS) and retiring those noisy 90s compliance platforms.	https://kasperskycontenthub.com/threatpost-global/?p=174789	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/17091747/cannon-scaled-e1631884691237.jpg	threatpost	t	2021-09-17 16:00:01.718084+02	2021-09-17 15:20:03+02	Jeff Costlow	threatpost/Ditch-the-Alert-Cannon-Modernizing-IDS-is-a-Security-Must-Do
 \.
 
 
@@ -1516,7 +1518,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1465, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1467, true);
 
 
 --
