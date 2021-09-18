@@ -1524,6 +1524,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1478	U.S. to sanction crypto exchanges, wallets used by ransomware	The Biden administration is expected to issue sanctions against crypto exchanges, wallets, and traders used by ransomware gangs to convert ransom payments into fiat money.	https://www.bleepingcomputer.com/news/security/us-to-sanction-crypto-exchanges-wallets-used-by-ransomware/	https://www.bleepstatic.com/content/hl-images/2021/09/17/treasury-department.jpg	bleepingcomputer	t	2021-09-18 00:00:02.501147+02	2021-09-17 23:49:30+02	Lawrence Abrams	bleepingcomputer/US-to-sanction-crypto-exchanges-wallets-used-by-ransomware
 1479	TTEC hit with ransomware attack, hampering work for major clients | ZDNet	KrebsonSecurity reported that teams servicing Bank of America, Verizon and others were unable to work.	https://www.zdnet.com/article/ttec-hit-with-ransomware-attack-hampering-work-for-major-clients/	https://www.zdnet.com/a/hub/i/r/2020/04/30/a0f407e5-4a1f-46e3-886e-4811e3ab755e/thumbnail/770x578/9f69e4f6b69a98710bcd4ab797bf4090/ransomware.jpg	zdnet	t	2021-09-18 01:00:02.247995+02	2021-09-17 22:07:24+02	Jonathan Greig	zdnet/TTEC-hit-with-ransomware-attack-hampering-work-for-major-clients
 1480	The Week in Ransomware - September 17th 2021 - REvil decrypted	It has been an interesting week with decryptors released, ransomware gangs continuing to rail against negotiators, and the US government expected to sanction crypto exchanges next week.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-september-17th-2021-revil-decrypted/	https://www.bleepstatic.com/content/hl-images/2021/02/07/brighter-key.jpg	bleepingcomputer	t	2021-09-18 01:00:02.247995+02	2021-09-18 00:16:43+02	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---September-17th-2021---REvil-decrypted
+1481	Get two extra displays for your laptop plus a lifetime of powerful VPN protection | ZDNet	Now you can take your ninja multitasking skills on the road, plus browse and work online worry-free forever.	https://www.zdnet.com/article/get-two-extra-displays-for-your-laptop-plus-a-lifetime-of-powerful-vpn-protection/	https://www.zdnet.com/a/hub/i/r/2021/09/14/e5aadf6c-fd41-41ca-a2ae-d8b295879b45/thumbnail/770x578/b57cd31ddb63cdb8c7145e1725b2d087/sale-302360-primary-image-wide.jpg	zdnet	t	2021-09-18 16:00:02.155453+02	2021-09-18 13:00:02+02	ZDNet Academy	zdnet/Get-two-extra-displays-for-your-laptop-plus-a-lifetime-of-powerful-VPN-protection
 \.
 
 
@@ -1531,7 +1532,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1480, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1481, true);
 
 
 --
