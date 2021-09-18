@@ -1526,6 +1526,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1480	The Week in Ransomware - September 17th 2021 - REvil decrypted	It has been an interesting week with decryptors released, ransomware gangs continuing to rail against negotiators, and the US government expected to sanction crypto exchanges next week.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-september-17th-2021-revil-decrypted/	https://www.bleepstatic.com/content/hl-images/2021/02/07/brighter-key.jpg	bleepingcomputer	t	2021-09-18 01:00:02.247995+02	2021-09-18 00:16:43+02	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---September-17th-2021---REvil-decrypted
 1481	Get two extra displays for your laptop plus a lifetime of powerful VPN protection | ZDNet	Now you can take your ninja multitasking skills on the road, plus browse and work online worry-free forever.	https://www.zdnet.com/article/get-two-extra-displays-for-your-laptop-plus-a-lifetime-of-powerful-vpn-protection/	https://www.zdnet.com/a/hub/i/r/2021/09/14/e5aadf6c-fd41-41ca-a2ae-d8b295879b45/thumbnail/770x578/b57cd31ddb63cdb8c7145e1725b2d087/sale-302360-primary-image-wide.jpg	zdnet	t	2021-09-18 16:00:02.155453+02	2021-09-18 13:00:02+02	ZDNet Academy	zdnet/Get-two-extra-displays-for-your-laptop-plus-a-lifetime-of-powerful-VPN-protection
 1482	Researchers compile list of vulnerabilities abused by ransomware gangs	Security researchers are working on compiling an easy to follow list of initial access attack vectors ransomware gangs and their affiliates are using to breach victims' networks.	https://www.bleepingcomputer.com/news/security/researchers-compile-list-of-vulnerabilities-abused-by-ransomware-gangs/	https://www.bleepstatic.com/content/hl-images/2021/08/31/Ransomware-megaphone.jpg	bleepingcomputer	t	2021-09-18 17:00:02.38945+02	2021-09-18 16:00:00+02	Sergiu Gatlan	bleepingcomputer/Researchers-compile-list-of-vulnerabilities-abused-by-ransomware-gangs
+1483	Windows 11 is no longer compatible with Oracle VirtualBox VMs	Windows 11 is no longer compatible with the immensely popular Oracle VirtualBox virtualization platform after Microsoft changed its hardware requirement policies for virtual machines.	https://www.bleepingcomputer.com/news/microsoft/windows-11-is-no-longer-compatible-with-oracle-virtualbox-vms/	https://www.bleepstatic.com/content/hl-images/2021/08/09/windows-11-square-text.jpg	bleepingcomputer	t	2021-09-18 20:00:02.489548+02	2021-09-18 19:59:06+02	Lawrence Abrams	bleepingcomputer/Windows-11-is-no-longer-compatible-with-Oracle-VirtualBox-VMs
 \.
 
 
@@ -1533,7 +1534,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1482, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1483, true);
 
 
 --
