@@ -1549,6 +1549,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1503	Europol Breaks Open Extensive Mafia Cybercrime Ring	Organized crime ring thrived on violence, intimidation and $12 million in online fraud profits.	https://kasperskycontenthub.com/threatpost-global/?p=174838	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/20153034/tenerife-e1632166268170.jpg	threatpost	t	2021-09-20 22:00:02.17269+02	2021-09-20 21:50:19+02	Tara Seals	threatpost/Europol-Breaks-Open-Extensive-Mafia-Cybercrime-Ring
 1504	Payment API Bungling Exposes Millions of Users’ Payment Data	Misconfigured APIs make any app risky, but when you’re talking about financial apps, you’re talking about handing ne’er-do-wells the power to turn your pockets inside-out.	https://kasperskycontenthub.com/threatpost-global/?p=174825	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/20144055/stealing-money-e1632163270893.jpeg	threatpost	t	2021-09-20 22:00:02.17269+02	2021-09-20 21:02:57+02	Lisa Vaas	threatpost/Payment-API-Bungling-Exposes-Millions-of-Users-Payment-Data
 1505	Hacked sites push TeamViewer using fake expired certificate alert	Threat actors are compromising Windows IIS servers to add expired certificate notification pages that prompt visitors to download a malicious fake installer.	https://www.bleepingcomputer.com/news/security/hacked-sites-push-teamviewer-using-fake-expired-certificate-alert/	https://www.bleepstatic.com/content/hl-images/2021/09/20/Windows.jpg	bleepingcomputer	t	2021-09-20 23:00:02.018378+02	2021-09-20 22:15:36+02	Sergiu Gatlan	bleepingcomputer/Hacked-sites-push-TeamViewer-using-fake-expired-certificate-alert
+1506	Amazon Driver-Surveillance Cameras Roll Out, Sparking Debate	Drivers bristle under constant surveillance by artificial-intelligence (AI) tech, but Amazon says it works and boosts safety.	https://kasperskycontenthub.com/threatpost-global/?p=174843	https://media.threatpost.com/wp-content/uploads/sites/103/2020/03/17172718/Cyber-surveillance.jpg	threatpost	t	2021-09-21 00:00:01.80678+02	2021-09-20 23:25:24+02	Becky Bracken	threatpost/Amazon-Driver-Surveillance-Cameras-Roll-Out-Sparking-Debate
 \.
 
 
@@ -1556,7 +1557,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1505, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1506, true);
 
 
 --
