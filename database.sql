@@ -1541,6 +1541,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1495	Republican Governors Association email server breached by state hackers	The Republican Governors Association (RGA) revealed in data breach notification letters sent last week that its servers were breached during an extensive Microsoft Exchange hacking campaign that hit organizations worldwide in March 2021.	https://www.bleepingcomputer.com/news/security/republican-governors-association-email-server-breached-by-state-hackers/	https://www.bleepstatic.com/content/hl-images/2021/09/20/US-Republican-Governors-Association.jpg	bleepingcomputer	t	2021-09-20 16:00:01.771192+02	2021-09-20 15:43:58+02	Sergiu Gatlan	bleepingcomputer/Republican-Governors-Association-email-server-breached-by-state-hackers
 1496	EventBuilder misconfiguration exposes Microsoft event registrant data	Personal details of registrants to virtual events available through the EventBuilder platform have stayed accessible over the public internet, open to indexing by various engines.	https://www.bleepingcomputer.com/news/security/eventbuilder-misconfiguration-exposes-microsoft-event-registrant-data/	https://www.bleepstatic.com/content/hl-images/2021/08/24/database-header.jpg	bleepingcomputer	t	2021-09-20 16:00:01.771192+02	2021-09-20 15:37:45+02	Ionut Ilascu	bleepingcomputer/EventBuilder-misconfiguration-exposes-Microsoft-event-registrant-data
 1497	Phishing attacks: Police make 106 arrests as they break up online fraud group | ZDNet	Organised crime operation used phishing and business email compromise attacks.	https://www.zdnet.com/article/phishing-attacks-police-make-106-arrests-as-they-break-up-online-fraud-group/	https://www.zdnet.com/a/img/resize/26777d00af07689d20b96d09b0ffdae4e6fa83ae/2021/01/08/6604d540-9eb0-41c2-9f00-6fbf24d996f7/hacker-hands-on-a-keyboard.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-20 17:00:02.525939+02	2021-09-20 14:42:18+02	Danny Palmer	zdnet/Phishing-attacks-Police-make-106-arrests-as-they-break-up-online-fraud-group
+1498	Cloud security company Threat Stack acquired by F5 for $68 million | ZDNet	The deal is expected to be finalized in F5's first quarter fiscal year 2022, ending December 31, 2021.	https://www.zdnet.com/article/cloud-security-company-threat-stack-acquired-by-f5-for-68-million/	https://www.zdnet.com/a/img/resize/5561670d5e9809b5def5384a0eed4aa3aea169d5/2020/07/03/b6c96e0e-7da9-461a-adff-d6009723189a/f5-networks.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-20 18:00:02.103118+02	2021-09-20 15:24:13+02	Jonathan Greig	zdnet/Cloud-security-company-Threat-Stack-acquired-by-F5-for-68-million
+1499	VoIP.ms phone services disrupted by DDoS extortion attack	Threat actors are targeting voice-over-Internet provider VoIP.ms with a DDoS attack and extorting the company to stop the assault that's severely disrupting  the company's operation.	https://www.bleepingcomputer.com/news/security/voipms-phone-services-disrupted-by-ddos-extortion-attack/	https://www.bleepstatic.com/content/hl-images/2021/01/23/ddos-header.jpg	bleepingcomputer	t	2021-09-20 18:00:02.103118+02	2021-09-20 17:39:25+02	Lawrence Abrams	bleepingcomputer/VoIPmsphone-services-disrupted-by-DDoS-extortion-attack
 \.
 
 
@@ -1548,7 +1550,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1497, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1499, true);
 
 
 --
