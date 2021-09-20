@@ -1529,6 +1529,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1483	Windows 11 is no longer compatible with Oracle VirtualBox VMs	Windows 11 is no longer compatible with the immensely popular Oracle VirtualBox virtualization platform after Microsoft changed its hardware requirement policies for virtual machines.	https://www.bleepingcomputer.com/news/microsoft/windows-11-is-no-longer-compatible-with-oracle-virtualbox-vms/	https://www.bleepstatic.com/content/hl-images/2021/08/09/windows-11-square-text.jpg	bleepingcomputer	t	2021-09-18 20:00:02.489548+02	2021-09-18 19:59:06+02	Lawrence Abrams	bleepingcomputer/Windows-11-is-no-longer-compatible-with-Oracle-VirtualBox-VMs
 1484	New Elon Musk Club crypto giveaway scam promoted via email	A new Elon Musk-themed cryptocurrency giveaway scam called the Elon Musk Mutual Aid Fund or Elon Musk Club is being promoted through spam email campaigns that started over the past few weeks.	https://www.bleepingcomputer.com/news/security/new-elon-musk-club-crypto-giveaway-scam-promoted-via-email/	https://www.bleepstatic.com/content/hl-images/2021/01/14/elon-musk-bright.jpg	bleepingcomputer	t	2021-09-19 19:00:02.126215+02	2021-09-19 18:58:30+02	Lawrence Abrams	bleepingcomputer/New-Elon-Musk-Club-crypto-giveaway-scam-promoted-via-email
 1485	AT&T lost $200M in seven years to illegal phone unlocking scheme	A Pakistani fraudster was sentenced earlier this week to 12 years in prison after AT&T, the world's largest telecommunications company, lost over $200 million after he and his co-conspirators coordinated a seven year scheme that led to the fraudulent unlocking of almost 2 million phones.	https://www.bleepingcomputer.com/news/security/atandt-lost-200m-in-seven-years-to-illegal-phone-unlocking-scheme/	https://www.bleepstatic.com/content/hl-images/2021/08/23/ATT.jpg	bleepingcomputer	t	2021-09-19 19:00:02.126215+02	2021-09-19 16:00:00+02	Sergiu Gatlan	bleepingcomputer/ATT-lost-200M-in-seven-years-to-illegal-phone-unlocking-scheme
+1486	Victoria launches five-year, AU$50 million cyber strategy | ZDNet	The new strategy is based on three core missions of improving the delivery of government services, creating a cyber safe place, and creating a 'vibrant' cyber economy.	https://www.zdnet.com/article/victoria-launches-five-year-au50-million-cyber-strategy/	https://www.zdnet.com/a/hub/i/r/2021/05/20/840f303f-6c41-4dcd-a621-3e64a59e9c31/thumbnail/770x578/75427470ab21fcdae2d934108f047af1/gettyimages-1231198082.jpg	zdnet	t	2021-09-20 09:00:03.903706+02	2021-09-20 01:30:34+02	Campbell Kwan	zdnet/Victoria-launches-five-year-AU50-million-cyber-strategy
+1487	Alaska discloses 'sophisticated' nation-state cyberattack on health service	A nation-state cyber-espionage group has gained access to the IT network of the Alaska Department of Health and Social Service (DHSS), the agency said last week.	https://therecord.media/alaska-discloses-sophisticated-nation-state-cyberattack-on-health-service/	https://therecord.media/wp-content/uploads/2021/09/Juneau-Alaska.jpg	therecord	t	2021-09-20 09:00:03.903706+02	2021-09-20 04:16:54+02	Catalin Cimpanu	therecord/Alaska-discloses-sophisticated-nation-state-cyberattack-on-health-service
 \.
 
 
@@ -1536,7 +1538,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1485, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1487, true);
 
 
 --
