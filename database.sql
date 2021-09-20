@@ -1548,6 +1548,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1502	Iowa farm services provider hit with BlackMatter ransomware and $5.9 million ransom | ZDNet	Security researchers leaked conversations between New Cooperative negotiators and BlackMatter operators.	https://www.zdnet.com/article/iowa-farm-services-provider-hit-with-blackmatter-ransomware-and-5-9-million-ransom/	https://www.zdnet.com/a/hub/i/r/2021/06/30/9c9e2a4b-8e51-4a70-a433-02942603a3b7/thumbnail/770x578/43f316c36f978eb9ebc703b21e7fbe76/copy-of-farmer-grain-bin-1.jpg	zdnet	t	2021-09-20 22:00:02.17269+02	2021-09-20 19:43:50+02	Jonathan Greig	zdnet/Iowa-farm-services-provider-hit-with-BlackMatter-ransomware-and-59-million-ransom
 1503	Europol Breaks Open Extensive Mafia Cybercrime Ring	Organized crime ring thrived on violence, intimidation and $12 million in online fraud profits.	https://kasperskycontenthub.com/threatpost-global/?p=174838	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/20153034/tenerife-e1632166268170.jpg	threatpost	t	2021-09-20 22:00:02.17269+02	2021-09-20 21:50:19+02	Tara Seals	threatpost/Europol-Breaks-Open-Extensive-Mafia-Cybercrime-Ring
 1504	Payment API Bungling Exposes Millions of Users’ Payment Data	Misconfigured APIs make any app risky, but when you’re talking about financial apps, you’re talking about handing ne’er-do-wells the power to turn your pockets inside-out.	https://kasperskycontenthub.com/threatpost-global/?p=174825	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/20144055/stealing-money-e1632163270893.jpeg	threatpost	t	2021-09-20 22:00:02.17269+02	2021-09-20 21:02:57+02	Lisa Vaas	threatpost/Payment-API-Bungling-Exposes-Millions-of-Users-Payment-Data
+1505	Hacked sites push TeamViewer using fake expired certificate alert	Threat actors are compromising Windows IIS servers to add expired certificate notification pages that prompt visitors to download a malicious fake installer.	https://www.bleepingcomputer.com/news/security/hacked-sites-push-teamviewer-using-fake-expired-certificate-alert/	https://www.bleepstatic.com/content/hl-images/2021/09/20/Windows.jpg	bleepingcomputer	t	2021-09-20 23:00:02.018378+02	2021-09-20 22:15:36+02	Sergiu Gatlan	bleepingcomputer/Hacked-sites-push-TeamViewer-using-fake-expired-certificate-alert
 \.
 
 
@@ -1555,7 +1556,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1504, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1505, true);
 
 
 --
