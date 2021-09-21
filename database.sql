@@ -1554,6 +1554,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1508	NordVPN vs. Surfshark: Which VPN is best for you? | ZDNet	We subject VPN providers NordVPN and Surfshark to the unyielding eye of our intrepid review team. If you're trying to decide between these two popular services, we have some suggestions.	https://www.zdnet.com/article/nordvpn-vs-surfshark-which-vpn-is-best-for-you/	https://www.zdnet.com/a/img/resize/0107ea104e6e7a71e1fc39474ce46697aa0ae31e/2021/02/16/8f03af6b-3d35-4e9d-b4a4-b0ff7ee817a7/nordvpn-vs-surfshark-review.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-21 02:00:01.710126+02	2021-09-20 23:48:00+02	David Gewirtz	zdnet/NordVPN-vs-Surfshark-Which-VPN-is-best-for-you
 1509	Trend Micro launches first data centre region in Australia | ZDNet	The Sydney-based Trend Micro data centre region is expected to be one of many globally planned for launch by the security giant.	https://www.zdnet.com/article/trend-micro-launches-first-data-centre-region-in-australia/	https://www.zdnet.com/a/hub/i/r/2021/08/25/e3dc6d6a-c6da-4f7f-9577-05a3b304e41b/thumbnail/770x578/0cbbd4abb60877a457f4605ebda6bced/gettyimages-1244931886.jpg	zdnet	t	2021-09-21 02:00:01.710126+02	2021-09-20 23:04:32+02	Aimee Chanthadavong	zdnet/Trend-Micro-launches-first-data-centre-region-in-Australia
 1510	Researcher discloses iPhone lock screen bypass on iOS 15 launch day	On the day Apple released iOS 15, a Spanish security researcher disclosed an iPhone lock screen bypass that can be exploited to grant attackers access to a user's notes.	https://therecord.media/researcher-discloses-iphone-lock-screen-bypass-on-ios-15-launch-day/	https://therecord.media/wp-content/uploads/2021/09/iOS-lock-screen-bypass.jpg	therecord	t	2021-09-21 07:00:01.949665+02	2021-09-21 05:26:50+02	Catalin Cimpanu	therecord/Researcher-discloses-iPhone-lock-screen-bypass-on-iOS-15-launch-day
+1511	Marketron marketing services hit by Blackmatter ransomware	BlackMatter ransomware gang over the weekend hit Marketron, a business software solutions provider that serves more than 6,000 customers in the media industry.	https://www.bleepingcomputer.com/news/security/marketron-marketing-services-hit-by-blackmatter-ransomware/	https://www.bleepstatic.com/content/hl-images/2021/09/20/Marketron.jpg	bleepingcomputer	t	2021-09-21 11:00:02.663031+02	2021-09-21 09:25:06+02	Ionut Ilascu	bleepingcomputer/Marketron-marketing-services-hit-by-Blackmatter-ransomware
 \.
 
 
@@ -1561,7 +1562,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1510, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1511, true);
 
 
 --
