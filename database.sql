@@ -1564,6 +1564,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1518	HackerOne expands Internet Bug Bounty project to tackle open source bugs | ZDNet	Open source code is used by most companies. It's time to improve its security.	https://www.zdnet.com/article/hackerone-expands-internet-bug-bounty-project-to-tackle-open-source-bugs/	https://www.zdnet.com/a/hub/i/r/2021/06/28/20a585a6-81ff-4046-bba5-b4f43a73ca87/thumbnail/770x578/f0d2e41250187151c500ab9d536c84de/aws-bugfest-competition-to-find-and-fix-amazon-bugs.jpg	zdnet	t	2021-09-21 16:00:01.974397+02	2021-09-21 13:00:09+02	Charlie Osborne	zdnet/HackerOne-expands-Internet-Bug-Bounty-project-to-tackle-open-source-bugs
 1519	BlackMatter Strikes Iowa Farmers Cooperative, Demands $5.9M Ransom	Critical infrastructure appears to be targeted in latest ransomware attack, diminishing the hopes of governments to curb such attacks.	https://kasperskycontenthub.com/threatpost-global/?p=174846	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/21090526/iowa-farm.jpg	threatpost	t	2021-09-21 16:00:01.974397+02	2021-09-21 15:14:02+02	Elizabeth Montalbano	threatpost/BlackMatter-Strikes-Iowa-Farmers-Cooperative-Demands-59M-Ransom
 1520	46% of On-Prem Databases Globally Contain Vulnerabilities: Is Yours Safe?	Are organizations neglecting the security of their data? An unprecedented five-year study reveals that internal databases are riddled with vulnerabilities – some even years old.	https://kasperskycontenthub.com/threatpost-global/?p=174815	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/20082606/Vulnerability_Imperva.png	threatpost	t	2021-09-21 16:00:01.974397+02	2021-09-21 15:00:56+02	Pat Cooper	threatpost/46-of-On-Prem-Databases-Globally-Contain-Vulnerabilities-Is-Yours-Safe
+1521	Russian security firm sinkholes part of the dangerous Meris DDoS botnet	Rostelecom-Solar, the cybersecurity division of Russian telecom giant Rostelecom, said on Monday that it sinkholed a part of the Meris DDoS botnet after identifying a mistake from the malware's creators.	https://therecord.media/russian-security-firm-sinkholes-part-of-the-dangerous-meris-ddos-botnet/	https://therecord.media/wp-content/uploads/2021/09/Meris.png	therecord	t	2021-09-21 17:00:02.088578+02	2021-09-21 16:24:40+02	Catalin Cimpanu	therecord/Russian-security-firm-sinkholes-part-of-the-dangerous-Meris-DDoS-botnet
+1522	Report: China-linked hackers take aim at Times of India and a biometric bonanza	When Chinese and Indian troops clashed in the Galwan Valley border region last year, the battle was decidedly low-tech—the two sides went after each other with rocks and clubs. Now, more than a year later, the skirmish has moved to cyberspace.	https://therecord.media/report-china-linked-hackers-take-aim-at-times-of-india-and-a-biometric-bonanza/	https://therecord.media/wp-content/uploads/2021/09/moshed-09-21-9-37-19.png	therecord	t	2021-09-21 17:00:02.088578+02	2021-09-21 16:00:24+02	Dina Temple-Raston	therecord/Report-China-linked-hackers-take-aim-at-Times-of-India-and-a-biometric-bonanza
 \.
 
 
@@ -1571,7 +1573,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1520, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1522, true);
 
 
 --
