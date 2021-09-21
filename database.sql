@@ -1582,6 +1582,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1536	Epik Confirms Hack, Gigabytes of Data on Offer	Hacktivist collective Anonymous said the company had laughable security.	https://kasperskycontenthub.com/threatpost-global/?p=174872	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/21150341/Anonymous-e1632251036311.jpg	threatpost	t	2021-09-21 22:00:01.932554+02	2021-09-21 21:22:19+02	Tara Seals	threatpost/Epik-Confirms-Hack-Gigabytes-of-Data-on-Offer
 1538	New macOS zero-day bug lets attackers run commands remotely	Security researchers disclosed today a new vulnerability in Apple's macOS Finder, which makes it possible for attackers to run arbitrary commands on Macs running any macOS version up to the latest release, Big Sur.	https://www.bleepingcomputer.com/news/apple/new-macos-zero-day-bug-lets-attackers-run-commands-remotely/	https://www.bleepstatic.com/content/hl-images/2021/09/21/MacBook.jpg	bleepingcomputer	t	2021-09-21 23:00:02.63674+02	2021-09-21 22:01:41+02	Sergiu Gatlan	bleepingcomputer/New-macOS-zero-day-bug-lets-attackers-run-commands-remotely
 1537	US Treasury Dept. sanctions Russian cryptocurrency exchange for work with ransomware groups | ZDNet	Russia-based cryptocurrency exchange Suex was sanctioned for its role in facilitating massive ransomware transactions.	https://www.zdnet.com/article/us-treasury-dept-sanctions-russian-cryptocurrency-exchange-for-work-with-ransomware-groups/	https://www.zdnet.com/a/img/resize/d11ed17ce8c5e89ef5745a536291f58a1d108a85/2017/02/02/1f90ad67-8f8c-408d-8de0-e466ad7ae789/treasury.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-21 23:00:02.63674+02	2021-09-21 20:45:09+02	Jonathan Greig	zdnet/US-Treasury-Dept-sanctions-Russian-cryptocurrency-exchange-for-work-with-ransomware-groups
+1539	After ransomware attack, company finds 650+ breached credentials from NEW Cooperative CEO, employees | ZDNet	According to FYEO, chicken1 was used over 10 times by employees at the company.	https://www.zdnet.com/article/after-ransomware-attack-company-finds-650-breached-credentials-from-new-cooperative-ceo-employees/	https://www.zdnet.com/a/hub/i/r/2020/07/07/c62743df-0b11-410e-a44a-50ef64e5acf4/thumbnail/770x578/34b622eaadd217362a4c6841033a7164/istock-11250023781.jpg	zdnet	t	2021-09-22 01:00:01.786999+02	2021-09-21 21:58:38+02	Jonathan Greig	zdnet/After-ransomware-attack-company-finds-650-breached-credentials-from-NEW-Cooperative-CEO-employees
 \.
 
 
@@ -1589,7 +1590,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1538, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1539, true);
 
 
 --
