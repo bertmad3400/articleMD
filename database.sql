@@ -1556,6 +1556,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1510	Researcher discloses iPhone lock screen bypass on iOS 15 launch day	On the day Apple released iOS 15, a Spanish security researcher disclosed an iPhone lock screen bypass that can be exploited to grant attackers access to a user's notes.	https://therecord.media/researcher-discloses-iphone-lock-screen-bypass-on-ios-15-launch-day/	https://therecord.media/wp-content/uploads/2021/09/iOS-lock-screen-bypass.jpg	therecord	t	2021-09-21 07:00:01.949665+02	2021-09-21 05:26:50+02	Catalin Cimpanu	therecord/Researcher-discloses-iPhone-lock-screen-bypass-on-iOS-15-launch-day
 1511	Marketron marketing services hit by Blackmatter ransomware	BlackMatter ransomware gang over the weekend hit Marketron, a business software solutions provider that serves more than 6,000 customers in the media industry.	https://www.bleepingcomputer.com/news/security/marketron-marketing-services-hit-by-blackmatter-ransomware/	https://www.bleepstatic.com/content/hl-images/2021/09/20/Marketron.jpg	bleepingcomputer	t	2021-09-21 11:00:02.663031+02	2021-09-21 09:25:06+02	Ionut Ilascu	bleepingcomputer/Marketron-marketing-services-hit-by-Blackmatter-ransomware
 1512	iOS 15 lets you spy on apps that might be spying on you | ZDNet	This should be a powerful and eye-opening feature.	https://www.zdnet.com/article/ios-15-lets-you-spy-on-apps-that-might-be-spying-on-you/	https://www.zdnet.com/a/hub/i/r/2021/09/21/5fb00336-552b-4a83-819e-feb99dcc389a/thumbnail/770x578/6b05d8ab497ff05ea67420aa8aa80489/img-1525.jpg	zdnet	t	2021-09-21 12:00:01.764976+02	2021-09-21 09:23:25+02	Adrian Kingsley-Hughes	zdnet/iOS-15-lets-you-spy-on-apps-that-might-be-spying-on-you
+1513	Siemens launches AI solution to fight industrial cybercrime | ZDNet	Eos.ii will monitor for threats against industrial IoT endpoints and platforms.	https://www.zdnet.com/article/siemens-launches-ai-solution-to-fight-industrial-cybercrime/	https://www.zdnet.com/a/hub/i/r/2021/02/01/fe73d975-2631-453c-b5df-7f643a1f0ba7/thumbnail/770x578/0b44a60412e13c63d1731ae3d4d56029/istock-1205756496.jpg	zdnet	t	2021-09-21 13:00:01.844859+02	2021-09-21 10:00:02+02	Charlie Osborne	zdnet/Siemens-launches-AI-solution-to-fight-industrial-cybercrime
 \.
 
 
@@ -1563,7 +1564,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1512, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1513, true);
 
 
 --
