@@ -1587,6 +1587,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1541	Microsoft uncovers giant Phishing-as-a-Service operation	Microsoft's security team said today that it uncovered a massive operation that provides phishing services to cybercrime gangs using a hosting-like infrastructure that the OS maker likened to a Phishing-as-a-Service (PHaaS) model.	https://therecord.media/microsoft-uncovers-giant-phishing-as-a-service-operation/	https://therecord.media/wp-content/uploads/2021/09/BulletProofLink.jpg	therecord	t	2021-09-22 03:00:02.257463+02	2021-09-22 02:37:37+02	Catalin Cimpanu	therecord/Microsoft-uncovers-giant-Phishing-as-a-Service-operation
 1542	Democracy advocate finds internet freedom has declined globally for 11th consecutive year | ZDNet	A non-government organisation says internet freedom globally has deteriorated as more countries have pursued new rules for tech companies on content, data, or competition over the past year.	https://www.zdnet.com/article/democracy-advocate-finds-internet-freedom-has-declined-globally-for-11th-consecutive-year/	https://www.zdnet.com/a/img/resize/80c57ca9db277227cf93b5ade799438aecad8962/2021/09/22/be144595-8e5a-44b3-8843-6f910bbda769/freedom-house.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-22 05:00:02.690334+02	2021-09-22 02:53:39+02	Campbell Kwan	zdnet/Democracy-advocate-finds-internet-freedom-has-declined-globally-for-11th-consecutive-year
 1543	Chrome willing to take performance hit to prevent use-after-free bugs | ZDNet	Various attempts will be made in the browser to make memory handling safer.	https://www.zdnet.com/article/chrome-willing-to-take-performance-hit-to-prevent-use-after-free-bugs/	https://www.zdnet.com/a/hub/i/r/2021/06/02/c2d75b27-893c-4946-ae60-fdb7eb8c9a8b/thumbnail/770x578/017ba41700e00238ff21151dd3c89bb1/chrome-icon-close-up.jpg	zdnet	t	2021-09-22 05:00:02.690334+02	2021-09-22 02:20:18+02	Chris Duckett	zdnet/Chrome-willing-to-take-performance-hit-to-prevent-use-after-free-bugs
+1544	Lithuanian government warns about secret censorship features in Xiaomi phones	The Lithuanian Defense Ministry published a security audit on Wednesday for three popular 5G smartphone models manufactured in China, recommending that citizens avoid or stop using at least two of the three devices, citing privacy infringements and secret censorship capabilities.	https://therecord.media/lithuanian-government-warns-about-secret-censorship-features-in-xiaomi-phones/	https://therecord.media/wp-content/uploads/2021/09/Xiaomi.jpg	therecord	t	2021-09-22 06:00:01.746874+02	2021-09-22 05:51:08+02	Catalin Cimpanu	therecord/Lithuanian-government-warns-about-secret-censorship-features-in-Xiaomi-phones
 \.
 
 
@@ -1594,7 +1595,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1543, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1544, true);
 
 
 --
