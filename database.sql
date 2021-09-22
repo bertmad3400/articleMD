@@ -1608,6 +1608,9 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1562	Second farming cooperative shut down by ransomware this week	Minnesota farming supply cooperative Crystal Valley has suffered a ransomware attack, making it the second farming cooperative attacked this weekend.	https://www.bleepingcomputer.com/news/security/second-farming-cooperative-shut-down-by-ransomware-this-week/	https://www.bleepstatic.com/content/hl-images/2021/09/22/Cristal_Valley.jpg	bleepingcomputer	t	2021-09-22 19:00:02.023933+02	2021-09-22 18:09:02+02	Lawrence Abrams	bleepingcomputer/Second-farming-cooperative-shut-down-by-ransomware-this-week
 1563	How REvil May Have Ripped Off Its Own Affiliates	A newly discovered backdoor and double chats could have enabled REvil ransomware-as-a-service operators to hijack victim cases and snatch affiliates’ cuts of ransom payments.	https://kasperskycontenthub.com/threatpost-global/?p=174887	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/22124025/Dr.-Evil.jpeg	threatpost	t	2021-09-22 19:00:02.023933+02	2021-09-22 18:50:34+02	Lisa Vaas	threatpost/How-REvil-May-Have-Ripped-Off-Its-Own-Affiliates
 1564	VMware Warns of Ransomware-Friendly Bug in vCenter Server	VMware urged immediate patching of the max-severity, arbitrary file upload flaw in Analytics service, which affects all appliances running default 6.5, 6.7 and 7.0 installs.	https://kasperskycontenthub.com/threatpost-global/?p=174901	https://media.threatpost.com/wp-content/uploads/sites/103/2016/11/06232507/vmware-patch.jpg	threatpost	t	2021-09-22 19:00:02.023933+02	2021-09-22 18:17:33+02	Lisa Vaas	threatpost/VMware-Warns-of-Ransomware-Friendly-Bug-in-vCenter-Server
+1565	Hackers leak LinkedIn 700 million data scrape	A collection containing data about more than 700 million users, believed to have been scraped from LinkedIn, was leaked online this week after hackers previously tried to sell it earlier this year in June.	https://therecord.media/hackers-leak-linkedin-700-million-data-scrape/	https://therecord.media/wp-content/uploads/2021/09/LinkedIn.jpg	therecord	t	2021-09-22 20:00:02.32058+02	2021-09-22 19:49:55+02	Catalin Cimpanu	therecord/Hackers-leak-LinkedIn-700-million-data-scrape
+1566	Unpatched Apple Zero-Day Allows Code Execution	All a user needs to do is click on an email attachment, and boom — the code is silently executed without the victim knowing. It affects Big Sur and prior versions of macOS.	https://kasperskycontenthub.com/threatpost-global/?p=174915	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/22125219/Big-Sur-e1632329554949.jpg	threatpost	t	2021-09-22 20:00:02.32058+02	2021-09-22 19:22:53+02	Tara Seals	threatpost/Unpatched-Apple-Zero-Day-in-macOS-Finder-Allows-Code-Execution
+1567	FBI, CISA, and NSA warn of escalating Conti ransomware attacks	CISA, the Federal Bureau of Investigation (FBI), and the National Security Agency (NSA) warned today of an increased number of Conti ransomware attacks targeting US organizations.	https://www.bleepingcomputer.com/news/security/fbi-cisa-and-nsa-warn-of-escalating-conti-ransomware-attacks/	https://www.bleepstatic.com/content/hl-images/2020/11/06/Ransomware-headpic.jpg	bleepingcomputer	t	2021-09-22 20:00:02.32058+02	2021-09-22 19:24:43+02	Sergiu Gatlan	bleepingcomputer/FBI-CISA-and-NSA-warn-of-escalating-Conti-ransomware-attacks
 \.
 
 
@@ -1615,7 +1618,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1564, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1567, true);
 
 
 --
