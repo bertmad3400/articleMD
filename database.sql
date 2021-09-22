@@ -1614,6 +1614,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1568	Netgear SOHO Security Bug Allows RCE, Corporate Attacks	The issue lies in a parental-control function that's always enabled by default, even if users don't configure for child security.	https://kasperskycontenthub.com/threatpost-global/?p=174921	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/22153131/netgear-sign-680x375-1.jpg	threatpost	t	2021-09-22 22:00:01.911161+02	2021-09-22 21:41:59+02	Tara Seals	threatpost/Netgear-SOHO-Security-Bug-Allows-RCE-Corporate-Attacks
 1569	Internet users stressed out by cyberattack news: Kaspersky | ZDNet	2,500 people in the US and Canada were asked about their thoughts on internet usage during COVID-19 and cybersecurity.	https://www.zdnet.com/article/internet-users-stressed-out-by-cyberattack-news-kaspersky/	https://www.zdnet.com/a/img/resize/4858d8656f9e13d1082b5ea35844bc3f7254ea4e/2020/09/16/ec252d1e-2910-4b05-9b30-b23ec25a5583/istock-1152544461.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-22 23:00:02.224422+02	2021-09-22 20:05:19+02	Jonathan Greig	zdnet/Internet-users-stressed-out-by-cyberattack-news-Kaspersky
 1570	Hackers are scanning for VMware CVE-2021-22005 targets, patch now!	Threat actors have already started targeting Internet-exposed VMware vCenter servers unpatched against a critical arbitrary file upload vulnerability patched yesterday that could lead to remote code execution.	https://www.bleepingcomputer.com/news/security/hackers-are-scanning-for-vmware-cve-2021-22005-targets-patch-now/	https://www.bleepstatic.com/content/hl-images/2021/09/22/VMware-headpic.jpg	bleepingcomputer	t	2021-09-23 00:00:02.194414+02	2021-09-22 23:44:24+02	Sergiu Gatlan	bleepingcomputer/Hackers-are-scanning-for-VMware-CVE-2021-22005-targets-patch-now
+1571	Microsoft announces new Windows 11-powered Surface devices	At its Surface event, Microsoft announced four new devices - Surface Duo 2, Surface Go 3, Surface Laptop Studio, and Surface Pro 8.	https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-new-windows-11-powered-surface-devices/	https://www.bleepstatic.com/content/posts/2021/09/0_Surface-Windows-11.jpg	bleepingcomputer	t	2021-09-23 01:00:02.264657+02	2021-09-23 00:03:52+02	Mayank Parmar	bleepingcomputer/Microsoft-announces-new-Windows-11-powered-Surface-devices
+1572	Crystal Valley Farm Coop Hit with Ransomware	It's the second agricultural business to be seized this week and portends a bitter harvest with yet another nasty jab at critical infrastructure.	https://kasperskycontenthub.com/threatpost-global/?p=174928	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/22181112/corn-e1632348685740.jpeg	threatpost	t	2021-09-23 01:00:02.264657+02	2021-09-23 00:17:33+02	Lisa Vaas	threatpost/Crystal-Valley-Farm-Coop-Hit-with-Ransomware
 \.
 
 
@@ -1621,7 +1623,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1570, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1572, true);
 
 
 --
