@@ -1602,6 +1602,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1556	Modern cyber protection: The digital must-have for home users	Digital advances have reinvented how most of us work, organize our lives, and communicate with friends. As individuals, we're more dependent on data than at any time in history, which means protecting the data, applications, and systems we rely on is a serious concern.	https://www.bleepingcomputer.com/news/security/modern-cyber-protection-the-digital-must-have-for-home-users/	https://www.bleepstatic.com/content/hl-images/2021/09/07/acronis-header.jpg	bleepingcomputer	t	2021-09-22 17:00:02.592167+02	2021-09-22 16:00:01+02	\N	bleepingcomputer/Modern-cyber-protection-The-digital-must-have-for-home-users
 1557	TikTok, GitHub, Facebook Join Open-Source Bug Bounty	The initiative, run by HackerOne, aims to uncover dangerous code repository bugs that end up going viral across the application supply-chain.	https://kasperskycontenthub.com/threatpost-global/?p=174898	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/22105133/bug-bounty-e1632322308252.jpg	threatpost	t	2021-09-22 17:00:02.592167+02	2021-09-22 16:52:40+02	Becky Bracken	threatpost/TikTok-GitHub-Facebook-Join-Open-Source-Bug-Bounty
 1558	Feds Sanctions SUEX Cryptocurrency Exchange for Laundering Ransomware Payouts	The action is the first of its kind in the U.S., as the government increases efforts to get a handle on cybercrime.	https://kasperskycontenthub.com/threatpost-global/?p=174895	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/22101002/sanctions.jpg	threatpost	t	2021-09-22 17:00:02.592167+02	2021-09-22 16:10:57+02	Elizabeth Montalbano	threatpost/Feds-Sanctions-SUEX-Cryptocurrency-Exchange-for-Laundering-Ransomware-Payouts
+1559	Best VPN for Windows PC 2021 | ZDNet	Are you looking for a VPN service provider with good Windows performance? In this article, we spotlight four providers who offer excellent support for Windows and laptop users.	https://www.zdnet.com/article/best-vpn-for-windows-pc/	https://www.zdnet.com/a/hub/i/r/2021/09/12/2598b3a0-099f-48e4-a1f7-f6c477ef7618/thumbnail/770x578/9d952242fb9afbb6f3174fe4c6cc7668/xps-gi3iuj1fwxi-unsplash.jpg	zdnet	t	2021-09-22 18:00:02.485187+02	2021-09-22 14:53:15+02	David Gewirtz	zdnet/Best-VPN-for-Windows-PC-2021
 \.
 
 
@@ -1609,7 +1610,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1558, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1559, true);
 
 
 --
