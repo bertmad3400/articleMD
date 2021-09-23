@@ -1632,6 +1632,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1583	Google tests if 'Chrome/100.0' user agent breaks websites	Google is testing whether changing the Chrome user agent to three-digit 'Chrome/100' will cause loss of functionality on websites that are expecting a two digit version number.	https://www.bleepingcomputer.com/news/google/google-tests-if-chrome-1000-user-agent-breaks-websites/	https://www.bleepstatic.com/content/hl-images/2021/09/23/Chrome_flare.jpg	bleepingcomputer	t	2021-09-23 16:00:01.736312+02	2021-09-23 15:30:22+02	Lawrence Abrams	bleepingcomputer/Google-tests-if-Chrome1000-user-agent-breaks-websites
 1584	Get a lifetime of easy, automatic encryption for all of the files on your computer for just $30 | ZDNet	The peace of mind that comes with never again have to worry about the security of your most sensitive data is absolutely priceless, and now it's also perfectly affordable.	https://www.zdnet.com/article/get-a-lifetime-of-easy-automatic-encryption-for-all-of-the-files-on-your-computer-for-just-30/	https://www.zdnet.com/a/hub/i/r/2021/09/20/c7e4ceee-cdc7-4fb1-b123-4255197dd012/thumbnail/770x578/b46e6d61f9285b7360dc5bf9a26bec08/sale-218561-article-image.jpg	zdnet	t	2021-09-23 16:00:01.736312+02	2021-09-23 13:00:02+02	ZDNet Academy	zdnet/Get-a-lifetime-of-easy-automatic-encryption-for-all-of-the-files-on-your-computer-for-just-30
 1588	Domain Brand Monitor by WhoisXML API: The First Layer of Protection against Brand Impersonators	Domain names are often brands' most valuable and impersonated assets. Learn how Brand Monitor by WhoisXML API supports brand protection.	https://kasperskycontenthub.com/threatpost-global/?p=174807	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/20071153/WhoisXMLAPI_Domain-Brand-Monitor-The-First-Layer-of-Protection-against-Brand-Impersonators-01.jpg	threatpost	t	2021-09-23 16:00:01.736312+02	2021-09-23 15:00:16+02	Pat Cooper	threatpost/Domain-Brand-Monitor-The-First-Brand-Protection-Layer-by-WhoisXML-API
+1589	FamousSparrow APT Wings in to Spy on Hotels, Governments	A custom SparrowDoor backdoor has allowed the attackers to collect data from targets around the globe.	https://kasperskycontenthub.com/threatpost-global/?p=174948	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/23095657/sparrow.jpg	threatpost	t	2021-09-23 17:00:01.797041+02	2021-09-23 16:08:12+02	Tara Seals	threatpost/FamousSparrow-APT-Wings-in-to-Spy-on-Hotels-Governments
 \.
 
 
@@ -1639,7 +1640,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1588, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1589, true);
 
 
 --
