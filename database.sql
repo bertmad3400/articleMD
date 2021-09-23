@@ -1624,6 +1624,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1578	A new APT is targeting hotels across the world	A new advanced persistent threat (APT), a term used to describe state-sponsored cyber-espionage groups, has been spotted mounting attacks against hotels across the world.	https://therecord.media/a-new-apt-is-targeting-hotels-across-the-world/	https://therecord.media/wp-content/uploads/2021/09/hotel.jpg	therecord	t	2021-09-23 12:00:02.666582+02	2021-09-23 11:30:11+02	Catalin Cimpanu	therecord/A-new-APT-is-targeting-hotels-across-the-world
 1579	VoIP company battles massive ransom DDoS attack | ZDNet	'Massive' distributed denial of service attack hits internet telephony company.	https://www.zdnet.com/article/voip-company-battles-massive-ransom-ddos-attack/	https://www.zdnet.com/a/hub/i/r/2021/07/09/cccbfe1d-b069-4319-9be8-8ce2b465bf27/thumbnail/770x578/fd905756b56a4e7424384a7e8af41ee4/frustrated-woman-at-a-computer-in-an-office.jpg	zdnet	t	2021-09-23 13:00:02.516438+02	2021-09-23 10:30:48+02	Liam Tung	zdnet/VoIP-company-battles-massive-ransom-DDoS-attack
 1580	Ransomware attackers targeted this company. Then defenders discovered something curious | ZDNet	Cybersecurity researchers detail a mysterious attack that uses sophisticated techniques to deliver a relatively unsophisticated ransomware. The question is, why?	https://www.zdnet.com/article/ransomware-attackers-targeted-this-company-then-defenders-discovered-something-curious/	https://www.zdnet.com/a/img/resize/065d07c4077f40f136b8819a9f03df4a39538d34/2021/08/06/c55fade0-6def-4c6d-b0b7-d501337b05d8/hands-on-a-keyboard-in-the-dark.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-23 13:00:02.516438+02	2021-09-23 10:19:50+02	Danny Palmer	zdnet/Ransomware-attackers-targeted-this-company-Then-defenders-discovered-something-curious
+1581	Large-Scale Phishing-as-a-Service Operation Exposed	Discovery of BulletProofLink—which provides phishing kits, email templates, hosting and other tools—sheds light on how wannabe cybercriminals can get into the business.	https://kasperskycontenthub.com/threatpost-global/?p=174932	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/23070332/phishing-farm.jpg	threatpost	t	2021-09-23 14:00:01.921291+02	2021-09-23 13:10:45+02	Elizabeth Montalbano	threatpost/Large-Scale-Phishing-as-a-Service-Operation-Exposed
 \.
 
 
@@ -1631,7 +1632,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1580, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1581, true);
 
 
 --
