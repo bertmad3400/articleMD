@@ -1640,6 +1640,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1594	100M IoT Devices Exposed By Zero-Day Bug	A high-severity vulnerability could cause system crashes, knocking out sensors, medical equipment and more.	https://kasperskycontenthub.com/threatpost-global/?p=174963	https://media.threatpost.com/wp-content/uploads/sites/103/2020/10/23154322/iot.jpg	threatpost	t	2021-09-23 21:00:02.562431+02	2021-09-23 20:35:31+02	Becky Bracken	threatpost/100M-IoT-Devices-Exposed-By-Zero-Day-Bug
 1595	Senior cyber officials back new, mandatory reporting of breaches	Two of the U.S. government’s top cybersecurity officials on Thursday endorsed the idea of new legislation that would mandate certain private sector companies report when they have been hacked.	https://therecord.media/senior-cyber-officials-back-new-mandatory-reporting-of-breaches/	https://therecord.media/wp-content/uploads/2021/09/charles-deluvio-AT5vuPoi8vc-unsplash-1.jpg	therecord	t	2021-09-23 21:00:02.562431+02	2021-09-23 20:42:47+02	Martin Matishak	therecord/Senior-cyber-officials-back-new-mandatory-reporting-of-breaches
 1596	Russian missile fuel maker targeted with recent Office zero-day	Russian organizations, including a major defense contractor, have been targeted in a suspected cyber-espionage operation that is abusing a recently disclosed Office zero-day.	https://therecord.media/russian-missile-fuel-maker-targeted-with-recent-office-zero-day/	https://www-therecord.recfut.com/wp-content/uploads/2021/09/Russia-military-army-Moscow.png	therecord	t	2021-09-23 21:00:02.562431+02	2021-09-23 20:16:04+02	Catalin Cimpanu	therecord/Russian-missile-fuel-maker-targeted-with-recent-Office-zero-day
+1598	5 Tips for Achieving Better Cybersecurity Risk Management	Casey Ellis, founder, CTO and chairman of Bugcrowd, discusses a roadmap for lowering risk from cyberattacks most effectively.	https://kasperskycontenthub.com/threatpost-global/?p=174968	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/23150516/high-risk-scaled-e1632423935729.jpg	threatpost	t	2021-09-23 22:00:01.767327+02	2021-09-23 21:10:20+02	Casey Ellis	threatpost/5-Tips-for-Achieving-Better-Cybersecurity-Risk-Management
+1597	Hacking group used ProxyLogon exploits to breach hotels worldwide	A newly discovered cyberespionage group has been targeting hotels worldwide around the world since at least 2019, as well as higher-profile targets such as governments, international organizations, law firms, and engineering companies.	https://www.bleepingcomputer.com/news/security/hacking-group-used-proxylogon-exploits-to-breach-hotels-worldwide/	https://www.bleepstatic.com/content/hl-images/2021/09/23/Hotel_headpic.jpg	bleepingcomputer	t	2021-09-23 22:00:01.767327+02	2021-09-23 21:50:32+02	Sergiu Gatlan	bleepingcomputer/Hacking-group-used-ProxyLogon-exploits-to-breach-hotels-worldwide
 \.
 
 
@@ -1647,7 +1649,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1596, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1598, true);
 
 
 --
