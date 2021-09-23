@@ -1642,6 +1642,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1596	Russian missile fuel maker targeted with recent Office zero-day	Russian organizations, including a major defense contractor, have been targeted in a suspected cyber-espionage operation that is abusing a recently disclosed Office zero-day.	https://therecord.media/russian-missile-fuel-maker-targeted-with-recent-office-zero-day/	https://www-therecord.recfut.com/wp-content/uploads/2021/09/Russia-military-army-Moscow.png	therecord	t	2021-09-23 21:00:02.562431+02	2021-09-23 20:16:04+02	Catalin Cimpanu	therecord/Russian-missile-fuel-maker-targeted-with-recent-Office-zero-day
 1598	5 Tips for Achieving Better Cybersecurity Risk Management	Casey Ellis, founder, CTO and chairman of Bugcrowd, discusses a roadmap for lowering risk from cyberattacks most effectively.	https://kasperskycontenthub.com/threatpost-global/?p=174968	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/23150516/high-risk-scaled-e1632423935729.jpg	threatpost	t	2021-09-23 22:00:01.767327+02	2021-09-23 21:10:20+02	Casey Ellis	threatpost/5-Tips-for-Achieving-Better-Cybersecurity-Risk-Management
 1597	Hacking group used ProxyLogon exploits to breach hotels worldwide	A newly discovered cyberespionage group has been targeting hotels worldwide around the world since at least 2019, as well as higher-profile targets such as governments, international organizations, law firms, and engineering companies.	https://www.bleepingcomputer.com/news/security/hacking-group-used-proxylogon-exploits-to-breach-hotels-worldwide/	https://www.bleepstatic.com/content/hl-images/2021/09/23/Hotel_headpic.jpg	bleepingcomputer	t	2021-09-23 22:00:01.767327+02	2021-09-23 21:50:32+02	Sergiu Gatlan	bleepingcomputer/Hacking-group-used-ProxyLogon-exploits-to-breach-hotels-worldwide
+1599	Apple patches iOS and macOS zero-day exploited in the wild	Apple has released security updates today to patch a new zero-day vulnerability that Google's security team said it's been exploited in the wild to compromise user devices.	https://therecord.media/apple-patches-ios-and-macos-zero-day-exploited-in-the-wild/	https://therecord.media/wp-content/uploads/2021/06/Apple-e1632427627227.jpg	therecord	t	2021-09-23 23:00:01.735335+02	2021-09-23 22:06:02+02	Catalin Cimpanu	therecord/Apple-patches-iOS-and-macOS-zero-day-exploited-in-the-wild
 \.
 
 
@@ -1649,7 +1650,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1598, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1599, true);
 
 
 --
