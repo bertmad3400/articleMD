@@ -1616,6 +1616,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1570	Hackers are scanning for VMware CVE-2021-22005 targets, patch now!	Threat actors have already started targeting Internet-exposed VMware vCenter servers unpatched against a critical arbitrary file upload vulnerability patched yesterday that could lead to remote code execution.	https://www.bleepingcomputer.com/news/security/hackers-are-scanning-for-vmware-cve-2021-22005-targets-patch-now/	https://www.bleepstatic.com/content/hl-images/2021/09/22/VMware-headpic.jpg	bleepingcomputer	t	2021-09-23 00:00:02.194414+02	2021-09-22 23:44:24+02	Sergiu Gatlan	bleepingcomputer/Hackers-are-scanning-for-VMware-CVE-2021-22005-targets-patch-now
 1571	Microsoft announces new Windows 11-powered Surface devices	At its Surface event, Microsoft announced four new devices - Surface Duo 2, Surface Go 3, Surface Laptop Studio, and Surface Pro 8.	https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-new-windows-11-powered-surface-devices/	https://www.bleepstatic.com/content/posts/2021/09/0_Surface-Windows-11.jpg	bleepingcomputer	t	2021-09-23 01:00:02.264657+02	2021-09-23 00:03:52+02	Mayank Parmar	bleepingcomputer/Microsoft-announces-new-Windows-11-powered-Surface-devices
 1572	Crystal Valley Farm Coop Hit with Ransomware	It's the second agricultural business to be seized this week and portends a bitter harvest with yet another nasty jab at critical infrastructure.	https://kasperskycontenthub.com/threatpost-global/?p=174928	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/22181112/corn-e1632348685740.jpeg	threatpost	t	2021-09-23 01:00:02.264657+02	2021-09-23 00:17:33+02	Lisa Vaas	threatpost/Crystal-Valley-Farm-Coop-Hit-with-Ransomware
+1574	Druva's 'curated recovery' aimed at faster ransomware incident resolution | ZDNet	New addition to security platform recovers individual files in their most recent 'clean' state.	https://www.zdnet.com/article/druvas-curated-recovery-aimed-at-faster-ransomware-incident-resolution/	https://www.zdnet.com/a/hub/i/r/2021/06/16/bef80246-3c57-4f76-af8e-ecb6d1c733f8/thumbnail/770x578/4918d7cfadea9c6d216d933dd9a71312/shutterstock-646057006.jpg	zdnet	t	2021-09-23 02:00:02.109066+02	2021-09-22 23:13:00+02	Chris Preimesberger	zdnet/Druvas-curated-recovery-aimed-at-faster-ransomware-incident-resolution
+1573	CISA releases advisory on Conti ransomware, notes increase in attacks after more than 400 incidents | ZDNet	CISA did a deep dive on the Conti ransomware, providing information for those protecting organizations.	https://www.zdnet.com/article/cisa-releases-advisory-on-conti-ransomware-notes-increase-in-attacks-after-more-than-400-incidents/	https://www.zdnet.com/a/hub/i/r/2020/05/01/34e61f2d-dbf4-4a50-9ffe-02d752deb9f7/thumbnail/770x578/d9cf1f0a05311768ac8fcf84de8b2511/ransomware-new-variant-is-after-more-tha-5ea9673427c3040ebef56aa8-1-may-01-2020-10-10-12-poster.jpg	zdnet	t	2021-09-23 02:00:02.109066+02	2021-09-22 23:40:32+02	Jonathan Greig	zdnet/CISA-releases-advisory-on-Conti-ransomware-notes-increase-in-attacks-after-more-than-400-incidents
 \.
 
 
@@ -1623,7 +1625,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1572, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1574, true);
 
 
 --
