@@ -1635,6 +1635,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1589	FamousSparrow APT Wings in to Spy on Hotels, Governments	A custom SparrowDoor backdoor has allowed the attackers to collect data from targets around the globe.	https://kasperskycontenthub.com/threatpost-global/?p=174948	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/23095657/sparrow.jpg	threatpost	t	2021-09-23 17:00:01.797041+02	2021-09-23 16:08:12+02	Tara Seals	threatpost/FamousSparrow-APT-Wings-in-to-Spy-on-Hotels-Governments
 1590	Ransomware attacks on grain coops may just be the start of ag sector security woes	Recent ransomware attacks against U.S. grain cooperatives and a farm data platform are raising the spectre of food supply chain disruptions while highlighting the economic and physical security risks of reliance on increasingly sophisticated systems to feed the world.	https://therecord.media/ransomware-attacks-on-grain-coops-may-just-be-the-start-of-ag-sector-security-woes/	https://therecord.media/wp-content/uploads/2021/09/chris-ensminger-yJDZTDeHeG8-unsplash-1.jpg	therecord	t	2021-09-23 18:00:02.677959+02	2021-09-23 17:57:03+02	Andrea Peterson	therecord/Ransomware-attacks-on-grain-coops-may-just-be-the-start-of-ag-sector-security-woes
 1591	Google finds adware strain abusing novel file signature evasion technique	One of Google's security teams said it found a malware strain abusing a new technique to evade detection from security products by cleverly modifying the digital signature of its payloads.	https://therecord.media/google-finds-adware-strain-abusing-novel-file-signature-evasion-technique/	https://therecord.media/wp-content/uploads/2021/09/code-certificate.png	therecord	t	2021-09-23 18:00:02.677959+02	2021-09-23 17:45:55+02	Catalin Cimpanu	therecord/Google-finds-adware-strain-abusing-novel-file-signature-evasion-technique
+1592	Malware devs trick Windows validation with malformed certs	Google researchers spotted malware developers creating malformed code signatures seen as valid in Windows to bypass security software.	https://www.bleepingcomputer.com/news/security/malware-devs-trick-windows-validation-with-malformed-certs/	https://www.bleepstatic.com/content/hl-images/2021/08/25/hack.jpg	bleepingcomputer	t	2021-09-23 19:00:02.620371+02	2021-09-23 18:24:41+02	Sergiu Gatlan	bleepingcomputer/Malware-devs-trick-Windows-validation-with-malformed-certs
 \.
 
 
@@ -1642,7 +1643,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1591, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1592, true);
 
 
 --
