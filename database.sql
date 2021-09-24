@@ -1654,6 +1654,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1608	Taiwan's bid to enter CPTPP meets firm opposition from China | ZDNet	Taiwan's Ministry of Foreign Affairs has labelled China's own bid to join the CPTPP as an attempt to block Taiwan out.	https://www.zdnet.com/article/taiwans-bid-to-enter-cptpp-meets-firm-opposition-from-china/	https://www.zdnet.com/a/img/resize/cc90a10f6753be87fea9773e1619c423c9790cb3/2019/05/31/24006107-7173-454b-ac69-c8b604180a2b/istock-1060045174.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-24 03:00:01.930379+02	2021-09-24 00:13:19+02	Campbell Kwan	zdnet/Taiwans-bid-to-enter-CPTPP-meets-firm-opposition-from-China
 1609	Home alone after school: A safety guide for kids | ZDNet	Our guide was created to help families prepare for a child being home alone. Use this safety guide to help your kids prepare to stay safe when they're on their own.	https://www.zdnet.com/article/home-alone-after-school-a-safety-guide-for-kids/	https://www.zdnet.com/a/hub/i/r/2021/09/08/286b4ead-73d8-40c3-bb64-32b0e2c3c68e/thumbnail/770x578/890bb18d101d7fc9a30fcd34aa85fe3e/kids-home-alone.jpg	zdnet	t	2021-09-24 07:00:02.592145+02	2021-09-23 14:08:00+02	Terri Williams	zdnet/Home-alone-after-school-A-safety-guide-for-kids
 1610	SonicWall fixes critical bug allowing SMA 100 device takeover	SonicWall has patched a critical security flaw impacting several Secure Mobile Access (SMA) 100 series products that can let unauthenticated attackers remotely gain admin access on targeted devices.	https://www.bleepingcomputer.com/news/security/sonicwall-fixes-critical-bug-allowing-sma-100-device-takeover/	https://www.bleepstatic.com/content/hl-images/2021/05/28/SonicWall.jpg	bleepingcomputer	t	2021-09-24 09:00:01.712229+02	2021-09-24 08:19:57+02	Sergiu Gatlan	bleepingcomputer/SonicWall-fixes-critical-bug-allowing-SMA-100-device-takeover
+1611	FBI arrests 75-year-old for allegedly placing pipe bombs outside phone, carrier stores | ZDNet	The suspect was reportedly upset over handsets being used to spread immoral content.	https://www.zdnet.com/article/fbi-arrests-75-year-old-for-allegedly-placing-pipe-bombs-outside-phone-carrier-stores/	https://www.zdnet.com/a/hub/i/r/2021/08/06/91b75e64-70c5-44fc-b882-192c142c3f22/thumbnail/770x578/86cd0144024c0f426bed98fbf1168ec8/shutterstock-1419226862.jpg	zdnet	t	2021-09-24 12:00:02.623054+02	2021-09-24 09:45:00+02	Charlie Osborne	zdnet/FBI-arrests-75-year-old-for-allegedly-placing-pipe-bombs-outside-phone-carrier-stores
 \.
 
 
@@ -1661,7 +1662,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1610, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1611, true);
 
 
 --
