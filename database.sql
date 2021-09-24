@@ -1667,6 +1667,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1621	TangleBot Malware Reaches Deep into Android Device Functions	The mobile baddie grants itself access to almost everything, enabling spying, data-harvesting, stalking and fraud attacks — among others.	https://kasperskycontenthub.com/threatpost-global/?p=174999	https://media.threatpost.com/wp-content/uploads/sites/103/2020/09/09154655/Android-security-bulletin-September.jpg	threatpost	t	2021-09-24 18:00:01.860278+02	2021-09-24 17:48:53+02	Tara Seals	threatpost/TangleBot-Malware-Reaches-Deep-into-Android-Device-Functions
 1622	EU officially blames Russia for 'Ghostwriter' hacking activities	The European Union has officially linked Russia to a hacking operation known as Ghostwriter that targets high-profile EU officials, journalists, and the general public.	https://www.bleepingcomputer.com/news/security/eu-officially-blames-russia-for-ghostwriter-hacking-activities/	https://www.bleepstatic.com/content/hl-images/2021/09/24/European_Union_EU_headpic.jpg	bleepingcomputer	t	2021-09-24 19:00:02.260132+02	2021-09-24 18:11:30+02	Sergiu Gatlan	bleepingcomputer/EU-officially-blames-Russia-for-Ghostwriter-hacking-activities
 1623	Major European call center provider goes down in ransomware attack	GSS, the Spanish and Latin America division of Covisian, one of Europe's largest customer care and call center providers, has suffered a debilitating ransomware attack that froze a large part of its IT systems and crippled call centers across its Spanish-speaking customerbase.	https://therecord.media/major-european-call-center-provider-goes-down-in-ransomware-attack/	https://therecord.media/wp-content/uploads/2021/09/call-center.png	therecord	t	2021-09-24 19:00:02.260132+02	2021-09-24 18:25:49+02	Catalin Cimpanu	therecord/Major-European-call-center-provider-goes-down-in-ransomware-attack
+1624	Emergency Google Chrome update fixes zero-day exploited in the wild	Google has released Chrome 94.0.4606.61 for Windows, Mac, and Linux, an emergency update addressing a high-severity zero-day vulnerability exploited in the wild.	https://www.bleepingcomputer.com/news/security/emergency-google-chrome-update-fixes-zero-day-exploited-in-the-wild/	https://www.bleepstatic.com/content/hl-images/2021/05/26/Google___Chrome.jpg	bleepingcomputer	t	2021-09-24 20:00:02.36517+02	2021-09-24 19:33:19+02	Sergiu Gatlan	bleepingcomputer/Emergency-Google-Chrome-update-fixes-zero-day-exploited-in-the-wild
+1625	Microsoft rushes to register Autodiscover domains leaking credentials	Microsoft is rushing to register Internet domains used to steal Windows credentials sent from faulty implementations of the Microsoft Exchange Autodiscover protocol.	https://www.bleepingcomputer.com/news/microsoft/microsoft-rushes-to-register-autodiscover-domains-leaking-credentials/	https://www.bleepstatic.com/content/hl-images/2021/09/12/Microsoft-Defender.jpg	bleepingcomputer	t	2021-09-24 20:00:02.36517+02	2021-09-24 19:03:52+02	Lawrence Abrams	bleepingcomputer/Microsoft-rushes-to-register-Autodiscover-domains-leaking-credentials
 \.
 
 
@@ -1674,7 +1676,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1623, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1625, true);
 
 
 --
