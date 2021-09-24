@@ -1651,6 +1651,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1605	Microsoft gets Windows 11 ready for release with new build	Microsoft has moved Windows 11 to the Windows Insider 'Release' channel in anticipation of its upcoming launch on October 5th.	https://www.bleepingcomputer.com/news/microsoft/microsoft-gets-windows-11-ready-for-release-with-new-build/	https://www.bleepstatic.com/content/hl-images/2021/09/01/Windows_11.jpg	bleepingcomputer	t	2021-09-24 01:00:02.420097+02	2021-09-23 23:34:05+02	Lawrence Abrams	bleepingcomputer/Microsoft-gets-Windows-11-ready-for-release-with-new-build
 1606	State-sponsored hacking group targets Port of Houston using Zoho zero-day	A suspected state-sponsored hacking group has attempted to breach the network of the Port of Houston, one of the largest port authorities in the US, using a zero-day vulnerability in a Zoho user authentication appliance, CISA officials said in a Senate hearing today.	https://therecord.media/state-sponsored-hacking-group-targets-port-of-houston-using-zoho-zero-day/	https://therecord.media/wp-content/uploads/2021/09/port.jpg	therecord	t	2021-09-24 02:00:02.104837+02	2021-09-24 01:37:57+02	Catalin Cimpanu	therecord/State-sponsored-hacking-group-targets-Port-of-Houston-using-Zoho-zero-day
 1607	REvil Affiliates Confirm Getting Screwed Out of Payments	Following the discovery of REvil's rip-off-the-affiliates backdoor and double chats, those affiliates fumed on the underground, pointing to negotiations that ended abruptly just before payment came.	https://kasperskycontenthub.com/threatpost-global/?p=174972	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/23184910/cheating-e1632437402940.jpeg	threatpost	t	2021-09-24 02:00:02.104837+02	2021-09-24 01:00:27+02	Lisa Vaas	threatpost/REvil-Affiliates-Confirm-Leadership-Were-Cheating-Dirtbags
+1608	Taiwan's bid to enter CPTPP meets firm opposition from China | ZDNet	Taiwan's Ministry of Foreign Affairs has labelled China's own bid to join the CPTPP as an attempt to block Taiwan out.	https://www.zdnet.com/article/taiwans-bid-to-enter-cptpp-meets-firm-opposition-from-china/	https://www.zdnet.com/a/img/resize/cc90a10f6753be87fea9773e1619c423c9790cb3/2019/05/31/24006107-7173-454b-ac69-c8b604180a2b/istock-1060045174.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-24 03:00:01.930379+02	2021-09-24 00:13:19+02	Campbell Kwan	zdnet/Taiwans-bid-to-enter-CPTPP-meets-firm-opposition-from-China
 \.
 
 
@@ -1658,7 +1659,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1607, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1608, true);
 
 
 --
