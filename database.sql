@@ -1660,6 +1660,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1614	Apple Patches 3 More Zero-Days Under Active Attack	One of the bugs, which affects macOS as well as older versions of iPhones, could allow an attacker to execute arbitrary code with kernel privileges.	https://kasperskycontenthub.com/threatpost-global/?p=174988	https://media.threatpost.com/wp-content/uploads/sites/103/2020/11/06090222/apple-ios-vulnerability-bug.jpg	threatpost	t	2021-09-24 14:00:02.618768+02	2021-09-24 13:29:27+02	Elizabeth Montalbano	threatpost/Apple-Patches-3-More-Zero-Days-Under-Active-Attack
 1615	Exploit code released for three iOS 0-days that Apple failed to patch	Proof-of-concept exploit code for three iOS zero-day vulnerabilities (and a fourth one patched in July) was published on GitHub after Apple delayed patching and failed to credit the researcher.	https://www.bleepingcomputer.com/news/security/exploit-code-released-for-three-ios-0-days-that-apple-failed-to-patch/	https://www.bleepstatic.com/content/hl-images/2021/02/10/Apple-red..jpg	bleepingcomputer	t	2021-09-24 14:00:02.618768+02	2021-09-24 13:13:20+02	Sergiu Gatlan	bleepingcomputer/Exploit-code-released-for-three-iOS-0-days-that-Apple-failed-to-patch
 1616	Cisco fixes highly critical vulnerabilities in IOS XE Software	Cisco has patched three critical vulnerabilities affecting components in its IOS XE internetworking operating system powering routers and wireless controllers, or products running with a specific configuration.	https://www.bleepingcomputer.com/news/security/cisco-fixes-highly-critical-vulnerabilities-in-ios-xe-software/	https://www.bleepstatic.com/content/hl-images/2021/02/03/Cisco.jpg	bleepingcomputer	t	2021-09-24 14:00:02.618768+02	2021-09-24 09:23:23+02	Ionut Ilascu	bleepingcomputer/Cisco-fixes-highly-critical-vulnerabilities-in-IOS-XE-Software
+1617	EU formally blames Russia for GhostWriter influence operation	European Union officials have formally accused the Russian government and its state hackers of meddling inside the elections and political systems of several EU states.	https://therecord.media/eu-formally-blames-russia-for-ghostwriter-hack-and-influence-operation/	https://therecord.media/wp-content/uploads/2021/05/EU-flag-e1628172877702.jpg	therecord	t	2021-09-24 16:00:02.444631+02	2021-09-24 15:21:59+02	Catalin Cimpanu	therecord/EU-formally-blames-Russia-for-GhostWriter-influence-operation
+1618	Researcher drops three iOS zero-days that Apple refused to fix	Proof-of-concept exploit code for three iOS zero-day vulnerabilities (and a fourth one patched in July) was published on GitHub after Apple delayed patching and failed to credit the researcher.	https://www.bleepingcomputer.com/news/security/researcher-drops-three-ios-zero-days-that-apple-refused-to-fix/	https://www.bleepstatic.com/content/hl-images/2021/02/10/Apple-red..jpg	bleepingcomputer	t	2021-09-24 16:00:02.444631+02	2021-09-24 13:13:20+02	Sergiu Gatlan	bleepingcomputer/Researcher-drops-three-iOS-zero-days-that-Apple-refused-to-fix
 \.
 
 
@@ -1667,7 +1669,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1616, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1618, true);
 
 
 --
