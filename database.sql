@@ -1672,6 +1672,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1626	Exchange/Outlook Autodiscover Bug Spills $100K+ Email Passwords	Hundreds of thousands of email credentials, many of which double as Active Directory domain credentials, came through to credential-trapping domains in clear text.	https://kasperskycontenthub.com/threatpost-global/?p=175004	https://kasperskycontenthub.com/threatpost-global/files/2021/07/infosec_insiders_in_article_promo.png	threatpost	t	2021-09-24 21:00:02.255274+02	2021-09-24 20:46:59+02	Lisa Vaas	threatpost/ExchangeOutlook-Autodiscover-Bug-Spills-100K-Email-Passwords
 1627	Google apologizes for scaring Cloud users with 'past due' emails	Google has apologized for a wave of emails warning Google Cloud Platform, Firebase, or API customers that their accounts may be suspended for a past due balance.	https://www.bleepingcomputer.com/news/google/google-apologizes-for-scaring-cloud-users-with-past-due-emails/	https://www.bleepstatic.com/content/hl-images/2020/10/16/Google.jpg	bleepingcomputer	t	2021-09-24 21:00:02.255274+02	2021-09-24 20:57:40+02	Lawrence Abrams	bleepingcomputer/Google-apologizes-for-scaring-Cloud-users-with-past-due-emails
 1628	Exploits imminent for critical VMware vCenter CVE-2021-22005 bug	Exploit code that could be used to achieve remote code execution on VMware vCenter Server vulnerable to CVE-2021-22005 is currently spreading online.	https://www.bleepingcomputer.com/news/security/exploits-imminent-for-critical-vmware-vcenter-cve-2021-22005-bug/	https://www.bleepstatic.com/content/hl-images/2021/04/01/VMware.jpg	bleepingcomputer	t	2021-09-24 21:00:02.255274+02	2021-09-24 20:04:04+02	Ionut Ilascu	bleepingcomputer/Exploits-imminent-for-critical-VMware-vCenter-CVE-2021-22005-bug
+1629	United Health Centers ransomware attack claimed by Vice Society	​California-based United Health Centers suffered a ransomware attack that reportedly disrupted all of their locations and resulted in patient data theft.	https://www.bleepingcomputer.com/news/security/united-health-centers-ransomware-attack-claimed-by-vice-society/	https://www.bleepstatic.com/content/hl-images/2020/10/29/Hospital.jpg	bleepingcomputer	t	2021-09-25 00:00:01.732474+02	2021-09-24 23:10:17+02	Lawrence Abrams	bleepingcomputer/United-Health-Centers-ransomware-attack-claimed-by-Vice-Society
+1630	Hackers exploiting critical VMware vCenter CVE-2021-22005 bug	Exploit code that could be used for remote code execution on VMware vCenter Server vulnerable to CVE-2021-22005 has been released today and attackers are already using it.	https://www.bleepingcomputer.com/news/security/hackers-exploiting-critical-vmware-vcenter-cve-2021-22005-bug/	https://www.bleepstatic.com/content/hl-images/2021/04/01/VMware.jpg	bleepingcomputer	t	2021-09-25 00:00:01.732474+02	2021-09-24 20:04:04+02	Ionut Ilascu	bleepingcomputer/Hackers-exploiting-critical-VMware-vCenter-CVE-2021-22005-bug
 \.
 
 
@@ -1679,7 +1681,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1628, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1630, true);
 
 
 --
