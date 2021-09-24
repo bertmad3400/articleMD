@@ -1665,6 +1665,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1619	We're still making terrible choices with passwords, even though we know better | ZDNet	People know passwords are a weak spot, but convenience rules.	https://www.zdnet.com/article/were-still-making-terrible-choices-with-passwords-even-though-we-know-better/	https://www.zdnet.com/a/img/resize/6a858f7a31811a1a6d69bc7a21445aebd16f9231/2021/09/24/30e51b33-8835-47bf-b886-884c1581c0c8/shutterstock-1794130912.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-24 17:00:02.299595+02	2021-09-24 14:12:00+02	Liam Tung	zdnet/Were-still-making-terrible-choices-with-passwords-even-though-we-know-better
 1620	Critical Cisco Bugs Allow Code Execution on Wireless, SD-WAN	Unauthenticated cyberattackers can also wreak havoc on networking device configurations.	https://kasperskycontenthub.com/threatpost-global/?p=174991	https://media.threatpost.com/wp-content/uploads/sites/103/2020/11/11092729/cisco.jpg	threatpost	t	2021-09-24 17:00:02.299595+02	2021-09-24 16:01:06+02	Tara Seals	threatpost/Critical-Cisco-Bugs-Allow-Code-Execution-on-Wireless-SD-WAN
 1621	TangleBot Malware Reaches Deep into Android Device Functions	The mobile baddie grants itself access to almost everything, enabling spying, data-harvesting, stalking and fraud attacks — among others.	https://kasperskycontenthub.com/threatpost-global/?p=174999	https://media.threatpost.com/wp-content/uploads/sites/103/2020/09/09154655/Android-security-bulletin-September.jpg	threatpost	t	2021-09-24 18:00:01.860278+02	2021-09-24 17:48:53+02	Tara Seals	threatpost/TangleBot-Malware-Reaches-Deep-into-Android-Device-Functions
+1622	EU officially blames Russia for 'Ghostwriter' hacking activities	The European Union has officially linked Russia to a hacking operation known as Ghostwriter that targets high-profile EU officials, journalists, and the general public.	https://www.bleepingcomputer.com/news/security/eu-officially-blames-russia-for-ghostwriter-hacking-activities/	https://www.bleepstatic.com/content/hl-images/2021/09/24/European_Union_EU_headpic.jpg	bleepingcomputer	t	2021-09-24 19:00:02.260132+02	2021-09-24 18:11:30+02	Sergiu Gatlan	bleepingcomputer/EU-officially-blames-Russia-for-Ghostwriter-hacking-activities
+1623	Major European call center provider goes down in ransomware attack	GSS, the Spanish and Latin America division of Covisian, one of Europe's largest customer care and call center providers, has suffered a debilitating ransomware attack that froze a large part of its IT systems and crippled call centers across its Spanish-speaking customerbase.	https://therecord.media/major-european-call-center-provider-goes-down-in-ransomware-attack/	https://therecord.media/wp-content/uploads/2021/09/call-center.png	therecord	t	2021-09-24 19:00:02.260132+02	2021-09-24 18:25:49+02	Catalin Cimpanu	therecord/Major-European-call-center-provider-goes-down-in-ransomware-attack
 \.
 
 
@@ -1672,7 +1674,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1621, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1623, true);
 
 
 --
