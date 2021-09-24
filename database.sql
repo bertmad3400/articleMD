@@ -1649,6 +1649,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1603	Education sector has improving window of exposure despite lower remediation rates and higher than average time to fix: report | ZDNet	An NTT report examined how applications in the education sector are being protected.	https://www.zdnet.com/article/education-sector-has-improving-window-of-exposure-despite-lower-remediation-rates-and-higher-than-average-time-to-fix-report/	https://www.zdnet.com/a/img/resize/fc536fc691774fd579af174069459699a0109325/2021/09/01/ef898b12-5580-4808-bd61-46e405610d2f/daycare-school-room.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-24 01:00:02.420097+02	2021-09-23 22:19:05+02	Jonathan Greig	zdnet/Education-sector-has-improving-window-of-exposure-despite-lower-remediation-rates-and-higher-than-average-time-to-fix-report
 1604	Google: Manifest V2 Chrome extensions to stop working in 2023	Google has shared the phase-out timeline for Manifest V2 Chrome extensions and its plans to bring Manifest V3 to full feature parity.	https://www.bleepingcomputer.com/news/google/google-manifest-v2-chrome-extensions-to-stop-working-in-2023/	https://www.bleepstatic.com/content/hl-images/2021/05/26/0_Google-Chrome.jpg	bleepingcomputer	t	2021-09-24 01:00:02.420097+02	2021-09-24 00:08:25+02	Sergiu Gatlan	bleepingcomputer/Google-Manifest-V2-Chrome-extensions-to-stop-working-in-2023
 1605	Microsoft gets Windows 11 ready for release with new build	Microsoft has moved Windows 11 to the Windows Insider 'Release' channel in anticipation of its upcoming launch on October 5th.	https://www.bleepingcomputer.com/news/microsoft/microsoft-gets-windows-11-ready-for-release-with-new-build/	https://www.bleepstatic.com/content/hl-images/2021/09/01/Windows_11.jpg	bleepingcomputer	t	2021-09-24 01:00:02.420097+02	2021-09-23 23:34:05+02	Lawrence Abrams	bleepingcomputer/Microsoft-gets-Windows-11-ready-for-release-with-new-build
+1606	State-sponsored hacking group targets Port of Houston using Zoho zero-day	A suspected state-sponsored hacking group has attempted to breach the network of the Port of Houston, one of the largest port authorities in the US, using a zero-day vulnerability in a Zoho user authentication appliance, CISA officials said in a Senate hearing today.	https://therecord.media/state-sponsored-hacking-group-targets-port-of-houston-using-zoho-zero-day/	https://therecord.media/wp-content/uploads/2021/09/port.jpg	therecord	t	2021-09-24 02:00:02.104837+02	2021-09-24 01:37:57+02	Catalin Cimpanu	therecord/State-sponsored-hacking-group-targets-Port-of-Houston-using-Zoho-zero-day
+1607	REvil Affiliates Confirm Getting Screwed Out of Payments	Following the discovery of REvil's rip-off-the-affiliates backdoor and double chats, those affiliates fumed on the underground, pointing to negotiations that ended abruptly just before payment came.	https://kasperskycontenthub.com/threatpost-global/?p=174972	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/23184910/cheating-e1632437402940.jpeg	threatpost	t	2021-09-24 02:00:02.104837+02	2021-09-24 01:00:27+02	Lisa Vaas	threatpost/REvil-Affiliates-Confirm-Leadership-Were-Cheating-Dirtbags
 \.
 
 
@@ -1656,7 +1658,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1605, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1607, true);
 
 
 --
