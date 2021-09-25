@@ -1677,6 +1677,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1631	FBI decision to withhold Kaseya ransomware decryption keys stirs debate | ZDNet	Many security experts defended the FBI's decision to leave Kaseya victims struggling with ransomware infections for weeks.	https://www.zdnet.com/article/fbi-decision-to-withhold-kaseya-ransomware-decryption-keys-stirs-debate/	https://www.zdnet.com/a/hub/i/r/2016/12/01/22616f78-75b7-4c05-b030-a601107b9c3e/thumbnail/770x578/fbcbb93af70fdc91a017fe608fabe0c1/evidence-fbi-admission-halt-execution-si.jpg	zdnet	t	2021-09-25 01:00:02.596976+02	2021-09-24 22:20:59+02	Jonathan Greig	zdnet/FBI-decision-to-withhold-Kaseya-ransomware-decryption-keys-stirs-debate
 1632	The Week in Ransomware - September 24th 2021 - Targeting crypto	This week's biggest news is the USA sanctioning a crypto exchange used by ransomware gangs to convert cryptocurrency into fiat currency. By targeting rogue exchanges, the US government is hoping to disrupt ransomware's payment system.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-september-24th-2021-targeting-crypto/	https://www.bleepstatic.com/content/hl-images/2020/11/06/Ransomware-headpic.jpg	bleepingcomputer	t	2021-09-25 02:00:02.050001+02	2021-09-25 01:27:03+02	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---September-24th-2021---Targeting-crypto
 1633	New iPhone 13? Don't forget to update! | ZDNet	Yes, there's an update for your new iPhone 13.	https://www.zdnet.com/article/new-iphone-13-dont-forget-to-update/	https://www.zdnet.com/a/hub/i/r/2021/09/25/80bae31f-673b-4bfd-b8c3-5c725fec4519/thumbnail/770x578/4b0fcc68e468e44877bdfd7b9797ca33/img-1572.jpg	zdnet	t	2021-09-25 13:00:01.710992+02	2021-09-25 10:15:38+02	Adrian Kingsley-Hughes	zdnet/New-iPhone-13-Dont-forget-to-update
+1634	EFF to deprecate HTTPS Everywhere extension as HTTPS is becoming ubiquitous	The Electronic Frontier Foundation said it is preparing to retire the famous HTTPS Everywhere browser extension after HTTPS adoption has picked up and after several web browsers have introduced HTTPS-only modes.	https://therecord.media/eff-to-deprecate-https-everywhere-extension-as-https-is-becoming-ubiquitous/	https://therecord.media/wp-content/uploads/2021/09/https-everywhere-logo.png	therecord	t	2021-09-25 18:00:02.562992+02	2021-09-25 17:54:26+02	Catalin Cimpanu	therecord/EFF-to-deprecate-HTTPS-Everywhere-extension-as-HTTPS-is-becoming-ubiquitous
 \.
 
 
@@ -1684,7 +1685,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1633, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1634, true);
 
 
 --
