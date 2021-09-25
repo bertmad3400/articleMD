@@ -1676,6 +1676,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1630	Hackers exploiting critical VMware vCenter CVE-2021-22005 bug	Exploit code that could be used for remote code execution on VMware vCenter Server vulnerable to CVE-2021-22005 has been released today and attackers are already using it.	https://www.bleepingcomputer.com/news/security/hackers-exploiting-critical-vmware-vcenter-cve-2021-22005-bug/	https://www.bleepstatic.com/content/hl-images/2021/04/01/VMware.jpg	bleepingcomputer	t	2021-09-25 00:00:01.732474+02	2021-09-24 20:04:04+02	Ionut Ilascu	bleepingcomputer/Hackers-exploiting-critical-VMware-vCenter-CVE-2021-22005-bug
 1631	FBI decision to withhold Kaseya ransomware decryption keys stirs debate | ZDNet	Many security experts defended the FBI's decision to leave Kaseya victims struggling with ransomware infections for weeks.	https://www.zdnet.com/article/fbi-decision-to-withhold-kaseya-ransomware-decryption-keys-stirs-debate/	https://www.zdnet.com/a/hub/i/r/2016/12/01/22616f78-75b7-4c05-b030-a601107b9c3e/thumbnail/770x578/fbcbb93af70fdc91a017fe608fabe0c1/evidence-fbi-admission-halt-execution-si.jpg	zdnet	t	2021-09-25 01:00:02.596976+02	2021-09-24 22:20:59+02	Jonathan Greig	zdnet/FBI-decision-to-withhold-Kaseya-ransomware-decryption-keys-stirs-debate
 1632	The Week in Ransomware - September 24th 2021 - Targeting crypto	This week's biggest news is the USA sanctioning a crypto exchange used by ransomware gangs to convert cryptocurrency into fiat currency. By targeting rogue exchanges, the US government is hoping to disrupt ransomware's payment system.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-september-24th-2021-targeting-crypto/	https://www.bleepstatic.com/content/hl-images/2020/11/06/Ransomware-headpic.jpg	bleepingcomputer	t	2021-09-25 02:00:02.050001+02	2021-09-25 01:27:03+02	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---September-24th-2021---Targeting-crypto
+1633	New iPhone 13? Don't forget to update! | ZDNet	Yes, there's an update for your new iPhone 13.	https://www.zdnet.com/article/new-iphone-13-dont-forget-to-update/	https://www.zdnet.com/a/hub/i/r/2021/09/25/80bae31f-673b-4bfd-b8c3-5c725fec4519/thumbnail/770x578/4b0fcc68e468e44877bdfd7b9797ca33/img-1572.jpg	zdnet	t	2021-09-25 13:00:01.710992+02	2021-09-25 10:15:38+02	Adrian Kingsley-Hughes	zdnet/New-iPhone-13-Dont-forget-to-update
 \.
 
 
@@ -1683,7 +1684,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1632, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1633, true);
 
 
 --
