@@ -1687,6 +1687,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1641	Huawei CFO and detained Canadians return home following wrap up of extradition charges | ZDNet	Huawei CFO Meng Wanzhou was allowed to return to China after agreeing to admit she misled global financial institutions about her company's operations in Iran.	https://www.zdnet.com/article/huawei-cfo-and-detained-canadians-return-home-following-wrap-up-of-extradition-charges/	https://www.zdnet.com/a/hub/i/r/2021/09/27/566b6167-4908-4315-b21d-5249339d6003/thumbnail/770x578/742fc4f58c71b46476369b5c8f68106c/gettyimages-1235494403.jpg	zdnet	t	2021-09-27 03:00:02.342456+02	2021-09-27 00:53:04+02	Campbell Kwan	zdnet/Huawei-CFO-and-detained-Canadians-return-home-following-wrap-up-of-extradition-charges
 1642	Miffed security researcher finds way to get Apple talking, drops three iOS vulnerabilities | ZDNet	Almost six months after reporting the first vulnerability to Apple, a security researcher has gone public to reopen lines of communication with Apple.	https://www.zdnet.com/article/miffed-security-researcher-finds-way-to-get-apple-talking-drop-three-ios-vulnerabilities/	https://www.zdnet.com/a/hub/i/r/2021/09/14/c64deb89-21f6-486d-a8b6-0059c8cac43a/thumbnail/770x578/f285d9b37d49ef7325a96844932572a0/appleevent-sep14keynote-tim-cook-03.jpg	zdnet	t	2021-09-27 05:00:02.140123+02	2021-09-27 02:07:00+02	Chris Duckett	zdnet/Miffed-security-researcher-finds-way-to-get-Apple-talking-drops-three-iOS-vulnerabilities
 1643	Operation Ironside has confiscated AU$31 million of assets so far | ZDNet	Of AU$31 million of assets seized by the AFP-led Criminal Assets Confiscation Taskforce so far, AU$6 million came from one Western Australian man.	https://www.zdnet.com/article/operation-ironside-has-confiscated-au31-million-of-assets-so-far/	https://www.zdnet.com/a/img/resize/eca388ff761a14180ab72eeb79278add839e5de4/2021/09/27/15d7cac9-8b52-4a0e-8cf2-718536456285/op-maidos-cash-seized-26november2020.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-27 05:00:02.140123+02	2021-09-27 02:02:05+02	Campbell Kwan	zdnet/Operation-Ironside-has-confiscated-AU31-million-of-assets-so-far
+1644	Eftpos granted government accreditation as first private ID exchange operator | ZDNet	Eftpos connectID can now facilitate online transactions requiring a digital identity from Australians.	https://www.zdnet.com/article/eftpos-granted-government-accreditation-as-first-private-id-exchange-operator/	https://www.zdnet.com/a/hub/i/r/2016/09/02/4cbd1afa-58f5-4bb5-85fe-e7f69a9bc0e4/thumbnail/770x578/2bc767672c7b4a0296502957ef7995bf/identity-protect.jpg	zdnet	t	2021-09-27 06:00:02.418155+02	2021-09-27 03:01:01+02	Aimee Chanthadavong	zdnet/Eftpos-granted-government-accreditation-as-first-private-ID-exchange-operator
 \.
 
 
@@ -1694,7 +1695,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1643, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1644, true);
 
 
 --
