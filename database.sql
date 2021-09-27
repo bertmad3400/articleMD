@@ -1701,6 +1701,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1655	EU: Russia Behind ‘Ghostwriter’ Campaign Targeting Germany	It’s not the first time that the disinformation/spearphishing campaign, which originally smeared NATO, has been linked to Russia.	https://kasperskycontenthub.com/threatpost-global/?p=175025	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/27111627/Bundestag-scaled-e1632755806807.jpeg	threatpost	t	2021-09-27 18:00:02.139957+02	2021-09-27 17:35:42+02	Lisa Vaas	threatpost/EU-Russia-Behind-Ghostwriter-Campaign-Targeting-Germany
 1657	QNAP fixes critical bugs in QVR video surveillance solution	Network-attached storage (NAS) maker QNAP has patched its QVR video management system against two critical-severity issues that could be exploited to run arbitrary commands.	https://www.bleepingcomputer.com/news/security/qnap-fixes-critical-bugs-in-qvr-video-surveillance-solution/	https://www.bleepstatic.com/content/hl-images/2021/02/17/QNAP-Surveillance-Station.jpg	bleepingcomputer	t	2021-09-27 19:00:01.731036+02	2021-09-27 18:56:16+02	Ionut Ilascu	bleepingcomputer/QNAP-fixes-critical-bugs-in-QVR-video-surveillance-solution
 1656	Singapore to link up with Malaysia on cross-border payment transfers | ZDNet	Singapore and Malaysia will link their national real-time payment systems PayNow and DuitNow, respectively, to enable cross-border fund transfers via mobile numbers.	https://www.zdnet.com/article/singapore-to-link-up-with-malaysia-on-cross-border-payment-transfers/	https://www.zdnet.com/a/img/resize/c1fc092f60d602ae094feb7a2b53d380a585a29f/2021/01/11/34fb592e-7c79-48c8-b457-126a21e1d23d/mobile-payment.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-27 19:00:01.731036+02	2021-09-27 16:43:00+02	Eileen Yu	zdnet/Singapore-to-link-up-with-Malaysia-on-cross-border-payment-transfers
+1658	How CISO roles will change as customer trust becomes imperative | ZDNet	The trust imperative is the next major shift enterprises will encounter.	https://www.zdnet.com/article/how-cisos-roles-will-change-as-customer-trust-becomes-imperative/	https://www.zdnet.com/a/hub/i/r/2021/08/10/faddaf9e-f948-456b-9bf4-2959f3e5b048/thumbnail/770x578/3bdbf84605f9df99d3def8a765680a6f/zoom.jpg	zdnet	t	2021-09-27 21:00:02.570336+02	2021-09-27 18:42:55+02	Jeff Pollard	zdnet/How-CISO-roles-will-change-as-customer-trust-becomes-imperative
+1659	Women, Minorities Are Hacked More Than Others	Income level, education and being part of a disadvantaged population all contribute to cybercrime outcomes, a survey suggests.	https://kasperskycontenthub.com/threatpost-global/?p=175038	https://media.threatpost.com/wp-content/uploads/sites/103/2021/02/25134709/cybercrime-partnerships.jpg	threatpost	t	2021-09-27 21:00:02.570336+02	2021-09-27 20:27:15+02	Tara Seals	threatpost/Women-Minorities-Are-Hacked-More-Than-Others
 \.
 
 
@@ -1708,7 +1710,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1657, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1659, true);
 
 
 --
