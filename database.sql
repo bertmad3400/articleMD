@@ -1683,6 +1683,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1637	Bitcoin.org hackers steal $17,000 in 'double your cash' scam	This week, threat actors hijacked Bitcoin.org, the authentic website of the Bitcoin project, and altered parts of the website to push a cryptocurrency giveaway scam that unfortunately some users fell for. Although the hack lasted for less than a day, hackers seem to have walked away with a little over $17,000.	https://www.bleepingcomputer.com/news/security/bitcoinorg-hackers-steal-17-000-in-double-your-cash-scam/	https://www.bleepstatic.com/content/hl-images/2021/08/12/Cryptocurrency-Bitcoin.jpg	bleepingcomputer	t	2021-09-25 19:00:01.757561+02	2021-09-25 16:00:00+02	Ax Sharma	bleepingcomputer/Bitcoinorg-hackers-steal-17000-in-double-your-cash-scam
 1638	Hands on with Windows 11's new Settings and File Explorer	In addition to the new Start Menu and taskbar design overhauls, Windows 11 also comes with a new File Explorer and Settings app.	https://www.bleepingcomputer.com/news/microsoft/hands-on-with-windows-11s-new-settings-and-file-explorer/	https://www.bleepstatic.com/content/hl-images/2021/09/03/windows-11-storm-clouds.jpg	bleepingcomputer	t	2021-09-27 00:00:02.513566+02	2021-09-26 23:28:58+02	Mayank Parmar	bleepingcomputer/Hands-on-with-Windows-11s-new-Settings-and-File-Explorer
 1639	Microsoft will disable Basic Auth in Exchange Online in October 2022	Microsoft announced that Basic Authentication will be turned off for all protocols in all tenants starting October 1st, 2022, to protect millions of Exchange Online users.	https://www.bleepingcomputer.com/news/microsoft/microsoft-will-disable-basic-auth-in-exchange-online-in-october-2022/	https://www.bleepstatic.com/content/hl-images/2021/08/23/Microsoft-Exchange.jpg	bleepingcomputer	t	2021-09-27 00:00:02.513566+02	2021-09-26 16:00:00+02	Sergiu Gatlan	bleepingcomputer/Microsoft-will-disable-Basic-Auth-in-Exchange-Online-in-October-2022
+1640	Mastercard and DTA to scope out digital ID service for age verification | ZDNet	Mastercard wants to see how digital ID services can be scaled across Australia as it seeks accreditation under the Trusted Digital Identity Framework.	https://www.zdnet.com/article/mastercard-and-dta-to-scope-out-digital-id-service-for-age-verification/	https://www.zdnet.com/a/img/resize/640b9c994b261942902ac90672b2faffd3a78911/2021/06/25/f794d6d9-9bda-4807-b5e2-eb048305b26b/identity-access-management.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-27 02:00:02.013705+02	2021-09-26 23:26:45+02	Aimee Chanthadavong	zdnet/Mastercard-and-DTA-to-scope-out-digital-ID-service-for-age-verification
 \.
 
 
@@ -1690,7 +1691,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1639, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1640, true);
 
 
 --
