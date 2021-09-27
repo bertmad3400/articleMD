@@ -1709,6 +1709,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1663	ExpressVPN vs. Surfshark vs. NordVPN: Which is best? | ZDNet	We subject VPN providers ExpressVPN, Surfshark, and NordVPN to our merciless review process. If you're trying to decide between these popular services, we have some suggestions.	https://www.zdnet.com/article/expressvpn-vs-surfshark-vs-nordvpn-which-vpn-service-is-best/	https://www.zdnet.com/a/img/resize/60f74b7d4d9c26d343ccd90921aa565e80927876/2021/08/10/41d982a1-2c31-47a1-abd4-d3f660633ad0/shutterstock-1189346977.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-27 22:00:01.863382+02	2021-09-27 19:32:00+02	David Gewirtz	zdnet/ExpressVPN-vs-Surfshark-vs-NordVPN-Which-is-best
 1664	Microsoft: Nobelium uses custom malware to backdoor Windows domains	Microsoft has discovered new malware used by the Nobelium hacking group to deploy additional payloads and steal sensitive info from Active Directory Federation Services (AD FS) servers.	https://www.bleepingcomputer.com/news/security/microsoft-nobelium-uses-custom-malware-to-backdoor-windows-domains/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Microsoft.jpg	bleepingcomputer	t	2021-09-27 23:00:02.574411+02	2021-09-27 22:03:47+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Nobelium-uses-custom-malware-to-backdoor-Windows-domains
 1665	5 Steps to Securing Your Network Perimeter	Ekaterina Kilyusheva, head of the Information Security Analytics Research Group at Positive Technologies, offers a blueprint for locking up the fortress.	https://kasperskycontenthub.com/threatpost-global/?p=175043	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/27162144/moat-e1632774120584.png	threatpost	t	2021-09-27 23:00:02.574411+02	2021-09-27 22:29:43+02	Ekaterina Kilyusheva	threatpost/5-Steps-to-Securing-Your-Network-Perimeter
+1666	Crisis management and incident management in the digital era | ZDNet	When it comes to crisis and incident management in the cloud/digital era, hope is not a strategy!	https://www.zdnet.com/article/crisis-management-and-incident-management-in-the-digital-era/	https://www.zdnet.com/a/hub/i/r/2021/09/22/1c14ab1f-8def-44a7-9e0e-7ac1bd4c2111/thumbnail/770x578/c71c1dae3de325a45c5cf673adbe6492/screen-shot-2021-09-22-at-12-30-59-pm.png	zdnet	t	2021-09-28 00:00:02.066444+02	2021-09-27 21:08:27+02	Andy Thurai	zdnet/Crisis-management-and-incident-management-in-the-digital-era
 \.
 
 
@@ -1716,7 +1717,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1665, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1666, true);
 
 
 --
