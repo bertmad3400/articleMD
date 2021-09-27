@@ -1691,6 +1691,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1645	Quad countries announce slew of tech initiatives including shared cyber standards | ZDNet	In announcing various tech initiatives, the Quad hinted at siding with Taiwan in the midst of growing political pressure from China.	https://www.zdnet.com/article/quad-countries-announce-slew-of-tech-initiatives-including-shared-cyber-standards/	https://www.zdnet.com/a/img/resize/b5a82aafcebd0c697d76207dbd7e5062aa80050d/2021/09/27/d1931d14-6aa9-4660-b093-817797593a90/gettyimages-1235472891.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-27 07:00:02.473795+02	2021-09-27 04:59:47+02	Campbell Kwan	zdnet/Quad-countries-announce-slew-of-tech-initiatives-including-shared-cyber-standards
 1646	Australians are losing over AU$6.6 million each month to cryptoscams | ZDNet	ACCC Scamwatch received over 3,000 reports totalling AU$53.2 million from the start of the year until the end of August.	https://www.zdnet.com/article/australians-are-losing-over-au6-6-million-each-month-to-cryptoscams/	https://www.zdnet.com/a/img/resize/3e802f18f8b7e71cf06b6ef46c816d1dd2d43edb/2021/09/03/1cade1e5-806f-4446-a03f-58a0beb9896b/bitcoin-global.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-27 07:00:02.473795+02	2021-09-27 04:52:17+02	Chris Duckett	zdnet/Australians-are-losing-over-AU66-million-each-month-to-cryptoscams
 1647	More than 130,000 malicious IP addresses were blocked during Census 2021: AWS | ZDNet	Running on the cloud and rigorous testing led to a successful Census 2021, according to AWS.	https://www.zdnet.com/article/more-than-130000-malicious-ip-addresses-were-blocked-during-census-2021-aws/	https://www.zdnet.com/a/img/resize/73ea421795500db2fc88fb724eb3ac91dc33c916/2021/06/03/69b5257a-31d8-4748-84cc-83b20474413e/census-collector.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-27 09:00:01.95298+02	2021-09-27 06:03:32+02	Aimee Chanthadavong	zdnet/More-than-130000-malicious-IP-addresses-were-blocked-during-Census-2021-AWS
+1648	The iPhone 13 means the end to cheap screen repairs | ZDNet	Third-party screen repairs are no longer possible… but Apple could change that.	https://www.zdnet.com/article/the-iphone-13-means-the-end-to-cheap-screen-repairs/	https://www.zdnet.com/a/img/resize/18c4e9fa5252f6429947930925b1507a0aad80c9/2021/09/27/0536ec69-619d-437c-9a0f-78c5a32f24ec/2021-09-27-09-21-17.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-27 11:00:02.626853+02	2021-09-27 08:30:25+02	Adrian Kingsley-Hughes	zdnet/The-iPhone-13-means-the-end-to-cheap-screen-repairs
 \.
 
 
@@ -1698,7 +1699,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1647, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1648, true);
 
 
 --
