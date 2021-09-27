@@ -1693,6 +1693,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1647	More than 130,000 malicious IP addresses were blocked during Census 2021: AWS | ZDNet	Running on the cloud and rigorous testing led to a successful Census 2021, according to AWS.	https://www.zdnet.com/article/more-than-130000-malicious-ip-addresses-were-blocked-during-census-2021-aws/	https://www.zdnet.com/a/img/resize/73ea421795500db2fc88fb724eb3ac91dc33c916/2021/06/03/69b5257a-31d8-4748-84cc-83b20474413e/census-collector.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-27 09:00:01.95298+02	2021-09-27 06:03:32+02	Aimee Chanthadavong	zdnet/More-than-130000-malicious-IP-addresses-were-blocked-during-Census-2021-AWS
 1648	The iPhone 13 means the end to cheap screen repairs | ZDNet	Third-party screen repairs are no longer possible… but Apple could change that.	https://www.zdnet.com/article/the-iphone-13-means-the-end-to-cheap-screen-repairs/	https://www.zdnet.com/a/img/resize/18c4e9fa5252f6429947930925b1507a0aad80c9/2021/09/27/0536ec69-619d-437c-9a0f-78c5a32f24ec/2021-09-27-09-21-17.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-27 11:00:02.626853+02	2021-09-27 08:30:25+02	Adrian Kingsley-Hughes	zdnet/The-iPhone-13-means-the-end-to-cheap-screen-repairs
 1649	Your Apple Watch might not unlock your iPhone 13, but a fix is coming | ZDNet	Apple is working on a fix for a bug that prevents the Apple Watch from unlocking an iPhone 13 when a person is wearing a face mask.	https://www.zdnet.com/article/your-apple-watch-might-not-unlock-your-iphone-13-but-a-fix-is-coming/	https://www.zdnet.com/a/img/resize/0340f54cd0c37c8c1d020056fca99f09cf6b0c4e/2021/03/16/3df5b4d4-a7a9-4506-a12d-028b7a82fabb/istock-1249198233.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-27 13:00:02.530368+02	2021-09-27 10:23:14+02	Liam Tung	zdnet/Your-Apple-Watch-might-not-unlock-your-iPhone-13-but-a-fix-is-coming
+1650	Secure those Macs: Apple must step up and support older machines | ZDNet	For the good of the planet and the safety of its users, it's time for Apple to step up and support its older machines.	https://www.zdnet.com/article/its-long-past-time-for-apple-to-step-up-and-actively-support-older-machines/	https://www.zdnet.com/a/hub/i/r/2021/09/27/755faa32-d74a-4c45-b9eb-5965cd71f8c2/thumbnail/770x578/9e1450c2605fbdc86c7a18b3e2126eac/computer-2049019-1920.jpg	zdnet	t	2021-09-27 14:00:01.823089+02	2021-09-27 11:09:18+02	David Gewirtz	zdnet/Secure-those-Macs-Apple-must-step-up-and-support-older-machines
+1651	Malicious 'Safepal Wallet' Firefox add-on stole cryptocurrency	A malicious Firefox add-on named Safepal Wallet lived on the Mozilla add-ons site for seven months and scammed users by emptying out their wallets. Safepal is a cryptocurrency wallet application capable of securely storing a variety of crypto assets, including Bitcoin, Ethereum, and Litecoin.	https://www.bleepingcomputer.com/news/security/malicious-safepal-wallet-firefox-add-on-stole-cryptocurrency/	https://www.bleepstatic.com/content/hl-images/2021/06/01/Firefox.jpg	bleepingcomputer	t	2021-09-27 14:00:01.823089+02	2021-09-27 13:21:29+02	Ax Sharma	bleepingcomputer/Malicious-Safepal-Wallet-Firefox-add-on-stole-cryptocurrency
 \.
 
 
@@ -1700,7 +1702,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1649, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1651, true);
 
 
 --
