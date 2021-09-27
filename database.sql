@@ -1684,6 +1684,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1638	Hands on with Windows 11's new Settings and File Explorer	In addition to the new Start Menu and taskbar design overhauls, Windows 11 also comes with a new File Explorer and Settings app.	https://www.bleepingcomputer.com/news/microsoft/hands-on-with-windows-11s-new-settings-and-file-explorer/	https://www.bleepstatic.com/content/hl-images/2021/09/03/windows-11-storm-clouds.jpg	bleepingcomputer	t	2021-09-27 00:00:02.513566+02	2021-09-26 23:28:58+02	Mayank Parmar	bleepingcomputer/Hands-on-with-Windows-11s-new-Settings-and-File-Explorer
 1639	Microsoft will disable Basic Auth in Exchange Online in October 2022	Microsoft announced that Basic Authentication will be turned off for all protocols in all tenants starting October 1st, 2022, to protect millions of Exchange Online users.	https://www.bleepingcomputer.com/news/microsoft/microsoft-will-disable-basic-auth-in-exchange-online-in-october-2022/	https://www.bleepstatic.com/content/hl-images/2021/08/23/Microsoft-Exchange.jpg	bleepingcomputer	t	2021-09-27 00:00:02.513566+02	2021-09-26 16:00:00+02	Sergiu Gatlan	bleepingcomputer/Microsoft-will-disable-Basic-Auth-in-Exchange-Online-in-October-2022
 1640	Mastercard and DTA to scope out digital ID service for age verification | ZDNet	Mastercard wants to see how digital ID services can be scaled across Australia as it seeks accreditation under the Trusted Digital Identity Framework.	https://www.zdnet.com/article/mastercard-and-dta-to-scope-out-digital-id-service-for-age-verification/	https://www.zdnet.com/a/img/resize/640b9c994b261942902ac90672b2faffd3a78911/2021/06/25/f794d6d9-9bda-4807-b5e2-eb048305b26b/identity-access-management.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-27 02:00:02.013705+02	2021-09-26 23:26:45+02	Aimee Chanthadavong	zdnet/Mastercard-and-DTA-to-scope-out-digital-ID-service-for-age-verification
+1641	Huawei CFO and detained Canadians return home following wrap up of extradition charges | ZDNet	Huawei CFO Meng Wanzhou was allowed to return to China after agreeing to admit she misled global financial institutions about her company's operations in Iran.	https://www.zdnet.com/article/huawei-cfo-and-detained-canadians-return-home-following-wrap-up-of-extradition-charges/	https://www.zdnet.com/a/hub/i/r/2021/09/27/566b6167-4908-4315-b21d-5249339d6003/thumbnail/770x578/742fc4f58c71b46476369b5c8f68106c/gettyimages-1235494403.jpg	zdnet	t	2021-09-27 03:00:02.342456+02	2021-09-27 00:53:04+02	Campbell Kwan	zdnet/Huawei-CFO-and-detained-Canadians-return-home-following-wrap-up-of-extradition-charges
 \.
 
 
@@ -1691,7 +1692,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1640, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1641, true);
 
 
 --
