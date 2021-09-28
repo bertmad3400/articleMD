@@ -1737,6 +1737,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1688	Bandwidth CEO confirms outages caused by DDoS attack | ZDNet	The service was still experiencing partial outages on Tuesday afternoon.	https://www.zdnet.com/article/bandwidth-ceo-confirms-outages-caused-by-ddos-attack/	https://www.zdnet.com/a/hub/i/r/2021/02/22/a7b40545-4115-4c96-acc9-d292c6871c95/thumbnail/770x578/4eecfca6373858783753e71675d0a8be/cyber-ddos-globe-white.png	zdnet	t	2021-09-28 21:00:01.709495+02	2021-09-28 18:32:20+02	Jonathan Greig	zdnet/Bandwidth-CEO-confirms-outages-caused-by-DDoS-attack
 1689	NSA, CISA publish guide for securing VPN servers	The National Security Agency (NSA) and the Cybersecurity and Infrastructure Security Agency (CISA) have published today technical guidance on properly securing VPN servers used by organizations to allow employees remote access to internal networks.	https://therecord.media/nsa-cisa-publish-guide-for-securing-vpn-servers/	https://therecord.media/wp-content/uploads/2021/09/server-data-center-router.jpg	therecord	t	2021-09-28 21:00:01.709495+02	2021-09-28 20:54:58+02	Catalin Cimpanu	therecord/NSA-CISA-publish-guide-for-securing-VPN-servers
 1690	Gamers Beware: Malware Hunts Steam, Epic and EA Origin Accounts	The BloodyStealer trojan helps cyberattackers go after in-game goods and credits.	https://kasperskycontenthub.com/threatpost-global/?p=175081	https://media.threatpost.com/wp-content/uploads/sites/103/2017/02/06230704/shutterstock_357785201-3.jpg	threatpost	t	2021-09-28 21:00:01.709495+02	2021-09-28 20:42:02+02	Becky Bracken	threatpost/Gamers-Beware-Malware-Hunts-Steam-Epic-and-EA-Origin-Accounts
+1694	US deports highly-prized hacker back to Russia	A Russian national who operated two infamous cybercrime forums has been extradited from the US back to his homeland of Russia in a rare and uncharacteristic move from US officials.	https://therecord.media/us-deports-highly-prized-hacker-back-to-russia/	https://therecord.media/wp-content/uploads/2021/09/Burkov.jpg	therecord	t	2021-09-29 01:00:02.664273+02	2021-09-28 16:57:54+02	Catalin Cimpanu	therecord/US-deports-highly-prized-hacker-back-to-Russia
+1695	Windows 11's Store is now open to third-party app stores	With Windows 11, Microsoft has opened up its store to developers using different types of frameworks, packaging technologies, and commerce platforms. Ahead of Windows 11's October 5 rollout, Microsoft has confirmed that its new app store will also support third-party app stores like Amazon AppStore and Epic Store.	https://www.bleepingcomputer.com/news/microsoft/windows-11s-store-is-now-open-to-third-party-app-stores/	https://www.bleepstatic.com/content/hl-images/2021/09/01/windows-11-bright-blue.jpg	bleepingcomputer	t	2021-09-29 01:00:02.664273+02	2021-09-29 00:42:21+02	Mayank Parmar	bleepingcomputer/Windows-11s-Store-is-now-open-to-third-party-app-stores
 \.
 
 
@@ -1744,7 +1746,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1693, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1695, true);
 
 
 --
