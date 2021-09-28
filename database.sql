@@ -1713,6 +1713,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1668	Bandwidth.com is latest victim of DDoS attacks against VoIP providers	Bandwidth.com has become the latest victim of distributed denial of service attacks targeting VoIP providers this month, leading to nationwide voice outages over the past few days.	https://www.bleepingcomputer.com/news/security/bandwidthcom-is-latest-victim-of-ddos-attacks-against-voip-providers/	https://www.bleepstatic.com/content/hl-images/2021/09/27/ddos-header-image.jpg	bleepingcomputer	t	2021-09-28 04:00:02.62052+02	2021-09-28 03:07:31+02	Lawrence Abrams	bleepingcomputer/Bandwidthcom-is-latest-victim-of-DDoS-attacks-against-VoIP-providers
 1667	FCC details $1.9 billion program to rip out Huawei and ZTE gear in the US | ZDNet	Carriers with under 10 million customers as well as some schools, libraries, and health care providers can apply for FCC funding to dispose of Chinese-vendor network equipment from October 29.	https://www.zdnet.com/article/fcc-details-1-9-billion-program-to-rip-out-huawei-and-zte-gear-in-the-us/	https://www.zdnet.com/a/img/resize/19f45e9f3906fe463c697571d825ef4087a7e231/2021/06/09/a9b16407-57b7-40ed-8320-bc9e54f4a0bd/huawei-hq.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-28 04:00:02.62052+02	2021-09-28 01:27:00+02	Chris Duckett	zdnet/FCC-details-19-billion-program-to-rip-out-Huawei-and-ZTE-gear-in-the-US
 1669	US arrests 33 BEC scammers linked to Nigerian crime syndicate	The FBI has arrested 33 individuals across Texas for a series of cybercrime-related activities, including BEC and romance scams.	https://therecord.media/us-arrests-33-bec-scammers-linked-to-nigerian-crime-syndicate/	https://therecord.media/wp-content/uploads/2021/09/Black-Axe.png	therecord	t	2021-09-28 10:00:01.841323+02	2021-09-28 09:58:46+02	Catalin Cimpanu	therecord/US-arrests-33-BEC-scammers-linked-to-Nigerian-crime-syndicate
+1670	Scalper bots are now targeting graphics card vendors | ZDNet	Concert tickets are no longer the most coveted items on a reseller's list.	https://www.zdnet.com/article/scalper-bots-are-now-targeting-graphics-card-vendors/	https://www.zdnet.com/a/hub/i/r/2021/08/23/89220b50-fb8d-4ad4-9e9d-2776c9414c8a/thumbnail/770x578/1f8f1d79e4cb29b2326321d7662a87eb/best-gaming-laptop-2021.jpg	zdnet	t	2021-09-28 11:00:02.659541+02	2021-09-28 08:00:02+02	Charlie Osborne	zdnet/Scalper-bots-are-now-targeting-graphics-card-vendors
 \.
 
 
@@ -1720,7 +1721,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1669, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1670, true);
 
 
 --
