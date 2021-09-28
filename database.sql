@@ -1716,6 +1716,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1670	Scalper bots are now targeting graphics card vendors | ZDNet	Concert tickets are no longer the most coveted items on a reseller's list.	https://www.zdnet.com/article/scalper-bots-are-now-targeting-graphics-card-vendors/	https://www.zdnet.com/a/hub/i/r/2021/08/23/89220b50-fb8d-4ad4-9e9d-2776c9414c8a/thumbnail/770x578/1f8f1d79e4cb29b2326321d7662a87eb/best-gaming-laptop-2021.jpg	zdnet	t	2021-09-28 11:00:02.659541+02	2021-09-28 08:00:02+02	Charlie Osborne	zdnet/Scalper-bots-are-now-targeting-graphics-card-vendors
 1671	Microsoft warning: This malware creates a 'persistent' backdoor for hackers | ZDNet	This custom backdoor lets attackers remotely steal tokens and certificates from Microsoft's identity platform.	https://www.zdnet.com/article/microsoft-warning-this-malware-creates-a-persistent-backdoor-for-hackers/	https://www.zdnet.com/a/img/resize/b98fb0c2c145900bc1ea99bd40863ea0c425e821/2021/08/16/11940b37-a019-411c-a53d-087eaafff727/shutterstock-1498261517.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-28 12:00:02.083735+02	2021-09-28 09:52:27+02	Liam Tung	zdnet/Microsoft-warning-This-malware-creates-a-persistent-backdoor-for-hackers
 1672	Credential Spear-Phishing Uses Spoofed Zix Encrypted Email	The spoofed email has targeted close to 75K inboxes, slipping past spam and security controls across Office 365, Google Workspace, Exchange, Cisco ESA and more.	https://kasperskycontenthub.com/threatpost-global/?p=175044	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/23070332/phishing-farm.jpg	threatpost	t	2021-09-28 13:00:01.871927+02	2021-09-28 12:00:26+02	Lisa Vaas	threatpost/Credential-Spear-Phishing-Uses-Spoofed-Zix-Encrypted-Email
+1673	Working exploit released for VMware vCenter CVE-2021-22005 bug	A complete exploit for the remote code execution vulnerability in VMware vCenter tracked as CVE-2021-22005 is now widely available, and threat actors are taking advantage of it.	https://www.bleepingcomputer.com/news/security/working-exploit-released-for-vmware-vcenter-cve-2021-22005-bug/	https://www.bleepstatic.com/content/hl-images/2020/11/20/VMware---headpic.jpg	bleepingcomputer	t	2021-09-28 14:00:02.24985+02	2021-09-28 13:03:15+02	Ionut Ilascu	bleepingcomputer/Working-exploit-released-for-VMware-vCenter-CVE-2021-22005-bug
 \.
 
 
@@ -1723,7 +1724,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1672, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1673, true);
 
 
 --
