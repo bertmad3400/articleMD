@@ -1728,6 +1728,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1682	1Password partners with Fastmail for 'masked email' project allowing users to generate email aliases | ZDNet	1Password users will now be able to create and manage secure, unique email aliases from directly within the site.	https://www.zdnet.com/article/1password-partners-with-fastmail-for-masked-email-project-allowing-users-to-generate-email-aliases/	https://www.zdnet.com/a/hub/i/r/2020/08/26/396f24d2-3e8f-4d33-8dd2-d6b7a3b69840/thumbnail/770x578/bd3c6ea31dd4b6303c9ce225d8c64239/laptop-with-email-marketing-concept-flat-design-vector-vector-id1170828052-11.jpg	zdnet	t	2021-09-28 18:00:02.249783+02	2021-09-28 15:49:51+02	Jonathan Greig	zdnet/1Password-partners-with-Fastmail-for-masked-email-project-allowing-users-to-generate-email-aliases
 1683	FinSpy surveillance malware is now spreading through UEFI bootkits | ZDNet	The spyware had previously been associated with malicious installers and MBR bootkits.	https://www.zdnet.com/article/finspy-surveillance-malware-is-now-spreading-through-uefi-bootkits/	https://www.zdnet.com/a/img/resize/62b163fb6aa94eb65b4ea60629e94f4415d1a719/2017/04/20/96cc5dcf-52b3-4a03-bc10-f9f4d0d5adbe/watching-eye.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-28 18:00:02.249783+02	2021-09-28 15:09:00+02	Charlie Osborne	zdnet/FinSpy-surveillance-malware-is-now-spreading-through-UEFI-bootkits
 1684	Working PoC Is Out for VMware vCenter CVE-2021-22005 Flaw	The unredacted RCE exploit allows unauthenticated, remote attackers to upload files to the vCenter Server analytics service.	https://kasperskycontenthub.com/threatpost-global/?p=175059	https://media.threatpost.com/wp-content/uploads/sites/103/2016/11/06232507/vmware-patch.jpg	threatpost	t	2021-09-28 18:00:02.249783+02	2021-09-28 17:06:20+02	Lisa Vaas	threatpost/Working-Exploit-Is-Out-for-VMware-vCenter-CVE-2021-22005-Flaw
+1685	Twitter web client outage forces users to log out, blocks logins	​Twitter is experiencing a worldwide outage affecting their web platform that prompts users to logout and prevents them from accessing tweets.	https://www.bleepingcomputer.com/news/technology/twitter-web-client-outage-forces-users-to-log-out-blocks-logins/	https://www.bleepstatic.com/content/hl-images/2021/03/16/Twitter.jpg	bleepingcomputer	t	2021-09-28 19:00:02.68719+02	2021-09-28 18:18:49+02	Lawrence Abrams	bleepingcomputer/Twitter-web-client-outage-forces-users-to-log-out-blocks-logins
 \.
 
 
@@ -1735,7 +1736,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1684, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1685, true);
 
 
 --
