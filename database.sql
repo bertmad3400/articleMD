@@ -1718,6 +1718,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1672	Credential Spear-Phishing Uses Spoofed Zix Encrypted Email	The spoofed email has targeted close to 75K inboxes, slipping past spam and security controls across Office 365, Google Workspace, Exchange, Cisco ESA and more.	https://kasperskycontenthub.com/threatpost-global/?p=175044	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/23070332/phishing-farm.jpg	threatpost	t	2021-09-28 13:00:01.871927+02	2021-09-28 12:00:26+02	Lisa Vaas	threatpost/Credential-Spear-Phishing-Uses-Spoofed-Zix-Encrypted-Email
 1673	Working exploit released for VMware vCenter CVE-2021-22005 bug	A complete exploit for the remote code execution vulnerability in VMware vCenter tracked as CVE-2021-22005 is now widely available, and threat actors are taking advantage of it.	https://www.bleepingcomputer.com/news/security/working-exploit-released-for-vmware-vcenter-cve-2021-22005-bug/	https://www.bleepstatic.com/content/hl-images/2020/11/20/VMware---headpic.jpg	bleepingcomputer	t	2021-09-28 14:00:02.24985+02	2021-09-28 13:03:15+02	Ionut Ilascu	bleepingcomputer/Working-exploit-released-for-VMware-vCenter-CVE-2021-22005-bug
 1674	New Microsoft Exchange service mitigates high-risk bugs automatically	Microsoft has added a new Exchange Server feature that automatically applies interim mitigations for high-risk (and likely actively exploited) security flaws to secure on-premises servers against incoming attacks and give admins more time to apply security updates.	https://www.bleepingcomputer.com/news/microsoft/new-microsoft-exchange-service-mitigates-high-risk-bugs-automatically/	https://www.bleepstatic.com/content/hl-images/2021/09/28/Exchange_headpic.jpg	bleepingcomputer	t	2021-09-28 15:00:02.088817+02	2021-09-28 13:30:00+02	Sergiu Gatlan	bleepingcomputer/New-Microsoft-Exchange-service-mitigates-high-risk-bugs-automatically
+1675	Ukraine takes down call centers behind cryptocurrency investor scams	The Security Service of Ukraine (SBU) has taken down a network of six call centers in Lviv, used by a ring of scammers to defraud cryptocurrency and stock market investors worldwide.	https://www.bleepingcomputer.com/news/security/ukraine-takes-down-call-centers-behind-cryptocurrency-investor-scams/	https://www.bleepstatic.com/content/hl-images/2021/09/28/Bitcoin-cryptocurrency.jpg	bleepingcomputer	t	2021-09-28 16:00:02.069096+02	2021-09-28 15:25:08+02	Sergiu Gatlan	bleepingcomputer/Ukraine-takes-down-call-centers-behind-cryptocurrency-investor-scams
 \.
 
 
@@ -1725,7 +1726,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1674, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1675, true);
 
 
 --
