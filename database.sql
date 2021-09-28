@@ -1712,6 +1712,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1666	Crisis management and incident management in the digital era | ZDNet	When it comes to crisis and incident management in the cloud/digital era, hope is not a strategy!	https://www.zdnet.com/article/crisis-management-and-incident-management-in-the-digital-era/	https://www.zdnet.com/a/hub/i/r/2021/09/22/1c14ab1f-8def-44a7-9e0e-7ac1bd4c2111/thumbnail/770x578/c71c1dae3de325a45c5cf673adbe6492/screen-shot-2021-09-22-at-12-30-59-pm.png	zdnet	t	2021-09-28 00:00:02.066444+02	2021-09-27 21:08:27+02	Andy Thurai	zdnet/Crisis-management-and-incident-management-in-the-digital-era
 1668	Bandwidth.com is latest victim of DDoS attacks against VoIP providers	Bandwidth.com has become the latest victim of distributed denial of service attacks targeting VoIP providers this month, leading to nationwide voice outages over the past few days.	https://www.bleepingcomputer.com/news/security/bandwidthcom-is-latest-victim-of-ddos-attacks-against-voip-providers/	https://www.bleepstatic.com/content/hl-images/2021/09/27/ddos-header-image.jpg	bleepingcomputer	t	2021-09-28 04:00:02.62052+02	2021-09-28 03:07:31+02	Lawrence Abrams	bleepingcomputer/Bandwidthcom-is-latest-victim-of-DDoS-attacks-against-VoIP-providers
 1667	FCC details $1.9 billion program to rip out Huawei and ZTE gear in the US | ZDNet	Carriers with under 10 million customers as well as some schools, libraries, and health care providers can apply for FCC funding to dispose of Chinese-vendor network equipment from October 29.	https://www.zdnet.com/article/fcc-details-1-9-billion-program-to-rip-out-huawei-and-zte-gear-in-the-us/	https://www.zdnet.com/a/img/resize/19f45e9f3906fe463c697571d825ef4087a7e231/2021/06/09/a9b16407-57b7-40ed-8320-bc9e54f4a0bd/huawei-hq.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-28 04:00:02.62052+02	2021-09-28 01:27:00+02	Chris Duckett	zdnet/FCC-details-19-billion-program-to-rip-out-Huawei-and-ZTE-gear-in-the-US
+1669	US arrests 33 BEC scammers linked to Nigerian crime syndicate	The FBI has arrested 33 individuals across Texas for a series of cybercrime-related activities, including BEC and romance scams.	https://therecord.media/us-arrests-33-bec-scammers-linked-to-nigerian-crime-syndicate/	https://therecord.media/wp-content/uploads/2021/09/Black-Axe.png	therecord	t	2021-09-28 10:00:01.841323+02	2021-09-28 09:58:46+02	Catalin Cimpanu	therecord/US-arrests-33-BEC-scammers-linked-to-Nigerian-crime-syndicate
 \.
 
 
@@ -1719,7 +1720,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1668, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1669, true);
 
 
 --
