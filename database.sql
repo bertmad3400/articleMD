@@ -1752,6 +1752,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1705	Your cybersecurity superpower: Here's how to influence employee behavior | ZDNet	As a security leader, your biggest opportunity is to engage, influence, and benefit your employees as well as your organization's customers -- and even society.	https://www.zdnet.com/article/your-cybersecurity-superpower-heres-how-to-influence-employee-behavior/	https://www.zdnet.com/a/hub/i/r/2020/03/06/7f1592c2-51f5-44e1-9569-5dea29a5032e/thumbnail/770x578/abbf8d8508db18d94a787f9ed98a90a0/istock-11866039001.jpg	zdnet	t	2021-09-29 17:00:02.021617+02	2021-09-29 14:08:20+02	Forrester Research	zdnet/Your-cybersecurity-superpower-Heres-how-to-influence-employee-behavior
 1707	New Android malware steals millions after infecting 10M phones	A large-scale malware campaign has infected more than 10 million Android devices from over 70 countries and likely stole hundreds of millions from its victims by subscribing to paid services without their knowledge.	https://www.bleepingcomputer.com/news/security/new-android-malware-steals-millions-after-infecting-10m-phones/	https://www.bleepstatic.com/content/hl-images/2021/09/29/Android.jpg	bleepingcomputer	t	2021-09-29 17:00:02.021617+02	2021-09-29 16:45:18+02	Sergiu Gatlan	bleepingcomputer/New-Android-malware-steals-millions-after-infecting-10M-phones
 1708	NSA, CISA share VPN security tips to defend against hackers	The U.S. Cybersecurity and Infrastructure Security Agency (CISA) and the National Security Agency (NSA) have released guidance for hardening the security of virtual private network (VPN) solutions.	https://www.bleepingcomputer.com/news/security/nsa-cisa-share-vpn-security-tips-to-defend-against-hackers/	https://www.bleepstatic.com/content/hl-images/2021/07/29/NSA.jpg	bleepingcomputer	t	2021-09-29 17:00:02.021617+02	2021-09-28 23:45:26+02	Ionut Ilascu	bleepingcomputer/NSA-CISA-share-VPN-security-tips-to-defend-against-hackers
+1709	Tomiris backdoor discovery linked to Sunshuttle, DarkHalo hackers | ZDNet	Another backdoor has been tentatively linked to the hackers behind SolarWinds.	https://www.zdnet.com/article/the-tomiris-backdoor-has-now-been-linked-to-sunshuttle-darkhalo-hackers/	https://www.zdnet.com/a/img/resize/e4f72dee73785e1b7f9412ac6ccf89e88e7b641f/2019/07/19/7183c5e3-a4ca-4e62-89bd-1ad5794f30a7/door-key-robert-owen-wahl.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-29 18:00:02.243053+02	2021-09-29 15:17:28+02	Charlie Osborne	zdnet/Tomiris-backdoor-discovery-linked-to-Sunshuttle-DarkHalo-hackers
+1710	Conti Ransomware Expands Ability to Blow Up Backups	The Conti ransomware gang has developed novel tactics to demolish backups, especially the Veeam recovery software.	https://kasperskycontenthub.com/threatpost-global/?p=175114	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/29112739/nuclear-bomb-explosion-1478796377Hhl.jpeg	threatpost	t	2021-09-29 18:00:02.243053+02	2021-09-29 17:43:52+02	Lisa Vaas	threatpost/Conti-Ransomware-Expands-Ability-to-Blow-Up-Backups
 \.
 
 
@@ -1759,7 +1761,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1708, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1710, true);
 
 
 --
