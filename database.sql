@@ -1758,6 +1758,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1712	Dell adds new security features and automation to ProSupport Suite | ZDNet	The new ProSupport Suite for PCs capabilities will be available to customers by October 19, and the Advanced Secure Component Verification is available now for US customers.	https://www.zdnet.com/article/dell-adds-new-security-features-and-automation-to-prosupport-suite/	https://www.zdnet.com/a/img/resize/072c93690d0a2d89568552af9949ff5204423406/2021/09/10/046d2988-229b-4894-b5b6-9c6326d06de4/dell.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-29 20:00:02.44444+02	2021-09-29 16:23:00+02	Jonathan Greig	zdnet/Dell-adds-new-security-features-and-automation-to-ProSupport-Suite
 1713	Trucking giant Forward Air reports ransomware data breach	Trucking giant Forward Air has disclosed a data breach after a ransomware attack that allowed threat actors to access employees' personal information.	https://www.bleepingcomputer.com/news/security/trucking-giant-forward-air-reports-ransomware-data-breach/	https://www.bleepstatic.com/content/posts/2021/09/29/forward-air-header.jpg	bleepingcomputer	t	2021-09-29 20:00:02.44444+02	2021-09-29 19:47:24+02	Lawrence Abrams	bleepingcomputer/Trucking-giant-Forward-Air-reports-ransomware-data-breach
 1714	Facebook open-sources internal tool used to detect security bugs in Android apps	Facebook has open-sourced Mariana Trench, one of its internal security tools, used by its security teams for finding and fixing bugs in Android and Java applications.	https://therecord.media/facebook-open-sources-internal-tool-used-to-detect-security-bugs-in-android-apps/	https://www-therecord.recfut.com/wp-content/uploads/2021/09/Mariana-Trench.png	therecord	t	2021-09-29 20:00:02.44444+02	2021-09-29 20:00:11+02	Catalin Cimpanu	therecord/Facebook-open-sources-internal-tool-used-to-detect-security-bugs-in-Android-apps
+1715	CISA releases tool to help orgs fend off insider threat risks	The US Cybersecurity and Infrastructure Security Agency (CISA) has released a new tool that allows public and private sector organizations to assess their vulnerability to insider threats and devise their own defense plans against such risks.	https://www.bleepingcomputer.com/news/security/cisa-releases-tool-to-help-orgs-fend-off-insider-threat-risks/	https://www.bleepstatic.com/content/hl-images/2021/07/01/CISA.jpg	bleepingcomputer	t	2021-09-29 21:00:02.126295+02	2021-09-29 20:17:43+02	Sergiu Gatlan	bleepingcomputer/CISA-releases-tool-to-help-orgs-fend-off-insider-threat-risks
+1716	GriftHorse Money-Stealing Trojan Takes 10M Android Users for a Ride	The mobile malware has fleeced hundreds of millions of dollars from victims globally, using sophisticated techniques.	https://kasperskycontenthub.com/threatpost-global/?p=175130	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/29134813/horseandmoney-e1632937726788.jpg	threatpost	t	2021-09-29 21:00:02.126295+02	2021-09-29 20:08:54+02	Tara Seals	threatpost/GriftHorse-Money-Stealing-Trojan-Takes-10M-Android-Users-for-a-Ride
 \.
 
 
@@ -1765,7 +1767,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1714, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1716, true);
 
 
 --
