@@ -1768,6 +1768,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1722	Apple AirTag Zero-Day Weaponizes Trackers	Apple's personal item-tracker devices can be used to deliver malware, slurp credentials, steal tokens and more thanks to XSS.	https://kasperskycontenthub.com/threatpost-global/?p=175143	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/29163222/airtag-e1632947561894.jpg	threatpost	t	2021-09-29 23:00:02.634692+02	2021-09-29 22:48:33+02	Tara Seals	threatpost/Apple-AirTag-Zero-Day-Weaponizes-Trackers
 1723	Around the world with the NSA's cyber chief	The head of the National Security Agency’s cyber branch on Wednesday warned that the number of digital threats has proliferated.	https://therecord.media/around-the-world-with-the-nsas-cyber-chief/	https://therecord.media/wp-content/uploads/2021/09/scott-webb-yekGLpc3vro-unsplash-1.jpg	therecord	t	2021-09-29 23:00:02.634692+02	2021-09-29 22:43:15+02	Martin Matishak	therecord/Around-the-world-with-the-NSAs-cyber-chief
 1724	As China creates a new narrative for a great society, it is starting by 'purifying' its world online	China’s cyberspace watchdog added to the litany of regulations it has been producing since the summer, by announcing new details about a three-year campaign to manage the nation’s algorithms.	https://therecord.media/as-china-creates-a-new-narrative-for-a-great-society-it-is-starting-by-purifying-its-world-online/	https://therecord.media/wp-content/uploads/2021/09/hyunwon-jang-njUBfL1Oc3Y-unsplash-1.jpg	therecord	t	2021-09-29 23:00:02.634692+02	2021-09-29 22:14:56+02	Dina Temple-Raston	therecord/As-China-creates-a-new-narrative-for-a-great-society-it-is-starting-by-purifying-its-world-online
+1725	96% of third-party container applications deployed in cloud infrastructure contain known vulnerabilities: Unit 42 | ZDNet	Unit 42 found that 63% of third-party code used in building cloud infrastructure contained insecure configurations.	https://www.zdnet.com/article/96-of-third-party-container-applications-deployed-in-cloud-infrastructure-contain-known-vulnerabilities-unit-42/	https://www.zdnet.com/a/img/resize/7b2e093917fa73490365ebd31e1919a87c2b183b/2021/07/23/7a429a9c-d2fa-400a-ba78-4b68185b54d5/cloud-security-malware.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-30 00:00:02.132115+02	2021-09-29 21:31:31+02	Jonathan Greig	zdnet/96-of-third-party-container-applications-deployed-in-cloud-infrastructure-contain-known-vulnerabilities-Unit-42
 \.
 
 
@@ -1775,7 +1776,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1724, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1725, true);
 
 
 --
