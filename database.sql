@@ -1739,6 +1739,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1690	Gamers Beware: Malware Hunts Steam, Epic and EA Origin Accounts	The BloodyStealer trojan helps cyberattackers go after in-game goods and credits.	https://kasperskycontenthub.com/threatpost-global/?p=175081	https://media.threatpost.com/wp-content/uploads/sites/103/2017/02/06230704/shutterstock_357785201-3.jpg	threatpost	t	2021-09-28 21:00:01.709495+02	2021-09-28 20:42:02+02	Becky Bracken	threatpost/Gamers-Beware-Malware-Hunts-Steam-Epic-and-EA-Origin-Accounts
 1694	US deports highly-prized hacker back to Russia	A Russian national who operated two infamous cybercrime forums has been extradited from the US back to his homeland of Russia in a rare and uncharacteristic move from US officials.	https://therecord.media/us-deports-highly-prized-hacker-back-to-russia/	https://therecord.media/wp-content/uploads/2021/09/Burkov.jpg	therecord	t	2021-09-29 01:00:02.664273+02	2021-09-28 16:57:54+02	Catalin Cimpanu	therecord/US-deports-highly-prized-hacker-back-to-Russia
 1695	Windows 11's Store is now open to third-party app stores	With Windows 11, Microsoft has opened up its store to developers using different types of frameworks, packaging technologies, and commerce platforms. Ahead of Windows 11's October 5 rollout, Microsoft has confirmed that its new app store will also support third-party app stores like Amazon AppStore and Epic Store.	https://www.bleepingcomputer.com/news/microsoft/windows-11s-store-is-now-open-to-third-party-app-stores/	https://www.bleepstatic.com/content/hl-images/2021/09/01/windows-11-bright-blue.jpg	bleepingcomputer	t	2021-09-29 01:00:02.664273+02	2021-09-29 00:42:21+02	Mayank Parmar	bleepingcomputer/Windows-11s-Store-is-now-open-to-third-party-app-stores
+1696	Critical Infrastructure Bill should be split to swiftly give government step-in powers: PJCIS | ZDNet	Among the measures the PJCIS wants to have introduced immediately are step-in powers and mandatory reporting requirements.	https://www.zdnet.com/article/critical-infrastructure-bill-should-be-split-to-swiftly-give-government-last-resort-powers-pjcis/	https://www.zdnet.com/a/hub/i/r/2021/04/20/f5369e78-0429-451c-8a8c-6d55c1cd21eb/thumbnail/770x578/6e505dba668de2a90d39ba81ccf3354d/parliament-house-canberra.jpg	zdnet	t	2021-09-29 07:00:02.547162+02	2021-09-29 04:01:29+02	Campbell Kwan	zdnet/Critical-Infrastructure-Bill-should-be-split-to-swiftly-give-government-step-in-powers-PJCIS
 \.
 
 
@@ -1746,7 +1747,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1695, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1696, true);
 
 
 --
