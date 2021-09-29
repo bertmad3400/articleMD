@@ -1754,6 +1754,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1708	NSA, CISA share VPN security tips to defend against hackers	The U.S. Cybersecurity and Infrastructure Security Agency (CISA) and the National Security Agency (NSA) have released guidance for hardening the security of virtual private network (VPN) solutions.	https://www.bleepingcomputer.com/news/security/nsa-cisa-share-vpn-security-tips-to-defend-against-hackers/	https://www.bleepstatic.com/content/hl-images/2021/07/29/NSA.jpg	bleepingcomputer	t	2021-09-29 17:00:02.021617+02	2021-09-28 23:45:26+02	Ionut Ilascu	bleepingcomputer/NSA-CISA-share-VPN-security-tips-to-defend-against-hackers
 1709	Tomiris backdoor discovery linked to Sunshuttle, DarkHalo hackers | ZDNet	Another backdoor has been tentatively linked to the hackers behind SolarWinds.	https://www.zdnet.com/article/the-tomiris-backdoor-has-now-been-linked-to-sunshuttle-darkhalo-hackers/	https://www.zdnet.com/a/img/resize/e4f72dee73785e1b7f9412ac6ccf89e88e7b641f/2019/07/19/7183c5e3-a4ca-4e62-89bd-1ad5794f30a7/door-key-robert-owen-wahl.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-29 18:00:02.243053+02	2021-09-29 15:17:28+02	Charlie Osborne	zdnet/Tomiris-backdoor-discovery-linked-to-Sunshuttle-DarkHalo-hackers
 1710	Conti Ransomware Expands Ability to Blow Up Backups	The Conti ransomware gang has developed novel tactics to demolish backups, especially the Veeam recovery software.	https://kasperskycontenthub.com/threatpost-global/?p=175114	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/29112739/nuclear-bomb-explosion-1478796377Hhl.jpeg	threatpost	t	2021-09-29 18:00:02.243053+02	2021-09-29 17:43:52+02	Lisa Vaas	threatpost/Conti-Ransomware-Expands-Ability-to-Blow-Up-Backups
+1711	New Tomiris backdoor likely developed by SolarWinds hackers	Kaspersky security researchers have discovered a new backdoor likely developed by the Nobelium hacking group behind last year's SolarWinds supply chain attack.	https://www.bleepingcomputer.com/news/security/new-tomiris-backdoor-likely-developed-by-solarwinds-hackers/	https://www.bleepstatic.com/content/hl-images/2021/08/25/silhouette_headpic.jpg	bleepingcomputer	t	2021-09-29 19:00:02.336299+02	2021-09-29 18:09:42+02	Sergiu Gatlan	bleepingcomputer/New-Tomiris-backdoor-likely-developed-by-SolarWinds-hackers
 \.
 
 
@@ -1761,7 +1762,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1710, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1711, true);
 
 
 --
