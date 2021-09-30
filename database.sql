@@ -1786,6 +1786,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1740	NSA, CISA partner for guide on safe VPNs amid widespread exploitation by nation-states | ZDNet	The US agencies released the guides as threats targeting VPNs continue to grow.	https://www.zdnet.com/article/nsa-cisa-partner-for-guide-on-safe-vpns-amid-widespread-exploitation-by-nation-states/	https://www.zdnet.com/a/img/resize/7181d180f283f5df37bd3dab5fa91765fb8d0576/2021/09/03/480b69f4-89a3-4338-85c7-a898aef5bd51/shutterstock-1935153176.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-30 16:00:02.547169+02	2021-09-30 13:00:27+02	Jonathan Greig	zdnet/NSA-CISA-partner-for-guide-on-safe-VPNs-amid-widespread-exploitation-by-nation-states
 1741	WireX DDoS botnet admin charged for attacking hotel chain	The US Department of Justice charged the admin of the WireX Android botnet for targeting an American multinational hotel chain in a distributed denial-of-service (DDoS) attack.	https://www.bleepingcomputer.com/news/security/wirex-ddos-botnet-admin-charged-for-attacking-hotel-chain/	https://www.bleepstatic.com/content/hl-images/2021/09/30/Hacker-suspect.jpg	bleepingcomputer	t	2021-09-30 16:00:02.547169+02	2021-09-30 15:14:12+02	Sergiu Gatlan	bleepingcomputer/WireX-DDoS-botnet-admin-charged-for-attacking-hotel-chain
 1742	RansomExx ransomware Linux encryptor may damage victims' files	Cybersecurity firm Profero has discovered that the RansomExx gang does not correctly lock Linux files during encryption, leading to potentially corrupted files.	https://www.bleepingcomputer.com/news/security/ransomexx-ransomware-linux-encryptor-may-damage-victims-files/	https://www.bleepstatic.com/content/hl-images/2020/06/24/ransom-exx-header.jpg	bleepingcomputer	t	2021-09-30 16:00:02.547169+02	2021-09-30 15:00:00+02	Lawrence Abrams	bleepingcomputer/RansomExx-ransomware-Linux-encryptor-may-damage-victims-files
+1743	Alexa, Ring, and Astro: Where's my privacy, Amazon? | ZDNet	It's not just the cameras; it's Amazon's desire to process data created by its customers using its products to further monetize it.	https://www.zdnet.com/article/alexa-ring-and-astro-wheres-my-privacy-amazon/	https://www.zdnet.com/a/img/resize/36cfe00396f90cd75f5c63943040507c15e3da7a/2021/09/29/9c93d1c1-f17b-43c1-8642-ecc498fa869b/astro.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-30 17:00:02.041063+02	2021-09-30 14:26:24+02	Jason Perlow	zdnet/Alexa-Ring-and-Astro-Wheres-my-privacy-Amazon
 \.
 
 
@@ -1793,7 +1794,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1742, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1743, true);
 
 
 --
