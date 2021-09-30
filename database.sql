@@ -1773,6 +1773,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1727	Keep Attackers Out of VPNs: NSA, CISA Offer Guidance	The NSA and CISA issued guidance on choosing and hardening VPNs to prevent nation-state APTs from weaponizing flaws & CVEs to break into protected networks.	https://kasperskycontenthub.com/threatpost-global/?p=175150	https://media.threatpost.com/wp-content/uploads/sites/103/2021/04/21061836/NordVPN.jpg	threatpost	t	2021-09-30 02:00:02.542571+02	2021-09-30 01:10:32+02	Lisa Vaas	threatpost/Keep-Attackers-Out-of-VPNs-Feds-Offer-Guidance
 1729	Apple Pay with VISA lets hackers force payments on locked iPhones	Academic researchers have found a way to make fraudulent payments using Apple Pay from a locked iPhone with a Visa card in the digital wallet set as a transit card.	https://www.bleepingcomputer.com/news/security/apple-pay-with-visa-lets-hackers-force-payments-on-locked-iphones/	https://www.bleepstatic.com/content/posts/2021/09/29/ApplePayVisaPay.jpg	bleepingcomputer	t	2021-09-30 03:00:02.577608+02	2021-09-30 02:37:09+02	Ionut Ilascu	bleepingcomputer/Apple-Pay-with-VISA-lets-hackers-force-payments-on-locked-iPhones
 1728	US and EU to cooperate on tech standards, supply chain security and tech development | ZDNet	The new US-EU Trade and Technology Council aims to keep an eye on how sensitive technologies are used.	https://www.zdnet.com/article/us-and-eu-to-cooperate-on-tech-standards-supply-chain-security-and-tackling-non-market-practices/	https://www.zdnet.com/a/img/resize/f7793262a4894457dd5566a3f50bd610f4953470/2021/09/30/63da86f1-9712-488a-bf6b-743c337bc07a/gettyimages-1235587725.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-30 03:00:02.577608+02	2021-09-30 00:43:40+02	Campbell Kwan	zdnet/US-and-EU-to-cooperate-on-tech-standards-supply-chain-security-and-tech-development
+1730	Every country must decide own definition of acceptable AI use | ZDNet	Citizens and governments will need to determine what they deem to be acceptable uses of artificial intelligence, including whether the use of facial recognition technology in public spaces should be outlawed or accepted, says Telenor Research's AI and analytics head.	https://www.zdnet.com/article/every-country-must-decide-own-definition-of-acceptable-ai-use/	https://www.zdnet.com/a/img/resize/90d84f11d4d7565e17a1697ab0928e2fe9a096bb/2018/04/27/9507e169-22a1-4a72-ae5a-dc76524360a9/aiiot.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-30 04:00:02.393867+02	2021-09-30 01:18:02+02	Eileen Yu	zdnet/Every-country-must-decide-own-definition-of-acceptable-AI-use
 \.
 
 
@@ -1780,7 +1781,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1729, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1730, true);
 
 
 --
