@@ -1777,6 +1777,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1731	YouTube expands medical misinformation bans to include all anti-vaxxer content | ZDNet	Content that wrongly claims approved vaccines are not safe, or question the efficacy of them will be removed by YouTube.	https://www.zdnet.com/article/youtube-expands-medical-misinformation-bans-to-include-all-anti-vaxxer-content/	https://www.zdnet.com/a/img/resize/d7b417398fcef92f9c1beb9eaf7512e1f661752b/2021/06/28/0a2d0ce3-3d4b-4451-9cb3-2a93453c9b7b/gettyimages-1231937061.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-30 06:00:02.133074+02	2021-09-30 02:17:36+02	Chris Duckett	zdnet/YouTube-expands-medical-misinformation-bans-to-include-all-anti-vaxxer-content
 1732	Ransomware attack disrupts hundreds of bookstores across France, Belgium, and the Netherlands	Hundreds of bookstores across France, Belgium, and the Netherlands have had their operations disrupted this week after a ransomware attack crippled the IT systems of TiteLive, a French company that operates a SaaS platform for book sales and inventory management.	https://therecord.media/ransomware-attack-disrupts-hundreds-of-bookstores-across-france-belgium-and-the-netherlands/	https://therecord.media/wp-content/uploads/2021/09/bookstore.jpg	therecord	t	2021-09-30 08:00:02.321356+02	2021-09-30 07:31:24+02	Catalin Cimpanu	therecord/Ransomware-attack-disrupts-hundreds-of-bookstores-across-France-Belgium-and-the-Netherlands
 1733	Australia's digital vaccination certificates for travel ready in two to three weeks | ZDNet	Services Australia envisions the digital vaccination certificate for travel to be accessible on the Medicare Express Plus app.	https://www.zdnet.com/article/australias-digital-vaccination-certificates-for-international-travel-ready-in-two-to-three-weeks/	https://www.zdnet.com/a/img/resize/8c804b18262f8263ae90a5bf03684702a14372c6/2021/09/13/0da64f39-05b5-4da7-bf9b-7c1f4608f01f/gettyimages-1334409871.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-30 10:00:02.136424+02	2021-09-30 07:10:22+02	Campbell Kwan	zdnet/Australias-digital-vaccination-certificates-for-travel-ready-in-two-to-three-weeks
+1734	These ransomware crooks are complaining they are getting ripped off - by other ransomware crooks | ZDNet	Ransomware gangs are shocked to find out that other cyber criminals will scam other criminals if they can.	https://www.zdnet.com/article/these-ransomware-crooks-are-complaining-they-are-getting-ripped-off-by-other-ransomware-crooks/	https://www.zdnet.com/a/img/resize/b91c2be2ed15aaa9e33ab8ffd970eebd085e8a92/2018/10/31/34783712-8d01-47bc-9ad8-7147741e2e75/istock-mysterious-hacker-hands.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-30 12:00:01.969079+02	2021-09-30 09:03:12+02	Danny Palmer	zdnet/These-ransomware-crooks-are-complaining-they-are-getting-ripped-off---by-other-ransomware-crooks
 \.
 
 
@@ -1784,7 +1785,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1733, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1734, true);
 
 
 --
