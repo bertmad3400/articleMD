@@ -1769,6 +1769,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1723	Around the world with the NSA's cyber chief	The head of the National Security Agency’s cyber branch on Wednesday warned that the number of digital threats has proliferated.	https://therecord.media/around-the-world-with-the-nsas-cyber-chief/	https://therecord.media/wp-content/uploads/2021/09/scott-webb-yekGLpc3vro-unsplash-1.jpg	therecord	t	2021-09-29 23:00:02.634692+02	2021-09-29 22:43:15+02	Martin Matishak	therecord/Around-the-world-with-the-NSAs-cyber-chief
 1724	As China creates a new narrative for a great society, it is starting by 'purifying' its world online	China’s cyberspace watchdog added to the litany of regulations it has been producing since the summer, by announcing new details about a three-year campaign to manage the nation’s algorithms.	https://therecord.media/as-china-creates-a-new-narrative-for-a-great-society-it-is-starting-by-purifying-its-world-online/	https://therecord.media/wp-content/uploads/2021/09/hyunwon-jang-njUBfL1Oc3Y-unsplash-1.jpg	therecord	t	2021-09-29 23:00:02.634692+02	2021-09-29 22:14:56+02	Dina Temple-Raston	therecord/As-China-creates-a-new-narrative-for-a-great-society-it-is-starting-by-purifying-its-world-online
 1725	96% of third-party container applications deployed in cloud infrastructure contain known vulnerabilities: Unit 42 | ZDNet	Unit 42 found that 63% of third-party code used in building cloud infrastructure contained insecure configurations.	https://www.zdnet.com/article/96-of-third-party-container-applications-deployed-in-cloud-infrastructure-contain-known-vulnerabilities-unit-42/	https://www.zdnet.com/a/img/resize/7b2e093917fa73490365ebd31e1919a87c2b183b/2021/07/23/7a429a9c-d2fa-400a-ba78-4b68185b54d5/cloud-security-malware.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-30 00:00:02.132115+02	2021-09-29 21:31:31+02	Jonathan Greig	zdnet/96-of-third-party-container-applications-deployed-in-cloud-infrastructure-contain-known-vulnerabilities-Unit-42
+1726	Researchers discover bypass 'bug' in iPhone Apple Pay, Visa to make contactless payments | ZDNet	The security issue relates to Visa and Apple's transmit mode.	https://www.zdnet.com/article/researchers-discover-bypass-bug-in-iphone-visa-apple-pay-to-make-contactless-payments/	https://www.zdnet.com/a/img/resize/1379d965cf46d0faba45f07e2644f8edd31f413c/2021/09/29/e2956b13-ee3f-438b-9fb1-a2c317a9bd5e/screenshot-2021-09-29-at-14-49-04.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-30 02:00:02.542571+02	2021-09-29 23:01:02+02	Charlie Osborne	zdnet/Researchers-discover-bypass-bug-in-iPhone-Apple-Pay-Visa-to-make-contactless-payments
+1727	Keep Attackers Out of VPNs: NSA, CISA Offer Guidance	The NSA and CISA issued guidance on choosing and hardening VPNs to prevent nation-state APTs from weaponizing flaws & CVEs to break into protected networks.	https://kasperskycontenthub.com/threatpost-global/?p=175150	https://media.threatpost.com/wp-content/uploads/sites/103/2021/04/21061836/NordVPN.jpg	threatpost	t	2021-09-30 02:00:02.542571+02	2021-09-30 01:10:32+02	Lisa Vaas	threatpost/Keep-Attackers-Out-of-VPNs-Feds-Offer-Guidance
 \.
 
 
@@ -1776,7 +1778,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1725, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1727, true);
 
 
 --
