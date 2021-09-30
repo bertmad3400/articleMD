@@ -1776,6 +1776,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1730	Every country must decide own definition of acceptable AI use | ZDNet	Citizens and governments will need to determine what they deem to be acceptable uses of artificial intelligence, including whether the use of facial recognition technology in public spaces should be outlawed or accepted, says Telenor Research's AI and analytics head.	https://www.zdnet.com/article/every-country-must-decide-own-definition-of-acceptable-ai-use/	https://www.zdnet.com/a/img/resize/90d84f11d4d7565e17a1697ab0928e2fe9a096bb/2018/04/27/9507e169-22a1-4a72-ae5a-dc76524360a9/aiiot.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-30 04:00:02.393867+02	2021-09-30 01:18:02+02	Eileen Yu	zdnet/Every-country-must-decide-own-definition-of-acceptable-AI-use
 1731	YouTube expands medical misinformation bans to include all anti-vaxxer content | ZDNet	Content that wrongly claims approved vaccines are not safe, or question the efficacy of them will be removed by YouTube.	https://www.zdnet.com/article/youtube-expands-medical-misinformation-bans-to-include-all-anti-vaxxer-content/	https://www.zdnet.com/a/img/resize/d7b417398fcef92f9c1beb9eaf7512e1f661752b/2021/06/28/0a2d0ce3-3d4b-4451-9cb3-2a93453c9b7b/gettyimages-1231937061.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-30 06:00:02.133074+02	2021-09-30 02:17:36+02	Chris Duckett	zdnet/YouTube-expands-medical-misinformation-bans-to-include-all-anti-vaxxer-content
 1732	Ransomware attack disrupts hundreds of bookstores across France, Belgium, and the Netherlands	Hundreds of bookstores across France, Belgium, and the Netherlands have had their operations disrupted this week after a ransomware attack crippled the IT systems of TiteLive, a French company that operates a SaaS platform for book sales and inventory management.	https://therecord.media/ransomware-attack-disrupts-hundreds-of-bookstores-across-france-belgium-and-the-netherlands/	https://therecord.media/wp-content/uploads/2021/09/bookstore.jpg	therecord	t	2021-09-30 08:00:02.321356+02	2021-09-30 07:31:24+02	Catalin Cimpanu	therecord/Ransomware-attack-disrupts-hundreds-of-bookstores-across-France-Belgium-and-the-Netherlands
+1733	Australia's digital vaccination certificates for travel ready in two to three weeks | ZDNet	Services Australia envisions the digital vaccination certificate for travel to be accessible on the Medicare Express Plus app.	https://www.zdnet.com/article/australias-digital-vaccination-certificates-for-international-travel-ready-in-two-to-three-weeks/	https://www.zdnet.com/a/img/resize/8c804b18262f8263ae90a5bf03684702a14372c6/2021/09/13/0da64f39-05b5-4da7-bf9b-7c1f4608f01f/gettyimages-1334409871.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-09-30 10:00:02.136424+02	2021-09-30 07:10:22+02	Campbell Kwan	zdnet/Australias-digital-vaccination-certificates-for-travel-ready-in-two-to-three-weeks
 \.
 
 
@@ -1783,7 +1784,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1732, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1733, true);
 
 
 --
