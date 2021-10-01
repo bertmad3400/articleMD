@@ -1805,6 +1805,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1759	Congress demands briefing from FBI on decision not to share Kaseya decryption keys | ZDNet	Committee chairwoman Rep. Carolyn Maloney and ranking member Rep. James Comer sent a letter to FBI director Christopher Wray asking him to appear before Congress to explain the FBI's actions in the case.	https://www.zdnet.com/article/congress-demands-briefing-from-fbi-on-decision-not-to-share-kaseya-decryption-keys/	https://www.zdnet.com/a/img/resize/73536dcf25ac22b8a7bf496ef128a7a28eb5a2f9/2020/03/06/9d917be8-bcbf-4f4e-bc9c-69755c1c13a6/congress-capitol-hill.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-01 01:00:01.880102+02	2021-09-30 22:40:14+02	Jonathan Greig	zdnet/Congress-demands-briefing-from-FBI-on-decision-not-to-share-Kaseya-decryption-keys
 1760	Fortinet, Shopify and more report issues after root CA certificate from Lets Encrypt expires | ZDNet	Experts had been warning for weeks that there would be issues resulting from the expiration of root CA certificates provided by Lets Encrypt.	https://www.zdnet.com/article/fortinet-shopify-others-report-issues-after-root-ca-certificate-from-lets-encrypt-expires/	https://www.zdnet.com/a/img/resize/aef35a11e19416ee8fef39003ceb7ef22d0b1b39/2019/10/13/a64ad052-4a14-4648-a900-2eae3e4b8187/https-ssl.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-01 01:00:01.880102+02	2021-09-30 22:04:12+02	Jonathan Greig	zdnet/Fortinet-Shopify-and-more-report-issues-after-root-CA-certificate-from-Lets-Encrypt-expires
 1761	Google Emergency Update Fixes Two Chrome Zero Days	This is the second pair of zero days that Google's fixed this month, all four of which have been actively exploited in the wild.	https://kasperskycontenthub.com/threatpost-global/?p=175266	https://media.threatpost.com/wp-content/uploads/sites/103/2020/02/25133033/Chrome_Web_Browser_Google.jpg	threatpost	t	2021-10-01 01:00:01.880102+02	2021-10-01 00:38:50+02	Lisa Vaas	threatpost/Google-Emergency-Update-Fixes-Two-Chrome-Zero-Days
+1762	Amazon, Google, Microsoft and other tech giants establish Trusted Cloud Principles | ZDNet	IBM, Salesforce/Slack, Atlassian, SAP, and Cisco have also committed to protecting the rights and privacy of their cloud customers.	https://www.zdnet.com/article/amazon-google-microsoft-and-other-tech-giants-establish-trusted-cloud-principles/	https://www.zdnet.com/a/img/resize/3ae6c1b5f2fdb47b85ed7eea1f6271371f7daad5/2016/04/01/ffede1de-ab1f-48e0-96f6-5ac411671257/hybrid-cloud-image.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-01 03:00:01.978153+02	2021-10-01 00:24:34+02	Aimee Chanthadavong	zdnet/Amazon-Google-Microsoft-and-other-tech-giants-establish-Trusted-Cloud-Principles
 \.
 
 
@@ -1812,7 +1813,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1761, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1762, true);
 
 
 --
