@@ -1828,6 +1828,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1782	Crypto platform mistakenly gives $90M to users, asks for refund	In a major blunder, cryptocurrency platform Compound accidentally paid out $90 million among its users. Shortly after the mistake, the platform's founder began asking users to return the money—or else they would be reported to IRS, and possibly doxxed, threatened the founder.	https://www.bleepingcomputer.com/news/security/crypto-platform-mistakenly-gives-90m-to-users-asks-for-refund/	https://www.bleepstatic.com/content/hl-images/2016/12/07/Cryptocurrency.png	bleepingcomputer	t	2021-10-01 20:00:02.142202+02	2021-10-01 19:27:57+02	Ax Sharma	bleepingcomputer/Crypto-platform-mistakenly-gives-90M-to-users-asks-for-refund
 1783	3.1M Neiman Marcus Customer Card Details Breached	Experts say the detection delay of 17 months is a colossal security blunder by the retailer. 	https://kasperskycontenthub.com/threatpost-global/?p=175284	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/01134608/Neiman-Marcus-e1633110380411.jpeg	threatpost	t	2021-10-01 20:00:02.142202+02	2021-10-01 19:50:42+02	Becky Bracken	threatpost/31M-Neiman-Marcus-Customer-Card-Details-Breached
 1784	FCC orders phone carriers to enforce unlawful robocall blocking	The Federal Communications Commission (FCC) announced earlier this week that phone companies are now required to filter calls from providers who haven't complied with a deadline to block illegal robocalls expired on September 28th.	https://www.bleepingcomputer.com/news/security/fcc-orders-phone-carriers-to-enforce-unlawful-robocall-blocking/	https://www.bleepstatic.com/content/hl-images/2021/01/18/Phone-Call.jpg	bleepingcomputer	t	2021-10-01 21:00:01.749911+02	2021-10-01 20:27:56+02	Sergiu Gatlan	bleepingcomputer/FCC-orders-phone-carriers-to-enforce-unlawful-robocall-blocking
+1785	Mozilla: Superman, Batman, Spider-Man dominate list of passwords leaked in breaches | ZDNet	Using data from haveibeenpwned.com, Mozilla found that hundreds of thousands of people continue to use their favorite superheroes for passwords.	https://www.zdnet.com/article/mozilla-superman-batman-spider-man-dominate-list-of-passwords-leaked-in-breaches/	https://www.zdnet.com/a/img/resize/f6b8020e6d039d1229fd7b79d8e2a83042419353/2017/07/31/fb40f3dd-455c-4c68-a7b0-8b3434e8c243/spider-man-homecoming.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-01 22:00:02.002245+02	2021-10-01 19:29:04+02	Jonathan Greig	zdnet/Mozilla-Superman-Batman-Spider-Man-dominate-list-of-passwords-leaked-in-breaches
+1786	Internet safety guide for college students | ZDNet	College students face online threats every day. Protect your private data and your identity by taking some simple internet safety steps.	https://www.zdnet.com/article/internet-safety-guide-for-college-students/	https://www.zdnet.com/a/img/resize/2302fcfd7f0a32d9779c6a83827d5fa87ea4783d/2021/01/14/08c73d70-bc42-4eac-8d07-66f4f49b685e/istock-1134000614.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-01 22:00:02.002245+02	2021-10-01 19:25:02+02	Genevieve Carlton	zdnet/Internet-safety-guide-for-college-students
 \.
 
 
@@ -1835,7 +1837,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1784, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1786, true);
 
 
 --
