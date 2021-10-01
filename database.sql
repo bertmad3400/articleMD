@@ -1827,6 +1827,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1781	MoneyLion locks customer accounts after credential stuffing attacks	The banking and investing platform MoneyLion had to lock customer accounts that were breached in credential stuffing attacks over the summer, in June and July.	https://www.bleepingcomputer.com/news/security/moneylion-locks-customer-accounts-after-credential-stuffing-attacks/	https://www.bleepstatic.com/content/posts/2021/10/01/MoneyLion.jpg	bleepingcomputer	t	2021-10-01 19:00:02.326826+02	2021-10-01 18:38:15+02	Sergiu Gatlan	bleepingcomputer/MoneyLion-locks-customer-accounts-after-credential-stuffing-attacks
 1782	Crypto platform mistakenly gives $90M to users, asks for refund	In a major blunder, cryptocurrency platform Compound accidentally paid out $90 million among its users. Shortly after the mistake, the platform's founder began asking users to return the money—or else they would be reported to IRS, and possibly doxxed, threatened the founder.	https://www.bleepingcomputer.com/news/security/crypto-platform-mistakenly-gives-90m-to-users-asks-for-refund/	https://www.bleepstatic.com/content/hl-images/2016/12/07/Cryptocurrency.png	bleepingcomputer	t	2021-10-01 20:00:02.142202+02	2021-10-01 19:27:57+02	Ax Sharma	bleepingcomputer/Crypto-platform-mistakenly-gives-90M-to-users-asks-for-refund
 1783	3.1M Neiman Marcus Customer Card Details Breached	Experts say the detection delay of 17 months is a colossal security blunder by the retailer. 	https://kasperskycontenthub.com/threatpost-global/?p=175284	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/01134608/Neiman-Marcus-e1633110380411.jpeg	threatpost	t	2021-10-01 20:00:02.142202+02	2021-10-01 19:50:42+02	Becky Bracken	threatpost/31M-Neiman-Marcus-Customer-Card-Details-Breached
+1784	FCC orders phone carriers to enforce unlawful robocall blocking	The Federal Communications Commission (FCC) announced earlier this week that phone companies are now required to filter calls from providers who haven't complied with a deadline to block illegal robocalls expired on September 28th.	https://www.bleepingcomputer.com/news/security/fcc-orders-phone-carriers-to-enforce-unlawful-robocall-blocking/	https://www.bleepstatic.com/content/hl-images/2021/01/18/Phone-Call.jpg	bleepingcomputer	t	2021-10-01 21:00:01.749911+02	2021-10-01 20:27:56+02	Sergiu Gatlan	bleepingcomputer/FCC-orders-phone-carriers-to-enforce-unlawful-robocall-blocking
 \.
 
 
@@ -1834,7 +1835,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1783, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1784, true);
 
 
 --
