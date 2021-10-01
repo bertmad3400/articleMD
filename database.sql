@@ -1823,6 +1823,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1778	Neiman Marcus sends notices of breach to 4.3 million customers	Neiman Marcus, the Texas-based luxury department stores chain, is sending notices of a data breach to roughly 4.3 million customers.	https://www.bleepingcomputer.com/news/security/neiman-marcus-sends-notices-of-breach-to-43-million-customers/	https://www.bleepstatic.com/content/hl-images/2021/10/01/neiman_marcus.jpg	bleepingcomputer	t	2021-10-01 18:00:02.102291+02	2021-10-01 17:49:22+02	Bill Toulas	bleepingcomputer/Neiman-Marcus-sends-notices-of-breach-to-43-million-customers
 1777	Flubot Malware Targets Androids With Fake Security Updates	The banking trojan keeps switching up its lies, trying to fool Android users into clicking on a fake Flubot-deleting app or supposedly uploaded photos of recipients.	https://kasperskycontenthub.com/threatpost-global/?p=175276	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/01112340/androids-e1633101831352.jpeg	threatpost	t	2021-10-01 18:00:02.102291+02	2021-10-01 17:27:01+02	Lisa Vaas	threatpost/Flubot-Malware-Targets-Androids-With-Fake-Security-Updates
 1779	The FCC proposes rules to fight SIM swap and port-out fraud	The Federal Communications Commission in the U.S. this week announced that it started to work on rules that would pull the brake on SIM swapping attacks.	https://www.bleepingcomputer.com/news/security/the-fcc-proposes-rules-to-fight-sim-swap-and-port-out-fraud/	https://www.bleepstatic.com/content/hl-images/2021/10/01/SIM_Card2.jpg	bleepingcomputer	t	2021-10-01 18:00:02.102291+02	2021-10-01 17:33:34+02	Ionut Ilascu	bleepingcomputer/The-FCC-proposes-rules-to-fight-SIM-swap-and-port-out-fraud
+1780	Neiman Marcus says May 2020 breach includes millions of payment card numbers and expiration dates | ZDNet	The company admitted that the breach occurred more than a year ago but noted that they only discovered it in September 2021.	https://www.zdnet.com/article/neiman-marcus-breach-includes-payment-card-numbers-and-expiration-dates/	https://www.zdnet.com/a/img/resize/fdbacdfc061ba20e0d8e121b449529324e438154/2014/09/05/42c52871-34e7-11e4-9e6a-00505685119a/neiman-marcus-1-1-million-cards-compromised.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-01 19:00:02.326826+02	2021-10-01 16:13:00+02	Jonathan Greig	zdnet/Neiman-Marcus-says-May-2020-breach-includes-millions-of-payment-card-numbers-and-expiration-dates
+1781	MoneyLion locks customer accounts after credential stuffing attacks	The banking and investing platform MoneyLion had to lock customer accounts that were breached in credential stuffing attacks over the summer, in June and July.	https://www.bleepingcomputer.com/news/security/moneylion-locks-customer-accounts-after-credential-stuffing-attacks/	https://www.bleepstatic.com/content/posts/2021/10/01/MoneyLion.jpg	bleepingcomputer	t	2021-10-01 19:00:02.326826+02	2021-10-01 18:38:15+02	Sergiu Gatlan	bleepingcomputer/MoneyLion-locks-customer-accounts-after-credential-stuffing-attacks
 \.
 
 
@@ -1830,7 +1832,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1779, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1781, true);
 
 
 --
