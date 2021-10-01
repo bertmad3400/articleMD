@@ -1807,6 +1807,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1761	Google Emergency Update Fixes Two Chrome Zero Days	This is the second pair of zero days that Google's fixed this month, all four of which have been actively exploited in the wild.	https://kasperskycontenthub.com/threatpost-global/?p=175266	https://media.threatpost.com/wp-content/uploads/sites/103/2020/02/25133033/Chrome_Web_Browser_Google.jpg	threatpost	t	2021-10-01 01:00:01.880102+02	2021-10-01 00:38:50+02	Lisa Vaas	threatpost/Google-Emergency-Update-Fixes-Two-Chrome-Zero-Days
 1762	Amazon, Google, Microsoft and other tech giants establish Trusted Cloud Principles | ZDNet	IBM, Salesforce/Slack, Atlassian, SAP, and Cisco have also committed to protecting the rights and privacy of their cloud customers.	https://www.zdnet.com/article/amazon-google-microsoft-and-other-tech-giants-establish-trusted-cloud-principles/	https://www.zdnet.com/a/img/resize/3ae6c1b5f2fdb47b85ed7eea1f6271371f7daad5/2016/04/01/ffede1de-ab1f-48e0-96f6-5ac411671257/hybrid-cloud-image.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-01 03:00:01.978153+02	2021-10-01 00:24:34+02	Aimee Chanthadavong	zdnet/Amazon-Google-Microsoft-and-other-tech-giants-establish-Trusted-Cloud-Principles
 1763	Westpac expands digital gambling block to include additional debit cardholders | ZDNet	St George, BankSA, and Bank of Melbourne debit cardholders can now apply an instant block on gambling-related transactions.	https://www.zdnet.com/article/westpac-expands-digital-gambling-block-to-include-additional-debit-cardholders/	https://www.zdnet.com/a/img/resize/ed289ac49ae2ce4afd785e9cd31cb605040d0c1a/2021/08/16/c5702f0b-58cc-4177-8fe2-5f90b39ffbb6/a-guide-to-prevention-of-childhood-gambling.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-01 09:00:02.043533+02	2021-10-01 06:30:29+02	Aimee Chanthadavong	zdnet/Westpac-expands-digital-gambling-block-to-include-additional-debit-cardholders
+1765	Android, Java bug bunting tool Mariana Trench goes open source | ZDNet	Mariana Trench originated as an internal Facebook tool.	https://www.zdnet.com/article/android-java-bug-bunting-tool-mariana-trench-becomes-open-source/	https://www.zdnet.com/a/img/resize/e8dabe70a1905569acf3363729e745bd78e78ea0/2021/10/01/4e51dee2-26e2-43b9-ad77-e27c2aa28b47/screenshot-2021-10-01-at-10-12-15.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-01 13:00:02.161881+02	2021-10-01 09:55:31+02	Charlie Osborne	zdnet/Android-Java-bug-bunting-tool-Mariana-Trench-goes-open-source
+1764	Google just patched these two Chrome zero-day bugs that are under attack right now | ZDNet	More zero-day flaws pile up on Google Chrome in a year that saw flaws spike across all major software platforms.	https://www.zdnet.com/article/google-just-patched-these-two-chrome-zero-day-bugs-that-are-under-attack-right-now/	https://www.zdnet.com/a/img/resize/a52bc78040e54fffae663aaae3532bab070d9c51/2021/10/01/6cd96bf1-fe23-4c28-97d8-f4ab65983ef9/shutterstock-640349254.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-01 13:00:02.161881+02	2021-10-01 10:46:00+02	Liam Tung	zdnet/Google-just-patched-these-two-Chrome-zero-day-bugs-that-are-under-attack-right-now
 \.
 
 
@@ -1814,7 +1816,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1763, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1765, true);
 
 
 --
