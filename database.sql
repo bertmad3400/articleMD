@@ -1838,6 +1838,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1792	Coinbase sends out breach notification letters after 6,000 accounts had cryptocurrency stolen | ZDNet	The letters come after thousands of people complained this summer about lackluster customer service from the cryptocurrency platform.	https://www.zdnet.com/article/coinbase-sends-out-breach-notification-letters-after-6000-accounts-had-funds-stolen/	https://www.zdnet.com/a/img/resize/ae19547a199a16d7b28a265597a51df212f4bd99/2019/06/20/152b6cb9-ee2e-460a-9133-bbab21a46df4/coinbase.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-02 00:00:02.073137+02	2021-10-01 21:29:07+02	Jonathan Greig	zdnet/Coinbase-sends-out-breach-notification-letters-after-6000-accounts-had-cryptocurrency-stolen
 1793	Conti gang threatens to dump victim data if ransom negotiations leak to reporters	The Conti ransomware gang has published a rare public statement today threatening hacked companies that they will leak their stolen files if details or screenshots of the ransom negotiations process are leaked to journalists.	https://therecord.media/conti-gang-threatens-to-dump-victim-data-if-ransom-negotiations-leak-to-reporters/	https://therecord.media/wp-content/uploads/2021/10/press-reporter-journalist.png	therecord	t	2021-10-02 03:00:02.131127+02	2021-10-02 02:01:45+02	Catalin Cimpanu	therecord/Conti-gang-threatens-to-dump-victim-data-if-ransom-negotiations-leak-to-reporters
 1794	US to work with 30 countries to tackle ransomware problem	The Biden administration announced today plans to hold a meeting with representatives from 30 countries, including NATO allies and G7 partners, on the topic of cybercrime, with a particular focus on ransomware and the abuse of cryptocurrency.	https://therecord.media/us-to-work-with-30-countries-to-tackle-ransomware-problem/	https://therecord.media/wp-content/uploads/2021/07/White-House.jpg	therecord	t	2021-10-02 04:00:02.004834+02	2021-10-02 03:57:25+02	Catalin Cimpanu	therecord/US-to-work-with-30-countries-to-tackle-ransomware-problem
+1795	This feature could stop you forgetting your iPhone ever again | ZDNet	Never leave your iPhone behind at the work, school, or bar again.	https://www.zdnet.com/article/this-feature-could-stop-you-forgetting-your-iphone-ever-again/	https://www.zdnet.com/a/img/resize/aecf49db17ff21dca11ecdbf777783fb3614cb61/2021/09/27/d298b205-f49a-4b82-a7e3-c275f02ae12c/img-1614x.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-02 12:00:02.417694+02	2021-10-02 09:00:02+02	Adrian Kingsley-Hughes	zdnet/This-feature-could-stop-you-forgetting-your-iPhone-ever-again
 \.
 
 
@@ -1845,7 +1846,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1794, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1795, true);
 
 
 --
