@@ -1837,6 +1837,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1791	US unites 30 countries to disrupt global ransomware attacks	U.S. President Joe Biden said today announced today that the U.S. has brought together 30 countries to jointly crackdown on ransomware gangs behind a barrage of attacks impacting organizations worldwide.	https://www.bleepingcomputer.com/news/security/us-unites-30-countries-to-disrupt-global-ransomware-attacks/	https://www.bleepstatic.com/content/hl-images/2021/10/01/Biden__headpic.jpg	bleepingcomputer	t	2021-10-01 23:00:01.911898+02	2021-10-01 22:01:34+02	Sergiu Gatlan	bleepingcomputer/US-unites-30-countries-to-disrupt-global-ransomware-attacks
 1792	Coinbase sends out breach notification letters after 6,000 accounts had cryptocurrency stolen | ZDNet	The letters come after thousands of people complained this summer about lackluster customer service from the cryptocurrency platform.	https://www.zdnet.com/article/coinbase-sends-out-breach-notification-letters-after-6000-accounts-had-funds-stolen/	https://www.zdnet.com/a/img/resize/ae19547a199a16d7b28a265597a51df212f4bd99/2019/06/20/152b6cb9-ee2e-460a-9133-bbab21a46df4/coinbase.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-02 00:00:02.073137+02	2021-10-01 21:29:07+02	Jonathan Greig	zdnet/Coinbase-sends-out-breach-notification-letters-after-6000-accounts-had-cryptocurrency-stolen
 1793	Conti gang threatens to dump victim data if ransom negotiations leak to reporters	The Conti ransomware gang has published a rare public statement today threatening hacked companies that they will leak their stolen files if details or screenshots of the ransom negotiations process are leaked to journalists.	https://therecord.media/conti-gang-threatens-to-dump-victim-data-if-ransom-negotiations-leak-to-reporters/	https://therecord.media/wp-content/uploads/2021/10/press-reporter-journalist.png	therecord	t	2021-10-02 03:00:02.131127+02	2021-10-02 02:01:45+02	Catalin Cimpanu	therecord/Conti-gang-threatens-to-dump-victim-data-if-ransom-negotiations-leak-to-reporters
+1794	US to work with 30 countries to tackle ransomware problem	The Biden administration announced today plans to hold a meeting with representatives from 30 countries, including NATO allies and G7 partners, on the topic of cybercrime, with a particular focus on ransomware and the abuse of cryptocurrency.	https://therecord.media/us-to-work-with-30-countries-to-tackle-ransomware-problem/	https://therecord.media/wp-content/uploads/2021/07/White-House.jpg	therecord	t	2021-10-02 04:00:02.004834+02	2021-10-02 03:57:25+02	Catalin Cimpanu	therecord/US-to-work-with-30-countries-to-tackle-ransomware-problem
 \.
 
 
@@ -1844,7 +1845,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1793, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1794, true);
 
 
 --
