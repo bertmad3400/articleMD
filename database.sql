@@ -1840,6 +1840,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1794	US to work with 30 countries to tackle ransomware problem	The Biden administration announced today plans to hold a meeting with representatives from 30 countries, including NATO allies and G7 partners, on the topic of cybercrime, with a particular focus on ransomware and the abuse of cryptocurrency.	https://therecord.media/us-to-work-with-30-countries-to-tackle-ransomware-problem/	https://therecord.media/wp-content/uploads/2021/07/White-House.jpg	therecord	t	2021-10-02 04:00:02.004834+02	2021-10-02 03:57:25+02	Catalin Cimpanu	therecord/US-to-work-with-30-countries-to-tackle-ransomware-problem
 1795	This feature could stop you forgetting your iPhone ever again | ZDNet	Never leave your iPhone behind at the work, school, or bar again.	https://www.zdnet.com/article/this-feature-could-stop-you-forgetting-your-iphone-ever-again/	https://www.zdnet.com/a/img/resize/aecf49db17ff21dca11ecdbf777783fb3614cb61/2021/09/27/d298b205-f49a-4b82-a7e3-c275f02ae12c/img-1614x.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-02 12:00:02.417694+02	2021-10-02 09:00:02+02	Adrian Kingsley-Hughes	zdnet/This-feature-could-stop-you-forgetting-your-iPhone-ever-again
 1796	Everyone needs to buy one of these cheap security tools | ZDNet	If you have important online accounts, you need one (perhaps, two) of these.	https://www.zdnet.com/article/everyone-needs-to-buy-one-of-these-cheap-security-tools/	https://www.zdnet.com/a/img/resize/eae8191c417e88d9b943675c903c5229dc1038a9/2021/09/29/9527d4a5-ec85-4596-a212-1b8a0688620b/img-1650.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-02 14:00:02.414279+02	2021-10-02 11:00:03+02	Adrian Kingsley-Hughes	zdnet/Everyone-needs-to-buy-one-of-these-cheap-security-tools
+1797	Academics discover hidden layer in China's Great Firewall	A team of academics from the University of Maryland has discovered a previously hidden layer in China's Great Firewall censorship system.	https://therecord.media/academics-discover-hidden-layer-in-chinas-great-firewall/	https://therecord.media/wp-content/uploads/2021/10/China.jpg	therecord	t	2021-10-02 19:00:02.23173+02	2021-10-02 18:20:09+02	Catalin Cimpanu	therecord/Academics-discover-hidden-layer-in-Chinas-Great-Firewall
 \.
 
 
@@ -1847,7 +1848,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1796, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1797, true);
 
 
 --
