@@ -1843,6 +1843,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1797	Academics discover hidden layer in China's Great Firewall	A team of academics from the University of Maryland has discovered a previously hidden layer in China's Great Firewall censorship system.	https://therecord.media/academics-discover-hidden-layer-in-chinas-great-firewall/	https://therecord.media/wp-content/uploads/2021/10/China.jpg	therecord	t	2021-10-02 19:00:02.23173+02	2021-10-02 18:20:09+02	Catalin Cimpanu	therecord/Academics-discover-hidden-layer-in-Chinas-Great-Firewall
 1798	Ruby updates code of conduct to promote inclusion	Maintainers behind the Ruby programming language have revised the project's Code of Conduct on GitHub to remove tolerating opposing viewpoints as a prerequisite. The decision comes after a community member posted a joke that many deemed sexist.	https://www.bleepingcomputer.com/news/technology/ruby-updates-code-of-conduct-to-promote-inclusion/	https://www.bleepstatic.com/content/hl-images/2020/12/16/RubyGems.jpg	bleepingcomputer	t	2021-10-02 20:00:02.668426+02	2021-10-02 16:01:00+02	Ax Sharma	bleepingcomputer/Ruby-updates-code-of-conduct-to-promote-inclusion
 1799	Sandhills online machinery markets shut down by ransomware attack	Industry publication giant Sandhills Global has suffered a ransomware attack, causing hosted websites to become inaccessible and disrupting their business operations.	https://www.bleepingcomputer.com/news/security/sandhills-online-machinery-markets-shut-down-by-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/04/30/smoke-hands.jpg	bleepingcomputer	t	2021-10-02 23:00:02.032121+02	2021-10-02 22:57:20+02	Lawrence Abrams	bleepingcomputer/Sandhills-online-machinery-markets-shut-down-by-ransomware-attack
+1800	Get training on Microsoft, Cybersecurity, Python, GDPR, and more with this master class | ZDNet	Now you can learn the skills for as many as six certifications in Python, CompTIA Cybersecurity, ITIL and GDPR even while working full-time.	https://www.zdnet.com/article/get-training-on-microsoft-cybersecurity-python-gdpr-and-more-with-this-master-class/	https://www.zdnet.com/a/img/resize/49adcf133bd8f5501c7de953fa77ae201c478f93/2021/09/30/668944ec-b86a-4354-b7ba-1d2fe6ad497b/sale-303120-article-image.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-03 16:00:02.363763+02	2021-10-03 13:00:01+02	ZDNet Academy	zdnet/Get-training-on-Microsoft-Cybersecurity-Python-GDPR-and-more-with-this-master-class
 \.
 
 
@@ -1850,7 +1851,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1799, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1800, true);
 
 
 --
