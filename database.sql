@@ -1862,6 +1862,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1816	RaidForums forced to use mirror after Brazilian govt contacts registrar	The RaidForums hacking forum has gone through a turbulent week, with its website now forced through a mirror domain after a government filed a legal request with their registrar.	https://www.bleepingcomputer.com/news/security/raidforums-forced-to-use-mirror-after-brazilian-govt-contacts-registrar/	https://www.bleepstatic.com/content/hl-images/2021/09/03/threat-actor.jpg	bleepingcomputer	t	2021-10-04 19:00:02.282981+02	2021-10-04 19:00:11+02	Bill Toulas	bleepingcomputer/RaidForums-forced-to-use-mirror-after-Brazilian-govt-contacts-registrar
 1817	Facebook, WhatsApp, and Instagram down due to DNS outage	Users around the world are reporting that they are unable to access Facebook, Instagram, and WhatsApp instead seeing errors that the sites can't be reached.	https://www.bleepingcomputer.com/news/technology/facebook-whatsapp-and-instagram-down-due-to-dns-outage/	https://www.bleepstatic.com/content/hl-images/2021/10/04/Facebook_thumbs_down.jpg	bleepingcomputer	t	2021-10-04 19:00:02.282981+02	2021-10-04 18:13:49+02	Sergiu Gatlan	bleepingcomputer/Facebook-WhatsApp-and-Instagram-down-due-to-DNS-outage
 1818	Misconfigured Apache Airflow servers leak thousands of credentials	While investigating a misconfiguration flaw in Apache Airflow, researchers discovered many exposed instances over the web leaking sensitive information, including credentials, from well-known tech companies. Apache Airflow is a popular open-source workflow management platform for organizing and managing tasks.	https://www.bleepingcomputer.com/news/security/misconfigured-apache-airflow-servers-leak-thousands-of-credentials/	https://www.bleepstatic.com/content/hl-images/2021/10/04/header.png	bleepingcomputer	t	2021-10-04 19:00:02.282981+02	2021-10-04 16:00:00+02	Ax Sharma	bleepingcomputer/Misconfigured-Apache-Airflow-servers-leak-thousands-of-credentials
+1819	iOS 15.0.1: Bugfixes galore | ZDNet	iOS 15.0.1 is what iOS 15 should have been.	https://www.zdnet.com/article/ios-15-0-1-bugfixes-galore/	https://www.zdnet.com/a/img/resize/cd811ea04352be96f5016bbede0e0050d3551bc6/2021/10/04/d047f838-2292-4ce0-ae48-28dbd1c045a9/ios-15-logo.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-04 20:00:01.757764+02	2021-10-04 15:02:00+02	Adrian Kingsley-Hughes	zdnet/iOS-1501-Bugfixes-galore
 \.
 
 
@@ -1869,7 +1870,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1818, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1819, true);
 
 
 --
