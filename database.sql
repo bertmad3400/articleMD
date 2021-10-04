@@ -1863,6 +1863,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1817	Facebook, WhatsApp, and Instagram down due to DNS outage	Users around the world are reporting that they are unable to access Facebook, Instagram, and WhatsApp instead seeing errors that the sites can't be reached.	https://www.bleepingcomputer.com/news/technology/facebook-whatsapp-and-instagram-down-due-to-dns-outage/	https://www.bleepstatic.com/content/hl-images/2021/10/04/Facebook_thumbs_down.jpg	bleepingcomputer	t	2021-10-04 19:00:02.282981+02	2021-10-04 18:13:49+02	Sergiu Gatlan	bleepingcomputer/Facebook-WhatsApp-and-Instagram-down-due-to-DNS-outage
 1818	Misconfigured Apache Airflow servers leak thousands of credentials	While investigating a misconfiguration flaw in Apache Airflow, researchers discovered many exposed instances over the web leaking sensitive information, including credentials, from well-known tech companies. Apache Airflow is a popular open-source workflow management platform for organizing and managing tasks.	https://www.bleepingcomputer.com/news/security/misconfigured-apache-airflow-servers-leak-thousands-of-credentials/	https://www.bleepstatic.com/content/hl-images/2021/10/04/header.png	bleepingcomputer	t	2021-10-04 19:00:02.282981+02	2021-10-04 16:00:00+02	Ax Sharma	bleepingcomputer/Misconfigured-Apache-Airflow-servers-leak-thousands-of-credentials
 1819	iOS 15.0.1: Bugfixes galore | ZDNet	iOS 15.0.1 is what iOS 15 should have been.	https://www.zdnet.com/article/ios-15-0-1-bugfixes-galore/	https://www.zdnet.com/a/img/resize/cd811ea04352be96f5016bbede0e0050d3551bc6/2021/10/04/d047f838-2292-4ce0-ae48-28dbd1c045a9/ios-15-logo.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-04 20:00:01.757764+02	2021-10-04 15:02:00+02	Adrian Kingsley-Hughes	zdnet/iOS-1501-Bugfixes-galore
+1820	DHS and NIST release post-quantum cryptography guidance	The Department of Homeland Security and the Department of Commerce’s National Institute of Standards and Technology on Monday released a guide designed to help organizations prepare for risks introduced by advancements in quantum computing.	https://therecord.media/dhs-and-nist-release-post-quantum-cryptography-guidance/	https://therecord.media/wp-content/uploads/2021/10/jornada-produtora-q2Zk10NBnsA-unsplash-1.jpg	therecord	t	2021-10-04 21:00:02.199289+02	2021-10-04 20:44:50+02	Adam Janofsky	therecord/DHS-and-NIST-release-post-quantum-cryptography-guidance
 \.
 
 
@@ -1870,7 +1871,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1819, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1820, true);
 
 
 --
