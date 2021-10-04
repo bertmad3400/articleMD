@@ -1845,6 +1845,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1799	Sandhills online machinery markets shut down by ransomware attack	Industry publication giant Sandhills Global has suffered a ransomware attack, causing hosted websites to become inaccessible and disrupting their business operations.	https://www.bleepingcomputer.com/news/security/sandhills-online-machinery-markets-shut-down-by-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/04/30/smoke-hands.jpg	bleepingcomputer	t	2021-10-02 23:00:02.032121+02	2021-10-02 22:57:20+02	Lawrence Abrams	bleepingcomputer/Sandhills-online-machinery-markets-shut-down-by-ransomware-attack
 1800	Get training on Microsoft, Cybersecurity, Python, GDPR, and more with this master class | ZDNet	Now you can learn the skills for as many as six certifications in Python, CompTIA Cybersecurity, ITIL and GDPR even while working full-time.	https://www.zdnet.com/article/get-training-on-microsoft-cybersecurity-python-gdpr-and-more-with-this-master-class/	https://www.zdnet.com/a/img/resize/49adcf133bd8f5501c7de953fa77ae201c478f93/2021/09/30/668944ec-b86a-4354-b7ba-1d2fe6ad497b/sale-303120-article-image.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-03 16:00:02.363763+02	2021-10-03 13:00:01+02	ZDNet Academy	zdnet/Get-training-on-Microsoft-Cybersecurity-Python-GDPR-and-more-with-this-master-class
 1801	Transnational fraud ring stole millions from Army members, veterans	Fredrick Brown, a former U.S. Army contrractor, was sentenced today to 151 months in prison after admitting to his role in a conspiracy that targeted thousands of U.S. servicemembers and veterans and caused millions of dollars in losses.	https://www.bleepingcomputer.com/news/security/transnational-fraud-ring-stole-millions-from-army-members-veterans/	https://www.bleepstatic.com/content/hl-images/2021/03/01/Hacker-Surveillance-Light.jpg	bleepingcomputer	t	2021-10-03 18:00:01.870938+02	2021-10-03 16:00:00+02	Sergiu Gatlan	bleepingcomputer/Transnational-fraud-ring-stole-millions-from-Army-members-veterans
+1802	BazarLoader and the Conti Leaks	In July, we observed an intrusion that started from a BazarLoader infection and lasted approximately three days.	https://thedfirreport.com/2021/10/04/bazarloader-and-the-conti-leaks/	https://thedfirreport.com/wp-content/uploads/2021/09/ProcessInjection-Diagram-small.png	dfirreport	t	2021-10-04 04:00:01.798796+02	2021-10-04 03:30:53+02	editor	dfirreport/BazarLoader-and-the-Conti-Leaks
 \.
 
 
@@ -1852,7 +1853,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1801, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1802, true);
 
 
 --
