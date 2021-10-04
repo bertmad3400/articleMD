@@ -1871,6 +1871,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1825	JFrog becomes latest organization authorized as numbering authority for vulnerabilities exposure | ZDNet	Currently, there are 189 organizations from 31 countries participating as CNAs.	https://www.zdnet.com/article/jfrog-becomes-latest-organization-authorized-as-numbering-authority-for-vulnerabilities-exposure/	https://www.zdnet.com/a/img/resize/3e9a6eca18bbbab3b21f1952aa1a5f24d4f407c3/2021/08/02/9500e900-070f-49e2-b214-e088fa9e3f9b/global-cybersecurity-cyberattack-network-gps.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-05 00:00:02.182812+02	2021-10-04 21:46:32+02	Jonathan Greig	zdnet/JFrog-becomes-latest-organization-authorized-as-numbering-authority-for-vulnerabilities-exposure
 1826	Report: New PCR test intelligence around Wuhan suggests COVID-19 was virulent earlier than thought	The coronavirus may have been spreading through Wuhan, China much earlier than previously thought, according to an analysis of Chinese procurement records by Internet 2.0, a company that specializes in digital forensics and intelligence analysis.	https://therecord.media/report-new-pcr-test-intelligence-around-wuhan-suggests-covid-19-was-virulent-earlier-than-thought/	https://therecord.media/wp-content/uploads/2021/10/moshed-10-04-17-42-0.png	therecord	t	2021-10-05 00:00:02.182812+02	2021-10-04 23:51:46+02	Dina Temple-Raston	therecord/Report-New-PCR-test-intelligence-around-Wuhan-suggests-COVID-19-was-virulent-earlier-than-thought
 1827	Largest mobile SMS routing firm discloses five-year-long breach	Syniverse, a service provider for most telecommunications companies, disclosed that hackers had access to its databases over the past five years and compromised login credentials belonging to hundreds of customers.	https://www.bleepingcomputer.com/news/security/largest-mobile-sms-routing-firm-discloses-five-year-long-breach/	https://www.bleepstatic.com/content/posts/2021/10/04/Phone.jpg	bleepingcomputer	t	2021-10-05 00:00:02.182812+02	2021-10-04 23:42:04+02	Ionut Ilascu	bleepingcomputer/Largest-mobile-SMS-routing-firm-discloses-five-year-long-breach
+1828	Facebook, Instagram, and WhatsApp back online after BGP fix	Facebook, Instagram, and WhatsApp are starting to come back online after a BGP routing issue caused an over five-hour worldwide outage.	https://www.bleepingcomputer.com/news/technology/facebook-instagram-and-whatsapp-back-online-after-bgp-fix/	https://www.bleepstatic.com/content/hl-images/2021/05/11/Facebook-headpic.jpg	bleepingcomputer	t	2021-10-05 01:00:02.006812+02	2021-10-05 00:44:19+02	Lawrence Abrams	bleepingcomputer/Facebook-Instagram-and-WhatsApp-back-online-after-BGP-fix
 \.
 
 
@@ -1878,7 +1879,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1827, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1828, true);
 
 
 --
