@@ -1855,6 +1855,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1809	Ransomware: Police arrest two in operation against 'prolific' gang that targeted big businesses | ZDNet	Coordinated international action involving Europol, Interpol, the FBI and others sees arrests made in Ukraine over involvement in over one hundred ransomware attacks.	https://www.zdnet.com/article/ransomware-police-arrest-two-in-operation-against-prolific-gang-that-targeted-big-businesses/	https://www.zdnet.com/a/img/resize/fc6b456eca611b0e8b034db4d2637783c3f768db/2021/09/28/b8e87bb6-d657-4da5-8860-16a3555c5a76/hands-on-a-keyboard-with-blue-lighting.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-04 16:00:02.587808+02	2021-10-04 13:45:00+02	Danny Palmer	zdnet/Ransomware-Police-arrest-two-in-operation-against-prolific-gang-that-targeted-big-businesses
 1810	UK plans to invest £5 billion in retaliatory cyber-attacks	The United Kingdom has revealed plans to invest £5 billion in bolstering national cybersecurity that includes creating a Cyber Force unit to perform retaliatory attacks.	https://www.bleepingcomputer.com/news/security/uk-plans-to-invest-5-billion-in-retaliatory-cyber-attacks/	https://www.bleepstatic.com/content/hl-images/2021/10/04/britain.jpg	bleepingcomputer	t	2021-10-04 16:00:02.587808+02	2021-10-04 15:47:19+02	Bill Toulas	bleepingcomputer/UK-plans-to-invest-5-billion-in-retaliatory-cyber-attacks
 1811	New Atom Silo ransomware targets vulnerable Confluence servers	Atom Silo, a newly spotted ransomware group, is targeting a recently patched and actively exploited Confluence Server and Data Center vulnerability to deploy their ransomware payloads.	https://www.bleepingcomputer.com/news/security/new-atom-silo-ransomware-targets-vulnerable-confluence-servers/	https://www.bleepstatic.com/content/hl-images/2021/10/04/Target_dart.jpg	bleepingcomputer	t	2021-10-04 16:00:02.587808+02	2021-10-04 15:21:40+02	Sergiu Gatlan	bleepingcomputer/New-Atom-Silo-ransomware-targets-vulnerable-Confluence-servers
+1812	Cybersecurity budgets for industrial control systems and operational tech increasing: SANS Institute | ZDNet	The Nozomi Networks survey found 15% of respondents report that they have had a cybersecurity incident in their OT environment over the past 12 months.	https://www.zdnet.com/article/cybersecurity-budgets-for-industrial-control-systems-increasing-sans-institute/	https://www.zdnet.com/a/img/resize/57491de4aa5e2505b236ea5e881f03813b7bdd5a/2019/03/19/825b0d98-80bc-4c22-af26-a673028a359b/alumin-plant.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-04 17:00:02.25114+02	2021-10-04 14:01:50+02	Jonathan Greig	zdnet/Cybersecurity-budgets-for-industrial-control-systems-and-operational-tech-increasing-SANS-Institute
 \.
 
 
@@ -1862,7 +1863,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1811, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1812, true);
 
 
 --
