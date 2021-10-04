@@ -1847,6 +1847,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1801	Transnational fraud ring stole millions from Army members, veterans	Fredrick Brown, a former U.S. Army contrractor, was sentenced today to 151 months in prison after admitting to his role in a conspiracy that targeted thousands of U.S. servicemembers and veterans and caused millions of dollars in losses.	https://www.bleepingcomputer.com/news/security/transnational-fraud-ring-stole-millions-from-army-members-veterans/	https://www.bleepstatic.com/content/hl-images/2021/03/01/Hacker-Surveillance-Light.jpg	bleepingcomputer	t	2021-10-03 18:00:01.870938+02	2021-10-03 16:00:00+02	Sergiu Gatlan	bleepingcomputer/Transnational-fraud-ring-stole-millions-from-Army-members-veterans
 1802	BazarLoader and the Conti Leaks	In July, we observed an intrusion that started from a BazarLoader infection and lasted approximately three days.	https://thedfirreport.com/2021/10/04/bazarloader-and-the-conti-leaks/	https://thedfirreport.com/wp-content/uploads/2021/09/ProcessInjection-Diagram-small.png	dfirreport	t	2021-10-04 04:00:01.798796+02	2021-10-04 03:30:53+02	editor	dfirreport/BazarLoader-and-the-Conti-Leaks
 1803	Two ransomware operators arrested in Ukraine	Two members of a ransomware gang were arrested in Ukraine following a joint international law enforcement operation.	https://therecord.media/two-members-of-a-ransomware-gang-were-arrested-in-ukraine-following-a-joint-international-law-enforcement-operation/	https://therecord.media/wp-content/uploads/2021/10/Ukraine-ransomware-arrests.jpg	therecord	t	2021-10-04 12:00:02.144761+02	2021-10-04 11:59:34+02	Catalin Cimpanu	therecord/Two-ransomware-operators-arrested-in-Ukraine
+1804	New offensive cyber force will confront aggressive behaviour, says Foreign Secretary | ZDNet	The National Cyber Force will work out of Lancashire, bringing together staff from the MoD, GCHQ and MI6 to counter cyber threats - and launch offensive operations.	https://www.zdnet.com/article/new-offensive-cyber-force-will-confront-aggressive-behaviour-says-foreign-secretary/	https://www.zdnet.com/a/img/resize/cc31152d1a7b7dbb9fb0f232e5a2ffde44dda565/2021/03/08/8483e021-8f57-42f1-9a3c-f5bbb61b3e53/istock-1197070949.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-04 14:00:01.794199+02	2021-10-04 11:04:28+02	Danny Palmer	zdnet/New-offensive-cyber-force-will-confront-aggressive-behaviour-says-Foreign-Secretary
 \.
 
 
@@ -1854,7 +1855,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1803, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1804, true);
 
 
 --
