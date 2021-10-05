@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 13.3
--- Dumped by pg_dump version 13.3
+-- Dumped by pg_dump version 13.4
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1885,6 +1885,12 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1839	YubiKey Bio builds biometric authentication into a security key | ZDNet	The new YubiKey Bio brings a passwordless world one step closer.	https://www.zdnet.com/article/yubikey-bio-builds-biometric-authentication-into-a-security-key/	https://www.zdnet.com/a/img/resize/7882fcef1274b22e86e4f468de72ddcee7bbec18/2021/10/05/e1f79fcc-e5ec-4caa-af73-9942b2909d65/img-1849.gif?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-05 16:00:02.365871+02	2021-10-05 13:00:00+02	Adrian Kingsley-Hughes	zdnet/YubiKey-Bio-builds-biometric-authentication-into-a-security-key
 1840	Apache fixes zero-day vulnerability exploited in the wild, patch now	The Apache Software Foundation has released version 2.4.50 of the HTTP Web Server to address two vulnerabilities, one of which is an actively exploited path traversal and file disclosure flaw.	https://www.bleepingcomputer.com/news/security/apache-fixes-zero-day-vulnerability-exploited-in-the-wild-patch-now/	https://www.bleepstatic.com/content/hl-images/2021/10/05/Apache_headpic.jpg	bleepingcomputer	t	2021-10-05 16:00:02.365871+02	2021-10-05 15:56:56+02	Bill Toulas	bleepingcomputer/Apache-fixes-zero-day-vulnerability-exploited-in-the-wild-patch-now
 1841	Ransomware gang encrypts VMware ESXi servers with Python script	Operators of an unknown ransomware gang are using a Python script to encrypt virtual machines hosted on VMware ESXi servers.	https://www.bleepingcomputer.com/news/security/ransomware-gang-encrypts-vmware-esxi-servers-with-python-script/	https://www.bleepstatic.com/content/hl-images/2021/09/22/VMware-headpic.jpg	bleepingcomputer	t	2021-10-05 16:00:02.365871+02	2021-10-05 15:00:00+02	Sergiu Gatlan	bleepingcomputer/Ransomware-gang-encrypts-VMware-ESXi-servers-with-Python-script
+1842	Apache fixes actively exploited web server zero-day	The Apache Software Foundation has released on Monday a security patch to address a vulnerability in its HTTP Web Server project that has been actively exploited in the wild.	https://therecord.media/apache-fixes-actively-exploited-web-server-zero-day/	https://therecord.media/wp-content/uploads/2021/10/Apache-web-server.png	therecord	t	2021-10-05 17:00:02.439003+02	2021-10-05 16:51:21+02	Catalin Cimpanu	therecord/Apache-fixes-actively-exploited-web-server-zero-day
+1843	When your VPN is a matter of life or death, don't rely on reviews | ZDNet	If you believe that the only thing standing between you and death, abuse, persecution, or imprisonment is the VPN you're using, you must read this article now.	https://www.zdnet.com/article/when-your-vpn-is-a-matter-of-life-or-death-dont-rely-on-reviews/	https://www.zdnet.com/a/img/resize/67ad6ff865ad0e490dd3c685de423b0469586bdd/2021/10/05/9f7dc1e9-4942-4209-aa0d-d2621b842098/shutterstock-1698391102.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-05 17:00:02.439003+02	2021-10-05 14:50:19+02	David Gewirtz	zdnet/When-your-VPN-is-a-matter-of-life-or-death-dont-rely-on-reviews
+1844	Epic Games now requires Epic Online Services - How to Install	Epic Games now requires users to install Epic Online Services to properly use the Launcher. Here's how to fix the blank screen that is preventing users from installing this new service.	https://www.bleepingcomputer.com/news/gaming/epic-games-now-requires-epic-online-services-how-to-install/	https://www.bleepstatic.com/content/hl-images/2021/10/05/epic-games-store-logo-header.jpg	bleepingcomputer	t	2021-10-05 17:00:02.439003+02	2021-10-05 16:50:24+02	Lawrence Abrams	bleepingcomputer/Epic-Games-now-requires-Epic-Online-Services---How-to-Install
+1845	How to Build an Incident-Response Plan, Before Security Disaster Strikes	Joseph Carson, Chief Security Scientist at ThycoticCentrify, offers a 7-step practical IR checklist for ensuring a swift recovery from a cyberattack.	https://kasperskycontenthub.com/threatpost-global/?p=175335	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/03121451/incident_response-e1630685709431.png	threatpost	t	2021-10-05 17:00:02.439003+02	2021-10-05 16:55:30+02	Joseph Carson	threatpost/How-to-Build-an-Incident-Response-Plan-Before-Security-Disaster-Strikes
+1846	Facebook Blames Outage on Faulty Router Configuration	One easily disproved conspiracy theory linked the ~six-hour outage to a supposed data breach tied to a Sept. 22 hacker forum ad for 1.5B Facebook user records.	https://kasperskycontenthub.com/threatpost-global/?p=175322	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/05101128/zuck-e1633443100660.jpeg	threatpost	t	2021-10-05 17:00:02.439003+02	2021-10-05 16:30:59+02	Lisa Vaas	threatpost/Facebook-Blames-Outage-on-Faulty-Router-Configuration
+1847	Oops! DeFi Platform Gives Out $90M, Would Like it Back, Please	The Compound cryptocurrency exchange accidentally botched a platform upgrade and distributed millions in free COMP tokens to users – then threatened to dox the recipients.	https://kasperskycontenthub.com/threatpost-global/?p=175321	https://media.threatpost.com/wp-content/uploads/sites/103/2021/08/26171204/cryptocurrency_fail-405x270-1.jpeg	threatpost	t	2021-10-05 17:00:02.439003+02	2021-10-05 16:16:22+02	Becky Bracken	threatpost/Oops-Compound-DeFi-Platform-Gives-Out-90M-Would-Like-it-Back-Please
 \.
 
 
@@ -1892,7 +1898,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1841, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1847, true);
 
 
 --
