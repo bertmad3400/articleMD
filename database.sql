@@ -1900,6 +1900,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1854	What, exactly, is cybersecurity? And why does it matter? | ZDNet	Cyberattacks steal data and cause millions in economic costs. Learn what cybersecurity professionals do and how to protect your data with our guide.	https://www.zdnet.com/article/what-is-cybersecurity-and-why-cybersecurity-matters/	https://www.zdnet.com/a/img/resize/8401987fbe403bd4cdde29bd59fab23c15f107e7/2021/09/10/ef7f8a3b-bf95-43dd-a96d-82b0316dba85/cybersecurity.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-05 20:00:02.222813+02	2021-10-05 17:10:47+02	Nate Delesline III	zdnet/What-exactly-is-cybersecurity-And-why-does-it-matter
 1855	BlackBerry ties malware campaign targeting victims in India to Chinese cyberespionage group | ZDNet	According to researchers with BlackBerry, notorious Chinese cyberespionage group APT41 is using COVID phishing lures to target victims in India.	https://www.zdnet.com/article/blackberry-ties-malware-campaign-targeting-victims-in-india-to-chinese-cyberespionage-group/	https://www.zdnet.com/a/img/resize/0b53eca29d059d2fad5ebf43811ffcb39303a21c/2020/09/24/33f49a88-a961-4af8-80af-f60a2405eb1f/china-hack-apt.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-05 20:00:02.222813+02	2021-10-05 16:56:35+02	Jonathan Greig	zdnet/BlackBerry-ties-malware-campaign-targeting-victims-in-India-to-Chinese-cyberespionage-group
 1856	Google to auto-enroll 150 million user accounts into 2FA	Google announced today that they plan on auto-enrolling 150 million accounts into two-factor authentication by the end of 2021.	https://www.bleepingcomputer.com/news/google/google-to-auto-enroll-150-million-user-accounts-into-2fa/	https://www.bleepstatic.com/content/hl-images/2020/08/06/Google.jpg	bleepingcomputer	t	2021-10-05 22:00:02.132195+02	2021-10-05 21:53:23+02	Lawrence Abrams	bleepingcomputer/Google-to-auto-enroll-150-million-user-accounts-into-2FA
+1857	Apache Web Server Zero-Day Exposes Sensitive Data	The open-source project has rolled out a security fix for CVE-2021-41773, which has public cyberattack exploit code circulating.	https://kasperskycontenthub.com/threatpost-global/?p=175340	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/05155430/apache.png	threatpost	t	2021-10-05 23:00:02.468613+02	2021-10-05 22:01:27+02	Tara Seals	threatpost/Apache-Web-Server-Zero-Day-Exposes-Sensitive-Data
 \.
 
 
@@ -1907,7 +1908,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1856, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1857, true);
 
 
 --
