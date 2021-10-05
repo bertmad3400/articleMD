@@ -1897,6 +1897,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1851	NSC’s Neuberger: National sense of urgency is spurring more cybersecurity action	The Biden administration is trying to take advantage of the nation’s newfound focus on cybersecurity in the wake of epic supply chain hacks and ransomware incidents to make substantive changes in the nation’s cyber defenses.	https://therecord.media/nscs-neuberger-national-sense-of-urgency-is-spurring-more-cybersecurity-action/	https://therecord.media/wp-content/uploads/2021/10/White_House_DC.jpg	therecord	t	2021-10-05 19:00:02.267389+02	2021-10-05 18:40:26+02	Dina Temple-Raston	therecord/NSCs-Neuberger-National-sense-of-urgency-is-spurring-more-cybersecurity-action
 1852	NSA chief predicts U.S. will face ransomware 'every single day' for years to come	The U.S. will have to contend with the threat of ransomware daily for at least the next several years, the leader of the country’s premier digital spy agency said Tuesday.	https://therecord.media/nsa-chief-predicts-u-s-will-face-ransomware-every-single-day-for-years-to-come/	https://therecord.media/wp-content/uploads/2021/10/MRW_3695_31978950087-1.jpg	therecord	t	2021-10-05 19:00:02.267389+02	2021-10-05 18:20:48+02	Martin Matishak	therecord/NSA-chief-predicts-US-will-face-ransomware-every-single-day-for-years-to-come
 1853	Google to auto-enroll 150 million accounts into its 2SV feature	Google has announced plans today to auto-enroll 150 million user accounts into its two-step verification (2SV) system by the end of the year.	https://therecord.media/google-to-auto-enroll-150-million-accounts-into-its-2sv-feature/	https://therecord.media/wp-content/uploads/2021/06/Google-Chrome-2.png	therecord	t	2021-10-05 19:00:02.267389+02	2021-10-05 18:08:10+02	Catalin Cimpanu	therecord/Google-to-auto-enroll-150-million-accounts-into-its-2SV-feature
+1854	What, exactly, is cybersecurity? And why does it matter? | ZDNet	Cyberattacks steal data and cause millions in economic costs. Learn what cybersecurity professionals do and how to protect your data with our guide.	https://www.zdnet.com/article/what-is-cybersecurity-and-why-cybersecurity-matters/	https://www.zdnet.com/a/img/resize/8401987fbe403bd4cdde29bd59fab23c15f107e7/2021/09/10/ef7f8a3b-bf95-43dd-a96d-82b0316dba85/cybersecurity.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-05 20:00:02.222813+02	2021-10-05 17:10:47+02	Nate Delesline III	zdnet/What-exactly-is-cybersecurity-And-why-does-it-matter
+1855	BlackBerry ties malware campaign targeting victims in India to Chinese cyberespionage group | ZDNet	According to researchers with BlackBerry, notorious Chinese cyberespionage group APT41 is using COVID phishing lures to target victims in India.	https://www.zdnet.com/article/blackberry-ties-malware-campaign-targeting-victims-in-india-to-chinese-cyberespionage-group/	https://www.zdnet.com/a/img/resize/0b53eca29d059d2fad5ebf43811ffcb39303a21c/2020/09/24/33f49a88-a961-4af8-80af-f60a2405eb1f/china-hack-apt.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-05 20:00:02.222813+02	2021-10-05 16:56:35+02	Jonathan Greig	zdnet/BlackBerry-ties-malware-campaign-targeting-victims-in-India-to-Chinese-cyberespionage-group
 \.
 
 
@@ -1904,7 +1906,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1853, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1855, true);
 
 
 --
