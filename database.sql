@@ -1874,6 +1874,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1828	Facebook, Instagram, and WhatsApp back online after BGP fix	Facebook, Instagram, and WhatsApp are starting to come back online after a BGP routing issue caused an over five-hour worldwide outage.	https://www.bleepingcomputer.com/news/technology/facebook-instagram-and-whatsapp-back-online-after-bgp-fix/	https://www.bleepstatic.com/content/hl-images/2021/05/11/Facebook-headpic.jpg	bleepingcomputer	t	2021-10-05 01:00:02.006812+02	2021-10-05 00:44:19+02	Lawrence Abrams	bleepingcomputer/Facebook-Instagram-and-WhatsApp-back-online-after-BGP-fix
 1829	How to download the latest Windows 11 ISO from Microsoft	Microsoft has officially released Windows 11 and ISO images that allow you to create bootable media to perform clean installs of the operating system and troubleshoot bugs and problems.	https://www.bleepingcomputer.com/news/microsoft/how-to-download-the-latest-windows-11-iso-from-microsoft/	https://www.bleepstatic.com/content/hl-images/2021/06/15/Windows-11-logo.jpg	bleepingcomputer	t	2021-10-05 02:00:02.127329+02	2021-10-05 01:05:12+02	Lawrence Abrams	bleepingcomputer/How-to-download-the-latest-Windows-11-ISO-from-Microsoft
 1830	Microsoft confirms Windows 11 issues with VirtualBox, Intel Killer	Right after officially releasing Windows 11, Microsoft has added three know issues to the Windows 11 12H2 release health dashboard.	https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-11-issues-with-virtualbox-intel-killer/	https://www.bleepstatic.com/content/hl-images/2021/09/01/Windows_11_headpic.jpg	bleepingcomputer	t	2021-10-05 11:00:02.149264+02	2021-10-05 10:56:21+02	Sergiu Gatlan	bleepingcomputer/Microsoft-confirms-Windows-11-issues-with-VirtualBox-Intel-Killer
+1831	Misconfigured, old Airflow instances leak Slack, AWS credentials | ZDNet	Unprotected instances are exposing secrets across industries including IT, health, and cybersecurity.	https://www.zdnet.com/article/misconfigured-airflow-instances-leak-slack-aws-credentials/	https://www.zdnet.com/a/img/resize/7f7d6e01f6811b797f9973ec36846d0f4932e66a/2021/10/05/337cb71c-4cd4-4ad3-8bb8-dc4730fa6263/screenshot-2021-10-05-at-09-27-06.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-05 12:00:02.151628+02	2021-10-05 09:31:18+02	Charlie Osborne	zdnet/Misconfigured-old-Airflow-instances-leak-Slack-AWS-credentials
+1832	Facebook: Outage caused by faulty routing configuration changes	Facebook says that yesterday's worldwide outage was caused by faulty configuration changes made to its backbone routers that brought all its services to a halt.	https://www.bleepingcomputer.com/news/technology/facebook-outage-caused-by-faulty-routing-configuration-changes/	https://www.bleepstatic.com/content/hl-images/2021/06/30/Facebook.jpg	bleepingcomputer	t	2021-10-05 12:00:02.151628+02	2021-10-05 11:26:07+02	Sergiu Gatlan	bleepingcomputer/Facebook-Outage-caused-by-faulty-routing-configuration-changes
 \.
 
 
@@ -1881,7 +1883,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1830, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1832, true);
 
 
 --
