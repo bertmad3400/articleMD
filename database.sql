@@ -1877,6 +1877,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1831	Misconfigured, old Airflow instances leak Slack, AWS credentials | ZDNet	Unprotected instances are exposing secrets across industries including IT, health, and cybersecurity.	https://www.zdnet.com/article/misconfigured-airflow-instances-leak-slack-aws-credentials/	https://www.zdnet.com/a/img/resize/7f7d6e01f6811b797f9973ec36846d0f4932e66a/2021/10/05/337cb71c-4cd4-4ad3-8bb8-dc4730fa6263/screenshot-2021-10-05-at-09-27-06.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-05 12:00:02.151628+02	2021-10-05 09:31:18+02	Charlie Osborne	zdnet/Misconfigured-old-Airflow-instances-leak-Slack-AWS-credentials
 1832	Facebook: Outage caused by faulty routing configuration changes	Facebook says that yesterday's worldwide outage was caused by faulty configuration changes made to its backbone routers that brought all its services to a halt.	https://www.bleepingcomputer.com/news/technology/facebook-outage-caused-by-faulty-routing-configuration-changes/	https://www.bleepstatic.com/content/hl-images/2021/06/30/Facebook.jpg	bleepingcomputer	t	2021-10-05 12:00:02.151628+02	2021-10-05 11:26:07+02	Sergiu Gatlan	bleepingcomputer/Facebook-Outage-caused-by-faulty-routing-configuration-changes
 1833	Atom Silo ransomware operators target vulnerable Confluence servers | ZDNet	A weaponized exploit used by the cybercriminals was only disclosed in August.	https://www.zdnet.com/article/atom-silo-ransomware-operators-target-vulnerable-confluence-servers/	https://www.zdnet.com/a/img/resize/859b17af3a13b96996e4b944dd30fccd8c14f4e2/2021/07/08/18a7dced-dd78-4e34-a57f-48ac3d8cd876/ransomware-payment.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-05 13:00:02.670727+02	2021-10-05 10:42:39+02	Charlie Osborne	zdnet/Atom-Silo-ransomware-operators-target-vulnerable-Confluence-servers
+1834	New UEFI bootkit used to backdoor Windows devices since 2012	A newly discovered and previously undocumented UEFI (Unified Extensible Firmware Interface) bootkit has been used by attackers to backdoor Windows systems by hijacking the Windows Boot Manager since at least 2012.	https://www.bleepingcomputer.com/news/security/new-uefi-bootkit-used-to-backdoor-windows-devices-since-2012/	https://www.bleepstatic.com/content/hl-images/2021/10/05/Windows-keyboard.jpg	bleepingcomputer	t	2021-10-05 14:00:02.595978+02	2021-10-05 13:16:46+02	Sergiu Gatlan	bleepingcomputer/New-UEFI-bootkit-used-to-backdoor-Windows-devices-since-2012
 \.
 
 
@@ -1884,7 +1885,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1833, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1834, true);
 
 
 --
