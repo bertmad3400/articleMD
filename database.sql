@@ -1946,6 +1946,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1900	DOJ to go after government contractors who don't disclose breaches	The US Department of Justice has announced today plans to pursue government contractors who hide or fail to notify the government about cyber-security breaches.	https://therecord.media/doj-to-go-after-government-contractors-who-dont-disclose-breaches/	https://therecord.media/wp-content/uploads/2021/06/DOJ-Lisa-Monaco-1.jpg	therecord	t	2021-10-06 23:00:01.994876+02	2021-10-06 22:52:08+02	Catalin Cimpanu	therecord/DOJ-to-go-after-government-contractors-who-dont-disclose-breaches
 1901	Windows 11 upgrades show Windows 10 Start Menu for some users	Windows 11 users report a strange upgrade experience where the operating system continues to show the Windows 10 taskbar, while everything else uses the new Windows 11 user interface.	https://www.bleepingcomputer.com/news/microsoft/windows-11-upgrades-show-windows-10-start-menu-for-some-users/	https://www.bleepstatic.com/content/hl-images/2021/09/01/windows-11-glow-glass.jpg	bleepingcomputer	t	2021-10-06 23:00:01.994876+02	2021-10-06 22:43:57+02	Lawrence Abrams	bleepingcomputer/Windows-11-upgrades-show-Windows-10-Start-Menu-for-some-users
 1902	VMware ESXi Servers Encrypted by Lightning-Fast Python Script	It's a little snippet of Python code – 6KB – that strikes fast and nasty, taking less than three hours to complete from initial breach to encryption.	https://kasperskycontenthub.com/threatpost-global/?p=175374	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/06161649/python-e1633551421879.jpeg	threatpost	t	2021-10-06 23:00:01.994876+02	2021-10-06 22:34:28+02	Lisa Vaas	threatpost/VMware-ESXi-Servers-Encrypted-by-Lightning-Fast-Python-Script
+1903	US Deputy Attorney General launches cryptocurrency enforcement team at DOJ | ZDNet	US Deputy Attorney General Lisa Monaco spoke about two different enforcement initiatives during a speech at the Aspen Cyber Summit.	https://www.zdnet.com/article/us-deputy-attorney-general-launches-cryptocurrency-enforcement-team-at-doj/	https://www.zdnet.com/a/img/resize/5ad1b28ba8dac63d56d945dc63a774130eaade4e/2018/02/07/c42efd4f-479f-49c2-bd3f-8f6ac6bb0db0/158214905.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-07 00:00:01.949572+02	2021-10-06 21:38:04+02	Jonathan Greig	zdnet/US-Deputy-Attorney-General-launches-cryptocurrency-enforcement-team-at-DOJ
+1904	Canopy Parental Control App Wide Open to Unpatched XSS Bugs	The possible cyberattacks include disabling monitoring, location-tracking of children and malicious redirects of parent-console users.	https://kasperskycontenthub.com/threatpost-global/?p=175384	https://media.threatpost.com/wp-content/uploads/sites/103/2021/06/22120601/kids-apps-e1624377972972.jpg	threatpost	t	2021-10-07 00:00:01.949572+02	2021-10-06 23:27:32+02	Tara Seals	threatpost/Canopy-Parental-Control-App-Wide-Open-to-Unpatched-XSS-Bugs
 \.
 
 
@@ -1953,7 +1955,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1902, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1904, true);
 
 
 --
