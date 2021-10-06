@@ -1942,6 +1942,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1896	Becoming a new chief information security officer today: The steps for success | ZDNet	It's no easy ride -- but here are some tips from an experienced CISO.	https://www.zdnet.com/article/being-a-chief-information-security-officer-the-steps-for-success/	https://www.zdnet.com/a/img/resize/c0f9998c90cb9ebffc4f65cabe50b97250ec4661/2021/09/23/71710f13-9534-45e8-acfb-a6d6aeb8a8e3/female-business-owner.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-06 20:00:02.54002+02	2021-10-06 17:32:20+02	Charlie Osborne	zdnet/Becoming-a-new-chief-information-security-officer-today-The-steps-for-success
 1897	TSA to issue new cyber regulations for rail, aviation sectors	The TSA will issue cybersecurity regulations later this year for “higher-risk’’ railroad and rail transit systems and the aviation sector, Homeland Security Secretary Alejandro Mayorkas announced on Wednesday.	https://therecord.media/tsa-to-issue-new-cyber-regulations-for-rail-aviation-sectors/	https://therecord.media/wp-content/uploads/2021/10/oskar-kadaksoo-DDBDkz0p918-unsplash-1.jpg	therecord	t	2021-10-06 21:00:02.249825+02	2021-10-06 20:17:40+02	Martin Matishak	therecord/TSA-to-issue-new-cyber-regulations-for-rail-aviation-sectors
 1898	ESPecter Bootkit Malware Haunts Victims with Persistent Espionage	The rare UEFI bootkit drops a fully featured backdoor on PCs and gains the ultimate persistence by modifying the Windows Boot Manager.	https://kasperskycontenthub.com/threatpost-global/?p=175366	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/06135353/Boots-e1633542854623.png	threatpost	t	2021-10-06 21:00:02.249825+02	2021-10-06 20:11:58+02	Tara Seals	threatpost/ESPecter-Bootkit-Malware-Haunts-Victims-with-Persistent-Espionage
+1899	Hackers use stealthy ShellClient malware on aerospace, telco firms	Threat researchers investigating malware used to target companies in the aerospace and telecommunications sectors discovered a new threat actor that has been running cyber espionage campaigns since at least 2018.	https://www.bleepingcomputer.com/news/security/hackers-use-stealthy-shellclient-malware-on-aerospace-telco-firms/	https://www.bleepstatic.com/content/hl-images/2021/04/16/computer-hacker.jpg	bleepingcomputer	t	2021-10-06 22:00:02.274281+02	2021-10-06 21:42:54+02	Ionut Ilascu	bleepingcomputer/Hackers-use-stealthy-ShellClient-malware-on-aerospace-telco-firms
 \.
 
 
@@ -1949,7 +1950,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1898, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1899, true);
 
 
 --
