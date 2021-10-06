@@ -1929,6 +1929,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1880	Massive Twitch hack: Source code and payment reports leaked	Twitch source code, as well as streamers' and users' sensitive information, was allegedly leaked online by an anonymous user on the 4chan imageboard.	https://www.bleepingcomputer.com/news/security/massive-twitch-hack-source-code-and-payment-reports-leaked/	https://www.bleepstatic.com/content/hl-images/2021/10/06/Twitch_headpic.jpg	bleepingcomputer	t	2021-10-06 16:00:02.19695+02	2021-10-06 15:13:00+02	Sergiu Gatlan	bleepingcomputer/Massive-Twitch-hack-Source-code-and-payment-reports-leaked
 1884	CISA aims to fill all 50 statewide cyber coordinator posts by year’s end	CISA is on track to have 50 statewide coordinators in place across the U.S. by the end of the calendar year, according to a senior official, potentially adding another level of protection against digital threats like ransomware and foreign election interference.	https://therecord.media/cisa-aims-to-fill-all-50-statewide-cyber-coordinator-posts-by-years-end/	https://therecord.media/wp-content/uploads/2021/10/morgan-lane-BEF-7cpER3s-unsplash-1.jpg	therecord	t	2021-10-06 16:00:02.19695+02	2021-10-06 15:51:33+02	Martin Matishak	therecord/CISA-aims-to-fill-all-50-statewide-cyber-coordinator-posts-by-years-end
 1885	Twitch source code and business data leaked on 4chan	Individuals claiming to be part of the Anonymous hacker collective have leaked the source code and business data of video streaming platform Twitch via a torrent file posted on the 4chan discussion board earlier today.	https://therecord.media/twitch-source-code-and-business-data-leaked-on-4chan/	https://therecord.media/wp-content/uploads/2021/10/twitch.png	therecord	t	2021-10-06 16:00:02.19695+02	2021-10-06 12:54:30+02	Catalin Cimpanu	therecord/Twitch-source-code-and-business-data-leaked-on-4chan
+1886	Best VPN for Chrome and Chromebooks 2021 | ZDNet	How does a VPN work with Chrome and Chromebooks? In this article, we spotlight four providers who offer excellent support for both Chrome and Chromebook users, across a wide range of platforms.	https://www.zdnet.com/article/best-vpn-for-chrome/	https://www.zdnet.com/a/img/resize/266eaef7a42df82314dd0d1cad338ece9864d500/2021/10/01/50f992c5-29e0-4ca1-9a8a-8bef7e6a6328/aabrooke-cagle-g1kr4ozfoac-unsplash.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-06 17:00:02.624296+02	2021-10-06 14:11:43+02	David Gewirtz	zdnet/Best-VPN-for-Chrome-and-Chromebooks-2021
+1887	Medtronic urgently recalls insulin pump controllers over hacking concerns	Medtronic is urgently recalling remote controllers for insulin pumps belonging to its 'MiniMed Paradigm' family of products, due to potential cybersecurity risks.	https://www.bleepingcomputer.com/news/security/medtronic-urgently-recalls-insulin-pump-controllers-over-hacking-concerns/	https://www.bleepstatic.com/content/hl-images/2021/10/06/minimed-insulin-pump.jpg	bleepingcomputer	t	2021-10-06 17:00:02.624296+02	2021-10-06 16:48:56+02	Bill Toulas	bleepingcomputer/Medtronic-urgently-recalls-insulin-pump-controllers-over-hacking-concerns
 \.
 
 
@@ -1936,7 +1938,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1885, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1887, true);
 
 
 --
