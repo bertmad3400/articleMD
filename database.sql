@@ -1906,6 +1906,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1861	IP Surveillance Bugs in Axis Gear Allow RCE, Data Theft	Three security vulnerabilities in Axis video products could open up the door to a bevy of different cyberattacks on businesses.	https://kasperskycontenthub.com/threatpost-global/?p=175350	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/05163647/video-communications.jpg	threatpost	t	2021-10-06 00:00:01.967688+02	2021-10-05 23:09:10+02	Tara Seals	threatpost/IP-Surveillance-Bugs-in-Axis-Gear-Allow-RCE-Data-Theft
 1859	Researcher finds vulnerability in popular parental control app Canopy | ZDNet	A vulnerability with parental control app Canopy allows attackers to plant JavaScript into the parent portal and gain access to all the features a parent would have with their child's device.	https://www.zdnet.com/article/researcher-finds-vulnerability-in-popular-parental-control-app-canopy/	https://www.zdnet.com/a/img/resize/dee200be3d4d543fe6b28e15bf60bdf050b4818a/2021/01/07/2c7e5d3c-3279-4b9d-8e46-3bf951d5c744/privacy-kid.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-06 00:00:01.967688+02	2021-10-05 21:32:13+02	Jonathan Greig	zdnet/Researcher-finds-vulnerability-in-popular-parental-control-app-Canopy
 1862	Hong Kong firm becomes latest marketing company hit with REvil ransomware | ZDNet	A security company says global marketing firm Fimmick was attacked by REvil recently.	https://www.zdnet.com/article/hong-kong-firm-becomes-latest-marketing-company-hit-with-revil-ransomware/	https://www.zdnet.com/a/img/resize/92762aac6332a851cea6f39f3a3dce7fd54d46bd/2020/09/08/fcbbc318-6369-4e56-81c3-2d534f17619d/ransomware-graphic.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-06 01:00:02.381684+02	2021-10-05 22:27:47+02	Jonathan Greig	zdnet/Hong-Kong-firm-becomes-latest-marketing-company-hit-with-REvil-ransomware
+1863	By end of 2021, Google plans to auto-enroll 150 million users in two-step verification and require 2 million YouTube creators to turn it on | ZDNet	In honor of Cybersecurity Awareness Month, Google said it wanted to make sure their products are secure by default.	https://www.zdnet.com/article/by-end-of-2021-google-plans-to-auto-enroll-150-million-users-in-two-step-verification-and-require-2-million-youtube-creators-to-turn-it-on/	https://www.zdnet.com/a/img/resize/579d97e0a896e52f6cb8a5ab3ff2a95e1e1d58f6/2019/08/19/6f985463-ce3f-4e51-9d74-8693f869a8a3/google-to-android-users-no-passwords-you-5d55586bbac36000019f86db-1-aug-19-2019-21-14-36-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-06 02:00:02.299779+02	2021-10-05 23:22:25+02	Jonathan Greig	zdnet/By-end-of-2021-Google-plans-to-auto-enroll-150-million-users-in-two-step-verification-and-require-2-million-YouTube-creators-to-turn-it-on
 \.
 
 
@@ -1913,7 +1914,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1862, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1863, true);
 
 
 --
