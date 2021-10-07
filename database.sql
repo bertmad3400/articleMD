@@ -1952,6 +1952,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1906	U.S. govt to sue contractors who hide breach incidents	Under the new Civil Cyber-Fraud Initiative that the U.S. Department of Justice announced today, government contractors are accountable in a civil court if they don't report a breach or fail to meet required cybersecurity standards.	https://www.bleepingcomputer.com/news/security/us-govt-to-sue-contractors-who-hide-breach-incidents/	https://www.bleepstatic.com/content/hl-images/2021/10/06/Lisa_O._Monaco.jpg	bleepingcomputer	t	2021-10-07 03:00:02.578031+02	2021-10-07 02:01:40+02	Ionut Ilascu	bleepingcomputer/US-govt-to-sue-contractors-who-hide-breach-incidents
 1907	Windows 11 bug reverts users back to the Windows 10 taskbar	Windows 11 users report a strange upgrade experience where the operating system continues to show the Windows 10 taskbar, while everything else uses the new Windows 11 user interface.	https://www.bleepingcomputer.com/news/microsoft/windows-11-bug-reverts-users-back-to-the-windows-10-taskbar/	https://www.bleepstatic.com/content/hl-images/2021/09/01/windows-11-glow-glass.jpg	bleepingcomputer	t	2021-10-07 05:00:02.548676+02	2021-10-06 22:43:57+02	Lawrence Abrams	bleepingcomputer/Windows-11-bug-reverts-users-back-to-the-Windows-10-taskbar
 1908	DTA certifies four cloud providers to store sensitive government data | ZDNet	Amazon Web Services, AUCloud, Sliced Tech, and Vault Cloud have been chosen by government to store sensitive data on the cloud.	https://www.zdnet.com/article/dta-certifies-four-cloud-providers-to-store-sensitive-government-data/	https://www.zdnet.com/a/img/resize/35d13a9841d685d95fd312d15dfe709a538e7a47/2021/10/05/9ef26982-774f-4c4f-a5d8-69432f5e68ae/cloud-services.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-07 08:00:02.344296+02	2021-10-07 05:55:53+02	Campbell Kwan	zdnet/DTA-certifies-four-cloud-providers-to-store-sensitive-government-data
+1909	Former Kent police officer sentenced for downloading child sex abuse material | ZDNet	The disgraced officer has avoided jail.	https://www.zdnet.com/article/former-kent-police-officer-sentenced-for-downloading-child-sex-abuse-material/	https://www.zdnet.com/a/img/resize/088dc850aac6faacc2ea95868017157c788bd095/2014/10/20/afa2ddc7-583f-11e4-b6a0-d4ae52e95e57/police-uk.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-07 11:00:01.735884+02	2021-10-07 07:57:46+02	Charlie Osborne	zdnet/Former-Kent-police-officer-sentenced-for-downloading-child-sex-abuse-material
+1910	Twitch: No credentials or card numbers exposed in data breach	Twitch says that no login credentials and credit card numbers belonging to users or streamers were exposed following yesterday's massive data leak.	https://www.bleepingcomputer.com/news/security/twitch-no-credentials-or-card-numbers-exposed-in-data-breach/	https://www.bleepstatic.com/content/hl-images/2021/10/07/Twitch.jpg	bleepingcomputer	t	2021-10-07 11:00:01.735884+02	2021-10-07 09:39:35+02	Sergiu Gatlan	bleepingcomputer/Twitch-No-credentials-or-card-numbers-exposed-in-data-breach
 \.
 
 
@@ -1959,7 +1961,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1908, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1910, true);
 
 
 --
