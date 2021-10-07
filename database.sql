@@ -1972,6 +1972,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1926	FIN12 hits healthcare with quick and focused ransomware attacks	While most ransomware actors spend time on the victim network looking for important data to steal, one group favors quick malware deployment against sensitive, high-value targets.	https://www.bleepingcomputer.com/news/security/fin12-hits-healthcare-with-quick-and-focused-ransomware-attacks/	https://www.bleepstatic.com/content/hl-images/2021/10/07/FIN12.jpg	bleepingcomputer	t	2021-10-07 20:00:01.718965+02	2021-10-07 19:53:05+02	Ionut Ilascu	bleepingcomputer/FIN12-hits-healthcare-with-quick-and-focused-ransomware-attacks
 1927	4 Key Questions for Zero-Trust Success	Anurag Kahol, CTO & co-founder at Bitglass, offers tips for avoiding implementation pitfalls for zero trust.	https://kasperskycontenthub.com/threatpost-global/?p=175392	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/07134038/pitfall-e1633628450264.jpg	threatpost	t	2021-10-07 20:00:01.718965+02	2021-10-07 19:42:00+02	Anurag Kahol	threatpost/4-Key-Questions-for-Zero-Trust-Success
 1928	VMware lays out its vision for easy security | ZDNet	Among other security advancements announced at VMworld, the virtualization company unveiled a set of services for flexible, multi-cloud application security called EASE	https://www.zdnet.com/article/vmware-lays-out-its-vision-for-easy-security/	https://www.zdnet.com/a/img/resize/c04c5e4c2e54cc5cc434d7b64fdbd41ed42f8017/2021/10/07/2f5b3c92-f549-4a51-aab0-6bc730cfb1b3/vmwsecurity.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-07 21:00:01.781121+02	2021-10-07 18:10:42+02	Stephanie Condon	zdnet/VMware-lays-out-its-vision-for-easy-security
+1929	Google notifies 14,000 Gmail users of targeted APT28 attacks	Google has sent email notifications to more than 14,000 Gmail users that they've been the target of a spear-phishing attack orchestrated by a state-sponsored hacking group.	https://therecord.media/google-notifies-14000-gmail-users-of-targeted-apt28-attacks/	https://therecord.media/wp-content/uploads/2021/04/bear-russian-hacker-e1625150408774.jpg	therecord	t	2021-10-07 22:00:02.380455+02	2021-10-07 21:59:22+02	Catalin Cimpanu	therecord/Google-notifies-14000-Gmail-users-of-targeted-APT28-attacks
 \.
 
 
@@ -1979,7 +1980,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1928, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1929, true);
 
 
 --
