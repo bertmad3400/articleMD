@@ -1948,6 +1948,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1902	VMware ESXi Servers Encrypted by Lightning-Fast Python Script	It's a little snippet of Python code – 6KB – that strikes fast and nasty, taking less than three hours to complete from initial breach to encryption.	https://kasperskycontenthub.com/threatpost-global/?p=175374	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/06161649/python-e1633551421879.jpeg	threatpost	t	2021-10-06 23:00:01.994876+02	2021-10-06 22:34:28+02	Lisa Vaas	threatpost/VMware-ESXi-Servers-Encrypted-by-Lightning-Fast-Python-Script
 1903	US Deputy Attorney General launches cryptocurrency enforcement team at DOJ | ZDNet	US Deputy Attorney General Lisa Monaco spoke about two different enforcement initiatives during a speech at the Aspen Cyber Summit.	https://www.zdnet.com/article/us-deputy-attorney-general-launches-cryptocurrency-enforcement-team-at-doj/	https://www.zdnet.com/a/img/resize/5ad1b28ba8dac63d56d945dc63a774130eaade4e/2018/02/07/c42efd4f-479f-49c2-bd3f-8f6ac6bb0db0/158214905.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-07 00:00:01.949572+02	2021-10-06 21:38:04+02	Jonathan Greig	zdnet/US-Deputy-Attorney-General-launches-cryptocurrency-enforcement-team-at-DOJ
 1904	Canopy Parental Control App Wide Open to Unpatched XSS Bugs	The possible cyberattacks include disabling monitoring, location-tracking of children and malicious redirects of parent-console users.	https://kasperskycontenthub.com/threatpost-global/?p=175384	https://media.threatpost.com/wp-content/uploads/sites/103/2021/06/22120601/kids-apps-e1624377972972.jpg	threatpost	t	2021-10-07 00:00:01.949572+02	2021-10-06 23:27:32+02	Tara Seals	threatpost/Canopy-Parental-Control-App-Wide-Open-to-Unpatched-XSS-Bugs
+1905	European Parliament passes non-binding resolution to ban facial recognition | ZDNet	In the midst of supporting a facial recognition ban for law enforcement, the European Commission is reportedly preparing to charge Apple for acting anticompetitively with its NFC block.	https://www.zdnet.com/article/european-parliament-passes-non-binding-resolution-to-ban-facial-recognition/	https://www.zdnet.com/a/img/resize/6c861b76307dd4143d24003e5d5a24cd83c4e8f2/2021/05/26/cf8ae2ae-d7f1-441c-bd07-269f57b1c255/facial-recognition-emotion.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-07 03:00:02.578031+02	2021-10-07 00:37:40+02	Campbell Kwan	zdnet/European-Parliament-passes-non-binding-resolution-to-ban-facial-recognition
+1906	U.S. govt to sue contractors who hide breach incidents	Under the new Civil Cyber-Fraud Initiative that the U.S. Department of Justice announced today, government contractors are accountable in a civil court if they don't report a breach or fail to meet required cybersecurity standards.	https://www.bleepingcomputer.com/news/security/us-govt-to-sue-contractors-who-hide-breach-incidents/	https://www.bleepstatic.com/content/hl-images/2021/10/06/Lisa_O._Monaco.jpg	bleepingcomputer	t	2021-10-07 03:00:02.578031+02	2021-10-07 02:01:40+02	Ionut Ilascu	bleepingcomputer/US-govt-to-sue-contractors-who-hide-breach-incidents
 \.
 
 
@@ -1955,7 +1957,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1904, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1906, true);
 
 
 --
