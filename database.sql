@@ -1976,6 +1976,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1928	VMware lays out its vision for easy security | ZDNet	Among other security advancements announced at VMworld, the virtualization company unveiled a set of services for flexible, multi-cloud application security called EASE	https://www.zdnet.com/article/vmware-lays-out-its-vision-for-easy-security/	https://www.zdnet.com/a/img/resize/c04c5e4c2e54cc5cc434d7b64fdbd41ed42f8017/2021/10/07/2f5b3c92-f549-4a51-aab0-6bc730cfb1b3/vmwsecurity.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-07 21:00:01.781121+02	2021-10-07 18:10:42+02	Stephanie Condon	zdnet/VMware-lays-out-its-vision-for-easy-security
 1929	Google notifies 14,000 Gmail users of targeted APT28 attacks	Google has sent email notifications to more than 14,000 Gmail users that they've been the target of a spear-phishing attack orchestrated by a state-sponsored hacking group.	https://therecord.media/google-notifies-14000-gmail-users-of-targeted-apt28-attacks/	https://therecord.media/wp-content/uploads/2021/04/bear-russian-hacker-e1625150408774.jpg	therecord	t	2021-10-07 22:00:02.380455+02	2021-10-07 21:59:22+02	Catalin Cimpanu	therecord/Google-notifies-14000-Gmail-users-of-targeted-APT28-attacks
 1931	Navy Warship’s Facebook Page Hacked to Stream ‘Age of Empires’ Gaming	The destroyer-class USS Kidd streamed hours of game play in a funny incident that has serious cybersecurity ramifications.	https://kasperskycontenthub.com/threatpost-global/?p=175409	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/07142254/USS-Kidd-ship-e1633637461244.png	threatpost	t	2021-10-07 23:00:02.082752+02	2021-10-07 22:27:11+02	Tara Seals	threatpost/Navy-Warships-Facebook-Page-Hacked-to-Stream-Age-of-Empires-Gaming
+1933	Report links Indian company to spyware that targeted Togolese activist	A new report from Amnesty International links an Indian cybersecurity firm called Innefu Labs to spyware used to target an unidentified “prominent human rights defender” in Togo.	https://therecord.media/report-links-indian-company-to-spyware-that-targeted-togolese-activist/	https://www-therecord.recfut.com/wp-content/uploads/2021/07/ransomware-hacker.png	therecord	t	2021-10-08 00:00:02.535627+02	2021-10-07 23:57:32+02	Andrea Peterson	therecord/Report-links-Indian-company-to-spyware-that-targeted-Togolese-activist
 \.
 
 
@@ -1983,7 +1984,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1932, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1933, true);
 
 
 --
