@@ -1951,6 +1951,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1905	European Parliament passes non-binding resolution to ban facial recognition | ZDNet	In the midst of supporting a facial recognition ban for law enforcement, the European Commission is reportedly preparing to charge Apple for acting anticompetitively with its NFC block.	https://www.zdnet.com/article/european-parliament-passes-non-binding-resolution-to-ban-facial-recognition/	https://www.zdnet.com/a/img/resize/6c861b76307dd4143d24003e5d5a24cd83c4e8f2/2021/05/26/cf8ae2ae-d7f1-441c-bd07-269f57b1c255/facial-recognition-emotion.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-07 03:00:02.578031+02	2021-10-07 00:37:40+02	Campbell Kwan	zdnet/European-Parliament-passes-non-binding-resolution-to-ban-facial-recognition
 1906	U.S. govt to sue contractors who hide breach incidents	Under the new Civil Cyber-Fraud Initiative that the U.S. Department of Justice announced today, government contractors are accountable in a civil court if they don't report a breach or fail to meet required cybersecurity standards.	https://www.bleepingcomputer.com/news/security/us-govt-to-sue-contractors-who-hide-breach-incidents/	https://www.bleepstatic.com/content/hl-images/2021/10/06/Lisa_O._Monaco.jpg	bleepingcomputer	t	2021-10-07 03:00:02.578031+02	2021-10-07 02:01:40+02	Ionut Ilascu	bleepingcomputer/US-govt-to-sue-contractors-who-hide-breach-incidents
 1907	Windows 11 bug reverts users back to the Windows 10 taskbar	Windows 11 users report a strange upgrade experience where the operating system continues to show the Windows 10 taskbar, while everything else uses the new Windows 11 user interface.	https://www.bleepingcomputer.com/news/microsoft/windows-11-bug-reverts-users-back-to-the-windows-10-taskbar/	https://www.bleepstatic.com/content/hl-images/2021/09/01/windows-11-glow-glass.jpg	bleepingcomputer	t	2021-10-07 05:00:02.548676+02	2021-10-06 22:43:57+02	Lawrence Abrams	bleepingcomputer/Windows-11-bug-reverts-users-back-to-the-Windows-10-taskbar
+1908	DTA certifies four cloud providers to store sensitive government data | ZDNet	Amazon Web Services, AUCloud, Sliced Tech, and Vault Cloud have been chosen by government to store sensitive data on the cloud.	https://www.zdnet.com/article/dta-certifies-four-cloud-providers-to-store-sensitive-government-data/	https://www.zdnet.com/a/img/resize/35d13a9841d685d95fd312d15dfe709a538e7a47/2021/10/05/9ef26982-774f-4c4f-a5d8-69432f5e68ae/cloud-services.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-07 08:00:02.344296+02	2021-10-07 05:55:53+02	Campbell Kwan	zdnet/DTA-certifies-four-cloud-providers-to-store-sensitive-government-data
 \.
 
 
@@ -1958,7 +1959,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1907, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1908, true);
 
 
 --
