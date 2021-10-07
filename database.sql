@@ -1969,6 +1969,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1923	No honor among thieves: One in five targets of FIN12 hacking group is in healthcare | ZDNet	The group strikes big game targets with annual revenues of over $6 billion.	https://www.zdnet.com/article/no-honor-among-thieves-one-in-five-targets-of-fin12-hacking-group-is-involved-in-healthcare/	https://www.zdnet.com/a/img/resize/433bfb885e047d0cba724f6553fd62467856849d/2020/05/05/6d6fcb99-d49f-4d74-823a-89096e86b28a/istock-1156760867.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-07 19:00:01.742985+02	2021-10-07 16:07:57+02	Charlie Osborne	zdnet/No-honor-among-thieves-One-in-five-targets-of-FIN12-hacking-group-is-in-healthcare
 1924	AMD warns of up to 15% Windows 11 performance decrease	AMD says it observed performance hits of up to 15% on Windows 11-compatible AMD processors when using some applications.	https://www.bleepingcomputer.com/news/microsoft/amd-warns-of-up-to-15-percent-windows-11-performance-decrease/	https://www.bleepstatic.com/content/hl-images/2021/09/01/Windows___11.jpg	bleepingcomputer	t	2021-10-07 19:00:01.742985+02	2021-10-07 18:17:24+02	Sergiu Gatlan	bleepingcomputer/AMD-warns-of-up-to-15-Windows-11-performance-decrease
 1925	Netherlands can use intelligence or armed forces to respond to ransomware attacks	The Dutch government said it would use its intelligence or military services to counter cyber-attacks, including ransomware attacks, that threaten its national security.	https://therecord.media/netherlands-can-use-intelligence-or-armed-forces-to-respond-to-ransomware-attacks/	https://therecord.media/wp-content/uploads/2021/10/toy-soldiers-army.jpg	therecord	t	2021-10-07 19:00:01.742985+02	2021-10-07 18:58:16+02	Catalin Cimpanu	therecord/Netherlands-can-use-intelligence-or-armed-forces-to-respond-to-ransomware-attacks
+1926	FIN12 hits healthcare with quick and focused ransomware attacks	While most ransomware actors spend time on the victim network looking for important data to steal, one group favors quick malware deployment against sensitive, high-value targets.	https://www.bleepingcomputer.com/news/security/fin12-hits-healthcare-with-quick-and-focused-ransomware-attacks/	https://www.bleepstatic.com/content/hl-images/2021/10/07/FIN12.jpg	bleepingcomputer	t	2021-10-07 20:00:01.718965+02	2021-10-07 19:53:05+02	Ionut Ilascu	bleepingcomputer/FIN12-hits-healthcare-with-quick-and-focused-ransomware-attacks
+1927	4 Key Questions for Zero-Trust Success	Anurag Kahol, CTO & co-founder at Bitglass, offers tips for avoiding implementation pitfalls for zero trust.	https://kasperskycontenthub.com/threatpost-global/?p=175392	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/07134038/pitfall-e1633628450264.jpg	threatpost	t	2021-10-07 20:00:01.718965+02	2021-10-07 19:42:00+02	Anurag Kahol	threatpost/4-Key-Questions-for-Zero-Trust-Success
 \.
 
 
@@ -1976,7 +1978,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1925, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1927, true);
 
 
 --
