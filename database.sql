@@ -1977,6 +1977,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1929	Google notifies 14,000 Gmail users of targeted APT28 attacks	Google has sent email notifications to more than 14,000 Gmail users that they've been the target of a spear-phishing attack orchestrated by a state-sponsored hacking group.	https://therecord.media/google-notifies-14000-gmail-users-of-targeted-apt28-attacks/	https://therecord.media/wp-content/uploads/2021/04/bear-russian-hacker-e1625150408774.jpg	therecord	t	2021-10-07 22:00:02.380455+02	2021-10-07 21:59:22+02	Catalin Cimpanu	therecord/Google-notifies-14000-Gmail-users-of-targeted-APT28-attacks
 1931	Navy Warship’s Facebook Page Hacked to Stream ‘Age of Empires’ Gaming	The destroyer-class USS Kidd streamed hours of game play in a funny incident that has serious cybersecurity ramifications.	https://kasperskycontenthub.com/threatpost-global/?p=175409	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/07142254/USS-Kidd-ship-e1633637461244.png	threatpost	t	2021-10-07 23:00:02.082752+02	2021-10-07 22:27:11+02	Tara Seals	threatpost/Navy-Warships-Facebook-Page-Hacked-to-Stream-Age-of-Empires-Gaming
 1933	Report links Indian company to spyware that targeted Togolese activist	A new report from Amnesty International links an Indian cybersecurity firm called Innefu Labs to spyware used to target an unidentified “prominent human rights defender” in Togo.	https://therecord.media/report-links-indian-company-to-spyware-that-targeted-togolese-activist/	https://www-therecord.recfut.com/wp-content/uploads/2021/07/ransomware-hacker.png	therecord	t	2021-10-08 00:00:02.535627+02	2021-10-07 23:57:32+02	Andrea Peterson	therecord/Report-links-Indian-company-to-spyware-that-targeted-Togolese-activist
+1934	23andMe and JFrog partner to solve code injection vulnerability | ZDNet	A 23andMe spokesperson told ZDNet that the company's security team was notified of a workaround to a patch made to Yamale, the open-source library created by 23andMe.	https://www.zdnet.com/article/23andme-jfrog-work-together-to-solve-code-injection-vulnerability/	https://www.zdnet.com/a/img/resize/b0b5d07ea8368758f980cb334341ab3618c26b5d/2013/11/27/a77b3eb7-636d-4861-a9d1-5e326f72d1bd/23andme_logo.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-08 01:00:01.881178+02	2021-10-07 21:57:15+02	Jonathan Greig	zdnet/23andMe-and-JFrog-partner-to-solve-code-injection-vulnerability
+1935	Microsoft is disabling Excel 4.0 macros by default to protect users	​Microsoft will soon begin disabling Excel 4.0 XLM macros by default in Microsoft 365 tenants to protect customers from malicious documents.	https://www.bleepingcomputer.com/news/microsoft/microsoft-is-disabling-excel-40-macros-by-default-to-protect-users/	https://www.bleepstatic.com/content/hl-images/2021/03/19/excel-header.jpg	bleepingcomputer	t	2021-10-08 01:00:01.881178+02	2021-10-08 00:32:00+02	Lawrence Abrams	bleepingcomputer/Microsoft-is-disabling-Excel-40-macros-by-default-to-protect-users
 \.
 
 
@@ -1984,7 +1986,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1933, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1935, true);
 
 
 --
