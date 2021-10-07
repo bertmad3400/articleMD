@@ -1956,6 +1956,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1910	Twitch: No credentials or card numbers exposed in data breach	Twitch says that no login credentials and credit card numbers belonging to users or streamers were exposed following yesterday's massive data leak.	https://www.bleepingcomputer.com/news/security/twitch-no-credentials-or-card-numbers-exposed-in-data-breach/	https://www.bleepstatic.com/content/hl-images/2021/10/07/Twitch.jpg	bleepingcomputer	t	2021-10-07 11:00:01.735884+02	2021-10-07 09:39:35+02	Sergiu Gatlan	bleepingcomputer/Twitch-No-credentials-or-card-numbers-exposed-in-data-breach
 1911	Twitch says no user passwords or cards numbers were exposed in major hack	In the aftermath of a major security breach that came to light yesterday, Twitch has now issued a formal statement to assure users that no passwords or payment card numbers were stolen or leaked online.	https://therecord.media/twitch-says-no-user-passwords-or-cards-numbers-were-exposed-in-major-hack/	https://therecord.media/wp-content/uploads/2021/10/Twitch.jpg	therecord	t	2021-10-07 13:00:02.083563+02	2021-10-07 12:38:47+02	Catalin Cimpanu	therecord/Twitch-says-no-user-passwords-or-cards-numbers-were-exposed-in-major-hack
 1912	 Unpatched Dahua cams vulnerable to unauthenticated remote access	Unpatched Dahua cameras are prone to two authentication bypass vulnerabilities, and a proof of concept exploit that came out today makes the case of upgrading pressing. 	https://www.bleepingcomputer.com/news/security/unpatched-dahua-cams-vulnerable-to-unauthenticated-remote-access/	https://www.bleepstatic.com/content/hl-images/2021/10/07/cctv_camera.jpg	bleepingcomputer	t	2021-10-07 13:00:02.083563+02	2021-10-07 12:56:31+02	Bill Toulas	bleepingcomputer/Unpatched-Dahua-cams-vulnerable-to-unauthenticated-remote-access
+1913	New cybersecurity regulations released by TSA for trains and planes | ZDNet	Emergency cybersecurity regulations for pipeline operators issued this summer were also released publicly this week.	https://www.zdnet.com/article/new-cybersecurity-regulations-released-by-tsa-for-trains-and-planes/	https://www.zdnet.com/a/img/resize/e732398abfa98571646dc50dfa5277352ff238e4/2021/01/06/64903c29-6eea-4a14-90b9-7847c91856c3/istock-1199059054.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-07 14:00:02.400854+02	2021-10-07 12:00:05+02	Jonathan Greig	zdnet/New-cybersecurity-regulations-released-by-TSA-for-trains-and-planes
+1914	Cybercriminals threaten to hack EU hospitals in latest COVID-19 vaccine scam | ZDNet	Cybercriminals are demanding people's personal information and claiming to have the ability to falsify vaccination records at hospitals across the European Union.	https://www.zdnet.com/article/cybercriminals-threaten-to-hack-eu-hospitals-in-latest-covid-19-vaccine-scam/	https://www.zdnet.com/a/img/resize/da72a723903a92e766fa49e2809c4ddc5148bd35/2020/09/17/c2347b8b-a37f-46f1-b8e9-dee91dba3ccc/ambulance-hospital.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-07 14:00:02.400854+02	2021-10-07 11:45:01+02	Jonathan Greig	zdnet/Cybercriminals-threaten-to-hack-EU-hospitals-in-latest-COVID-19-vaccine-scam
 \.
 
 
@@ -1963,7 +1965,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1912, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1914, true);
 
 
 --
