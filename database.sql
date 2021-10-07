@@ -1971,6 +1971,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1925	Netherlands can use intelligence or armed forces to respond to ransomware attacks	The Dutch government said it would use its intelligence or military services to counter cyber-attacks, including ransomware attacks, that threaten its national security.	https://therecord.media/netherlands-can-use-intelligence-or-armed-forces-to-respond-to-ransomware-attacks/	https://therecord.media/wp-content/uploads/2021/10/toy-soldiers-army.jpg	therecord	t	2021-10-07 19:00:01.742985+02	2021-10-07 18:58:16+02	Catalin Cimpanu	therecord/Netherlands-can-use-intelligence-or-armed-forces-to-respond-to-ransomware-attacks
 1926	FIN12 hits healthcare with quick and focused ransomware attacks	While most ransomware actors spend time on the victim network looking for important data to steal, one group favors quick malware deployment against sensitive, high-value targets.	https://www.bleepingcomputer.com/news/security/fin12-hits-healthcare-with-quick-and-focused-ransomware-attacks/	https://www.bleepstatic.com/content/hl-images/2021/10/07/FIN12.jpg	bleepingcomputer	t	2021-10-07 20:00:01.718965+02	2021-10-07 19:53:05+02	Ionut Ilascu	bleepingcomputer/FIN12-hits-healthcare-with-quick-and-focused-ransomware-attacks
 1927	4 Key Questions for Zero-Trust Success	Anurag Kahol, CTO & co-founder at Bitglass, offers tips for avoiding implementation pitfalls for zero trust.	https://kasperskycontenthub.com/threatpost-global/?p=175392	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/07134038/pitfall-e1633628450264.jpg	threatpost	t	2021-10-07 20:00:01.718965+02	2021-10-07 19:42:00+02	Anurag Kahol	threatpost/4-Key-Questions-for-Zero-Trust-Success
+1928	VMware lays out its vision for easy security | ZDNet	Among other security advancements announced at VMworld, the virtualization company unveiled a set of services for flexible, multi-cloud application security called EASE	https://www.zdnet.com/article/vmware-lays-out-its-vision-for-easy-security/	https://www.zdnet.com/a/img/resize/c04c5e4c2e54cc5cc434d7b64fdbd41ed42f8017/2021/10/07/2f5b3c92-f549-4a51-aab0-6bc730cfb1b3/vmwsecurity.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-07 21:00:01.781121+02	2021-10-07 18:10:42+02	Stephanie Condon	zdnet/VMware-lays-out-its-vision-for-easy-security
 \.
 
 
@@ -1978,7 +1979,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1927, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1928, true);
 
 
 --
