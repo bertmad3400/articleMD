@@ -1962,6 +1962,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1916	Transdev denies data stolen by ransomware group, connects leak to September attack on client | ZDNet	The company said the cybercriminals are hawking data stolen from a client of theirs.	https://www.zdnet.com/article/transdev-denies-data-stolen-by-ransomware-group/	https://www.zdnet.com/a/img/resize/2f81ee7ee333920ae0d004148427b49ba2cd8c24/2021/10/07/0b7b71aa-8e3b-4b91-9625-4714d49e56e4/transdev.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-07 15:00:02.074838+02	2021-10-07 12:02:00+02	Jonathan Greig	zdnet/Transdev-denies-data-stolen-by-ransomware-group-connects-leak-to-September-attack-on-client
 1917	Netherlands orders Apple to offer more App Store payment methods	The Authority for Consumers and Markets (ACM) in the Netherlands is pressing Apple to lift App Store payment restrictions in the country.	https://www.bleepingcomputer.com/news/apple/netherlands-orders-apple-to-offer-more-app-store-payment-methods/	https://www.bleepstatic.com/content/hl-images/2021/09/13/Apple.jpg	bleepingcomputer	t	2021-10-07 16:00:02.421145+02	2021-10-07 15:16:12+02	Bill Toulas	bleepingcomputer/Netherlands-orders-Apple-to-offer-more-App-Store-payment-methods
 1918	Microsoft fixes bug blocking Azure Virtual Desktops security updates	Microsoft has fixed a bug blocking some Azure Virtual Desktop (AVD) devices from downloading and installing monthly security via Windows Server Update Services (WSUS) since early July.	https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-blocking-azure-virtual-desktops-security-updates/	https://www.bleepstatic.com/content/hl-images/2021/10/07/Azure__Virtual_Desktops_headpic.jpg	bleepingcomputer	t	2021-10-07 16:00:02.421145+02	2021-10-07 14:00:00+02	Sergiu Gatlan	bleepingcomputer/Microsoft-fixes-bug-blocking-Azure-Virtual-Desktops-security-updates
+1919	Firefox now shows ads as sponsored address bar suggestions	Mozilla is now showing ads in the form of sponsored Firefox contextual suggestions when U.S. users type in the URL address bar.	https://www.bleepingcomputer.com/news/security/firefox-now-shows-ads-as-sponsored-address-bar-suggestions/	https://www.bleepstatic.com/content/hl-images/2021/05/26/Mozilla--logo.jpg	bleepingcomputer	t	2021-10-07 17:00:02.087968+02	2021-10-07 16:15:27+02	Sergiu Gatlan	bleepingcomputer/Firefox-now-shows-ads-as-sponsored-address-bar-suggestions
 \.
 
 
@@ -1969,7 +1970,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1918, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1919, true);
 
 
 --
