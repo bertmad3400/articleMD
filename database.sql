@@ -1950,6 +1950,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1904	Canopy Parental Control App Wide Open to Unpatched XSS Bugs	The possible cyberattacks include disabling monitoring, location-tracking of children and malicious redirects of parent-console users.	https://kasperskycontenthub.com/threatpost-global/?p=175384	https://media.threatpost.com/wp-content/uploads/sites/103/2021/06/22120601/kids-apps-e1624377972972.jpg	threatpost	t	2021-10-07 00:00:01.949572+02	2021-10-06 23:27:32+02	Tara Seals	threatpost/Canopy-Parental-Control-App-Wide-Open-to-Unpatched-XSS-Bugs
 1905	European Parliament passes non-binding resolution to ban facial recognition | ZDNet	In the midst of supporting a facial recognition ban for law enforcement, the European Commission is reportedly preparing to charge Apple for acting anticompetitively with its NFC block.	https://www.zdnet.com/article/european-parliament-passes-non-binding-resolution-to-ban-facial-recognition/	https://www.zdnet.com/a/img/resize/6c861b76307dd4143d24003e5d5a24cd83c4e8f2/2021/05/26/cf8ae2ae-d7f1-441c-bd07-269f57b1c255/facial-recognition-emotion.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-07 03:00:02.578031+02	2021-10-07 00:37:40+02	Campbell Kwan	zdnet/European-Parliament-passes-non-binding-resolution-to-ban-facial-recognition
 1906	U.S. govt to sue contractors who hide breach incidents	Under the new Civil Cyber-Fraud Initiative that the U.S. Department of Justice announced today, government contractors are accountable in a civil court if they don't report a breach or fail to meet required cybersecurity standards.	https://www.bleepingcomputer.com/news/security/us-govt-to-sue-contractors-who-hide-breach-incidents/	https://www.bleepstatic.com/content/hl-images/2021/10/06/Lisa_O._Monaco.jpg	bleepingcomputer	t	2021-10-07 03:00:02.578031+02	2021-10-07 02:01:40+02	Ionut Ilascu	bleepingcomputer/US-govt-to-sue-contractors-who-hide-breach-incidents
+1907	Windows 11 bug reverts users back to the Windows 10 taskbar	Windows 11 users report a strange upgrade experience where the operating system continues to show the Windows 10 taskbar, while everything else uses the new Windows 11 user interface.	https://www.bleepingcomputer.com/news/microsoft/windows-11-bug-reverts-users-back-to-the-windows-10-taskbar/	https://www.bleepstatic.com/content/hl-images/2021/09/01/windows-11-glow-glass.jpg	bleepingcomputer	t	2021-10-07 05:00:02.548676+02	2021-10-06 22:43:57+02	Lawrence Abrams	bleepingcomputer/Windows-11-bug-reverts-users-back-to-the-Windows-10-taskbar
 \.
 
 
@@ -1957,7 +1958,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1906, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1907, true);
 
 
 --
