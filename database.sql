@@ -1992,6 +1992,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1946	BrewDog exposed data of 200,000 shareholders for over a year | ZDNet	The beer's on BrewDog, too.	https://www.zdnet.com/article/brewdog-exposed-data-of-200000-shareholders-for-over-a-year/	https://www.zdnet.com/a/img/resize/c7b079b44c764d9f91d7309a6931dd521b2c079d/2021/10/08/fc5b9980-5c01-4ca7-8f60-80e2bc698304/screenshot-2021-10-08-at-11-53-06.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-08 15:00:02.312274+02	2021-10-08 12:16:00+02	Charlie Osborne	zdnet/BrewDog-exposed-data-of-200000-shareholders-for-over-a-year
 1947	New FontOnLake Linux malware used in targeted attacks	Analysts from Slovak security firm ESET said they uncovered a new malware strain that targets Linux systems, which, based on current evidence, they believe was used in a handful of targeted attacks.	https://therecord.media/new-fontonlake-linux-malware-used-in-targeted-attacks/	https://therecord.media/wp-content/uploads/2021/10/Linux.jpg	therecord	t	2021-10-08 15:00:02.312274+02	2021-10-08 14:54:23+02	Catalin Cimpanu	therecord/New-FontOnLake-Linux-malware-used-in-targeted-attacks
 1948	Engineering giant Weir Group hit by ransomware attack	Scottish multinational engineering firm Weir Group has disclosed by what it called an attempted ransomware attack that led to significant temporary disruption in the second half of September.	https://www.bleepingcomputer.com/news/security/engineering-giant-weir-group-hit-by-ransomware-attack/	https://www.bleepstatic.com/content/posts/2021/10/08/Weir.jpg	bleepingcomputer	t	2021-10-08 15:00:02.312274+02	2021-10-08 14:20:41+02	Sergiu Gatlan	bleepingcomputer/Engineering-giant-Weir-Group-hit-by-ransomware-attack
+1949	Ransomware: Cyber criminals are still exploiting these old vulnerabilities, so patch now | ZDNet	Years-old security vulnerabilities remain a common attack method for ransomware attacks because organisations aren't applying the patches to fix them.	https://www.zdnet.com/article/ransomware-cyber-criminals-are-still-exploiting-years-old-vulnerabilities-to-launch-attacks/	https://www.zdnet.com/a/img/resize/b8b3aa06e6dc4fdae63f867db71fb6a110300245/2020/04/20/361b57d2-7f17-45ae-861b-d3f70c207fd0/devsistock-669040928.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-08 16:00:01.911556+02	2021-10-08 13:48:15+02	Danny Palmer	zdnet/Ransomware-Cyber-criminals-are-still-exploiting-these-old-vulnerabilities-so-patch-now
+1950	Mozilla upgrades older Thunderbird clients to the latest version	Mozilla is rolling out a forced upgrade for Thunderbird 78.x users, getting everyone aboard version 91, the latest stable release that came out in August.	https://www.bleepingcomputer.com/news/software/mozilla-upgrades-older-thunderbird-clients-to-the-latest-version/	https://www.bleepstatic.com/content/hl-images/2021/10/08/thunderbird-emb.jpg	bleepingcomputer	t	2021-10-08 16:00:01.911556+02	2021-10-08 15:23:40+02	Bill Toulas	bleepingcomputer/Mozilla-upgrades-older-Thunderbird-clients-to-the-latest-version
 \.
 
 
@@ -1999,7 +2001,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1948, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1950, true);
 
 
 --
