@@ -2001,6 +2001,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1954	Citizen Lab researcher disputes claims from NSO Group after UK court finds UAE ruler used Pegasus to hack ex-wife, lawyers | ZDNet	Would NSO Group have notified Princess Haya's lawyers had I not done my own notification? Citizen Lab's William Marczak told ZDNet.	https://www.zdnet.com/article/citizen-lab-researcher-disputes-claims-from-nso-group-after-uk-court-finds-uae-ruler-used-pegasus-to-hack-ex-wife-lawyers/	https://www.zdnet.com/a/img/resize/deedf28be02f5d029f3fbfc2b12e7fef354e14c1/2020/12/21/4865e211-37a1-4556-83f9-86f3e885a96f/nso-group.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-08 20:00:02.035349+02	2021-10-08 17:40:08+02	Jonathan Greig	zdnet/Citizen-Lab-researcher-disputes-claims-from-NSO-Group-after-UK-court-finds-UAE-ruler-used-Pegasus-to-hack-ex-wife-lawyers
 1956	Cox Media Group confirms ransomware attack that took down broadcasts	American media conglomerate Cox Media Group (CMG) confirmed that it was hit by a ransomware attack that took down live TV and radio broadcast streams in June 2021.	https://www.bleepingcomputer.com/news/security/cox-media-group-confirms-ransomware-attack-that-took-down-broadcasts/	https://www.bleepstatic.com/content/hl-images/2021/10/08/Cox_Media_Group__headpic.jpg	bleepingcomputer	t	2021-10-08 22:00:02.109727+02	2021-10-08 21:59:12+02	Sergiu Gatlan	bleepingcomputer/Cox-Media-Group-confirms-ransomware-attack-that-took-down-broadcasts
 1957	Four months later, Cox Media confirms ransomware attack	The Cox Media Group, one of the largest media conglomerates in the US, has formally acknowledged a ransomware attack that crippled and took down live feeds for several TV and radio stations earlier this year, in June.	https://therecord.media/four-months-later-cox-media-confirms-ransomware-attack/	https://therecord.media/wp-content/uploads/2021/03/TV-station.jpg	therecord	t	2021-10-08 22:00:02.109727+02	2021-10-08 21:53:10+02	Catalin Cimpanu	therecord/Four-months-later-Cox-Media-confirms-ransomware-attack
+1958	The Week in Ransomware - October 8th 2021 - Making arrrests	This week's big news is the arrests of two ransomware operators in Ukraine responsible for hundreds of attacks targeting organizations worldwide.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-8th-2021-making-arrrests/	https://www.bleepstatic.com/content/hl-images/2020/09/24/padlock.jpg	bleepingcomputer	t	2021-10-09 00:00:02.551497+02	2021-10-08 23:44:49+02	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---October-8th-2021---Making-arrrests
 \.
 
 
@@ -2008,7 +2009,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1957, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1958, true);
 
 
 --
