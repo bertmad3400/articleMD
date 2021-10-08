@@ -1985,6 +1985,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1939	Building cyber radar systems could alert Indo-Pacific nations and their allies | ZDNet	Former NSA chief Keith Alexander imagines AUKUS and the Quad nations sharing government and private sector data, and using AI to build a cyber radar early warning system.	https://www.zdnet.com/article/building-cyber-radar-systems-could-alert-indo-pacific-nations-and-their-allies/	https://www.zdnet.com/a/img/resize/d929ab4bc27150a4e2018f61514b3598cadc0009/2021/10/08/26199f1f-aa4d-4e27-b755-a46841650990/keith-alexander-gettyimages.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-08 06:00:02.613051+02	2021-10-08 03:44:09+02	Stilgherrian 	zdnet/Building-cyber-radar-systems-could-alert-Indo-Pacific-nations-and-their-allies
 1940	JFTC starts another antitrust probe against Apple and Google on smart devices: Report | ZDNet	The latest antitrust probe will explore market conditions for smartphones, smartwatches, and other wearables.	https://www.zdnet.com/article/jftc-commences-another-antitrust-probe-against-apple-and-google-on-smart-devices/	https://www.zdnet.com/a/img/resize/fabf6b6584317c3cb3d91a25ea742ceb5e6faf28/2020/04/10/d25d74db-c868-4d58-9092-10d23c9032a7/apple-google-partner-on-covid-19-contact-tracing-technology-04102020.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-08 06:00:02.613051+02	2021-10-08 03:27:26+02	Campbell Kwan	zdnet/JFTC-starts-another-antitrust-probe-against-Apple-and-Google-on-smart-devices-Report
 1941	BrewDog exposed data for over 200,000 shareholders and customers	BrewDog, the Scottish brewery and pub chain famous for its crowd-ownership model and the tasty IPAs, has irreversibly exposed the details of 200,000 of its shareholders and customers.	https://www.bleepingcomputer.com/news/security/brewdog-exposed-data-for-over-200-000-shareholders-and-customers/	https://www.bleepstatic.com/content/hl-images/2021/10/08/BrewDog_headpic.jpg	bleepingcomputer	t	2021-10-08 11:00:02.573708+02	2021-10-08 09:45:34+02	Bill Toulas	bleepingcomputer/BrewDog-exposed-data-for-over-200000-shareholders-and-customers
+1942	Google announces new efforts to protect journalists and high-risk users from cyberattacks | ZDNet	The announcement comes one day after the Google TAG team alerted journalists and high risk groups that could be targets to ongoing attacks.	https://www.zdnet.com/article/google-announces-new-efforts-to-protect-journalists-and-high-risk-users-from-cyberattacks/	https://www.zdnet.com/a/img/resize/67d27d961115997e4b10630c2002376d61adf4e1/2021/06/23/28d7c4cd-05e5-42e2-854f-f3989e016aec/gettyimages-1317337924.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-08 13:00:01.754203+02	2021-10-08 10:18:10+02	Jonathan Greig	zdnet/Google-announces-new-efforts-to-protect-journalists-and-high-risk-users-from-cyberattacks
 \.
 
 
@@ -1992,7 +1993,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1941, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1942, true);
 
 
 --
