@@ -1981,6 +1981,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1935	Microsoft is disabling Excel 4.0 macros by default to protect users	​Microsoft will soon begin disabling Excel 4.0 XLM macros by default in Microsoft 365 tenants to protect customers from malicious documents.	https://www.bleepingcomputer.com/news/microsoft/microsoft-is-disabling-excel-40-macros-by-default-to-protect-users/	https://www.bleepstatic.com/content/hl-images/2021/03/19/excel-header.jpg	bleepingcomputer	t	2021-10-08 01:00:01.881178+02	2021-10-08 00:32:00+02	Lawrence Abrams	bleepingcomputer/Microsoft-is-disabling-Excel-40-macros-by-default-to-protect-users
 1936	Google warns 14,000 Gmail users targeted by Russian hackers	Google has warned about 14,000 of its users about being targeted in a state-sponsored phishing campaign from APT28, a threat group that has been linked to Russia.	https://www.bleepingcomputer.com/news/security/google-warns-14-000-gmail-users-targeted-by-russian-hackers/	https://www.bleepstatic.com/content/hl-images/2021/06/01/Bear.jpg	bleepingcomputer	t	2021-10-08 02:00:01.796326+02	2021-10-08 01:38:57+02	Ionut Ilascu	bleepingcomputer/Google-warns-14000-Gmail-users-targeted-by-Russian-hackers
 1937	Microsoft to disable Excel 4.0 macros, one of the most abused Office features	Microsoft plans to disable a legacy feature known as Excel 4.0 macros, also XLM macros, for all Microsoft 365 users by the end of the year, according to an email the company has sent customers this week, also seen by The Record.	https://therecord.media/microsoft-to-disable-excel-4-0-macros-one-of-the-most-abused-office-features/	https://therecord.media/wp-content/uploads/2021/10/Excel.png	therecord	t	2021-10-08 02:00:01.796326+02	2021-10-08 01:11:24+02	Catalin Cimpanu	therecord/Microsoft-to-disable-Excel-40-macros-one-of-the-most-abused-Office-features
+1938	Additional fixes released addressing Apache HTTP Server issue | ZDNet	CISA said the vulnerabilities have been exploited in the wild.	https://www.zdnet.com/article/additional-fixes-released-addressing-apache-http-server-issue/	https://www.zdnet.com/a/img/resize/af9fc0b60835177ae407badfc974c9c9fb7d3022/2019/04/03/9b318728-bf96-4c85-9130-0655cc6a31f9/apache-web-server-logo.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-08 03:00:01.992926+02	2021-10-07 23:49:49+02	Jonathan Greig	zdnet/Additional-fixes-released-addressing-Apache-HTTP-Server-issue
 \.
 
 
@@ -1988,7 +1989,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1937, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1938, true);
 
 
 --
