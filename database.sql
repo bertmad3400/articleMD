@@ -1994,6 +1994,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1948	Engineering giant Weir Group hit by ransomware attack	Scottish multinational engineering firm Weir Group has disclosed by what it called an attempted ransomware attack that led to significant temporary disruption in the second half of September.	https://www.bleepingcomputer.com/news/security/engineering-giant-weir-group-hit-by-ransomware-attack/	https://www.bleepstatic.com/content/posts/2021/10/08/Weir.jpg	bleepingcomputer	t	2021-10-08 15:00:02.312274+02	2021-10-08 14:20:41+02	Sergiu Gatlan	bleepingcomputer/Engineering-giant-Weir-Group-hit-by-ransomware-attack
 1949	Ransomware: Cyber criminals are still exploiting these old vulnerabilities, so patch now | ZDNet	Years-old security vulnerabilities remain a common attack method for ransomware attacks because organisations aren't applying the patches to fix them.	https://www.zdnet.com/article/ransomware-cyber-criminals-are-still-exploiting-years-old-vulnerabilities-to-launch-attacks/	https://www.zdnet.com/a/img/resize/b8b3aa06e6dc4fdae63f867db71fb6a110300245/2020/04/20/361b57d2-7f17-45ae-861b-d3f70c207fd0/devsistock-669040928.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-08 16:00:01.911556+02	2021-10-08 13:48:15+02	Danny Palmer	zdnet/Ransomware-Cyber-criminals-are-still-exploiting-these-old-vulnerabilities-so-patch-now
 1950	Mozilla upgrades older Thunderbird clients to the latest version	Mozilla is rolling out a forced upgrade for Thunderbird 78.x users, getting everyone aboard version 91, the latest stable release that came out in August.	https://www.bleepingcomputer.com/news/software/mozilla-upgrades-older-thunderbird-clients-to-the-latest-version/	https://www.bleepstatic.com/content/hl-images/2021/10/08/thunderbird-emb.jpg	bleepingcomputer	t	2021-10-08 16:00:01.911556+02	2021-10-08 15:23:40+02	Bill Toulas	bleepingcomputer/Mozilla-upgrades-older-Thunderbird-clients-to-the-latest-version
+1951	Twitch game page backgrounds defaced with Jeff Bezos' face	On Twitch's website's game pages today appeared a close up of Jeff Bezos' face, in what appears to be a mysterious defacement attack.	https://www.bleepingcomputer.com/news/security/twitch-game-page-backgrounds-defaced-with-jeff-bezos-face/	https://www.bleepstatic.com/content/hl-images/2021/10/07/Twitch_headpic.jpg	bleepingcomputer	t	2021-10-08 17:00:02.093658+02	2021-10-08 16:58:22+02	Lawrence Abrams	bleepingcomputer/Twitch-game-page-backgrounds-defaced-with-Jeff-Bezos-face
+1952	Russian orgs heavily targeted by smaller tier ransomware gangs	Even though American and European companies enjoy the lion's share in ransomware attacks launched from Russian ground, companies in the country aren't spared from having to deal with file encryption and double-extortion troubles.	https://www.bleepingcomputer.com/news/security/russian-orgs-heavily-targeted-by-smaller-tier-ransomware-gangs/	https://www.bleepstatic.com/content/hl-images/2021/10/08/ascii-skull.jpg	bleepingcomputer	t	2021-10-08 17:00:02.093658+02	2021-10-08 16:40:49+02	Bill Toulas	bleepingcomputer/Russian-orgs-heavily-targeted-by-smaller-tier-ransomware-gangs
 \.
 
 
@@ -2001,7 +2003,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1950, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1952, true);
 
 
 --
