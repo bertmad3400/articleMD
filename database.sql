@@ -1996,6 +1996,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1950	Mozilla upgrades older Thunderbird clients to the latest version	Mozilla is rolling out a forced upgrade for Thunderbird 78.x users, getting everyone aboard version 91, the latest stable release that came out in August.	https://www.bleepingcomputer.com/news/software/mozilla-upgrades-older-thunderbird-clients-to-the-latest-version/	https://www.bleepstatic.com/content/hl-images/2021/10/08/thunderbird-emb.jpg	bleepingcomputer	t	2021-10-08 16:00:01.911556+02	2021-10-08 15:23:40+02	Bill Toulas	bleepingcomputer/Mozilla-upgrades-older-Thunderbird-clients-to-the-latest-version
 1951	Twitch game page backgrounds defaced with Jeff Bezos' face	On Twitch's website's game pages today appeared a close up of Jeff Bezos' face, in what appears to be a mysterious defacement attack.	https://www.bleepingcomputer.com/news/security/twitch-game-page-backgrounds-defaced-with-jeff-bezos-face/	https://www.bleepstatic.com/content/hl-images/2021/10/07/Twitch_headpic.jpg	bleepingcomputer	t	2021-10-08 17:00:02.093658+02	2021-10-08 16:58:22+02	Lawrence Abrams	bleepingcomputer/Twitch-game-page-backgrounds-defaced-with-Jeff-Bezos-face
 1952	Russian orgs heavily targeted by smaller tier ransomware gangs	Even though American and European companies enjoy the lion's share in ransomware attacks launched from Russian ground, companies in the country aren't spared from having to deal with file encryption and double-extortion troubles.	https://www.bleepingcomputer.com/news/security/russian-orgs-heavily-targeted-by-smaller-tier-ransomware-gangs/	https://www.bleepstatic.com/content/hl-images/2021/10/08/ascii-skull.jpg	bleepingcomputer	t	2021-10-08 17:00:02.093658+02	2021-10-08 16:40:49+02	Bill Toulas	bleepingcomputer/Russian-orgs-heavily-targeted-by-smaller-tier-ransomware-gangs
+1953	Hacker arrested in France for theft of COVID-19 tests for 1.4 million Parisians	French police have detained a 22-year-old suspect on the accusation of breaching a Paris hospital, stealing, and then leaking the COVID-19 test results of more than 1.4 million patients.	https://therecord.media/hacker-arrested-in-france-for-theft-of-covid-19-tests-for-1-4-million-parisians/	https://therecord.media/wp-content/uploads/2021/10/France-Paris-eiffel.jpg	therecord	t	2021-10-08 18:00:02.673782+02	2021-10-08 17:45:27+02	Catalin Cimpanu	therecord/Hacker-arrested-in-France-for-theft-of-COVID-19-tests-for-14-million-Parisians
 \.
 
 
@@ -2003,7 +2004,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1952, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1953, true);
 
 
 --
