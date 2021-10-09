@@ -2004,6 +2004,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1958	The Week in Ransomware - October 8th 2021 - Making arrrests	This week's big news is the arrests of two ransomware operators in Ukraine responsible for hundreds of attacks targeting organizations worldwide.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-8th-2021-making-arrrests/	https://www.bleepstatic.com/content/hl-images/2020/09/24/padlock.jpg	bleepingcomputer	t	2021-10-09 00:00:02.551497+02	2021-10-08 23:44:49+02	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---October-8th-2021---Making-arrrests
 1959	McAfee/FireEye merger completed, CEO says automation only way forward for cybersecurity | ZDNet	CEO Bryan Palma said the deficit of cybersecurity talent means AI and machine learning will need to take on a bigger role in cybersecurity.	https://www.zdnet.com/article/mcafeefireeye-merger-completed-ceo-says-automation-only-way-forward-for-cybersecurity/	https://www.zdnet.com/a/img/resize/4fda7d1fc8881a284d3554efebb99f12baccb5ad/2020/12/09/0f33931b-b3e8-42a3-a8ed-3d1048d3d20e/fireeye-hq.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-09 01:00:02.700281+02	2021-10-08 22:35:12+02	Jonathan Greig	zdnet/McAfeeFireEye-merger-completed-CEO-says-automation-only-way-forward-for-cybersecurity
 1960	NSA warns of ALPACA TLS attack, use of wildcard TLS certificates	The National Security Agency has issued a technical advisory this week warning organizations against the use of wildcard TLS certificates and the new ALPACA TLS attack.	https://therecord.media/nsa-warns-of-alpaca-tls-attack-use-of-wildcard-tls-certificates/	https://therecord.media/wp-content/uploads/2021/10/Alpaca-attack.png	therecord	t	2021-10-09 05:00:01.765858+02	2021-10-09 04:17:50+02	Catalin Cimpanu	therecord/NSA-warns-of-ALPACA-TLS-attack-use-of-wildcard-TLS-certificates
+1961	Windows 11: Microsoft is investigating these eight problems	Windows 11 is officially released, and users are running into various issues and problems preventing them from upgrading or using the new operating system correctly. Below we have collected eight known issues affecting Windows 11 and when they are expected to be fixed.	https://www.bleepingcomputer.com/news/microsoft/windows-11-microsoft-is-investigating-these-eight-problems/	https://www.bleepstatic.com/content/hl-images/2021/09/01/windows-11-glow-glass.jpg	bleepingcomputer	t	2021-10-09 18:00:02.340046+02	2021-10-09 16:11:11+02	Lawrence Abrams	bleepingcomputer/Windows-11-Microsoft-is-investigating-these-eight-problems
 \.
 
 
@@ -2011,7 +2012,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1960, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1961, true);
 
 
 --
