@@ -2007,6 +2007,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1961	Windows 11: Microsoft is investigating these eight problems	Windows 11 is officially released, and users are running into various issues and problems preventing them from upgrading or using the new operating system correctly. Below we have collected eight known issues affecting Windows 11 and when they are expected to be fixed.	https://www.bleepingcomputer.com/news/microsoft/windows-11-microsoft-is-investigating-these-eight-problems/	https://www.bleepstatic.com/content/hl-images/2021/09/01/windows-11-glow-glass.jpg	bleepingcomputer	t	2021-10-09 18:00:02.340046+02	2021-10-09 16:11:11+02	Lawrence Abrams	bleepingcomputer/Windows-11-Microsoft-is-investigating-these-eight-problems
 1962	Bank of America insider charged with money laundering for BEC scams	The U.S. District Court for the Eastern District of Virginia has charged three men with money laundering and aggravated identity theft after allegedly conducting a business email compromise (BEC) scheme.	https://www.bleepingcomputer.com/news/security/bank-of-america-insider-charged-with-money-laundering-for-bec-scams/	https://www.bleepstatic.com/content/hl-images/2021/06/03/us-supreme-court.jpg	bleepingcomputer	t	2021-10-09 22:00:02.068234+02	2021-10-09 18:08:16+02	Bill Toulas	bleepingcomputer/Bank-of-America-insider-charged-with-money-laundering-for-BEC-scams
 1963	Microsoft adds tamper protection to Windows 11 security baseline	Microsoft has released the final version of its security configuration baseline settings for Windows 11, downloadable today using the Microsoft Security Compliance Toolkit.	https://www.bleepingcomputer.com/news/security/microsoft-adds-tamper-protection-to-windows-11-security-baseline/	https://www.bleepstatic.com/content/hl-images/2021/10/06/Windows_11.jpg	bleepingcomputer	t	2021-10-09 22:00:02.068234+02	2021-10-09 17:05:10+02	Sergiu Gatlan	bleepingcomputer/Microsoft-adds-tamper-protection-to-Windows-11-security-baseline
+1964	FontOnLake malware infects Linux systems via trojanized utilities	A newly discovered malware family has been infecting Linux systems concealed in legitimate binaries. Dubbed FontOnLake, the threat delivers backdoor and rootkit components.	https://www.bleepingcomputer.com/news/security/fontonlake-malware-infects-linux-systems-via-trojanized-utilities/	https://www.bleepstatic.com/content/posts/2021/10/10/FontOnLake.jpg	bleepingcomputer	t	2021-10-10 20:00:02.031483+02	2021-10-10 19:16:30+02	Ionut Ilascu	bleepingcomputer/FontOnLake-malware-infects-Linux-systems-via-trojanized-utilities
+1965	Amnesty International links cybersecurity firm to spyware operation	A report by Amnesty International links an Indian cybersecurity company to an Android spyware program used to target prominent activists. 	https://www.bleepingcomputer.com/news/security/amnesty-international-links-cybersecurity-firm-to-spyware-operation/	https://www.bleepstatic.com/content/hl-images/2020/07/09/Stalkerware_spyware_surveillance.jpg	bleepingcomputer	t	2021-10-10 20:00:02.031483+02	2021-10-10 16:07:14+02	Bill Toulas	bleepingcomputer/Amnesty-International-links-cybersecurity-firm-to-spyware-operation
 \.
 
 
@@ -2014,7 +2016,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1963, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1965, true);
 
 
 --
