@@ -2009,6 +2009,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1963	Microsoft adds tamper protection to Windows 11 security baseline	Microsoft has released the final version of its security configuration baseline settings for Windows 11, downloadable today using the Microsoft Security Compliance Toolkit.	https://www.bleepingcomputer.com/news/security/microsoft-adds-tamper-protection-to-windows-11-security-baseline/	https://www.bleepstatic.com/content/hl-images/2021/10/06/Windows_11.jpg	bleepingcomputer	t	2021-10-09 22:00:02.068234+02	2021-10-09 17:05:10+02	Sergiu Gatlan	bleepingcomputer/Microsoft-adds-tamper-protection-to-Windows-11-security-baseline
 1964	FontOnLake malware infects Linux systems via trojanized utilities	A newly discovered malware family has been infecting Linux systems concealed in legitimate binaries. Dubbed FontOnLake, the threat delivers backdoor and rootkit components.	https://www.bleepingcomputer.com/news/security/fontonlake-malware-infects-linux-systems-via-trojanized-utilities/	https://www.bleepstatic.com/content/posts/2021/10/10/FontOnLake.jpg	bleepingcomputer	t	2021-10-10 20:00:02.031483+02	2021-10-10 19:16:30+02	Ionut Ilascu	bleepingcomputer/FontOnLake-malware-infects-Linux-systems-via-trojanized-utilities
 1965	Amnesty International links cybersecurity firm to spyware operation	A report by Amnesty International links an Indian cybersecurity company to an Android spyware program used to target prominent activists. 	https://www.bleepingcomputer.com/news/security/amnesty-international-links-cybersecurity-firm-to-spyware-operation/	https://www.bleepstatic.com/content/hl-images/2020/07/09/Stalkerware_spyware_surveillance.jpg	bleepingcomputer	t	2021-10-10 20:00:02.031483+02	2021-10-10 16:07:14+02	Bill Toulas	bleepingcomputer/Amnesty-International-links-cybersecurity-firm-to-spyware-operation
+1966	Customize your Windows 11 experience with these free apps	Windows 11 is now available for devices with supported hardware features. If you've already upgraded to Windows 11 and you're looking for some great apps for your Windows 11 device, here's a list of the interesting open-source and free apps currently available in the marketplace.	https://www.bleepingcomputer.com/news/microsoft/customize-your-windows-11-experience-with-these-free-apps/	https://www.bleepstatic.com/content/hl-images/2021/09/03/windows-11-storm-clouds-clean.jpg	bleepingcomputer	t	2021-10-11 01:00:02.563694+02	2021-10-11 00:11:57+02	Mayank Parmar	bleepingcomputer/Customize-your-Windows-11-experience-with-these-free-apps
 \.
 
 
@@ -2016,7 +2017,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1965, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1966, true);
 
 
 --
