@@ -2010,6 +2010,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1964	FontOnLake malware infects Linux systems via trojanized utilities	A newly discovered malware family has been infecting Linux systems concealed in legitimate binaries. Dubbed FontOnLake, the threat delivers backdoor and rootkit components.	https://www.bleepingcomputer.com/news/security/fontonlake-malware-infects-linux-systems-via-trojanized-utilities/	https://www.bleepstatic.com/content/posts/2021/10/10/FontOnLake.jpg	bleepingcomputer	t	2021-10-10 20:00:02.031483+02	2021-10-10 19:16:30+02	Ionut Ilascu	bleepingcomputer/FontOnLake-malware-infects-Linux-systems-via-trojanized-utilities
 1965	Amnesty International links cybersecurity firm to spyware operation	A report by Amnesty International links an Indian cybersecurity company to an Android spyware program used to target prominent activists. 	https://www.bleepingcomputer.com/news/security/amnesty-international-links-cybersecurity-firm-to-spyware-operation/	https://www.bleepstatic.com/content/hl-images/2020/07/09/Stalkerware_spyware_surveillance.jpg	bleepingcomputer	t	2021-10-10 20:00:02.031483+02	2021-10-10 16:07:14+02	Bill Toulas	bleepingcomputer/Amnesty-International-links-cybersecurity-firm-to-spyware-operation
 1966	Customize your Windows 11 experience with these free apps	Windows 11 is now available for devices with supported hardware features. If you've already upgraded to Windows 11 and you're looking for some great apps for your Windows 11 device, here's a list of the interesting open-source and free apps currently available in the marketplace.	https://www.bleepingcomputer.com/news/microsoft/customize-your-windows-11-experience-with-these-free-apps/	https://www.bleepstatic.com/content/hl-images/2021/09/03/windows-11-storm-clouds-clean.jpg	bleepingcomputer	t	2021-10-11 01:00:02.563694+02	2021-10-11 00:11:57+02	Mayank Parmar	bleepingcomputer/Customize-your-Windows-11-experience-with-these-free-apps
+1967	Tech giants expand Australian misinformation measures week after government criticism | ZDNet	A new portal will be created for accepting complaints from the Australian public where they believe a signatory's efforts to address misinformation are not up to scratch.	https://www.zdnet.com/article/tech-giants-expand-australian-misinformation-measures-week-after-government-criticism/	https://www.zdnet.com/a/img/resize/e998ba55eeee27964e4c4fccf0da96a09b116e82/2021/05/03/411c2a4b-f919-4ee9-a1cb-b996314d4ae1/social-media-up-close-apps.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-11 03:00:02.384168+02	2021-10-11 00:42:11+02	Campbell Kwan	zdnet/Tech-giants-expand-Australian-misinformation-measures-week-after-government-criticism
 \.
 
 
@@ -2017,7 +2018,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1966, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1967, true);
 
 
 --
