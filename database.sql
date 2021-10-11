@@ -2018,6 +2018,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1972	ZTE widens bug bounty to focus on 5G security | ZDNet	Chinese networking equipment vendor is working with bug bounty platform YesWeHack to test a range of products that include 5G networking systems, smartphones, Internet of Things devices, and cloud systems.	https://www.zdnet.com/article/zte-widens-bug-bounty-to-focus-on-5g-security/	https://www.zdnet.com/a/img/resize/b4b116f5dfdfb1851653de8a499572109855c12f/2020/03/31/cbf5fe31-ca44-4091-921b-8677653411ed/security.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-11 13:00:01.978053+02	2021-10-11 10:51:11+02	Eileen Yu	zdnet/ZTE-widens-bug-bounty-to-focus-on-5G-security
 1973	Ransomware: Even when the attackers are in your network, it's not too late to fight back | ZDNet	Ransomware attacks can be devastating. But even if cyber criminals are already inside your network, it's not too late to stop them - if you know what to look for.	https://www.zdnet.com/article/ransomware-even-when-the-attackers-are-in-your-network-its-not-too-late-to-fight-back/	https://www.zdnet.com/a/img/resize/7397a09ac9903c6072f05286de6696f6849b6816/2021/10/11/5d184455-8ddb-42b2-9956-368c941d4cc4/two-businesswomen-working-on-a-computer-getty.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-11 15:00:02.158425+02	2021-10-11 12:08:52+02	Danny Palmer	zdnet/Ransomware-Even-when-the-attackers-are-in-your-network-its-not-too-late-to-fight-back
 1974	Nuclear engineer's espionage plans unraveled by undercover FBI agent	A Navy nuclear engineer and his wife were arrested under espionage-related charges alleging violations of the Atomic Energy Act after selling restricted nuclear-powered warship design data to a person they believed was a foreign power agent.	https://www.bleepingcomputer.com/news/security/nuclear-engineers-espionage-plans-unraveled-by-undercover-fbi-agent/	https://www.bleepstatic.com/content/hl-images/2021/10/11/h4xo_0r.jpg	bleepingcomputer	t	2021-10-11 15:00:02.158425+02	2021-10-11 14:00:00+02	Sergiu Gatlan	bleepingcomputer/Nuclear-engineers-espionage-plans-unraveled-by-undercover-FBI-agent
+1975	Ransomware is now the most urgent cyber threat to business. But most firms aren't ready for it | ZDNet	Many firms have no incident response plans, or ever test their cyber defences says cybersecurity chief.	https://www.zdnet.com/article/ransomware-is-now-the-most-urgent-cyber-threat-to-business-but-most-firms-arent-ready-for-it/	https://www.zdnet.com/a/img/resize/63303617f8fc64c1e691f0abd797028662e8403f/2021/07/09/3700feb7-54c2-4ea8-95cc-08c2741dcdad/annoyed-woman-at-a-computer-in-an-office.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-11 16:00:02.358742+02	2021-10-11 13:55:32+02	Danny Palmer	zdnet/Ransomware-is-now-the-most-urgent-cyber-threat-to-business-But-most-firms-arent-ready-for-it
 \.
 
 
@@ -2025,7 +2026,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1974, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1975, true);
 
 
 --
