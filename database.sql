@@ -2015,6 +2015,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1969	Pacific City Bank discloses ransomware attack claimed by AvosLocker	Pacific City Bank (PCB), one of the largest Korean-American community banking service providers in America, has disclosed a ransomware incident that took place last month.	https://www.bleepingcomputer.com/news/security/pacific-city-bank-discloses-ransomware-attack-claimed-by-avoslocker/	https://www.bleepstatic.com/content/hl-images/2021/10/11/padlock.jpg	bleepingcomputer	t	2021-10-11 12:00:02.650438+02	2021-10-11 11:18:44+02	Bill Toulas	bleepingcomputer/Pacific-City-Bank-discloses-ransomware-attack-claimed-by-AvosLocker
 1970	FontOnLake malware strikes Linux systems in targeted attacks | ZDNet	The malware is accompanied by a rootkit to sink its claws firmly into vulnerable machines.	https://www.zdnet.com/article/fontonlake-malware-strikes-linux-systems-in-targeted-attacks/	https://www.zdnet.com/a/img/resize/fa4c3782b0ecad0c5e33e1a9a438e115b080d4e4/2021/08/30/4fe3da01-bdec-4847-a70c-86eb698d828d/linux-chess-board.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-11 12:00:02.650438+02	2021-10-11 09:53:45+02	Charlie Osborne	zdnet/FontOnLake-malware-strikes-Linux-systems-in-targeted-attacks
 1971	FBI arrests engineer for flogging nuclear warship data hidden in peanut butter sandwich | ZDNet	A husband and wife team tried to sell critical information on US submarine nuclear reactors.	https://www.zdnet.com/article/fbi-arrests-engineer-for-flogging-nuclear-warship-data-hidden-in-peanut-butter-sandwich/	https://www.zdnet.com/a/img/resize/acc2baece68ba6329028400d4cd2996eb8638847/2015/06/23/131a2231-618f-49b9-b0dd-59dfd2f047eb/navy-ship.gif?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-11 12:00:02.650438+02	2021-10-11 08:54:01+02	Charlie Osborne	zdnet/FBI-arrests-engineer-for-flogging-nuclear-warship-data-hidden-in-peanut-butter-sandwich
+1972	ZTE widens bug bounty to focus on 5G security | ZDNet	Chinese networking equipment vendor is working with bug bounty platform YesWeHack to test a range of products that include 5G networking systems, smartphones, Internet of Things devices, and cloud systems.	https://www.zdnet.com/article/zte-widens-bug-bounty-to-focus-on-5g-security/	https://www.zdnet.com/a/img/resize/b4b116f5dfdfb1851653de8a499572109855c12f/2020/03/31/cbf5fe31-ca44-4091-921b-8677653411ed/security.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-11 13:00:01.978053+02	2021-10-11 10:51:11+02	Eileen Yu	zdnet/ZTE-widens-bug-bounty-to-focus-on-5G-security
 \.
 
 
@@ -2022,7 +2023,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1971, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1972, true);
 
 
 --
