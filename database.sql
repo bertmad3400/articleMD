@@ -2029,6 +2029,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1983	Emergency Apple iOS 15.0.2 update fixes zero-day used in attacks	Apple has released iOS 15.0.2 and iPadOS 15.0.2 to fix a zero-day vulnerability that is actively exploited in the wild in attacks targeting Phones and iPads.	https://www.bleepingcomputer.com/news/security/emergency-apple-ios-1502-update-fixes-zero-day-used-in-attacks/	https://www.bleepstatic.com/content/hl-images/2021/02/10/Apple_logo.jpg	bleepingcomputer	t	2021-10-11 21:00:01.78722+02	2021-10-11 20:48:18+02	Lawrence Abrams	bleepingcomputer/Emergency-Apple-iOS-1502-update-fixes-zero-day-used-in-attacks
 1984	LibreOffice, OpenOffice bug allows hackers to spoof signed docs	LibreOffice and OpenOffice have pushed updates to address a vulnerability that makes it possible for an attacker to manipulate documents to appear as signed by a trusted source. 	https://www.bleepingcomputer.com/news/security/libreoffice-openoffice-bug-allows-hackers-to-spoof-signed-docs/	https://www.bleepstatic.com/content/hl-images/2021/10/11/libreoffice-header.jpg	bleepingcomputer	t	2021-10-11 21:00:01.78722+02	2021-10-11 18:47:36+02	Bill Toulas	bleepingcomputer/LibreOffice-OpenOffice-bug-allows-hackers-to-spoof-signed-docs
 1985	GitHub revokes duplicate SSH auth keys linked to library bug	GitHub has revoked weak SSH authentication keys generated using a library that incorrectly created duplicate RSA keypairs.	https://www.bleepingcomputer.com/news/security/github-revokes-duplicate-ssh-auth-keys-linked-to-library-bug/	https://www.bleepstatic.com/content/hl-images/2021/05/10/GitHub-headpic.jpg	bleepingcomputer	t	2021-10-11 23:00:01.950276+02	2021-10-11 22:12:04+02	Lawrence Abrams	bleepingcomputer/GitHub-revokes-duplicate-SSH-auth-keys-linked-to-library-bug
+1986	Quest-owned fertility clinic announces data breach after August ransomware attack | ZDNet	350,000 patients of ReproSource had their medical data leaked and some even had SSNs and credit card numbers exposed as well.	https://www.zdnet.com/article/quest-owned-fertility-clinic-announces-data-breach-after-august-ransomware-attack/	https://www.zdnet.com/a/img/resize/297d0706e1c3bf359f925fd1afdb29bdc7aa208c/2020/11/12/1b55e57a-33f5-436c-8b55-cb3c48cbcae6/istock-1190214200.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-12 00:00:02.63065+02	2021-10-11 21:45:17+02	Jonathan Greig	zdnet/Quest-owned-fertility-clinic-announces-data-breach-after-August-ransomware-attack
 \.
 
 
@@ -2036,7 +2037,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1985, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1986, true);
 
 
 --
