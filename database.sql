@@ -2023,6 +2023,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1977	Huawei Cloud targeted by updated cryptomining malware	A new version of a 2020 crypto-mining malware that was previously targeting Docker containers has now been spotted focusing on new cloud service providers like the Huawei Cloud.	https://www.bleepingcomputer.com/news/security/huawei-cloud-targeted-by-updated-cryptomining-malware/	https://www.bleepstatic.com/content/hl-images/2020/12/21/Bitcoin-crypto.jpg	bleepingcomputer	t	2021-10-11 17:00:02.499374+02	2021-10-11 16:44:41+02	Bill Toulas	bleepingcomputer/Huawei-Cloud-targeted-by-updated-cryptomining-malware
 1978	Ukrainian police arrest DDoS operator controlling 100,000 bots	Ukrainian police have arrested a hacker who controlled a 100,000 device botnet used to perform DDoS attacks on behalf of paid customers.	https://www.bleepingcomputer.com/news/security/ukrainian-police-arrest-ddos-operator-controlling-100-000-bots/	https://www.bleepstatic.com/content/hl-images/2021/01/23/ddos-header.jpg	bleepingcomputer	t	2021-10-11 17:00:02.499374+02	2021-10-11 15:10:00+02	Bill Toulas	bleepingcomputer/Ukrainian-police-arrest-DDoS-operator-controlling-100000-bots
 1979	Microsoft Defender for Identity to detect Windows Bronze Bit attacks	Microsoft is working on adding support for Bronze Bit attacks detection to Microsoft Defender for Identity to make it easier for Security Operations teams to detect attempts to abuse a Windows Kerberos bug tracked as CVE-2020-17049.	https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-for-identity-to-detect-windows-bronze-bit-attacks/	https://www.bleepstatic.com/content/hl-images/2020/10/16/Windows---10.jpg	bleepingcomputer	t	2021-10-11 17:00:02.499374+02	2021-10-11 15:00:00+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Defender-for-Identity-to-detect-Windows-Bronze-Bit-attacks
+1980	Microsoft: Iran-linked hackers target US defense tech companies	Iran-linked threat actors are targeting the Office 365 tenants of US and Israeli defense technology companies in extensive password spraying attacks.	https://www.bleepingcomputer.com/news/security/microsoft-iran-linked-hackers-target-us-defense-tech-companies/	https://www.bleepstatic.com/content/hl-images/2021/05/25/Iran-fingerprint_(1).jpg	bleepingcomputer	t	2021-10-11 18:00:02.499121+02	2021-10-11 17:52:27+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Iran-linked-hackers-target-US-defense-tech-companies
+1981	Microsoft: Iran-linked hackers breached Office 365 customer accounts	Microsoft said today that a new Iran-linked hacking group has targeted more than 250 Office 365 tenants and compromised accounts for less than 20.	https://therecord.media/microsoft-iran-linked-hackers-breached-office-365-customer-accounts/	https://therecord.media/wp-content/uploads/2021/09/hacker-attacks.png	therecord	t	2021-10-11 18:00:02.499121+02	2021-10-11 17:54:33+02	Catalin Cimpanu	therecord/Microsoft-Iran-linked-hackers-breached-Office-365-customer-accounts
 \.
 
 
@@ -2030,7 +2032,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1979, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1981, true);
 
 
 --
