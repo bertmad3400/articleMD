@@ -2064,6 +2064,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2018	Windows 11 KB5006674 update released with compatibility fixes	Microsoft has released the Windows 11 KB5006674 cumulative update, marking it as the first update for the new operating system since it has been released to the public channel.	https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5006674-update-released-with-compatibility-fixes/	https://www.bleepstatic.com/content/hl-images/2021/08/31/windows-11-header-light.jpg	bleepingcomputer	t	2021-10-12 21:00:02.432458+02	2021-10-12 20:04:19+02	Lawrence Abrams	bleepingcomputer/Windows-11-KB5006674-update-released-with-compatibility-fixes
 2019	Chinese hackers use Windows zero-day to attack defense, IT firms	A Chinese-speaking hacking group exploited a zero-day vulnerability in the Windows Win32k kernel driver to deploy a previously unknown remote access trojan (RAT).	https://www.bleepingcomputer.com/news/security/chinese-hackers-use-windows-zero-day-to-attack-defense-it-firms/	https://www.bleepstatic.com/content/hl-images/2021/03/01/Hacker-Light-Surveillance.jpg	bleepingcomputer	t	2021-10-12 21:00:02.432458+02	2021-10-12 20:01:37+02	Sergiu Gatlan	bleepingcomputer/Chinese-hackers-use-Windows-zero-day-to-attack-defense-IT-firms
 2020	Windows Zero-Day Actively Exploited in Widespread Espionage Campaign	The cyberattacks, linked to a Chinese-speaking APT, deliver the new MysterySnail RAT malware to Windows servers.	https://kasperskycontenthub.com/threatpost-global/?p=175432	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/12152222/mysterysnail-e1634066602849.jpg	threatpost	t	2021-10-12 22:00:01.794646+02	2021-10-12 21:34:32+02	Tara Seals	threatpost/Windows-Zero-Day-Actively-Exploited-in-Widespread-Espionage-Campaign
+2021	Olympus suffers second cyberattack in 2021 | ZDNet	The company said it detected the attack on Sunday after dealing with a ransomware incident last month.	https://www.zdnet.com/article/olympus-announces-second-cyberattack-in-2021/	https://www.zdnet.com/a/img/resize/92762aac6332a851cea6f39f3a3dce7fd54d46bd/2020/09/08/fcbbc318-6369-4e56-81c3-2d534f17619d/ransomware-graphic.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-12 23:00:02.163561+02	2021-10-12 20:04:14+02	Jonathan Greig	zdnet/Olympus-suffers-second-cyberattack-in-2021
+2022	Microsoft Azure fends off huge DDoS Attack | ZDNet	Microsoft successfully blocked a 2.4 Tbps Distributed Denial of Service (DDoS) attack on one of its European Azure cloud customers.	https://www.zdnet.com/article/microsoft-azure-fends-off-huge-ddos-attack/	https://www.zdnet.com/a/img/resize/f2f57a7e9e9cc024b0efa8e43319898c8c360bdf/2021/06/16/5d9dbe7e-ffbd-42d6-85a2-fe8056fc800f/ddos-traffic.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-12 23:00:02.163561+02	2021-10-12 19:51:00+02	Steven J. Vaughan-Nichols	zdnet/Microsoft-Azure-fends-off-huge-DDoS-Attack
 \.
 
 
@@ -2071,7 +2073,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2020, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2022, true);
 
 
 --
