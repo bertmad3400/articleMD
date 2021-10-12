@@ -2046,6 +2046,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2001	Study reveals Android phones constantly snoop on their users	A new study by a team of university researchers in the UK has unveiled a host of privacy issues that arise from using Android smartphones. 	https://www.bleepingcomputer.com/news/security/study-reveals-android-phones-constantly-snoop-on-their-users/	https://www.bleepstatic.com/content/hl-images/2021/10/01/Android__malware.jpg	bleepingcomputer	t	2021-10-12 16:00:02.665837+02	2021-10-12 15:34:41+02	Bill Toulas	bleepingcomputer/Study-reveals-Android-phones-constantly-snoop-on-their-users
 2000	Oracle joins multi-cloud security notification project | ZDNet	Oracle Cloud joins Microsoft Azure, Google Cloud and IBM in scheme designed to make managing security alerts in multi-cloud environments less challenging.	https://www.zdnet.com/article/oracle-joins-multi-cloud-security-notification-project/	https://www.zdnet.com/a/img/resize/c94e7666c5e3a47dcc6f271800e3bc643aa6ccb4/2021/10/11/cfb5d7c8-8a6d-4561-b0a6-bff190aa5da3/gettyimages-1153275252.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-12 16:00:02.665837+02	2021-10-12 13:00:25+02	Danny Palmer	zdnet/Oracle-joins-multi-cloud-security-notification-project
 2002	New SnapMC group extorts companies after short 30-minute hacks	Security researchers have discovered a new threat actor that carries out lightning-fast hacks, typically under 30 minutes, steals a company's files, and then extorts the victim with threats to leak the data online or to media outlets unless a ransom payment is made within a few days.	https://therecord.media/new-snapmc-group-extorts-companies-after-short-30-minute-hacks/	https://therecord.media/wp-content/uploads/2021/10/hoodie-hacker.jpg	therecord	t	2021-10-12 16:00:02.665837+02	2021-10-12 15:31:16+02	Catalin Cimpanu	therecord/New-SnapMC-group-extorts-companies-after-short-30-minute-hacks
+2003	Biden signs school cybersecurity act into law | ZDNet	The K-12 Cybersecurity Act directs CISA to study cybersecurity risks related to schools and develop recommendations as well as toolkits to help educators.	https://www.zdnet.com/article/biden-signs-school-cybersecurity-act-into-law/	https://www.zdnet.com/a/img/resize/f738ed7b20903adbc3fb873277e91454c4560332/2020/09/08/4d6dd175-7087-4216-a206-ef6e6960a6bb/school.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-12 17:00:01.722665+02	2021-10-12 14:28:00+02	Jonathan Greig	zdnet/Biden-signs-school-cybersecurity-act-into-law
 \.
 
 
@@ -2053,7 +2054,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2002, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2003, true);
 
 
 --
