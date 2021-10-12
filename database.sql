@@ -2067,6 +2067,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2021	Olympus suffers second cyberattack in 2021 | ZDNet	The company said it detected the attack on Sunday after dealing with a ransomware incident last month.	https://www.zdnet.com/article/olympus-announces-second-cyberattack-in-2021/	https://www.zdnet.com/a/img/resize/92762aac6332a851cea6f39f3a3dce7fd54d46bd/2020/09/08/fcbbc318-6369-4e56-81c3-2d534f17619d/ransomware-graphic.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-12 23:00:02.163561+02	2021-10-12 20:04:14+02	Jonathan Greig	zdnet/Olympus-suffers-second-cyberattack-in-2021
 2022	Microsoft Azure fends off huge DDoS Attack | ZDNet	Microsoft successfully blocked a 2.4 Tbps Distributed Denial of Service (DDoS) attack on one of its European Azure cloud customers.	https://www.zdnet.com/article/microsoft-azure-fends-off-huge-ddos-attack/	https://www.zdnet.com/a/img/resize/f2f57a7e9e9cc024b0efa8e43319898c8c360bdf/2021/06/16/5d9dbe7e-ffbd-42d6-85a2-fe8056fc800f/ddos-traffic.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-12 23:00:02.163561+02	2021-10-12 19:51:00+02	Steven J. Vaughan-Nichols	zdnet/Microsoft-Azure-fends-off-huge-DDoS-Attack
 2023	Microsoft October 2021 Patch Tuesday Squashes 4 Zero-Day Bugs	Microsoft put out security fixes for 74 vulnerabilities, one of which is being actively exploited to deliver the new MysterySnail RAT to Windows servers.	https://kasperskycontenthub.com/threatpost-global/?p=175431	https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/26141726/Windows-Abstract.jpg	threatpost	t	2021-10-13 00:00:02.125826+02	2021-10-12 23:51:06+02	Lisa Vaas	threatpost/Microsoft-Kills-Bug-Being-Exploited-in-MysterySnail-Espionage-Campaign
+2024	Dutch police send warning letters to DDoS booter customers	Dutch authorities gave a final warning to more than a dozen customers of a distributed denial-of-service (DDoS) website, letting them know that continued cyber offenses lead to prosecution.	https://www.bleepingcomputer.com/news/security/dutch-police-send-warning-letters-to-ddos-booter-customers/	https://www.bleepstatic.com/content/hl-images/2021/02/17/dutch-police.jpg	bleepingcomputer	t	2021-10-13 01:00:02.117445+02	2021-10-13 00:34:27+02	Ionut Ilascu	bleepingcomputer/Dutch-police-send-warning-letters-to-DDoS-booter-customers
 \.
 
 
@@ -2074,7 +2075,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2023, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2024, true);
 
 
 --
