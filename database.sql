@@ -2033,6 +2033,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1987	Brother printers may not work in Windows 11 if connected via USB	Brother is warning that many of their printers may no longer work or display errors when using a USB connection in Windows 11.	https://www.bleepingcomputer.com/news/microsoft/brother-printers-may-not-work-in-windows-11-if-connected-via-usb/	https://www.bleepstatic.com/content/hl-images/2021/06/30/Printer.jpg	bleepingcomputer	t	2021-10-12 01:00:02.370908+02	2021-10-12 00:17:19+02	Lawrence Abrams	bleepingcomputer/Brother-printers-may-not-work-in-Windows-11-if-connected-via-USB
 1988	Microsoft said it mitigated a 2.4 Tbps DDoS attack, the largest ever	Microsoft said its Azure cloud service mitigated a 2.4 terabytes per second (Tbps) distributed denial of service attack this year, at the end of August, representing the largest DDoS attack recorded to date. Amir Dahan, Senior Program Manager for Azure Networking, said the attack was carried out using a botnet of approximately 70,000 bots primarily	https://therecord.media/microsoft-said-it-mitigated-a-2-4-tbps-ddos-attack-the-largest-ever/	https://therecord.media/wp-content/uploads/2021/10/Microsoft-DDoS.png	therecord	t	2021-10-12 03:00:02.275855+02	2021-10-12 02:31:24+02	Catalin Cimpanu	therecord/Microsoft-said-it-mitigated-a-24-Tbps-DDoS-attack-the-largest-ever
 1989	Calls to ID social media users is just another Morrison government rush job | ZDNet	The government has escalated its war of words against the social media giants, demanding ID for all users. But it's a strategy that we already know won't solve the problem.	https://www.zdnet.com/article/calls-to-id-social-media-users-is-just-another-morrison-government-rush-job/	https://www.zdnet.com/a/img/resize/45a21d72e4a5262b20a9948b9b3d32de3a51bc42/2021/10/07/bf2cba9c-b31e-4e4b-8d6f-ac163a27b843/gettyimages-1345247720.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-12 06:00:01.842905+02	2021-10-12 03:49:03+02	Stilgherrian 	zdnet/Calls-to-ID-social-media-users-is-just-another-Morrison-government-rush-job
+1990	NSA warns of wildcard certificate risks, provides mitigations	The U.S. National Security Agency (NSA) is warning of the dangers stemming from the use of broadly-scoped certificates to authenticate multiple servers in an organization. These include a recently disclosed ALPACA technique that could be used for various traffic redirect attacks.	https://www.bleepingcomputer.com/news/security/nsa-warns-of-wildcard-certificate-risks-provides-mitigations/	https://www.bleepstatic.com/content/hl-images/2021/07/29/NSA_headpic.jpg	bleepingcomputer	t	2021-10-12 10:00:02.69845+02	2021-10-12 08:23:00+02	Ionut Ilascu	bleepingcomputer/NSA-warns-of-wildcard-certificate-risks-provides-mitigations
 \.
 
 
@@ -2040,7 +2041,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1989, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1990, true);
 
 
 --
