@@ -2063,6 +2063,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2017	1Password unveils secure sharing tool for passwords, secrets | ZDNet	Users can share items by receiving a unique link that they can customize depending on their needs.	https://www.zdnet.com/article/1password-unveils-secure-sharing-tool-for-businesses-and-families/	https://www.zdnet.com/a/img/resize/2453f478bd73eec40c77126e1e270df7cfbd21d3/2021/10/12/1d850aaa-6371-48ff-97ac-59fcdb63ee53/1password.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-12 21:00:02.432458+02	2021-10-12 18:10:00+02	Jonathan Greig	zdnet/1Password-unveils-secure-sharing-tool-for-passwords-secrets
 2018	Windows 11 KB5006674 update released with compatibility fixes	Microsoft has released the Windows 11 KB5006674 cumulative update, marking it as the first update for the new operating system since it has been released to the public channel.	https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5006674-update-released-with-compatibility-fixes/	https://www.bleepstatic.com/content/hl-images/2021/08/31/windows-11-header-light.jpg	bleepingcomputer	t	2021-10-12 21:00:02.432458+02	2021-10-12 20:04:19+02	Lawrence Abrams	bleepingcomputer/Windows-11-KB5006674-update-released-with-compatibility-fixes
 2019	Chinese hackers use Windows zero-day to attack defense, IT firms	A Chinese-speaking hacking group exploited a zero-day vulnerability in the Windows Win32k kernel driver to deploy a previously unknown remote access trojan (RAT).	https://www.bleepingcomputer.com/news/security/chinese-hackers-use-windows-zero-day-to-attack-defense-it-firms/	https://www.bleepstatic.com/content/hl-images/2021/03/01/Hacker-Light-Surveillance.jpg	bleepingcomputer	t	2021-10-12 21:00:02.432458+02	2021-10-12 20:01:37+02	Sergiu Gatlan	bleepingcomputer/Chinese-hackers-use-Windows-zero-day-to-attack-defense-IT-firms
+2020	Windows Zero-Day Actively Exploited in Widespread Espionage Campaign	The cyberattacks, linked to a Chinese-speaking APT, deliver the new MysterySnail RAT malware to Windows servers.	https://kasperskycontenthub.com/threatpost-global/?p=175432	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/12152222/mysterysnail-e1634066602849.jpg	threatpost	t	2021-10-12 22:00:01.794646+02	2021-10-12 21:34:32+02	Tara Seals	threatpost/Windows-Zero-Day-Actively-Exploited-in-Widespread-Espionage-Campaign
 \.
 
 
@@ -2070,7 +2071,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2019, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2020, true);
 
 
 --
