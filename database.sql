@@ -2031,6 +2031,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1985	GitHub revokes duplicate SSH auth keys linked to library bug	GitHub has revoked weak SSH authentication keys generated using a library that incorrectly created duplicate RSA keypairs.	https://www.bleepingcomputer.com/news/security/github-revokes-duplicate-ssh-auth-keys-linked-to-library-bug/	https://www.bleepstatic.com/content/hl-images/2021/05/10/GitHub-headpic.jpg	bleepingcomputer	t	2021-10-11 23:00:01.950276+02	2021-10-11 22:12:04+02	Lawrence Abrams	bleepingcomputer/GitHub-revokes-duplicate-SSH-auth-keys-linked-to-library-bug
 1986	Quest-owned fertility clinic announces data breach after August ransomware attack | ZDNet	350,000 patients of ReproSource had their medical data leaked and some even had SSNs and credit card numbers exposed as well.	https://www.zdnet.com/article/quest-owned-fertility-clinic-announces-data-breach-after-august-ransomware-attack/	https://www.zdnet.com/a/img/resize/297d0706e1c3bf359f925fd1afdb29bdc7aa208c/2020/11/12/1b55e57a-33f5-436c-8b55-cb3c48cbcae6/istock-1190214200.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-12 00:00:02.63065+02	2021-10-11 21:45:17+02	Jonathan Greig	zdnet/Quest-owned-fertility-clinic-announces-data-breach-after-August-ransomware-attack
 1987	Brother printers may not work in Windows 11 if connected via USB	Brother is warning that many of their printers may no longer work or display errors when using a USB connection in Windows 11.	https://www.bleepingcomputer.com/news/microsoft/brother-printers-may-not-work-in-windows-11-if-connected-via-usb/	https://www.bleepstatic.com/content/hl-images/2021/06/30/Printer.jpg	bleepingcomputer	t	2021-10-12 01:00:02.370908+02	2021-10-12 00:17:19+02	Lawrence Abrams	bleepingcomputer/Brother-printers-may-not-work-in-Windows-11-if-connected-via-USB
+1988	Microsoft said it mitigated a 2.4 Tbps DDoS attack, the largest ever	Microsoft said its Azure cloud service mitigated a 2.4 terabytes per second (Tbps) distributed denial of service attack this year, at the end of August, representing the largest DDoS attack recorded to date. Amir Dahan, Senior Program Manager for Azure Networking, said the attack was carried out using a botnet of approximately 70,000 bots primarily	https://therecord.media/microsoft-said-it-mitigated-a-2-4-tbps-ddos-attack-the-largest-ever/	https://therecord.media/wp-content/uploads/2021/10/Microsoft-DDoS.png	therecord	t	2021-10-12 03:00:02.275855+02	2021-10-12 02:31:24+02	Catalin Cimpanu	therecord/Microsoft-said-it-mitigated-a-24-Tbps-DDoS-attack-the-largest-ever
 \.
 
 
@@ -2038,7 +2039,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1987, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1988, true);
 
 
 --
