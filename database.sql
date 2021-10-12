@@ -2037,6 +2037,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 1991	Photo editor Android app STILL sitting on Google Play store is malware	An Android app sitting on the Google Play store touts itself to be a photo editor app. But, it contains code that steals the user's Facebook credentials to potentially run ad campaigns on the user's behalf, with their payment information. The app has scored over 5K installs, with similar spyware apps having 500K+ installs.	https://www.bleepingcomputer.com/news/security/photo-editor-android-app-still-sitting-on-google-play-store-is-malware/	https://www.bleepstatic.com/content/hl-images/2021/09/17/Android.jpg	bleepingcomputer	t	2021-10-12 11:00:02.617573+02	2021-10-12 10:13:49+02	Ax Sharma	bleepingcomputer/Photo-editor-Android-app-STILL-sitting-on-Google-Play-store-is-malware
 1992	Microsoft: Azure customer hit by record DDoS attack in August	Microsoft has mitigated a record 2.4 Tbps (terabytes per second) Distributed Denial-of-Service (DDoS) attack targeting an European Azure customer during the last week of August.	https://www.bleepingcomputer.com/news/security/microsoft-azure-customer-hit-by-record-ddos-attack-in-august/	https://www.bleepstatic.com/content/hl-images/2021/02/04/DDoS-attack.jpg	bleepingcomputer	t	2021-10-12 12:00:01.854611+02	2021-10-12 10:30:00+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Azure-customer-hit-by-record-DDoS-attack-in-August
 1993	Microsoft warns over password attacks against 250 Office 365 customers | ZDNet	Another good reason to turn on multi-factor authentication now.	https://www.zdnet.com/article/microsoft-warns-over-password-attacks-against-250-office-365-customers/	https://www.zdnet.com/a/img/resize/dde96c3339f308d88ee87ecff8b010303e83b3be/2021/10/12/f3fca469-a599-4bc3-9f8d-f4b9c0f46908/shutterstock-1541470193.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-12 13:00:02.38958+02	2021-10-12 10:46:56+02	Liam Tung	zdnet/Microsoft-warns-over-password-attacks-against-250-Office-365-customers
+1994	Olympus US systems hit by cyberattack over the weekend	Olympus, a leading medical technology company, was forced to take down IT systems in the Americas (U.S., Canada and Latin America) following a cyberattack that hit its network Sunday, on October 10, 2021.	https://www.bleepingcomputer.com/news/security/olympus-us-systems-hit-by-cyberattack-over-the-weekend/	https://www.bleepstatic.com/content/posts/2021/10/12/Olympus.jpg	bleepingcomputer	t	2021-10-12 14:00:02.349344+02	2021-10-12 13:46:19+02	Sergiu Gatlan	bleepingcomputer/Olympus-US-systems-hit-by-cyberattack-over-the-weekend
 \.
 
 
@@ -2044,7 +2045,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1993, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1994, true);
 
 
 --
