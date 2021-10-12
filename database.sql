@@ -2051,6 +2051,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2005	Apple Releases Urgent iOS Updates to Patch New Zero-Day Bug	The bug is under attack. Within hours of the patch release, a researcher published POC code, calling it a great flaw that can be used for jailbreaks and local privilege escalation.	https://kasperskycontenthub.com/threatpost-global/?p=175419	https://media.threatpost.com/wp-content/uploads/sites/103/2020/07/01143018/Mac-Malware.jpg	threatpost	t	2021-10-12 18:00:01.729511+02	2021-10-12 17:17:38+02	Lisa Vaas	threatpost/Apple-Releases-Urgent-iOS-Updates-to-Patch-New-Zero-Day-Bug
 2006	FreakOut botnet now attacks vulnerable video DVR devices	A new update to the FreakOut (aka Necro, N3Cr0m0rPh) Python botnet has added a recently published PoC exploit for Visual Tools DVR in its arsenal to further aid in breaching systems.	https://www.bleepingcomputer.com/news/security/freakout-botnet-now-attacks-vulnerable-video-dvr-devices/	https://www.bleepstatic.com/content/hl-images/2021/02/02/Malware-scanner.jpg	bleepingcomputer	t	2021-10-12 18:00:01.729511+02	2021-10-12 17:58:42+02	Bill Toulas	bleepingcomputer/FreakOut-botnet-now-attacks-vulnerable-video-DVR-devices
 2007	Cyberattack shuts down Ecuador's largest bank, Banco Pichincha	Ecuador's largest private bank Banco Pichincha has suffered a cyberattack that disrupted operations and taken the ATM and online banking portal offline.	https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-ecuadors-largest-bank-banco-pichincha/	https://www.bleepstatic.com/content/hl-images/2021/10/12/banco-pichincha-header.jpg	bleepingcomputer	t	2021-10-12 18:00:01.729511+02	2021-10-12 17:12:52+02	Lawrence Abrams	bleepingcomputer/Cyberattack-shuts-down-Ecuadors-largest-bank-Banco-Pichincha
+2008	Azure, GitHub, GitLab, BitBucket mass-revoke SSH keys following bug report	Microsoft, GitHub, GitLab, and BitBucket, four of today's largest code hosting portals, have initiated mass revocations of SSH keys on Monday after the discovery of a vulnerability in a popular Git software client named GitKraken.	https://therecord.media/azure-github-gitlab-bitbucket-mass-revoke-ssh-keys-following-bug-report/	https://therecord.media/wp-content/uploads/2021/10/SSH-keys.jpg	therecord	t	2021-10-12 19:00:02.583722+02	2021-10-12 18:03:46+02	Catalin Cimpanu	therecord/Azure-GitHub-GitLab-BitBucket-mass-revoke-SSH-keys-following-bug-report
+2009	Phishing campaign uses math symbols to evade detection	Phishing actors are now using mathematical symbols on impersonated company logos to evade detection from anti-phishing systems.	https://www.bleepingcomputer.com/review/security/phishing-campaign-uses-math-symbols-to-evade-detection/	https://www.bleepstatic.com/content/hl-images/2021/10/12/Phishing.jpg	bleepingcomputer	t	2021-10-12 19:00:02.583722+02	2021-10-12 18:22:01+02	Bill Toulas	bleepingcomputer/Phishing-campaign-uses-math-symbols-to-evade-detection
 \.
 
 
@@ -2058,7 +2060,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2007, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2009, true);
 
 
 --
