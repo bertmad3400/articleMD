@@ -2092,6 +2092,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2046	OpenSea NFT platform bugs let hackers steal crypto wallets	Security researchers found that an attacker could leave OpenSea account owners with an empty cryptocurrency balance by luring them to click on malicious NFT art.	https://www.bleepingcomputer.com/news/security/opensea-nft-platform-bugs-let-hackers-steal-crypto-wallets/	https://www.bleepstatic.com/content/hl-images/2021/10/13/NFT.jpg	bleepingcomputer	t	2021-10-13 18:00:01.938169+02	2021-10-13 13:17:23+02	Ionut Ilascu	bleepingcomputer/OpenSea-NFT-platform-bugs-let-hackers-steal-crypto-wallets
 2047	Student finds zero-days in Exterity devices while rick-rolling school district	An Illinois teenager has found two zero-day vulnerabilities in Exterity IPTV systems during a rick-roll prank he pulled off on his school district before graduation.	https://therecord.media/student-finds-zero-days-in-exterity-devices-while-rick-rolling-school-district/	https://therecord.media/wp-content/uploads/2021/10/Exterity.jpg	therecord	t	2021-10-13 19:00:02.259454+02	2021-10-13 18:39:53+02	Catalin Cimpanu	therecord/Student-finds-zero-days-in-Exterity-devices-while-rick-rolling-school-district
 2048	Brizy WordPress Plugin Exploit Chains Allow Full Site Takeovers	A stored XSS and arbitrary file-upload bug can be paired with an authorization bypass to wreak havoc.	https://kasperskycontenthub.com/threatpost-global/?p=175463	https://media.threatpost.com/wp-content/uploads/sites/103/2019/04/23131246/WordPress-plugin-exploit.jpg	threatpost	t	2021-10-13 19:00:02.259454+02	2021-10-13 18:05:49+02	Tara Seals	threatpost/Brizy-WordPress-Plugin-Exploit-Chains-Allow-Full-Site-Takeovers
+2049	MyKings botnet still active and making massive amounts of money	The MyKings botnet (aka Smominru or DarkCloud) is still actively spreading, making massive amounts of money in crypto, five years after it first appeared in the wild.	https://www.bleepingcomputer.com/news/security/mykings-botnet-still-active-and-making-massive-amounts-of-money/	https://www.bleepstatic.com/content/hl-images/2021/10/13/king.jpg	bleepingcomputer	t	2021-10-13 20:00:02.027666+02	2021-10-13 19:14:37+02	Bill Toulas	bleepingcomputer/MyKings-botnet-still-active-and-making-massive-amounts-of-money
 \.
 
 
@@ -2099,7 +2100,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2048, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2049, true);
 
 
 --
