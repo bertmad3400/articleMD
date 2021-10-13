@@ -2075,6 +2075,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2029	Russia and China left out of global anti-ransomware meetings	The White House National Security Council facilitates virtual meetings this week with senior officials and ministers from more than 30 countries in a virtual international counter-ransomware event to rally allies in the fight against the ransomware threat.	https://www.bleepingcomputer.com/news/security/russia-and-china-left-out-of-global-anti-ransomware-meetings/	https://www.bleepstatic.com/content/hl-images/2021/07/07/White-House.jpg	bleepingcomputer	t	2021-10-13 13:00:02.263049+02	2021-10-13 12:56:43+02	Sergiu Gatlan	bleepingcomputer/Russia-and-China-left-out-of-global-anti-ransomware-meetings
 2030	Bugs allowing malicious NFT uploads uncovered in OpenSea marketplace | ZDNet	Malicious NFTs could have become an attack vector for hackers trying to steal digital wallet funds.	https://www.zdnet.com/article/bugs-allowing-malicious-nft-uploads-uncovered-in-opensea-marketplace/	https://www.zdnet.com/a/img/resize/3ddb8b4708638634afc93a5572b264ad6121d1f9/2021/10/12/f1ec013f-bf75-4d91-a398-765065de6a38/screenshot-2021-10-12-at-18-23-21.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-13 13:00:02.263049+02	2021-10-13 10:00:08+02	Charlie Osborne	zdnet/Bugs-allowing-malicious-NFT-uploads-uncovered-in-OpenSea-marketplace
 2031	1 in 15 organizations runs actively exploited version of SolarWinds: report | ZDNet	A study from Randori has tracked the most sought-after assets attackers are looking to exploit.	https://www.zdnet.com/article/1-in-15-organizations-runs-actively-exploited-version-of-solarwinds-report/	https://www.zdnet.com/a/img/resize/e8386e7589069ca850ebc20cd3b1461a05918c2f/2021/07/13/12de2331-93a4-4ee4-89c7-03a97e82d350/solarwinds-releases-security-advisory.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-13 13:00:02.263049+02	2021-10-13 10:00:01+02	Jonathan Greig	zdnet/1-in-15-organizations-runs-actively-exploited-version-of-SolarWinds-report
+2032	30 Mins or Less: Rapid Attacks Extort Orgs Without Ransomware	The previously unknown SnapMC group exploits unpatched VPNs and webserver apps to breach systems and carry out quick-hit extortion in less time than it takes to order a pizza.	https://kasperskycontenthub.com/threatpost-global/?p=175445	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/13071817/pizza-delivery-e1634123918695.jpg	threatpost	t	2021-10-13 14:00:01.961313+02	2021-10-13 13:22:00+02	Becky Bracken	threatpost/30-Mins-or-Less-Rapid-Attacks-Extort-Orgs-Without-Ransomware
 \.
 
 
@@ -2082,7 +2083,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2031, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2032, true);
 
 
 --
