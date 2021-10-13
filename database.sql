@@ -2090,6 +2090,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2044	Apple silently fixes iOS zero-day, asks bug reporter to keep quiet	Apple has silently fixed a gamed zero-day vulnerability with the release of iOS 15.0.2, on Monday, a security flaw that could let attackers gain access to sensitive user information.	https://www.bleepingcomputer.com/news/apple/apple-silently-fixes-ios-zero-day-asks-bug-reporter-to-keep-quiet/	https://www.bleepstatic.com/content/hl-images/2021/02/10/Apple_xray.jpg	bleepingcomputer	t	2021-10-13 18:00:01.938169+02	2021-10-13 17:25:15+02	Sergiu Gatlan	bleepingcomputer/Apple-silently-fixes-iOS-zero-day-asks-bug-reporter-to-keep-quiet
 2045	Australia to tackle ransomware data breaches by deleting stolen files	Australia's Minister for Home Affairs has announced the Australian Government's Ransomware Action Plan, which is a set of new measures the country will adopt in an attempt to tackle the rising threat.	https://www.bleepingcomputer.com/news/security/australia-to-tackle-ransomware-data-breaches-by-deleting-stolen-files/	https://www.bleepstatic.com/content/hl-images/2021/10/13/flag_of_australia.jpg	bleepingcomputer	t	2021-10-13 18:00:01.938169+02	2021-10-13 17:01:44+02	Bill Toulas	bleepingcomputer/Australia-to-tackle-ransomware-data-breaches-by-deleting-stolen-files
 2046	OpenSea NFT platform bugs let hackers steal crypto wallets	Security researchers found that an attacker could leave OpenSea account owners with an empty cryptocurrency balance by luring them to click on malicious NFT art.	https://www.bleepingcomputer.com/news/security/opensea-nft-platform-bugs-let-hackers-steal-crypto-wallets/	https://www.bleepstatic.com/content/hl-images/2021/10/13/NFT.jpg	bleepingcomputer	t	2021-10-13 18:00:01.938169+02	2021-10-13 13:17:23+02	Ionut Ilascu	bleepingcomputer/OpenSea-NFT-platform-bugs-let-hackers-steal-crypto-wallets
+2047	Student finds zero-days in Exterity devices while rick-rolling school district	An Illinois teenager has found two zero-day vulnerabilities in Exterity IPTV systems during a rick-roll prank he pulled off on his school district before graduation.	https://therecord.media/student-finds-zero-days-in-exterity-devices-while-rick-rolling-school-district/	https://therecord.media/wp-content/uploads/2021/10/Exterity.jpg	therecord	t	2021-10-13 19:00:02.259454+02	2021-10-13 18:39:53+02	Catalin Cimpanu	therecord/Student-finds-zero-days-in-Exterity-devices-while-rick-rolling-school-district
+2048	Brizy WordPress Plugin Exploit Chains Allow Full Site Takeovers	A stored XSS and arbitrary file-upload bug can be paired with an authorization bypass to wreak havoc.	https://kasperskycontenthub.com/threatpost-global/?p=175463	https://media.threatpost.com/wp-content/uploads/sites/103/2019/04/23131246/WordPress-plugin-exploit.jpg	threatpost	t	2021-10-13 19:00:02.259454+02	2021-10-13 18:05:49+02	Tara Seals	threatpost/Brizy-WordPress-Plugin-Exploit-Chains-Allow-Full-Site-Takeovers
 \.
 
 
@@ -2097,7 +2099,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2046, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2048, true);
 
 
 --
