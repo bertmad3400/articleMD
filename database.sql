@@ -2095,6 +2095,9 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2047	Student finds zero-days in Exterity devices while rick-rolling school district	An Illinois teenager has found two zero-day vulnerabilities in Exterity IPTV systems during a rick-roll prank he pulled off on his school district before graduation.	https://therecord.media/student-finds-zero-days-in-exterity-devices-while-rick-rolling-school-district/	https://therecord.media/wp-content/uploads/2021/10/Exterity.jpg	therecord	t	2021-10-13 19:00:02.259454+02	2021-10-13 18:39:53+02	Catalin Cimpanu	therecord/Student-finds-zero-days-in-Exterity-devices-while-rick-rolling-school-district
 2048	Brizy WordPress Plugin Exploit Chains Allow Full Site Takeovers	A stored XSS and arbitrary file-upload bug can be paired with an authorization bypass to wreak havoc.	https://kasperskycontenthub.com/threatpost-global/?p=175463	https://media.threatpost.com/wp-content/uploads/sites/103/2019/04/23131246/WordPress-plugin-exploit.jpg	threatpost	t	2021-10-13 19:00:02.259454+02	2021-10-13 18:05:49+02	Tara Seals	threatpost/Brizy-WordPress-Plugin-Exploit-Chains-Allow-Full-Site-Takeovers
 2049	MyKings botnet still active and making massive amounts of money	The MyKings botnet (aka Smominru or DarkCloud) is still actively spreading, making massive amounts of money in crypto, five years after it first appeared in the wild.	https://www.bleepingcomputer.com/news/security/mykings-botnet-still-active-and-making-massive-amounts-of-money/	https://www.bleepstatic.com/content/hl-images/2021/10/13/king.jpg	bleepingcomputer	t	2021-10-13 20:00:02.027666+02	2021-10-13 19:14:37+02	Bill Toulas	bleepingcomputer/MyKings-botnet-still-active-and-making-massive-amounts-of-money
+2052	Brazilian e-commerce firm Hariexpress leaks 1.75 billion sensitive files | ZDNet	The marketplace integrator serves some of the country's largest online retailers	https://www.zdnet.com/article/brazilian-e-commerce-firm-hariexpress-leaks-1-75-billion-sensitive-files/	https://www.zdnet.com/a/img/resize/7ad16ee87b99d8489bce13f630f3c9bec8d2b00a/2020/07/22/59b26ba5-08b3-48e4-a94c-bd8410804458/sf-data-privacy-thumb.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-13 23:00:01.949252+02	2021-10-13 20:42:48+02	Angelica Mari	zdnet/Brazilian-e-commerce-firm-Hariexpress-leaks-175-billion-sensitive-files
+2053	New Australian ransomware plan could freeze or seize cryptocurrencies	Australian authorities are laying the groundwork to seize or freeze cryptocurrencies linked to cybercrimes regardless from where the attacks originated.	https://therecord.media/new-australian-ransomware-plan-could-freeze-or-seize-cryptocurrencies/	https://therecord.media/wp-content/uploads/2021/04/phone-banking-trojan-malware.png	therecord	t	2021-10-13 23:00:01.949252+02	2021-10-13 22:26:55+02	Dina Temple-Raston	therecord/New-Australian-ransomware-plan-could-freeze-or-seize-cryptocurrencies
+2054	FreakOut Botnet Turns DVRs Into Monero Cryptominers	The new Necro Python exploit targets Visual Tool DVRs used in surveillance systems.	https://kasperskycontenthub.com/threatpost-global/?p=175467	https://media.threatpost.com/wp-content/uploads/sites/103/2019/12/24125246/cryptominer_700_420.png	threatpost	t	2021-10-13 23:00:01.949252+02	2021-10-13 22:17:09+02	Becky Bracken	threatpost/FreakOut-Botnet-Turns-DVRs-Into-Monero-Cryptominers
 \.
 
 
@@ -2102,7 +2105,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2051, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2054, true);
 
 
 --
