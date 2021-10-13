@@ -2069,6 +2069,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2023	Microsoft October 2021 Patch Tuesday Squashes 4 Zero-Day Bugs	Microsoft put out security fixes for 74 vulnerabilities, one of which is being actively exploited to deliver the new MysterySnail RAT to Windows servers.	https://kasperskycontenthub.com/threatpost-global/?p=175431	https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/26141726/Windows-Abstract.jpg	threatpost	t	2021-10-13 00:00:02.125826+02	2021-10-12 23:51:06+02	Lisa Vaas	threatpost/Microsoft-Kills-Bug-Being-Exploited-in-MysterySnail-Espionage-Campaign
 2024	Dutch police send warning letters to DDoS booter customers	Dutch authorities gave a final warning to more than a dozen customers of a distributed denial-of-service (DDoS) website, letting them know that continued cyber offenses lead to prosecution.	https://www.bleepingcomputer.com/news/security/dutch-police-send-warning-letters-to-ddos-booter-customers/	https://www.bleepstatic.com/content/hl-images/2021/02/17/dutch-police.jpg	bleepingcomputer	t	2021-10-13 01:00:02.117445+02	2021-10-13 00:34:27+02	Ionut Ilascu	bleepingcomputer/Dutch-police-send-warning-letters-to-DDoS-booter-customers
 2025	Australia's new ransomware plan to create ransomware offences and reporting regime | ZDNet	Under Australia's new Ransomware Action Plan, organisations that suffer from a ransomware attack will be required to report the incident to government.	https://www.zdnet.com/article/australias-new-ransomware-plan-to-create-ransomware-offences-and-reporting-regime/	https://www.zdnet.com/a/img/resize/9c4b37db032be5f62191a6be2c3aabf6850c5655/2021/09/23/56439f4d-4672-4f9b-bd51-86ba6398076d/ransomware.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-13 02:00:02.682356+02	2021-10-12 23:12:00+02	Campbell Kwan	zdnet/Australias-new-ransomware-plan-to-create-ransomware-offences-and-reporting-regime
+2027	OVH hosting provider goes down during planned maintenance	OVH, the largest hosting provider in Europe and the third-largest in the world, went down earlier today following what looks like routing configuration issues during a planned maintenance.	https://www.bleepingcomputer.com/news/technology/ovh-hosting-provider-goes-down-during-planned-maintenance/	https://www.bleepstatic.com/content/posts/2021/10/13/OVH.jpg	bleepingcomputer	t	2021-10-13 12:00:02.210458+02	2021-10-13 10:32:29+02	Sergiu Gatlan	bleepingcomputer/OVH-hosting-provider-goes-down-during-planned-maintenance
+2026	U.S. convenes 30 countries on ransomware threat — without Russia or China	The Biden administration did not invite Russia to participate in the first meeting of a global effort to combat cybercrime, but could welcome the country that has become synonymous with ransomware to future gatherings.	https://therecord.media/u-s-convenes-30-countries-on-ransomware-threat-without-russia-or-china/	https://therecord.media/wp-content/uploads/2021/08/bigstock-White-House-791299-1.jpg	therecord	t	2021-10-13 12:00:02.210458+02	2021-10-13 11:00:12+02	Martin Matishak	therecord/US-convenes-30-countries-on-ransomware-threat--without-Russia-or-China
 \.
 
 
@@ -2076,7 +2078,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2025, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2027, true);
 
 
 --
