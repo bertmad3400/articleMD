@@ -2098,6 +2098,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2052	Brazilian e-commerce firm Hariexpress leaks 1.75 billion sensitive files | ZDNet	The marketplace integrator serves some of the country's largest online retailers	https://www.zdnet.com/article/brazilian-e-commerce-firm-hariexpress-leaks-1-75-billion-sensitive-files/	https://www.zdnet.com/a/img/resize/7ad16ee87b99d8489bce13f630f3c9bec8d2b00a/2020/07/22/59b26ba5-08b3-48e4-a94c-bd8410804458/sf-data-privacy-thumb.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-13 23:00:01.949252+02	2021-10-13 20:42:48+02	Angelica Mari	zdnet/Brazilian-e-commerce-firm-Hariexpress-leaks-175-billion-sensitive-files
 2053	New Australian ransomware plan could freeze or seize cryptocurrencies	Australian authorities are laying the groundwork to seize or freeze cryptocurrencies linked to cybercrimes regardless from where the attacks originated.	https://therecord.media/new-australian-ransomware-plan-could-freeze-or-seize-cryptocurrencies/	https://therecord.media/wp-content/uploads/2021/04/phone-banking-trojan-malware.png	therecord	t	2021-10-13 23:00:01.949252+02	2021-10-13 22:26:55+02	Dina Temple-Raston	therecord/New-Australian-ransomware-plan-could-freeze-or-seize-cryptocurrencies
 2054	FreakOut Botnet Turns DVRs Into Monero Cryptominers	The new Necro Python exploit targets Visual Tool DVRs used in surveillance systems.	https://kasperskycontenthub.com/threatpost-global/?p=175467	https://media.threatpost.com/wp-content/uploads/sites/103/2019/12/24125246/cryptominer_700_420.png	threatpost	t	2021-10-13 23:00:01.949252+02	2021-10-13 22:17:09+02	Becky Bracken	threatpost/FreakOut-Botnet-Turns-DVRs-Into-Monero-Cryptominers
+2055	Academics find Meltdown-like attacks on AMD CPUs, previously thought to be unaffected	Two academic papers have been published over the past two months detailing new side-channel attacks in AMD processors that have eerily similar consequences to the Meltdown attack disclosed in early 2018, to which AMD CPUs were previously thought to be immune.	https://therecord.media/academics-find-meltdown-like-attacks-on-amd-cpus-previously-thought-to-be-unaffected/	https://therecord.media/wp-content/uploads/2021/10/AMD.jpg	therecord	t	2021-10-14 00:00:02.386708+02	2021-10-13 23:35:17+02	Catalin Cimpanu	therecord/Academics-find-Meltdown-like-attacks-on-AMD-CPUs-previously-thought-to-be-unaffected
 \.
 
 
@@ -2105,7 +2106,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2054, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2055, true);
 
 
 --
