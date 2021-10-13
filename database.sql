@@ -2086,6 +2086,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2040	Mandating a Zero-Trust Approach for Software Supply Chains	Sounil Yu, CISO at JupiterOne, discusses software bills of materials (SBOMs) and the need for a shift in thinking about securing software supply chains.	https://kasperskycontenthub.com/threatpost-global/?p=175333	https://media.threatpost.com/wp-content/uploads/sites/103/2018/11/20150953/Bug_Red_Code.jpg	threatpost	t	2021-10-13 16:00:02.27392+02	2021-10-13 15:22:41+02	Sounil Yu	threatpost/Mandating-a-Zero-Trust-Approach-for-Software-Supply-Chains
 2041	OpenSea ‘Free Gift’ NFTs Drain Cryptowallet Balances	Cybercriminals exploited bugs in the world's largest digital-goods marketplace to create malicious artwork offered as a perk to unsuspecting users.	https://kasperskycontenthub.com/threatpost-global/?p=175453	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/13090321/nft-e1634130217291.png	threatpost	t	2021-10-13 16:00:02.27392+02	2021-10-13 15:04:37+02	Tara Seals	threatpost/OpenSea-Free-Gift-NFTs-Drain-Cryptowallet-Balances
 2042	Incident Response: 5 Principles to Boost the Infosec/Legal Relationship	Effective cyber-incident response means working well with legal. Matt Dunn, associate managing director for cyber-risk at Kroll, lays out how to do it.	https://kasperskycontenthub.com/threatpost-global/?p=175461	https://media.threatpost.com/wp-content/uploads/sites/103/2019/03/01141041/Social-Justice.jpg	threatpost	t	2021-10-13 16:00:02.27392+02	2021-10-11 14:00:13+02	Matt Dunn	threatpost/Incident-Response-5-Principles-to-Boost-the-InfosecLegal-Relationship
+2043	EU legislation introduced to ban anonymous domain registration	The European Union is drafting legislation that could soon end individuals registering domains anonymously on the continent.	https://www.bleepingcomputer.com/news/government/eu-legislation-introduced-to-ban-anonymous-domain-registration/	https://www.bleepstatic.com/content/hl-images/2021/09/24/European_Union_EU_headpic.jpg	bleepingcomputer	t	2021-10-13 17:00:01.884992+02	2021-10-13 16:26:59+02	Bill Toulas	bleepingcomputer/EU-legislation-introduced-to-ban-anonymous-domain-registration
 \.
 
 
@@ -2093,7 +2094,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2042, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2043, true);
 
 
 --
