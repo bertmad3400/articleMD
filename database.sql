@@ -2134,6 +2134,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2088	Verizon-owned Visible acknowledges hack, confirms account manipulations | ZDNet	The company has faced overwhelming criticism from users, who took to social media to say their accounts had been hacked and used to buy phones or make other charges.	https://www.zdnet.com/article/verizon-owned-visible-acknowledges-hack-confirms-account-manipulations/	https://www.zdnet.com/a/img/resize/2dbdc09ef4095c5dc0c1f68489de0809607e0229/2021/10/11/3d36a357-cbcf-4c5f-a538-c5c59fb2996b/visible.gif?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-14 23:00:01.883516+02	2021-10-14 20:16:00+02	Jonathan Greig	zdnet/Verizon-owned-Visible-acknowledges-hack-confirms-account-manipulations
 2089	WhatsApp rolls out iOS, Android end-to-end encrypted chat backups	​WhatsApp is rolling out end-to-end encrypted chat backups on iOS and Android to prevent anyone from accessing your chats, regardless of where they are stored.	https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-ios-android-end-to-end-encrypted-chat-backups/	https://www.bleepstatic.com/content/hl-images/2021/05/07/WhatsApp-headpic.jpg	bleepingcomputer	t	2021-10-14 23:00:01.883516+02	2021-10-14 22:31:10+02	Lawrence Abrams	bleepingcomputer/WhatsApp-rolls-out-iOS-Android-end-to-end-encrypted-chat-backups
 2090	Rickroll Grad Prank Exposes Exterity IPTV Bug	IPTV and IP video security is increasingly under scrutiny, even by high school kids.	https://kasperskycontenthub.com/threatpost-global/?p=175491	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/14162918/rickroll-e1634243370645.jpg	threatpost	t	2021-10-14 23:00:01.883516+02	2021-10-14 22:38:02+02	Becky Bracken	threatpost/Rickroll-Grad-Prank-Exposes-Exterity-IPTV-Bug
+2091	CISA outlines cyberthreats targeting US water and wastewater systems | ZDNet	CISA listed multiple ransomware attacks on water facilities this year, including ones in California, Maine and Nevada.	https://www.zdnet.com/article/cisa-outlines-cyberthreats-targeting-us-water-and-wastewater-systems/	https://www.zdnet.com/a/img/resize/c97cf05a220dc2e17842165366fb40bcf6974c83/2021/02/26/e108da59-ba3d-4bd0-9420-de6b83a00355/istock-water-treatment.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-15 00:00:02.573816+02	2021-10-14 21:29:42+02	Jonathan Greig	zdnet/CISA-outlines-cyberthreats-targeting-US-water-and-wastewater-systems
+2092	US govt reveals three more ransomware attacks on water treatment plants this year	Ransomware gangs have silently hit three US water and wastewater treatment facilities this year, in 2021, the US government said in a joint cybersecurity advisory published today by the FBI, NSA, CISA, and the EPA.	https://therecord.media/us-govt-reveals-three-more-ransomware-attacks-on-water-treatment-plants-this-year/	https://therecord.media/wp-content/uploads/2021/10/water-treatment.jpg	therecord	t	2021-10-15 00:00:02.573816+02	2021-10-14 23:58:58+02	Catalin Cimpanu	therecord/US-govt-reveals-three-more-ransomware-attacks-on-water-treatment-plants-this-year
 \.
 
 
@@ -2141,7 +2143,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2090, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2092, true);
 
 
 --
