@@ -2109,6 +2109,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2063	The White House is having a big meeting about fighting ransomware. It didn't invite Russia | ZDNet	The US hopes an international response can contain cyber attackers looking to make money from encrypting your data.	https://www.zdnet.com/article/the-white-house-is-having-a-big-meeting-about-fighting-ransomware-it-didnt-invite-russia/	https://www.zdnet.com/a/img/resize/4154ef65668fb2ee6c374626d1c76abb7e3935f2/2017/02/17/70489b0a-91dc-488d-9600-f5a0ea437e34/shutterstock23383342.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-14 13:00:02.48416+02	2021-10-14 10:30:47+02	Liam Tung	zdnet/The-White-House-is-having-a-big-meeting-about-fighting-ransomware-It-didnt-invite-Russia
 2064	Acer confirms breach of after-sales service systems in India	Taiwanese computer giant Acer has confirmed that its after-sales service systems in India were recently breached in what the company called an isolated attack.	https://www.bleepingcomputer.com/news/security/acer-confirms-breach-of-after-sales-service-systems-in-india/	https://www.bleepstatic.com/content/hl-images/2021/10/14/acer-headpic.jpg	bleepingcomputer	t	2021-10-14 13:00:02.48416+02	2021-10-14 12:13:27+02	Sergiu Gatlan	bleepingcomputer/Acer-confirms-breach-of-after-sales-service-systems-in-India
 2065	New Yanluowang ransomware used in targeted enterprise attacks	A new and still under development ransomware strain is being used in highly targeted attacks against enterprise entities as Broadcom's Symantec Threat Hunter Team discovered.	https://www.bleepingcomputer.com/news/security/new-yanluowang-ransomware-used-in-targeted-enterprise-attacks/	https://www.bleepstatic.com/content/hl-images/2021/10/13/Yanluowang_ransomware.jpg	bleepingcomputer	t	2021-10-14 13:00:02.48416+02	2021-10-14 12:00:00+02	Sergiu Gatlan	bleepingcomputer/New-Yanluowang-ransomware-used-in-targeted-enterprise-attacks
+2066	Windows security: 20 years on from Bill Gates' Trustworthy Computing memo, how much has changed? | ZDNet	Windows security has changed a lot in 20 years - but so have the groups that want to attack it.	https://www.zdnet.com/article/windows-security-20-years-on-from-bill-gates-trustworthy-computing-memo-how-much-has-changed/	https://www.zdnet.com/a/img/resize/76ecb1de544bfb69c0eed4f609957885cbbf20d7/2021/10/14/31150cff-22bb-4487-b7c2-004fb0db8459/shutterstock-574000213.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-14 14:00:02.061084+02	2021-10-14 11:41:11+02	Liam Tung	zdnet/Windows-security-20-years-on-from-Bill-Gates-Trustworthy-Computing-memo-how-much-has-changed
+2067	Acer confirms second security breach this year	A spokesperson for Taiwanese computer maker Acer has confirmed today that the company suffered a second security breach this year after hackers advertised the sale of more than 60 GB of data on an underground cybercrime forum.	https://therecord.media/acer-confirms-second-security-breach-this-year/	https://therecord.media/wp-content/uploads/2021/03/Acer.jpg	therecord	t	2021-10-14 14:00:02.061084+02	2021-10-14 13:06:57+02	Catalin Cimpanu	therecord/Acer-confirms-second-security-breach-this-year
 \.
 
 
@@ -2116,7 +2118,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2065, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2067, true);
 
 
 --
