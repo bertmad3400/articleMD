@@ -2127,6 +2127,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2081	Countries agree to fight ransomware together after White House meetings	The U.S., European Union and 30 countries agreed to work together to fight ransomware, according to a joint statement Thursday that recognizes ransomware as “an escalating global security threat with serious economic and security consequences.	https://therecord.media/countries-agree-to-fight-ransomware-together-after-white-house-meetings/	https://www-therecord.recfut.com/wp-content/uploads/2020/12/whitehousejpg-scaled.jpg	therecord	t	2021-10-14 19:00:02.622778+02	2021-10-14 18:01:20+02	Andrea Peterson	therecord/Countries-agree-to-fight-ransomware-together-after-White-House-meetings
 2082	FTC fires warning shot at 700 leading companies about fake reviews	The Federal Trade Commission (FTC) says it will fine companies for using fake online reviews or other deceptive endorsements to deceive their customers.	https://www.bleepingcomputer.com/news/technology/ftc-fires-warning-shot-at-700-leading-companies-about-fake-reviews/	https://www.bleepstatic.com/content/hl-images/2021/10/14/Rating_review_star.jpg	bleepingcomputer	t	2021-10-14 19:00:02.622778+02	2021-10-14 18:40:24+02	Sergiu Gatlan	bleepingcomputer/FTC-fires-warning-shot-at-700-leading-companies-about-fake-reviews
 2083	University of Sunderland announces outage following cyberattack	The University of Sunderland in the UK has announced extensive operational issues that have taken most of its IT systems down, attributing the problem to a cyber-attack. 	https://www.bleepingcomputer.com/news/security/university-of-sunderland-announces-outage-following-cyberattack/	https://www.bleepstatic.com/content/hl-images/2021/10/14/sunderland_campus.jpg	bleepingcomputer	t	2021-10-14 19:00:02.622778+02	2021-10-14 18:17:22+02	Bill Toulas	bleepingcomputer/University-of-Sunderland-announces-outage-following-cyberattack
+2084	Microsoft releases Linux version of the Windows Sysmon tool	Microsoft has released a Linux version of the very popular Sysmon system monitoring utility for Windows, allowing Linux administrators to monitor devices for malicious activity. 	https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-linux-version-of-the-windows-sysmon-tool/	https://www.bleepstatic.com/content/hl-images/2021/10/14/microsoft-loves-linux-header.jpg	bleepingcomputer	t	2021-10-14 20:00:01.858668+02	2021-10-14 19:44:24+02	Lawrence Abrams	bleepingcomputer/Microsoft-releases-Linux-version-of-the-Windows-Sysmon-tool
 \.
 
 
@@ -2134,7 +2135,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2083, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2084, true);
 
 
 --
