@@ -2099,6 +2099,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2053	New Australian ransomware plan could freeze or seize cryptocurrencies	Australian authorities are laying the groundwork to seize or freeze cryptocurrencies linked to cybercrimes regardless from where the attacks originated.	https://therecord.media/new-australian-ransomware-plan-could-freeze-or-seize-cryptocurrencies/	https://therecord.media/wp-content/uploads/2021/04/phone-banking-trojan-malware.png	therecord	t	2021-10-13 23:00:01.949252+02	2021-10-13 22:26:55+02	Dina Temple-Raston	therecord/New-Australian-ransomware-plan-could-freeze-or-seize-cryptocurrencies
 2054	FreakOut Botnet Turns DVRs Into Monero Cryptominers	The new Necro Python exploit targets Visual Tool DVRs used in surveillance systems.	https://kasperskycontenthub.com/threatpost-global/?p=175467	https://media.threatpost.com/wp-content/uploads/sites/103/2019/12/24125246/cryptominer_700_420.png	threatpost	t	2021-10-13 23:00:01.949252+02	2021-10-13 22:17:09+02	Becky Bracken	threatpost/FreakOut-Botnet-Turns-DVRs-Into-Monero-Cryptominers
 2055	Academics find Meltdown-like attacks on AMD CPUs, previously thought to be unaffected	Two academic papers have been published over the past two months detailing new side-channel attacks in AMD processors that have eerily similar consequences to the Meltdown attack disclosed in early 2018, to which AMD CPUs were previously thought to be immune.	https://therecord.media/academics-find-meltdown-like-attacks-on-amd-cpus-previously-thought-to-be-unaffected/	https://therecord.media/wp-content/uploads/2021/10/AMD.jpg	therecord	t	2021-10-14 00:00:02.386708+02	2021-10-13 23:35:17+02	Catalin Cimpanu	therecord/Academics-find-Meltdown-like-attacks-on-AMD-CPUs-previously-thought-to-be-unaffected
+2056	Google analysed 80 million ransomware samples: Here's what it found | ZDNet	Israel has submitted the largest amount of ransomware samples since the start of 2020, according to a study.	https://www.zdnet.com/article/google-analysed-80-million-ransomware-samples-heres-what-it-found/	https://www.zdnet.com/a/img/resize/fc6b456eca611b0e8b034db4d2637783c3f768db/2021/09/28/b8e87bb6-d657-4da5-8860-16a3555c5a76/hands-on-a-keyboard-with-blue-lighting.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-14 02:00:02.439857+02	2021-10-13 23:05:25+02	Campbell Kwan	zdnet/Google-analysed-80-million-ransomware-samples-Heres-what-it-found
 \.
 
 
@@ -2106,7 +2107,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2055, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2056, true);
 
 
 --
