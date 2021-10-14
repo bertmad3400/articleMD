@@ -2105,6 +2105,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2059	7-Eleven breached customer privacy by collecting facial imagery without consent | ZDNet	The OAIC has found 7-Eleven breached customers' privacy by collecting and storing their facial images as part of efforts to understand the demographic profile of its customers.	https://www.zdnet.com/article/7-eleven-collected-customer-facial-imagery-during-in-store-surveys-without-consent/	https://www.zdnet.com/a/img/resize/111d297a7e076e42f19569b9832c8155b49842db/2021/10/14/0944dbe9-59b7-4a88-9518-1ec4b0247752/gettyimages-490600374.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-14 05:00:02.580994+02	2021-10-14 02:16:45+02	Campbell Kwan	zdnet/7-Eleven-breached-customer-privacy-by-collecting-facial-imagery-without-consent
 2060	ACSC offers optional DNS protection to government entities | ZDNet	Australian Protective Domain Name Service has already inspected 10 billion queries.	https://www.zdnet.com/article/acsc-offers-optional-dns-protection-to-government-entities/	https://www.zdnet.com/a/img/resize/e559ff83db5274e12ad5218d993be03e43ace4d2/2020/11/12/04331d02-c3c4-47c6-9b82-957f0929455c/istock-1224413361.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-14 09:00:02.331421+02	2021-10-14 06:05:20+02	Chris Duckett	zdnet/ACSC-offers-optional-DNS-protection-to-government-entities
 2061	Singapore to develop mobile defence systems with Ghost Robotics | ZDNet	Defence Science and Technology Agency says it has inked a partnership agreement with Philadelphia-based Ghost Robotics to test and develop technologies as well as use cases for legged robots for security, defence, and humanitarian applications.	https://www.zdnet.com/article/singapore-to-develop-mobile-defence-systems-with-ghost-robotics/	https://www.zdnet.com/a/img/resize/1d088ff45a98961a43ff96ba018ea3e6b1b66e46/2021/10/14/fd60b160-e9bc-43a4-8781-45ca718e4922/ghost-robotics.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-14 09:00:02.331421+02	2021-10-14 05:55:00+02	Eileen Yu	zdnet/Singapore-to-develop-mobile-defence-systems-with-Ghost-Robotics
+2062	Microsoft confirms new Windows 11 printer installation issues	Microsoft has confirmed new Windows 11 known issues which cause printers installation fails on systems commonly found in enterprise environments.	https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-new-windows-11-printer-installation-issues/	https://www.bleepstatic.com/content/hl-images/2021/10/05/Windows11_laptop.jpg	bleepingcomputer	t	2021-10-14 11:00:01.729991+02	2021-10-14 10:32:35+02	Sergiu Gatlan	bleepingcomputer/Microsoft-confirms-new-Windows-11-printer-installation-issues
 \.
 
 
@@ -2112,7 +2113,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2061, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2062, true);
 
 
 --
