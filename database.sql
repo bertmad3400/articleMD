@@ -2111,6 +2111,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2065	New Yanluowang ransomware used in targeted enterprise attacks	A new and still under development ransomware strain is being used in highly targeted attacks against enterprise entities as Broadcom's Symantec Threat Hunter Team discovered.	https://www.bleepingcomputer.com/news/security/new-yanluowang-ransomware-used-in-targeted-enterprise-attacks/	https://www.bleepstatic.com/content/hl-images/2021/10/13/Yanluowang_ransomware.jpg	bleepingcomputer	t	2021-10-14 13:00:02.48416+02	2021-10-14 12:00:00+02	Sergiu Gatlan	bleepingcomputer/New-Yanluowang-ransomware-used-in-targeted-enterprise-attacks
 2066	Windows security: 20 years on from Bill Gates' Trustworthy Computing memo, how much has changed? | ZDNet	Windows security has changed a lot in 20 years - but so have the groups that want to attack it.	https://www.zdnet.com/article/windows-security-20-years-on-from-bill-gates-trustworthy-computing-memo-how-much-has-changed/	https://www.zdnet.com/a/img/resize/76ecb1de544bfb69c0eed4f609957885cbbf20d7/2021/10/14/31150cff-22bb-4487-b7c2-004fb0db8459/shutterstock-574000213.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-14 14:00:02.061084+02	2021-10-14 11:41:11+02	Liam Tung	zdnet/Windows-security-20-years-on-from-Bill-Gates-Trustworthy-Computing-memo-how-much-has-changed
 2067	Acer confirms second security breach this year	A spokesperson for Taiwanese computer maker Acer has confirmed today that the company suffered a second security breach this year after hackers advertised the sale of more than 60 GB of data on an underground cybercrime forum.	https://therecord.media/acer-confirms-second-security-breach-this-year/	https://therecord.media/wp-content/uploads/2021/03/Acer.jpg	therecord	t	2021-10-14 14:00:02.061084+02	2021-10-14 13:06:57+02	Catalin Cimpanu	therecord/Acer-confirms-second-security-breach-this-year
+2068	This is how Formula 1 teams fight off cyberattacks | ZDNet	F1 is a high-profile, high-tech sport and that means it attracts the attentions of cyber criminals and hackers – here's how the Formula 1 teams protect themselves against hackers.	https://www.zdnet.com/article/this-is-how-formula-1-teams-fight-off-cyberattacks/	https://www.zdnet.com/a/img/resize/5ce07c7391cf1f267da2908ce4edea25930f8601/2021/10/12/17e37126-186a-4811-a812-c4484fcedd92/formula-1-portuguese-gp-first-lap.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-14 15:00:02.163949+02	2021-10-14 12:00:01+02	Danny Palmer	zdnet/This-is-how-Formula-1-teams-fight-off-cyberattacks
+2069	Belarus: Joining banned Telegram channels will land you in prison	Belarusian law enforcement has published a list of Telegram channels that are now considered extremist and warned people that merely joining them would be punishable by up to seven years of imprisonment.	https://www.bleepingcomputer.com/news/legal/belarus-joining-banned-telegram-channels-will-land-you-in-prison/	https://www.bleepstatic.com/content/hl-images/2021/10/14/flag_of_belarus.jpg	bleepingcomputer	t	2021-10-14 15:00:02.163949+02	2021-10-14 14:30:19+02	Bill Toulas	bleepingcomputer/Belarus-Joining-banned-Telegram-channels-will-land-you-in-prison
 \.
 
 
@@ -2118,7 +2120,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2067, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2069, true);
 
 
 --
