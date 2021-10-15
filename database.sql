@@ -2150,6 +2150,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2104	Critical infrastructure security dubbed 'abysmal' by researchers | ZDNet	Researchers find that lax ICS security is putting critical services at risk of exploitation.	https://www.zdnet.com/article/critical-infrastructure-security-dubbed-abysmal-by-researchers/	https://www.zdnet.com/a/img/resize/f7100a0674b6b6e84b6c01f8cce9cbf3dc181873/2019/09/12/2d58fa9c-ffbe-4f46-968c-ccb7723198ef/istock-1156726052.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-15 17:00:02.114396+02	2021-10-15 14:30:02+02	Charlie Osborne	zdnet/Critical-infrastructure-security-dubbed-abysmal-by-researchers
 2105	Accenture confirms data breach after August ransomware attack	Global IT consultancy giant Accenture confirmed that LockBit ransomware operators stole data from its systems during an attack that hit the company's systems in August 2021.	https://www.bleepingcomputer.com/news/security/accenture-confirms-data-breach-after-august-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/10/15/Accenture.jpg	bleepingcomputer	t	2021-10-15 17:00:02.114396+02	2021-10-15 16:49:18+02	Sergiu Gatlan	bleepingcomputer/Accenture-confirms-data-breach-after-August-ransomware-attack
 2106	Twitch downplays this month's hack, says it had minimal impact	In an update regarding this month's security incident, Twitch downplayed the breach saying that it had minimal impact and it only affected a small number of users.	https://www.bleepingcomputer.com/news/security/twitch-downplays-this-months-hack-says-it-had-minimal-impact/	https://www.bleepstatic.com/content/hl-images/2021/10/07/Twitch.jpg	bleepingcomputer	t	2021-10-15 18:00:02.313304+02	2021-10-15 17:37:53+02	Sergiu Gatlan	bleepingcomputer/Twitch-downplays-this-months-hack-says-it-had-minimal-impact
+2107	New Windows 10 KB5006670 update breaks network printing	Windows 10 users and administrators report widescale network printing issues after installing the KB5006670 cumulative update and other updates released this week.	https://www.bleepingcomputer.com/news/microsoft/new-windows-10-kb5006670-update-breaks-network-printing/	https://www.bleepstatic.com/content/hl-images/2021/01/13/windows-10-glass-broken.jpg	bleepingcomputer	t	2021-10-15 19:00:02.021852+02	2021-10-15 18:13:32+02	Lawrence Abrams	bleepingcomputer/New-Windows-10-KB5006670-update-breaks-network-printing
+2108	Treasury said it tied $5.2 billion in BTC transactions to ransomware payments	The financial crimes investigation unit of the US Treasury Department, also known as FinCEN, said today it identified approximately $5.2 billion in outgoing Bitcoin transactions potentially tied to ransomware payments.	https://therecord.media/us-govt-reveals-three-more-ransomware-attacks-on-water-treatment-plants-this-year-2/	https://www-therecord.recfut.com/wp-content/uploads/2021/08/money-laundering.png	therecord	t	2021-10-15 19:00:02.021852+02	2021-10-15 18:59:21+02	Catalin Cimpanu	therecord/Treasury-said-it-tied-52-billion-in-BTC-transactions-to-ransomware-payments
 \.
 
 
@@ -2157,7 +2159,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2106, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2108, true);
 
 
 --
