@@ -2137,6 +2137,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2091	CISA outlines cyberthreats targeting US water and wastewater systems | ZDNet	CISA listed multiple ransomware attacks on water facilities this year, including ones in California, Maine and Nevada.	https://www.zdnet.com/article/cisa-outlines-cyberthreats-targeting-us-water-and-wastewater-systems/	https://www.zdnet.com/a/img/resize/c97cf05a220dc2e17842165366fb40bcf6974c83/2021/02/26/e108da59-ba3d-4bd0-9420-de6b83a00355/istock-water-treatment.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-15 00:00:02.573816+02	2021-10-14 21:29:42+02	Jonathan Greig	zdnet/CISA-outlines-cyberthreats-targeting-US-water-and-wastewater-systems
 2092	US govt reveals three more ransomware attacks on water treatment plants this year	Ransomware gangs have silently hit three US water and wastewater treatment facilities this year, in 2021, the US government said in a joint cybersecurity advisory published today by the FBI, NSA, CISA, and the EPA.	https://therecord.media/us-govt-reveals-three-more-ransomware-attacks-on-water-treatment-plants-this-year/	https://therecord.media/wp-content/uploads/2021/10/water-treatment.jpg	therecord	t	2021-10-15 00:00:02.573816+02	2021-10-14 23:58:58+02	Catalin Cimpanu	therecord/US-govt-reveals-three-more-ransomware-attacks-on-water-treatment-plants-this-year
 2093	Missouri governor faces backlash and ridicule for threatening reporter who discovered exposed teacher SSNs | ZDNet	Governor Mike Parson called a St. Louis Post-Dispatch reporter a hacker and threatened criminal prosecution because he notified state officials about a database that exposed the sensitive information of 100,000 educators.	https://www.zdnet.com/article/missouri-governor-faces-backlash-and-ridicule-for-threatening-reporter-who-discovered-exposed-teacher-ssns/	https://www.zdnet.com/a/img/resize/07eb48cb3e054c71f8a51f388d036966d552d893/2021/10/14/930581a0-12f7-487e-b6f3-7de2256b69fd/fbro79gwyaysmzh.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-15 01:00:02.418635+02	2021-10-14 22:54:42+02	Jonathan Greig	zdnet/Missouri-governor-faces-backlash-and-ridicule-for-threatening-reporter-who-discovered-exposed-teacher-SSNs
+2094	WhatsApp starts slowly rolling out encrypted backups | ZDNet	Users will need the latest version of WhatsApp to take advantage of the new functionality.	https://www.zdnet.com/article/whatsapp-starts-slowly-rolling-out-encrypted-backups/	https://www.zdnet.com/a/img/resize/791c2690cf5533c0c1b54976781be01fc270baf6/2021/09/13/c479a909-f5f1-45d8-9dbd-f816af37f093/whatsapp-e2ee-backups-user-password.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-15 02:00:01.901156+02	2021-10-14 23:45:54+02	Chris Duckett	zdnet/WhatsApp-starts-slowly-rolling-out-encrypted-backups
 \.
 
 
@@ -2144,7 +2145,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2093, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2094, true);
 
 
 --
