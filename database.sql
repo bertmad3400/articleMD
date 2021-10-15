@@ -2141,6 +2141,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2095	This 'relentless' malware botnet has made millions with a surprisingly simple trick | ZDNet	Malware researchers reckon this botnet has made millions by exploiting an easy shortcut taken by many.	https://www.zdnet.com/article/this-relentless-malware-botnet-has-made-millions-with-a-surprisingly-simple-trick/	https://www.zdnet.com/a/img/resize/c46186e5ea2ef1651c7ad218d89b762571422198/2021/10/15/ebba8479-c60e-4724-8f98-4647217826af/shutterstock-1253457799.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-15 11:00:02.475961+02	2021-10-15 08:48:54+02	Liam Tung	zdnet/This-relentless-malware-botnet-has-made-millions-with-a-surprisingly-simple-trick
 2096	Canonical launches Ubuntu 21.10 for desktop and server	The latest version of the world's most popular Linux distribution, Ubuntu 21.10, codenamed 'Impish Indy', has landed on Canonical's download channels. 	https://www.bleepingcomputer.com/news/linux/canonical-launches-ubuntu-2110-for-desktop-and-server/	https://www.bleepstatic.com/content/hl-images/2021/10/15/impish-indri-mascot.jpg	bleepingcomputer	t	2021-10-15 11:00:02.475961+02	2021-10-15 09:58:18+02	Bill Toulas	bleepingcomputer/Canonical-launches-Ubuntu-2110-for-desktop-and-server
 2097	US government discloses more ransomware attacks on water plants	U.S. Water and Wastewater Systems (WWS) Sector facilities have been breached multiple times in ransomware attacks during the last two years according to joint advisory published by US government agencies on Thursday.	https://www.bleepingcomputer.com/news/security/us-government-discloses-more-ransomware-attacks-on-water-plants/	https://www.bleepstatic.com/content/posts/2021/10/15/US-wastewater.jpg	bleepingcomputer	t	2021-10-15 11:00:02.475961+02	2021-10-15 09:43:30+02	Sergiu Gatlan	bleepingcomputer/US-government-discloses-more-ransomware-attacks-on-water-plants
+2098	Governments worldwide to crack down on ransomware payment channels	Senior officials from more than 30 countries said that their governments would take action to disrupt the illicit cryptocurrency payment channels used by ransomware gangs to finance their operations.	https://www.bleepingcomputer.com/news/security/governments-worldwide-to-crack-down-on-ransomware-payment-channels/	https://www.bleepstatic.com/content/hl-images/2021/05/06/Globe-network-map.jpg	bleepingcomputer	t	2021-10-15 12:00:02.241852+02	2021-10-15 11:13:21+02	Sergiu Gatlan	bleepingcomputer/Governments-worldwide-to-crack-down-on-ransomware-payment-channels
 \.
 
 
@@ -2148,7 +2149,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2097, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2098, true);
 
 
 --
