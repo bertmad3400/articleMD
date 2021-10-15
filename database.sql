@@ -2147,6 +2147,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2101	Microsoft tests smarter delivery for Windows 11 update improvements	Microsoft is testing a new method to deliver Windows update improvements starting with Insiders in the Dev Channel running Windows 11 Insider Preview Build 22478.	https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-smarter-delivery-for-windows-11-update-improvements/	https://www.bleepstatic.com/content/hl-images/2021/07/02/windows-11-flare-white.jpg	bleepingcomputer	t	2021-10-15 15:00:02.155881+02	2021-10-15 14:00:00+02	Sergiu Gatlan	bleepingcomputer/Microsoft-tests-smarter-delivery-for-Windows-11-update-improvements
 2102	Russian cybercrime gang targets finance firms with stealthy macros	A new phishing campaign dubbed MirrorBlast is deploying weaponized Excel documents that are extremely difficult to detect to compromise financial service organizations	https://www.bleepingcomputer.com/news/security/russian-cybercrime-gang-targets-finance-firms-with-stealthy-macros/	https://www.bleepstatic.com/content/hl-images/2021/09/13/Hacker.jpg	bleepingcomputer	t	2021-10-15 16:00:01.697308+02	2021-10-15 15:58:46+02	Bill Toulas	bleepingcomputer/Russian-cybercrime-gang-targets-finance-firms-with-stealthy-macros
 2103	Brave web browser will add bounce tracking privacy protection	Brave, the privacy-conscious web browser, has announced plans to introduce additional privacy protections against 'bounce tracking,' a newer form of tracking that is not currently blocked by the browser.	https://www.bleepingcomputer.com/news/software/brave-web-browser-will-add-bounce-tracking-privacy-protection/	https://www.bleepstatic.com/content/hl-images/2020/11/02/brave-glowing.jpg	bleepingcomputer	t	2021-10-15 16:00:01.697308+02	2021-10-15 15:37:35+02	Bill Toulas	bleepingcomputer/Brave-web-browser-will-add-bounce-tracking-privacy-protection
+2104	Critical infrastructure security dubbed 'abysmal' by researchers | ZDNet	Researchers find that lax ICS security is putting critical services at risk of exploitation.	https://www.zdnet.com/article/critical-infrastructure-security-dubbed-abysmal-by-researchers/	https://www.zdnet.com/a/img/resize/f7100a0674b6b6e84b6c01f8cce9cbf3dc181873/2019/09/12/2d58fa9c-ffbe-4f46-968c-ccb7723198ef/istock-1156726052.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-15 17:00:02.114396+02	2021-10-15 14:30:02+02	Charlie Osborne	zdnet/Critical-infrastructure-security-dubbed-abysmal-by-researchers
+2105	Accenture confirms data breach after August ransomware attack	Global IT consultancy giant Accenture confirmed that LockBit ransomware operators stole data from its systems during an attack that hit the company's systems in August 2021.	https://www.bleepingcomputer.com/news/security/accenture-confirms-data-breach-after-august-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/10/15/Accenture.jpg	bleepingcomputer	t	2021-10-15 17:00:02.114396+02	2021-10-15 16:49:18+02	Sergiu Gatlan	bleepingcomputer/Accenture-confirms-data-breach-after-August-ransomware-attack
 \.
 
 
@@ -2154,7 +2156,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2103, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2105, true);
 
 
 --
