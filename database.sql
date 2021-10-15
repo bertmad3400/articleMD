@@ -2142,6 +2142,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2096	Canonical launches Ubuntu 21.10 for desktop and server	The latest version of the world's most popular Linux distribution, Ubuntu 21.10, codenamed 'Impish Indy', has landed on Canonical's download channels. 	https://www.bleepingcomputer.com/news/linux/canonical-launches-ubuntu-2110-for-desktop-and-server/	https://www.bleepstatic.com/content/hl-images/2021/10/15/impish-indri-mascot.jpg	bleepingcomputer	t	2021-10-15 11:00:02.475961+02	2021-10-15 09:58:18+02	Bill Toulas	bleepingcomputer/Canonical-launches-Ubuntu-2110-for-desktop-and-server
 2097	US government discloses more ransomware attacks on water plants	U.S. Water and Wastewater Systems (WWS) Sector facilities have been breached multiple times in ransomware attacks during the last two years according to joint advisory published by US government agencies on Thursday.	https://www.bleepingcomputer.com/news/security/us-government-discloses-more-ransomware-attacks-on-water-plants/	https://www.bleepstatic.com/content/posts/2021/10/15/US-wastewater.jpg	bleepingcomputer	t	2021-10-15 11:00:02.475961+02	2021-10-15 09:43:30+02	Sergiu Gatlan	bleepingcomputer/US-government-discloses-more-ransomware-attacks-on-water-plants
 2098	Governments worldwide to crack down on ransomware payment channels	Senior officials from more than 30 countries said that their governments would take action to disrupt the illicit cryptocurrency payment channels used by ransomware gangs to finance their operations.	https://www.bleepingcomputer.com/news/security/governments-worldwide-to-crack-down-on-ransomware-payment-channels/	https://www.bleepstatic.com/content/hl-images/2021/05/06/Globe-network-map.jpg	bleepingcomputer	t	2021-10-15 12:00:02.241852+02	2021-10-15 11:13:21+02	Sergiu Gatlan	bleepingcomputer/Governments-worldwide-to-crack-down-on-ransomware-payment-channels
+2099	Google: We're sending out lots more phishing and malware attack warnings - here's why | ZDNet	Google's state-sponsored hacker alerts are outpacing last year's warnings by a big margin. Turn on multi-factor authentication, it warns.	https://www.zdnet.com/article/google-were-sending-out-lots-more-phishing-and-malware-attack-warnings-heres-why/	https://www.zdnet.com/a/img/resize/0d927c93b5c7abd68304637ad5badbee1d09e521/2021/10/15/3eab866d-2d38-4d61-a69c-c255bd7bd477/shutterstock-2032695119.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-15 13:00:02.677961+02	2021-10-15 09:57:00+02	Liam Tung	zdnet/Google-Were-sending-out-lots-more-phishing-and-malware-attack-warnings---heres-why
 \.
 
 
@@ -2149,7 +2150,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2098, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2099, true);
 
 
 --
