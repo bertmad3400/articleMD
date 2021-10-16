@@ -63,20 +63,6 @@ ALTER SEQUENCE public.articles_id_seq OWNED BY public.articles.id;
 
 
 --
--- Name: osinter_users; Type: TABLE; Schema: public; Owner: postgres
---
-
-CREATE TABLE public.osinter_users (
-    username character varying(64) NOT NULL,
-    selected_article_ids bigint[],
-    password_hash character varying(100) NOT NULL,
-    id character varying(128) NOT NULL
-);
-
-
-ALTER TABLE public.osinter_users OWNER TO postgres;
-
---
 -- Name: articles id; Type: DEFAULT; Schema: public; Owner: osinter_admin
 --
 
@@ -2166,14 +2152,18 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2105	Accenture confirms data breach after August ransomware attack	Global IT consultancy giant Accenture confirmed that LockBit ransomware operators stole data from its systems during an attack that hit the company's systems in August 2021.	https://www.bleepingcomputer.com/news/security/accenture-confirms-data-breach-after-august-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/10/15/Accenture.jpg	bleepingcomputer	t	2021-10-15 17:00:02.114396+02	2021-10-15 16:49:18+02	Sergiu Gatlan	bleepingcomputer/Accenture-confirms-data-breach-after-August-ransomware-attack
 2106	Twitch downplays this month's hack, says it had minimal impact	In an update regarding this month's security incident, Twitch downplayed the breach saying that it had minimal impact and it only affected a small number of users.	https://www.bleepingcomputer.com/news/security/twitch-downplays-this-months-hack-says-it-had-minimal-impact/	https://www.bleepstatic.com/content/hl-images/2021/10/07/Twitch.jpg	bleepingcomputer	t	2021-10-15 18:00:02.313304+02	2021-10-15 17:37:53+02	Sergiu Gatlan	bleepingcomputer/Twitch-downplays-this-months-hack-says-it-had-minimal-impact
 2108	Treasury said it tied $5.2 billion in BTC transactions to ransomware payments	The financial crimes investigation unit of the US Treasury Department, also known as FinCEN, said today it identified approximately $5.2 billion in outgoing Bitcoin transactions potentially tied to ransomware payments.	https://therecord.media/us-govt-reveals-three-more-ransomware-attacks-on-water-treatment-plants-this-year-2/	https://www-therecord.recfut.com/wp-content/uploads/2021/08/money-laundering.png	therecord	t	2021-10-15 19:00:02.021852+02	2021-10-15 18:59:21+02	Catalin Cimpanu	therecord/Treasury-said-it-tied-52-billion-in-BTC-transactions-to-ransomware-payments
-\.
-
-
---
--- Data for Name: osinter_users; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY public.osinter_users (username, selected_article_ids, password_hash, id) FROM stdin;
+2109	Twitter suspends two accounts used by DPRK hackers to catfish security researchers	Twitter has suspended today two accounts operated by North Korean government hackers and used as part of a clever plot to attract security researchers to malicious sites and infect their systems with malware.	https://therecord.media/twitter-suspends-two-accounts-used-by-dprk-hackers-to-catfish-security-researchers/	https://therecord.media/wp-content/uploads/2021/10/DPRK-Twitter.png	therecord	t	2021-10-16 20:55:47.092283+02	2021-10-15 23:04:05+02	Catalin Cimpanu	therecord/Twitter-suspends-two-accounts-used-by-DPRK-hackers-to-catfish-security-researchers
+2110	US Treasury said it tied $5.2 billion in BTC transactions to ransomware payments	The financial crimes investigation unit of the US Treasury Department, also known as FinCEN, said today it identified approximately $5.2 billion in outgoing Bitcoin transactions potentially tied to ransomware payments.	https://therecord.media/treasury-said-it-tied-5-2-billion-in-btc-transactions-to-ransomware-payments/	https://therecord.media/wp-content/uploads/2021/08/money-laundering.png	therecord	t	2021-10-16 20:55:47.092283+02	2021-10-15 18:59:21+02	Catalin Cimpanu	therecord/US-Treasury-said-it-tied-52-billion-in-BTC-transactions-to-ransomware-payments
+2111	Check your iPhone for compromised passwords... NOW! | ZDNet	Passwords are both your first line of defense and a potential weak link in your security. Now is a good time for a quick, five minute password audit	https://www.zdnet.com/article/check-your-iphone-for-compromised-passwords-now/	https://www.zdnet.com/a/img/resize/0bd22e3d971acb855049e34de34d0f7538a646fd/2020/12/19/92c4bfdd-0924-48bd-854e-47d534f96e83/iphone-secure.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-16 20:55:47.092283+02	2021-10-16 13:00:06+02	Adrian Kingsley-Hughes	zdnet/Check-your-iPhone-for-compromised-passwords-NOW
+2112	Twitch says no passwords or login credentials leaked in massive breach | ZDNet	The company is still investigating a massive hack that drew headlines two weeks ago.	https://www.zdnet.com/article/twitch-downplays-massive-breach-says-no-passwords-or-login-credentials-leaked/	https://www.zdnet.com/a/img/resize/16f0e0c1311f15343f07644fd61c292c4e06aa2a/2019/07/09/8c4c16ad-42dc-4a9f-995c-dae2c075f512/fortnite-gamer-11333328.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-16 20:55:47.092283+02	2021-10-15 22:04:41+02	Jonathan Greig	zdnet/Twitch-says-no-passwords-or-login-credentials-leaked-in-massive-breach
+2113	$5.2 billion in BTC transactions tied to top 10 ransomware variants: US Treasury | ZDNet	For the first half of 2021, almost $600 million was linked to ransomware payments thanks to reports filed by financial services firms.	https://www.zdnet.com/article/5-2-billion-in-btc-transactions-tied-to-top-10-ransomware-variants-us-treasury/	https://www.zdnet.com/a/img/resize/5f062d3708a1d594284c457897cafd30bd75b7b1/2020/09/08/b4b15301-4f60-4b29-84d4-15e6d3014d73/ransomware.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-16 20:55:47.092283+02	2021-10-15 21:11:43+02	Jonathan Greig	zdnet/52-billion-in-BTC-transactions-tied-to-top-10-ransomware-variants-US-Treasury
+2114	Brazilian insurance giant Porto Seguro hit by cyberattack | ZDNet	The incident caused instability to the company's systems and customer service channels.	https://www.zdnet.com/article/brazilian-insurance-giant-porto-seguro-hit-by-cyberattack/	https://www.zdnet.com/a/img/resize/1bef5b24323f0a043db56bb83f74dcecd5e9a819/2018/04/09/69112f1c-0d2d-49ae-b2a4-8d924678a4db/istock-942607134.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-16 20:55:47.092283+02	2021-10-15 17:57:48+02	Angelica Mari	zdnet/Brazilian-insurance-giant-Porto-Seguro-hit-by-cyberattack
+2115	TrickBot Gang Enters Cybercrime Elite with Fresh Affiliates	The group – which also created BazarLoader and the Conti ransomware – has juiced its distribution tactics to threaten enterprises more than ever.	https://kasperskycontenthub.com/threatpost-global/?p=175510	https://media.threatpost.com/wp-content/uploads/sites/103/2021/02/17094252/masslogger.jpg	threatpost	t	2021-10-16 20:55:47.092283+02	2021-10-15 20:05:29+02	Tara Seals	threatpost/TrickBot-Gang-Enters-Cybercrime-Elite-with-Fresh-Affiliates
+2116	Missouri Vows to Prosecute 'Hacker' Who Informed State About Data Leak	Missouri Gov. Mike Parson launched a criminal investigation of a reporter who flagged a state website that exposed 100K+ Social-Security numbers for teachers and other state employees.	https://kasperskycontenthub.com/threatpost-global/?p=175501	\N	threatpost	t	2021-10-16 20:55:47.092283+02	2021-10-15 19:44:00+02	Lisa Vaas	threatpost/Missouri-Vows-to-Prosecute-Hacker-Who-Informed-State-About-Data-Leak
+2118	Canon sued for disabling scanner when printers run out of ink	Canon USA is being sued for not allowing owners of certain printers to use the scanner or faxing functions if they run out of ink.	https://www.bleepingcomputer.com/news/legal/canon-sued-for-disabling-scanner-when-printers-run-out-of-ink/	https://www.bleepstatic.com/content/hl-images/2021/10/15/Printer_headpic.jpg	bleepingcomputer	t	2021-10-16 20:55:47.092283+02	2021-10-16 16:28:26+02	Bill Toulas	bleepingcomputer/Canon-sued-for-disabling-scanner-when-printers-run-out-of-ink
+2119	The Week in Ransomware - October 15th 2021 - Disrupting ransoms	This week, senior officials from over thirty countries held virtual conferences on disrupting ransomware operations and attacks.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-15th-2021-disrupting-ransoms/	https://www.bleepstatic.com/content/hl-images/2020/11/03/Ransomware.jpg	bleepingcomputer	t	2021-10-16 20:55:47.092283+02	2021-10-15 22:35:36+02	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---October-15th-2021---Disrupting-ransoms
+2120	US links $5.2 billion worth of Bitcoin transactions to ransomware	The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has identified roughly $5.2 billion worth of outgoing Bitcoin transactions likely tied to the top 10 most commonly reported ransomware variants.	https://www.bleepingcomputer.com/news/security/us-links-52-billion-worth-of-bitcoin-transactions-to-ransomware/	https://www.bleepstatic.com/content/hl-images/2020/10/01/US-Treasury-Department.jpg	bleepingcomputer	t	2021-10-16 20:55:47.092283+02	2021-10-15 19:40:21+02	Sergiu Gatlan	bleepingcomputer/US-links-52-billion-worth-of-Bitcoin-transactions-to-ransomware
+2117	Windows 11 build 22000.282 fixes CPU performance issues, taskbar bug	Microsoft released Windows 11 preview build 22000.282 yesterday with fixes for AMD CPU performance issues and a bug that displayed the Windows 10 taskbar.	https://www.bleepingcomputer.com/news/microsoft/windows-11-build-22000282-fixes-cpu-performance-issues-taskbar-bug/	https://www.bleepstatic.com/content/hl-images/2021/06/15/Win--11-flare.jpg	bleepingcomputer	t	2021-10-16 20:55:47.092283+02	2021-10-16 18:49:23+02	Lawrence Abrams	bleepingcomputer/Windows-11-build-22000282-fixes-CPU-performance-issues-taskbar-bug
 \.
 
 
@@ -2181,7 +2171,7 @@ COPY public.osinter_users (username, selected_article_ids, password_hash, id) FR
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2108, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2120, true);
 
 
 --
@@ -2190,14 +2180,6 @@ SELECT pg_catalog.setval('public.articles_id_seq', 2108, true);
 
 ALTER TABLE ONLY public.articles
     ADD CONSTRAINT articles_pkey PRIMARY KEY (id);
-
-
---
--- Name: osinter_users osinter_users_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.osinter_users
-    ADD CONSTRAINT osinter_users_pkey PRIMARY KEY (username);
 
 
 --
