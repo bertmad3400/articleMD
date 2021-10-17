@@ -2164,6 +2164,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2119	The Week in Ransomware - October 15th 2021 - Disrupting ransoms	This week, senior officials from over thirty countries held virtual conferences on disrupting ransomware operations and attacks.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-15th-2021-disrupting-ransoms/	https://www.bleepstatic.com/content/hl-images/2020/11/03/Ransomware.jpg	bleepingcomputer	t	2021-10-16 20:55:47.092283+02	2021-10-15 22:35:36+02	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---October-15th-2021---Disrupting-ransoms
 2120	US links $5.2 billion worth of Bitcoin transactions to ransomware	The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has identified roughly $5.2 billion worth of outgoing Bitcoin transactions likely tied to the top 10 most commonly reported ransomware variants.	https://www.bleepingcomputer.com/news/security/us-links-52-billion-worth-of-bitcoin-transactions-to-ransomware/	https://www.bleepstatic.com/content/hl-images/2020/10/01/US-Treasury-Department.jpg	bleepingcomputer	t	2021-10-16 20:55:47.092283+02	2021-10-15 19:40:21+02	Sergiu Gatlan	bleepingcomputer/US-links-52-billion-worth-of-Bitcoin-transactions-to-ransomware
 2117	Windows 11 build 22000.282 fixes CPU performance issues, taskbar bug	Microsoft released Windows 11 preview build 22000.282 yesterday with fixes for AMD CPU performance issues and a bug that displayed the Windows 10 taskbar.	https://www.bleepingcomputer.com/news/microsoft/windows-11-build-22000282-fixes-cpu-performance-issues-taskbar-bug/	https://www.bleepstatic.com/content/hl-images/2021/06/15/Win--11-flare.jpg	bleepingcomputer	t	2021-10-16 20:55:47.092283+02	2021-10-16 18:49:23+02	Lawrence Abrams	bleepingcomputer/Windows-11-build-22000282-fixes-CPU-performance-issues-taskbar-bug
+2121	Windows 10, iOS 15, Ubuntu, Chrome fall at China's Tianfu hacking contest	Chinese security researchers took home $1.88 million after hacking some of the world's most popular software at the Tianfu Cup, the country's largest and most prestigious hacking competition.	https://therecord.media/windows-10-ios-15-ubuntu-chrome-fall-at-chinas-tianfu-hacking-contest/	https://therecord.media/wp-content/uploads/2021/10/TianfuCup2021.jpg	therecord	t	2021-10-17 18:00:01.922348+02	2021-10-17 17:43:43+02	Catalin Cimpanu	therecord/Windows-10-iOS-15-Ubuntu-Chrome-fall-at-Chinas-Tianfu-hacking-contest
 \.
 
 
@@ -2171,7 +2172,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2120, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2121, true);
 
 
 --
