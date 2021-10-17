@@ -2166,6 +2166,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2117	Windows 11 build 22000.282 fixes CPU performance issues, taskbar bug	Microsoft released Windows 11 preview build 22000.282 yesterday with fixes for AMD CPU performance issues and a bug that displayed the Windows 10 taskbar.	https://www.bleepingcomputer.com/news/microsoft/windows-11-build-22000282-fixes-cpu-performance-issues-taskbar-bug/	https://www.bleepstatic.com/content/hl-images/2021/06/15/Win--11-flare.jpg	bleepingcomputer	t	2021-10-16 20:55:47.092283+02	2021-10-16 18:49:23+02	Lawrence Abrams	bleepingcomputer/Windows-11-build-22000282-fixes-CPU-performance-issues-taskbar-bug
 2121	Windows 10, iOS 15, Ubuntu, Chrome fall at China's Tianfu hacking contest	Chinese security researchers took home $1.88 million after hacking some of the world's most popular software at the Tianfu Cup, the country's largest and most prestigious hacking competition.	https://therecord.media/windows-10-ios-15-ubuntu-chrome-fall-at-chinas-tianfu-hacking-contest/	https://therecord.media/wp-content/uploads/2021/10/TianfuCup2021.jpg	therecord	t	2021-10-17 18:00:01.922348+02	2021-10-17 17:43:43+02	Catalin Cimpanu	therecord/Windows-10-iOS-15-Ubuntu-Chrome-fall-at-Chinas-Tianfu-hacking-contest
 2122	Sysinternals apps can now auto-update via the Microsoft Store	​Microsoft added their Sysinternals Suite to the Microsoft Store, allowing the popular Sysinternals utilities to be updated automatically as new versions are released.	https://www.bleepingcomputer.com/news/microsoft/sysinternals-apps-can-now-auto-update-via-the-microsoft-store/	https://www.bleepstatic.com/content/hl-images/2020/09/18/windows-utility.jpg	bleepingcomputer	t	2021-10-17 21:00:02.21269+02	2021-10-17 20:34:17+02	Lawrence Abrams	bleepingcomputer/Sysinternals-apps-can-now-auto-update-via-the-Microsoft-Store
+2123	How to unlock Windows 11's God Mode to access advanced settings	The settings app has been significantly improved, but several Control Panel features are still missing. Thankfully, Windows 11 still comes with the Control Panel and File Explorer-based advanced configuration page called God Mode that allows you to easily access all advanced tools, features, and tasks.	https://www.bleepingcomputer.com/news/microsoft/how-to-unlock-windows-11s-god-mode-to-access-advanced-settings/	https://www.bleepstatic.com/content/hl-images/2021/10/06/Windows_11.jpg	bleepingcomputer	t	2021-10-18 01:00:02.035709+02	2021-10-18 00:03:34+02	Mayank Parmar	bleepingcomputer/How-to-unlock-Windows-11s-God-Mode-to-access-advanced-settings
 \.
 
 
@@ -2173,7 +2174,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2122, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2123, true);
 
 
 --
