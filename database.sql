@@ -2189,6 +2189,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2143	Twitter Suspends Accounts Used to Snare Security Researchers	The accounts were used to catfish security researchers into downloading malware in a long-running cyber-espionage campaign attributed to North Korea.	https://kasperskycontenthub.com/threatpost-global/?p=175524	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/18120437/catfish-e1634573090547.jpg	threatpost	t	2021-10-18 19:00:02.410943+02	2021-10-18 18:23:21+02	Lisa Vaas	threatpost/Twitter-Suspends-Accounts-Used-to-Snare-Security-Researchers
 2144	Hacker steals government ID database for Argentina's entire population	A hacker has breached the Argentinian government's IT network and stolen ID card details for the country's entire population, data that is now being sold in private circles.	https://therecord.media/hacker-steals-government-id-database-for-argentinas-entire-population/	https://therecord.media/wp-content/uploads/2021/10/argentina-scaled.jpg	therecord	t	2021-10-18 20:00:01.907697+02	2021-10-18 19:57:01+02	Catalin Cimpanu	therecord/Hacker-steals-government-ID-database-for-Argentinas-entire-population
 2145	State-backed hackers breach telcos with custom malware	A previously unknown state-sponsored actor is deploying a novel toolset in attacks targeting telecommunication providers and IT firms in South Asia.	https://www.bleepingcomputer.com/news/security/state-backed-hackers-breach-telcos-with-custom-malware/	https://www.bleepstatic.com/content/hl-images/2020/10/01/Hacker.jpg	bleepingcomputer	t	2021-10-18 20:00:01.907697+02	2021-10-18 19:28:10+02	Bill Toulas	bleepingcomputer/State-backed-hackers-breach-telcos-with-custom-malware
+2146	Gartner survey of CIOs highlights investments in AI, cloud and cybersecurity | ZDNet	Gartner surveyed more than 2,300 CIOs from 85 countries on how they're spending their budgets.	https://www.zdnet.com/article/gartner-survey-of-cios-highlights-investments-in-ai-cloud-and-cybersecurity/	https://www.zdnet.com/a/img/resize/81d556ebb6adbab7405dbf24e8deb4cf20eacdb7/2020/06/17/97a361d6-abd2-4c57-9067-775a637393f3/how-the-cio-is-changing-again-to-focus-o-5ee76117ec931b64287ecc9f-1-jun-17-2020-12-12-12-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-18 21:00:02.056497+02	2021-10-18 18:02:00+02	Jonathan Greig	zdnet/Gartner-survey-of-CIOs-highlights-investments-in-AI-cloud-and-cybersecurity
+2147	TikTok Serves Up Fresh Gamer Targets via Fake Among Us, Steam Offerings	The tween-friendly video app is being used to serve up malvertising, disguised as free Steam game accounts or Among Us game hacks.	https://kasperskycontenthub.com/threatpost-global/?p=175546	https://media.threatpost.com/wp-content/uploads/sites/103/2020/10/26151303/among-us-1-e1603739609435.jpg	threatpost	t	2021-10-18 21:00:02.056497+02	2021-10-18 20:23:40+02	Becky Bracken	threatpost/TikTok-Serves-Up-Fresh-Gamer-Targets-via-Fake-Among-Us-Steam-Offerings
 \.
 
 
@@ -2196,7 +2198,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2145, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2147, true);
 
 
 --
