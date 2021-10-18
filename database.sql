@@ -2196,6 +2196,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2150	Best gaming VPN 2021 | ZDNet	Can you use a VPN while gaming? Sort of. We discuss the issues in-depth and recommend four of the most popular VPN services you can use with gaming and your game consoles.	https://www.zdnet.com/article/best-gaming-vpn/	https://www.zdnet.com/a/img/resize/c275a70d001fc603e2be4d3670aa20fd3a95e0c0/2021/10/15/79ab1155-6dc7-46f0-b088-295a0159e17a/branden-skeli-r4ywfvvwtq8-unsplash.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-18 23:00:02.49256+02	2021-10-18 15:10:00+02	David Gewirtz	zdnet/Best-gaming-VPN-2021
 2151	Podcast: Could the Zoho Flaw Trigger SolarWinds 2.0?	Companies are worried that the highly privileged password app could let attackers deep inside an enterprise’s footprint, says Redscan’s George Glass.	https://kasperskycontenthub.com/threatpost-global/?p=175553	https://media.threatpost.com/wp-content/uploads/sites/103/2020/12/18135402/solar-flare-e1608317663121.png	threatpost	t	2021-10-18 23:00:02.49256+02	2021-10-18 22:55:23+02	Lisa Vaas	threatpost/Podcast-Could-the-Zoho-Flaw-Trigger-SolarWinds-20
 2152	Sinclair Confirms Ransomware Attack That Disrupted TV Stations	A major cyberattack resulted in data being stolen, too, but Sinclair's not sure which information is now in the hands of the crooks.	https://kasperskycontenthub.com/threatpost-global/?p=175548	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/18155603/Sinclair-TV-e1634586977698.jpg	threatpost	t	2021-10-18 23:00:02.49256+02	2021-10-18 22:16:36+02	Tara Seals	threatpost/Sinclair-Confirms-Ransomware-Attack-That-Disrupted-TV-Stations
+2153	CISA, FBI, and NSA warn of BlackMatter attacks on agriculture and other critical infrastructure	Agencies warn BlackMatter ransomware used to target U.S. critical infrastructure entities, including two within the food and ag sector.	https://therecord.media/cisa-fbi-and-nsa-warn-of-blackmatter-attacks-on-agriculture-and-other-critical-infrastructure/	https://www-therecord.recfut.com/wp-content/uploads/2021/08/agriculture.jpg	therecord	t	2021-10-19 00:00:01.842306+02	2021-10-18 23:47:19+02	Andrea Peterson	therecord/CISA-FBI-and-NSA-warn-of-BlackMatter-attacks-on-agriculture-and-other-critical-infrastructure
 \.
 
 
@@ -2203,7 +2204,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2152, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2153, true);
 
 
 --
