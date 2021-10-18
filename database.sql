@@ -2197,6 +2197,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2151	Podcast: Could the Zoho Flaw Trigger SolarWinds 2.0?	Companies are worried that the highly privileged password app could let attackers deep inside an enterprise’s footprint, says Redscan’s George Glass.	https://kasperskycontenthub.com/threatpost-global/?p=175553	https://media.threatpost.com/wp-content/uploads/sites/103/2020/12/18135402/solar-flare-e1608317663121.png	threatpost	t	2021-10-18 23:00:02.49256+02	2021-10-18 22:55:23+02	Lisa Vaas	threatpost/Podcast-Could-the-Zoho-Flaw-Trigger-SolarWinds-20
 2152	Sinclair Confirms Ransomware Attack That Disrupted TV Stations	A major cyberattack resulted in data being stolen, too, but Sinclair's not sure which information is now in the hands of the crooks.	https://kasperskycontenthub.com/threatpost-global/?p=175548	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/18155603/Sinclair-TV-e1634586977698.jpg	threatpost	t	2021-10-18 23:00:02.49256+02	2021-10-18 22:16:36+02	Tara Seals	threatpost/Sinclair-Confirms-Ransomware-Attack-That-Disrupted-TV-Stations
 2153	CISA, FBI, and NSA warn of BlackMatter attacks on agriculture and other critical infrastructure	Agencies warn BlackMatter ransomware used to target U.S. critical infrastructure entities, including two within the food and ag sector.	https://therecord.media/cisa-fbi-and-nsa-warn-of-blackmatter-attacks-on-agriculture-and-other-critical-infrastructure/	https://www-therecord.recfut.com/wp-content/uploads/2021/08/agriculture.jpg	therecord	t	2021-10-19 00:00:01.842306+02	2021-10-18 23:47:19+02	Andrea Peterson	therecord/CISA-FBI-and-NSA-warn-of-BlackMatter-attacks-on-agriculture-and-other-critical-infrastructure
+2154	FBI, CISA, NSA share defense tips for BlackMatter ransomware attacks	The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), and the National Security Agency (NSA) published today an advisory with details about how the BlackMatter ransomware gang operates.	https://www.bleepingcomputer.com/news/security/fbi-cisa-nsa-share-defense-tips-for-blackmatter-ransomware-attacks/	https://www.bleepstatic.com/content/hl-images/2021/08/05/BlackMatter-ransomware.jpg	bleepingcomputer	t	2021-10-19 01:00:02.502772+02	2021-10-19 00:03:04+02	Ionut Ilascu	bleepingcomputer/FBI-CISA-NSA-share-defense-tips-for-BlackMatter-ransomware-attacks
 \.
 
 
@@ -2204,7 +2205,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2153, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2154, true);
 
 
 --
