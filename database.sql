@@ -2184,6 +2184,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2138	Robots for kids: Best STEM kits and other tech gifts for hackers of all ages | ZDNet	If you want to spark the imagination of your kids and help them hone tech skills they'll need as adults, check out this list of our favorite tech toys.	https://www.zdnet.com/article/best-tech-toys-for-kids-robots-gifts/	https://www.zdnet.com/a/img/resize/b3f02f9a0ef8ce10bdd401f6854e9f13082bca9a/2021/06/08/cc70a818-f0d7-4aed-b5a0-9a08b4953b89/pitop.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-18 17:00:02.223231+02	2021-10-18 14:27:00+02	David Gewirtz	zdnet/Robots-for-kids-Best-STEM-kits-and-other-tech-gifts-for-hackers-of-all-ages
 2139	Microsoft: Windows 11 bug may only allow admins to print	Microsoft is working on a fix for a known issue impacting Windows 11 customers and causing a prompt for admin credentials before every attempt to print.	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-bug-may-only-allow-admins-to-print/	https://www.bleepstatic.com/content/hl-images/2021/09/01/Windows_11_headpic.jpg	bleepingcomputer	t	2021-10-18 17:00:02.223231+02	2021-10-18 16:44:31+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Windows-11-bug-may-only-allow-admins-to-print
 2140	Microsoft asks admins to patch PowerShell to fix WDAC bypass	Microsoft has asked system administrators to patch PowerShell 7 against two vulnerabilities allowing attackers to bypass Windows Defender Application Control (WDAC) enforcements and gain access to plain text credentials.	https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-admins-to-patch-powershell-to-fix-wdac-bypass/	https://www.bleepstatic.com/content/hl-images/2021/06/16/PowerShell.jpg	bleepingcomputer	t	2021-10-18 17:00:02.223231+02	2021-10-18 15:30:00+02	Sergiu Gatlan	bleepingcomputer/Microsoft-asks-admins-to-patch-PowerShell-to-fix-WDAC-bypass
+2141	Best gaming VPN for 2021 | ZDNet	Can you use a VPN while gaming? Sort of. We discuss the issues in-depth and recommend four of the most popular VPN services you can use with gaming and your game consoles.	https://www.zdnet.com/article/best-gaming-vpn-for-2021/	https://www.zdnet.com/a/img/resize/c275a70d001fc603e2be4d3670aa20fd3a95e0c0/2021/10/15/79ab1155-6dc7-46f0-b088-295a0159e17a/branden-skeli-r4ywfvvwtq8-unsplash.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-18 18:00:02.118331+02	2021-10-18 15:10:13+02	David Gewirtz	zdnet/Best-gaming-VPN-for-2021
+2142	Suspected Chinese hackers behind attacks on ten Israeli hospitals	A joint announcement from the Ministry of Health and the National Cyber Directorate in Israel describes a spike in ransomware attacks over the weekend that targeted the systems of nine health institutes in the country.	https://www.bleepingcomputer.com/news/security/suspected-chinese-hackers-behind-attacks-on-ten-israeli-hospitals/	https://www.bleepstatic.com/content/hl-images/2021/10/18/hospital_ward.jpg	bleepingcomputer	t	2021-10-18 18:00:02.118331+02	2021-10-18 16:55:01+02	Bill Toulas	bleepingcomputer/Suspected-Chinese-hackers-behind-attacks-on-ten-Israeli-hospitals
 \.
 
 
@@ -2191,7 +2193,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2140, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2142, true);
 
 
 --
