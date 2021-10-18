@@ -2187,6 +2187,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2141	Best gaming VPN for 2021 | ZDNet	Can you use a VPN while gaming? Sort of. We discuss the issues in-depth and recommend four of the most popular VPN services you can use with gaming and your game consoles.	https://www.zdnet.com/article/best-gaming-vpn-for-2021/	https://www.zdnet.com/a/img/resize/c275a70d001fc603e2be4d3670aa20fd3a95e0c0/2021/10/15/79ab1155-6dc7-46f0-b088-295a0159e17a/branden-skeli-r4ywfvvwtq8-unsplash.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-18 18:00:02.118331+02	2021-10-18 15:10:13+02	David Gewirtz	zdnet/Best-gaming-VPN-for-2021
 2142	Suspected Chinese hackers behind attacks on ten Israeli hospitals	A joint announcement from the Ministry of Health and the National Cyber Directorate in Israel describes a spike in ransomware attacks over the weekend that targeted the systems of nine health institutes in the country.	https://www.bleepingcomputer.com/news/security/suspected-chinese-hackers-behind-attacks-on-ten-israeli-hospitals/	https://www.bleepstatic.com/content/hl-images/2021/10/18/hospital_ward.jpg	bleepingcomputer	t	2021-10-18 18:00:02.118331+02	2021-10-18 16:55:01+02	Bill Toulas	bleepingcomputer/Suspected-Chinese-hackers-behind-attacks-on-ten-Israeli-hospitals
 2143	Twitter Suspends Accounts Used to Snare Security Researchers	The accounts were used to catfish security researchers into downloading malware in a long-running cyber-espionage campaign attributed to North Korea.	https://kasperskycontenthub.com/threatpost-global/?p=175524	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/18120437/catfish-e1634573090547.jpg	threatpost	t	2021-10-18 19:00:02.410943+02	2021-10-18 18:23:21+02	Lisa Vaas	threatpost/Twitter-Suspends-Accounts-Used-to-Snare-Security-Researchers
+2144	Hacker steals government ID database for Argentina's entire population	A hacker has breached the Argentinian government's IT network and stolen ID card details for the country's entire population, data that is now being sold in private circles.	https://therecord.media/hacker-steals-government-id-database-for-argentinas-entire-population/	https://therecord.media/wp-content/uploads/2021/10/argentina-scaled.jpg	therecord	t	2021-10-18 20:00:01.907697+02	2021-10-18 19:57:01+02	Catalin Cimpanu	therecord/Hacker-steals-government-ID-database-for-Argentinas-entire-population
+2145	State-backed hackers breach telcos with custom malware	A previously unknown state-sponsored actor is deploying a novel toolset in attacks targeting telecommunication providers and IT firms in South Asia.	https://www.bleepingcomputer.com/news/security/state-backed-hackers-breach-telcos-with-custom-malware/	https://www.bleepstatic.com/content/hl-images/2020/10/01/Hacker.jpg	bleepingcomputer	t	2021-10-18 20:00:01.907697+02	2021-10-18 19:28:10+02	Bill Toulas	bleepingcomputer/State-backed-hackers-breach-telcos-with-custom-malware
 \.
 
 
@@ -2194,7 +2196,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2143, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2145, true);
 
 
 --
