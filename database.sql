@@ -2191,6 +2191,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2145	State-backed hackers breach telcos with custom malware	A previously unknown state-sponsored actor is deploying a novel toolset in attacks targeting telecommunication providers and IT firms in South Asia.	https://www.bleepingcomputer.com/news/security/state-backed-hackers-breach-telcos-with-custom-malware/	https://www.bleepstatic.com/content/hl-images/2020/10/01/Hacker.jpg	bleepingcomputer	t	2021-10-18 20:00:01.907697+02	2021-10-18 19:28:10+02	Bill Toulas	bleepingcomputer/State-backed-hackers-breach-telcos-with-custom-malware
 2146	Gartner survey of CIOs highlights investments in AI, cloud and cybersecurity | ZDNet	Gartner surveyed more than 2,300 CIOs from 85 countries on how they're spending their budgets.	https://www.zdnet.com/article/gartner-survey-of-cios-highlights-investments-in-ai-cloud-and-cybersecurity/	https://www.zdnet.com/a/img/resize/81d556ebb6adbab7405dbf24e8deb4cf20eacdb7/2020/06/17/97a361d6-abd2-4c57-9067-775a637393f3/how-the-cio-is-changing-again-to-focus-o-5ee76117ec931b64287ecc9f-1-jun-17-2020-12-12-12-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-18 21:00:02.056497+02	2021-10-18 18:02:00+02	Jonathan Greig	zdnet/Gartner-survey-of-CIOs-highlights-investments-in-AI-cloud-and-cybersecurity
 2147	TikTok Serves Up Fresh Gamer Targets via Fake Among Us, Steam Offerings	The tween-friendly video app is being used to serve up malvertising, disguised as free Steam game accounts or Among Us game hacks.	https://kasperskycontenthub.com/threatpost-global/?p=175546	https://media.threatpost.com/wp-content/uploads/sites/103/2020/10/26151303/among-us-1-e1603739609435.jpg	threatpost	t	2021-10-18 21:00:02.056497+02	2021-10-18 20:23:40+02	Becky Bracken	threatpost/TikTok-Serves-Up-Fresh-Gamer-Targets-via-Fake-Among-Us-Steam-Offerings
+2148	Acer hit with second cyberattack in less than a week, Taiwanese authorities notified | ZDNet	The same hacker group claimed responsibility for an attack on the company's offices in Taiwan.	https://www.zdnet.com/article/acer-hit-with-second-cyberattack-in-less-than-a-week-this-time-in-taiwan-offices/	https://www.zdnet.com/a/img/resize/29660070f419f36547dcbb392ebf5da075b24a05/2021/05/03/ba5eb220-30d9-4134-aad8-733810f8547d/gettyimages-1203574948.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-18 22:00:02.585451+02	2021-10-18 19:00:53+02	Jonathan Greig	zdnet/Acer-hit-with-second-cyberattack-in-less-than-a-week-Taiwanese-authorities-notified
 \.
 
 
@@ -2198,7 +2199,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2147, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2148, true);
 
 
 --
