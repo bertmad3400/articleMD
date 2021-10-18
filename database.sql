@@ -2179,6 +2179,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2134	Microsoft fixes Windows 10 auth issue impacting Remote Desktop	Microsoft has fixed a known Windows 10 issue causing smartcard authentication to fail when trying to connect using Remote Desktop after installing the cumulative updates released during the September 2021 Patch Tuesday.	https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-10-auth-issue-impacting-remote-desktop/	https://www.bleepstatic.com/content/hl-images/2021/07/09/Windows_headpic.jpg	bleepingcomputer	t	2021-10-18 15:00:02.298088+02	2021-10-18 14:48:38+02	Sergiu Gatlan	bleepingcomputer/Microsoft-fixes-Windows-10-auth-issue-impacting-Remote-Desktop
 2133	University still recovering from major cyberattack that disrupted IT systems | ZDNet	The University of Sunderland brings some IT systems back online after a five-day outage caused by a cyberattack.	https://www.zdnet.com/article/university-still-recovering-from-major-cyberattack-that-disrupted-it-systems/	https://www.zdnet.com/a/img/resize/16e79e4abb164dda292cdd8df5cbf4da4383c78a/2021/10/18/3116e0c7-03aa-4896-b668-07934db10f1d/shutterstock-2002642961.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-18 15:00:02.298088+02	2021-10-18 12:02:50+02	Liam Tung	zdnet/University-still-recovering-from-major-cyberattack-that-disrupted-IT-systems
 2135	Credit card PINs can be guessed even when covering the ATM pad	Researchers have proven it's possible to train a special-purpose deep-learning algorithm that can guess 4-digit card PINs 41% of the time, even if the victim is covering the pad with their hands. 	https://www.bleepingcomputer.com/news/security/credit-card-pins-can-be-guessed-even-when-covering-the-atm-pad/	https://www.bleepstatic.com/content/hl-images/2021/10/18/0_atm_pad.jpg	bleepingcomputer	t	2021-10-18 15:00:02.298088+02	2021-10-18 14:00:00+02	Bill Toulas	bleepingcomputer/Credit-card-PINs-can-be-guessed-even-when-covering-the-ATM-pad
+2136	Sinclair TV stations crippled by weekend ransomware attack	TV stations owned by the Sinclair Broadcast Group broadcast television company went down over the weekend across the US, with multiple sources telling BleepingComputer the downtime was caused by a ransomware attack.	https://www.bleepingcomputer.com/news/security/sinclair-tv-stations-crippled-by-weekend-ransomware-attack/	https://www.bleepstatic.com/content/posts/2021/10/18/TV_broadcast.jpg	bleepingcomputer	t	2021-10-18 16:00:02.605992+02	2021-10-18 11:52:47+02	Sergiu Gatlan	bleepingcomputer/Sinclair-TV-stations-crippled-by-weekend-ransomware-attack
+2137	REvil gang shuts down for the second time after its Tor servers were hacked	The REvil ransomware group has shut down its operation for the second time this year, claiming in a message posted on an underground hacking forum that they lost control over their Tor-based domains.	https://therecord.media/revil-gang-shuts-down-for-the-second-time-after-its-tor-servers-were-hacked/	https://therecord.media/wp-content/uploads/2021/10/REvil-error-site.png	therecord	t	2021-10-18 16:00:02.605992+02	2021-10-18 15:49:05+02	Catalin Cimpanu	therecord/REvil-gang-shuts-down-for-the-second-time-after-its-Tor-servers-were-hacked
 \.
 
 
@@ -2186,7 +2188,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2135, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2137, true);
 
 
 --
