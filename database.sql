@@ -2171,6 +2171,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2125	REvil ransomware shuts down again after Tor sites were hijacked	The REvil ransomware operation has likely shut down once again after an unknown person hijacked their Tor payment portal and data leak blog.	https://www.bleepingcomputer.com/news/security/revil-ransomware-shuts-down-again-after-tor-sites-were-hijacked/	https://www.bleepstatic.com/content/hl-images/2021/07/02/REVIL-headpic.jpg	bleepingcomputer	t	2021-10-18 02:00:01.86811+02	2021-10-18 01:19:46+02	Lawrence Abrams	bleepingcomputer/REvil-ransomware-shuts-down-again-after-Tor-sites-were-hijacked
 2126	Facebook hits back at claims its AI has minimal success in fighting hate speech | ZDNet	Facebook integrity VP has responded to new claims that its efforts to fight hate speech is not working.	https://www.zdnet.com/article/facebook-hits-back-at-claims-its-ai-has-minimal-success-in-fighting-hate-speech/	https://www.zdnet.com/a/img/resize/c373648271837b76ba350ee67c4ff60282623896/2021/10/18/df986913-7df7-4f4b-8758-3d64e47284cf/fb-hate-speech-nrp-our-side-of-the-story-hs-chart-1.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-18 04:00:01.915507+02	2021-10-18 01:14:27+02	Aimee Chanthadavong	zdnet/Facebook-hits-back-at-claims-its-AI-has-minimal-success-in-fighting-hate-speech
 2127	IcedID to XingLocker Ransomware in 24 hours	In this intrusion, we observed the threat actors use multiple DLL Beacons that would call out to different Cobalt Strike C2 channels. The threat actors used batch scripts during the intrusion for a number of purposes, primarily to disable antivirus programs and execute payloads.	https://thedfirreport.com/2021/10/18/icedid-to-xinglocker-ransomware-in-24-hours/	https://thedfirreport.com/wp-content/uploads/2021/10/5582-recoverymanual.png	dfirreport	t	2021-10-18 04:00:01.915507+02	2021-10-18 03:42:16+02	editor	dfirreport/IcedID-to-XingLocker-Ransomware-in-24-hours
+2128	Ransomware attack likely behind Sinclair TV stations downtime	TV stations owned by the Sinclair Broadcast Group broadcast television company went down over the weekend across the US, with multiple sources telling BleepingComputer the downtime was caused by a ransomware attack.	https://www.bleepingcomputer.com/news/security/ransomware-attack-likely-behind-sinclair-tv-stations-downtime/	https://www.bleepstatic.com/content/posts/2021/10/18/TV_broadcast.jpg	bleepingcomputer	t	2021-10-18 12:00:02.351098+02	2021-10-18 11:52:47+02	Sergiu Gatlan	bleepingcomputer/Ransomware-attack-likely-behind-Sinclair-TV-stations-downtime
 \.
 
 
@@ -2178,7 +2179,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2127, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2128, true);
 
 
 --
