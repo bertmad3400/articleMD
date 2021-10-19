@@ -2201,6 +2201,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2156	Free decrypter released for BlackByte ransomware victims	Cybersecurity firm Trustwave has released on Friday a free utility that victims of the BlackByte ransomware can use to decrypt and restore their files without paying the ransom demand.	https://therecord.media/free-decrypter-released-for-blackbyte-ransomware-victims/	https://therecord.media/wp-content/uploads/2021/10/uncloked-decrypt-encryption-lock.jpg	therecord	t	2021-10-19 05:00:02.250553+02	2021-10-19 04:23:24+02	Catalin Cimpanu	therecord/Free-decrypter-released-for-BlackByte-ransomware-victims
 2155	REvil ransomware operators claim group is ending activity again, victim leak blog now offline | ZDNet	The group resurfaced a few weeks ago after closing shop in July, leaving researchers skeptical of this latest shut down.	https://www.zdnet.com/article/revil-ransomware-operators-claim-group-is-ending-activity-again-happy-blog-now-offline/	https://www.zdnet.com/a/img/resize/97a5e998cb1c62624aeeeb8be73f4789bb4d1100/2020/01/08/390da321-13c4-47fe-bc37-b4e5514216c7/vpn-warning-revil-ransomware-targets-unp-5e14c03676ad0200019f507f-1-jan-08-2020-18-55-25-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-19 03:00:02.501202+02	2021-10-19 00:22:57+02	Jonathan Greig	zdnet/REvil-ransomware-operators-claim-group-is-ending-activity-again-victim-leak-blog-now-offline
 2157	ACE takes down Electro TV Sat pirate streaming service	ACE (Alliance for Creativity) has forced Electro TV Sat offline following a crackdown operation in Morocco, where the pirate streaming platform was based.	https://www.bleepingcomputer.com/news/technology/ace-takes-down-electro-tv-sat-pirate-streaming-service/	https://www.bleepstatic.com/content/hl-images/2021/10/19/pirate_flag.jpg	bleepingcomputer	t	2021-10-19 11:00:02.612245+02	2021-10-19 10:26:28+02	Bill Toulas	bleepingcomputer/ACE-takes-down-Electro-TV-Sat-pirate-streaming-service
+2158	Twitter accounts linked to cyberattacks against security researchers suspended | ZDNet	North Korean hackers are luring professionals with zero-day vulnerability hype.	https://www.zdnet.com/article/twitter-accounts-linked-to-cyberattacks-against-researchers-suspended/	https://www.zdnet.com/a/img/resize/ed6402dbd0ddd1722c4bdfc62a956991a62e60d0/2021/06/23/a770b6fe-2aac-41d5-adc6-6d4bd356db60/code-development.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-19 12:00:02.330252+02	2021-10-19 09:25:47+02	Charlie Osborne	zdnet/Twitter-accounts-linked-to-cyberattacks-against-security-researchers-suspended
+2159	Microsoft fixes Surface Pro 3 TPM bypass with public exploit code	Microsoft has patched a security feature bypass vulnerability impacting Surface Pro 3 tablets that enables threat actors to introduce malicious devices within enterprise environments.	https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-surface-pro-3-tpm-bypass-with-public-exploit-code/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Microsoft.jpg	bleepingcomputer	t	2021-10-19 12:00:02.330252+02	2021-10-19 11:12:07+02	Sergiu Gatlan	bleepingcomputer/Microsoft-fixes-Surface-Pro-3-TPM-bypass-with-public-exploit-code
 \.
 
 
@@ -2208,7 +2210,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2157, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2159, true);
 
 
 --
