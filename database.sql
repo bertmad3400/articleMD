@@ -2200,6 +2200,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2154	FBI, CISA, NSA share defense tips for BlackMatter ransomware attacks	The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), and the National Security Agency (NSA) published today an advisory with details about how the BlackMatter ransomware gang operates.	https://www.bleepingcomputer.com/news/security/fbi-cisa-nsa-share-defense-tips-for-blackmatter-ransomware-attacks/	https://www.bleepstatic.com/content/hl-images/2021/08/05/BlackMatter-ransomware.jpg	bleepingcomputer	t	2021-10-19 01:00:02.502772+02	2021-10-19 00:03:04+02	Ionut Ilascu	bleepingcomputer/FBI-CISA-NSA-share-defense-tips-for-BlackMatter-ransomware-attacks
 2156	Free decrypter released for BlackByte ransomware victims	Cybersecurity firm Trustwave has released on Friday a free utility that victims of the BlackByte ransomware can use to decrypt and restore their files without paying the ransom demand.	https://therecord.media/free-decrypter-released-for-blackbyte-ransomware-victims/	https://therecord.media/wp-content/uploads/2021/10/uncloked-decrypt-encryption-lock.jpg	therecord	t	2021-10-19 05:00:02.250553+02	2021-10-19 04:23:24+02	Catalin Cimpanu	therecord/Free-decrypter-released-for-BlackByte-ransomware-victims
 2155	REvil ransomware operators claim group is ending activity again, victim leak blog now offline | ZDNet	The group resurfaced a few weeks ago after closing shop in July, leaving researchers skeptical of this latest shut down.	https://www.zdnet.com/article/revil-ransomware-operators-claim-group-is-ending-activity-again-happy-blog-now-offline/	https://www.zdnet.com/a/img/resize/97a5e998cb1c62624aeeeb8be73f4789bb4d1100/2020/01/08/390da321-13c4-47fe-bc37-b4e5514216c7/vpn-warning-revil-ransomware-targets-unp-5e14c03676ad0200019f507f-1-jan-08-2020-18-55-25-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-19 03:00:02.501202+02	2021-10-19 00:22:57+02	Jonathan Greig	zdnet/REvil-ransomware-operators-claim-group-is-ending-activity-again-victim-leak-blog-now-offline
+2157	ACE takes down Electro TV Sat pirate streaming service	ACE (Alliance for Creativity) has forced Electro TV Sat offline following a crackdown operation in Morocco, where the pirate streaming platform was based.	https://www.bleepingcomputer.com/news/technology/ace-takes-down-electro-tv-sat-pirate-streaming-service/	https://www.bleepstatic.com/content/hl-images/2021/10/19/pirate_flag.jpg	bleepingcomputer	t	2021-10-19 11:00:02.612245+02	2021-10-19 10:26:28+02	Bill Toulas	bleepingcomputer/ACE-takes-down-Electro-TV-Sat-pirate-streaming-service
 \.
 
 
@@ -2207,7 +2208,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2156, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2157, true);
 
 
 --
