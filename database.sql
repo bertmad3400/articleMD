@@ -2227,6 +2227,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2181	Lyceum APT Returns, This Time Targeting Tunisian Firms	The APT, which targets Middle Eastern energy firms & telecoms, has been relatively quiet since its exposure but not entirely silent. It's kept up attacks through 2021 and is working on retooling its arsenal yet again. 	https://kasperskycontenthub.com/threatpost-global/?p=175579	https://media.threatpost.com/wp-content/uploads/sites/103/2020/07/22170321/oilrig-scaled-e1595451834282.jpeg	threatpost	t	2021-10-19 20:00:02.592413+02	2021-10-19 19:16:42+02	Lisa Vaas	threatpost/Lyceum-APT-Returns-This-Time-Targeting-Tunisian-Firms
 2182	Twitter suspends hacker who allegedly stole data of 45 million Argentinians | ZDNet	The government of Argentina has denied that the National Registry of Persons was hacked.	https://www.zdnet.com/article/twitter-suspends-hacker-who-stole-data-of-46-million-argentinians/	https://www.zdnet.com/a/img/resize/be961fb6b8ef03aa44fbb1cb49704d314befd492/2021/07/19/0874b07d-266e-47ee-ac1a-88867d2f8b02/uk-blame-china-for-microsoft-exchange-server-hack.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-19 22:00:01.977889+02	2021-10-19 19:23:44+02	Jonathan Greig	zdnet/Twitter-suspends-hacker-who-allegedly-stole-data-of-45-million-Argentinians
 2183	Zerodium seeking zero-days in ExpressVPN, NordVPN, and Surfshark VPN apps	Exploit broker Zerodium announced its intention today to buy zero-day vulnerabilities in the Windows clients of three major VPN providers—ExpressVPN, NordVPN, and Surfshark.	https://therecord.media/zerodium-seeking-zero-days-in-expressvpn-nordvpn-and-surfshark-vpn-apps/	https://therecord.media/wp-content/uploads/2021/10/NordVPN.jpg	therecord	t	2021-10-19 22:00:01.977889+02	2021-10-19 21:46:00+02	Catalin Cimpanu	therecord/Zerodium-seeking-zero-days-in-ExpressVPN-NordVPN-and-Surfshark-VPN-apps
+2184	Customer services firm Atento hit by cyberattack | ZDNet	The company's Brazilian operation has seen the greatest impact	https://www.zdnet.com/article/customer-services-firm-atento-hit-by-cyberattack/	https://www.zdnet.com/a/img/resize/b149f391746a3a8280f3536b733ed4eca2a81af5/2021/09/29/1900e4c7-5110-4b73-a556-0123cdf71305/cyberattack.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-19 23:00:02.278332+02	2021-10-19 20:27:01+02	Angelica Mari	zdnet/Customer-services-firm-Atento-hit-by-cyberattack
+2185	Fresh APT Harvester Reaps Telco, Government Data	The group is likely nation-state-backed and is mounting an ongoing spy campaign using custom malware and stealthy tactics.	https://kasperskycontenthub.com/threatpost-global/?p=175585	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/19160326/harvest2-e1634673821762.jpg	threatpost	t	2021-10-19 23:00:02.278332+02	2021-10-19 22:15:01+02	Tara Seals	threatpost/Fresh-APT-Harvester-Reaps-Telco-Government-Data
 \.
 
 
@@ -2234,7 +2236,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2183, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2185, true);
 
 
 --
