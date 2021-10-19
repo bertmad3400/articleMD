@@ -2229,6 +2229,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2183	Zerodium seeking zero-days in ExpressVPN, NordVPN, and Surfshark VPN apps	Exploit broker Zerodium announced its intention today to buy zero-day vulnerabilities in the Windows clients of three major VPN providers—ExpressVPN, NordVPN, and Surfshark.	https://therecord.media/zerodium-seeking-zero-days-in-expressvpn-nordvpn-and-surfshark-vpn-apps/	https://therecord.media/wp-content/uploads/2021/10/NordVPN.jpg	therecord	t	2021-10-19 22:00:01.977889+02	2021-10-19 21:46:00+02	Catalin Cimpanu	therecord/Zerodium-seeking-zero-days-in-ExpressVPN-NordVPN-and-Surfshark-VPN-apps
 2184	Customer services firm Atento hit by cyberattack | ZDNet	The company's Brazilian operation has seen the greatest impact	https://www.zdnet.com/article/customer-services-firm-atento-hit-by-cyberattack/	https://www.zdnet.com/a/img/resize/b149f391746a3a8280f3536b733ed4eca2a81af5/2021/09/29/1900e4c7-5110-4b73-a556-0123cdf71305/cyberattack.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-19 23:00:02.278332+02	2021-10-19 20:27:01+02	Angelica Mari	zdnet/Customer-services-firm-Atento-hit-by-cyberattack
 2185	Fresh APT Harvester Reaps Telco, Government Data	The group is likely nation-state-backed and is mounting an ongoing spy campaign using custom malware and stealthy tactics.	https://kasperskycontenthub.com/threatpost-global/?p=175585	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/19160326/harvest2-e1634673821762.jpg	threatpost	t	2021-10-19 23:00:02.278332+02	2021-10-19 22:15:01+02	Tara Seals	threatpost/Fresh-APT-Harvester-Reaps-Telco-Government-Data
+2186	Brave ditches Google for its own privacy-centric search engine	Brave Browser has replaced Google with its own no-tracking privacy-centric Brave Search as the default search engine for new users in five regions.	https://www.bleepingcomputer.com/news/software/brave-ditches-google-for-its-own-privacy-centric-search-engine/	https://www.bleepstatic.com/content/hl-images/2020/11/02/brave-glowing.jpg	bleepingcomputer	t	2021-10-20 00:00:02.049557+02	2021-10-19 23:28:06+02	Lawrence Abrams	bleepingcomputer/Brave-ditches-Google-for-its-own-privacy-centric-search-engine
+2187	Squirrel Bug Lets Attackers Execute Code in Games, Cloud Services	The out-of-bounds read vulnerability enables an attacker to escape a Squirrel VM in games with millions of monthly players – such as Counter-Strike: Global Offensive and Portal 2 – and in cloud services such as Twilio Electric Imp.	https://kasperskycontenthub.com/threatpost-global/?p=175586	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/19172958/squirrel.jpeg	threatpost	t	2021-10-20 00:00:02.049557+02	2021-10-19 23:42:49+02	Lisa Vaas	threatpost/Squirrel-Bug-Lets-Attackers-Execute-Code-in-Games-Cloud-Services
 \.
 
 
@@ -2236,7 +2238,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2185, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2187, true);
 
 
 --
