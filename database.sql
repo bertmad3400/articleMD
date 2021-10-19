@@ -2231,6 +2231,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2185	Fresh APT Harvester Reaps Telco, Government Data	The group is likely nation-state-backed and is mounting an ongoing spy campaign using custom malware and stealthy tactics.	https://kasperskycontenthub.com/threatpost-global/?p=175585	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/19160326/harvest2-e1634673821762.jpg	threatpost	t	2021-10-19 23:00:02.278332+02	2021-10-19 22:15:01+02	Tara Seals	threatpost/Fresh-APT-Harvester-Reaps-Telco-Government-Data
 2186	Brave ditches Google for its own privacy-centric search engine	Brave Browser has replaced Google with its own no-tracking privacy-centric Brave Search as the default search engine for new users in five regions.	https://www.bleepingcomputer.com/news/software/brave-ditches-google-for-its-own-privacy-centric-search-engine/	https://www.bleepstatic.com/content/hl-images/2020/11/02/brave-glowing.jpg	bleepingcomputer	t	2021-10-20 00:00:02.049557+02	2021-10-19 23:28:06+02	Lawrence Abrams	bleepingcomputer/Brave-ditches-Google-for-its-own-privacy-centric-search-engine
 2187	Squirrel Bug Lets Attackers Execute Code in Games, Cloud Services	The out-of-bounds read vulnerability enables an attacker to escape a Squirrel VM in games with millions of monthly players – such as Counter-Strike: Global Offensive and Portal 2 – and in cloud services such as Twilio Electric Imp.	https://kasperskycontenthub.com/threatpost-global/?p=175586	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/19172958/squirrel.jpeg	threatpost	t	2021-10-20 00:00:02.049557+02	2021-10-19 23:42:49+02	Lisa Vaas	threatpost/Squirrel-Bug-Lets-Attackers-Execute-Code-in-Games-Cloud-Services
+2188	Zerodium wants zero-day exploits for Windows VPN clients	In a short tweet today, exploit broker Zerodium said that it is looking to acquire zero-day exploits for vulnerabilities in three popular virtual private network (VPN) service providers on the market.	https://www.bleepingcomputer.com/news/security/zerodium-wants-zero-day-exploits-for-windows-vpn-clients/	https://www.bleepstatic.com/content/hl-images/2021/10/19/VPN1.jpg	bleepingcomputer	t	2021-10-20 01:00:02.65666+02	2021-10-20 00:40:58+02	Ionut Ilascu	bleepingcomputer/Zerodium-wants-zero-day-exploits-for-Windows-VPN-clients
 \.
 
 
@@ -2238,7 +2239,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2187, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2188, true);
 
 
 --
