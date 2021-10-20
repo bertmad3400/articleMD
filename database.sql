@@ -2235,6 +2235,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2189	Cyber incident impact sits at over $500,000 for half of small to medium APAC businesses | ZDNet	According to a Cisco survey, one third of all breaches with a financial impact in Australia cost businesses over $1 million.	https://www.zdnet.com/article/cyber-incident-impact-sits-at-over-500000-for-half-of-small-to-medium-apac-businesses/	https://www.zdnet.com/a/img/resize/db71d0c406bf864de8c02a5430d9c8e2e49c1bb0/2020/12/18/3d70ec36-f1af-45d6-a8f3-1935720ac3f6/cyber-abstract-landscape.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-20 07:00:02.009266+02	2021-10-20 04:01:31+02	Chris Duckett	zdnet/Cyber-incident-impact-sits-at-over-500000-for-half-of-small-to-medium-APAC-businesses
 2190	Security, remote work support top concerns amongst firms | ZDNet	IT managers cite instructing employees on remote work and securing remote workers as top challenges amidst the increase adoption of hybrid work practices, and 53% believe their use of known, trusted software will help keep them safe from supply chain attacks.	https://www.zdnet.com/article/security-remote-work-support-top-concerns-amongst-firms/	https://www.zdnet.com/a/img/resize/52ddbda7fce7199c99d2bc7752a4658af0edf931/2015/04/20/f015777c-afe5-438e-bc87-89efa48c166e/business-on-security-thumb.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-20 12:00:02.304529+02	2021-10-20 08:59:00+02	Eileen Yu	zdnet/Security-remote-work-support-top-concerns-amongst-firms
 2191	Supply chain attacks are the hacker's new favourite weapon. And the threat is getting bigger | ZDNet	Major incidents have demonstrated how powerful supply chain attacks can be - is your network resilient enough to cope?	https://www.zdnet.com/article/supply-chain-attacks-are-the-hackers-new-favourite-weapon-and-the-threat-is-getting-bigger/	https://www.zdnet.com/a/img/resize/61ca168cf6e75ff6f85f2a5a8f13e98d724d341a/2020/06/22/430e3624-0770-4c18-a796-88d6e00028de/pc-problems.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-20 12:00:02.304529+02	2021-10-20 08:58:39+02	Danny Palmer	zdnet/Supply-chain-attacks-are-the-hackers-new-favourite-weapon-And-the-threat-is-getting-bigger
+2192	Hackers are disguising their malicious JavaScript code with a hard-to-beat trick | ZDNet	Akamai might have found a better way to detect malicious obfuscated JavaScript code.	https://www.zdnet.com/article/hackers-are-disguising-their-malicious-javascript-code-with-hard-to-beat-trick/	https://www.zdnet.com/a/img/resize/2a102be54d9ddd3c0248d626ef37c0849594dc76/2021/10/20/198f613b-750c-4aef-bb40-ac9098fb74d4/shutterstock-1692847237.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-20 13:00:02.499527+02	2021-10-20 10:10:00+02	Liam Tung	zdnet/Hackers-are-disguising-their-malicious-JavaScript-code-with-a-hard-to-beat-trick
 \.
 
 
@@ -2242,7 +2243,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2191, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2192, true);
 
 
 --
