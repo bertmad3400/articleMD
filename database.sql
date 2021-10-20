@@ -2244,6 +2244,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2198	New Gummy Browser attack lets hackers spoof tracking profiles	University researchers in the US have developed a new fingerprint capturing and browser spoofing attack called Gummy Browsers. They warn how easy the attack is to carry out and the severe implications it can have.	https://www.bleepingcomputer.com/news/security/new-gummy-browser-attack-lets-hackers-spoof-tracking-profiles/	https://www.bleepstatic.com/content/hl-images/2021/10/20/gummybears.jpg	bleepingcomputer	t	2021-10-20 16:00:01.84485+02	2021-10-20 15:49:34+02	Bill Toulas	bleepingcomputer/New-Gummy-Browser-attack-lets-hackers-spoof-tracking-profiles
 2199	Microsoft 365 will get enhanced insider risk management tools	Microsoft is updating Microsoft 365 to allow admins to better manage insider security threats in their environments with improvements to risky activity detection and visibility.	https://www.bleepingcomputer.com/news/microsoft/microsoft-365-will-get-enhanced-insider-risk-management-tools/	https://www.bleepstatic.com/content/hl-images/2021/10/20/Microsoft_365.jpg	bleepingcomputer	t	2021-10-20 16:00:01.84485+02	2021-10-20 15:30:00+02	Sergiu Gatlan	bleepingcomputer/Microsoft-365-will-get-enhanced-insider-risk-management-tools
 2200	New PurpleFox botnet variant uses WebSockets for C2 communication	The PurpleFox botnet has refreshed its arsenal with new vulnerability exploits and dropped payloads, now also leveraging WebSockets for C2 bidirectional communication.	https://www.bleepingcomputer.com/news/security/new-purplefox-botnet-variant-uses-websockets-for-c2-communication/	https://www.bleepstatic.com/content/hl-images/2021/10/20/purplefox.png	bleepingcomputer	t	2021-10-20 16:00:01.84485+02	2021-10-20 14:39:27+02	Bill Toulas	bleepingcomputer/New-PurpleFox-botnet-variant-uses-WebSockets-for-C2-communication
+2201	RedLine Stealer identified as primary source of stolen credentials on two dark web markets	The vast majority of stolen credentials currently sold on two dark web underground markets have been collected using the RedLine Stealer malware, Insikt Group, the cybersecurity research arm of Recorded Future, has discovered.	https://therecord.media/redline-stealer-identified-as-primary-source-of-stolen-credentials-on-two-dark-web-markets/	https://therecord.media/wp-content/uploads/2021/10/RedLine-Stealer.png	therecord	t	2021-10-20 17:00:02.199684+02	2021-10-20 16:32:16+02	Catalin Cimpanu	therecord/RedLine-Stealer-identified-as-primary-source-of-stolen-credentials-on-two-dark-web-markets
+2202	Pentagon official:'Open question' if Putin's government can stop hackers	It is an “open question” if the Russian government can effectively crack down on ransomware groups operating within the country, a senior defense official said Wednesday.	https://therecord.media/pentagon-officialopen-question-if-putins-government-can-stop-hackers/	https://www-therecord.recfut.com/wp-content/uploads/2021/08/bigstock-Us-Pentagon-In-Washington-Dc-B-264708484-1-1.jpg	therecord	t	2021-10-20 17:00:02.199684+02	2021-10-20 16:12:16+02	Martin Matishak	therecord/Pentagon-officialOpen-question-if-Putins-government-can-stop-hackers
 \.
 
 
@@ -2251,7 +2253,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2200, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2202, true);
 
 
 --
