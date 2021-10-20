@@ -2249,6 +2249,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2203	These hackers dodge Windows and target Linux as they look to steal phone data | ZDNet	Dubbed LightBasin, the stealthy attack group appears to be an intelligence gathering operation, warn researchers.	https://www.zdnet.com/article/these-hackers-dodge-windows-and-target-linux-as-they-look-to-steal-phone-data/	https://www.zdnet.com/a/img/resize/26777d00af07689d20b96d09b0ffdae4e6fa83ae/2021/01/08/6604d540-9eb0-41c2-9f00-6fbf24d996f7/hacker-hands-on-a-keyboard.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-20 18:00:02.65107+02	2021-10-20 15:19:37+02	Danny Palmer	zdnet/These-hackers-dodge-Windows-and-target-Linux-as-they-look-to-steal-phone-data
 2204	Google: YouTubers’ accounts hijacked with cookie-stealing malware	Google says YouTube creators have been targeted with password-stealing malware in phishing attacks coordinated by financially motivated threat actors since at least late 2019.	https://www.bleepingcomputer.com/news/security/google-youtubers-accounts-hijacked-with-cookie-stealing-malware/	https://www.bleepstatic.com/content/hl-images/2021/10/20/YouTube.jpg	bleepingcomputer	t	2021-10-20 18:00:02.65107+02	2021-10-20 17:49:39+02	Sergiu Gatlan	bleepingcomputer/Google-YouTubers-accounts-hijacked-with-cookie-stealing-malware
 2205	New Gummy Browsers attack lets hackers spoof tracking profiles	University researchers in the US have developed a new fingerprint capturing and browser spoofing attack called Gummy Browsers. They warn how easy the attack is to carry out and the severe implications it can have.	https://www.bleepingcomputer.com/news/security/new-gummy-browsers-attack-lets-hackers-spoof-tracking-profiles/	https://www.bleepstatic.com/content/hl-images/2021/10/20/gummybears.jpg	bleepingcomputer	t	2021-10-20 18:00:02.65107+02	2021-10-20 15:49:34+02	Bill Toulas	bleepingcomputer/New-Gummy-Browsers-attack-lets-hackers-spoof-tracking-profiles
+2206	Political-themed actor using old MS Office flaw to drop multiple RATs	A novel threat actor with unclear motives has been discovered running a crimeware campaign which delivers multiple Windows and Android RATs (remote access tools) through the exploitation of CVE-2017-11882.	https://www.bleepingcomputer.com/news/security/political-themed-actor-using-old-ms-office-flaw-to-drop-multiple-rats/	https://www.bleepstatic.com/content/hl-images/2021/04/16/computer-hacker.jpg	bleepingcomputer	t	2021-10-20 19:00:02.006565+02	2021-10-20 18:59:16+02	Bill Toulas	bleepingcomputer/Political-themed-actor-using-old-MS-Office-flaw-to-drop-multiple-RATs
 \.
 
 
@@ -2256,7 +2257,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2205, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2206, true);
 
 
 --
