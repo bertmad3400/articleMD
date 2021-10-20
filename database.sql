@@ -2238,6 +2238,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2192	Hackers are disguising their malicious JavaScript code with a hard-to-beat trick | ZDNet	Akamai might have found a better way to detect malicious obfuscated JavaScript code.	https://www.zdnet.com/article/hackers-are-disguising-their-malicious-javascript-code-with-hard-to-beat-trick/	https://www.zdnet.com/a/img/resize/2a102be54d9ddd3c0248d626ef37c0849594dc76/2021/10/20/198f613b-750c-4aef-bb40-ac9098fb74d4/shutterstock-1692847237.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-20 13:00:02.499527+02	2021-10-20 10:10:00+02	Liam Tung	zdnet/Hackers-are-disguising-their-malicious-JavaScript-code-with-a-hard-to-beat-trick
 2193	Black market traders cash in on fake COVID-19 vaccination records | ZDNet	The EU vaccine passport and CDC certifications are hot ticket items.	https://www.zdnet.com/article/black-market-traders-cash-in-on-fake-covid-19-vaccination-records/	https://www.zdnet.com/a/img/resize/cbe3a50c9f276f8526b3102f4cfe5d89df21b0b1/2021/10/20/64978cab-248b-4394-a1b4-cafd1f5e535f/screenshot-2021-10-20-at-10-51-40.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-20 14:00:02.150254+02	2021-10-20 11:17:06+02	Charlie Osborne	zdnet/Black-market-traders-cash-in-on-fake-COVID-19-vaccination-records
 2194	Google removes support for FTP and old-gen U2F security keys in Chrome 95	Google has released today Chrome v95, the latest version of its popular web browser, a version that contains several changes that will likely cause problems for a considerable part of its users.	https://therecord.media/google-removes-support-for-ftp-and-old-gen-u2f-security-keys-in-chrome-95/	https://therecord.media/wp-content/uploads/2021/08/Google-Chrome.jpg	therecord	t	2021-10-20 14:00:02.150254+02	2021-10-20 13:45:02+02	Catalin Cimpanu	therecord/Google-removes-support-for-FTP-and-old-gen-U2F-security-keys-in-Chrome-95
+2195	Newer PurpleFox botnet variants leverage WebSockets for coms	The PurpleFox botnet has refreshed its arsenal with new vulnerability exploits and dropped payloads, now also leveraging WebSockets for C2 bidirectional communication.	https://www.bleepingcomputer.com/news/security/newer-purplefox-botnet-variants-leverage-websockets-for-coms/	https://www.bleepstatic.com/content/hl-images/2021/10/20/purplefox.png	bleepingcomputer	t	2021-10-20 15:00:02.413495+02	2021-10-20 14:39:27+02	Bill Toulas	bleepingcomputer/Newer-PurpleFox-botnet-variants-leverage-WebSockets-for-coms
 \.
 
 
@@ -2245,7 +2246,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2194, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2195, true);
 
 
 --
