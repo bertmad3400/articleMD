@@ -2254,6 +2254,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2209	DDoS attacks against Russian firms have almost tripled in 2021	A report analyzing data from the start of the year concludes that distributed denial-of-service (DDoS) attacks on Russian companies have increased 2.5 times compared to the same period last year.	https://www.bleepingcomputer.com/news/security/ddos-attacks-against-russian-firms-have-almost-tripled-in-2021/	https://www.bleepstatic.com/content/hl-images/2021/09/27/ddos-header-image.jpg	bleepingcomputer	t	2021-10-20 20:00:01.927118+02	2021-10-20 19:47:02+02	Bill Toulas	bleepingcomputer/DDoS-attacks-against-Russian-firms-have-almost-tripled-in-2021
 2207	U.S. Government set to ban sale of hacking tools to China and Russia	The Commerce Department introduced a new export control rule on Wednesday aimed at curbing the export or resale of hacking tools to China and Russia.	https://therecord.media/u-s-government-set-to-ban-sale-of-hacking-tools-to-china-and-russia/	https://www-therecord.recfut.com/wp-content/uploads/2021/04/hacking-keyboard.jpg	therecord	t	2021-10-20 20:00:01.927118+02	2021-10-20 19:14:34+02	Dina Temple-Raston	therecord/US-Government-set-to-ban-sale-of-hacking-tools-to-China-and-Russia
 2210	Microsoft: Old Windows updates now expire to improve speed, security	Microsoft says it regularly evaluates Windows updates for expiration to make the entire update process faster and safer by removing older releases that have already been superseded by newer packages.	https://www.bleepingcomputer.com/news/microsoft/microsoft-old-windows-updates-now-expire-to-improve-speed-security/	https://www.bleepstatic.com/content/hl-images/2021/06/11/Windows-Update.jpg	bleepingcomputer	t	2021-10-20 20:00:01.927118+02	2021-10-20 19:13:59+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Old-Windows-updates-now-expire-to-improve-speed-security
+2211	US govt to ban export of hacking tools to authoritarian regimes	The Commerce Department's Bureau of Industry and Security (BIS) today announced export controls for software and hardware tools that could be used for malicious hacking activities.	https://www.bleepingcomputer.com/news/security/us-govt-to-ban-export-of-hacking-tools-to-authoritarian-regimes/	https://www.bleepstatic.com/content/hl-images/2021/10/20/Commerce_Bureau_Industry_Security_.jpg	bleepingcomputer	t	2021-10-20 22:00:02.547569+02	2021-10-20 21:32:32+02	Sergiu Gatlan	bleepingcomputer/US-govt-to-ban-export-of-hacking-tools-to-authoritarian-regimes
+2212	Google Crushes YouTube Cookie-Stealing Channel Hijackers	Google has caught and brushed off a bunch of cookie-stealing YouTube channel hijackers who were running cryptocurrency scams on, or auctioning off, ripped-off channels. 	https://kasperskycontenthub.com/threatpost-global/?p=175617	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/20143313/cookie-monster-e1634754805919.jpeg	threatpost	t	2021-10-20 22:00:02.547569+02	2021-10-20 21:45:21+02	Lisa Vaas	threatpost/Google-Crushes-YouTube-Cookie-Stealing-Channel-Hijackers
 \.
 
 
@@ -2261,7 +2263,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2210, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2212, true);
 
 
 --
