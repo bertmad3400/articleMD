@@ -2275,6 +2275,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2229	CISA awards $2 million to expand cybersecurity training in underserved communities	The agency with collaborate with nonprofits NPower and the CyberWarrior Foundation in a three-year pilot program.	https://therecord.media/cisa-awards-2-million-to-expand-cybersecurity-training-in-underserved-communities/	https://www-therecord.recfut.com/wp-content/uploads/2021/08/CISA_Logo.jpg	therecord	t	2021-10-21 17:00:02.13609+02	2021-10-21 16:48:38+02	Andrea Peterson	therecord/CISA-awards-2-million-to-expand-cybersecurity-training-in-underserved-communities
 2230	Cybercrime matures as hackers are forced to work smarter	An analysis of 500 hacking incidents across a wide range of industries has revealed trends that characterize a maturity in the way hacking groups operate today.	https://www.bleepingcomputer.com/news/security/cybercrime-matures-as-hackers-are-forced-to-work-smarter/	https://www.bleepstatic.com/content/hl-images/2021/07/01/Hacker_Inside.jpg	bleepingcomputer	t	2021-10-21 17:00:02.13609+02	2021-10-21 16:58:50+02	Bill Toulas	bleepingcomputer/Cybercrime-matures-as-hackers-are-forced-to-work-smarter
 2231	RAT malware spreading in Korea through webhards and torrents	An ongoing malware distribution campaign targeting South Korea is disguising RATs (remote access trojans) as an adult game shared via webhards and torrents.	https://www.bleepingcomputer.com/news/security/rat-malware-spreading-in-korea-through-webhards-and-torrents/	https://www.bleepstatic.com/content/hl-images/2021/10/21/malware_skull.jpg	bleepingcomputer	t	2021-10-21 17:00:02.13609+02	2021-10-21 16:22:50+02	Bill Toulas	bleepingcomputer/RAT-malware-spreading-in-Korea-through-webhards-and-torrents
+2232	Microsoft announces security programs for nonprofits as nation-state attacks increase | ZDNet	The Security Program for Nonprofits will offer nonprofits free security assessments, trainings and access to Microsoft security tools	https://www.zdnet.com/article/microsoft-announces-security-programs-for-nonprofits-as-nation-state-attacks-increase/	https://www.zdnet.com/a/img/resize/ae2b6c6c16c9f0b2730ed4ce9da332f831f78976/2021/10/14/345a9c26-72e2-46a1-b1cd-789556569f1a/microsoft.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-21 18:00:02.54233+02	2021-10-21 15:22:00+02	Jonathan Greig	zdnet/Microsoft-announces-security-programs-for-nonprofits-as-nation-state-attacks-increase
 \.
 
 
@@ -2282,7 +2283,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2231, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2232, true);
 
 
 --
