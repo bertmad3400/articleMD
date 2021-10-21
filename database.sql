@@ -2269,6 +2269,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2223	Google disrupts massive phishing and malware campaign | ZDNet	Hackers were collecting YouTubers' email addresses from their channels, phishing them with bogus business opportunities, and then hijacking their accounts.	https://www.zdnet.com/article/google-disrupts-massive-phishing-and-malware-campaign/	https://www.zdnet.com/a/img/resize/4ce1af429ad2f4830977073d4f25f83507d0ae16/2021/10/21/af3ff30d-da59-430f-81a8-685cc56bb439/shutterstock-562179769.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-21 14:00:01.796875+02	2021-10-21 11:22:31+02	Liam Tung	zdnet/Google-disrupts-massive-phishing-and-malware-campaign
 2224	Asana rolls out Enterprise Work Graph for cross-team coordination | ZDNet	The new suite of tools provides more visibility into cross-team objectives while providing security and controls for large enterprises.	https://www.zdnet.com/article/asana-rolls-out-enterprise-work-graph-for-cross-team-coordination/	https://www.zdnet.com/a/img/resize/0a60e2576ff7f6e699a50c6bd442edcc833ce5c2/2021/10/21/4495e7b7-a365-4c61-9597-ce2be7cad81f/online-tools.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-21 14:00:01.796875+02	2021-10-20 17:49:00+02	Stephanie Condon	zdnet/Asana-rolls-out-Enterprise-Work-Graph-for-cross-team-coordination
 2225	Ransomware Sinks Teeth into Candy-Corn Maker Ahead of Halloween	Chicago-based Ferrara acknowledged an Oct. 9 attack that encrypted some systems and disrupted production.	https://kasperskycontenthub.com/threatpost-global/?p=175630	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/21074108/CandyCorn-e1634816484786.jpg	threatpost	t	2021-10-21 14:00:01.796875+02	2021-10-21 13:50:34+02	Elizabeth Montalbano	threatpost/Ransomware-Sinks-Teeth-into-Candy-Corn-Maker-Ahead-of-Halloween
+2226	Palo Alto warns of BEC-as-a-service, finds average wire fraud attempted is $567,000 with peak of $6 million | ZDNet	Business email compromise continues to be one of the leading ways cybercriminals scam victims out of millions of dollars, according to Palo Alto Networks' researchers.	https://www.zdnet.com/article/palo-alto-warns-of-bec-as-a-service-finds-average-wire-fraud-attempted-is-567000-with-peak-of-6-million/	https://www.zdnet.com/a/img/resize/0873c15365866fab13dfb9dda2181e8827610174/2018/12/08/357cfe7d-e26c-4960-b85d-39c95e13f5a7/08-email.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-21 15:00:02.44691+02	2021-10-21 11:47:25+02	Jonathan Greig	zdnet/Palo-Alto-warns-of-BEC-as-a-service-finds-average-wire-fraud-attempted-is-567000-with-peak-of-6-million
 \.
 
 
@@ -2276,7 +2277,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2225, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2226, true);
 
 
 --
