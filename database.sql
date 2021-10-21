@@ -2293,6 +2293,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2247	FTC Chair: Agency’s new ISP privacy report shows the FCC should have jurisdiction	Oversight of ISP privacy practices was kicked over the FTC after Congress blocked the FCC's planned rules during the Trump administration.	https://therecord.media/ftc-chair-agencys-new-isp-privacy-report-shows-the-fcc-should-have-jurisdiction/	https://www-therecord.recfut.com/wp-content/uploads/2021/10/ipse-dixit-Y1et5GbupP0-unsplash-1-1.jpg	therecord	t	2021-10-21 23:00:02.006428+02	2021-10-21 22:01:45+02	Andrea Peterson	therecord/FTC-Chair-Agencys-new-ISP-privacy-report-shows-the-FCC-should-have-jurisdiction
 2248	Republican Senate leaders slam new TSA cybersecurity regulations for rail, aviation industry | ZDNet	Despite recent attacks, the Senators questioned whether the emergency passage of the rules was appropriate absent an immediate threat.	https://www.zdnet.com/article/republican-senate-leaders-slam-new-tsa-cybersecurity-regulations-for-rail-aviation-industry/	https://www.zdnet.com/a/img/resize/73536dcf25ac22b8a7bf496ef128a7a28eb5a2f9/2020/03/06/9d917be8-bcbf-4f4e-bc9c-69755c1c13a6/congress-capitol-hill.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-22 00:00:02.742589+02	2021-10-21 21:33:34+02	Jonathan Greig	zdnet/Republican-Senate-leaders-slam-new-TSA-cybersecurity-regulations-for-rail-aviation-industry
 2249	Massive campaign uses YouTube to push password-stealing malware	Widespread malware campaigns are creating YouTube videos to distribute password-stealing trojans to unsuspecting viewers.	https://www.bleepingcomputer.com/news/security/massive-campaign-uses-youtube-to-push-password-stealing-malware/	https://www.bleepstatic.com/content/hl-images/2021/10/21/YouTube__headpic.jpg	bleepingcomputer	t	2021-10-22 00:00:02.742589+02	2021-10-21 23:10:53+02	Lawrence Abrams	bleepingcomputer/Massive-campaign-uses-YouTube-to-push-password-stealing-malware
+2250	Multiple governments involved in coordinated takedown of REvil ransomware group: Reuters | ZDNet	After widespread speculation, US officials reportedly worked with the private sectors and other unnamed countries to disrupt REvil's operation.	https://www.zdnet.com/article/multiple-governments-involved-in-coordinated-takedown-of-revil-ransomware-group-reuters/	https://www.zdnet.com/a/img/resize/a4ffb4232409d8006cfec7641511c5e80809373b/2015/11/17/af9a94ab-6d4c-4700-85b6-b3779b70645e/justice-hero.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-22 01:00:02.553944+02	2021-10-21 22:22:00+02	Jonathan Greig	zdnet/Multiple-governments-involved-in-coordinated-takedown-of-REvil-ransomware-group-Reuters
 \.
 
 
@@ -2300,7 +2301,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2249, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2250, true);
 
 
 --
