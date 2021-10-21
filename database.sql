@@ -2290,6 +2290,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2244	Evil Corp demands $40 million in new Macaw ransomware attacks	Evil Corp has launched a new ransomware called Macaw Locker to evade US sanctions that prevent victims from making ransom payments.	https://www.bleepingcomputer.com/news/security/evil-corp-demands-40-million-in-new-macaw-ransomware-attacks/	https://www.bleepstatic.com/content/hl-images/2021/06/30/hacker.jpg	bleepingcomputer	t	2021-10-21 22:00:02.298655+02	2021-10-21 21:07:54+02	Lawrence Abrams	bleepingcomputer/Evil-Corp-demands-40-million-in-new-Macaw-ransomware-attacks
 2245	U.S. Ban on Sales of Cyberattack Tools Is Anemic, Experts Warn	Meanwhile, Zerodium’s quest to buy VPN exploits is problematic, researchers said.	https://kasperskycontenthub.com/threatpost-global/?p=175654	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/21153247/toolbox2-e1634844794796.jpg	threatpost	t	2021-10-21 22:00:02.298655+02	2021-10-21 21:41:22+02	Becky Bracken	threatpost/US-Ban-on-Sales-of-Cyberattack-Tools-Is-Anemic-Experts-Warn
 2246	TA551 Shifts Tactics to Install Sliver Red-Teaming Tool	A new email campaign from the threat group uses the attack-simulation framework in a likely leadup to ransomware deployment.	https://kasperskycontenthub.com/threatpost-global/?p=175651	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/21151334/red-team-e1634843629348.jpg	threatpost	t	2021-10-21 22:00:02.298655+02	2021-10-21 21:31:40+02	Tara Seals	threatpost/TA551-Shifts-Tactics-to-Install-Sliver-Red-Teaming-Tool
+2247	FTC Chair: Agency’s new ISP privacy report shows the FCC should have jurisdiction	Oversight of ISP privacy practices was kicked over the FTC after Congress blocked the FCC's planned rules during the Trump administration.	https://therecord.media/ftc-chair-agencys-new-isp-privacy-report-shows-the-fcc-should-have-jurisdiction/	https://www-therecord.recfut.com/wp-content/uploads/2021/10/ipse-dixit-Y1et5GbupP0-unsplash-1-1.jpg	therecord	t	2021-10-21 23:00:02.006428+02	2021-10-21 22:01:45+02	Andrea Peterson	therecord/FTC-Chair-Agencys-new-ISP-privacy-report-shows-the-FCC-should-have-jurisdiction
 \.
 
 
@@ -2297,7 +2298,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2246, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2247, true);
 
 
 --
