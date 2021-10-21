@@ -2285,6 +2285,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2240	Microsoft is releasing Windows 10 21H2 in November 	Microsoft is preparing Windows 10 21H2, the next Windows 10 version, for a November 2021 release and is now rolling it out to all Windows Insiders in the Release Preview Channel.	https://www.bleepingcomputer.com/news/microsoft/microsoft-is-releasing-windows-10-21h2-in-november/	https://www.bleepstatic.com/content/hl-images/2021/02/03/Windows--10.jpg	bleepingcomputer	t	2021-10-21 20:00:01.97474+02	2021-10-21 19:52:13+02	Sergiu Gatlan	bleepingcomputer/Microsoft-is-releasing-Windows-10-21H2-in-November
 2241	Microsoft now defends nonprofits against nation-state attacks	Microsoft announced today a new security program for nonprofits to provide them with protection against nation-state attacks that have increasingly targeting them in recent years.	https://www.bleepingcomputer.com/news/microsoft/microsoft-now-defends-nonprofits-against-nation-state-attacks/	https://www.bleepstatic.com/content/hl-images/2021/09/15/Microsoft_passwordless.jpg	bleepingcomputer	t	2021-10-21 20:00:01.97474+02	2021-10-21 19:23:29+02	Sergiu Gatlan	bleepingcomputer/Microsoft-now-defends-nonprofits-against-nation-state-attacks
 2237	US rolls out new rules governing export of hacking, cyberdefense tools | ZDNet	According to the Washington Post, the new rules are meant to target companies selling to Russia and China.	https://www.zdnet.com/article/us-rolls-out-new-rules-governing-export-of-hacking-cyberdefense-tools/	https://www.zdnet.com/a/img/resize/06911b816705d6f03fc18421bd0c660d6eafb894/2017/02/09/fa73e078-d4fb-4c3d-bfa2-f5596b790e62/white-house-cloudy-3.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-21 20:00:01.97474+02	2021-10-21 17:15:17+02	Jonathan Greig	zdnet/US-rolls-out-new-rules-governing-export-of-hacking-cyberdefense-tools
+2242	Windows 11 KB5006746 update fixes gaming performance issues	Microsoft has released the optional KB5006746 cumulative update preview for Windows 11, fixing sixty-four issues, including AMD CPU performance and gaming issues.	https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5006746-update-fixes-gaming-performance-issues/	https://www.bleepstatic.com/content/hl-images/2021/10/21/windows-11-gradient-header.jpg	bleepingcomputer	t	2021-10-21 21:00:02.470809+02	2021-10-21 20:40:29+02	Lawrence Abrams	bleepingcomputer/Windows-11-KB5006746-update-fixes-gaming-performance-issues
 \.
 
 
@@ -2292,7 +2293,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2241, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2242, true);
 
 
 --
