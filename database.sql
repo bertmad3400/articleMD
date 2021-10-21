@@ -2263,6 +2263,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2217	Two Eastern Europeans sentenced for providing ‘bulletproof hosting” services	Two Eastern European men who pleaded guilty to providing “bulletproof hosting” services to facilitate the distribution of malware that attacked financial institutions in the U.S. were sentenced to prison today, the Department of Justice said.	https://therecord.media/two-eastern-europeans-sentenced-for-providing-bulletproof-hosting-services/	https://www-therecord.recfut.com/wp-content/uploads/2021/08/HolesWarm-botnet.png	therecord	t	2021-10-21 02:00:02.29315+02	2021-10-21 01:58:40+02	Dina Temple-Raston	therecord/Two-Eastern-Europeans-sentenced-for-providing-bulletproof-hosting-services
 2218	Is Chinese President Xi seeking to reassure Big Tech after a year-long crackdown?	Chinese President Xi Jinping asked party leaders to focus on the digital economy during their monthly study session on Monday, telling them that China’s Big Tech companies will play a key role in the nation’s efforts to modernize and become self-sufficient.	https://therecord.media/is-chinese-president-xi-seeking-to-reassure-big-tech-after-a-year-long-crackdown/	https://www-therecord.recfut.com/wp-content/uploads/2021/05/China-soldier.jpg	therecord	t	2021-10-21 02:00:02.29315+02	2021-10-21 01:05:52+02	Dina Temple-Raston	therecord/Is-Chinese-President-Xi-seeking-to-reassure-Big-Tech-after-a-year-long-crackdown
 2219	Google unmasks two-year-old phishing & malware campaign targeting YouTube users	Almost two years after a wave of complaints flooded Google's support forums about YouTube accounts getting hijacked even if users had two-factor authentication enabled, Google's security team has finally tracked down the root cause of these attacks.	https://therecord.media/google-unmasks-two-year-old-phishing-malware-campaign-targeting-youtube-users/	https://therecord.media/wp-content/uploads/2021/10/youtube.jpg	therecord	t	2021-10-21 07:00:01.812271+02	2021-10-21 06:14:33+02	Catalin Cimpanu	therecord/Google-unmasks-two-year-old-phishing--malware-campaign-targeting-YouTube-users
+2220	US judge sentences duo for roles in running bulletproof hosting service | ZDNet	The hosting service was used to deploy malware payloads including Zeus and the Blackhole exploit kit.	https://www.zdnet.com/article/us-judge-sentences-duo-for-roles-in-providing-bulletproof-hosting/	https://www.zdnet.com/a/img/resize/6d5cca8bba581e0d422015ed5712373ed9c1a7b9/2021/05/05/68186d8a-bb4e-4cd7-994f-c50dc4f773a8/shutterstock-coders-melody-smart-small-copy.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-21 10:00:02.565533+02	2021-10-21 07:37:31+02	Charlie Osborne	zdnet/US-judge-sentences-duo-for-roles-in-running-bulletproof-hosting-service
 \.
 
 
@@ -2270,7 +2271,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2219, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2220, true);
 
 
 --
