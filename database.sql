@@ -2322,6 +2322,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2276	DarkSide ransomware rushes to cash out $7 million in Bitcoin	Almost $7 million worth of Bitcoin in a wallet controlled by DarkSide ransomware operators has been moved in what looks like a money laundering rollercoaster.	https://www.bleepingcomputer.com/news/security/darkside-ransomware-rushes-to-cash-out-7-million-in-bitcoin/	https://www.bleepstatic.com/content/posts/2021/10/22/DarkSiderBTC_bag.jpg	bleepingcomputer	t	2021-10-22 21:00:02.44311+02	2021-10-22 20:02:21+02	Ionut Ilascu	bleepingcomputer/DarkSide-ransomware-rushes-to-cash-out-7-million-in-Bitcoin
 2277	U.S. counterintel hubs warns of foreign threats to emerging technologies	The National Counterintelligence and Security Center on Friday warned that China’s goals in certain key emerging technologies could give Beijing an advantage over the U.S. and its security interests.	https://therecord.media/u-s-counterintel-hubs-warns-of-foreign-threats-to-emerging-technologies/	https://www-therecord.recfut.com/wp-content/uploads/2021/07/China-map.png	therecord	t	2021-10-22 22:00:02.442014+02	2021-10-22 21:38:08+02	Martin Matishak	therecord/US-counterintel-hubs-warns-of-foreign-threats-to-emerging-technologies
 2278	FIN7 Lures Unwitting Security Pros to Carry Out Ransomware Attacks	The infamous Carbanak operator is moving is looking to juice its ransomware game by recruiting IT staff to its fake Bastion Secure 'pen-testing' company.	https://kasperskycontenthub.com/threatpost-global/?p=175681	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/22155602/help-wanted-sign-on-store-window-vf-e1634932579106.png	threatpost	t	2021-10-22 22:00:02.442014+02	2021-10-22 21:59:23+02	Tara Seals	threatpost/FIN7-Lures-Unwitting-Security-Pros-to-Carry-Out-Ransomware-Attacks
+2279	The Week in Ransomware - October 22nd 2021 - Striking back	Between law enforcement operations, REvil's second shut down, and ransomware gangs' response to the hacking of their servers, it has been quite the week.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-22nd-2021-striking-back/	https://www.bleepstatic.com/content/hl-images/2021/10/22/boxing.jpg	bleepingcomputer	t	2021-10-23 00:00:02.592084+02	2021-10-22 23:47:32+02	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---October-22nd-2021---Striking-back
 \.
 
 
@@ -2329,7 +2330,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2278, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2279, true);
 
 
 --
