@@ -2309,6 +2309,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2264	CISA: GPS software bug may cause unexpected behavior this Sunday	The Cybersecurity and Infrastructure Security Agency (CISA) warned that GPS deices might experience issues over the weekend because of a timing bug impacting Network Time Protocol  (NTP) servers running the GPS Daemon (GPSD) software.	https://www.bleepingcomputer.com/news/technology/cisa-gps-software-bug-may-cause-unexpected-behavior-this-sunday/	https://www.bleepstatic.com/content/hl-images/2021/10/22/gps_watch.jpg	bleepingcomputer	t	2021-10-22 15:00:02.688071+02	2021-10-22 14:37:08+02	Bill Toulas	bleepingcomputer/CISA-GPS-software-bug-may-cause-unexpected-behavior-this-Sunday
 2265	Microsoft: Windows 11 printing issues fixed in the KB5006746 update	Microsoft has fixed multiple known issues impacting printing on Windows 11 with the release of the optional KB5006746 cumulative update preview on Thursday.	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-printing-issues-fixed-in-the-kb5006746-update/	https://www.bleepstatic.com/content/hl-images/2021/06/30/windows-11-square-header.jpg	bleepingcomputer	t	2021-10-22 15:00:02.688071+02	2021-10-22 13:56:24+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Windows-11-printing-issues-fixed-in-the-KB5006746-update
 2261	CISA warns of GPS bug that may roll back dates by 1,024 weeks, to March 2002	The US government is warning companies about a bug in a software library used to synchronize time via the GPS navigational system that will rollback time on unpatched devices by 1,024 weeks to a date of March 2002. The bug resides in gpsd, a C library for adding GPS support to a device’s firmware. Besides providing […]	https://therecord.media/cisa-warns-of-gps-bug-that-may-rollback-dates-by-1024-weeks-to-march-2002/	https://therecord.media/wp-content/uploads/2021/10/date-time-clock.jpg	therecord	t	2021-10-22 15:00:02.688071+02	2021-10-22 14:24:59+02	Catalin Cimpanu	therecord/CISA-warns-of-GPS-bug-that-may-roll-back-dates-by-1024-weeks-to-March-2002
+2266	Microsoft Teams adds end-to-end encryption for one-to-one calls	Microsoft has announced the public preview roll-out of end-to-end encryption (E2EE) support for one-to-one Microsoft Teams calls.	https://www.bleepingcomputer.com/news/security/microsoft-teams-adds-end-to-end-encryption-for-one-to-one-calls/	https://www.bleepstatic.com/content/hl-images/2021/04/27/0_Microsoft-Teams.jpg	bleepingcomputer	t	2021-10-22 16:00:02.504484+02	2021-10-22 15:29:23+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Teams-adds-end-to-end-encryption-for-one-to-one-calls
 \.
 
 
@@ -2316,7 +2317,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2265, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2266, true);
 
 
 --
