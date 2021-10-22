@@ -2318,6 +2318,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2272	Groove ransomware calls on all extortion gangs to attack US interests	The Groove ransomware gang is calling on other extortion groups to attack US interests after law enforcement took down REvil's infrastructure last week.	https://www.bleepingcomputer.com/news/security/groove-ransomware-calls-on-all-extortion-gangs-to-attack-us-interests/	https://www.bleepstatic.com/content/hl-images/2021/08/18/DiavolRansomware.jpg	bleepingcomputer	t	2021-10-22 18:00:02.449577+02	2021-10-22 17:48:53+02	Lawrence Abrams	bleepingcomputer/Groove-ransomware-calls-on-all-extortion-gangs-to-attack-US-interests
 2273	Microsoft: WizardUpdate Mac malware adds new evasion tactics	Microsoft says it found new variants of macOS malware known as WizardUpdate (also tracked as UpdateAgent or Vigram), updated to use new evasion and persistence tactics.	https://www.bleepingcomputer.com/news/security/microsoft-wizardupdate-mac-malware-adds-new-evasion-tactics/	https://www.bleepstatic.com/content/hl-images/2021/10/22/Mac_Apple_Finder.jpg	bleepingcomputer	t	2021-10-22 18:00:02.449577+02	2021-10-22 17:14:08+02	Sergiu Gatlan	bleepingcomputer/Microsoft-WizardUpdate-Mac-malware-adds-new-evasion-tactics
 2274	REvil Servers Shoved Offline by Governments	A multi-country effort has given ransomware gang REvil a taste of its own medicine by pwning its backups and pushing its leak site and Tor payment site offline.	https://kasperskycontenthub.com/threatpost-global/?p=175675	https://media.threatpost.com/wp-content/uploads/sites/103/2018/02/06221624/malware-img-55.jpg	threatpost	t	2021-10-22 20:00:02.563463+02	2021-10-22 19:01:20+02	Lisa Vaas	threatpost/REvil-Servers-Shoved-Offline-by-Governments--But-Theyll-Be-Back-Researchers-Say
+2275	SCUF Gaming store hacked to steal credit card info of 32,000 customers	SCUF Gaming International, a leading manufacturer of custom PC and console controllers, is notifying customers that its website was hacked in February to plant a malicious script used to steal their credit card information.	https://www.bleepingcomputer.com/news/security/scuf-gaming-store-hacked-to-steal-credit-card-info-of-32-000-customers/	https://www.bleepstatic.com/content/posts/2021/10/22/SCUF_Gaming.png	bleepingcomputer	t	2021-10-22 21:00:02.44311+02	2021-10-22 20:26:28+02	Sergiu Gatlan	bleepingcomputer/SCUF-Gaming-store-hacked-to-steal-credit-card-info-of-32000-customers
+2276	DarkSide ransomware rushes to cash out $7 million in Bitcoin	Almost $7 million worth of Bitcoin in a wallet controlled by DarkSide ransomware operators has been moved in what looks like a money laundering rollercoaster.	https://www.bleepingcomputer.com/news/security/darkside-ransomware-rushes-to-cash-out-7-million-in-bitcoin/	https://www.bleepstatic.com/content/posts/2021/10/22/DarkSiderBTC_bag.jpg	bleepingcomputer	t	2021-10-22 21:00:02.44311+02	2021-10-22 20:02:21+02	Ionut Ilascu	bleepingcomputer/DarkSide-ransomware-rushes-to-cash-out-7-million-in-Bitcoin
 \.
 
 
@@ -2325,7 +2327,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2274, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2276, true);
 
 
 --
