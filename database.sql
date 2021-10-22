@@ -2314,6 +2314,9 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2268	Cisco SD-WAN Security Bug Allows Code Execution as Root	The high-severity bug, tracked as CVE-2021-1529, is an OS command-injection flaw.	https://kasperskycontenthub.com/threatpost-global/?p=175669	https://media.threatpost.com/wp-content/uploads/sites/103/2020/07/30102437/cisco-patch.png	threatpost	t	2021-10-22 17:00:02.066961+02	2021-10-22 16:48:26+02	Tara Seals	threatpost/Cisco-SD-WAN-Security-Bug-Allows-Root-Code-Execution
 2269	Google cuts Play Store dev fees to 15% for all subscriptions	Google announced that they are dropping the 30% flat service fee for in-app purchases or app sales to 15% starting January 1, 2022. 	https://www.bleepingcomputer.com/news/google/google-cuts-play-store-dev-fees-to-15-percent-for-all-subscriptions/	https://www.bleepstatic.com/content/hl-images/2021/09/17/Android-headpic.jpg	bleepingcomputer	t	2021-10-22 17:00:02.066961+02	2021-10-22 16:36:32+02	Bill Toulas	bleepingcomputer/Google-cuts-Play-Store-dev-fees-to-15-for-all-subscriptions
 2270	Italian celebs' data exposed in ransomware attack on SIAE	The Italian data protection authority Garante per la Protezione dei Dati Personali (GPDP) has announced an investigation into a data breach of the country's copyright protection agency.	https://www.bleepingcomputer.com/news/security/italian-celebs-data-exposed-in-ransomware-attack-on-siae/	https://www.bleepstatic.com/content/hl-images/2021/10/22/flag_of_italy.jpg	bleepingcomputer	t	2021-10-22 17:00:02.066961+02	2021-10-22 16:06:38+02	Bill Toulas	bleepingcomputer/Italian-celebs-data-exposed-in-ransomware-attack-on-SIAE
+2271	China's Head of National Development and Reform tries to reassure Big Tech	The head of China’s National Development and Reform body held a press conference on Thursday aimed at reassuring Big Tech that Beijing will only crack down on ‘disorderly’ behavior.	https://therecord.media/chinas-head-of-national-development-and-reform-tries-to-reassure-big-tech/	https://therecord.media/wp-content/uploads/2021/09/China.jpg	therecord	t	2021-10-22 18:00:02.449577+02	2021-10-22 17:38:37+02	Dina Temple-Raston	therecord/Chinas-Head-of-National-Development-and-Reform-tries-to-reassure-Big-Tech
+2272	Groove ransomware calls on all extortion gangs to attack US interests	The Groove ransomware gang is calling on other extortion groups to attack US interests after law enforcement took down REvil's infrastructure last week.	https://www.bleepingcomputer.com/news/security/groove-ransomware-calls-on-all-extortion-gangs-to-attack-us-interests/	https://www.bleepstatic.com/content/hl-images/2021/08/18/DiavolRansomware.jpg	bleepingcomputer	t	2021-10-22 18:00:02.449577+02	2021-10-22 17:48:53+02	Lawrence Abrams	bleepingcomputer/Groove-ransomware-calls-on-all-extortion-gangs-to-attack-US-interests
+2273	Microsoft: WizardUpdate Mac malware adds new evasion tactics	Microsoft says it found new variants of macOS malware known as WizardUpdate (also tracked as UpdateAgent or Vigram), updated to use new evasion and persistence tactics.	https://www.bleepingcomputer.com/news/security/microsoft-wizardupdate-mac-malware-adds-new-evasion-tactics/	https://www.bleepstatic.com/content/hl-images/2021/10/22/Mac_Apple_Finder.jpg	bleepingcomputer	t	2021-10-22 18:00:02.449577+02	2021-10-22 17:14:08+02	Sergiu Gatlan	bleepingcomputer/Microsoft-WizardUpdate-Mac-malware-adds-new-evasion-tactics
 \.
 
 
@@ -2321,7 +2324,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2270, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2273, true);
 
 
 --
