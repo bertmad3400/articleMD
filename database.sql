@@ -2297,6 +2297,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2251	Hacking gang creates fake firm to hire pentesters for ransomware attacks	The FIN7 hacking group is attempting to join the highly profitable ransomware space by creating fake cybersecurity companies that conduct network attacks under the guise of pentesting.	https://www.bleepingcomputer.com/news/security/hacking-gang-creates-fake-firm-to-hire-pentesters-for-ransomware-attacks/	https://www.bleepstatic.com/content/hl-images/2021/10/21/hire.jpg	bleepingcomputer	t	2021-10-22 02:00:01.972279+02	2021-10-21 18:24:13+02	Bill Toulas	bleepingcomputer/Hacking-gang-creates-fake-firm-to-hire-pentesters-for-ransomware-attacks
 2253	Google reports new highs for governments requesting content to be removed | ZDNet	Both the number of requests, and the number of items asked to be removed have hit new highs, according to Google.	https://www.zdnet.com/article/google-reports-new-highs-for-governments-requesting-content-to-be-removed/	https://www.zdnet.com/a/img/resize/724e410d0e08c8683872be58b8e5b95902affb87/2015/02/24/d532af83-2248-40d0-b3b8-d918843a220d/google-censorship.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-22 06:00:01.923064+02	2021-10-22 03:18:13+02	Chris Duckett	zdnet/Google-reports-new-highs-for-governments-requesting-content-to-be-removed
 2252	My Health Record imaging services security failed ADHA password standards | ZDNet	Australia submitted 7% fewer data breach notifications compared to last year, according to the agency responsible for dealing with these notifications.	https://www.zdnet.com/article/my-health-record-imaging-services-security-failed-adha-password-standards/	https://www.zdnet.com/a/img/resize/42128f44a0124d436bbca3a9377087a9fe4b6a30/2019/11/01/5b4d0413-dafd-44fd-849a-1934fd689c14/istock-938732700.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-22 06:00:01.923064+02	2021-10-22 03:19:05+02	Campbell Kwan	zdnet/My-Health-Record-imaging-services-security-failed-ADHA-password-standards
+2254	Ransomware: Looking for weaknesses in your own network is key to stopping attacks | ZDNet	Ransomware criminals look for easy targets - knowing what could be vulnerable on your network can help stop attacks.	https://www.zdnet.com/article/ransomware-looking-for-weaknesses-in-your-own-network-is-key-to-stopping-attacks/	https://www.zdnet.com/a/img/resize/e981c4a1f81165e12dfe24ebbb6a65c53635f5cf/2021/10/21/c0631b42-8545-4133-baa2-d9c300acc270/getty-a-man-with-a-serious-expression-looking-at-a-computer.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-22 11:00:02.463627+02	2021-10-22 08:53:05+02	Danny Palmer	zdnet/Ransomware-Looking-for-weaknesses-in-your-own-network-is-key-to-stopping-attacks
 \.
 
 
@@ -2304,7 +2305,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2253, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2254, true);
 
 
 --
