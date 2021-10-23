@@ -2326,6 +2326,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2280	CISA awards $2 million to cybersecurity programs for rural, diverse communities | ZDNet	The heads of CISA, NSA and IST also took part in the ShareTheMic campaign to promote diversity in cybersecurity.	https://www.zdnet.com/article/cisa-awards-2-million-to-cybersecurity-programs-for-rural-diverse-communities/	https://www.zdnet.com/a/img/resize/81a5b0885e0f3d10388bb108bc3e3b245ef2d25a/2021/05/17/390cd4a8-fa67-4807-a7e8-c2574b3761b2/diversity-hiring.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-23 01:00:02.722981+02	2021-10-22 22:40:44+02	Jonathan Greig	zdnet/CISA-awards-2-million-to-cybersecurity-programs-for-rural-diverse-communities
 2281	DDoS attacks hit multiple email providers	At least three email service providers have been hit by large distributed denial of service (DDoS) attacks on Friday, resulting in prolonged outages, The Record has learned.	https://therecord.media/ddos-attacks-hit-multiple-email-providers/	https://therecord.media/wp-content/uploads/2021/10/globe-ddos-botnet-map-world.png	therecord	t	2021-10-23 04:00:02.018186+02	2021-10-23 03:34:29+02	Catalin Cimpanu	therecord/DDoS-attacks-hit-multiple-email-providers
 2282	Facebook sues Ukrainian who scraped the data of 178 million users	Facebook has filed a lawsuit on Friday against a Ukrainian national for allegedly scraping its website and selling the personal data of more than 178 million users on an underground cybercrime forum.	https://therecord.media/facebook-sues-ukrainian-who-scraped-the-data-of-178-million-users/	https://therecord.media/wp-content/uploads/2021/10/facebook-messenger.jpg	therecord	t	2021-10-23 06:00:02.043315+02	2021-10-23 05:28:40+02	Catalin Cimpanu	therecord/Facebook-sues-Ukrainian-who-scraped-the-data-of-178-million-users
+2283	Malware found in npm package with millions of weekly downloads	A massively popular JavaScript library (npm package) was hacked today and modified with malicious code that downloaded and installed a cryptocurrency miner on systems where the compromised versions were installed. The incident was detected on Friday, October 22. It impacted UAParser.js, a JavaScript library for reading information stored inside use	https://therecord.media/malware-found-in-npm-package-with-millions-of-weekly-downloads/	https://therecord.media/wp-content/uploads/2021/10/ua-parser-js.png	therecord	t	2021-10-23 07:00:02.607696+02	2021-10-23 06:56:15+02	Catalin Cimpanu	therecord/Malware-found-in-npm-package-with-millions-of-weekly-downloads
 \.
 
 
@@ -2333,7 +2334,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2282, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2283, true);
 
 
 --
