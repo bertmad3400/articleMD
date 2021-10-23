@@ -2324,6 +2324,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2278	FIN7 Lures Unwitting Security Pros to Carry Out Ransomware Attacks	The infamous Carbanak operator is moving is looking to juice its ransomware game by recruiting IT staff to its fake Bastion Secure 'pen-testing' company.	https://kasperskycontenthub.com/threatpost-global/?p=175681	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/22155602/help-wanted-sign-on-store-window-vf-e1634932579106.png	threatpost	t	2021-10-22 22:00:02.442014+02	2021-10-22 21:59:23+02	Tara Seals	threatpost/FIN7-Lures-Unwitting-Security-Pros-to-Carry-Out-Ransomware-Attacks
 2279	The Week in Ransomware - October 22nd 2021 - Striking back	Between law enforcement operations, REvil's second shut down, and ransomware gangs' response to the hacking of their servers, it has been quite the week.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-22nd-2021-striking-back/	https://www.bleepstatic.com/content/hl-images/2021/10/22/boxing.jpg	bleepingcomputer	t	2021-10-23 00:00:02.592084+02	2021-10-22 23:47:32+02	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---October-22nd-2021---Striking-back
 2280	CISA awards $2 million to cybersecurity programs for rural, diverse communities | ZDNet	The heads of CISA, NSA and IST also took part in the ShareTheMic campaign to promote diversity in cybersecurity.	https://www.zdnet.com/article/cisa-awards-2-million-to-cybersecurity-programs-for-rural-diverse-communities/	https://www.zdnet.com/a/img/resize/81a5b0885e0f3d10388bb108bc3e3b245ef2d25a/2021/05/17/390cd4a8-fa67-4807-a7e8-c2574b3761b2/diversity-hiring.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-23 01:00:02.722981+02	2021-10-22 22:40:44+02	Jonathan Greig	zdnet/CISA-awards-2-million-to-cybersecurity-programs-for-rural-diverse-communities
+2281	DDoS attacks hit multiple email providers	At least three email service providers have been hit by large distributed denial of service (DDoS) attacks on Friday, resulting in prolonged outages, The Record has learned.	https://therecord.media/ddos-attacks-hit-multiple-email-providers/	https://therecord.media/wp-content/uploads/2021/10/globe-ddos-botnet-map-world.png	therecord	t	2021-10-23 04:00:02.018186+02	2021-10-23 03:34:29+02	Catalin Cimpanu	therecord/DDoS-attacks-hit-multiple-email-providers
 \.
 
 
@@ -2331,7 +2332,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2280, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2281, true);
 
 
 --
