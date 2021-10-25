@@ -2351,6 +2351,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2305	South Korean telco KT suffers nationwide outage after routing error	The second-largest telecommunications provider in South Korea, KT Corporation, has suffered a nationwide outage today, leaving all its 16.5 million customers without internet connectivity and telephony services for about 40 minutes.	https://www.bleepingcomputer.com/news/technology/south-korean-telco-kt-suffers-nationwide-outage-after-routing-error/	https://www.bleepstatic.com/content/hl-images/2021/10/25/routing.jpg	bleepingcomputer	t	2021-10-25 19:00:02.246615+02	2021-10-25 18:20:06+02	Bill Toulas	bleepingcomputer/South-Korean-telco-KT-suffers-nationwide-outage-after-routing-error
 2306	Microsoft Defender ATP adds live response for Linux and macOS	Microsoft has announced the addition of new live macOS and Linux response capabilities to Defender for Endpoint, , the enterprise version of Redmond's Windows 10 Defender antivirus.	https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-atp-adds-live-response-for-linux-and-macos/	https://www.bleepstatic.com/content/hl-images/2021/09/12/Microsoft-Defender.jpg	bleepingcomputer	t	2021-10-25 19:00:02.246615+02	2021-10-25 17:50:00+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Defender-ATP-adds-live-response-for-Linux-and-macOS
 2307	It's Windows XP's 20th birthday and way too many still use it	​Today is the 20th anniversary of Windows XP, and although the operating system reached the end of support in 2014, way too many people continue to use the insecure version of Windows.	https://www.bleepingcomputer.com/news/microsoft/its-windows-xps-20th-birthday-and-way-too-many-still-use-it/	https://www.bleepstatic.com/content/hl-images/2021/10/25/windows-xp-header-bliss.jpg	bleepingcomputer	t	2021-10-25 19:00:02.246615+02	2021-10-25 17:27:49+02	Bill Toulas	bleepingcomputer/Its-Windows-XPs-20th-birthday-and-way-too-many-still-use-it
+2308	Millions of Android users targeted in subscription fraud campaign	A new SMS scam campaign relying upon 151 apps has been uncovered, with many of these apps managing to find their way into the Play Store where they amassed 10.5 million downloads.	https://www.bleepingcomputer.com/news/security/millions-of-android-users-targeted-in-subscription-fraud-campaign/	https://www.bleepstatic.com/content/hl-images/2021/09/29/Android.jpg	bleepingcomputer	t	2021-10-25 21:00:02.714625+02	2021-10-25 20:00:44+02	Bill Toulas	bleepingcomputer/Millions-of-Android-users-targeted-in-subscription-fraud-campaign
 \.
 
 
@@ -2358,7 +2359,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2307, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2308, true);
 
 
 --
