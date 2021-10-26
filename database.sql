@@ -2369,6 +2369,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2323	Mozilla Firefox cracks down on malicious add-ons used by 455,000 users | ZDNet	The troublesome add-ons misused an API that controlled how Firefox connected to the internet.	https://www.zdnet.com/article/mozilla-firefox-cracks-down-on-malicious-add-ons-used-by-455000-users/	https://www.zdnet.com/a/img/resize/b705c64428377e0340ee89d88f9dd4f50eee2256/2019/12/03/050cf3fb-7e65-4931-9043-cea88e1c5696/mozilla-add-ons.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-26 10:00:02.638769+02	2021-10-26 07:19:40+02	Charlie Osborne	zdnet/Mozilla-Firefox-cracks-down-on-malicious-add-ons-used-by-455000-users
 2324	Third-party data breach in Singapore hits healthcare provider | ZDNet	Fullerton Health says its third-party vendor, which platform facilitates appointment booking, had suffered a security breach first detected on October 19 that compromised patients' personal data, including name and contact details as well as bank account information.	https://www.zdnet.com/article/third-party-data-breach-in-singapore-hits-healthcare-provider/	https://www.zdnet.com/a/img/resize/f075d30e9f2046c237a757a58b1a1c32063a7150/2016/09/21/b60b01a7-3110-47fd-93c3-c0a5eca035a5/circuitboardlocksecurity.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-26 11:00:01.997908+02	2021-10-26 08:42:42+02	Eileen Yu	zdnet/Third-party-data-breach-in-Singapore-hits-healthcare-provider
 2325	Schools put the brakes on facial recognition scheme for kids buying lunch | ZDNet	UK regulators swooped in before the program gained full momentum.	https://www.zdnet.com/article/schools-put-the-brakes-on-facial-recognition-scheme-for-kids-buying-lunch/	https://www.zdnet.com/a/img/resize/a966c8fa1ccd7b1e7105f1200a1c8f31b38db7fc/2019/02/25/b5e981f8-8a32-40fb-8b23-96cb804fdbeb/istock-923348188.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-26 11:00:01.997908+02	2021-10-26 08:21:01+02	Charlie Osborne	zdnet/Schools-put-the-brakes-on-facial-recognition-scheme-for-kids-buying-lunch
+2326	Nearly all US execs have experienced a cybersecurity threat, but some say there's still no plan | ZDNet	A new survey suggests the disruption, share price drops, and theft are common consequences of attacks.	https://www.zdnet.com/article/nearly-all-us-execs-have-experienced-a-cybersecurity-event-but-some-say-theres-still-no-plan/	https://www.zdnet.com/a/img/resize/be961fb6b8ef03aa44fbb1cb49704d314befd492/2021/07/19/0874b07d-266e-47ee-ac1a-88867d2f8b02/uk-blame-china-for-microsoft-exchange-server-hack.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-26 13:00:02.399549+02	2021-10-26 10:00:02+02	Charlie Osborne	zdnet/Nearly-all-US-execs-have-experienced-a-cybersecurity-threat-but-some-say-theres-still-no-plan
 \.
 
 
@@ -2376,7 +2377,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2325, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2326, true);
 
 
 --
