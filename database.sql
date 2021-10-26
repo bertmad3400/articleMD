@@ -2362,6 +2362,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2316	Austrac limited when regulating overseas terrorism financing via online platforms | ZDNet	Online platforms such as Telegram and cryptocurrency exchange platforms are increasingly being used to fund terrorism, according to Australia's money laundering and terrorism financing watchdog.	https://www.zdnet.com/article/austrac-limited-when-regulating-overseas-terrorism-financing-via-online-platforms/	https://www.zdnet.com/a/img/resize/5b60e5438caed92b32fec1547b6a3dab8d50c44c/2018/04/06/cef85f1c-5939-43f1-af71-3e6d8553fce1/ddos-terrorism-or-legitimate-form-of-protest.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-26 00:00:02.247537+02	2021-10-25 21:38:22+02	Campbell Kwan	zdnet/Austrac-limited-when-regulating-overseas-terrorism-financing-via-online-platforms
 2317	Defending Assets You Don’t Know About Against Cyberattacks	No security defense is perfect, and shadow IT means no company can inventory every single asset that it has. David “moose” Wolpoff, CTO at Randori, discusses strategies for core asset protection given this reality.	https://kasperskycontenthub.com/threatpost-global/?p=175730	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/25171347/hidden-image-e1635196458449.jpg	threatpost	t	2021-10-26 00:00:02.247537+02	2021-10-25 23:41:20+02	David \\u201cmoose\\u201d Wolpoff	threatpost/Defending-Assets-You-Dont-Know-About-Against-Cyberattacks
 2318	Groove Ransomware Gang Wants REvil Revenge, Calls for Cyberattacks on US	Bold move signals looming clash between Russian ransomware groups and the U.S.	https://kasperskycontenthub.com/threatpost-global/?p=175726	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/25165942/saber-e1635195594301.jpg	threatpost	t	2021-10-26 00:00:02.247537+02	2021-10-25 23:13:17+02	Becky Bracken	threatpost/Groove-Calls-for-Cyberattacks-on-US-as-REvil-Payback
+2319	NSW government stands up dedicated unit to fight identity theft | ZDNet	IDSupport NSW will be the single point-of-contact for citizens who have had their identity compromised.	https://www.zdnet.com/article/nsw-government-stands-up-dedicated-unit-to-fight-identity-theft/	https://www.zdnet.com/a/img/resize/640b9c994b261942902ac90672b2faffd3a78911/2021/06/25/f794d6d9-9bda-4807-b5e2-eb048305b26b/identity-access-management.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-26 03:00:02.248155+02	2021-10-25 23:52:47+02	Aimee Chanthadavong	zdnet/NSW-government-stands-up-dedicated-unit-to-fight-identity-theft
 \.
 
 
@@ -2369,7 +2370,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2318, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2319, true);
 
 
 --
