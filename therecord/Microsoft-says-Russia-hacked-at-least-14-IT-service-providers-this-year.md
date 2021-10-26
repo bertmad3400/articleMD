@@ -3,7 +3,7 @@
 
 ## Information:
 + Source: The Record
-+ Link: [article](https://therecord.media/microsoft-says-russia-hacked-at-least-14-it-service-providers-this-year/)
++ Link: [article](https://therecord.media/microsoft-says-russias-apt29-hacked-at-least-14-it-service-providers-this-year/)
 + Date: October 25, 2021
 + Author: Catalin Cimpanu
 
@@ -30,7 +30,7 @@ The attacks included spear-phishing campaigns and password-spraying operations t
 Indicators of compromise from these attacks are available in an [MSTIC report](https://www.microsoft.com/security/blog/2021/10/25/nobelium-targeting-delegated-administrative-privileges-to-facilitate-broader-attacks/) published earlier today.
 
 
-Nobelium, which the White House identified as [Russian intelligence agency SVR](https://therecord.media/white-house-formally-blames-russian-intelligence-service-svr-for-solarwinds-hack/), is the same threat actor that orchestrated the attack against US software provider SolarWinds in 2020. The group hacked SolarWinds, inserted malware inside one of its software products, and then used the malware to enter the networks of high-value targets, such as government agencies and large corporations.
+Nobelium, which the White House tied to [Russian intelligence service SVR](https://therecord.media/white-house-formally-blames-russian-intelligence-service-svr-for-solarwinds-hack/), is the same threat actor that orchestrated the attack against US software provider SolarWinds in 2020. The group hacked SolarWinds, inserted malware inside one of its software products, and then used the malware to enter the networks of high-value targets, such as government agencies and large corporations.
 
 
 These attacks disclosed today, carried out on a large scale, confirm that the SolarWinds intrusion was deemed a success for the Russian group, which is now trying to replicate it again by attacking other companies part of the software supply chain attack of organizations across the world.
