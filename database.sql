@@ -2399,6 +2399,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2353	Iranian gas stations out of service after distribution network hacked	Gas stations from the National Iranian Oil Products Distribution Company (NIOPDC) have stopped working today due to what appears to be a cyberattack that affected the entire distribution network.	https://www.bleepingcomputer.com/news/security/iranian-gas-stations-out-of-service-after-distribution-network-hacked/	https://www.bleepstatic.com/content/hl-images/2021/10/26/fuelpump.jpg	bleepingcomputer	t	2021-10-26 23:00:02.271215+02	2021-10-26 22:24:41+02	Ionut Ilascu	bleepingcomputer/Iranian-gas-stations-out-of-service-after-distribution-network-hacked
 2354	Spammers use Squirrelwaffle malware to drop Cobalt Strike	A new malware threat named Squirrelwaffle has emerged in the wild, supporting actors with an initial foothold and a way to drop malware onto compromised systems and networks.	https://www.bleepingcomputer.com/news/security/spammers-use-squirrelwaffle-malware-to-drop-cobalt-strike/	https://www.bleepstatic.com/content/hl-images/2021/10/26/squirrel.jpg	bleepingcomputer	t	2021-10-26 23:00:02.271215+02	2021-10-26 21:45:30+02	Bill Toulas	bleepingcomputer/Spammers-use-Squirrelwaffle-malware-to-drop-Cobalt-Strike
 2355	Public Clouds & Shared Responsibility: Lessons from Vulnerability Disclosure	Much is made of shared responsibility for cloud security. But Oliver Tavakoli, CTO at Vectra AI, notes there's no guarantee that Azure or AWS are delivering services in a hardened and secure manner.	https://kasperskycontenthub.com/threatpost-global/?p=175778	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/26165929/clouds-e1635281983435.jpg	threatpost	t	2021-10-27 00:00:02.220861+02	2021-10-26 23:22:26+02	Oliver Tavakoli	threatpost/Public-Clouds--Shared-Responsibility-Lessons-from-Vulnerability-Disclosure
+2356	SquirrelWaffle Loader Malspams, Packs Qakbot, Cobalt Strike	SquirrelWaffle, a new malware loader, is mal-spamming malicious Microsoft Office documents to deliver Qakbot malware and the penetration-testing tool Cobalt Strike – two of the most common threats regularly observed targeting organizations around the world. Cisco Talos researchers said on Tuesday that they got wind of the malspam campaigns beginnin	https://kasperskycontenthub.com/threatpost-global/?p=175775	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/26154754/squirrel-1.jpeg	threatpost	t	2021-10-27 01:00:02.486742+02	2021-10-27 00:25:05+02	Lisa Vaas	threatpost/SquirrelWaffle-Loader-Malspams-Packing-Qakbot-Cobalt-Strike
 \.
 
 
@@ -2406,7 +2407,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2355, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2356, true);
 
 
 --
