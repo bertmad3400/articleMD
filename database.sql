@@ -2364,6 +2364,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2318	Groove Ransomware Gang Wants REvil Revenge, Calls for Cyberattacks on US	Bold move signals looming clash between Russian ransomware groups and the U.S.	https://kasperskycontenthub.com/threatpost-global/?p=175726	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/25165942/saber-e1635195594301.jpg	threatpost	t	2021-10-26 00:00:02.247537+02	2021-10-25 23:13:17+02	Becky Bracken	threatpost/Groove-Calls-for-Cyberattacks-on-US-as-REvil-Payback
 2319	NSW government stands up dedicated unit to fight identity theft | ZDNet	IDSupport NSW will be the single point-of-contact for citizens who have had their identity compromised.	https://www.zdnet.com/article/nsw-government-stands-up-dedicated-unit-to-fight-identity-theft/	https://www.zdnet.com/a/img/resize/640b9c994b261942902ac90672b2faffd3a78911/2021/06/25/f794d6d9-9bda-4807-b5e2-eb048305b26b/identity-access-management.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-26 03:00:02.248155+02	2021-10-25 23:52:47+02	Aimee Chanthadavong	zdnet/NSW-government-stands-up-dedicated-unit-to-fight-identity-theft
 2320	Home Affairs in talks to give telco more blocking powers against malicious messages | ZDNet	At Senate Estimates, Home Affairs secretary Mike Pezzullo reiterated his department would be more aggressive in addressing cyber threats.	https://www.zdnet.com/article/home-affairs-in-talks-to-give-telco-more-blocking-powers-against-malicious-messages/	https://www.zdnet.com/a/img/resize/643b2af1d04815b9e703c7534fd25133eb75af8d/2021/10/26/4e176b83-28a8-491d-a7bb-45bc341a65e3/gettyimages-1130417448.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-26 05:00:02.509259+02	2021-10-26 02:39:29+02	Campbell Kwan	zdnet/Home-Affairs-in-talks-to-give-telco-more-blocking-powers-against-malicious-messages
+2321	KT clarifies routing error caused outage instead of DDoS attack | ZDNet	South Korea's IT ministry is still investigating what caused KT's nationwide outage of their network.	https://www.zdnet.com/article/kt-clarifies-routing-error-caused-outage-instead-of-ddos-attack/	https://www.zdnet.com/a/img/resize/eadefe93ab6b869c9ea906c5e8d16136f75779a5/2021/10/26/a79849a2-df35-445e-9a71-7b576ea00f5b/gettyimages-149609835.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-26 06:00:02.655991+02	2021-10-26 03:19:49+02	Cho Mu-Hyun	zdnet/KT-clarifies-routing-error-caused-outage-instead-of-DDoS-attack
 \.
 
 
@@ -2371,7 +2372,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2320, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2321, true);
 
 
 --
