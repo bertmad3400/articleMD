@@ -2398,6 +2398,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2352	F5 beats Wall Street expectations for Q4, capping strong 2021 | ZDNet	F5's fourth-quarter fiscal year 2021 GAAP revenue was $682 million	https://www.zdnet.com/article/f5-beats-wall-street-expectations-for-q4-capping-strong-2021/	https://www.zdnet.com/a/img/resize/5561670d5e9809b5def5384a0eed4aa3aea169d5/2020/07/03/b6c96e0e-7da9-461a-adff-d6009723189a/f5-networks.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-26 23:00:02.271215+02	2021-10-26 20:21:06+02	Jonathan Greig	zdnet/F5-beats-Wall-Street-expectations-for-Q4-capping-strong-2021
 2353	Iranian gas stations out of service after distribution network hacked	Gas stations from the National Iranian Oil Products Distribution Company (NIOPDC) have stopped working today due to what appears to be a cyberattack that affected the entire distribution network.	https://www.bleepingcomputer.com/news/security/iranian-gas-stations-out-of-service-after-distribution-network-hacked/	https://www.bleepstatic.com/content/hl-images/2021/10/26/fuelpump.jpg	bleepingcomputer	t	2021-10-26 23:00:02.271215+02	2021-10-26 22:24:41+02	Ionut Ilascu	bleepingcomputer/Iranian-gas-stations-out-of-service-after-distribution-network-hacked
 2354	Spammers use Squirrelwaffle malware to drop Cobalt Strike	A new malware threat named Squirrelwaffle has emerged in the wild, supporting actors with an initial foothold and a way to drop malware onto compromised systems and networks.	https://www.bleepingcomputer.com/news/security/spammers-use-squirrelwaffle-malware-to-drop-cobalt-strike/	https://www.bleepstatic.com/content/hl-images/2021/10/26/squirrel.jpg	bleepingcomputer	t	2021-10-26 23:00:02.271215+02	2021-10-26 21:45:30+02	Bill Toulas	bleepingcomputer/Spammers-use-Squirrelwaffle-malware-to-drop-Cobalt-Strike
+2355	Public Clouds & Shared Responsibility: Lessons from Vulnerability Disclosure	Much is made of shared responsibility for cloud security. But Oliver Tavakoli, CTO at Vectra AI, notes there's no guarantee that Azure or AWS are delivering services in a hardened and secure manner.	https://kasperskycontenthub.com/threatpost-global/?p=175778	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/26165929/clouds-e1635281983435.jpg	threatpost	t	2021-10-27 00:00:02.220861+02	2021-10-26 23:22:26+02	Oliver Tavakoli	threatpost/Public-Clouds--Shared-Responsibility-Lessons-from-Vulnerability-Disclosure
 \.
 
 
@@ -2405,7 +2406,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2354, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2355, true);
 
 
 --
