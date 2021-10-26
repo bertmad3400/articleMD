@@ -2389,6 +2389,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2342	FCC revokes license for China Telecom Americas amid national security concerns	The U.S. Federal Communications Commission voted unanimously to revoke China Telecom Americas U.S. operating license on Tuesday, citing national security concerns. Among the reasons cited for the switch: China Telecom’s status as a subsidiary of a state-owned enterprise.	https://therecord.media/fcc-revokes-license-for-china-telecom-americas-amid-national-security-concerns/	https://therecord.media/wp-content/uploads/2021/10/richard-tao-CH7W0beldfk-unsplash-1.jpg	therecord	t	2021-10-26 18:00:02.181399+02	2021-10-26 17:47:43+02	Dina Temple-Raston	therecord/FCC-revokes-license-for-China-Telecom-Americas-amid-national-security-concerns
 2344	Researcher cracked 70% of WiFi networks sampled in Tel Aviv	A researcher has managed to crack 70% of a 5,000 WiFi network sample in his hometown, Tel Aviv, to prove that home networks are severely unsecured and easy to hijack.	https://www.bleepingcomputer.com/news/security/researcher-cracked-70-percent-of-wifi-networks-sampled-in-tel-aviv/	https://www.bleepstatic.com/content/hl-images/2021/10/26/wifi-cropped.jpg	bleepingcomputer	t	2021-10-26 19:00:01.965502+02	2021-10-26 18:42:26+02	Bill Toulas	bleepingcomputer/Researcher-cracked-70-of-WiFi-networks-sampled-in-Tel-Aviv
 2343	DOJ, Europol arrest hundreds as part of international darknet drug operation | ZDNet	Authorities from nine countries seized $31 million and hundreds of kilograms of drugs as part of an effort to disrupt criminal rings operating on the DarkNet.	https://www.zdnet.com/article/doj-europol-arrest-hundreds-as-part-of-international-darknet-drug-operation/	https://www.zdnet.com/a/img/resize/b667441b4a9def6d85945e59a3490bbdd158e422/2021/10/26/4f0d3922-0ab7-4c2f-869b-f80abbd2f42e/screen-shot-2021-10-26-at-12-07-10-pm.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-26 19:00:01.965502+02	2021-10-26 16:18:00+02	Jonathan Greig	zdnet/DOJ-Europol-arrest-hundreds-as-part-of-international-darknet-drug-operation
+2346	North Korean state hackers start targeting the IT supply chain	North Korean-sponsored Lazarus hacking group has switched focus on new targets and was observed by Kaspersky security researchers expanding its supply chain attack capabilities.	https://www.bleepingcomputer.com/news/security/north-korean-state-hackers-start-targeting-the-it-supply-chain/	https://www.bleepstatic.com/content/hl-images/2021/10/26/north_korean_flag.jpg	bleepingcomputer	t	2021-10-26 20:00:02.638121+02	2021-10-26 19:23:54+02	Sergiu Gatlan	bleepingcomputer/North-Korean-state-hackers-start-targeting-the-IT-supply-chain
 \.
 
 
@@ -2396,7 +2397,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2345, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2346, true);
 
 
 --
