@@ -2366,6 +2366,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2320	Home Affairs in talks to give telco more blocking powers against malicious messages | ZDNet	At Senate Estimates, Home Affairs secretary Mike Pezzullo reiterated his department would be more aggressive in addressing cyber threats.	https://www.zdnet.com/article/home-affairs-in-talks-to-give-telco-more-blocking-powers-against-malicious-messages/	https://www.zdnet.com/a/img/resize/643b2af1d04815b9e703c7534fd25133eb75af8d/2021/10/26/4e176b83-28a8-491d-a7bb-45bc341a65e3/gettyimages-1130417448.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-26 05:00:02.509259+02	2021-10-26 02:39:29+02	Campbell Kwan	zdnet/Home-Affairs-in-talks-to-give-telco-more-blocking-powers-against-malicious-messages
 2321	KT clarifies routing error caused outage instead of DDoS attack | ZDNet	South Korea's IT ministry is still investigating what caused KT's nationwide outage of their network.	https://www.zdnet.com/article/kt-clarifies-routing-error-caused-outage-instead-of-ddos-attack/	https://www.zdnet.com/a/img/resize/eadefe93ab6b869c9ea906c5e8d16136f75779a5/2021/10/26/a79849a2-df35-445e-9a71-7b576ea00f5b/gettyimages-149609835.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-26 06:00:02.655991+02	2021-10-26 03:19:49+02	Cho Mu-Hyun	zdnet/KT-clarifies-routing-error-caused-outage-instead-of-DDoS-attack
 2322	Ukrainian police detain gang who laundered funds for Russian hacking groups	Ukraine's national police detained suspects on Monday for stealing funds from cryptocurrency wallets and laundering profits for cybercrime organizations.	https://therecord.media/ukrainian-police-detain-gang-who-laundered-funds-for-russian-hacking-groups/	https://therecord.media/wp-content/uploads/2021/10/Ukraine-cyber-arrests.jpg	therecord	t	2021-10-26 09:00:02.162068+02	2021-10-26 08:21:49+02	Catalin Cimpanu	therecord/Ukrainian-police-detain-gang-who-laundered-funds-for-Russian-hacking-groups
+2323	Mozilla Firefox cracks down on malicious add-ons used by 455,000 users | ZDNet	The troublesome add-ons misused an API that controlled how Firefox connected to the internet.	https://www.zdnet.com/article/mozilla-firefox-cracks-down-on-malicious-add-ons-used-by-455000-users/	https://www.zdnet.com/a/img/resize/b705c64428377e0340ee89d88f9dd4f50eee2256/2019/12/03/050cf3fb-7e65-4931-9043-cea88e1c5696/mozilla-add-ons.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-26 10:00:02.638769+02	2021-10-26 07:19:40+02	Charlie Osborne	zdnet/Mozilla-Firefox-cracks-down-on-malicious-add-ons-used-by-455000-users
 \.
 
 
@@ -2373,7 +2374,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2322, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2323, true);
 
 
 --
