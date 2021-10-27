@@ -2405,6 +2405,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2359	QuintessenceLabs raises AU$25m to take quantum-based cyber solutions global | ZDNet	Australia's QuintessenceLabs plans to grow its US headcount and broaden its geographic reach.	https://www.zdnet.com/article/quintessencelabs-raises-au25m-to-take-quantum-based-cyber-solutions-global/	https://www.zdnet.com/a/img/resize/04136e1ecb16a13805a4f2b941ab63de61712bcd/2017/07/18/cd4eecc0-74ee-41ba-8a6f-6cdebba0d028/quintessencelabs-qlabs.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-27 08:00:02.02124+02	2021-10-27 05:47:21+02	Aimee Chanthadavong	zdnet/QuintessenceLabs-raises-AU25m-to-take-quantum-based-cyber-solutions-global
 2360	Meet Balikbayan Foxes: a threat group impersonating the Philippine gov't | ZDNet	The gang is also taking advantage of COVID-19 to propagate Trojan malware.	https://www.zdnet.com/article/proofpoint-unmasks-balikbayan-foxes-a-threat-group-impersonating-the-philippine-govt/	https://www.zdnet.com/a/img/resize/a0487ba8bf33e4c03ba14e4e4523606f6b5f438c/2021/02/14/56984171-b7ca-4369-bdfe-379ebaafe02c/covid-vaccine.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-27 14:00:02.133528+02	2021-10-27 11:30:02+02	Charlie Osborne	zdnet/Meet-Balikbayan-Foxes-a-threat-group-impersonating-the-Philippine-govt
 2361	Microsoft warns over uptick in password spraying attacks | ZDNet	State-sponsored hackers and cyber criminals are going after identities with password spraying, a low-effort and high-value method for the attacker, says Microsoft's Detection and Response Team (DART).	https://www.zdnet.com/article/microsoft-warns-over-uptick-in-password-spraying-attacks/	https://www.zdnet.com/a/img/resize/ab229a2a6dbba549375256d795525d8659b405ce/2021/04/15/be3f64fd-0f61-4579-a84a-e80b721a3e85/cyberbullying.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-27 14:00:02.133528+02	2021-10-27 11:25:58+02	Liam Tung	zdnet/Microsoft-warns-over-uptick-in-password-spraying-attacks
+2362	These phishing emails use QR codes to bypass defences and steal Microsoft 365 usernames and passwords | ZDNet	QR codes have less chance of being picked up by cybersecurity defences than links or attachments -- and cyber criminals are trying to exploit them.	https://www.zdnet.com/article/these-phishing-emails-use-qr-codes-to-bypass-defences-and-steal-microsoft-365-usernames-and-passwords/	https://www.zdnet.com/a/img/resize/bb181e6dccbb95cdc9873de340db124936a95d93/2019/12/12/9f56b274-98be-4214-85f8-9ff52e362ab7/manphonelaptopbeardistock-1161383476.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-27 15:00:02.012351+02	2021-10-27 12:43:59+02	Danny Palmer	zdnet/These-phishing-emails-use-QR-codes-to-bypass-defences-and-steal-Microsoft-365-usernames-and-passwords
 \.
 
 
@@ -2412,7 +2413,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2361, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2362, true);
 
 
 --
