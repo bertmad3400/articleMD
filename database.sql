@@ -2413,6 +2413,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2367	Linux Foundation: confidential computing market to reach $54 billion in 2026 | ZDNet	A new report from the Linux Foundation and Confidential Computing Consortium is predicting widespread adoption of confidential computing.	https://www.zdnet.com/article/linux-foundation-confidential-computing-market-to-reach-54-billion-in-2026/	https://www.zdnet.com/a/img/resize/6a858f7a31811a1a6d69bc7a21445aebd16f9231/2021/09/24/30e51b33-8835-47bf-b886-884c1581c0c8/shutterstock-1794130912.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-27 16:00:02.44181+02	2021-10-27 13:17:58+02	Jonathan Greig	zdnet/Linux-Foundation-confidential-computing-market-to-reach-54-billion-in-2026
 2368	Weeks early: Adobe dumps massive security patch update | ZDNet	The security update targets 14 products.	https://www.zdnet.com/article/weeks-early-adobe-dumps-massive-security-patch-update/	https://www.zdnet.com/a/img/resize/64c8b47db367541588970331d47dfd90b9c1c5a3/2021/10/26/b7f66dd7-8d93-4d3f-9f03-2e4411bb0b73/adobe.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-27 16:00:02.44181+02	2021-10-27 13:09:38+02	Charlie Osborne	zdnet/Weeks-early-Adobe-dumps-massive-security-patch-update
 2369	Break into the elite field of cybersecurity by learning Risk Management Frameworks | ZDNet	If you've been wondering how to leverage your advanced IT skills to begin a whole new career in cybersecurity, now you can start with a single niche and move up from there.	https://www.zdnet.com/article/break-into-the-elite-field-of-cybersecurity-by-learning-risk-management-frameworks/	https://www.zdnet.com/a/img/resize/bd9714e441ecf2e203f38db8c9467e8d725e6968/2021/10/26/42a5c5ac-3bba-4994-9730-f27446fc1ac1/sale-304757-article-image.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-27 16:00:02.44181+02	2021-10-27 13:00:02+02	ZDNet Academy	zdnet/Break-into-the-elite-field-of-cybersecurity-by-learning-Risk-Management-Frameworks
+2370	How will farms and food producers protect themselves from the next cyberattack?	A Q&A on the future of cybersecurity in the food and agriculture sector with IT-ISAC Executive Director Scott Algeier.	https://therecord.media/how-will-farms-and-food-producers-protect-themselves-from-the-next-cyberattack/	https://therecord.media/wp-content/uploads/2021/08/agriculture.jpg	therecord	t	2021-10-27 17:00:02.034106+02	2021-10-27 16:47:02+02	Andrea Peterson	therecord/How-will-farms-and-food-producers-protect-themselves-from-the-next-cyberattack
 \.
 
 
@@ -2420,7 +2421,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2369, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2370, true);
 
 
 --
