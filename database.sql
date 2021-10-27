@@ -2426,6 +2426,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2380	Ransomware gang claims attack on NRA	The operators of the Grief ransomware have listed today the US National Rifle Association (NRA) as a victim of one of their attacks.	https://therecord.media/ransomware-gang-claims-attack-on-nra/	https://therecord.media/wp-content/uploads/2021/10/NRA.jpg	therecord	t	2021-10-27 20:00:02.513869+02	2021-10-27 19:07:49+02	Catalin Cimpanu	therecord/Ransomware-gang-claims-attack-on-NRA
 2381	Free decryptor released for Atom Silo and LockFile ransomware	Avast has just released a decryption tool that will help AtomSilo and LockFile ransomware victims recover some of their files for free, without having to pay a ransom.	https://www.bleepingcomputer.com/news/security/free-decryptor-released-for-atom-silo-and-lockfile-ransomware/	https://www.bleepstatic.com/content/hl-images/2021/10/27/Decyptor.jpg	bleepingcomputer	t	2021-10-27 21:00:01.7592+02	2021-10-27 20:35:13+02	Sergiu Gatlan	bleepingcomputer/Free-decryptor-released-for-Atom-Silo-and-LockFile-ransomware
 2382	Free decrypters released for AtomSilo, Babuk, and LockFile ransomware strains	Antivirus maker and cyber-security firm Avast has released today free decryption utilities to recover files that have been encrypted by three ransomware strains—AtomSilo, Babuk, and LockFile.	https://therecord.media/free-decrypters-released-for-atomsilo-babuk-and-lockfile-ransomware-strains/	https://therecord.media/wp-content/uploads/2021/10/unlock-key-ransomware-decrypt.jpg	therecord	t	2021-10-27 21:00:01.7592+02	2021-10-27 20:44:14+02	Catalin Cimpanu	therecord/Free-decrypters-released-for-AtomSilo-Babuk-and-LockFile-ransomware-strains
+2383	Google, Twitter back #ShareTheMicInCyber campaign to expand cybersecurity industry | ZDNet	The movement's founder is partnering with a think tank to create new positions and work on diversifying the cybersecurity industry.	https://www.zdnet.com/article/google-twitter-back-sharethemicincyber-campaign-to-expand-cybersecurity-industry/	https://www.zdnet.com/a/img/resize/8a8184efd125ef1e48d7f8f01fc315ba491ccb97/2019/05/14/4c924498-f5d7-417f-b649-220bc88ffca7/how-diversity-can-help-boost-the-perform-5cd9521ebd785600c4d44b56-1-may-14-2019-11-59-23-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-27 22:00:02.365427+02	2021-10-27 19:26:00+02	Jonathan Greig	zdnet/Google-Twitter-back-ShareTheMicInCyber-campaign-to-expand-cybersecurity-industry
+2384	Adobe's Surprise Security Bulletin Dominated by Critical Patches	A full 66 out of 92 disclosed security vulnerabilities are rated critical in severity, mostly allowing code-execution; the most severe can lead to information disclosure.	https://kasperskycontenthub.com/threatpost-global/?p=175825	https://media.threatpost.com/wp-content/uploads/sites/103/2021/06/29072304/Adobe-Logo.jpg	threatpost	t	2021-10-27 22:00:02.365427+02	2021-10-27 21:13:47+02	Tara Seals	threatpost/Adobes-Surprise-Security-Bulletin-Dominated-by-Critical-Patches
 \.
 
 
@@ -2433,7 +2435,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2382, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2384, true);
 
 
 --
