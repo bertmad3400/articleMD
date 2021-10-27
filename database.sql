@@ -2424,6 +2424,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2378	Hackers arrested for ‘infiltrating’ Ukraine’s health database	The Security Service of Ukraine (SSU) has arrested a team of actors who illegally infiltrated the information system of the National Health Service of Ukraine (NHSU) and entered false vaccination entries for other people.	https://www.bleepingcomputer.com/news/security/hackers-arrested-for-infiltrating-ukraine-s-health-database/	https://www.bleepstatic.com/content/hl-images/2020/12/03/COVID-19-vaccine.jpg	bleepingcomputer	t	2021-10-27 20:00:02.513869+02	2021-10-27 18:15:00+02	Bill Toulas	bleepingcomputer/Hackers-arrested-for-infiltrating-Ukraines-health-database
 2379	Republicans won't let go of NSA lawyer controversy	Republicans on the House Intelligence Committee on Wednesday vowed to press for additional details into the suspension of the NSA’s former top lawyer, despite a recent Pentagon watchdog investigation that found the spy agency’s leadership had acted appropriately in the matter.	https://therecord.media/republicans-wont-let-nsa-lawyer-controversy-go/	https://www-therecord.recfut.com/wp-content/uploads/2021/10/NSA-logo.png	therecord	t	2021-10-27 20:00:02.513869+02	2021-10-27 19:38:30+02	Martin Matishak	therecord/Republicans-wont-let-go-of-NSA-lawyer-controversy
 2380	Ransomware gang claims attack on NRA	The operators of the Grief ransomware have listed today the US National Rifle Association (NRA) as a victim of one of their attacks.	https://therecord.media/ransomware-gang-claims-attack-on-nra/	https://therecord.media/wp-content/uploads/2021/10/NRA.jpg	therecord	t	2021-10-27 20:00:02.513869+02	2021-10-27 19:07:49+02	Catalin Cimpanu	therecord/Ransomware-gang-claims-attack-on-NRA
+2381	Free decryptor released for Atom Silo and LockFile ransomware	Avast has just released a decryption tool that will help AtomSilo and LockFile ransomware victims recover some of their files for free, without having to pay a ransom.	https://www.bleepingcomputer.com/news/security/free-decryptor-released-for-atom-silo-and-lockfile-ransomware/	https://www.bleepstatic.com/content/hl-images/2021/10/27/Decyptor.jpg	bleepingcomputer	t	2021-10-27 21:00:01.7592+02	2021-10-27 20:35:13+02	Sergiu Gatlan	bleepingcomputer/Free-decryptor-released-for-Atom-Silo-and-LockFile-ransomware
+2382	Free decrypters released for AtomSilo, Babuk, and LockFile ransomware strains	Antivirus maker and cyber-security firm Avast has released today free decryption utilities to recover files that have been encrypted by three ransomware strains—AtomSilo, Babuk, and LockFile.	https://therecord.media/free-decrypters-released-for-atomsilo-babuk-and-lockfile-ransomware-strains/	https://therecord.media/wp-content/uploads/2021/10/unlock-key-ransomware-decrypt.jpg	therecord	t	2021-10-27 21:00:01.7592+02	2021-10-27 20:44:14+02	Catalin Cimpanu	therecord/Free-decrypters-released-for-AtomSilo-Babuk-and-LockFile-ransomware-strains
 \.
 
 
@@ -2431,7 +2433,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2380, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2382, true);
 
 
 --
