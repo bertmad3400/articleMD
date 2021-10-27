@@ -2402,6 +2402,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2355	Public Clouds & Shared Responsibility: Lessons from Vulnerability Disclosure	Much is made of shared responsibility for cloud security. But Oliver Tavakoli, CTO at Vectra AI, notes there's no guarantee that Azure or AWS are delivering services in a hardened and secure manner.	https://kasperskycontenthub.com/threatpost-global/?p=175778	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/26165929/clouds-e1635281983435.jpg	threatpost	t	2021-10-27 00:00:02.220861+02	2021-10-26 23:22:26+02	Oliver Tavakoli	threatpost/Public-Clouds--Shared-Responsibility-Lessons-from-Vulnerability-Disclosure
 2356	SquirrelWaffle Loader Malspams, Packs Qakbot, Cobalt Strike	SquirrelWaffle, a new malware loader, is mal-spamming malicious Microsoft Office documents to deliver Qakbot malware and the penetration-testing tool Cobalt Strike – two of the most common threats regularly observed targeting organizations around the world. Cisco Talos researchers said on Tuesday that they got wind of the malspam campaigns beginnin	https://kasperskycontenthub.com/threatpost-global/?p=175775	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/26154754/squirrel-1.jpeg	threatpost	t	2021-10-27 01:00:02.486742+02	2021-10-27 00:25:05+02	Lisa Vaas	threatpost/SquirrelWaffle-Loader-Malspams-Packing-Qakbot-Cobalt-Strike
 2358	FCC kicks China Telecom out of United States | ZDNet	Chinese telco given 60 days to stop providing domestic and international services.	https://www.zdnet.com/article/fcc-kicks-china-telecom-out-of-united-states/	https://www.zdnet.com/a/img/resize/01969f19a6c654bf24664d97fc13a5bade7b1af6/2021/10/27/687e143f-f9fd-4e5b-8314-d163be2092b8/china-telecom-gettyimages.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-27 05:00:02.606784+02	2021-10-27 02:57:04+02	Chris Duckett	zdnet/FCC-kicks-China-Telecom-out-of-United-States
+2359	QuintessenceLabs raises AU$25m to take quantum-based cyber solutions global | ZDNet	Australia's QuintessenceLabs plans to grow its US headcount and broaden its geographic reach.	https://www.zdnet.com/article/quintessencelabs-raises-au25m-to-take-quantum-based-cyber-solutions-global/	https://www.zdnet.com/a/img/resize/04136e1ecb16a13805a4f2b941ab63de61712bcd/2017/07/18/cd4eecc0-74ee-41ba-8a6f-6cdebba0d028/quintessencelabs-qlabs.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-27 08:00:02.02124+02	2021-10-27 05:47:21+02	Aimee Chanthadavong	zdnet/QuintessenceLabs-raises-AU25m-to-take-quantum-based-cyber-solutions-global
 \.
 
 
@@ -2409,7 +2410,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2358, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2359, true);
 
 
 --
