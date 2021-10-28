@@ -2460,6 +2460,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2414	NSA and CISA share guidance on securing 5G cloud infrastructure	CISA and the NSA shared guidance on securing cloud-native 5G networks from attacks seeking to compromise information or deny access by taking down cloud infrastructure.	https://www.bleepingcomputer.com/news/security/nsa-and-cisa-share-guidance-on-securing-5g-cloud-infrastructure/	https://www.bleepstatic.com/content/hl-images/2021/10/28/5G_antenna.jpg	bleepingcomputer	t	2021-10-28 20:00:02.053691+02	2021-10-28 19:06:00+02	Sergiu Gatlan	bleepingcomputer/NSA-and-CISA-share-guidance-on-securing-5G-cloud-infrastructure
 2415	NSA warns of threat actors compromising entire 5G networks via cloud systems	The US National Security Agency has published a security advisory today warning about how attackers could compromise entire 5G networks by hijacking a provider's cloud resources.	https://therecord.media/nsa-warns-of-threat-actors-compromise-entire-5g-networks-via-cloud-systems/	https://therecord.media/wp-content/uploads/2021/10/5G-telco-mobile-tower.jpg	therecord	t	2021-10-28 20:00:02.053691+02	2021-10-28 19:16:59+02	Catalin Cimpanu	therecord/NSA-warns-of-threat-actors-compromising-entire-5G-networks-via-cloud-systems
 2416	Job hunting? Watch out for this nasty remote work scam | ZDNet	The how low will they go? nature of human behavior never ceases to disturb, especially in cases like this. Sometimes it's just so hard to not hate humans.	https://www.zdnet.com/article/job-hunting-watch-out-for-this-nasty-remote-work-scam/	https://www.zdnet.com/a/img/resize/f06cee73e7dec3048bb3073f4f25cb600225502a/2020/10/30/388263c2-6ef9-4278-ada2-3bd0a5d26e0d/istock-11296385861.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-28 21:00:02.108878+02	2021-10-28 18:37:00+02	David Gewirtz	zdnet/Job-hunting-Watch-out-for-this-nasty-remote-work-scam
+2417	Luxury hotel chain in Thailand reports data breach | ZDNet	Cyberattackers claimed to have stolen the passport details and other personal information from visitors who stayed at Centara Hotels & Resorts.	https://www.zdnet.com/article/luxury-hotel-chain-in-thailand-reports-data-breach/	https://www.zdnet.com/a/img/resize/d8b333e00680a7677a2ec556b235364f4cc2fef8/2018/06/26/a40592c7-b606-46fa-b4b2-4848ac381447/istock-hotel-booking.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-28 22:00:02.515322+02	2021-10-28 19:31:53+02	Jonathan Greig	zdnet/Luxury-hotel-chain-in-Thailand-reports-data-breach
 \.
 
 
@@ -2467,7 +2468,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2416, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2417, true);
 
 
 --
