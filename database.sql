@@ -2453,6 +2453,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2407	Ransomware gangs use SEO poisoning to infect visitors	Researchers have spotted two campaigns linked to either the REvil ransomware gang or the SolarMarker backdoor that use SEO poisoning to serve payloads to targets.	https://www.bleepingcomputer.com/news/security/ransomware-gangs-use-seo-poisoning-to-infect-visitors/	https://www.bleepstatic.com/content/hl-images/2021/10/28/poison.jpg	bleepingcomputer	t	2021-10-28 16:00:02.628622+02	2021-10-28 15:02:21+02	Bill Toulas	bleepingcomputer/Ransomware-gangs-use-SEO-poisoning-to-infect-visitors
 2408	An Amazon rival reveals the only honest reason to get a video doorbell | ZDNet	Is it to check that your Amazon parcels don't get stolen? Is it to help the police? No, this company is a little more truthful, and former Amazon employees founded it.	https://www.zdnet.com/article/an-amazon-rival-reveals-the-only-honest-reason-to-get-a-video-doorbell/	https://www.zdnet.com/a/img/resize/250073a99720e7c389d1a12cf68cf373cdecd1e8/2021/10/25/cb5a96b6-f7c9-48f7-aabc-e1d28e6c207a/screen-shot-2021-10-25-at-4-12-13-pm.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-28 17:00:01.766741+02	2021-10-28 14:22:00+02	Chris Matyszczyk	zdnet/An-Amazon-rival-reveals-the-only-honest-reason-to-get-a-video-doorbell
 2409	WordPress plugin bug impacts 1M sites, allows malicious redirects	The OptinMonster plugin is affected by a high-severity flaw that allows unauthorized API access and sensitive information disclosure on roughly a million WordPress sites.	https://www.bleepingcomputer.com/news/security/wordpress-plugin-bug-impacts-1m-sites-allows-malicious-redirects/	https://www.bleepstatic.com/content/hl-images/2020/09/10/WordPress-war.jpg	bleepingcomputer	t	2021-10-28 17:00:01.766741+02	2021-10-28 16:50:09+02	Bill Toulas	bleepingcomputer/WordPress-plugin-bug-impacts-1M-sites-allows-malicious-redirects
+2410	EU’s Green Pass Vaccination ID Private Key Leaked	The private key used to sign the vaccine passports was leaked and is being passed around to create fake passes for the likes of Mickey Mouse and Adolf Hitler.	https://kasperskycontenthub.com/threatpost-global/?p=175857	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/28113249/hitler_wax_museum-e1635435181263.jpg	threatpost	t	2021-10-28 18:00:02.010693+02	2021-10-28 17:34:06+02	Lisa Vaas	threatpost/EUs-Green-Pass-Vaccination-ID-Private-Key-Leaked
 \.
 
 
@@ -2460,7 +2461,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2409, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2410, true);
 
 
 --
