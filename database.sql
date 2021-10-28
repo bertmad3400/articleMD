@@ -2457,6 +2457,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2413	Android spyware spreading as antivirus software in Japan	A new variant of the Android info-stealer called FakeCop has been spotted by Japanese security researchers, who warn that the distribution of the malicious APK is picking up pace.	https://www.bleepingcomputer.com/news/security/android-spyware-spreading-as-antivirus-software-in-japan/	https://www.bleepstatic.com/content/hl-images/2021/10/28/japan.jpg	bleepingcomputer	t	2021-10-28 19:00:01.921361+02	2021-10-28 18:31:26+02	Bill Toulas	bleepingcomputer/Android-spyware-spreading-as-antivirus-software-in-Japan
 2411	Android smartphones infected with rare rooting malware	Security researchers at Zscaler have discovered a new Android malware strain that contains the ability to root smartphones, a feature that has become quite rare in Android malware strains in recent years.	https://therecord.media/android-smartphones-infected-with-rare-rooting-malware/	https://therecord.media/wp-content/uploads/2021/10/abstract-emu-ostrich.jpg	therecord	t	2021-10-28 19:00:01.921361+02	2021-10-28 18:49:11+02	Catalin Cimpanu	therecord/Android-smartphones-infected-with-rare-rooting-malware
 2412	Microsoft: Shrootless bug lets hackers install macOS rootkits	Attackers could use a new macOS vulnerability discovered by Microsoft to bypass System Integrity Protection (SIP) and perform arbitrary operations, elevate privileges to root, and install rootkits on vulnerable devices.	https://www.bleepingcomputer.com/news/security/microsoft-shrootless-bug-lets-hackers-install-macos-rootkits/	https://www.bleepstatic.com/content/hl-images/2020/10/07/Microsoft.jpg	bleepingcomputer	t	2021-10-28 19:00:01.921361+02	2021-10-28 18:44:27+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Shrootless-bug-lets-hackers-install-macOS-rootkits
+2414	NSA and CISA share guidance on securing 5G cloud infrastructure	CISA and the NSA shared guidance on securing cloud-native 5G networks from attacks seeking to compromise information or deny access by taking down cloud infrastructure.	https://www.bleepingcomputer.com/news/security/nsa-and-cisa-share-guidance-on-securing-5g-cloud-infrastructure/	https://www.bleepstatic.com/content/hl-images/2021/10/28/5G_antenna.jpg	bleepingcomputer	t	2021-10-28 20:00:02.053691+02	2021-10-28 19:06:00+02	Sergiu Gatlan	bleepingcomputer/NSA-and-CISA-share-guidance-on-securing-5G-cloud-infrastructure
+2415	NSA warns of threat actors compromising entire 5G networks via cloud systems	The US National Security Agency has published a security advisory today warning about how attackers could compromise entire 5G networks by hijacking a provider's cloud resources.	https://therecord.media/nsa-warns-of-threat-actors-compromise-entire-5g-networks-via-cloud-systems/	https://therecord.media/wp-content/uploads/2021/10/5G-telco-mobile-tower.jpg	therecord	t	2021-10-28 20:00:02.053691+02	2021-10-28 19:16:59+02	Catalin Cimpanu	therecord/NSA-warns-of-threat-actors-compromising-entire-5G-networks-via-cloud-systems
 \.
 
 
@@ -2464,7 +2466,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2413, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2415, true);
 
 
 --
