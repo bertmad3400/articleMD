@@ -2437,6 +2437,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2391	WordPress Plugin Bug Lets Subscribers Wipe Sites	The flaw, found in the Hashthemes Demo Importer plugin, allows any authenticated user to exsanguinate a vulnerable site, deleting nearly all database content and uploaded media.	https://kasperskycontenthub.com/threatpost-global/?p=175826	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/27165503/eraser-e1635368120664.jpeg	threatpost	t	2021-10-28 00:00:02.184564+02	2021-10-27 23:39:11+02	Lisa Vaas	threatpost/WordPress-Plugin-Bug-Lets-Subscribers-Wipe-Sites
 2392	NRA responds to reports of Grief ransomware attack | ZDNet	The gun rights organization would not confirm or deny whether they had been hit with a ransomware attack.	https://www.zdnet.com/article/nra-responds-to-reports-of-grief-ransomware-attack/	https://www.zdnet.com/a/img/resize/4d9b29303979a577f9e657876b5e1ca8daeeba75/2021/10/27/c751a709-9cfc-4aa6-83f6-b5f72ede9045/fct76r8vcaqckrp.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-28 03:00:02.253613+02	2021-10-28 00:01:01+02	Jonathan Greig	zdnet/NRA-responds-to-reports-of-Grief-ransomware-attack
 2393	Hackers steal $130 million from Cream Finance; the company's 3rd hack this year	Hackers have stolen an estimated $130 million worth of cryptocurrency assets from Cream Finance, a decentralized finance (DeFi) platform that allows users to loan and speculate on cryptocurrency price variations.	https://therecord.media/hackers-steal-130-million-from-cream-finance-the-companys-3rd-hack-this-year/	https://therecord.media/wp-content/uploads/2021/10/Cream-Finance.png	therecord	t	2021-10-28 03:00:02.253613+02	2021-10-28 02:53:53+02	Catalin Cimpanu	therecord/Hackers-steal-130-million-from-Cream-Finance-the-companys-3rd-hack-this-year
+2394	Sensitive data of 400,000 German students exposed by API flaw	Approximately 400,000 users of Scoolio, a student community app widely used in Germany, had sensitive information exposed due to an API flaw in the platform.	https://www.bleepingcomputer.com/news/security/sensitive-data-of-400-000-german-students-exposed-by-api-flaw/	https://www.bleepstatic.com/content/hl-images/2020/12/01/sad-class.jpg	bleepingcomputer	t	2021-10-28 12:00:02.57859+02	2021-10-28 09:03:03+02	Bill Toulas	bleepingcomputer/Sensitive-data-of-400000-German-students-exposed-by-API-flaw
 \.
 
 
@@ -2444,7 +2445,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2393, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2394, true);
 
 
 --
