@@ -2490,6 +2490,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2444	China proposes special rules for “super large” internet platforms	China’s State Administration for Market Regulations (SAMR) has created a new category for Chinese internet companies: the “super large platform” and, the agency made clear in new guidelines, such designations come with great responsibility.	https://therecord.media/china-proposes-special-rules-for-super-large-internet-platforms/	https://www-therecord.recfut.com/wp-content/uploads/2021/10/markus-winkler-A-F_TIyWClU-unsplash-1.jpg	therecord	t	2021-10-29 19:00:01.925979+02	2021-10-29 18:36:00+02	Dina Temple-Raston	therecord/China-proposes-special-rules-for-super-large-internet-platforms
 2445	Man charged with hacking MLB, NBA, NFL, and NHL user accounts to stream games	The US Department of Justice has filed charges today against a Minnesota man who hacked MLB, NBA, NFL, and NHL user accounts in order to supply content to a pirate streaming website that he operated.	https://therecord.media/man-charged-with-hacking-mlb-nba-nfl-and-nhl-user-accounts-to-stream-games/	https://therecord.media/wp-content/uploads/2021/10/baseball-MLB.jpg	therecord	t	2021-10-29 19:00:01.925979+02	2021-10-29 18:32:16+02	Catalin Cimpanu	therecord/Man-charged-with-hacking-MLB-NBA-NFL-and-NHL-user-accounts-to-stream-games
 2446	Let's Encrypt explains last month's outages caused by certificate expiration | ZDNet	Fortinet, Shopify and others reported issues last month thanks to the expiration of a root certificate provided by Let's Encrypt.	https://www.zdnet.com/article/lets-encrypt-explains-those-outages-last-month/	https://www.zdnet.com/a/img/resize/43a68c0e3d4cda383d88eae167ca61fa2f4ebab0/2021/10/29/dba79a33-2f60-44ae-80dd-968902476e38/lets-encrpyt.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-29 20:00:02.181907+02	2021-10-29 17:37:00+02	Jonathan Greig	zdnet/Lets-Encrypt-explains-last-months-outages-caused-by-certificate-expiration
+2447	The best free VPNs: Why they don't exist | ZDNet	If you're not paying for your VPN service, where is the provider getting the money to run it? The answer might cause you to lose some sleep.	https://www.zdnet.com/article/the-best-free-vpns-why-they-dont-exist/	https://www.zdnet.com/a/img/resize/0bee2bb0eef4957f0627e2e3cae916847f8b7332/2018/05/23/7a517a96-8b45-487d-a5a7-4d59e4c4b7c1/gettyimages-111035051.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-29 21:00:01.997157+02	2021-10-29 18:35:00+02	David Gewirtz	zdnet/The-best-free-VPNs-Why-they-dont-exist
 \.
 
 
@@ -2497,7 +2498,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2446, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2447, true);
 
 
 --
