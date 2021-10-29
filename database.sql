@@ -2479,6 +2479,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2433	Microsoft: Windows web content filtering now generally available	Microsoft has announced that web content filtering has reached general availability and is now available for all Windows enterprise customers.	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-web-content-filtering-now-generally-available/	https://www.bleepstatic.com/content/hl-images/2021/05/26/Microsoft-Defender.jpg	bleepingcomputer	t	2021-10-29 13:00:02.054231+02	2021-10-29 12:52:12+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Windows-web-content-filtering-now-generally-available
 2434	Europol detains suspects behind LockerGoga, MegaCortex, and Dharma ransomware attacks	Europol said it detained 12 suspects this week it believes were part of a professional criminal group that orchestrated a long string of ransomware attacks that targeted large companies and which hit more than 1,800 victims across 71 countries since 2019.	https://therecord.media/europol-detains-suspects-behind-lockergoga-megacortex-and-dharma-ransomware-attacks/	https://therecord.media/wp-content/uploads/2021/10/Europol-NC3.jpg	therecord	t	2021-10-29 13:00:02.054231+02	2021-10-29 12:11:02+02	Catalin Cimpanu	therecord/Europol-detains-suspects-behind-LockerGoga-MegaCortex-and-Dharma-ransomware-attacks
 2435	Schreiber Foods back to normal after ransomware attack shuts down milk plants | ZDNet	The milk processing company is the latest food industry enterprise to be hit with a ransomware attack.	https://www.zdnet.com/article/schreiber-foods-back-to-normal-after-ransomware-attack-shut-down-milk-plants/	https://www.zdnet.com/a/img/resize/1d8230ef235f3dd61b0249cdcb75481ea88c4d36/2019/04/24/89e59b51-db4d-4041-a203-45f1dcfc791d/fitbits-for-cows-building-iot-for-the-in-5c66df0860b222cd7aeb1ab8-1-apr-24-2019-14-07-40-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-29 14:00:02.100506+02	2021-10-29 11:15:02+02	Jonathan Greig	zdnet/Schreiber-Foods-back-to-normal-after-ransomware-attack-shuts-down-milk-plants
+2436	DOJ: Pirated sports streamer hacked accounts, extorted MLB	The U.S. Attorney's Office for the Southern District of New York has charged a man for illegally streaming MLB, NBA, NFL, and NHL games via the web and hacking into sports leagues' customer accounts.	https://www.bleepingcomputer.com/news/security/doj-pirated-sports-streamer-hacked-accounts-extorted-mlb/	https://www.bleepstatic.com/content/hl-images/2021/10/29/mlb.jpg	bleepingcomputer	t	2021-10-29 16:00:01.834931+02	2021-10-29 15:56:08+02	Bill Toulas	bleepingcomputer/DOJ-Pirated-sports-streamer-hacked-accounts-extorted-MLB
+2437	Police arrest hackers behind over 1,800 ransomware attacks	The Europol has announced the arrest of 12 individuals who are believed to be linked to ransomware attacks against 1,800 victims in 71 countries.	https://www.bleepingcomputer.com/news/security/police-arrest-hackers-behind-over-1-800-ransomware-attacks/	https://www.bleepstatic.com/content/hl-images/2021/10/29/norway_police.jpg	bleepingcomputer	t	2021-10-29 16:00:01.834931+02	2021-10-29 11:07:49+02	Bill Toulas	bleepingcomputer/Police-arrest-hackers-behind-over-1800-ransomware-attacks
 \.
 
 
@@ -2486,7 +2488,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2435, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2437, true);
 
 
 --
