@@ -2468,6 +2468,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2423	Emergency Google Chrome update fixes zero-days used in attacks	Google has released Chrome 95.0.4638.69 for Windows, Mac, and Linux to fix two zero-day vulnerabilities that attackers have actively exploited.	https://www.bleepingcomputer.com/news/google/emergency-google-chrome-update-fixes-zero-days-used-in-attacks/	https://www.bleepstatic.com/content/hl-images/2021/09/23/Chrome.jpg	bleepingcomputer	t	2021-10-29 01:00:01.796457+02	2021-10-29 00:11:42+02	Lawrence Abrams	bleepingcomputer/Emergency-Google-Chrome-update-fixes-zero-days-used-in-attacks
 2424	All Windows versions impacted by new LPE zero-day vulnerability	A security researcher has disclosed technical details for a Windows zero-day privilege elevation vulnerability and a public proof-of-concept (PoC) exploit that gives SYSTEM privileges under certain conditions.	https://www.bleepingcomputer.com/news/security/all-windows-versions-impacted-by-new-lpe-zero-day-vulnerability/	https://www.bleepstatic.com/content/hl-images/2021/09/12/Microsoft-Defender.jpg	bleepingcomputer	t	2021-10-29 01:00:01.796457+02	2021-10-28 23:34:38+02	Lawrence Abrams	bleepingcomputer/All-Windows-versions-impacted-by-new-LPE-zero-day-vulnerability
 2421	Manual certificate management falling way behind PKI growth | ZDNet	DigiCert survey reveals the increase in digital certificates has created new management challenges.	https://www.zdnet.com/article/manual-certificate-management-falling-way-behind-pki-growth/	https://www.zdnet.com/a/img/resize/5498f3ee75eb3d22495fd568a83947dbcbce0e2e/2014/09/18/86d79f39-3f0a-11e4-b6a0-d4ae52e95e57/trust-the-pki-or-its-anarchy-on-the-internet.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-29 01:00:01.796457+02	2021-10-28 22:00:01+02	Zeus Kerravala	zdnet/Manual-certificate-management-falling-way-behind-PKI-growth
+2425	Services Australia testifies Cellebrite tech only used for fraud and identity theft cases | ZDNet	The Australian government has so far refunded AU$740 million of the AU$752 million robo-debt it wrongfully sent out to hundreds of thousands of Australians.	https://www.zdnet.com/article/services-australia-testifies-cellebrite-technology-only-used-for-fraud-and-identity-theft-cases/	https://www.zdnet.com/a/img/resize/4c5f06c908f0c513b8f53dee5492ebd9adb051f6/2021/10/29/3db54045-dc9a-4fe0-b31d-304859c588d5/gettyimages-625099542.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-29 03:00:02.459776+02	2021-10-29 00:49:25+02	Campbell Kwan	zdnet/Services-Australia-testifies-Cellebrite-tech-only-used-for-fraud-and-identity-theft-cases
 \.
 
 
@@ -2475,7 +2476,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2424, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2425, true);
 
 
 --
