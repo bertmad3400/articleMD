@@ -2494,6 +2494,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2448	Snake malware biting hard on 50 apps for only $25	Cybercriminals are flooding to use the Snake password-stealing trojan, making it one of the popular malware families used in attacks.	https://www.bleepingcomputer.com/news/security/snake-malware-biting-hard-on-50-apps-for-only-25/	https://www.bleepstatic.com/content/hl-images/2021/10/29/green_snake.jpg	bleepingcomputer	t	2021-10-29 22:00:02.078665+02	2021-10-29 18:20:10+02	Bill Toulas	bleepingcomputer/Snake-malware-biting-hard-on-50-apps-for-only-25
 2449	TA575 criminal group using 'Squid Game' lures for Dridex malware | ZDNet	The emails come with subject lines saying things like Squid Game is back, watch new season before anyone else, or pretend to offer victims a spot in the cast of the show's second season.	https://www.zdnet.com/article/ta575-criminal-group-using-squid-game-lures-for-dridex-malware/	https://www.zdnet.com/a/img/resize/faf28d337e78e40c5be723bd96e94b2f0b1fce42/2021/10/29/4965c83d-5cb3-401a-b04f-6807a6a9200a/shutterstock-2056553015.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-29 23:00:02.700917+02	2021-10-29 20:36:52+02	Jonathan Greig	zdnet/TA575-criminal-group-using-Squid-Game-lures-for-Dridex-malware
 2450	The Week in Ransomware - October 29th 2021 - Making arrests	This week, international law enforcement operations went on the offensive, making arrests in numerous countries for ransomware-related activities.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-29th-2021-making-arrests/	https://www.bleepstatic.com/content/hl-images/2021/10/29/arrest-cuffs.jpg	bleepingcomputer	t	2021-10-30 00:00:02.072735+02	2021-10-29 23:43:14+02	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---October-29th-2021---Making-arrests
+2451	Mozilla Firefox joins browsers implementing Global Privacy Control | ZDNet	The GPC allows users to tells websites not to sell or share their personal data.	https://www.zdnet.com/article/mozilla-firefox-joins-browsers-implementing-global-privacy-control/	https://www.zdnet.com/a/img/resize/90d55a01b8cd40b979739f8d3595ec7f4ecca868/2020/11/19/c5430b11-e2e6-4f6a-b7ce-85024d56f5dc/firefox-support-for-flash-ends-on-januar-5fb5cf966df74d74600bc5b7-1-nov-19-2020-6-11-12-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-30 01:00:02.624707+02	2021-10-29 22:21:44+02	Jonathan Greig	zdnet/Mozilla-Firefox-joins-browsers-implementing-Global-Privacy-Control
 \.
 
 
@@ -2501,7 +2502,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2450, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2451, true);
 
 
 --
