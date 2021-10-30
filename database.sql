@@ -2496,6 +2496,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2450	The Week in Ransomware - October 29th 2021 - Making arrests	This week, international law enforcement operations went on the offensive, making arrests in numerous countries for ransomware-related activities.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-october-29th-2021-making-arrests/	https://www.bleepstatic.com/content/hl-images/2021/10/29/arrest-cuffs.jpg	bleepingcomputer	t	2021-10-30 00:00:02.072735+02	2021-10-29 23:43:14+02	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---October-29th-2021---Making-arrests
 2451	Mozilla Firefox joins browsers implementing Global Privacy Control | ZDNet	The GPC allows users to tells websites not to sell or share their personal data.	https://www.zdnet.com/article/mozilla-firefox-joins-browsers-implementing-global-privacy-control/	https://www.zdnet.com/a/img/resize/90d55a01b8cd40b979739f8d3595ec7f4ecca868/2020/11/19/c5430b11-e2e6-4f6a-b7ce-85024d56f5dc/firefox-support-for-flash-ends-on-januar-5fb5cf966df74d74600bc5b7-1-nov-19-2020-6-11-12-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-30 01:00:02.624707+02	2021-10-29 22:21:44+02	Jonathan Greig	zdnet/Mozilla-Firefox-joins-browsers-implementing-Global-Privacy-Control
 2452	Microsoft: Windows KB5006674, KB5006670 updates break printing	Microsoft says Windows customers are experiencing issues with network printing after installing the Windows 11 KB5006674 and Windows 10 KB5006670 updates issued with this month's Patch Tuesday, on October 12.	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-kb5006674-kb5006670-updates-break-printing/	https://www.bleepstatic.com/content/hl-images/2021/09/01/windows-11-glow-glass.jpg	bleepingcomputer	t	2021-10-30 15:00:02.190557+02	2021-10-30 14:01:02+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Windows-KB5006674-KB5006670updates-break-printing
+2453	Fortinet warns of Black Friday scams involving PS5s, Xboxes and fake Amazon gift card generators that steal crypto | ZDNet	Researchers with FortiGuard Labs said they found a file titled Amazon Gift Tool.exe that was being marketed on a publicly available file repository site as a free Amazon gift card generator.	https://www.zdnet.com/article/fortinet-warns-of-black-friday-scams-involving-ps5s-xbox-and-fake-amazon-gift-card-generator-stealing-crypto/	https://www.zdnet.com/a/img/resize/1d239fa6677eb280ccabdf174ce4eaa13ffd2a28/2020/11/24/ee0ddd8d-5ed0-4b38-a0d1-20d7ed898c22/black-friday-test.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-30 16:00:01.859833+02	2021-10-30 13:00:06+02	Jonathan Greig	zdnet/Fortinet-warns-of-Black-Friday-scams-involving-PS5s-Xboxes-and-fake-Amazon-gift-card-generators-that-steal-crypto
 \.
 
 
@@ -2503,7 +2504,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2452, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2453, true);
 
 
 --
