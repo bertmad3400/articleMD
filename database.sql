@@ -2501,6 +2501,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2455	From Zero to Domain Admin	This report will go through an intrusion from July that began with an email, which included a link to Google's Feed Proxy service that was used to download a malicious Word document. Upon the user enabling macros, a Hancitor dll was executed, which called the usual suspect, Cobalt Strike.	https://thedfirreport.com/2021/11/01/from-zero-to-domain-admin/	https://thedfirreport.com/wp-content/uploads/2021/10/From-Zero-to-Domain-Admin.png	dfirreport	t	2021-11-01 02:00:02.229645+01	2021-11-01 01:57:41+01	editor	dfirreport/From-Zero-to-Domain-Admin
 2456	None of NSW's lead cluster agencies have implemented all Essential Eight controls | ZDNet	The agencies have also failed to reach even level one maturity for at least three of the Essential Eight strategies.	https://www.zdnet.com/article/none-of-nsws-lead-cluster-agencies-have-implemented-all-essential-8-controls-at-level-one/	https://www.zdnet.com/a/img/resize/6a858f7a31811a1a6d69bc7a21445aebd16f9231/2021/09/24/30e51b33-8835-47bf-b886-884c1581c0c8/shutterstock-1794130912.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-01 03:00:02.262897+01	2021-11-01 01:21:07+01	Campbell Kwan	zdnet/None-of-NSWs-lead-cluster-agencies-have-implemented-all-Essential-Eight-controls
 2457	China's personal data protection law kicks in today | ZDNet	Passed in August, the Personal Information Protection Law takes effect on November 1, spelling out rules around data collection, use, and storage, as well as what international companies must do when they transfer data out of the country.	https://www.zdnet.com/article/chinas-personal-data-protection-law-kicks-in-today/	https://www.zdnet.com/a/img/resize/cb693a2e8db69e77d00a8699621315a90ea15506/2019/04/15/81902471-d734-4512-bc9f-965ac6211840/chinatechistock-956056544.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-01 03:00:02.262897+01	2021-11-01 01:08:02+01	Eileen Yu	zdnet/Chinas-personal-data-protection-law-kicks-in-today
+2458	Signal unveils how far US law enforcement will go to get information about people | ZDNet	The encrypted messaging developer said Santa Clara County police wanted very specific personal information of certain users, including IP addresses along with dates and times for each login.	https://www.zdnet.com/article/signal-unveils-how-far-us-law-enforcement-will-go-to-get-information-about-people/	https://www.zdnet.com/a/img/resize/c79b6acaaf612fe3d719dfdfce9e03ac2f779ddd/2021/11/01/61f1603f-385b-4b9c-bf17-43adbe9c5c3e/gettyimages-841584466-1.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-01 07:00:01.89197+01	2021-11-01 05:17:54+01	Campbell Kwan	zdnet/Signal-unveils-how-far-US-law-enforcement-will-go-to-get-information-about-people
 \.
 
 
@@ -2508,7 +2509,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2457, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2458, true);
 
 
 --
