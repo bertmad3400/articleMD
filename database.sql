@@ -2498,6 +2498,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2452	Microsoft: Windows KB5006674, KB5006670 updates break printing	Microsoft says Windows customers are experiencing issues with network printing after installing the Windows 11 KB5006674 and Windows 10 KB5006670 updates issued with this month's Patch Tuesday, on October 12.	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-kb5006674-kb5006670-updates-break-printing/	https://www.bleepstatic.com/content/hl-images/2021/09/01/windows-11-glow-glass.jpg	bleepingcomputer	t	2021-10-30 15:00:02.190557+02	2021-10-30 14:01:02+02	Sergiu Gatlan	bleepingcomputer/Microsoft-Windows-KB5006674-KB5006670updates-break-printing
 2453	Fortinet warns of Black Friday scams involving PS5s, Xboxes and fake Amazon gift card generators that steal crypto | ZDNet	Researchers with FortiGuard Labs said they found a file titled Amazon Gift Tool.exe that was being marketed on a publicly available file repository site as a free Amazon gift card generator.	https://www.zdnet.com/article/fortinet-warns-of-black-friday-scams-involving-ps5s-xbox-and-fake-amazon-gift-card-generator-stealing-crypto/	https://www.zdnet.com/a/img/resize/1d239fa6677eb280ccabdf174ce4eaa13ffd2a28/2020/11/24/ee0ddd8d-5ed0-4b38-a0d1-20d7ed898c22/black-friday-test.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-10-30 16:00:01.859833+02	2021-10-30 13:00:06+02	Jonathan Greig	zdnet/Fortinet-warns-of-Black-Friday-scams-involving-PS5s-Xboxes-and-fake-Amazon-gift-card-generators-that-steal-crypto
 2454	Chaos ransomware targets gamers via fake Minecraft alt lists	The Chaos Ransomware gang encrypts gamers' Windows devices through fake Minecraft alt lists promoted on gaming forums.	https://www.bleepingcomputer.com/news/security/chaos-ransomware-targets-gamers-via-fake-minecraft-alt-lists/	https://www.bleepstatic.com/content/hl-images/2021/10/29/minecraft-villains.jpg	bleepingcomputer	t	2021-10-30 20:00:02.06739+02	2021-10-30 17:02:01+02	Bill Toulas	bleepingcomputer/Chaos-ransomware-targets-gamers-via-fake-Minecraft-alt-lists
+2455	From Zero to Domain Admin	This report will go through an intrusion from July that began with an email, which included a link to Google's Feed Proxy service that was used to download a malicious Word document. Upon the user enabling macros, a Hancitor dll was executed, which called the usual suspect, Cobalt Strike.	https://thedfirreport.com/2021/11/01/from-zero-to-domain-admin/	https://thedfirreport.com/wp-content/uploads/2021/10/From-Zero-to-Domain-Admin.png	dfirreport	t	2021-11-01 02:00:02.229645+01	2021-11-01 01:57:41+01	editor	dfirreport/From-Zero-to-Domain-Admin
 \.
 
 
@@ -2505,7 +2506,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2454, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2455, true);
 
 
 --
