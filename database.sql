@@ -2508,6 +2508,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2462	BlackShadow hackers breach Israeli hosting firm and extort customers	The BlackShadow hacking group attacked the Israeli hosting provider Cyberserve to steal client databases and disrupt the company's services.	https://www.bleepingcomputer.com/news/security/blackshadow-hackers-breach-israeli-hosting-firm-and-extort-customers/	https://www.bleepstatic.com/content/hl-images/2021/04/30/smoke-hands.jpg	bleepingcomputer	t	2021-11-01 16:00:02.219406+01	2021-11-01 15:37:18+01	Bill Toulas	bleepingcomputer/BlackShadow-hackers-breach-Israeli-hosting-firm-and-extort-customers
 2463	FBI: HelloKitty ransomware adds DDoS attacks to extortion tactics	The U.S. Federal Bureau of Investigation (FBI) has sent out a flash alert warning private industry partners that the HelloKitty ransomware gang (aka FiveHands) has added distributed denial-of-service (DDoS) attacks to their arsenal of extortion tactics.	https://www.bleepingcomputer.com/news/security/fbi-hellokitty-ransomware-adds-ddos-attacks-to-extortion-tactics/	https://www.bleepstatic.com/content/hl-images/2021/02/09/HelloKitty.jpg	bleepingcomputer	t	2021-11-01 16:00:02.219406+01	2021-11-01 15:13:59+01	Sergiu Gatlan	bleepingcomputer/FBI-HelloKitty-ransomware-adds-DDoS-attacks-to-extortion-tactics
 2464	Microsoft warns of rise in password sprays targeting cloud accounts	The Microsoft Detection and Response Team (DART) says it detected an increase in password spray attacks targeting privileged cloud accounts and high-profile identities such as C-level executives.	https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-rise-in-password-sprays-targeting-cloud-accounts/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Microsoft.jpg	bleepingcomputer	t	2021-11-01 16:00:02.219406+01	2021-10-31 15:00:00+01	Sergiu Gatlan	bleepingcomputer/Microsoft-warns-of-rise-in-password-sprays-targeting-cloud-accounts
+2465	New Trojan Source attack impacts compilers for most programming languages	Academics from the University of Cambridge in the United Kingdom have published details today about a theoretical attack that can be used to insert malicious code inside legitimate apps via their comment fields.	https://therecord.media/new-trojan-source-attack-impacts-compilers-for-most-programming-languages/	https://therecord.media/wp-content/uploads/2021/11/TrojanSource.png	therecord	t	2021-11-01 17:00:02.223761+01	2021-11-01 16:23:37+01	Catalin Cimpanu	therecord/New-Trojan-Source-attack-impacts-compilers-for-most-programming-languages
 \.
 
 
@@ -2515,7 +2516,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2464, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2465, true);
 
 
 --
