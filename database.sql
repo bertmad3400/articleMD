@@ -2517,6 +2517,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2471	Cring ransomware continues assault on industrial organizations with aging applications, VPNs | ZDNet	A Sophos report attributed a recent Cring attack to hackers in Belarus and Ukraine.	https://www.zdnet.com/article/cring-ransomware-continues-assault-on-coldfusion-servers-vpns/	https://www.zdnet.com/a/img/resize/de8b891906c9d417b36ef5b0656e74d923ac91ff/2021/04/27/8ec08628-4db7-493c-8222-10f527c263ed/ransomware-this-industry-is-becoming-a-k-6087d0d3b25bef619bcc2627-1-apr-27-2021-11-36-44-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-01 22:00:02.199853+01	2021-11-01 20:51:00+01	Jonathan Greig	zdnet/Cring-ransomware-continues-assault-on-industrial-organizations-with-aging-applications-VPNs
 2472	Ransomware attack disrupts Toronto's public transportation system	A ransomware attack has disrupted the activities of the Toronto public transportation agency and has taken down several systems used by drivers and commuters alike.	https://therecord.media/ransomware-attack-disrupts-torontos-public-transportation-system/	https://therecord.media/wp-content/uploads/2021/11/Toronto-TTC.jpg	therecord	t	2021-11-01 22:00:02.199853+01	2021-11-01 21:01:28+01	Catalin Cimpanu	therecord/Ransomware-attack-disrupts-Torontos-public-transportation-system
 2473	Pirate Sports Streamer Gets Busted, Pivots to MLB Extortion	An alleged sports content pirate is accused of not only hijacking leagues' streams but also threatening to tell reporters how he accessed their systems.	https://kasperskycontenthub.com/threatpost-global/?p=175898	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/01161610/American-Football-Football-Defense-Tackle-1455398-e1635797783545.jpeg	threatpost	t	2021-11-01 22:00:02.199853+01	2021-11-01 21:22:33+01	Becky Bracken	threatpost/Pirate-Sports-Streamer-Gets-Busted-Pivots-to-MLB-Extortion
+2474	Signal now lets you report and block spam messages	Signal has added an easy way for users to report and block spam straight from message request screens with a single mouse click.	https://www.bleepingcomputer.com/news/security/signal-now-lets-you-report-and-block-spam-messages/	https://www.bleepstatic.com/content/hl-images/2021/01/08/Signal.jpg	bleepingcomputer	t	2021-11-01 23:00:01.795461+01	2021-11-01 22:55:04+01	Sergiu Gatlan	bleepingcomputer/Signal-now-lets-you-report-and-block-spam-messages
+2475	Microsoft Defender for Windows is getting a massive overhaul	Microsoft Defender for Windows is getting a massive overhaul allowing home network admins to deploy Android, iOS, and Mac clients to monitor antivirus, phishing, compromised passwords, and identity theft alerts from a single security dashboard.	https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-for-windows-is-getting-a-massive-overhaul/	https://www.bleepstatic.com/content/hl-images/2021/05/26/Microsoft--Defender.jpg	bleepingcomputer	t	2021-11-01 23:00:01.795461+01	2021-11-01 22:35:54+01	Lawrence Abrams	bleepingcomputer/Microsoft-Defender-for-Windows-is-getting-a-massive-overhaul
 \.
 
 
@@ -2524,7 +2526,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2473, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2475, true);
 
 
 --
