@@ -2519,6 +2519,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2473	Pirate Sports Streamer Gets Busted, Pivots to MLB Extortion	An alleged sports content pirate is accused of not only hijacking leagues' streams but also threatening to tell reporters how he accessed their systems.	https://kasperskycontenthub.com/threatpost-global/?p=175898	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/01161610/American-Football-Football-Defense-Tackle-1455398-e1635797783545.jpeg	threatpost	t	2021-11-01 22:00:02.199853+01	2021-11-01 21:22:33+01	Becky Bracken	threatpost/Pirate-Sports-Streamer-Gets-Busted-Pivots-to-MLB-Extortion
 2474	Signal now lets you report and block spam messages	Signal has added an easy way for users to report and block spam straight from message request screens with a single mouse click.	https://www.bleepingcomputer.com/news/security/signal-now-lets-you-report-and-block-spam-messages/	https://www.bleepstatic.com/content/hl-images/2021/01/08/Signal.jpg	bleepingcomputer	t	2021-11-01 23:00:01.795461+01	2021-11-01 22:55:04+01	Sergiu Gatlan	bleepingcomputer/Signal-now-lets-you-report-and-block-spam-messages
 2475	Microsoft Defender for Windows is getting a massive overhaul	Microsoft Defender for Windows is getting a massive overhaul allowing home network admins to deploy Android, iOS, and Mac clients to monitor antivirus, phishing, compromised passwords, and identity theft alerts from a single security dashboard.	https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-for-windows-is-getting-a-massive-overhaul/	https://www.bleepstatic.com/content/hl-images/2021/05/26/Microsoft--Defender.jpg	bleepingcomputer	t	2021-11-01 23:00:01.795461+01	2021-11-01 22:35:54+01	Lawrence Abrams	bleepingcomputer/Microsoft-Defender-for-Windows-is-getting-a-massive-overhaul
+2476	CrowdStrike acquires SaaS-based cybersecurity service SecureCircle | ZDNet	The company specifically cited the effect SecureCircle's tools will have on CrowdStrike's Falcon agent with securing the endpoint.	https://www.zdnet.com/article/crowdstrike-acquires-saas-based-cybersecurity-service-securecircle/	https://www.zdnet.com/a/img/resize/9bc4a060bad6db67e8c62b818b501ce86905209f/2021/02/18/bda10ff6-f409-4acb-82a0-8b37bd634271/crowdstrike-logo.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-02 00:00:02.58411+01	2021-11-01 22:13:51+01	Jonathan Greig	zdnet/CrowdStrike-acquires-SaaS-based-cybersecurity-service-SecureCircle
 \.
 
 
@@ -2526,7 +2527,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2475, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2476, true);
 
 
 --
