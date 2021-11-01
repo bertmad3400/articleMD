@@ -2513,6 +2513,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2468	Canadian province health care system disrupted by cyberattack	The Canadian provinces of Newfoundland and Labrador have suffered a cyberattack that has led to severe disruption to healthcare providers and hospitals.	https://www.bleepingcomputer.com/news/security/canadian-province-health-care-system-disrupted-by-cyberattack/	https://www.bleepstatic.com/content/hl-images/2021/05/14/Healthcare-doctor.jpg	bleepingcomputer	t	2021-11-01 19:00:02.20123+01	2021-11-01 18:51:05+01	Bill Toulas	bleepingcomputer/Canadian-province-health-care-system-disrupted-by-cyberattack
 2469	Kaspersky's stolen Amazon SES token used in Office 365 phishing	Kaspersky said today that a legitimate Amazon Simple Email Service (SES) token issued to a third-party contractor was recently used by threat actors behind a spear-phishing campaign targeting Office 365 users.	https://www.bleepingcomputer.com/news/security/kasperskys-stolen-amazon-ses-token-used-in-office-365-phishing/	https://www.bleepstatic.com/content/hl-images/2020/11/03/Office-365--phishing.jpg	bleepingcomputer	t	2021-11-01 19:00:02.20123+01	2021-11-01 18:25:00+01	Sergiu Gatlan	bleepingcomputer/Kasperskys-stolen-Amazon-SES-token-used-in-Office-365-phishing
 2467	Continued uncertainty forces attention on securing relationships in 2022 | ZDNet	As we look forward to 2022, a theme emerges: securing relationships. Uncertainty has accelerated reliance on each other, and gaps in third-party relationships, collaboration, and trust will have outsized impacts on firms' relationships with their colleagues, partners, and suppliers.	https://www.zdnet.com/article/continued-uncertainty-forces-attention-on-securing-relationships-in-2022/	https://www.zdnet.com/a/img/resize/0a949b4573939ae5e7dd9e653dff76396c0a632e/2021/07/19/0d032ae6-1056-4599-af0e-05c301707ff7/cybersecurity-shutterstock-1202221816.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-01 19:00:02.20123+01	2021-11-01 17:27:56+01	Jeff Pollard	zdnet/Continued-uncertainty-forces-attention-on-securing-relationships-in-2022
+2470	Ransomware decryptor roundup: BlackByte, Atom Silo, LockFile, Babuk decryptors released | ZDNet	This follows the release of multiple decryptors over the past few months, including REvil/Sodinokibi.	https://www.zdnet.com/article/ransomware-decryptor-roundup-blackbyte-atom-silo-lockfile-babuk-decryptors-released/	https://www.zdnet.com/a/img/resize/51cef110795c4a7618387e54683e272d8bf7d0b4/2021/10/19/bb09ae72-176f-49df-b73d-e6f64fc795ea/ransomware.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-01 20:00:02.259511+01	2021-11-01 18:06:00+01	Jonathan Greig	zdnet/Ransomware-decryptor-roundup-BlackByte-Atom-Silo-LockFile-Babuk-decryptors-released
 \.
 
 
@@ -2520,7 +2521,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2469, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2470, true);
 
 
 --
