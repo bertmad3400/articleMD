@@ -2509,6 +2509,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2463	FBI: HelloKitty ransomware adds DDoS attacks to extortion tactics	The U.S. Federal Bureau of Investigation (FBI) has sent out a flash alert warning private industry partners that the HelloKitty ransomware gang (aka FiveHands) has added distributed denial-of-service (DDoS) attacks to their arsenal of extortion tactics.	https://www.bleepingcomputer.com/news/security/fbi-hellokitty-ransomware-adds-ddos-attacks-to-extortion-tactics/	https://www.bleepstatic.com/content/hl-images/2021/02/09/HelloKitty.jpg	bleepingcomputer	t	2021-11-01 16:00:02.219406+01	2021-11-01 15:13:59+01	Sergiu Gatlan	bleepingcomputer/FBI-HelloKitty-ransomware-adds-DDoS-attacks-to-extortion-tactics
 2464	Microsoft warns of rise in password sprays targeting cloud accounts	The Microsoft Detection and Response Team (DART) says it detected an increase in password spray attacks targeting privileged cloud accounts and high-profile identities such as C-level executives.	https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-rise-in-password-sprays-targeting-cloud-accounts/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Microsoft.jpg	bleepingcomputer	t	2021-11-01 16:00:02.219406+01	2021-10-31 15:00:00+01	Sergiu Gatlan	bleepingcomputer/Microsoft-warns-of-rise-in-password-sprays-targeting-cloud-accounts
 2465	New Trojan Source attack impacts compilers for most programming languages	Academics from the University of Cambridge in the United Kingdom have published details today about a theoretical attack that can be used to insert malicious code inside legitimate apps via their comment fields.	https://therecord.media/new-trojan-source-attack-impacts-compilers-for-most-programming-languages/	https://therecord.media/wp-content/uploads/2021/11/TrojanSource.png	therecord	t	2021-11-01 17:00:02.223761+01	2021-11-01 16:23:37+01	Catalin Cimpanu	therecord/New-Trojan-Source-attack-impacts-compilers-for-most-programming-languages
+2466	‘Trojan Source’ Hides Invisible Bugs in Source Code	The old RLO trick of exploiting how Unicode handles script ordering and a related homoglyph attack can imperceptibly switch the real name of malware.	https://kasperskycontenthub.com/threatpost-global/?p=175891	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/01122223/code_image-e1635783756646.jpg	threatpost	t	2021-11-01 18:00:02.111614+01	2021-11-01 17:28:56+01	Lisa Vaas	threatpost/Trojan-Source-Hides-Invisible-Bugs-in-Source-Code
 \.
 
 
@@ -2516,7 +2517,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2465, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2466, true);
 
 
 --
