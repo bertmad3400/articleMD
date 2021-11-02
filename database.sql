@@ -2540,6 +2540,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2494	Apple macOS Flaw Allows Kernel-Level Compromise	‘Shrootless’ allows bypass of System Integrity Protection IT security measures to install a malicious rootkit that goes undetected and performs arbitrary device operations.	https://kasperskycontenthub.com/threatpost-global/?p=175927	https://media.threatpost.com/wp-content/uploads/sites/103/2020/10/06094956/apple-mac-security.jpg	threatpost	t	2021-11-02 17:00:02.676013+01	2021-11-02 16:50:51+01	Elizabeth Montalbano	threatpost/Apple-macOS-Flaw-Allows-Kernel-Level-Compromise
 2495	Microsoft announces new endpoint security solution for SMBs	Microsoft today announced a new endpoint security solution dubbed Microsoft Defender for Business, specially built for small and medium-sized businesses.	https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-new-endpoint-security-solution-for-smbs/	https://www.bleepstatic.com/content/hl-images/2021/02/11/Microsoft-Defender.jpg	bleepingcomputer	t	2021-11-02 17:00:02.676013+01	2021-11-02 16:37:57+01	Sergiu Gatlan	bleepingcomputer/Microsoft-announces-new-endpoint-security-solution-for-SMBs
 2496	Microsoft Edge for Linux out of beta, now generally available	Microsoft announced today that the Chromium-based Edge web browser is now generally available on the Linux platform via the stable channel.	https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-for-linux-out-of-beta-now-generally-available/	https://www.bleepstatic.com/content/hl-images/2021/11/02/Microsoft_Edge_Linux.jpg	bleepingcomputer	t	2021-11-02 17:00:02.676013+01	2021-11-02 16:00:00+01	Sergiu Gatlan	bleepingcomputer/Microsoft-Edge-for-Linux-out-of-beta-now-generally-available
+2497	Microsoft 365 outage blocks access to OneDrive, SharePoint files	A Microsoft 365 outage prevents access to files, such as Excel documents, stored on the SharePoint Online, OneDrive, Office, and Microsoft Teams cloud storage services.	https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-blocks-access-to-onedrive-sharepoint-files/	https://www.bleepstatic.com/content/hl-images/2021/10/20/Microsoft_365_headpic.jpg	bleepingcomputer	t	2021-11-02 18:00:01.91385+01	2021-11-02 17:08:04+01	Lawrence Abrams	bleepingcomputer/Microsoft-365-outage-blocks-access-to-OneDrive-SharePoint-files
+2498	FBI says ransomware gangs are using future merger and acquisition info to pressure victims	The US Federal Bureau of Investigation says that several ransomware gangs have used financial information, such as stock valuations and upcoming mergers and acquisitions, to put pressure on victims and force them into paying large ransom demands.	https://therecord.media/fbi-says-ransomware-gangs-are-using-future-merger-and-acquisition-info-to-pressure-victims/	https://therecord.media/wp-content/uploads/2021/11/stock-trade-nasdaq.jpg	therecord	t	2021-11-02 18:00:01.91385+01	2021-11-02 17:04:02+01	Catalin Cimpanu	therecord/FBI-says-ransomware-gangs-are-using-future-merger-and-acquisition-info-to-pressure-victims
 \.
 
 
@@ -2547,7 +2549,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2496, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2498, true);
 
 
 --
