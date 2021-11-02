@@ -2534,6 +2534,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2488	Toronto subways hit by ransomware as US lawmakers slam 'burdensome' cybersecurity rules | ZDNet	As Canada's largest city struggles with a ransomware attack on its transportation system, US lawmakers are balking at new transportation-related cybersecurity regulations.	https://www.zdnet.com/article/toronto-subways-hit-by-ransomware-as-us-lawmakers-slam-burdensome-cybersecurity-rules/	https://www.zdnet.com/a/img/resize/923a69ddc11f71dd9bdaed5441dbe41ec93b0bee/2021/11/02/a72e5a3a-015c-4593-b3aa-f473ae9af245/public-transport.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-02 14:00:02.112104+01	2021-11-02 12:17:00+01	Jonathan Greig	zdnet/Toronto-subways-hit-by-ransomware-as-US-lawmakers-slam-burdensome-cybersecurity-rules
 2489	MITRE shares list of most dangerous hardware weaknesses	MITRE shared a list of the topmost dangerous programming, design, and architecture security flaws plaguing hardware this year.	https://www.bleepingcomputer.com/news/security/mitre-shares-list-of-most-dangerous-hardware-weaknesses/	https://www.bleepstatic.com/content/hl-images/2021/07/22/Writing-List.jpg	bleepingcomputer	t	2021-11-02 14:00:02.112104+01	2021-11-02 13:27:06+01	Sergiu Gatlan	bleepingcomputer/MITRE-shares-list-of-most-dangerous-hardware-weaknesses
 2490	'Destructive' cyberattack hits National Bank of Pakistan	The National Bank of Pakistan (NBP) has suffered what two sources have described to The Record as a destructive cyberattack.	https://therecord.media/destructive-cyberattack-hits-national-bank-of-pakistan/	https://therecord.media/wp-content/uploads/2021/11/NBP-bank-Pakistan.jpg	therecord	t	2021-11-02 14:00:02.112104+01	2021-11-02 13:34:32+01	Catalin Cimpanu	therecord/Destructive-cyberattack-hits-National-Bank-of-Pakistan
+2491	Phishing attacks are harder to spot on your smartphone. That's why hackers are using them more | ZDNet	Cybersecurity researchers warn about a rise in cyber criminals going after mobile devices as a means of gaining entry to networks.	https://www.zdnet.com/article/phishing-attacks-are-harder-to-spot-on-your-smartphone-thats-why-hackers-are-using-them-more/	https://www.zdnet.com/a/img/resize/0a6d2e26274191a2a84fe52bef1d8dba33f633f4/2021/02/03/6841068a-db6e-42d7-8764-a4a5ff08a79d/istock-1158475162.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-02 15:00:02.263644+01	2021-11-02 13:18:52+01	Danny Palmer	zdnet/Phishing-attacks-are-harder-to-spot-on-your-smartphone-Thats-why-hackers-are-using-them-more
 \.
 
 
@@ -2541,7 +2542,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2490, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2491, true);
 
 
 --
