@@ -2548,6 +2548,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2502	Android Patches Actively Exploited Kernel Bug	Google’s Android November 2021 security updates plug 18 flaws in the framework and system components and 18 more in the kernel and vendor components.	https://kasperskycontenthub.com/threatpost-global/?p=175931	https://media.threatpost.com/wp-content/uploads/sites/103/2019/03/11153535/Android-patches1.jpg	threatpost	t	2021-11-02 19:00:01.965336+01	2021-11-02 18:20:42+01	Lisa Vaas	threatpost/Android-Patches-Actively-Exploited-Zero-Day-Kernel-Bug
 2503	Linux Foundation adds software supply chain security to LFX | ZDNet	Our software supply chains are under attack. The Linux Foundation, via its LFX tools, is set to defend them.	https://www.zdnet.com/article/linux-foundation-adds-software-supply-chain-security-to-lfx/	https://www.zdnet.com/a/img/resize/362e641923fc6b5d2a7feb96f641e818353c959a/2021/07/20/c83eff73-ab3f-44f2-8b9c-960dd8494b3c/shutterstock-1838345821.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-02 20:00:02.65117+01	2021-11-02 18:46:07+01	Steven J. Vaughan-Nichols	zdnet/Linux-Foundation-adds-software-supply-chain-security-to-LFX
 2504	CISA promotes election cybersecurity platform debunking misinformation | ZDNet	The cybersecurity body reiterated that there is no specific, credible threat to election infrastructure but noted that they are ready to provide cyber incident response and expertise if needed.	https://www.zdnet.com/article/cisa-promotes-election-cybersecurity-platform-debunking-misinformation/	https://www.zdnet.com/a/img/resize/be89396421ac30b610518d7681d4b8a5127bb586/2020/08/03/967eda3a-3178-4781-825c-2c52ee9b33e0/vote-election.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-02 20:00:02.65117+01	2021-11-02 18:33:33+01	Jonathan Greig	zdnet/CISA-promotes-election-cybersecurity-platform-debunking-misinformation
+2505	Facebook to drop Face Recognition, will delete templates on more than one billion people	Facebook says it's shutting down its Face Recognition tagging feature and will delete templates on more than one billion people.	https://therecord.media/facebook-to-drop-face-recognition-will-delete-templates-on-more-than-one-billion-people/	https://www-therecord.recfut.com/wp-content/uploads/2021/10/roman-martyniuk-QQhAQHWvTYk-unsplash-1.jpg	therecord	t	2021-11-02 21:00:02.156178+01	2021-11-02 20:22:02+01	Andrea Peterson	therecord/Facebook-to-drop-Face-Recognition-will-delete-templates-on-more-than-one-billion-people
 \.
 
 
@@ -2555,7 +2556,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2504, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2505, true);
 
 
 --
