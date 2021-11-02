@@ -2524,6 +2524,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2478	Facebook targets Nicaraguan government for alleged 'troll farm' campaign | ZDNet	Facebook said this year, it took down government-linked troll networks in Ethiopia, Uganda, Sudan, Thailand and Azerbaijan.	https://www.zdnet.com/article/facebook-targets-nicaragua-government-for-alleged-troll-farm-campaign/	https://www.zdnet.com/a/img/resize/647ccaf27417ddb1a0d3d0f8e65ba8bdead92d41/2021/11/01/2450364e-2c1f-48c9-9ddb-34d1f33f7086/shutterstock-287464997.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-02 01:00:02.224622+01	2021-11-01 23:12:06+01	Jonathan Greig	zdnet/Facebook-targets-Nicaraguan-government-for-alleged-troll-farm-campaign
 2479	'Trojan Source' attack method can hide bugs into open-source code	Academic researchers have released details about a new attack method they call Trojan Source that allows injecting vulnerabilities into the source code of a software project in a way that human reviewers can't detect.	https://www.bleepingcomputer.com/news/security/trojan-source-attack-method-can-hide-bugs-into-open-source-code/	https://www.bleepstatic.com/content/hl-images/2021/11/01/source-code.jpg	bleepingcomputer	t	2021-11-02 02:00:02.103789+01	2021-11-02 01:07:48+01	Ionut Ilascu	bleepingcomputer/Trojan-Source-attack-method-can-hide-bugs-into-open-source-code
 2480	Office 365 Phishing Campaign Uses Kaspersky’s Amazon SES Token	It's a legitimate access token, stolen from a third-party contractor, that lets the attackers send phishing emails from kaspersky.com email addresses.	https://kasperskycontenthub.com/threatpost-global/?p=175915	https://kasperskycontenthub.com/threatpost-global/files/sites/103/2021/09/21134528/cropped-phishing-1-e1632246346826.jpg	threatpost	t	2021-11-02 02:00:02.103789+01	2021-11-02 01:29:17+01	Lisa Vaas	threatpost/Office-365-Phishing-Campaign-Uses-Kasperskys-Amazon-SES-Token
+2481	Cybercriminals flog access to international shipping, logistics giants | ZDNet	The underground hosts initial access brokers with entry to companies key in global supply chains.	https://www.zdnet.com/article/cybercriminals-flog-access-to-international-shipping-logistics-giants-in-the-underground/	https://www.zdnet.com/a/img/resize/362e641923fc6b5d2a7feb96f641e818353c959a/2021/07/20/c83eff73-ab3f-44f2-8b9c-960dd8494b3c/shutterstock-1838345821.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-02 11:00:02.332856+01	2021-11-02 09:00:02+01	Charlie Osborne	zdnet/Cybercriminals-flog-access-to-international-shipping-logistics-giants
 \.
 
 
@@ -2531,7 +2532,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2480, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2481, true);
 
 
 --
