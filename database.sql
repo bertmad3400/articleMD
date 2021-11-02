@@ -2520,6 +2520,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2474	Signal now lets you report and block spam messages	Signal has added an easy way for users to report and block spam straight from message request screens with a single mouse click.	https://www.bleepingcomputer.com/news/security/signal-now-lets-you-report-and-block-spam-messages/	https://www.bleepstatic.com/content/hl-images/2021/01/08/Signal.jpg	bleepingcomputer	t	2021-11-01 23:00:01.795461+01	2021-11-01 22:55:04+01	Sergiu Gatlan	bleepingcomputer/Signal-now-lets-you-report-and-block-spam-messages
 2475	Microsoft Defender for Windows is getting a massive overhaul	Microsoft Defender for Windows is getting a massive overhaul allowing home network admins to deploy Android, iOS, and Mac clients to monitor antivirus, phishing, compromised passwords, and identity theft alerts from a single security dashboard.	https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-for-windows-is-getting-a-massive-overhaul/	https://www.bleepstatic.com/content/hl-images/2021/05/26/Microsoft--Defender.jpg	bleepingcomputer	t	2021-11-01 23:00:01.795461+01	2021-11-01 22:35:54+01	Lawrence Abrams	bleepingcomputer/Microsoft-Defender-for-Windows-is-getting-a-massive-overhaul
 2476	CrowdStrike acquires SaaS-based cybersecurity service SecureCircle | ZDNet	The company specifically cited the effect SecureCircle's tools will have on CrowdStrike's Falcon agent with securing the endpoint.	https://www.zdnet.com/article/crowdstrike-acquires-saas-based-cybersecurity-service-securecircle/	https://www.zdnet.com/a/img/resize/9bc4a060bad6db67e8c62b818b501ce86905209f/2021/02/18/bda10ff6-f409-4acb-82a0-8b37bd634271/crowdstrike-logo.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-02 00:00:02.58411+01	2021-11-01 22:13:51+01	Jonathan Greig	zdnet/CrowdStrike-acquires-SaaS-based-cybersecurity-service-SecureCircle
+2477	Facebook gives Kazakhstan government direct access to content reporting system | ZDNet	Facebook and the Kazakhstan government have agreed to counter the spread of content deemed as harmful and illegal.	https://www.zdnet.com/article/facebook-gives-kazakhstan-government-direct-access-to-content-reporting-system/	https://www.zdnet.com/a/img/resize/6f5535135fbcdc981b3dc00eb89686b1881f73b1/2021/07/21/c07f2c5e-8fa3-43de-ad09-f96ba4904ca0/facebook-messenger.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-02 01:00:02.224622+01	2021-11-01 23:50:51+01	Aimee Chanthadavong	zdnet/Facebook-gives-Kazakhstan-government-direct-access-to-content-reporting-system
+2478	Facebook targets Nicaraguan government for alleged 'troll farm' campaign | ZDNet	Facebook said this year, it took down government-linked troll networks in Ethiopia, Uganda, Sudan, Thailand and Azerbaijan.	https://www.zdnet.com/article/facebook-targets-nicaragua-government-for-alleged-troll-farm-campaign/	https://www.zdnet.com/a/img/resize/647ccaf27417ddb1a0d3d0f8e65ba8bdead92d41/2021/11/01/2450364e-2c1f-48c9-9ddb-34d1f33f7086/shutterstock-287464997.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-02 01:00:02.224622+01	2021-11-01 23:12:06+01	Jonathan Greig	zdnet/Facebook-targets-Nicaraguan-government-for-alleged-troll-farm-campaign
 \.
 
 
@@ -2527,7 +2529,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2476, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2478, true);
 
 
 --
