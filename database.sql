@@ -2546,6 +2546,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2500	IBM acquires endpoint security company ReaQta, announces expanded XDR suite | ZDNet	The technology giant said the acquisition was part of a larger announcement about the expansion of its QRadar brand, which will now include a new suite of XDR offerings.	https://www.zdnet.com/article/ibm-acquires-endpoint-security-company-reaqta-announces-expanded-xdr-suite/	https://www.zdnet.com/a/img/resize/b25efff381c66c229a4f2d70efc21f45107aa3c2/2021/05/18/c7eeea31-d66c-4aad-97d5-0fc9aeca4127/ibm.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-02 19:00:01.965336+01	2021-11-02 17:26:15+01	Jonathan Greig	zdnet/IBM-acquires-endpoint-security-company-ReaQta-announces-expanded-XDR-suite
 2501	Deal alert: Get 3 years of Atlas VPN for just $1.39 a month | ZDNet	One of the best cheap VPN services is more affordable than ever, just in time for Black Friday.	https://www.zdnet.com/article/deal-alert-get-3-years-of-atlas-vpn-for-just-1-39-per-month/	https://www.zdnet.com/a/img/resize/6a26257dca7de574c7d11e3c44da1a1c887f80bf/2021/07/25/f12e853b-b0c1-4d12-aae6-f3f348cf5bcf/atlas-vpn.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-02 19:00:01.965336+01	2021-11-02 15:19:00+01	June Wan	zdnet/Deal-alert-Get-3-years-of-Atlas-VPN-for-just-139-a-month
 2502	Android Patches Actively Exploited Kernel Bug	Google’s Android November 2021 security updates plug 18 flaws in the framework and system components and 18 more in the kernel and vendor components.	https://kasperskycontenthub.com/threatpost-global/?p=175931	https://media.threatpost.com/wp-content/uploads/sites/103/2019/03/11153535/Android-patches1.jpg	threatpost	t	2021-11-02 19:00:01.965336+01	2021-11-02 18:20:42+01	Lisa Vaas	threatpost/Android-Patches-Actively-Exploited-Zero-Day-Kernel-Bug
+2503	Linux Foundation adds software supply chain security to LFX | ZDNet	Our software supply chains are under attack. The Linux Foundation, via its LFX tools, is set to defend them.	https://www.zdnet.com/article/linux-foundation-adds-software-supply-chain-security-to-lfx/	https://www.zdnet.com/a/img/resize/362e641923fc6b5d2a7feb96f641e818353c959a/2021/07/20/c83eff73-ab3f-44f2-8b9c-960dd8494b3c/shutterstock-1838345821.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-02 20:00:02.65117+01	2021-11-02 18:46:07+01	Steven J. Vaughan-Nichols	zdnet/Linux-Foundation-adds-software-supply-chain-security-to-LFX
+2504	CISA promotes election cybersecurity platform debunking misinformation | ZDNet	The cybersecurity body reiterated that there is no specific, credible threat to election infrastructure but noted that they are ready to provide cyber incident response and expertise if needed.	https://www.zdnet.com/article/cisa-promotes-election-cybersecurity-platform-debunking-misinformation/	https://www.zdnet.com/a/img/resize/be89396421ac30b610518d7681d4b8a5127bb586/2020/08/03/967eda3a-3178-4781-825c-2c52ee9b33e0/vote-election.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-02 20:00:02.65117+01	2021-11-02 18:33:33+01	Jonathan Greig	zdnet/CISA-promotes-election-cybersecurity-platform-debunking-misinformation
 \.
 
 
@@ -2553,7 +2555,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2502, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2504, true);
 
 
 --
