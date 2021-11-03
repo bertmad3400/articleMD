@@ -2559,6 +2559,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2513	Clearview AI slammed for breaching Australians' privacy on numerous fronts | ZDNet	Despite uncovering Clearview AI's intrusive practices, Australia's Information Commissioner conceded that the number of Australians who have had their biometric information scraped by the company was unknown.	https://www.zdnet.com/article/clearview-ai-slammed-for-breaching-australians-privacy-on-numerous-fronts/	https://www.zdnet.com/a/img/resize/0948573d0bd6fa156a051e214601a5786e0e269d/2021/09/07/27054999-403d-4c71-83dd-0a7ac28c6e7d/shutterstock-1516856447.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-03 03:00:02.660893+01	2021-11-03 01:38:20+01	Campbell Kwan	zdnet/Clearview-AI-slammed-for-breaching-Australians-privacy-on-numerous-fronts
 2514	BlackMatter ransomware claims to be shutting down due to police pressure	The BlackMatter ransomware is allegedly shutting down its operation due to pressure from the authorities and recent law enforcement operations.	https://www.bleepingcomputer.com/news/security/blackmatter-ransomware-claims-to-be-shutting-down-due-to-police-pressure/	https://www.bleepstatic.com/content/hl-images/2021/07/30/BlackMatter-ransomware.jpg	bleepingcomputer	t	2021-11-03 07:00:02.650588+01	2021-11-03 06:59:46+01	Lawrence Abrams	bleepingcomputer/BlackMatter-ransomware-claims-to-be-shutting-down-due-to-police-pressure
 2515	BlackMatter ransomware says its shutting down due to pressure from local authorities	The criminal group behind the BlackMatter ransomware have announced plans today to shut down their operation, citing pressure from local authorities.	https://therecord.media/blackmatter-ransomware-says-its-shutting-down-due-to-pressure-from-local-authorities/	https://therecord.media/wp-content/uploads/2021/11/BlackMatter-shutdown-message.jpg	therecord	t	2021-11-03 08:00:01.779262+01	2021-11-03 07:45:28+01	Catalin Cimpanu	therecord/BlackMatter-ransomware-says-its-shutting-down-due-to-pressure-from-local-authorities
+2516	Arrests were made, but the Mekotio Trojan lives on | ZDNet	Law enforcement cut off tails, but not the head of the cybercriminal operation.	https://www.zdnet.com/article/arrests-were-made-but-the-mekotio-trojan-lives-on/	https://www.zdnet.com/a/img/resize/96e6ad20d1153431ee5ab02f0a455df0f5c94e32/2020/12/02/d91169f7-50ff-46fd-8f40-fb36d4d1f8e5/istock-5193359161.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-03 12:00:02.645565+01	2021-11-03 10:00:01+01	Charlie Osborne	zdnet/Arrests-were-made-but-the-Mekotio-Trojan-lives-on
 \.
 
 
@@ -2566,7 +2567,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2515, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2516, true);
 
 
 --
