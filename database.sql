@@ -2555,6 +2555,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2506	Facebook deletes 1 billion faceprints in Face Recognition shutdown	Facebook announced today that they will no longer use the Face Recognition system on their platform and will be deleting over 1 billion people's facial recognition profiles.	https://www.bleepingcomputer.com/news/technology/facebook-deletes-1-billion-faceprints-in-face-recognition-shutdown/	https://www.bleepstatic.com/content/hl-images/2020/11/10/Facebook.jpg	bleepingcomputer	t	2021-11-02 22:00:02.542654+01	2021-11-02 21:08:10+01	Lawrence Abrams	bleepingcomputer/Facebook-deletes-1-billion-faceprints-in-Face-Recognition-shutdown
 2510	FBI: Ransomware groups tying attacks to 'significant financial events' | ZDNet	The FBI has sent out a notice saying ransomware groups often link their attacks to IPOs, mergers and acquisitions as a way to pressure companies.	https://www.zdnet.com/article/fbi-ransomware-groups-tying-attacks-to-significant-financial-events/	https://www.zdnet.com/a/img/resize/fb1a477c474730af048f10bb351cd176c7bb7563/2021/09/23/9d51ee7a-f8ac-42b6-a74e-f41323e33e00/stocks.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-02 23:00:02.282907+01	2021-11-02 21:33:03+01	Jonathan Greig	zdnet/FBI-Ransomware-groups-tying-attacks-to-significant-financial-events
 2511	Microsoft to release 'Defender for Business' platform | ZDNet	Once the tool is available, customers will be able to buy the platform directly from Microsoft as a standalone offering costing $3 per user per month.	https://www.zdnet.com/article/microsoft-to-release-defender-for-business-platform/	https://www.zdnet.com/a/img/resize/565fb40778ad17fffedb63fdce9028f44c110845/2021/11/02/6f782547-d77f-4a75-9ca2-bb7830439b5f/screen-shot-2021-11-02-at-6-36-13-pm.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-03 00:00:01.812511+01	2021-11-02 22:42:13+01	Jonathan Greig	zdnet/Microsoft-to-release-Defender-for-Business-platform
+2512	Yahoo pulls plug on services in China: Report | ZDNet	Yahoo has reportedly cited 'increasingly challenging' environment for its exit out of China.	https://www.zdnet.com/article/yahoo-pulls-plug-on-services-in-china-report/	https://www.zdnet.com/a/img/resize/2d0e7b3e9fab18761da3732033d218fc29bf3520/2017/03/15/f74975db-470a-465d-af52-b234b66c8e35/yahoo-535059009.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-03 01:00:02.223146+01	2021-11-02 23:11:17+01	Aimee Chanthadavong	zdnet/Yahoo-pulls-plug-on-services-in-China-Report
 \.
 
 
@@ -2562,7 +2563,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2511, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2512, true);
 
 
 --
