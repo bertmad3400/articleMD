@@ -2571,6 +2571,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2525	Almost half of rootkits are used for cyberattacks against government organizations | ZDNet	Research institutes are also in the firing line.	https://www.zdnet.com/article/almost-half-of-rootkits-are-used-to-strike-government-targets/	https://www.zdnet.com/a/img/resize/9e56ad8cfbad3b5a4e0451fd077554cb8ee8e4cb/2021/06/16/7fc4eae3-9175-4175-b11b-d57ff84ee952/programming-code.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-03 15:00:02.517994+01	2021-11-03 13:00:02+01	Charlie Osborne	zdnet/Almost-half-of-rootkits-are-used-for-cyberattacks-against-government-organizations
 2526	Sonos, HP, and Canon devices hacked at Pwn2Own Austin 2021	During the first day of Pwn2Own Austin 2021, contestants won $362,500 after exploiting previously unknown security flaws to hack printers, routers, NAS devices, and speakers from Canon, HP, Western Digital, Cisco, Sonos, TP-Link, and NETGEAR.	https://www.bleepingcomputer.com/news/security/sonos-hp-and-canon-devices-hacked-at-pwn2own-austin-2021/	https://www.bleepstatic.com/content/hl-images/2021/11/03/Pwn2Own_Austin_2021_3.jpg	bleepingcomputer	t	2021-11-03 15:00:02.517994+01	2021-11-03 14:58:30+01	Sergiu Gatlan	bleepingcomputer/Sonos-HP-and-Canon-devices-hacked-at-Pwn2Own-Austin-2021
 2527	Yahoo becomes the next US firm to pull services out of China	Yahoo is pulling its services out of China, citing an 'increasingly challenging operating environment.'	https://www.bleepingcomputer.com/news/technology/yahoo-becomes-the-next-us-firm-to-pull-services-out-of-china/	https://www.bleepstatic.com/content/hl-images/2021/11/03/yahoo-header.jpg	bleepingcomputer	t	2021-11-03 15:00:02.517994+01	2021-11-03 14:42:38+01	Bill Toulas	bleepingcomputer/Yahoo-becomes-the-next-US-firm-to-pull-services-out-of-China
+2528	US sanctions four companies selling hacking tools, including NSO Group & Candiru	The US government has sanctioned today four companies that develop and sell spyware and other hacking tools, the US Department of Commerce announced today.	https://therecord.media/us-sanctions-four-companies-selling-hacking-tools-including-nso-group-candiru/	https://therecord.media/wp-content/uploads/2021/07/NSO-Group.png	therecord	t	2021-11-03 16:00:02.076704+01	2021-11-03 15:07:29+01	Catalin Cimpanu	therecord/US-sanctions-four-companies-selling-hacking-tools-including-NSO-Group--Candiru
 \.
 
 
@@ -2578,7 +2579,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2527, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2528, true);
 
 
 --
