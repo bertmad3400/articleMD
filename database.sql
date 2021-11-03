@@ -2586,6 +2586,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2540	Commerce Dept sanctions NSO Group, Positive Technologies and more for selling spyware and hacking tools | ZDNet	The US said the four companies had developed and supplied spyware and other hacking tools that they sold to foreign government using them to attack civilians and businesses.	https://www.zdnet.com/article/commerce-dept-sanctions-nso-group-positive-technologies-and-more-for-selling-spyware-and-hacking-tools/	https://www.zdnet.com/a/img/resize/7714fb9e8df176e42eafcd09fbe85a8224973b83/2021/10/22/4816deb7-4a31-4df1-a6a9-a791cffaee6d/department-of-commerce.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-03 20:00:02.487768+01	2021-11-03 18:40:50+01	Jonathan Greig	zdnet/Commerce-Dept-sanctions-NSO-Group-Positive-Technologies-and-more-for-selling-spyware-and-hacking-tools
 2541	Beware: Free Discord Nitro phishing targets Steam gamers	​A new Steam phishing promoted via Discord messages promises a free Nitro subscription if a user links their Steam account, which the hackers then use to steal game items or promote other scams.	https://www.bleepingcomputer.com/news/security/beware-free-discord-nitro-phishing-targets-steam-gamers/	https://www.bleepstatic.com/content/hl-images/2021/03/05/discord-header-l.jpg	bleepingcomputer	t	2021-11-03 20:00:02.487768+01	2021-11-03 19:22:51+01	Bill Toulas	bleepingcomputer/Beware-Free-Discord-Nitro-phishing-targets-Steam-gamers
 2542	‘Tortilla’ Wraps Exchange Servers in ProxyShell Attacks	The Microsoft Exchange ProxyShell vulnerabilities are being exploited yet again for ransomware, this time with Babuk from the new Tortilla threat actor.	https://kasperskycontenthub.com/threatpost-global/?p=175967	https://khub-media.s3.eu-west-1.amazonaws.com/wp-content/uploads/sites/103/2021/11/03135753/burrito-e1635962286404.jpg	threatpost	t	2021-11-03 20:00:02.487768+01	2021-11-03 19:16:37+01	Lisa Vaas	threatpost/Tortilla-Wraps-Exchange-Servers-in-ProxyShell-Attacks
+2543	Brazilians resign to remote work monitoring | ZDNet	People have come to terms with the lack of privacy in the digital workplace, but lack of cybersecurity awareness poses a risk to employers, study finds	https://www.zdnet.com/article/brazilians-resign-to-remote-work-monitoring/	https://www.zdnet.com/a/img/resize/40aa7b0be09c4fb21288ad2e202866446b238f83/2021/09/10/bba736c2-81e3-4793-9ae8-c19871625b5b/man-working-from-home-pyjamas-remote-working-zoom-call.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-03 21:00:02.619065+01	2021-11-03 19:07:15+01	Angelica Mari	zdnet/Brazilians-resign-to-remote-work-monitoring
+2544	Mekotio Banking Trojan Resurges with Tweaked Code, Stealthy Campaign	The banker, aka Metamorfo, is roaring back after Spanish police arrested more than a dozen gang members.	https://kasperskycontenthub.com/threatpost-global/?p=175981	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/03152802/Latin-America.jpg	threatpost	t	2021-11-03 21:00:02.619065+01	2021-11-03 20:47:38+01	Tara Seals	threatpost/Mekotio-Banking-Trojan-Resurges-with-Tweaked-Code-Stealthy-Campaign
 \.
 
 
@@ -2593,7 +2595,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2542, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2544, true);
 
 
 --
