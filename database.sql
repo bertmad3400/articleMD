@@ -2588,6 +2588,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2542	‘Tortilla’ Wraps Exchange Servers in ProxyShell Attacks	The Microsoft Exchange ProxyShell vulnerabilities are being exploited yet again for ransomware, this time with Babuk from the new Tortilla threat actor.	https://kasperskycontenthub.com/threatpost-global/?p=175967	https://khub-media.s3.eu-west-1.amazonaws.com/wp-content/uploads/sites/103/2021/11/03135753/burrito-e1635962286404.jpg	threatpost	t	2021-11-03 20:00:02.487768+01	2021-11-03 19:16:37+01	Lisa Vaas	threatpost/Tortilla-Wraps-Exchange-Servers-in-ProxyShell-Attacks
 2543	Brazilians resign to remote work monitoring | ZDNet	People have come to terms with the lack of privacy in the digital workplace, but lack of cybersecurity awareness poses a risk to employers, study finds	https://www.zdnet.com/article/brazilians-resign-to-remote-work-monitoring/	https://www.zdnet.com/a/img/resize/40aa7b0be09c4fb21288ad2e202866446b238f83/2021/09/10/bba736c2-81e3-4793-9ae8-c19871625b5b/man-working-from-home-pyjamas-remote-working-zoom-call.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-03 21:00:02.619065+01	2021-11-03 19:07:15+01	Angelica Mari	zdnet/Brazilians-resign-to-remote-work-monitoring
 2544	Mekotio Banking Trojan Resurges with Tweaked Code, Stealthy Campaign	The banker, aka Metamorfo, is roaring back after Spanish police arrested more than a dozen gang members.	https://kasperskycontenthub.com/threatpost-global/?p=175981	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/03152802/Latin-America.jpg	threatpost	t	2021-11-03 21:00:02.619065+01	2021-11-03 20:47:38+01	Tara Seals	threatpost/Mekotio-Banking-Trojan-Resurges-with-Tweaked-Code-Stealthy-Campaign
+2545	Alleged Twitter hacker charged with theft of $784K in crypto via SIM swaps	The US Department of Justice has indicted a suspected Twitter hacker known as 'PlugWalkJoe' for also stealing $784,000 worth of cryptocurrency using SIM swap attacks.	https://www.bleepingcomputer.com/news/security/alleged-twitter-hacker-charged-with-theft-of-784k-in-crypto-via-sim-swaps/	https://www.bleepstatic.com/content/hl-images/2021/02/10/Smartphone-SIM.jpg	bleepingcomputer	t	2021-11-04 00:00:01.874956+01	2021-11-03 23:55:49+01	Lawrence Abrams	bleepingcomputer/Alleged-Twitter-hacker-charged-with-theft-of-784K-in-crypto-via-SIM-swaps
 \.
 
 
@@ -2595,7 +2596,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2544, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2545, true);
 
 
 --
