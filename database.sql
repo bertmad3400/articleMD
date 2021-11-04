@@ -2622,6 +2622,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2576	NortonLifeLock posts double-digit revenue growth in Q2 | ZDNet	The antivirus vendor also reported its eighth consecutive quarter of sequential customer growth, with a direct customer count of 23.3 million.	https://www.zdnet.com/article/nortonlifelock-posts-double-digit-revenue-growth-in-q2/	https://www.zdnet.com/a/img/resize/6e26499048a99d849463ac212aa14aa306686c9d/2021/05/10/c8b61731-755f-43af-9cea-4eb9371eca5e/nortonlifelock-crop-layout-for-twitter.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-04 22:00:02.175834+01	2021-11-04 20:57:44+01	Stephanie Condon	zdnet/NortonLifeLock-posts-double-digit-revenue-growth-in-Q2
 2577	Fortinet outpaces Wall Street estimates, brings in $867 million revenue for Q3 | ZDNet	Product revenue was up more than 50% compared to Q3 2020 at $337.1 million while service revenue was $530.1 million for the third quarter of 2021, an increase of 24.1% year over year.	https://www.zdnet.com/article/fortinet-outpaces-wall-street-estimates-brings-in-867-million-revenue-for-q3/	https://www.zdnet.com/a/img/resize/0951d2f112a8eca3bb60d65d1002f853242ba258/2019/11/25/b87b4f70-93e8-4ff1-816f-f0b9ae07dfe3/fortinet-logo.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-04 22:00:02.175834+01	2021-11-04 20:25:56+01	Jonathan Greig	zdnet/Fortinet-outpaces-Wall-Street-estimates-brings-in-867-million-revenue-for-Q3
 2578	US targets DarkSide ransomware, rebrands with $10 million reward	The US government is targeting the DarkSide ransomware and its rebrands with up to a $10,000,000 reward for information leading to the identification or arrest of members of the operation.	https://www.bleepingcomputer.com/news/security/us-targets-darkside-ransomware-rebrands-with-10-million-reward/	https://www.bleepstatic.com/content/hl-images/2021/11/04/US_State_Dept.jpg	bleepingcomputer	t	2021-11-04 22:00:02.175834+01	2021-11-04 22:00:10+01	Lawrence Abrams	bleepingcomputer/US-targets-DarkSide-ransomware-rebrands-with-10-million-reward
+2579	US offers $10 million reward for information on DarkSide leaders, $5 million for affiliates | ZDNet	The State Department has put a bounty on the heads of the leaders of the DarkSide/BlackMatter ransomware.	https://www.zdnet.com/article/us-offers-10-million-reward-for-information-on-darkside-leaders-5-million-for-affiliates/	https://www.zdnet.com/a/img/resize/5f062d3708a1d594284c457897cafd30bd75b7b1/2020/09/08/b4b15301-4f60-4b29-84d4-15e6d3014d73/ransomware.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-04 23:00:02.635661+01	2021-11-04 21:15:18+01	Jonathan Greig	zdnet/US-offers-10-million-reward-for-information-on-DarkSide-leaders-5-million-for-affiliates
 \.
 
 
@@ -2629,7 +2630,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2578, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2579, true);
 
 
 --
