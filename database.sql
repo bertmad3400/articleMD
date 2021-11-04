@@ -2590,6 +2590,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2544	Mekotio Banking Trojan Resurges with Tweaked Code, Stealthy Campaign	The banker, aka Metamorfo, is roaring back after Spanish police arrested more than a dozen gang members.	https://kasperskycontenthub.com/threatpost-global/?p=175981	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/03152802/Latin-America.jpg	threatpost	t	2021-11-03 21:00:02.619065+01	2021-11-03 20:47:38+01	Tara Seals	threatpost/Mekotio-Banking-Trojan-Resurges-with-Tweaked-Code-Stealthy-Campaign
 2545	Alleged Twitter hacker charged with theft of $784K in crypto via SIM swaps	The US Department of Justice has indicted a suspected Twitter hacker known as 'PlugWalkJoe' for also stealing $784,000 worth of cryptocurrency using SIM swap attacks.	https://www.bleepingcomputer.com/news/security/alleged-twitter-hacker-charged-with-theft-of-784k-in-crypto-via-sim-swaps/	https://www.bleepstatic.com/content/hl-images/2021/02/10/Smartphone-SIM.jpg	bleepingcomputer	t	2021-11-04 00:00:01.874956+01	2021-11-03 23:55:49+01	Lawrence Abrams	bleepingcomputer/Alleged-Twitter-hacker-charged-with-theft-of-784K-in-crypto-via-SIM-swaps
 2546	BlackMatter ransomware to shut down, affiliates transferring victims to LockBit | ZDNet	The group posted a message on its private ransomware-as-a-service website on November 1st saying some members of the gang are no longer available after the latest news.	https://www.zdnet.com/article/blackmatter-ransomware-to-shut-down-affiliates-transferring-victims-to-lockbit/	https://www.zdnet.com/a/img/resize/63f5f8469ef2bc88d3a2134104242ff0875ba4f6/2020/09/28/6ce2ab9c-621c-4b07-90a2-7fb82fe7c55c/istock-1185282377.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-04 01:00:02.11717+01	2021-11-03 23:01:24+01	Jonathan Greig	zdnet/BlackMatter-ransomware-to-shut-down-affiliates-transferring-victims-to-LockBit
+2547	GitLab servers are being exploited in DDoS attacks in excess of 1 Tbps	Threat actors are exploiting a security flaw in GitLab self-hosted servers to assemble botnets and launch gigantic distributed denial of service (DDoS) attacks, with some in excess of 1 terabit per second (Tbps).	https://therecord.media/gitlab-servers-are-being-exploited-in-ddos-attacks-in-excess-of-1-tbps/	https://therecord.media/wp-content/uploads/2021/11/GitLab.png	therecord	t	2021-11-04 09:00:02.748814+01	2021-11-04 09:00:44+01	Catalin Cimpanu	therecord/GitLab-servers-are-being-exploited-in-DDoS-attacks-in-excess-of-1-Tbps
 \.
 
 
@@ -2597,7 +2598,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2546, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2547, true);
 
 
 --
