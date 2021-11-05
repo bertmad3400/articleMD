@@ -2640,6 +2640,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2594	Philips healthcare infomatics solution vulnerable to SQL injection	The Philips Tasy EMR, used by hundreds of hospitals as a medical record solution and healthcare management system, is vulnerable to two critical SQL injection flaws.	https://www.bleepingcomputer.com/news/security/philips-healthcare-infomatics-solution-vulnerable-to-sql-injection/	https://www.bleepstatic.com/content/hl-images/2021/10/18/hospital_ward.jpg	bleepingcomputer	t	2021-11-05 17:00:02.032436+01	2021-11-05 16:23:51+01	Bill Toulas	bleepingcomputer/Philips-healthcare-infomatics-solution-vulnerable-to-SQL-injection
 2595	Google Ads for Faux Cryptowallets Net Scammers At Least $500K	Malicious Phantom, MetaMask cryptowallets are on the prowl to drain victim funds. 	https://kasperskycontenthub.com/threatpost-global/?p=176047	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/28123532/bitcoin-1-e1635438948155.jpeg	threatpost	t	2021-11-05 17:00:02.032436+01	2021-11-05 16:51:25+01	Becky Bracken	threatpost/Google-Ads-for-Faux-Cryptowallets-Net-Scammers-At-Least-500K
 2596	Proofpoint Phish Harvests Microsoft O365, Google Logins	A savvy campaign impersonating the cybersecurity company skated past Microsoft email security.	https://kasperskycontenthub.com/threatpost-global/?p=176038	https://media.threatpost.com/wp-content/uploads/sites/103/2020/06/03094019/phish-fish-e1591191632979.jpg	threatpost	t	2021-11-05 17:00:02.032436+01	2021-11-05 16:12:44+01	Tara Seals	threatpost/Proofpoint-Phish-Harvests-Microsoft-O365-Google-Logins
+2597	FBI: Ransomware gangs hit several tribal-owned casinos in the last year	The Federal Bureau of Investigation (FBI) says that multiple ransomware gangs have hit tribal entities over the last year, taking down their systems and impacting businesses and public services.	https://www.bleepingcomputer.com/news/security/fbi-ransomware-gangs-hit-several-tribal-owned-casinos-in-the-last-year/	https://www.bleepstatic.com/content/hl-images/2021/11/05/Casino_dice.jpg	bleepingcomputer	t	2021-11-05 18:00:02.635041+01	2021-11-05 17:03:55+01	Sergiu Gatlan	bleepingcomputer/FBI-Ransomware-gangs-hit-several-tribal-owned-casinos-in-the-last-year
+2598	Beyond the Basics: Tips for Building Advanced Ransomware Resiliency	Joseph Carson, chief security scientist and advisory CISO at ThycoticCentrify, offers advice on least privilege, automation, application control and more.	https://kasperskycontenthub.com/threatpost-global/?p=176052	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/05121727/ransomware7-e1636129059903.jpg	threatpost	t	2021-11-05 18:00:02.635041+01	2021-11-05 17:37:43+01	Joseph Carson	threatpost/Beyond-the-Basics-Tips-for-Building-Advanced-Ransomware-Resiliency
 \.
 
 
@@ -2647,7 +2649,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2596, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2598, true);
 
 
 --
