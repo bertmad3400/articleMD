@@ -2625,6 +2625,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2579	US offers $10 million reward for information on DarkSide leaders, $5 million for affiliates | ZDNet	The State Department has put a bounty on the heads of the leaders of the DarkSide/BlackMatter ransomware.	https://www.zdnet.com/article/us-offers-10-million-reward-for-information-on-darkside-leaders-5-million-for-affiliates/	https://www.zdnet.com/a/img/resize/5f062d3708a1d594284c457897cafd30bd75b7b1/2020/09/08/b4b15301-4f60-4b29-84d4-15e6d3014d73/ransomware.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-04 23:00:02.635661+01	2021-11-04 21:15:18+01	Jonathan Greig	zdnet/US-offers-10-million-reward-for-information-on-DarkSide-leaders-5-million-for-affiliates
 2580	US offers $10 million reward for info on Darkside ransomware group	The US government has offered today a $10 million reward for any information that may lead to the identification and/or arrest of members part of the Darkside ransomware group.	https://therecord.media/us-offers-10-million-reward-for-info-on-darkside-ransomware-group/	https://therecord.media/wp-content/uploads/2021/07/Rewards-for-Justice-Program.png	therecord	t	2021-11-05 01:00:01.814029+01	2021-11-05 00:48:11+01	Catalin Cimpanu	therecord/US-offers-10-million-reward-for-info-on-Darkside-ransomware-group
 2581	Hackers gained access to mySA Gov accounts, including licence and rego details | ZDNet	Some mySA Gov accountholders have been asked by government to change their driver's licence number due to a cyber attack.	https://www.zdnet.com/article/hackers-gained-access-to-mysa-gov-accounts-including-licence-and-rego-details/	https://www.zdnet.com/a/img/resize/fbcdb50ec1e191e253afafe9b20cff7e71f39187/2018/02/01/b31d2b82-b841-4b95-bf34-a4bf12847681/cisco-adelaide-traffic.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-05 06:00:02.172602+01	2021-11-05 04:35:49+01	Campbell Kwan	zdnet/Hackers-gained-access-to-mySA-Gov-accounts-including-licence-and-rego-details
+2582	Twitter joins backlash against Australian plan to ID social media users | ZDNet	As another critic says, the government's 'incredibly reckless' idea would strip the shield of anonymity from myriad vulnerable groups because 'a few white men are uncomfortable' with criticism online.	https://www.zdnet.com/article/twitter-joins-backlash-against-australian-plan-to-id-social-media-users-tech/	https://www.zdnet.com/a/img/resize/e998ba55eeee27964e4c4fccf0da96a09b116e82/2021/05/03/411c2a4b-f919-4ee9-a1cb-b996314d4ae1/social-media-up-close-apps.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-05 07:00:02.506253+01	2021-11-05 05:33:39+01	Stilgherrian 	zdnet/Twitter-joins-backlash-against-Australian-plan-to-ID-social-media-users
 \.
 
 
@@ -2632,7 +2633,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2581, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2582, true);
 
 
 --
