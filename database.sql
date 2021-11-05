@@ -2637,6 +2637,9 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2590	Feds Offer $10 Million Bounty for DarkSide Info	The U.S. State Department ups the ante in its hunt for the ransomware perpetrators by offering a sizeable cash sum for locating and arresting leaders of the cybercriminal group.	https://kasperskycontenthub.com/threatpost-global/?p=176030	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/05085402/global-ransomware.jpg	threatpost	t	2021-11-05 15:00:02.225401+01	2021-11-05 14:03:07+01	Elizabeth Montalbano	threatpost/Feds-Offer-10-Million-Bounty-for-DarkSide-Info
 2592	Mozilla Thunderbird 91.3 released to fix high impact flaws	​Mozilla released  Thunderbird 91.3 to fix several high-impact vulnerabilities that can cause a denial of service, spoof the origin, bypass security policies, and allow arbitrary code execution.	https://www.bleepingcomputer.com/news/security/mozilla-thunderbird-913-released-to-fix-high-impact-flaws/	https://www.bleepstatic.com/content/hl-images/2021/10/08/thunderbird-movie-poster.jpg	bleepingcomputer	t	2021-11-05 15:00:02.225401+01	2021-11-05 14:47:35+01	Bill Toulas	bleepingcomputer/Mozilla-Thunderbird-913-released-to-fix-high-impact-flaws
 2593	US defense contractor Electronic Warfare hit by data breach	US defense contractor Electronic Warfare Associates (EWA) has disclosed a data breach after threat actors hacked their email system and stole files containing personal information.	https://www.bleepingcomputer.com/news/security/us-defense-contractor-electronic-warfare-hit-by-data-breach/	https://www.bleepstatic.com/content/posts/2021/11/05/military-radar.jpg	bleepingcomputer	t	2021-11-05 16:00:02.311746+01	2021-11-05 15:59:33+01	Bill Toulas	bleepingcomputer/US-defense-contractor-Electronic-Warfare-hit-by-data-breach
+2594	Philips healthcare infomatics solution vulnerable to SQL injection	The Philips Tasy EMR, used by hundreds of hospitals as a medical record solution and healthcare management system, is vulnerable to two critical SQL injection flaws.	https://www.bleepingcomputer.com/news/security/philips-healthcare-infomatics-solution-vulnerable-to-sql-injection/	https://www.bleepstatic.com/content/hl-images/2021/10/18/hospital_ward.jpg	bleepingcomputer	t	2021-11-05 17:00:02.032436+01	2021-11-05 16:23:51+01	Bill Toulas	bleepingcomputer/Philips-healthcare-infomatics-solution-vulnerable-to-SQL-injection
+2595	Google Ads for Faux Cryptowallets Net Scammers At Least $500K	Malicious Phantom, MetaMask cryptowallets are on the prowl to drain victim funds. 	https://kasperskycontenthub.com/threatpost-global/?p=176047	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/28123532/bitcoin-1-e1635438948155.jpeg	threatpost	t	2021-11-05 17:00:02.032436+01	2021-11-05 16:51:25+01	Becky Bracken	threatpost/Google-Ads-for-Faux-Cryptowallets-Net-Scammers-At-Least-500K
+2596	Proofpoint Phish Harvests Microsoft O365, Google Logins	A savvy campaign impersonating the cybersecurity company skated past Microsoft email security.	https://kasperskycontenthub.com/threatpost-global/?p=176038	https://media.threatpost.com/wp-content/uploads/sites/103/2020/06/03094019/phish-fish-e1591191632979.jpg	threatpost	t	2021-11-05 17:00:02.032436+01	2021-11-05 16:12:44+01	Tara Seals	threatpost/Proofpoint-Phish-Harvests-Microsoft-O365-Google-Logins
 \.
 
 
@@ -2644,7 +2647,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2593, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2596, true);
 
 
 --
