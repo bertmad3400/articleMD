@@ -2627,6 +2627,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2581	Hackers gained access to mySA Gov accounts, including licence and rego details | ZDNet	Some mySA Gov accountholders have been asked by government to change their driver's licence number due to a cyber attack.	https://www.zdnet.com/article/hackers-gained-access-to-mysa-gov-accounts-including-licence-and-rego-details/	https://www.zdnet.com/a/img/resize/fbcdb50ec1e191e253afafe9b20cff7e71f39187/2018/02/01/b31d2b82-b841-4b95-bf34-a4bf12847681/cisco-adelaide-traffic.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-05 06:00:02.172602+01	2021-11-05 04:35:49+01	Campbell Kwan	zdnet/Hackers-gained-access-to-mySA-Gov-accounts-including-licence-and-rego-details
 2582	Twitter joins backlash against Australian plan to ID social media users | ZDNet	As another critic says, the government's 'incredibly reckless' idea would strip the shield of anonymity from myriad vulnerable groups because 'a few white men are uncomfortable' with criticism online.	https://www.zdnet.com/article/twitter-joins-backlash-against-australian-plan-to-id-social-media-users-tech/	https://www.zdnet.com/a/img/resize/e998ba55eeee27964e4c4fccf0da96a09b116e82/2021/05/03/411c2a4b-f919-4ee9-a1cb-b996314d4ae1/social-media-up-close-apps.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-05 07:00:02.506253+01	2021-11-05 05:33:39+01	Stilgherrian 	zdnet/Twitter-joins-backlash-against-Australian-plan-to-ID-social-media-users
 2583	Malware found in coa and rc, two npm packages with 23M weekly downloads	The security team of the npm JavaScript package manager has warned users that two of its most popular packages had been hijacked by a threat actor who released new versions laced with what appeared to be password-stealing malware.	https://therecord.media/malware-found-in-coa-and-rc-two-npm-packages-with-23m-weekly-downloads/	https://therecord.media/wp-content/uploads/2021/11/npm-logo.png	therecord	t	2021-11-05 09:00:02.598529+01	2021-11-05 08:08:33+01	Catalin Cimpanu	therecord/Malware-found-in-coa-and-rc-two-npm-packages-with-23M-weekly-downloads
+2584	Cisco teams up with Singapore university in $40M research investment | ZDNet	National University of Singapore and Cisco have partnered to launch a corporate laboratory to drive research development in five key areas, including artificial intelligence, cybersecurity, and healthcare, and will invest SG$54 million ($40 million) over five years.	https://www.zdnet.com/article/cisco-teams-up-with-singapore-university-in-40m-research-investment/	https://www.zdnet.com/a/img/resize/a039264500b9b7c71bfbe719533c3b6d55ac4368/2015/03/17/2402322f-2d67-4f7e-9858-1f88fc3c0b3d/binary-data.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-05 11:00:02.735932+01	2021-11-05 09:17:00+01	Eileen Yu	zdnet/Cisco-teams-up-with-Singapore-university-in-40M-research-investment
 \.
 
 
@@ -2634,7 +2635,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2583, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2584, true);
 
 
 --
