@@ -2636,6 +2636,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2591	FBI warns of increased use of cryptocurrency ATMs, QR codes for fraud	The Federal Bureau of Investigation (FBI) warns that victims of various fraud schemes are increasingly asked by criminals to use cryptocurrency ATMs and Quick Response (QR) codes, making it harder to recover their financial losses.	https://www.bleepingcomputer.com/news/security/fbi-warns-of-increased-use-of-cryptocurrency-atms-qr-codes-for-fraud/	https://www.bleepstatic.com/content/hl-images/2021/07/09/FBI-cryptocurrency.jpg	bleepingcomputer	t	2021-11-05 15:00:02.225401+01	2021-11-05 14:55:57+01	Sergiu Gatlan	bleepingcomputer/FBI-warns-of-increased-use-of-cryptocurrency-ATMs-QR-codes-for-fraud
 2590	Feds Offer $10 Million Bounty for DarkSide Info	The U.S. State Department ups the ante in its hunt for the ransomware perpetrators by offering a sizeable cash sum for locating and arresting leaders of the cybercriminal group.	https://kasperskycontenthub.com/threatpost-global/?p=176030	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/05085402/global-ransomware.jpg	threatpost	t	2021-11-05 15:00:02.225401+01	2021-11-05 14:03:07+01	Elizabeth Montalbano	threatpost/Feds-Offer-10-Million-Bounty-for-DarkSide-Info
 2592	Mozilla Thunderbird 91.3 released to fix high impact flaws	​Mozilla released  Thunderbird 91.3 to fix several high-impact vulnerabilities that can cause a denial of service, spoof the origin, bypass security policies, and allow arbitrary code execution.	https://www.bleepingcomputer.com/news/security/mozilla-thunderbird-913-released-to-fix-high-impact-flaws/	https://www.bleepstatic.com/content/hl-images/2021/10/08/thunderbird-movie-poster.jpg	bleepingcomputer	t	2021-11-05 15:00:02.225401+01	2021-11-05 14:47:35+01	Bill Toulas	bleepingcomputer/Mozilla-Thunderbird-913-released-to-fix-high-impact-flaws
+2593	US defense contractor Electronic Warfare hit by data breach	US defense contractor Electronic Warfare Associates (EWA) has disclosed a data breach after threat actors hacked their email system and stole files containing personal information.	https://www.bleepingcomputer.com/news/security/us-defense-contractor-electronic-warfare-hit-by-data-breach/	https://www.bleepstatic.com/content/posts/2021/11/05/military-radar.jpg	bleepingcomputer	t	2021-11-05 16:00:02.311746+01	2021-11-05 15:59:33+01	Bill Toulas	bleepingcomputer/US-defense-contractor-Electronic-Warfare-hit-by-data-breach
 \.
 
 
@@ -2643,7 +2644,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2592, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2593, true);
 
 
 --
