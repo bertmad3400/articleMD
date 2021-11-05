@@ -2624,6 +2624,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2578	US targets DarkSide ransomware, rebrands with $10 million reward	The US government is targeting the DarkSide ransomware and its rebrands with up to a $10,000,000 reward for information leading to the identification or arrest of members of the operation.	https://www.bleepingcomputer.com/news/security/us-targets-darkside-ransomware-rebrands-with-10-million-reward/	https://www.bleepstatic.com/content/hl-images/2021/11/04/US_State_Dept.jpg	bleepingcomputer	t	2021-11-04 22:00:02.175834+01	2021-11-04 22:00:10+01	Lawrence Abrams	bleepingcomputer/US-targets-DarkSide-ransomware-rebrands-with-10-million-reward
 2579	US offers $10 million reward for information on DarkSide leaders, $5 million for affiliates | ZDNet	The State Department has put a bounty on the heads of the leaders of the DarkSide/BlackMatter ransomware.	https://www.zdnet.com/article/us-offers-10-million-reward-for-information-on-darkside-leaders-5-million-for-affiliates/	https://www.zdnet.com/a/img/resize/5f062d3708a1d594284c457897cafd30bd75b7b1/2020/09/08/b4b15301-4f60-4b29-84d4-15e6d3014d73/ransomware.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-04 23:00:02.635661+01	2021-11-04 21:15:18+01	Jonathan Greig	zdnet/US-offers-10-million-reward-for-information-on-DarkSide-leaders-5-million-for-affiliates
 2580	US offers $10 million reward for info on Darkside ransomware group	The US government has offered today a $10 million reward for any information that may lead to the identification and/or arrest of members part of the Darkside ransomware group.	https://therecord.media/us-offers-10-million-reward-for-info-on-darkside-ransomware-group/	https://therecord.media/wp-content/uploads/2021/07/Rewards-for-Justice-Program.png	therecord	t	2021-11-05 01:00:01.814029+01	2021-11-05 00:48:11+01	Catalin Cimpanu	therecord/US-offers-10-million-reward-for-info-on-Darkside-ransomware-group
+2581	Hackers gained access to mySA Gov accounts, including licence and rego details | ZDNet	Some mySA Gov accountholders have been asked by government to change their driver's licence number due to a cyber attack.	https://www.zdnet.com/article/hackers-gained-access-to-mysa-gov-accounts-including-licence-and-rego-details/	https://www.zdnet.com/a/img/resize/fbcdb50ec1e191e253afafe9b20cff7e71f39187/2018/02/01/b31d2b82-b841-4b95-bf34-a4bf12847681/cisco-adelaide-traffic.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-05 06:00:02.172602+01	2021-11-05 04:35:49+01	Campbell Kwan	zdnet/Hackers-gained-access-to-mySA-Gov-accounts-including-licence-and-rego-details
 \.
 
 
@@ -2631,7 +2632,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2580, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2581, true);
 
 
 --
