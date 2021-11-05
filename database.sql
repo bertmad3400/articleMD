@@ -2648,6 +2648,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2601	Pwn2Own: Printer plays AC/DC, Samsung Galaxy S21 hacked twice	Trend Micro's ZDI has awarded $1,081,250 for 61 zero-days exploited at Pwn2Own Austin 2021, with competitors successfully pwning the Samsung Galaxy S21 again and hacking an HP LaserJet printer to play AC/DC's Thunderstruck on the contest's third day.	https://www.bleepingcomputer.com/news/security/pwn2own-printer-plays-ac-dc-samsung-galaxy-s21-hacked-twice/	https://www.bleepstatic.com/content/hl-images/2021/11/03/Pwn2Own_Austin_2021.jpg	bleepingcomputer	t	2021-11-05 19:00:02.277643+01	2021-11-05 18:25:19+01	Sergiu Gatlan	bleepingcomputer/Pwn2Own-Printer-plays-ACDC-Samsung-Galaxy-S21-hacked-twice
 2602	BrakTooth Bluetooth Bugs Bite: Exploit Code, PoC Released	CISA is urging vendors to patch, given the release of public exploit code & a proof of concept tool for bugs that open billions of devices – phones, PCs, toys, etc. – to DoS & code execution.	https://kasperskycontenthub.com/threatpost-global/?p=176036	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/02140504/Shark-Teeth.jpg	threatpost	t	2021-11-05 19:00:02.277643+01	2021-11-05 18:00:57+01	Lisa Vaas	threatpost/BrakTooth-Bluetooth-Bugs-Bite-Exploit-Code-PoC-Released
 2603	BlackBerry report highlights initial access broker providing entry to StrongPity APT, MountLocker and Phobos ransomware gangs | ZDNet	Named Zebra2104, the initial access broker helped out a variety of cybercriminal groups and nation-states attacking businesses in Turkey and Australia.	https://www.zdnet.com/article/blackberry-report-highlights-initial-access-broker-providing-entry-to-strongpity-apt-mountlocker-and-phobos-ransomware-gangs/	https://www.zdnet.com/a/img/resize/1ab25c51e603dd67b7fbeaf6b12a6319d2811c85/2020/09/21/a9218bb7-cc62-4b2f-8bf3-c4f68a4f11e9/ransomware-this-cybercriminal-group-is-b-5f64845c5f60de4b41b7c13d-1-sep-21-2020-12-02-07-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-05 21:00:02.118221+01	2021-11-05 19:03:00+01	Jonathan Greig	zdnet/BlackBerry-report-highlights-initial-access-broker-providing-entry-to-StrongPity-APT-MountLocker-and-Phobos-ransomware-gangs
+2605	Cloudflare report highlights devastating DDoS attacks on VoIP services and several 'record-setting HTTP attacks' | ZDNet	In Q3, Cloudflare researchers said they stopped one of the largest recorded HTTP attacks​.	https://www.zdnet.com/article/cloudflare-report-highlights-devastating-ddos-attacks-on-voip-services-and-several-record-setting-http-attacks/	https://www.zdnet.com/a/img/resize/e3cd8e68c87c6e46b9331d016f9705fb9472c976/2020/07/27/09376b6a-a21e-458a-a6e6-5cdbbb9912e4/ddos.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-05 22:00:02.211078+01	2021-11-05 20:31:00+01	Jonathan Greig	zdnet/Cloudflare-report-highlights-devastating-DDoS-attacks-on-VoIP-services-and-several-record-setting-HTTP-attacks
 \.
 
 
@@ -2655,7 +2656,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2604, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2605, true);
 
 
 --
