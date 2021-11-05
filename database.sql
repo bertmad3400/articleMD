@@ -2623,6 +2623,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2577	Fortinet outpaces Wall Street estimates, brings in $867 million revenue for Q3 | ZDNet	Product revenue was up more than 50% compared to Q3 2020 at $337.1 million while service revenue was $530.1 million for the third quarter of 2021, an increase of 24.1% year over year.	https://www.zdnet.com/article/fortinet-outpaces-wall-street-estimates-brings-in-867-million-revenue-for-q3/	https://www.zdnet.com/a/img/resize/0951d2f112a8eca3bb60d65d1002f853242ba258/2019/11/25/b87b4f70-93e8-4ff1-816f-f0b9ae07dfe3/fortinet-logo.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-04 22:00:02.175834+01	2021-11-04 20:25:56+01	Jonathan Greig	zdnet/Fortinet-outpaces-Wall-Street-estimates-brings-in-867-million-revenue-for-Q3
 2578	US targets DarkSide ransomware, rebrands with $10 million reward	The US government is targeting the DarkSide ransomware and its rebrands with up to a $10,000,000 reward for information leading to the identification or arrest of members of the operation.	https://www.bleepingcomputer.com/news/security/us-targets-darkside-ransomware-rebrands-with-10-million-reward/	https://www.bleepstatic.com/content/hl-images/2021/11/04/US_State_Dept.jpg	bleepingcomputer	t	2021-11-04 22:00:02.175834+01	2021-11-04 22:00:10+01	Lawrence Abrams	bleepingcomputer/US-targets-DarkSide-ransomware-rebrands-with-10-million-reward
 2579	US offers $10 million reward for information on DarkSide leaders, $5 million for affiliates | ZDNet	The State Department has put a bounty on the heads of the leaders of the DarkSide/BlackMatter ransomware.	https://www.zdnet.com/article/us-offers-10-million-reward-for-information-on-darkside-leaders-5-million-for-affiliates/	https://www.zdnet.com/a/img/resize/5f062d3708a1d594284c457897cafd30bd75b7b1/2020/09/08/b4b15301-4f60-4b29-84d4-15e6d3014d73/ransomware.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-04 23:00:02.635661+01	2021-11-04 21:15:18+01	Jonathan Greig	zdnet/US-offers-10-million-reward-for-information-on-DarkSide-leaders-5-million-for-affiliates
+2580	US offers $10 million reward for info on Darkside ransomware group	The US government has offered today a $10 million reward for any information that may lead to the identification and/or arrest of members part of the Darkside ransomware group.	https://therecord.media/us-offers-10-million-reward-for-info-on-darkside-ransomware-group/	https://therecord.media/wp-content/uploads/2021/07/Rewards-for-Justice-Program.png	therecord	t	2021-11-05 01:00:01.814029+01	2021-11-05 00:48:11+01	Catalin Cimpanu	therecord/US-offers-10-million-reward-for-info-on-Darkside-ransomware-group
 \.
 
 
@@ -2630,7 +2631,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2579, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2580, true);
 
 
 --
