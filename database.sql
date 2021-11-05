@@ -2630,6 +2630,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2584	Cisco teams up with Singapore university in $40M research investment | ZDNet	National University of Singapore and Cisco have partnered to launch a corporate laboratory to drive research development in five key areas, including artificial intelligence, cybersecurity, and healthcare, and will invest SG$54 million ($40 million) over five years.	https://www.zdnet.com/article/cisco-teams-up-with-singapore-university-in-40m-research-investment/	https://www.zdnet.com/a/img/resize/a039264500b9b7c71bfbe719533c3b6d55ac4368/2015/03/17/2402322f-2d67-4f7e-9858-1f88fc3c0b3d/binary-data.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-05 11:00:02.735932+01	2021-11-05 09:17:00+01	Eileen Yu	zdnet/Cisco-teams-up-with-Singapore-university-in-40M-research-investment
 2585	The IoT is getting a lot bigger, but security is still getting left behind | ZDNet	One in five Internet of Things device vendors don't provide any information on how to disclose security vulnerabilities. That means problems just don't get fixed.	https://www.zdnet.com/article/the-iot-is-getting-a-lot-bigger-but-security-is-still-getting-left-behind/	https://www.zdnet.com/a/img/resize/1cc39322cdfe893d06ed992b38846328ae7ef821/2019/05/01/24b2bb04-5c84-4848-bda9-63662d9f68b2/iot.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-05 12:00:02.53136+01	2021-11-05 10:50:35+01	Danny Palmer	zdnet/The-IoT-is-getting-a-lot-bigger-but-security-is-still-getting-left-behind
 2586	SSL certificate research highlights pitfalls for company data, competition | ZDNet	Analysis reveals hidden risks for organizations that do not monitor their certificate usage.	https://www.zdnet.com/article/ssl-certificate-research-highlights-pitfalls-for-company-data/	https://www.zdnet.com/a/img/resize/31e548f075175991e065a003de1774f54d9789f1/2021/09/23/be3f3a31-3fac-4daa-953d-aa95ddf86da8/data-pipeline.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-05 12:00:02.53136+01	2021-11-05 10:29:43+01	Charlie Osborne	zdnet/SSL-certificate-research-highlights-pitfalls-for-company-data-competition
+2587	Get patching: Cisco warns of these critical product vulnerabilities | ZDNet	Cisco and CISA release alerts about multiple vulnerabilities that could provide attackers with the ability to takeover networks if they're left unpatched.	https://www.zdnet.com/article/get-patching-cisco-warns-of-these-critical-product-vulnerabilities/	https://www.zdnet.com/a/img/resize/dee14986d46596b5caebfa42760333e3dde96db8/2020/11/17/38b85ae3-e0f4-4aaf-b588-24a3e67e1e68/computerusersnetworkistock-1194430783a.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-05 13:00:02.597455+01	2021-11-05 11:44:36+01	Danny Palmer	zdnet/Get-patching-Cisco-warns-of-these-critical-product-vulnerabilities
 \.
 
 
@@ -2637,7 +2638,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2586, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2587, true);
 
 
 --
