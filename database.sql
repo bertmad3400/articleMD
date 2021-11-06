@@ -2652,6 +2652,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2606	CIS partners with CrowdStrike on cybersecurity platform protecting local governments | ZDNet	The new CIS Endpoint Security Services (ESS) platform is built for US State, Local, Tribal and Territorial (SLTT) governments.	https://www.zdnet.com/article/cis-partners-with-crowdstrike-on-cybersecurity-platform-protecting-local-governments/	https://www.zdnet.com/a/img/resize/ad2f7549f5f10598d11aa9312647b59b6927d110/2021/02/18/de137a71-c8b7-4b00-ade5-16b6aaefa314/female-government-agent.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-05 23:00:01.942893+01	2021-11-05 21:05:45+01	Jonathan Greig	zdnet/CIS-partners-with-CrowdStrike-on-cybersecurity-platform-protecting-local-governments
 2607	Senators add CISA cyberattack/ransomware reporting amendment to defense bill | ZDNet	Republican and Democratic lawmakers joined forces to introduce a new amendment to the massive $740 billion NDAA.	https://www.zdnet.com/article/bipartisan-group-of-senators-add-cisa-cyberattackransomware-reporting-amendment-to-defense-bill/	https://www.zdnet.com/a/img/resize/55ba024da6fa5e1c01919da021916d89e9c080f8/2019/03/14/f08fe849-4a64-40d4-9226-f9aabf34cc7b/senate-building.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-06 00:00:01.775864+01	2021-11-05 22:12:23+01	Jonathan Greig	zdnet/Senators-add-CISA-cyberattackransomware-reporting-amendment-to-defense-bill
 2608	The Week in Ransomware - November 5th 2021 - Placing bounties	Law enforcement continues to keep up the pressure on ransomware operations with infrastructure hacks and million-dollar rewards, leading to the shut down of criminal operations.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-november-5th-2021-placing-bounties/	https://www.bleepstatic.com/content/hl-images/2020/12/03/shadow-header.jpg	bleepingcomputer	t	2021-11-06 00:00:01.775864+01	2021-11-05 23:05:04+01	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---November-5th-2021---Placing-bounties
+2609	Hungarian official confirms government bought and used Pegasus spyware	A Hungarian government official has confirmed this week that the small central European country has bought and deployed Pegasus, a commercial spyware program developed by Israeli company NSO Group.	https://therecord.media/hungarian-official-confirms-governments-bought-and-used-pegasus-spyware/	https://therecord.media/wp-content/uploads/2021/11/Hungary-Budapest-Parliament.jpg	therecord	t	2021-11-06 12:00:03.024666+01	2021-11-06 11:11:58+01	Catalin Cimpanu	therecord/Hungarian-official-confirms-government-bought-and-used-Pegasus-spyware
 \.
 
 
@@ -2659,7 +2660,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2608, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2609, true);
 
 
 --
