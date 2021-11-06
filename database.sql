@@ -2655,6 +2655,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2609	Hungarian official confirms government bought and used Pegasus spyware	A Hungarian government official has confirmed this week that the small central European country has bought and deployed Pegasus, a commercial spyware program developed by Israeli company NSO Group.	https://therecord.media/hungarian-official-confirms-governments-bought-and-used-pegasus-spyware/	https://therecord.media/wp-content/uploads/2021/11/Hungary-Budapest-Parliament.jpg	therecord	t	2021-11-06 12:00:03.024666+01	2021-11-06 11:11:58+01	Catalin Cimpanu	therecord/Hungarian-official-confirms-government-bought-and-used-Pegasus-spyware
 2610	Hacker steals $55 million from bZx DeFi platform	A hacker has stolen an estimated $55 million worth of cryptocurrency assets from bZx, a decentralized finance (DeFi) platform that allows users to borrow, loan, and speculate on cryptocurrency price variations.	https://therecord.media/hacker-steals-55-million-from-bzx-defi-platform/	https://therecord.media/wp-content/uploads/2021/11/bZx.png	therecord	t	2021-11-06 14:00:02.59191+01	2021-11-06 13:21:13+01	Catalin Cimpanu	therecord/Hacker-steals-55-million-from-bZx-DeFi-platform
 2611	House approves massive infrastructure plan that includes $1.9 billion for cybersecurity	The U.S. House of Representatives on Friday approved $1.2 trillion infrastructure bill that will investment nearly $2 billion in cybersecurity efforts throughout the federal government.	https://therecord.media/house-approves-massive-infrastructure-plan-that-includes-1-9-billion-for-cybersecurity/	https://therecord.media/wp-content/uploads/2021/06/Capitol-Hill-1.jpg	therecord	t	2021-11-06 14:00:02.59191+01	2021-11-06 13:02:04+01	Martin Matishak	therecord/House-approves-massive-infrastructure-plan-that-includes-19-billion-for-cybersecurity
+2612	Get all of the training you need to become a cybersecurity analyst for just $26 | ZDNet	You don't have to go back to school or take time away from your job in order to develop the skills required for a career as a cybersecurity analyst, all you need are affordable self-paced courses.	https://www.zdnet.com/article/get-all-of-the-training-you-need-to-become-a-cybersecurity-analyst-for-just-26/	https://www.zdnet.com/a/img/resize/0a23fd3fd1977148ea7e0c43698e65290bb65d8b/2021/11/02/0c449f08-f978-48e5-b0c2-6d0f588ad91e/sale-305237-article-image.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-06 15:00:01.909233+01	2021-11-06 13:00:01+01	ZDNet Academy	zdnet/Get-all-of-the-training-you-need-to-become-a-cybersecurity-analyst-for-just-26
 \.
 
 
@@ -2662,7 +2663,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2611, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2612, true);
 
 
 --
