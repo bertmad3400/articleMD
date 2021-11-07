@@ -2660,6 +2660,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2614	OneDrive reaches end of support on Windows 7, 8 in January	Microsoft has announced that the OneDrive desktop application will reach the end of support on legacy Windows 7, 8, and 8.1 starting with January 1, 2022.	https://www.bleepingcomputer.com/news/microsoft/onedrive-reaches-end-of-support-on-windows-7-8-in-january/	https://www.bleepstatic.com/content/hl-images/2021/11/05/OneDrive.jpg	bleepingcomputer	t	2021-11-06 17:00:01.997+01	2021-11-06 15:00:00+01	Sergiu Gatlan	bleepingcomputer/OneDrive-reaches-end-of-support-on-Windows-7-8-in-January
 2615	Microsoft: New Windows driver deployment service coming soon	Microsoft said that the new Windows Update for Business deployment service for drivers and firmware will be available in Microsoft Endpoint Manager and in Microsoft Graph as a public preview starting with the first half of 2022.	https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-driver-deployment-service-coming-soon/	https://www.bleepstatic.com/content/hl-images/2021/01/25/Windows-10.jpg	bleepingcomputer	t	2021-11-07 17:00:01.982903+01	2021-11-07 16:00:00+01	Sergiu Gatlan	bleepingcomputer/Microsoft-New-Windows-driver-deployment-service-coming-soon
 2616	Windows 11 KB5008295 emergency update fixes built-in app mess	Microsoft has released the KB5008295 out-of-band update to address Windows 11 issues while opening or using some built-in apps and features due to an expired Microsoft digital certificate.	https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5008295-emergency-update-fixes-built-in-app-mess/	https://www.bleepstatic.com/content/hl-images/2021/10/21/windows-11-gradient-header.jpg	bleepingcomputer	t	2021-11-07 17:00:01.982903+01	2021-11-05 18:52:08+01	Sergiu Gatlan	bleepingcomputer/Windows-11-KB5008295-emergency-update-fixes-built-in-app-mess
+2617	Operation Cyclone deals blow to Clop ransomware operation	A thirty-month international law enforcement operation codenamed 'Operation Cyclone' targeted the Clop ransomware gang, leading to the previously reported arrests of six members in Ukraine.	https://www.bleepingcomputer.com/news/security/operation-cyclone-deals-blow-to-clop-ransomware-operation/	https://www.bleepstatic.com/content/hl-images/2021/10/29/arrested.jpg	bleepingcomputer	t	2021-11-07 18:00:02.466861+01	2021-11-07 17:46:27+01	Lawrence Abrams	bleepingcomputer/Operation-Cyclone-deals-blow-to-Clop-ransomware-operation
 \.
 
 
@@ -2667,7 +2668,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2616, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2617, true);
 
 
 --
