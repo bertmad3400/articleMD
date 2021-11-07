@@ -2658,6 +2658,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2612	Get all of the training you need to become a cybersecurity analyst for just $26 | ZDNet	You don't have to go back to school or take time away from your job in order to develop the skills required for a career as a cybersecurity analyst, all you need are affordable self-paced courses.	https://www.zdnet.com/article/get-all-of-the-training-you-need-to-become-a-cybersecurity-analyst-for-just-26/	https://www.zdnet.com/a/img/resize/0a23fd3fd1977148ea7e0c43698e65290bb65d8b/2021/11/02/0c449f08-f978-48e5-b0c2-6d0f588ad91e/sale-305237-article-image.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-06 15:00:01.909233+01	2021-11-06 13:00:01+01	ZDNet Academy	zdnet/Get-all-of-the-training-you-need-to-become-a-cybersecurity-analyst-for-just-26
 2613	Samsung sued for flawed Chromebook hinges cracking displays	Samsung is being sued for selling the Samsung Chromebook Plus 2-in-1 even though they allegedly knew for years of a defect that caused displays to break.	https://www.bleepingcomputer.com/news/legal/samsung-sued-for-flawed-chromebook-hinges-cracking-displays/	https://www.bleepstatic.com/content/hl-images/2021/04/16/computer-angry.jpg	bleepingcomputer	t	2021-11-06 17:00:01.997+01	2021-11-06 16:36:14+01	Bill Toulas	bleepingcomputer/Samsung-sued-for-flawed-Chromebook-hinges-cracking-displays
 2614	OneDrive reaches end of support on Windows 7, 8 in January	Microsoft has announced that the OneDrive desktop application will reach the end of support on legacy Windows 7, 8, and 8.1 starting with January 1, 2022.	https://www.bleepingcomputer.com/news/microsoft/onedrive-reaches-end-of-support-on-windows-7-8-in-january/	https://www.bleepstatic.com/content/hl-images/2021/11/05/OneDrive.jpg	bleepingcomputer	t	2021-11-06 17:00:01.997+01	2021-11-06 15:00:00+01	Sergiu Gatlan	bleepingcomputer/OneDrive-reaches-end-of-support-on-Windows-7-8-in-January
+2615	Microsoft: New Windows driver deployment service coming soon	Microsoft said that the new Windows Update for Business deployment service for drivers and firmware will be available in Microsoft Endpoint Manager and in Microsoft Graph as a public preview starting with the first half of 2022.	https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-driver-deployment-service-coming-soon/	https://www.bleepstatic.com/content/hl-images/2021/01/25/Windows-10.jpg	bleepingcomputer	t	2021-11-07 17:00:01.982903+01	2021-11-07 16:00:00+01	Sergiu Gatlan	bleepingcomputer/Microsoft-New-Windows-driver-deployment-service-coming-soon
+2616	Windows 11 KB5008295 emergency update fixes built-in app mess	Microsoft has released the KB5008295 out-of-band update to address Windows 11 issues while opening or using some built-in apps and features due to an expired Microsoft digital certificate.	https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5008295-emergency-update-fixes-built-in-app-mess/	https://www.bleepstatic.com/content/hl-images/2021/10/21/windows-11-gradient-header.jpg	bleepingcomputer	t	2021-11-07 17:00:01.982903+01	2021-11-05 18:52:08+01	Sergiu Gatlan	bleepingcomputer/Windows-11-KB5008295-emergency-update-fixes-built-in-app-mess
 \.
 
 
@@ -2665,7 +2667,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2614, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2616, true);
 
 
 --
