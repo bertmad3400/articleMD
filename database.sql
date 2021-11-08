@@ -2664,6 +2664,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2618	Labor wants new anti-scam centre and code of practice for fighting against scams | ZDNet	Australia's Labor Party has called out the federal government, saying it has been slow to implement measures for fighting against scams.	https://www.zdnet.com/article/labor-wants-new-anti-scam-centre-and-code-of-practice-for-fighting-against-scams/	https://www.zdnet.com/a/img/resize/bca0081b3e7c80f0759fbeba87db5818f95cd98c/2021/10/27/433dd231-c3be-42ad-a56a-48a97e7384d8/gettyimages-1232298161.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-08 01:00:02.311762+01	2021-11-07 23:10:10+01	Campbell Kwan	zdnet/Labor-wants-new-anti-scam-centre-and-code-of-practice-for-fighting-against-scams
 2619	Cybersecurity firms provide threat intel for Clop ransomware group arrests | ZDNet	The crackdown was codenamed Operation Cyclone.	https://www.zdnet.com/article/cybersecurity-firms-provide-threat-intel-in-clop-ransomware-group-arrests/	https://www.zdnet.com/a/img/resize/888f626bffe7409f3a3e04cb24bc59f9d6bee5a7/2021/11/08/abe3d950-da51-475c-aa7e-2050864ebf05/screenshot-2021-11-08-at-07-34-51.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-08 10:00:02.47789+01	2021-11-08 07:58:13+01	Charlie Osborne	zdnet/Cybersecurity-firms-provide-threat-intel-for-Clop-ransomware-group-arrests
 2620	State hackers breach defense, energy, healthcare orgs worldwide	Cybersecurity firm Palo Alto Networks warned over the weekend of an ongoing hacking campaign that has already resulted in the compromise of at least nine organizations worldwide from critical sectors, including defense, healthcare, energy, technology, and education.	https://www.bleepingcomputer.com/news/security/state-hackers-breach-defense-energy-healthcare-orgs-worldwide/	https://www.bleepstatic.com/content/hl-images/2021/11/08/China_hacker.jpg	bleepingcomputer	t	2021-11-08 10:00:02.47789+01	2021-11-08 09:34:00+01	Sergiu Gatlan	bleepingcomputer/State-hackers-breach-defense-energy-healthcare-orgs-worldwide
+2621	China says a foreign spy agency hacked its airlines, stole passenger records	Chinese officials said last week that a foreign intelligence agency hacked several of its airlines in 2020 and stole passenger travel records.	https://therecord.media/china-says-a-foreign-spy-agency-hacked-its-airlines-stole-passenger-records/	https://therecord.media/wp-content/uploads/2021/11/china-airport-airplane.jpg	therecord	t	2021-11-08 13:00:02.5248+01	2021-11-08 12:17:05+01	Catalin Cimpanu	therecord/China-says-a-foreign-spy-agency-hacked-its-airlines-stole-passenger-records
 \.
 
 
@@ -2671,7 +2672,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2620, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2621, true);
 
 
 --
