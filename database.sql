@@ -2672,6 +2672,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2626	Electronics retail giant MediaMarkt hit by ransomware attack	Electronics retail giant MediaMarkt has suffered a ransomware attack causing IT systems to shut down and store operations to be disrupted in Netherlands and Germany.	https://www.bleepingcomputer.com/news/security/electronics-retail-giant-mediamarkt-hit-by-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/11/08/mediamarkt-header.jpg	bleepingcomputer	t	2021-11-08 16:00:02.468285+01	2021-11-08 15:27:49+01	Lawrence Abrams	bleepingcomputer/Electronics-retail-giant-MediaMarkt-hit-by-ransomware-attack
 2627	Investor group acquires McAfee for more than $14 billion | ZDNet	McAfee sold its enterprise security business to a consortium led by Symphony Technology Group in a deal worth $4 billion in March.	https://www.zdnet.com/article/investor-group-acquires-mcafee-for-more-than-14-billion/	https://www.zdnet.com/a/img/resize/4d369d5427e2a6d4268c560990610bef2e7a2109/2021/10/11/fcf62b48-6b46-4d46-9d9b-f95fdb37f732/mcafee.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-08 17:00:02.199585+01	2021-11-08 15:16:00+01	Jonathan Greig	zdnet/Investor-group-acquires-McAfee-for-more-than-14-billion
 2628	Criminal group dismantled after forcing victims to be money mules	The Spanish police have arrested 45 people who are believed to be members of an online fraud group that operated twenty websites to defraud at least 200 people of 1,500,000 Euros ($1.73 million).	https://www.bleepingcomputer.com/news/security/criminal-group-dismantled-after-forcing-victims-to-be-money-mules/	https://www.bleepstatic.com/content/hl-images/2020/12/04/money-mule.jpg	bleepingcomputer	t	2021-11-08 17:00:02.199585+01	2021-11-08 16:40:20+01	Bill Toulas	bleepingcomputer/Criminal-group-dismantled-after-forcing-victims-to-be-money-mules
+2629	Sitecore XP RCE flaw patched last month now actively exploited	The Australian Cyber Security Center (ACSC) is alerting web admins of the active exploitation of CVE-2021-42237, a remote code execution flaw in the Sitecore Experience Platform (Sitecore XP).	https://www.bleepingcomputer.com/news/security/sitecore-xp-rce-flaw-patched-last-month-now-actively-exploited/	https://www.bleepstatic.com/content/hl-images/2021/05/01/hacking.jpg	bleepingcomputer	t	2021-11-08 18:00:01.760119+01	2021-11-08 17:56:04+01	Bill Toulas	bleepingcomputer/Sitecore-XP-RCE-flaw-patched-last-month-now-actively-exploited
+2630	Zoho Password Manager Flaw Torched by Godzilla Webshell	Researchers have seen a new campaign prying apart the zero-day in the Zoho ManageEngine ADSelfService Plus password manager, they warned over the weekend. The threat actors have  managed to exploit the Zoho weakness in at least nine global entities across critical sectors: the technology, defense, healthcare, energy and education industries. On Sun	https://kasperskycontenthub.com/threatpost-global/?p=176063	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/08092242/Godzilla-e1636381376959.jpeg	threatpost	t	2021-11-08 18:00:01.760119+01	2021-11-08 17:38:05+01	Lisa Vaas	threatpost/Zoho-Password-Manager-Flaw-Torched-by-Godzilla-Webshell
 \.
 
 
@@ -2679,7 +2681,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2628, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2630, true);
 
 
 --
