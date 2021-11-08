@@ -2675,6 +2675,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2629	Sitecore XP RCE flaw patched last month now actively exploited	The Australian Cyber Security Center (ACSC) is alerting web admins of the active exploitation of CVE-2021-42237, a remote code execution flaw in the Sitecore Experience Platform (Sitecore XP).	https://www.bleepingcomputer.com/news/security/sitecore-xp-rce-flaw-patched-last-month-now-actively-exploited/	https://www.bleepstatic.com/content/hl-images/2021/05/01/hacking.jpg	bleepingcomputer	t	2021-11-08 18:00:01.760119+01	2021-11-08 17:56:04+01	Bill Toulas	bleepingcomputer/Sitecore-XP-RCE-flaw-patched-last-month-now-actively-exploited
 2630	Zoho Password Manager Flaw Torched by Godzilla Webshell	Researchers have seen a new campaign prying apart the zero-day in the Zoho ManageEngine ADSelfService Plus password manager, they warned over the weekend. The threat actors have  managed to exploit the Zoho weakness in at least nine global entities across critical sectors: the technology, defense, healthcare, energy and education industries. On Sun	https://kasperskycontenthub.com/threatpost-global/?p=176063	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/08092242/Godzilla-e1636381376959.jpeg	threatpost	t	2021-11-08 18:00:01.760119+01	2021-11-08 17:38:05+01	Lisa Vaas	threatpost/Zoho-Password-Manager-Flaw-Torched-by-Godzilla-Webshell
 2631	US Treasury sanctions crypto-exchange Chatex for links to ransomware payments	The US Treasury Department has imposed sanctions today on cryptocurrency exchange Chatex for facilitating financial transactions for ransomware actors.	https://therecord.media/us-treasury-sanctions-crypto-exchange-chatex-for-links-to-ransomware-payments/	https://therecord.media/wp-content/uploads/2021/11/Chatex.png	therecord	t	2021-11-08 19:00:02.395652+01	2021-11-08 18:58:45+01	Catalin Cimpanu	therecord/US-Treasury-sanctions-crypto-exchange-Chatex-for-links-to-ransomware-payments
+2632	US sanctions Chatex cryptoexchange used by ransomware gangs	The US Treasury Department announced today sanctions against the Chatex cryptocurrency exchange for helping ransomware gangs evade sanctions and facilitating ransom transactions.	https://www.bleepingcomputer.com/news/security/us-sanctions-chatex-cryptoexchange-used-by-ransomware-gangs/	https://www.bleepstatic.com/content/hl-images/2021/09/17/treasury-department.jpg	bleepingcomputer	t	2021-11-08 20:00:02.16701+01	2021-11-08 19:26:45+01	Sergiu Gatlan	bleepingcomputer/US-sanctions-Chatex-cryptoexchange-used-by-ransomware-gangs
+2633	US seizes $6 million from REvil ransomware, arrest Kaseya hacker	The United States Department of Justice today has announced charges against a REvil ransomware affiliate responsible for the attack against the Kaseya MSP platform on July 2nd and seizing more than $6 million from another REvil partner.	https://www.bleepingcomputer.com/news/security/us-seizes-6-million-from-revil-ransomware-arrest-kaseya-hacker/	https://www.bleepstatic.com/content/hl-images/2021/04/01/US-DOJ-Justice.jpg	bleepingcomputer	t	2021-11-08 20:00:02.16701+01	2021-11-08 19:18:02+01	Ionut Ilascu	bleepingcomputer/US-seizes-6-million-from-REvil-ransomware-arrest-Kaseya-hacker
 \.
 
 
@@ -2682,7 +2684,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2631, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2633, true);
 
 
 --
