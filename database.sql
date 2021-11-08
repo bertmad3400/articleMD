@@ -2674,6 +2674,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2628	Criminal group dismantled after forcing victims to be money mules	The Spanish police have arrested 45 people who are believed to be members of an online fraud group that operated twenty websites to defraud at least 200 people of 1,500,000 Euros ($1.73 million).	https://www.bleepingcomputer.com/news/security/criminal-group-dismantled-after-forcing-victims-to-be-money-mules/	https://www.bleepstatic.com/content/hl-images/2020/12/04/money-mule.jpg	bleepingcomputer	t	2021-11-08 17:00:02.199585+01	2021-11-08 16:40:20+01	Bill Toulas	bleepingcomputer/Criminal-group-dismantled-after-forcing-victims-to-be-money-mules
 2629	Sitecore XP RCE flaw patched last month now actively exploited	The Australian Cyber Security Center (ACSC) is alerting web admins of the active exploitation of CVE-2021-42237, a remote code execution flaw in the Sitecore Experience Platform (Sitecore XP).	https://www.bleepingcomputer.com/news/security/sitecore-xp-rce-flaw-patched-last-month-now-actively-exploited/	https://www.bleepstatic.com/content/hl-images/2021/05/01/hacking.jpg	bleepingcomputer	t	2021-11-08 18:00:01.760119+01	2021-11-08 17:56:04+01	Bill Toulas	bleepingcomputer/Sitecore-XP-RCE-flaw-patched-last-month-now-actively-exploited
 2630	Zoho Password Manager Flaw Torched by Godzilla Webshell	Researchers have seen a new campaign prying apart the zero-day in the Zoho ManageEngine ADSelfService Plus password manager, they warned over the weekend. The threat actors have  managed to exploit the Zoho weakness in at least nine global entities across critical sectors: the technology, defense, healthcare, energy and education industries. On Sun	https://kasperskycontenthub.com/threatpost-global/?p=176063	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/08092242/Godzilla-e1636381376959.jpeg	threatpost	t	2021-11-08 18:00:01.760119+01	2021-11-08 17:38:05+01	Lisa Vaas	threatpost/Zoho-Password-Manager-Flaw-Torched-by-Godzilla-Webshell
+2631	US Treasury sanctions crypto-exchange Chatex for links to ransomware payments	The US Treasury Department has imposed sanctions today on cryptocurrency exchange Chatex for facilitating financial transactions for ransomware actors.	https://therecord.media/us-treasury-sanctions-crypto-exchange-chatex-for-links-to-ransomware-payments/	https://therecord.media/wp-content/uploads/2021/11/Chatex.png	therecord	t	2021-11-08 19:00:02.395652+01	2021-11-08 18:58:45+01	Catalin Cimpanu	therecord/US-Treasury-sanctions-crypto-exchange-Chatex-for-links-to-ransomware-payments
 \.
 
 
@@ -2681,7 +2682,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2630, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2631, true);
 
 
 --
