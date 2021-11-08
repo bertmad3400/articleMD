@@ -2661,6 +2661,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2615	Microsoft: New Windows driver deployment service coming soon	Microsoft said that the new Windows Update for Business deployment service for drivers and firmware will be available in Microsoft Endpoint Manager and in Microsoft Graph as a public preview starting with the first half of 2022.	https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-driver-deployment-service-coming-soon/	https://www.bleepstatic.com/content/hl-images/2021/01/25/Windows-10.jpg	bleepingcomputer	t	2021-11-07 17:00:01.982903+01	2021-11-07 16:00:00+01	Sergiu Gatlan	bleepingcomputer/Microsoft-New-Windows-driver-deployment-service-coming-soon
 2616	Windows 11 KB5008295 emergency update fixes built-in app mess	Microsoft has released the KB5008295 out-of-band update to address Windows 11 issues while opening or using some built-in apps and features due to an expired Microsoft digital certificate.	https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5008295-emergency-update-fixes-built-in-app-mess/	https://www.bleepstatic.com/content/hl-images/2021/10/21/windows-11-gradient-header.jpg	bleepingcomputer	t	2021-11-07 17:00:01.982903+01	2021-11-05 18:52:08+01	Sergiu Gatlan	bleepingcomputer/Windows-11-KB5008295-emergency-update-fixes-built-in-app-mess
 2617	Operation Cyclone deals blow to Clop ransomware operation	A thirty-month international law enforcement operation codenamed 'Operation Cyclone' targeted the Clop ransomware gang, leading to the previously reported arrests of six members in Ukraine.	https://www.bleepingcomputer.com/news/security/operation-cyclone-deals-blow-to-clop-ransomware-operation/	https://www.bleepstatic.com/content/hl-images/2021/10/29/arrested.jpg	bleepingcomputer	t	2021-11-07 18:00:02.466861+01	2021-11-07 17:46:27+01	Lawrence Abrams	bleepingcomputer/Operation-Cyclone-deals-blow-to-Clop-ransomware-operation
+2618	Labor wants new anti-scam centre and code of practice for fighting against scams | ZDNet	Australia's Labor Party has called out the federal government, saying it has been slow to implement measures for fighting against scams.	https://www.zdnet.com/article/labor-wants-new-anti-scam-centre-and-code-of-practice-for-fighting-against-scams/	https://www.zdnet.com/a/img/resize/bca0081b3e7c80f0759fbeba87db5818f95cd98c/2021/10/27/433dd231-c3be-42ad-a56a-48a97e7384d8/gettyimages-1232298161.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-08 01:00:02.311762+01	2021-11-07 23:10:10+01	Campbell Kwan	zdnet/Labor-wants-new-anti-scam-centre-and-code-of-practice-for-fighting-against-scams
 \.
 
 
@@ -2668,7 +2669,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2617, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2618, true);
 
 
 --
