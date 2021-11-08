@@ -2684,6 +2684,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2638	Annke NC400 and NC800 security camera review: Nice mid-price cameras -- but the desktop app needs to be updated | ZDNet	The Annke NC400 and NC800are well-built mid-range priced security cameras with excellent colour night vision	https://www.zdnet.com/article/annke-nc400-nc800-security-camera-review/	https://www.zdnet.com/a/img/resize/72133796cfc964a076c212e9c3e1d2cc95a58366/2021/11/08/f667c72d-bb3d-44ee-88c1-4c49132e52fe/annke-nc400-security-camera.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-08 22:00:02.141587+01	2021-11-08 19:50:59+01	Eileen Brown	zdnet/Annke-NC400-and-NC800-security-camera-review-Nice-mid-price-cameras----but-the-desktop-app-needs-to-be-updated
 2639	US arrests and charges Ukrainian man for Kaseya ransomware attack	The US Department of Justice has charged today a 22-year-old Ukrainian national for orchestrating the ransomware attacks on Kaseya servers that took place over the July 4 weekend this year.	https://therecord.media/us-arrests-and-charges-ukrainian-man-for-kaseya-ransomware-attack/	https://therecord.media/wp-content/uploads/2021/11/Rabotnik.png	therecord	t	2021-11-08 22:00:02.141587+01	2021-11-08 21:24:25+01	Catalin Cimpanu	therecord/US-arrests-and-charges-Ukrainian-man-for-Kaseya-ransomware-attack
 2640	DDoS Attacks Shatter Records in Q3, Report Finds  	Q3 DDoS attacks topped thousands daily, with more growth expected.	https://kasperskycontenthub.com/threatpost-global/?p=176082	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/10120505/DDoS.jpg	threatpost	t	2021-11-08 22:00:02.141587+01	2021-11-08 21:48:59+01	Becky Bracken	threatpost/DDoS-Attacks-Shatter-Records-in-Q3-Report-Finds
+2641	Robinhood discloses security breach and extortion attempt	Stock trading and investing app Robinhood said that hackers breached the account of a customer support employee, stole the personal data of millions of users, and then tried to extort the company for a ransom payment when it detected the intrusion.	https://therecord.media/robinhood-discloses-security-breach-and-extortion-attempt/	https://therecord.media/wp-content/uploads/2021/11/Robinhood.png	therecord	t	2021-11-08 23:00:01.824721+01	2021-11-08 22:44:19+01	Catalin Cimpanu	therecord/Robinhood-discloses-security-breach-and-extortion-attempt
+2642	Robinhood discloses data breach impacting 7 million customers	Stock trading platform Robinhood has disclosed a data breach after their systems were hacked and a threat actor gained access to the personal information of approximately 7 million customers.	https://www.bleepingcomputer.com/news/security/robinhood-discloses-data-breach-impacting-7-million-customers/	https://www.bleepstatic.com/content/hl-images/2021/11/08/robinhood-header.jpg	bleepingcomputer	t	2021-11-08 23:00:01.824721+01	2021-11-08 22:40:29+01	Lawrence Abrams	bleepingcomputer/Robinhood-discloses-data-breach-impacting-7-million-customers
 \.
 
 
@@ -2691,7 +2693,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2640, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2642, true);
 
 
 --
