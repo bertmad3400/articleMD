@@ -2670,6 +2670,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2624	Europol: Seven REvil/GandCrab ransomware affiliates were arrested in 2021	Europol has announced today the arrests of seven suspects who worked as affiliates (partners) for a major ransomware cartel and have helped carry out more than 7,000 attacks since early 2019.	https://therecord.media/europol-seven-revil-gandcrab-ransomware-affiliates-were-arrested-in-2021/	https://therecord.media/wp-content/uploads/2021/11/REvil-arrests-Romania.jpg	therecord	t	2021-11-08 16:00:02.468285+01	2021-11-08 15:47:08+01	Catalin Cimpanu	therecord/Europol-Seven-REvilGandCrab-ransomware-affiliates-were-arrested-in-2021
 2625	REvil ransomware affiliates arrested in Romania and Kuwait	Romanian law enforcement authorities have arrested two suspects believed to be Sodinokibi/REvil ransomware affiliates, allegedly responsible for infecting thousands of victims.	https://www.bleepingcomputer.com/news/security/revil-ransomware-affiliates-arrested-in-romania-and-kuwait/	https://www.bleepstatic.com/content/hl-images/2021/11/08/Europol_police.jpg	bleepingcomputer	t	2021-11-08 16:00:02.468285+01	2021-11-08 15:51:57+01	Sergiu Gatlan	bleepingcomputer/REvil-ransomware-affiliates-arrested-in-Romania-and-Kuwait
 2626	Electronics retail giant MediaMarkt hit by ransomware attack	Electronics retail giant MediaMarkt has suffered a ransomware attack causing IT systems to shut down and store operations to be disrupted in Netherlands and Germany.	https://www.bleepingcomputer.com/news/security/electronics-retail-giant-mediamarkt-hit-by-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/11/08/mediamarkt-header.jpg	bleepingcomputer	t	2021-11-08 16:00:02.468285+01	2021-11-08 15:27:49+01	Lawrence Abrams	bleepingcomputer/Electronics-retail-giant-MediaMarkt-hit-by-ransomware-attack
+2627	Investor group acquires McAfee for more than $14 billion | ZDNet	McAfee sold its enterprise security business to a consortium led by Symphony Technology Group in a deal worth $4 billion in March.	https://www.zdnet.com/article/investor-group-acquires-mcafee-for-more-than-14-billion/	https://www.zdnet.com/a/img/resize/4d369d5427e2a6d4268c560990610bef2e7a2109/2021/10/11/fcf62b48-6b46-4d46-9d9b-f95fdb37f732/mcafee.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-08 17:00:02.199585+01	2021-11-08 15:16:00+01	Jonathan Greig	zdnet/Investor-group-acquires-McAfee-for-more-than-14-billion
+2628	Criminal group dismantled after forcing victims to be money mules	The Spanish police have arrested 45 people who are believed to be members of an online fraud group that operated twenty websites to defraud at least 200 people of 1,500,000 Euros ($1.73 million).	https://www.bleepingcomputer.com/news/security/criminal-group-dismantled-after-forcing-victims-to-be-money-mules/	https://www.bleepstatic.com/content/hl-images/2020/12/04/money-mule.jpg	bleepingcomputer	t	2021-11-08 17:00:02.199585+01	2021-11-08 16:40:20+01	Bill Toulas	bleepingcomputer/Criminal-group-dismantled-after-forcing-victims-to-be-money-mules
 \.
 
 
@@ -2677,7 +2679,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2626, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2628, true);
 
 
 --
