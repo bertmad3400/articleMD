@@ -2691,6 +2691,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2645	Robinhood breach leaks information of 7 million people | ZDNet	Names, email addresses and in some cases, the DOBs and zip codes, of Robinhood customers were exposed.	https://www.zdnet.com/article/robinhood-suffers-from-breach-affecting-7-million-people/	https://www.zdnet.com/a/img/resize/89bcadf57ed2d21075796dafe90f87e64b2dc3f3/2019/07/24/6d480635-0c28-4a80-9f23-fa1ce6c91aeb/robinhood-app.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-09 01:00:01.871013+01	2021-11-08 23:29:22+01	Jonathan Greig	zdnet/Robinhood-breach-leaks-information-of-7-million-people
 2646	U.S. offers $10 million reward for leaders of REvil ransomware	The U.S. is offering up to $10 million for identifying or locating leaders in the REvil (Sodinokibi) ransomware operation, including $5 million leading to the arrest of affiliates.	https://www.bleepingcomputer.com/news/security/us-offers-10-million-reward-for-leaders-of-revil-ransomware/	https://www.bleepstatic.com/content/hl-images/2021/11/08/department-of-state.jpg	bleepingcomputer	t	2021-11-09 02:00:02.556779+01	2021-11-09 01:11:32+01	Lawrence Abrams	bleepingcomputer/US-offers-10-million-reward-for-leaders-of-REvil-ransomware
 2647	REvil Affiliates Arrested; DOJ Seizes $6M in Ransom	International law enforcement is squeezing REvil affiliates out of hiding, but the underground is shrugging it off: They know that Russia won’t touch a hair on the heads of the Russian ransomware operators, experts say. On Monday, Europol announced the arrest of a total of seven suspected REvil/GandCrab ransomware affiliates – one of which is	https://kasperskycontenthub.com/threatpost-global/?p=176087	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/07083346/arrested.jpg	threatpost	t	2021-11-09 02:00:02.556779+01	2021-11-09 01:01:05+01	Lisa Vaas	threatpost/REvil-Affiliates-Arrested-DOJ-Seizes-61M-in-Ransom
+2648	Microsoft: Chinese hackers are targeting Zoho ManageEngine software | ZDNet	Microsoft warns that hackers are targeting Zoho password management and single sign-on software to compromise Windows machines.	https://www.zdnet.com/article/microsoft-chinese-hackers-are-targeting-zoho-manageengine-software/	https://www.zdnet.com/a/img/resize/a4f4744a83738cf713b62703471ae42984902c33/2020/09/16/1820f8a7-82a0-419e-967f-f89506886748/istock-701249404.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-09 14:00:02.08454+01	2021-11-09 11:38:04+01	Liam Tung	zdnet/Microsoft-Chinese-hackers-are-targeting-Zoho-ManageEngine-software
+2649	Meet Lyceum: Iranian hackers targeting telecoms, ISPs | ZDNet	The criminals climb up communication chains with the aim of reaching executives.	https://www.zdnet.com/article/meet-lyceum-iranian-hackers-targeting-telecoms-isps/	https://www.zdnet.com/a/img/resize/bac822d3aa36e545b0bf07fd6644221d19f5556c/2021/08/08/d4f66254-587f-4576-bdfc-ba00af0fa01b/best-cable-isp.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-09 14:00:02.08454+01	2021-11-09 11:00:01+01	Charlie Osborne	zdnet/Meet-Lyceum-Iranian-hackers-targeting-telecoms-ISPs
 \.
 
 
@@ -2698,7 +2700,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2647, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2649, true);
 
 
 --
