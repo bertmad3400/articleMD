@@ -2698,6 +2698,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2652	Medical software firm urges password resets after ransomware attack	Medatixx, a German medical software vendor whose products are used in over 21,000 health institutions, urges customers to change their application passwords following a ransomware attack that has severely impaired its entire operations.	https://www.bleepingcomputer.com/news/security/medical-software-firm-urges-password-resets-after-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/05/20/0_Red-Cross.jpg	bleepingcomputer	t	2021-11-09 16:00:02.088483+01	2021-11-09 15:15:45+01	Bill Toulas	bleepingcomputer/Medical-software-firm-urges-password-resets-after-ransomware-attack
 2653	Robinhood Trading Platform Data Breach Hits 7M Customers	The cyberattacker attempted to extort the company after socially engineering a customer service employee to gain access to email addresses and more.	https://kasperskycontenthub.com/threatpost-global/?p=176106	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/09093410/robinhood.jpeg	threatpost	t	2021-11-09 16:00:02.088483+01	2021-11-09 15:43:08+01	Tara Seals	threatpost/Robinhood-Trading-Platform-Data-Breach-Hits-7M-Customers
 2654	Multiple BusyBox Security Bugs Threaten Embedded Linux Devices	Researchers discovered 14 vulnerabilities in the ‘Swiss Army Knife’ of the embedded OS used in many OT and IoT environments. They allow RCE, denial of service and data leaks.	https://kasperskycontenthub.com/threatpost-global/?p=176098	https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/01164740/Linux-OS.jpg	threatpost	t	2021-11-09 16:00:02.088483+01	2021-11-09 15:00:36+01	Elizabeth Montalbano	threatpost/Multiple-BusyBox-Security-Bugs-Threaten-Embedded-Linux-Devices
+2655	New PowerShell version comes with Microsoft Update support	Microsoft has released PowerShell 7.2 with automatic updates through the Microsoft Update service on Windows 10 and Windows Server devices.	https://www.bleepingcomputer.com/news/microsoft/new-powershell-version-comes-with-microsoft-update-support/	https://www.bleepstatic.com/content/hl-images/2021/06/16/PowerShell.jpg	bleepingcomputer	t	2021-11-09 17:00:02.54997+01	2021-11-09 16:55:53+01	Sergiu Gatlan	bleepingcomputer/New-PowerShell-version-comes-with-Microsoft-Update-support
+2656	Security Tool Guts: How Much Should Customers See?	Yaron Kassner, CTO of Silverfort, delves into the pros and cons of transparency when it comes to  cybersecurity tools’ algorithms.	https://kasperskycontenthub.com/threatpost-global/?p=176113	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/09104258/surgery-e1636472598246.jpeg	threatpost	t	2021-11-09 17:00:02.54997+01	2021-11-09 16:52:51+01	Yaron Kassner	threatpost/Security-Tool-Guts-How-Much-Should-Customers-See
 \.
 
 
@@ -2705,7 +2707,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2654, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2656, true);
 
 
 --
