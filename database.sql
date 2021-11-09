@@ -2689,6 +2689,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2643	DDoS attack cost Bandwidth.com nearly $12 million | ZDNet	While the VoIP company still beat its earnings projections, the attack caused a $700,000 dent in revenue for Q3.	https://www.zdnet.com/article/ddos-attack-cost-bandwidth-com-nearly-12-million/	https://www.zdnet.com/a/img/resize/e9baab3803f7236ae09c2c902b10cf12a090bf29/2020/02/25/631c8611-b175-4a3d-9ffb-ea7d09627945/ddos.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-09 00:00:02.249214+01	2021-11-08 22:16:00+01	Jonathan Greig	zdnet/DDoS-attack-cost-Bandwidthcom-nearly-12-million
 2644	NSO's Pegasus spyware found on the devices of six Palestinian activists	The mobile phones of six Palestinian human rights activists have been infected with Pegasus, a spyware strain developed and sold by Israeli surveillance company NSO Group.	https://therecord.media/nsos-pegasus-spyware-found-on-devices-of-six-palestinian-activists/	https://therecord.media/wp-content/uploads/2021/11/palestine.jpg	therecord	t	2021-11-09 00:00:02.249214+01	2021-11-08 23:59:47+01	Catalin Cimpanu	therecord/NSOs-Pegasus-spyware-found-on-the-devices-of-six-Palestinian-activists
 2645	Robinhood breach leaks information of 7 million people | ZDNet	Names, email addresses and in some cases, the DOBs and zip codes, of Robinhood customers were exposed.	https://www.zdnet.com/article/robinhood-suffers-from-breach-affecting-7-million-people/	https://www.zdnet.com/a/img/resize/89bcadf57ed2d21075796dafe90f87e64b2dc3f3/2019/07/24/6d480635-0c28-4a80-9f23-fa1ce6c91aeb/robinhood-app.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-09 01:00:01.871013+01	2021-11-08 23:29:22+01	Jonathan Greig	zdnet/Robinhood-breach-leaks-information-of-7-million-people
+2646	U.S. offers $10 million reward for leaders of REvil ransomware	The U.S. is offering up to $10 million for identifying or locating leaders in the REvil (Sodinokibi) ransomware operation, including $5 million leading to the arrest of affiliates.	https://www.bleepingcomputer.com/news/security/us-offers-10-million-reward-for-leaders-of-revil-ransomware/	https://www.bleepstatic.com/content/hl-images/2021/11/08/department-of-state.jpg	bleepingcomputer	t	2021-11-09 02:00:02.556779+01	2021-11-09 01:11:32+01	Lawrence Abrams	bleepingcomputer/US-offers-10-million-reward-for-leaders-of-REvil-ransomware
+2647	REvil Affiliates Arrested; DOJ Seizes $6M in Ransom	International law enforcement is squeezing REvil affiliates out of hiding, but the underground is shrugging it off: They know that Russia won’t touch a hair on the heads of the Russian ransomware operators, experts say. On Monday, Europol announced the arrest of a total of seven suspected REvil/GandCrab ransomware affiliates – one of which is	https://kasperskycontenthub.com/threatpost-global/?p=176087	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/07083346/arrested.jpg	threatpost	t	2021-11-09 02:00:02.556779+01	2021-11-09 01:01:05+01	Lisa Vaas	threatpost/REvil-Affiliates-Arrested-DOJ-Seizes-61M-in-Ransom
 \.
 
 
@@ -2696,7 +2698,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2645, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2647, true);
 
 
 --
