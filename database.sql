@@ -2688,6 +2688,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2642	Robinhood discloses data breach impacting 7 million customers	Stock trading platform Robinhood has disclosed a data breach after their systems were hacked and a threat actor gained access to the personal information of approximately 7 million customers.	https://www.bleepingcomputer.com/news/security/robinhood-discloses-data-breach-impacting-7-million-customers/	https://www.bleepstatic.com/content/hl-images/2021/11/08/robinhood-header.jpg	bleepingcomputer	t	2021-11-08 23:00:01.824721+01	2021-11-08 22:40:29+01	Lawrence Abrams	bleepingcomputer/Robinhood-discloses-data-breach-impacting-7-million-customers
 2643	DDoS attack cost Bandwidth.com nearly $12 million | ZDNet	While the VoIP company still beat its earnings projections, the attack caused a $700,000 dent in revenue for Q3.	https://www.zdnet.com/article/ddos-attack-cost-bandwidth-com-nearly-12-million/	https://www.zdnet.com/a/img/resize/e9baab3803f7236ae09c2c902b10cf12a090bf29/2020/02/25/631c8611-b175-4a3d-9ffb-ea7d09627945/ddos.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-09 00:00:02.249214+01	2021-11-08 22:16:00+01	Jonathan Greig	zdnet/DDoS-attack-cost-Bandwidthcom-nearly-12-million
 2644	NSO's Pegasus spyware found on the devices of six Palestinian activists	The mobile phones of six Palestinian human rights activists have been infected with Pegasus, a spyware strain developed and sold by Israeli surveillance company NSO Group.	https://therecord.media/nsos-pegasus-spyware-found-on-devices-of-six-palestinian-activists/	https://therecord.media/wp-content/uploads/2021/11/palestine.jpg	therecord	t	2021-11-09 00:00:02.249214+01	2021-11-08 23:59:47+01	Catalin Cimpanu	therecord/NSOs-Pegasus-spyware-found-on-the-devices-of-six-Palestinian-activists
+2645	Robinhood breach leaks information of 7 million people | ZDNet	Names, email addresses and in some cases, the DOBs and zip codes, of Robinhood customers were exposed.	https://www.zdnet.com/article/robinhood-suffers-from-breach-affecting-7-million-people/	https://www.zdnet.com/a/img/resize/89bcadf57ed2d21075796dafe90f87e64b2dc3f3/2019/07/24/6d480635-0c28-4a80-9f23-fa1ce6c91aeb/robinhood-app.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-09 01:00:01.871013+01	2021-11-08 23:29:22+01	Jonathan Greig	zdnet/Robinhood-breach-leaks-information-of-7-million-people
 \.
 
 
@@ -2695,7 +2696,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2644, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2645, true);
 
 
 --
