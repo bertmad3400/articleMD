@@ -2741,6 +2741,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2695	Lazarus hackers target researchers with trojanized IDA Pro	A North Korean state-sponsored hacking group known as Lazarus is again trying to hack security researchers, this time with a trojanized pirated version of the popular IDA Pro reverse engineering application.	https://www.bleepingcomputer.com/news/security/lazarus-hackers-target-researchers-with-trojanized-ida-pro/	https://www.bleepstatic.com/content/hl-images/2021/10/26/north_korean_flag.jpg	bleepingcomputer	t	2021-11-10 19:00:01.895693+01	2021-11-10 18:08:04+01	Lawrence Abrams	bleepingcomputer/Lazarus-hackers-target-researchers-with-trojanized-IDA-Pro
 2696	Ironic twist: WP Reset PRO bug lets hackers wipe WordPress sites	A high severity security flaw in the WP Reset PRO WordPress plugin can let authenticated attackers wipe vulnerable websites, as revealed by Patchstack security researchers.	https://www.bleepingcomputer.com/news/security/ironic-twist-wp-reset-pro-bug-lets-hackers-wipe-wordpress-sites/	https://www.bleepstatic.com/content/hl-images/2021/11/10/WordPress.jpg	bleepingcomputer	t	2021-11-10 19:00:01.895693+01	2021-11-10 18:00:07+01	Sergiu Gatlan	bleepingcomputer/Ironic-twist-WP-Reset-PRO-bug-lets-hackers-wipe-WordPress-sites
 2697	Critical Citrix DDoS Bug Shuts Down Network, Cloud App Access | Threatpost	The distributed computing vendor patched the flaw, affecting Citrix ADC and Gateway, along with another flaw impacting availability for SD-WAN appliances.	https://kasperskycontenthub.com/threatpost-global/?p=176183	https://media.threatpost.com/wp-content/uploads/sites/103/2020/08/12095849/Citrix.jpg	threatpost	t	2021-11-10 20:00:02.626829+01	2021-11-10 19:24:50+01	Tara Seals	threatpost/Critical-Citrix-DDoS-Bug-Shuts-Down-Network-Cloud-App-Access
+2698	Researchers show that Apple’s CSAM scanning can be fooled easily	A team of researchers at the Imperial College in London have presented a simple method to evade detection by image content scanning mechanisms, such as Apple's CSAM.	https://www.bleepingcomputer.com/news/technology/researchers-show-that-apple-s-csam-scanning-can-be-fooled-easily/	https://www.bleepstatic.com/content/hl-images/2021/11/10/artificial-intelligence-face-header.jpg	bleepingcomputer	t	2021-11-10 21:00:01.798888+01	2021-11-10 20:44:31+01	Bill Toulas	bleepingcomputer/Researchers-show-that-Apples-CSAM-scanning-can-be-fooled-easily
 \.
 
 
@@ -2748,7 +2749,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2697, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2698, true);
 
 
 --
