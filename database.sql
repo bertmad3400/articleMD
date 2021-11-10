@@ -2740,6 +2740,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2692	Palo Alto Networks patches zero-day affecting firewalls using GlobalProtect Portal VPN | ZDNet	The issue affects multiple versions of PAN-OS 8.1 prior to 8.1.17 and Randori said it found numerous vulnerable instances exposed on internet-facing assets, in excess of 70,000 assets.	https://www.zdnet.com/article/palo-alto-networks-patches-zero-day-affecting-firewalls-using-globalprotect-portal-vpn/	https://www.zdnet.com/a/img/resize/22fcfbadd9e888cb4ee02d5252507096671365f6/2021/06/22/679b7fab-3a40-4090-ae02-101c853b8cdf/critical-cybersecurity-vulnerabilities.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-10 19:00:01.895693+01	2021-11-10 17:00:00+01	Jonathan Greig	zdnet/Palo-Alto-Networks-patches-zero-day-affecting-firewalls-using-GlobalProtect-Portal-VPN
 2695	Lazarus hackers target researchers with trojanized IDA Pro	A North Korean state-sponsored hacking group known as Lazarus is again trying to hack security researchers, this time with a trojanized pirated version of the popular IDA Pro reverse engineering application.	https://www.bleepingcomputer.com/news/security/lazarus-hackers-target-researchers-with-trojanized-ida-pro/	https://www.bleepstatic.com/content/hl-images/2021/10/26/north_korean_flag.jpg	bleepingcomputer	t	2021-11-10 19:00:01.895693+01	2021-11-10 18:08:04+01	Lawrence Abrams	bleepingcomputer/Lazarus-hackers-target-researchers-with-trojanized-IDA-Pro
 2696	Ironic twist: WP Reset PRO bug lets hackers wipe WordPress sites	A high severity security flaw in the WP Reset PRO WordPress plugin can let authenticated attackers wipe vulnerable websites, as revealed by Patchstack security researchers.	https://www.bleepingcomputer.com/news/security/ironic-twist-wp-reset-pro-bug-lets-hackers-wipe-wordpress-sites/	https://www.bleepstatic.com/content/hl-images/2021/11/10/WordPress.jpg	bleepingcomputer	t	2021-11-10 19:00:01.895693+01	2021-11-10 18:00:07+01	Sergiu Gatlan	bleepingcomputer/Ironic-twist-WP-Reset-PRO-bug-lets-hackers-wipe-WordPress-sites
+2697	Critical Citrix DDoS Bug Shuts Down Network, Cloud App Access | Threatpost	The distributed computing vendor patched the flaw, affecting Citrix ADC and Gateway, along with another flaw impacting availability for SD-WAN appliances.	https://kasperskycontenthub.com/threatpost-global/?p=176183	https://media.threatpost.com/wp-content/uploads/sites/103/2020/08/12095849/Citrix.jpg	threatpost	t	2021-11-10 20:00:02.626829+01	2021-11-10 19:24:50+01	Tara Seals	threatpost/Critical-Citrix-DDoS-Bug-Shuts-Down-Network-Cloud-App-Access
 \.
 
 
@@ -2747,7 +2748,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2696, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2697, true);
 
 
 --
