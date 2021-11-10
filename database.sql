@@ -2719,6 +2719,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2673	TeamTNT hackers target your poorly configured Docker servers	Poorly configured Docker servers and being actively targeted by the TeamTNT hacking group in an ongoing campaign started last month.	https://www.bleepingcomputer.com/news/security/teamtnt-hackers-target-your-poorly-configured-docker-servers/	https://www.bleepstatic.com/content/hl-images/2021/11/09/DockerHub.jpg	bleepingcomputer	t	2021-11-09 22:00:02.692272+01	2021-11-09 21:57:31+01	Bill Toulas	bleepingcomputer/TeamTNT-hackers-target-your-poorly-configured-Docker-servers
 2674	Microsoft: Windows 10 2004 reaches end of service next month	Microsoft has reminded users today that all editions of Windows 10, version 2004 and Windows Server, version 2004 (also known as the Windows 10 May 2020 Update), will reach end of servicing on December 14, 2021.	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-2004-reaches-end-of-service-next-month/	https://www.bleepstatic.com/content/hl-images/2021/04/17/windows-10-sapphire.jpg	bleepingcomputer	t	2021-11-09 22:00:02.692272+01	2021-11-09 21:16:29+01	Sergiu Gatlan	bleepingcomputer/Microsoft-Windows-10-2004-reaches-end-of-service-next-month
 2675	Microsoft Nov. Patch Tuesday Fixes Six Zero-Days, 55 Bugs	Experts urged users to prioritize patches for Microsoft Exchange and Excel, those favorite platforms so frequently targeted by cybercriminals and nation-state actors.	https://kasperskycontenthub.com/threatpost-global/?p=176143	https://media.threatpost.com/wp-content/uploads/sites/103/2017/05/06224854/Microsoft-patch-tuesday-end.jpg	threatpost	t	2021-11-09 23:00:02.602818+01	2021-11-09 22:41:49+01	Lisa Vaas	threatpost/Microsoft-Nov-Patch-Tuesday-Fixes-Six-Zero-Days-55-Bugs
+2676	NUCLEUS:13 TCP security bugs impact critical healthcare devices	Researchers today published details about a suite of 13 vulnerabilities in the Nucleus real-time operating system (RTOS) from Siemens that powers devices used in the medical, industrial, automotive, and aerospace sectors.	https://www.bleepingcomputer.com/news/security/nucleus-13-tcp-security-bugs-impact-critical-healthcare-devices/	https://www.bleepstatic.com/content/hl-images/2021/11/09/NUCLEUS_13.jpg	bleepingcomputer	t	2021-11-10 02:00:02.268517+01	2021-11-10 01:46:29+01	Ionut Ilascu	bleepingcomputer/NUCLEUS13-TCP-security-bugs-impact-critical-healthcare-devices
 \.
 
 
@@ -2726,7 +2727,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2675, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2676, true);
 
 
 --
