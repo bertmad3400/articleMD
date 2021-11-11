@@ -2750,6 +2750,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2704	North Korean hackers target the South's think tanks through blog posts | ZDNet	Responsibility for new attacks has been laid at the feet of the Kimsuky threat group.	https://www.zdnet.com/article/north-korean-hackers-target-the-souths-think-tanks-through-blog-posts/	https://www.zdnet.com/a/img/resize/4f519101eda3485348b90d68f722ab7792d8ade5/2021/06/21/28027ca7-7e52-47ef-9dac-8716a75e18c7/north-korea-flag1.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-11 00:00:02.746867+01	2021-11-10 22:00:00+01	Charlie Osborne	zdnet/North-Korean-hackers-target-the-Souths-think-tanks-through-blog-posts
 2705	Void Balaur hackers-for-hire sell stolen mailboxes and private data	A hacker-for-hire group called Void Balaur has been stealing emails and highly-sensitive information for more than five years, selling it to customers with both financial and espionage goals	https://www.bleepingcomputer.com/news/security/void-balaur-hackers-for-hire-sell-stolen-mailboxes-and-private-data/	https://www.bleepstatic.com/content/hl-images/2021/08/25/hack_headpic.jpg	bleepingcomputer	t	2021-11-11 02:00:01.889219+01	2021-11-11 01:31:12+01	Ionut Ilascu	bleepingcomputer/Void-Balaur-hackers-for-hire-sell-stolen-mailboxes-and-private-data
 2706	Careful: 'Smart TV remote' Android app on Google Play is malware	Two Android apps sitting on the Google Play store have been found to contain malware this week. These apps are called 'Smart TV remote' and 'Halloween Coloring'.	https://www.bleepingcomputer.com/news/security/careful-smart-tv-remote-android-app-on-google-play-is-malware/	https://www.bleepstatic.com/content/hl-images/2021/09/17/Android.jpg	bleepingcomputer	t	2021-11-11 09:00:02.404931+01	2021-11-11 08:45:34+01	Ax Sharma	bleepingcomputer/Careful-Smart-TV-remote-Android-app-on-Google-Play-is-malware
+2707	EU pharmaceutical giants run old, vulnerable apps and fail to use encryption in login forms | ZDNet	New research highlights hundreds of companies that are at risk of cyberattacks.	https://www.zdnet.com/article/eu-pharmaceutical-giants-run-old-vulnerable-apps-and-fail-to-use-encryption-in-login-forms/	https://www.zdnet.com/a/img/resize/7c52a269a3d0c1ff2195de4a987d31ba00b6baf8/2020/12/16/f3f3c3ee-efca-4539-aa88-e0c756d13ab7/istock-1181127245.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-11 10:00:02.336443+01	2021-11-11 08:00:02+01	Charlie Osborne	zdnet/EU-pharmaceutical-giants-run-old-vulnerable-apps-and-fail-to-use-encryption-in-login-forms
 \.
 
 
@@ -2757,7 +2758,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2706, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2707, true);
 
 
 --
