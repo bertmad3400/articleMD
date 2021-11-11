@@ -2760,6 +2760,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2714	Ransomware gangs are now using 'ruthless' tactics as they aim for bigger payouts | ZDNet	More sophisticated ransomware attacks are on the way as cyber criminals tailor campaigns to raise the chances of a ransom payment.	https://www.zdnet.com/article/ransomware-gangs-are-now-using-ruthless-tactics-as-they-aim-for-bigger-payouts/	https://www.zdnet.com/a/img/resize/3b549f5f47ed0343325254cdd61ff6c6859d50fe/2021/11/11/c5756565-330f-4f7d-881f-d3992a8726c2/man-stressed-looking-at-a-computer.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-11 15:00:01.977278+01	2021-11-11 12:58:00+01	Danny Palmer	zdnet/Ransomware-gangs-are-now-using-ruthless-tactics-as-they-aim-for-bigger-payouts
 2715	New bill sets ransomware attack response rules for US financial orgs	New legislation introduced this week by US lawmakers aims to set ransomware attack response rules of road for US financial institutions.	https://www.bleepingcomputer.com/news/security/new-bill-sets-ransomware-attack-response-rules-for-us-financial-orgs/	https://www.bleepstatic.com/content/hl-images/2020/12/07/US-Capitol-Congress.jpg	bleepingcomputer	t	2021-11-11 15:00:01.977278+01	2021-11-11 14:54:03+01	Sergiu Gatlan	bleepingcomputer/New-bill-sets-ransomware-attack-response-rules-for-US-financial-orgs
 2716	Tiny Font Size Fools Email Filters in BEC Phishing	The One Font BEC campaign targets Microsoft 365 users and uses sophisticated obfuscation tactics to slip past security protections to harvest credentials.	https://kasperskycontenthub.com/threatpost-global/?p=176198	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/11084639/magnifying-glass-atop-computer-wireless-keyboard-850x567-1-e1636638409871.jpeg	threatpost	t	2021-11-11 15:00:01.977278+01	2021-11-11 15:00:04+01	Elizabeth Montalbano	threatpost/Tiny-Font-Size-Fools-Email-Filters-in-BEC-Phishing
+2717	Russian 'King of Fraud' sentenced to 10 years for Methbot botnet	The U.S. Department of Justice (DOJ) sentenced a Russian man for operating a large-scale digital advertising fraud scheme called 'Methbot' ('3ve') that stole at least $7 million from American companies.	https://www.bleepingcomputer.com/news/legal/russian-king-of-fraud-sentenced-to-10-years-for-methbot-botnet/	https://www.bleepstatic.com/content/hl-images/2021/11/11/prison.jpg	bleepingcomputer	t	2021-11-11 16:00:01.80641+01	2021-11-11 15:24:53+01	Bill Toulas	bleepingcomputer/Russian-King-of-Fraud-sentenced-to-10-years-for-Methbot-botnet
 \.
 
 
@@ -2767,7 +2768,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2716, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2717, true);
 
 
 --
