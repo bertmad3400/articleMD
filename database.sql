@@ -2752,6 +2752,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2706	Careful: 'Smart TV remote' Android app on Google Play is malware	Two Android apps sitting on the Google Play store have been found to contain malware this week. These apps are called 'Smart TV remote' and 'Halloween Coloring'.	https://www.bleepingcomputer.com/news/security/careful-smart-tv-remote-android-app-on-google-play-is-malware/	https://www.bleepstatic.com/content/hl-images/2021/09/17/Android.jpg	bleepingcomputer	t	2021-11-11 09:00:02.404931+01	2021-11-11 08:45:34+01	Ax Sharma	bleepingcomputer/Careful-Smart-TV-remote-Android-app-on-Google-Play-is-malware
 2707	EU pharmaceutical giants run old, vulnerable apps and fail to use encryption in login forms | ZDNet	New research highlights hundreds of companies that are at risk of cyberattacks.	https://www.zdnet.com/article/eu-pharmaceutical-giants-run-old-vulnerable-apps-and-fail-to-use-encryption-in-login-forms/	https://www.zdnet.com/a/img/resize/7c52a269a3d0c1ff2195de4a987d31ba00b6baf8/2020/12/16/f3f3c3ee-efca-4539-aa88-e0c756d13ab7/istock-1181127245.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-11 10:00:02.336443+01	2021-11-11 08:00:02+01	Charlie Osborne	zdnet/EU-pharmaceutical-giants-run-old-vulnerable-apps-and-fail-to-use-encryption-in-login-forms
 2708	Gmail accounts are used in 91% of all baiting email attacks	Bait attacks are on the rise, and it appears that actors who distribute this special kind of phishing emails prefer to use Gmail accounts to conduct their attacks.	https://www.bleepingcomputer.com/news/security/gmail-accounts-are-used-in-91-percent-of-all-baiting-email-attacks/	https://www.bleepstatic.com/content/hl-images/2021/11/10/bait.jpg	bleepingcomputer	t	2021-11-11 11:00:02.291723+01	2021-11-11 09:32:16+01	Bill Toulas	bleepingcomputer/Gmail-accounts-are-used-in-91-of-all-baiting-email-attacks
+2709	FBI: Iranian threat actor trying to acquire leaked data on US organizations	The US Federal Bureau of Investigation says that a threat actor known to be associated with Iran is currently seeking to acquire data from organizations across the globe, including US targets.	https://therecord.media/fbi-iranian-threat-actor-trying-to-acquire-leaked-data-on-us-organizations/	https://therecord.media/wp-content/uploads/2021/11/iran.jpg	therecord	t	2021-11-11 12:00:02.115324+01	2021-11-11 11:26:54+01	Catalin Cimpanu	therecord/FBI-Iranian-threat-actor-trying-to-acquire-leaked-data-on-US-organizations
 \.
 
 
@@ -2759,7 +2760,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2708, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2709, true);
 
 
 --
