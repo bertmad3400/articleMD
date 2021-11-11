@@ -2776,6 +2776,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2729	Cybersecurity education company touts 3-6 month program for unemployed veterans | ZDNet	Cybint is trying to address veteran unemployment through its 3-6 month program that trains novices in all things security.	https://www.zdnet.com/article/cybersecurity-education-company-touts-3-month-program-for-unemployed-veterans/	https://www.zdnet.com/a/img/resize/9ca3dc4e74f75733049362a740d1c04890a05008/2021/10/21/d8dd9d07-4a52-4a61-bfa6-a4e9441139cf/australlian-army-gettyimages-471630396.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-11 22:00:02.625807+01	2021-11-11 20:13:58+01	Jonathan Greig	zdnet/Cybersecurity-education-company-touts-3-6-month-program-for-unemployed-veterans
 2730	BotenaGo botnet targets millions of IoT devices with 33 exploits	A new BotenaGo malware botnet has been discovered using over thirty exploits to attack millions of routers and IoT devices.	https://www.bleepingcomputer.com/news/security/botenago-botnet-targets-millions-of-iot-devices-with-33-exploits/	https://www.bleepstatic.com/content/hl-images/2021/05/06/Malware-headpic.jpg	bleepingcomputer	t	2021-11-11 22:00:02.625807+01	2021-11-11 21:41:09+01	Bill Toulas	bleepingcomputer/BotenaGo-botnet-targets-millions-of-IoT-devices-with-33-exploits
 2732	Back-to-Back PlayStation 5 Hacks Hit on the Same Day	Cyberattackers stole PS5 root keys and exploited the kernel, revealing rampant insecurity in gaming devices.	https://kasperskycontenthub.com/threatpost-global/?p=176240	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/11145700/playstation-5-e1636660636843.jpg	threatpost	t	2021-11-11 22:00:02.625807+01	2021-11-11 21:06:21+01	Becky Bracken	threatpost/Back-to-Back-PlayStation-5-Hacks-Hit-on-the-Same-Day
+2733	Windows 10 App Installer abused in BazarLoader malware attacks	The TrickBot gang operators are now abusing the Windows 10 App Installer to deploy their BazarLoader malware on the systems of targets who fall victim to a highly targeted spam campaign.	https://www.bleepingcomputer.com/news/security/windows-10-app-installer-abused-in-bazarloader-malware-attacks/	https://www.bleepstatic.com/content/hl-images/2021/04/16/malware-phishing-header.jpg	bleepingcomputer	t	2021-11-11 23:00:02.232127+01	2021-11-11 22:34:07+01	Sergiu Gatlan	bleepingcomputer/Windows-10-App-Installer-abused-in-BazarLoader-malware-attacks
 \.
 
 
@@ -2783,7 +2784,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2732, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2733, true);
 
 
 --
