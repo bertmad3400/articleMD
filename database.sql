@@ -2771,6 +2771,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2725	Cyber-Mercenary Group Void Balaur Attacks High-Profile Targets for Cash	A Russian-language threat group is available for hire, to steal data on journalists, political leaders, activists and from organizations in every sector.	https://kasperskycontenthub.com/threatpost-global/?p=176230	https://media.threatpost.com/wp-content/uploads/sites/103/2021/05/13135843/network-defense.jpg	threatpost	t	2021-11-11 20:00:01.798382+01	2021-11-11 19:48:06+01	Becky Bracken	threatpost/Cyber-Mercenary-Group-Void-Balaur-Attacks-High-Profile-Targets-for-Cash
 2726	How to fix the Windows 0x0000007c network printing error	A Windows security update released in October caused widespread Windows 10 and Windows 11 issues where users experience 0x0000007c errors when adding or printing to network printers. This article describes a fix you can use for the 0x0000007c printing errors.	https://www.bleepingcomputer.com/news/microsoft/how-to-fix-the-windows-0x0000007c-network-printing-error/	https://www.bleepstatic.com/content/hl-images/2021/04/16/broken-windows-header.jpg	bleepingcomputer	t	2021-11-11 20:00:01.798382+01	2021-11-11 19:54:31+01	Lawrence Abrams	bleepingcomputer/How-to-fix-the-Windows-0x0000007c-network-printing-error
 2727	AMD fixes dozens of Windows 10 graphics driver security bugs	AMD has fixed a long list of security vulnerabilities found in its graphics driver for Windows 10 devices, allowing attackers to execute arbitrary code and elevate privileges on vulnerable systems.	https://www.bleepingcomputer.com/news/security/amd-fixes-dozens-of-windows-10-graphics-driver-security-bugs/	https://www.bleepstatic.com/content/hl-images/2021/11/11/AMD.jpg	bleepingcomputer	t	2021-11-11 20:00:01.798382+01	2021-11-11 19:13:41+01	Sergiu Gatlan	bleepingcomputer/AMD-fixes-dozens-of-Windows-10-graphics-driver-security-bugs
+2728	Russian 'King of Fraud' sentenced to 10 years for Methbot scheme	The U.S. Department of Justice (DOJ) sentenced a Russian man for operating a large-scale digital advertising fraud scheme called 'Methbot' ('3ve') that stole at least $7 million from American companies.	https://www.bleepingcomputer.com/news/legal/russian-king-of-fraud-sentenced-to-10-years-for-methbot-scheme/	https://www.bleepstatic.com/content/hl-images/2021/11/11/prison.jpg	bleepingcomputer	t	2021-11-11 21:00:02.116643+01	2021-11-11 15:24:53+01	Bill Toulas	bleepingcomputer/Russian-King-of-Fraud-sentenced-to-10-years-for-Methbot-scheme
 \.
 
 
@@ -2778,7 +2779,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2727, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2728, true);
 
 
 --
