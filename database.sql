@@ -2786,6 +2786,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2740	This sneaky trick lets attackers smuggle malware onto your network | ZDNet	Cyber criminals learn how to create crafty web attacks from state-sponsored hackers, Microsoft warns.	https://www.zdnet.com/article/this-sneaky-trick-lets-attackers-smuggle-malware-onto-your-network/	https://www.zdnet.com/a/img/resize/f57b881368d47b19d97fc0ed6fbc52e2049d3a42/2021/11/12/1009069e-b786-4439-8f60-db646c3d12c2/shutterstock-329361314.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-12 12:00:02.217262+01	2021-11-12 10:28:02+01	Liam Tung	zdnet/This-sneaky-trick-lets-attackers-smuggle-malware-onto-your-network
 2741	Google warns of hackers using macOS zero-day flaw to capture keystrokes, screengrabs | ZDNet	Likely state-sponsored engineers create a Mac hack that was used for at least the past three months.	https://www.zdnet.com/article/google-warns-of-hackers-using-macos-zero-day-flaw-to-capture-keystrokes-screengrabs/	https://www.zdnet.com/a/img/resize/0d927c93b5c7abd68304637ad5badbee1d09e521/2021/10/15/3eab866d-2d38-4d61-a69c-c255bd7bd477/shutterstock-2032695119.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-12 13:00:01.785252+01	2021-11-12 11:21:53+01	Liam Tung	zdnet/Google-warns-of-hackers-using-macOS-zero-day-flaw-to-capture-keystrokes-screengrabs
 2742	Zero-day bug in all Windows versions gets free unofficial patch	A free and unofficial patch is now available for a zero-day local privilege escalation vulnerability in the Windows User Profile Service that lets attackers gain SYSTEM privileges under certain conditions.	https://www.bleepingcomputer.com/news/microsoft/zero-day-bug-in-all-windows-versions-gets-free-unofficial-patch/	https://www.bleepstatic.com/content/hl-images/2021/07/09/Windows.jpg	bleepingcomputer	t	2021-11-12 14:00:02.472328+01	2021-11-12 13:28:40+01	Sergiu Gatlan	bleepingcomputer/Zero-day-bug-in-all-Windows-versions-gets-free-unofficial-patch
+2743	Millions of Routers, IoT Devices at Risk from New Open-Source Malware	BotenaGo, written in Google’s Golang programming language, can exploit more than 30 different vulnerabilities.	https://kasperskycontenthub.com/threatpost-global/?p=176270	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/12081341/code-malware.jpg	threatpost	t	2021-11-12 15:00:02.40686+01	2021-11-12 14:14:44+01	Elizabeth Montalbano	threatpost/Millions-of-Routers-IoT-Devices-at-Risk-from-New-Open-Source-Malware
 \.
 
 
@@ -2793,7 +2794,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2742, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2743, true);
 
 
 --
