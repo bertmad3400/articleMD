@@ -2788,6 +2788,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2742	Zero-day bug in all Windows versions gets free unofficial patch	A free and unofficial patch is now available for a zero-day local privilege escalation vulnerability in the Windows User Profile Service that lets attackers gain SYSTEM privileges under certain conditions.	https://www.bleepingcomputer.com/news/microsoft/zero-day-bug-in-all-windows-versions-gets-free-unofficial-patch/	https://www.bleepstatic.com/content/hl-images/2021/07/09/Windows.jpg	bleepingcomputer	t	2021-11-12 14:00:02.472328+01	2021-11-12 13:28:40+01	Sergiu Gatlan	bleepingcomputer/Zero-day-bug-in-all-Windows-versions-gets-free-unofficial-patch
 2743	Millions of Routers, IoT Devices at Risk from New Open-Source Malware	BotenaGo, written in Google’s Golang programming language, can exploit more than 30 different vulnerabilities.	https://kasperskycontenthub.com/threatpost-global/?p=176270	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/12081341/code-malware.jpg	threatpost	t	2021-11-12 15:00:02.40686+01	2021-11-12 14:14:44+01	Elizabeth Montalbano	threatpost/Millions-of-Routers-IoT-Devices-at-Risk-from-New-Open-Source-Malware
 2744	Transavia airline fined for weak security practices that led to data breach	The Dutch Data Protection Agency has levied a €400,000 ($455,000) fine today against Transavia, a Dutch airline that operates low-cost routes across Europe, for a security breach that allowed a hacker to steal the personal details of more than 83,000 passengers.	https://therecord.media/transavia-airline-fined-for-weak-security-practices-that-led-to-data-breach/	https://therecord.media/wp-content/uploads/2021/11/transavia-airplane-airline.jpg	therecord	t	2021-11-12 16:00:02.540266+01	2021-11-12 15:37:47+01	Catalin Cimpanu	therecord/Transavia-airline-fined-for-weak-security-practices-that-led-to-data-breach
+2745	Costco discloses data breach after finding credit card skimmer	Costco Wholesale Corporation has warned customers in notification letters sent this month that their payment card information might have been stolen while recently shopping at one of its stores.	https://www.bleepingcomputer.com/news/security/costco-discloses-data-breach-after-finding-credit-card-skimmer/	https://www.bleepstatic.com/content/hl-images/2021/11/12/Costco_headpic.jpg	bleepingcomputer	t	2021-11-12 17:00:01.81544+01	2021-11-12 16:11:45+01	Sergiu Gatlan	bleepingcomputer/Costco-discloses-data-breach-after-finding-credit-card-skimmer
 \.
 
 
@@ -2795,7 +2796,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2744, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2745, true);
 
 
 --
