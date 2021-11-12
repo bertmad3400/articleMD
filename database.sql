@@ -2796,6 +2796,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2750	Mac Zero Day Targets Apple Devices in Hong Kong	Google researchers have detailed a widespread watering-hole attack that installed a backdoor on Apple devices that visited Hong Kong-based media and pro-democracy sites.	https://kasperskycontenthub.com/threatpost-global/?p=176300	https://media.threatpost.com/wp-content/uploads/sites/103/2020/06/30130453/watering-hole2.jpg	threatpost	t	2021-11-12 20:00:02.46117+01	2021-11-12 19:05:02+01	Lisa Vaas	threatpost/Mac-Zero-Day-Targets-Apple-Devices-in-Hong-Kong
 2751	Microsoft Intune bug forces Samsung devices into non-compliant state	Microsoft says some Samsung Galaxy devices will be marked as non-compliant with the organization's security requirements in Microsoft Intune's management interface after automatic restarts or after installing managed updates.	https://www.bleepingcomputer.com/news/microsoft/microsoft-intune-bug-forces-samsung-devices-into-non-compliant-state/	https://www.bleepstatic.com/content/hl-images/2021/11/12/Microsoft_Intune__headpic.jpg	bleepingcomputer	t	2021-11-12 20:00:02.46117+01	2021-11-12 19:56:10+01	Sergiu Gatlan	bleepingcomputer/Microsoft-Intune-bug-forces-Samsung-devices-into-non-compliant-state
 2752	QBot returns for a new wave of infections using Squirrelwaffle	The activity of the QBot (also known as Quakbot) banking trojan is spiking again, and analysts from multiple security research firms attribute this to the rise of Squirrelwaffle.	https://www.bleepingcomputer.com/news/security/qbot-returns-for-a-new-wave-of-infections-using-squirrelwaffle/	https://www.bleepstatic.com/content/hl-images/2020/08/27/QBot.jpg	bleepingcomputer	t	2021-11-12 20:00:02.46117+01	2021-11-12 18:45:11+01	Bill Toulas	bleepingcomputer/QBot-returns-for-a-new-wave-of-infections-using-Squirrelwaffle
+2753	Ransomware experts question massive Pysa/Mespinoza victim dump | ZDNet	The prolific ransomware group dumped more than 50 victim names onto its leak site this week.	https://www.zdnet.com/article/ransomware-experts-question-massive-pysamespinoza-victim-dump/	https://www.zdnet.com/a/img/resize/f32078c4c65488cb2c34e59ef29b9c0de9e06791/2019/12/16/e39b2ee1-7c73-4047-975b-55949a9158ee/ransomware.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-12 21:00:02.244255+01	2021-11-12 19:18:17+01	Jonathan Greig	zdnet/Ransomware-experts-question-massive-PysaMespinoza-victim-dump
+2754	Windows 10 Privilege-Escalation Zero-Day Gets an Unofficial Fix	Researchers warn that CVE-2021-34484 can be exploited with a patch bypass for a bug originally addressed in August by Microsoft.	https://kasperskycontenthub.com/threatpost-global/?p=176313	https://media.threatpost.com/wp-content/uploads/sites/103/2019/06/11161849/microsoft_patch.png	threatpost	t	2021-11-12 21:00:02.244255+01	2021-11-12 20:49:05+01	Tara Seals	threatpost/Windows-10-Privilege-Escalation-Zero-Day-Gets-an-Unofficial-Fix
 \.
 
 
@@ -2803,7 +2805,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2752, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2754, true);
 
 
 --
