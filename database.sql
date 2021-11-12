@@ -2783,6 +2783,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2737	US President Biden signs law to ban Huawei and ZTE from receiving FCC licences | ZDNet	The Secure Equipment Act of 2021 received bipartisan support prior to it being signed by Biden.	https://www.zdnet.com/article/us-president-biden-signs-law-to-ban-huawei-and-zte-from-receiving-fcc-licences/	https://www.zdnet.com/a/img/resize/d0068f09ec7d37419234f2e0bf38719ce743272a/2021/04/13/5e397156-6670-49c1-8233-9a8625116172/gettyimages-1176148198.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-12 01:00:02.470854+01	2021-11-11 23:02:09+01	Campbell Kwan	zdnet/US-President-Biden-signs-law-to-ban-Huawei-and-ZTE-from-receiving-FCC-licences
 2738	The new Microsoft Store is now rolling out to Windows 10 PCs	Microsoft has started rolling out Windows 11's new Microsoft Store to Windows 10, allowing users a greater option of apps for users to install.	https://www.bleepingcomputer.com/news/microsoft/the-new-microsoft-store-is-now-rolling-out-to-windows-10-pcs/	https://www.bleepstatic.com/content/hl-images/2021/11/11/new-microsoft-store-header.jpg	bleepingcomputer	t	2021-11-12 01:00:02.470854+01	2021-11-12 00:18:21+01	Lawrence Abrams	bleepingcomputer/The-new-Microsoft-Store-is-now-rolling-out-to-Windows-10-PCs
 2739	macOS zero-day deployed via Hong Kong pro-democracy news sites	A suspected state-sponsored threat actor has used Hong Kong pro-democracy news sites to deploy a macOS zero-day exploit chain that installed a backdoor on visitors' computers.	https://therecord.media/macos-zero-day-deployed-via-hong-kong-pro-democracy-news-sites/	https://therecord.media/wp-content/uploads/2021/11/hong-kong.jpg	therecord	t	2021-11-12 03:00:01.926459+01	2021-11-12 02:13:17+01	Catalin Cimpanu	therecord/macOS-zero-day-deployed-via-Hong-Kong-pro-democracy-news-sites
+2740	This sneaky trick lets attackers smuggle malware onto your network | ZDNet	Cyber criminals learn how to create crafty web attacks from state-sponsored hackers, Microsoft warns.	https://www.zdnet.com/article/this-sneaky-trick-lets-attackers-smuggle-malware-onto-your-network/	https://www.zdnet.com/a/img/resize/f57b881368d47b19d97fc0ed6fbc52e2049d3a42/2021/11/12/1009069e-b786-4439-8f60-db646c3d12c2/shutterstock-329361314.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-12 12:00:02.217262+01	2021-11-12 10:28:02+01	Liam Tung	zdnet/This-sneaky-trick-lets-attackers-smuggle-malware-onto-your-network
 \.
 
 
@@ -2790,7 +2791,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2739, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2740, true);
 
 
 --
