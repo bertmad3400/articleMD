@@ -2806,6 +2806,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2760	Security company faces backlash for waiting 12 months to disclose Palo Alto 0-day | ZDNet	Randori has faced a barrage of criticism for its decision to wait one year to publish a notice about a vulnerability it found in 2020.	https://www.zdnet.com/article/security-company-faces-backlash-for-waiting-12-months-to-disclose-palo-alto-0-day/	https://www.zdnet.com/a/img/resize/c581b06f0820dddabd74e567c09687f89c09f904/2019/09/13/c224c4f2-d4de-400a-bf50-53b1a004d0dd/microsoft-patches-two-zerodays-in-massiv-5d7b5eb826d15a000100ea3c-1-sep-13-2019-13-48-04-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-13 00:00:02.368868+01	2021-11-12 22:25:09+01	Jonathan Greig	zdnet/Security-company-faces-backlash-for-waiting-12-months-to-disclose-Palo-Alto-0-day
 2761	RHEL 8.5 delivers key container improvements | ZDNet	The latest version of Red Hat Enterprise Linux is ready to run on Windows, Linux, and macOS.	https://www.zdnet.com/article/rhel-8-5-arrives/	https://www.zdnet.com/a/img/resize/98c9a72e69f2cf3b62a4e2aea2d81d7627d53ac6/2021/11/04/abe03b9a-44eb-43d7-a350-a9d509418a8d/shutterstock-1407927086-red-hat.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-13 00:00:02.368868+01	2021-11-12 22:03:33+01	Steven J. Vaughan-Nichols	zdnet/RHEL-85-delivers-key-container-improvements
 2762	Costco Confirms: A Data Skimmer’s Been Ripping Off Customers	Big-box behemoth retailer Costco is offering victims 12 months of credit monitoring, a $1 million insurance reimbursement policy and ID theft recovery services.	https://kasperskycontenthub.com/threatpost-global/?p=176320	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/12181547/costco-e1636758959716.jpeg	threatpost	t	2021-11-13 01:00:02.419033+01	2021-11-13 00:19:17+01	Lisa Vaas	threatpost/Costco-Confirms-A-Data-Skimmers-Been-Ripping-Off-Customers
+2763	Threat from Organized Cybercrime Syndicates Is Rising	Europol reports that criminal groups are undermining the EU’s economy and its society, offering everything from murder-for-hire to kidnapping, torture and mutilation.	https://kasperskycontenthub.com/threatpost-global/?p=176326	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/12193745/organized-crime-e1636763880299.jpeg	threatpost	t	2021-11-13 02:00:02.5617+01	2021-11-13 01:46:28+01	Becky Bracken	threatpost/Threat-from-Organized-Cybercrime-Syndicates-Is-Rising
 \.
 
 
@@ -2813,7 +2814,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2762, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2763, true);
 
 
 --
