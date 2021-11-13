@@ -2811,6 +2811,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2765	Fake end-to-end encrypted chat app distributes Android spyware	The GravityRAT remote access trojan is being distributed in the wild again, this time under the guise of an end-to-end encrypted chat application called SoSafe Chat.	https://www.bleepingcomputer.com/news/security/fake-end-to-end-encrypted-chat-app-distributes-android-spyware/	https://www.bleepstatic.com/content/hl-images/2021/05/13/spyware.jpg	bleepingcomputer	t	2021-11-13 20:00:02.718691+01	2021-11-13 17:12:06+01	Bill Toulas	bleepingcomputer/Fake-end-to-end-encrypted-chat-app-distributes-Android-spyware
 2766	Surveillance firm pays $1 million fine after 'spy van' scandal	The Office of the Commissioner for Personal Data Protection in Cyprus has collected a $1 million fine from intelligence company WiSpear for gathering mobile data from various individuals arriving at the airport in Larnaca.	https://www.bleepingcomputer.com/news/security/surveillance-firm-pays-1-million-fine-after-spy-van-scandal/	https://www.bleepstatic.com/content/posts/2021/11/12/WiSpearVan.jpg	bleepingcomputer	t	2021-11-13 20:00:02.718691+01	2021-11-13 16:01:02+01	Ionut Ilascu	bleepingcomputer/Surveillance-firm-pays-1-million-fine-after-spy-van-scandal
 2767	New Windows 11 build fixes widespread printer issues, system freezes	Microsoft has fixed a long list of issues impacting Windows 11 in a newly released build for Windows Insiders in the Beta and Release Preview Channels.	https://www.bleepingcomputer.com/news/microsoft/new-windows-11-build-fixes-widespread-printer-issues-system-freezes/	https://www.bleepstatic.com/content/hl-images/2021/10/21/windows-11-gradient-header.jpg	bleepingcomputer	t	2021-11-13 20:00:02.718691+01	2021-11-13 14:00:00+01	Sergiu Gatlan	bleepingcomputer/New-Windows-11-build-fixes-widespread-printer-issues-system-freezes
+2768	Official FBI email server hacked, used to send fake threat	A group of unidentified hackers have compromised one of the FBI's email servers and have sent out a massive wave of spam emails containing a warning about a (fake) cyberattack that was allegedly taking place.	https://therecord.media/official-fbi-email-server-hacked-used-to-send-fake-threat/	https://www-therecord.recfut.com/wp-content/uploads/2021/05/FBI.jpg	therecord	t	2021-11-14 00:00:02.101145+01	2021-11-13 23:59:41+01	Catalin Cimpanu	therecord/Official-FBI-email-server-hacked-used-to-send-fake-threat
 \.
 
 
@@ -2818,7 +2819,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2767, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2768, true);
 
 
 --
