@@ -2818,6 +2818,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2772	Exchange Exploit Leads to Domain Wide Ransomware	ProxyShell was used to deploy multiple web shells which lead to discovery actions, dumping of LSASS, use of Plink and Fast Reverse Proxy to proxy RDP connections into the environment. Furthermore, the actors encrypted systems domain wide, using BitLocker on servers and DiskCryptor on workstations, rather than affiliating with Ransomware as a Servic	https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/	https://thedfirreport.com/wp-content/uploads/2021/11/ransom2.png	dfirreport	t	2021-11-15 04:00:02.463818+01	2021-11-15 03:06:59+01	editor	dfirreport/Exchange-Exploit-Leads-to-Domain-Wide-Ransomware
 2773	China’a cyber watchdog unveils new draft data management regulations	The Cyberspace Administration of China, the nation’s cybersecurity watchdog, issued a set of draft regulations on Sunday aimed at protecting the nation’s internet data security.	https://therecord.media/chinaa-cyber-watchdog-unveils-new-draft-data-management-regulations/	https://therecord.media/wp-content/uploads/2021/11/china-flag-beijing.png	therecord	t	2021-11-15 10:00:01.761446+01	2021-11-15 09:37:22+01	Catalin Cimpanu	therecord/Chinaa-cyber-watchdog-unveils-new-draft-data-management-regulations
 2774	New Microsoft emergency updates fix Windows Server auth issues	Microsoft has released out-of-band updates to address authentication failures related to Kerberos delegation scenarios impacting Domain Controllers (DC) running supported versions of Windows Server.	https://www.bleepingcomputer.com/news/microsoft/new-microsoft-emergency-updates-fix-windows-server-auth-issues/	https://www.bleepstatic.com/content/hl-images/2021/09/15/Microsoft_passwordless.jpg	bleepingcomputer	t	2021-11-15 11:00:02.162081+01	2021-11-15 10:35:02+01	Sergiu Gatlan	bleepingcomputer/New-Microsoft-emergency-updates-fix-Windows-Server-auth-issues
+2775	China looks to classify online data in draft security laws | ZDNet	Cyberspace Administration of China is seeking public opinions on draft regulations it just released that seek to classify, and secure, online data into three main categories based on their importance to national security, public interest, and business interests.	https://www.zdnet.com/article/china-looks-to-classify-online-data-in-draft-security-laws/	https://www.zdnet.com/a/img/resize/638a05b1b1150a1d0cfbc553f5a84e91c9a33d73/2014/11/28/bc1817d2-76b3-11e4-b569-d4ae52e95e57/china-claims-over-half-the-worlds-q3-tech-ipos-pwc.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-15 12:00:02.685339+01	2021-11-15 09:55:31+01	Eileen Yu	zdnet/China-looks-to-classify-online-data-in-draft-security-laws
 \.
 
 
@@ -2825,7 +2826,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2774, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2775, true);
 
 
 --
