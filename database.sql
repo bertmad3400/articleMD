@@ -2838,6 +2838,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2792	High-Severity Intel Processor Bug Exposes Encryption Keys	CVE-2021-0146, arising from a debugging functionality with excessive privileges, allows attackers to read encrypted files.	https://kasperskycontenthub.com/threatpost-global/?p=176355	https://media.threatpost.com/wp-content/uploads/sites/103/2021/03/30084352/intel-building-logo.jpg	threatpost	t	2021-11-15 22:00:01.987911+01	2021-11-15 21:52:27+01	Tara Seals	threatpost/High-Severity-Intel-Processor-Bug-Exposes-Encryption-Keys
 2791	Emotet malware is back and rebuilding its botnet via TrickBot	The Emotet malware was considered the most widely spread malware in the past, using spam campaigns and malicious attachments to distribute the malware.	https://www.bleepingcomputer.com/news/security/emotet-malware-is-back-and-rebuilding-its-botnet-via-trickbot/	https://www.bleepstatic.com/content/hl-images/2020/07/28/Emotet.jpg	bleepingcomputer	t	2021-11-15 22:00:01.987911+01	2021-11-15 21:04:23+01	Lawrence Abrams	bleepingcomputer/Emotet-malware-is-back-and-rebuilding-its-botnet-via-TrickBot
 2793	Cybercriminals Target Alibaba Cloud for Cryptomining, Malware	Cybercriminals are targeting Alibaba Elastic Computing Service (ECS) instances, disabling certain security features to further their cryptomining goals. Alibaba offers a few unique options that make it a highly attractive target for attackers, researchers noted. According to research from Trend Micro, the Chinese giant’s cloud (also known as Aliyun	https://kasperskycontenthub.com/threatpost-global/?p=176348	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/26165929/clouds-e1635281983435.jpg	threatpost	t	2021-11-15 22:00:01.987911+01	2021-11-15 21:10:15+01	Tara Seals	threatpost/Cybercriminals-Target-Alibaba-Cloud-for-Cryptomining-Malware
+2795	New Rowhammer technique bypasses existing DDR4 memory defenses	Researchers have developed a new fuzzing-based technique called 'Blacksmith' that revives Rowhammer vulnerability attacks against modern DRAM devices that bypasses existing mitigations.	https://www.bleepingcomputer.com/news/security/new-rowhammer-technique-bypasses-existing-ddr4-memory-defenses/	https://www.bleepstatic.com/content/hl-images/2021/11/15/hammers.jpg	bleepingcomputer	t	2021-11-16 00:00:02.140396+01	2021-11-15 23:27:28+01	Bill Toulas	bleepingcomputer/New-Rowhammer-technique-bypasses-existing-DDR4-memory-defenses
 \.
 
 
@@ -2845,7 +2846,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2794, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2795, true);
 
 
 --
