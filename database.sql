@@ -2821,6 +2821,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2775	China looks to classify online data in draft security laws | ZDNet	Cyberspace Administration of China is seeking public opinions on draft regulations it just released that seek to classify, and secure, online data into three main categories based on their importance to national security, public interest, and business interests.	https://www.zdnet.com/article/china-looks-to-classify-online-data-in-draft-security-laws/	https://www.zdnet.com/a/img/resize/638a05b1b1150a1d0cfbc553f5a84e91c9a33d73/2014/11/28/bc1817d2-76b3-11e4-b569-d4ae52e95e57/china-claims-over-half-the-worlds-q3-tech-ipos-pwc.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-15 12:00:02.685339+01	2021-11-15 09:55:31+01	Eileen Yu	zdnet/China-looks-to-classify-online-data-in-draft-security-laws
 2776	Costco says card skimmers were found at Chicago-area warehouses, less than 500 people affected | ZDNet	The global retailers said in August, they discovered five card skimmers on payment card devices in four of their warehouses.	https://www.zdnet.com/article/costco-says-card-skimmers-were-found-at-chicago-area-warehouses-less-than-500-people-affected/	https://www.zdnet.com/a/img/resize/2242507c5f6273e5c4bf8a262959608f5c4eb28c/2021/11/12/db76d98c-531a-46c9-ab8a-ce478e64214f/costco.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-15 13:00:02.123154+01	2021-11-15 12:00:06+01	Jonathan Greig	zdnet/Costco-says-card-skimmers-were-found-at-Chicago-area-warehouses-less-than-500-people-affected
 2777	Time to upgrade? Windows 10 version 2004 support ends soon | ZDNet	Move to supported Windows 10 or Windows 11.	https://www.zdnet.com/article/time-to-upgrade-windows-10-version-2004-support-ends-soon/	https://www.zdnet.com/a/img/resize/9d53092791528ecd774c9696532d0aacf1e2d321/2021/11/15/4ae55973-a007-4ddb-be6f-0011754ba9d7/shutterstock-380434249.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-15 13:00:02.123154+01	2021-11-15 11:35:31+01	Liam Tung	zdnet/Time-to-upgrade-Windows-10-version-2004-support-ends-soon
+2778	New Moses Staff group targets Israeli organizations in destructive attacks	A new hacking group named Moses Staff has attacked Israeli organizations, breached their networks, encrypted their data, but has then refused to negotiate ransom payments, in what security researchers are describing as politically-motivated destructive attacks.	https://therecord.media/new-moses-staff-group-targets-israeli-organizations-in-destructive-attacks/	https://therecord.media/wp-content/uploads/2021/11/Moses-Staff.png	therecord	t	2021-11-15 14:00:02.20601+01	2021-11-15 13:09:36+01	Catalin Cimpanu	therecord/New-Moses-Staff-group-targets-Israeli-organizations-in-destructive-attacks
 \.
 
 
@@ -2828,7 +2829,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2777, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2778, true);
 
 
 --
