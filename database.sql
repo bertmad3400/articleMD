@@ -2816,6 +2816,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2770	Home Affairs launches new principles for critical technology supply chain security | ZDNet	The federal government's Critical Technology Supply Chain Principles are designed to sit alongside laws that are currently under consideration in Parliament.	https://www.zdnet.com/article/home-affairs-launches-new-principles-for-critical-technology-supply-chain-security/	https://www.zdnet.com/a/img/resize/d178df15fc3ec23a5110476d5ccdb001a345cb45/2021/10/06/d637fa38-32ac-41fe-9ae5-d0a76a785711/tax-security-lock.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-15 01:00:02.737537+01	2021-11-14 23:17:59+01	Campbell Kwan	zdnet/Home-Affairs-launches-new-principles-for-critical-technology-supply-chain-security
 2771	Bad form: FBI server sending fake emails taken offline and fixed, no data impacted | ZDNet	Far from complex, the sender manipulated a POST request to send an email from FB infrastructure, and automated it.	https://www.zdnet.com/article/bad-form-fbi-server-sending-fake-emails-taken-offline-and-fixed-no-data-impacted/	https://www.zdnet.com/a/img/resize/13ae50dad19fad76a55ec6b4fa192d06429898b4/2021/09/27/11cf4ae8-38a8-4caa-8a94-b2652ec8bc61/fbi-decision-to-withhold-kaseya-ransomware.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-15 02:00:01.82552+01	2021-11-15 00:33:54+01	Chris Duckett	zdnet/Bad-form-FBI-server-sending-fake-emails-taken-offline-and-fixed-no-data-impacted
 2772	Exchange Exploit Leads to Domain Wide Ransomware	ProxyShell was used to deploy multiple web shells which lead to discovery actions, dumping of LSASS, use of Plink and Fast Reverse Proxy to proxy RDP connections into the environment. Furthermore, the actors encrypted systems domain wide, using BitLocker on servers and DiskCryptor on workstations, rather than affiliating with Ransomware as a Servic	https://thedfirreport.com/2021/11/15/exchange-exploit-leads-to-domain-wide-ransomware/	https://thedfirreport.com/wp-content/uploads/2021/11/ransom2.png	dfirreport	t	2021-11-15 04:00:02.463818+01	2021-11-15 03:06:59+01	editor	dfirreport/Exchange-Exploit-Leads-to-Domain-Wide-Ransomware
+2773	China’a cyber watchdog unveils new draft data management regulations	The Cyberspace Administration of China, the nation’s cybersecurity watchdog, issued a set of draft regulations on Sunday aimed at protecting the nation’s internet data security.	https://therecord.media/chinaa-cyber-watchdog-unveils-new-draft-data-management-regulations/	https://therecord.media/wp-content/uploads/2021/11/china-flag-beijing.png	therecord	t	2021-11-15 10:00:01.761446+01	2021-11-15 09:37:22+01	Catalin Cimpanu	therecord/Chinaa-cyber-watchdog-unveils-new-draft-data-management-regulations
 \.
 
 
@@ -2823,7 +2824,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2772, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2773, true);
 
 
 --
