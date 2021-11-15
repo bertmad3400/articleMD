@@ -2830,6 +2830,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2782	DHS launches new effort to attract cybersecurity talent	The Homeland Security Department on Monday unveiled a new program that gives it more flexibility to recruit and retain cybersecurity personnel.	https://therecord.media/dhs-launches-new-effort-to-attract-cybersecurity-talent/	https://therecord.media/wp-content/uploads/2021/03/bigstock-Indianapolis-Circa-August-255069790-scaled.jpg	therecord	t	2021-11-15 17:00:01.996949+01	2021-11-15 16:25:48+01	Martin Matishak	therecord/DHS-launches-new-effort-to-attract-cybersecurity-talent
 2783	7 million Robinhood user email addresses for sale on hacker forum	The data for approximately 7 million Robinhood customers stolen in a recent data breach are being sold on a popular hacking forum and marketplace.	https://www.bleepingcomputer.com/news/security/7-million-robinhood-user-email-addresses-for-sale-on-hacker-forum/	https://www.bleepstatic.com/content/hl-images/2021/11/08/robinhood-header.jpg	bleepingcomputer	t	2021-11-15 17:00:01.996949+01	2021-11-15 16:52:48+01	Lawrence Abrams	bleepingcomputer/7-million-Robinhood-user-email-addresses-for-sale-on-hacker-forum
 2784	Moses Staff hackers wreak havoc on Israeli orgs with ransomless encryptions	A new hacker group named Moses Staff has recently claimed responsibility for numerous attacks against Israeli entities, which appear politically motivated as they do not make any ransom payment demands.	https://www.bleepingcomputer.com/news/security/moses-staff-hackers-wreak-havoc-on-israeli-orgs-with-ransomless-encryptions/	https://www.bleepstatic.com/content/hl-images/2021/11/15/moses_staff.jpg	bleepingcomputer	t	2021-11-15 17:00:01.996949+01	2021-11-15 16:01:15+01	Bill Toulas	bleepingcomputer/Moses-Staff-hackers-wreak-havoc-on-Israeli-orgs-with-ransomless-encryptions
+2787	High severity BIOS flaws affect numerous Intel processors	Intel has released an advisory to confirm the existence of two high-severity vulnerabilities that affect a wide range of Intel processor families.	https://www.bleepingcomputer.com/news/security/high-severity-bios-flaws-affect-numerous-intel-processors/	https://www.bleepstatic.com/content/hl-images/2021/01/26/Intel-CPU.jpg	bleepingcomputer	t	2021-11-15 19:00:02.472731+01	2021-11-15 18:15:37+01	Bill Toulas	bleepingcomputer/High-severity-BIOS-flaws-affect-numerous-Intel-processors
+2788	A new Android banking trojan named SharkBot is makings its presence felt	Security researchers have discovered a new Android banking trojan capable of hijacking users' smartphones and emptying out e-banking and cryptocurrency accounts.	https://therecord.media/a-new-android-banking-trojan-named-sharkbot-is-makings-its-presence-felt/	https://therecord.media/wp-content/uploads/2021/11/shark.png	therecord	t	2021-11-15 19:00:02.472731+01	2021-11-15 18:10:17+01	Catalin Cimpanu	therecord/A-new-Android-banking-trojan-named-SharkBot-is-makings-its-presence-felt
 \.
 
 
@@ -2837,7 +2839,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2786, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2788, true);
 
 
 --
