@@ -2853,6 +2853,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2807	Adult cam site StripChat exposes the data of millions of users and cam models	StripChat, one of the internet's top 5 adult cam sites, has suffered a security breach and has leaked the personal data of millions of users and adult models.	https://therecord.media/adult-cam-site-stripchat-exposes-the-data-of-millions-of-users-and-cam-models/	https://therecord.media/wp-content/uploads/2021/11/StripChat.png	therecord	t	2021-11-16 16:00:02.283405+01	2021-11-16 15:15:40+01	Catalin Cimpanu	therecord/Adult-cam-site-StripChat-exposes-the-data-of-millions-of-users-and-cam-models
 2808	Ransomware gangs are now rich enough to buy zero-day flaws, say researchers | ZDNet	Zero-day cybersecurity vulnerabilities have traditionally been the area of nation-states - but now criminal gangs have the funds to buy their own.	https://www.zdnet.com/article/ransomware-gangs-are-now-rich-enough-to-buy-zero-day-flaws-say-researchers/	https://www.zdnet.com/a/img/resize/26777d00af07689d20b96d09b0ffdae4e6fa83ae/2021/01/08/6604d540-9eb0-41c2-9f00-6fbf24d996f7/hacker-hands-on-a-keyboard.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-16 17:00:02.334143+01	2021-11-16 15:18:48+01	Danny Palmer	zdnet/Ransomware-gangs-are-now-rich-enough-to-buy-zero-day-flaws-say-researchers
 2809	Microsoft adds AI-driven ransomware protection to Defender	Microsoft has introduced an AI-driven ransomware attack detection system for Microsoft Defender for Endpoint customers that complements existing cloud protection by evaluating risks and blocking actors at the perimeter.	https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-ai-driven-ransomware-protection-to-defender/	https://www.bleepstatic.com/content/hl-images/2021/11/10/artificial-intelligence-face-header.jpg	bleepingcomputer	t	2021-11-16 17:00:02.334143+01	2021-11-16 16:31:03+01	Bill Toulas	bleepingcomputer/Microsoft-adds-AI-driven-ransomware-protection-to-Defender
+2810	Hundreds of WordPress sites defaced in fake ransomware attacks	Hundreds of WordPress sites have been defaced over the weekend with a message claiming that the site's data was encrypted in what security firm Sucuri has described as fake ransomware.	https://therecord.media/hundreds-of-wordpress-sites-defaced-in-fake-ransomware-attacks/	https://therecord.media/wp-content/uploads/2021/11/WordPress-ransomware.png	therecord	t	2021-11-16 18:00:02.152358+01	2021-11-16 17:33:02+01	Catalin Cimpanu	therecord/Hundreds-of-WordPress-sites-defaced-in-fake-ransomware-attacks
+2811	Federal agencies get new cybersecurity response playbooks	The Cybersecurity and Infrastructure Security Agency (CISA) released playbooks for cybersecurity incident and vulnerability response Tuesday.	https://therecord.media/federal-agencies-get-new-cybersecurity-response-playbooks/	https://therecord.media/wp-content/uploads/2021/11/Screen-Shot-2021-11-16-at-11.10.21-AM.png	therecord	t	2021-11-16 18:00:02.152358+01	2021-11-16 17:28:36+01	Andrea Peterson	therecord/Federal-agencies-get-new-cybersecurity-response-playbooks
 \.
 
 
@@ -2860,7 +2862,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2809, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2811, true);
 
 
 --
