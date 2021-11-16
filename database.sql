@@ -2864,6 +2864,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2818	Microsoft warns of the evolution of six Iranian hacking groups	The Microsoft Threat Intelligence Center (MSTIC) has presented an analysis of the evolution of several Iranian threat actors at the CyberWarCon 2021, and their findings show increasingly sophisticated attacks.	https://www.bleepingcomputer.com/news/security/microsoft-warns-of-the-evolution-of-six-iranian-hacking-groups/	https://www.bleepstatic.com/content/hl-images/2021/11/09/iran-flag-header.jpg	bleepingcomputer	t	2021-11-16 20:00:02.426683+01	2021-11-16 19:11:31+01	Bill Toulas	bleepingcomputer/Microsoft-warns-of-the-evolution-of-six-Iranian-hacking-groups
 2819	WordPress sites are being hacked in fake ransomware attacks	A new wave of attacks starting late last week has hacked close to 300 WordPress sites to display fake encryption notices, trying to trick the site owners into paying 0.1 bitcoin for restoration.	https://www.bleepingcomputer.com/news/security/wordpress-sites-are-being-hacked-in-fake-ransomware-attacks/	https://www.bleepstatic.com/content/hl-images/2020/09/10/WordPress-war.jpg	bleepingcomputer	t	2021-11-16 20:00:02.426683+01	2021-11-16 18:35:50+01	Bill Toulas	bleepingcomputer/WordPress-sites-are-being-hacked-in-fake-ransomware-attacks
 2820	These are the cryptomixers hackers use to clean their ransoms	Cryptomixers have always been at the epicenter of cybercrime activity, allowing hackers to clean cryptocurrency stolen from victims and making it hard for law enforcement to track them.	https://www.bleepingcomputer.com/news/security/these-are-the-cryptomixers-hackers-use-to-clean-their-ransoms/	https://www.bleepstatic.com/content/hl-images/2021/11/16/washing_machine.jpg	bleepingcomputer	t	2021-11-16 20:00:02.426683+01	2021-11-16 18:01:36+01	Bill Toulas	bleepingcomputer/These-are-the-cryptomixers-hackers-use-to-clean-their-ransoms
+2821	Pakistani hackers operated a fake app store to target former Afghan officials	A group of Pakistani hackers has created and operated a fake Android app store in order to target and infect individuals connected to the former Afghanistan government prior to and during its fall to the new Taliban regime.	https://therecord.media/pakistani-hackers-operated-a-fake-app-store-to-target-former-afghan-officials/	https://therecord.media/wp-content/uploads/2021/11/Kabul-Afghanistan.jpg	therecord	t	2021-11-16 22:00:01.989294+01	2021-11-16 21:21:05+01	Catalin Cimpanu	therecord/Pakistani-hackers-operated-a-fake-app-store-to-target-former-Afghan-officials
+2822	200M Adult Cam Model, User Records Exposed in Stripchat Breach	The leak included model information, chat messages and payment details.	https://kasperskycontenthub.com/threatpost-global/?p=176372	https://media.threatpost.com/wp-content/uploads/sites/103/2021/02/18084733/camera_video_lens.jpg	threatpost	t	2021-11-16 22:00:01.989294+01	2021-11-16 21:32:16+01	Becky Bracken	threatpost/200M-Adult-Cam-Model-User-Records-Exposed-in-Stripchat-Breach
 \.
 
 
@@ -2871,7 +2873,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2820, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2822, true);
 
 
 --
