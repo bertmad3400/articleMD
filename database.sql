@@ -2850,6 +2850,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2803	Emotet Resurfaces on the Back of TrickBot After Nearly a Year	Researchers observed what looks like the Emotet botnet – the world’s most dangerous malware – reborn and distributed by the trojan it used to deliver.	https://kasperskycontenthub.com/threatpost-global/?p=176362	https://media.threatpost.com/wp-content/uploads/sites/103/2020/01/22100148/trojan-malware.jpg	threatpost	t	2021-11-16 15:00:02.386533+01	2021-11-16 14:57:04+01	Elizabeth Montalbano	threatpost/Emotet-Resurfaces-on-the-Back-of-TrickBot-After-Nearly-a-Year
 2805	The US government just launched a big push to fill cybersecurity jobs, with salaries to match | ZDNet	Cybersecurity workers could get paid as much as the vice president.	https://www.zdnet.com/article/the-us-government-just-launched-a-big-push-to-fill-cybersecurity-jobs-with-salaries-to-match/	https://www.zdnet.com/a/img/resize/d3ff1798dd51f06706e7fd2fe458ed8a5d1187ce/2020/03/10/1d71ae37-59da-4e5c-ab49-9704920f13b6/developeristock-1204375813.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-16 15:00:02.386533+01	2021-11-16 13:11:18+01	Liam Tung	zdnet/The-US-government-just-launched-a-big-push-to-fill-cybersecurity-jobs-with-salaries-to-match
 2806	Bad Santa: Amazon, Facebook top Mozilla's naughty list of privacy-crushing gifts | ZDNet	Mozilla researchers spent over 950 hours examining 151 popular connected gifts, identifying 47 that had what they called problematic privacy practices.	https://www.zdnet.com/article/bad-santa-amazon-facebook-top-mozillas-naughty-list-of-privacy-crushing-gifts/	https://www.zdnet.com/a/img/resize/312204df942fd5d9ff8013fcc3c41b5faf134bf9/2021/11/10/839d0dec-fe9d-4392-add1-e702958f97e5/gettyimages-802365734.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-16 15:00:02.386533+01	2021-11-16 09:00:00+01	Jonathan Greig	zdnet/Bad-Santa-Amazon-Facebook-top-Mozillas-naughty-list-of-privacy-crushing-gifts
+2807	Adult cam site StripChat exposes the data of millions of users and cam models	StripChat, one of the internet's top 5 adult cam sites, has suffered a security breach and has leaked the personal data of millions of users and adult models.	https://therecord.media/adult-cam-site-stripchat-exposes-the-data-of-millions-of-users-and-cam-models/	https://therecord.media/wp-content/uploads/2021/11/StripChat.png	therecord	t	2021-11-16 16:00:02.283405+01	2021-11-16 15:15:40+01	Catalin Cimpanu	therecord/Adult-cam-site-StripChat-exposes-the-data-of-millions-of-users-and-cam-models
 \.
 
 
@@ -2857,7 +2858,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2806, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2807, true);
 
 
 --
