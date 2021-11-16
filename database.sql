@@ -2839,6 +2839,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2791	Emotet malware is back and rebuilding its botnet via TrickBot	The Emotet malware was considered the most widely spread malware in the past, using spam campaigns and malicious attachments to distribute the malware.	https://www.bleepingcomputer.com/news/security/emotet-malware-is-back-and-rebuilding-its-botnet-via-trickbot/	https://www.bleepstatic.com/content/hl-images/2020/07/28/Emotet.jpg	bleepingcomputer	t	2021-11-15 22:00:01.987911+01	2021-11-15 21:04:23+01	Lawrence Abrams	bleepingcomputer/Emotet-malware-is-back-and-rebuilding-its-botnet-via-TrickBot
 2793	Cybercriminals Target Alibaba Cloud for Cryptomining, Malware	Cybercriminals are targeting Alibaba Elastic Computing Service (ECS) instances, disabling certain security features to further their cryptomining goals. Alibaba offers a few unique options that make it a highly attractive target for attackers, researchers noted. According to research from Trend Micro, the Chinese giant’s cloud (also known as Aliyun	https://kasperskycontenthub.com/threatpost-global/?p=176348	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/26165929/clouds-e1635281983435.jpg	threatpost	t	2021-11-15 22:00:01.987911+01	2021-11-15 21:10:15+01	Tara Seals	threatpost/Cybercriminals-Target-Alibaba-Cloud-for-Cryptomining-Malware
 2795	New Rowhammer technique bypasses existing DDR4 memory defenses	Researchers have developed a new fuzzing-based technique called 'Blacksmith' that revives Rowhammer vulnerability attacks against modern DRAM devices that bypasses existing mitigations.	https://www.bleepingcomputer.com/news/security/new-rowhammer-technique-bypasses-existing-ddr4-memory-defenses/	https://www.bleepstatic.com/content/hl-images/2021/11/15/hammers.jpg	bleepingcomputer	t	2021-11-16 00:00:02.140396+01	2021-11-15 23:27:28+01	Bill Toulas	bleepingcomputer/New-Rowhammer-technique-bypasses-existing-DDR4-memory-defenses
+2796	China Telecom requests court to overturn US ban: Report | ZDNet	If the order remains in force, China Telecom will be forced to exit the US by early December.	https://www.zdnet.com/article/china-telecom-requests-court-to-overturn-us-ban-report/	https://www.zdnet.com/a/img/resize/01969f19a6c654bf24664d97fc13a5bade7b1af6/2021/10/27/687e143f-f9fd-4e5b-8314-d163be2092b8/china-telecom-gettyimages.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-16 08:00:02.52093+01	2021-11-16 05:57:08+01	Campbell Kwan	zdnet/China-Telecom-requests-court-to-overturn-US-ban-Report
 \.
 
 
@@ -2846,7 +2847,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2795, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2796, true);
 
 
 --
