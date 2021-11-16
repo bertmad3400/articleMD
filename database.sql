@@ -2866,6 +2866,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2820	These are the cryptomixers hackers use to clean their ransoms	Cryptomixers have always been at the epicenter of cybercrime activity, allowing hackers to clean cryptocurrency stolen from victims and making it hard for law enforcement to track them.	https://www.bleepingcomputer.com/news/security/these-are-the-cryptomixers-hackers-use-to-clean-their-ransoms/	https://www.bleepstatic.com/content/hl-images/2021/11/16/washing_machine.jpg	bleepingcomputer	t	2021-11-16 20:00:02.426683+01	2021-11-16 18:01:36+01	Bill Toulas	bleepingcomputer/These-are-the-cryptomixers-hackers-use-to-clean-their-ransoms
 2821	Pakistani hackers operated a fake app store to target former Afghan officials	A group of Pakistani hackers has created and operated a fake Android app store in order to target and infect individuals connected to the former Afghanistan government prior to and during its fall to the new Taliban regime.	https://therecord.media/pakistani-hackers-operated-a-fake-app-store-to-target-former-afghan-officials/	https://therecord.media/wp-content/uploads/2021/11/Kabul-Afghanistan.jpg	therecord	t	2021-11-16 22:00:01.989294+01	2021-11-16 21:21:05+01	Catalin Cimpanu	therecord/Pakistani-hackers-operated-a-fake-app-store-to-target-former-Afghan-officials
 2822	200M Adult Cam Model, User Records Exposed in Stripchat Breach	The leak included model information, chat messages and payment details.	https://kasperskycontenthub.com/threatpost-global/?p=176372	https://media.threatpost.com/wp-content/uploads/sites/103/2021/02/18084733/camera_video_lens.jpg	threatpost	t	2021-11-16 22:00:01.989294+01	2021-11-16 21:32:16+01	Becky Bracken	threatpost/200M-Adult-Cam-Model-User-Records-Exposed-in-Stripchat-Breach
+2823	Rooting Malware Is Back. Here’s What to Look Out For.	Hank Schless, senior manager of security solutions at Lookout, discusses AbstractEmu, mobile malware found on Google Play, Amazon Appstore and the Samsung Galaxy Store.	https://kasperskycontenthub.com/threatpost-global/?p=176376	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/16164451/Emu-scaled-e1637099112810.jpg	threatpost	t	2021-11-16 23:00:02.098706+01	2021-11-16 22:46:51+01	Hank Schless	threatpost/Rooting-Malware-Is-Back-for-Mobile-Heres-What-to-Look-Out-For
 \.
 
 
@@ -2873,7 +2874,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2822, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2823, true);
 
 
 --
