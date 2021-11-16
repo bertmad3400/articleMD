@@ -2867,6 +2867,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2821	Pakistani hackers operated a fake app store to target former Afghan officials	A group of Pakistani hackers has created and operated a fake Android app store in order to target and infect individuals connected to the former Afghanistan government prior to and during its fall to the new Taliban regime.	https://therecord.media/pakistani-hackers-operated-a-fake-app-store-to-target-former-afghan-officials/	https://therecord.media/wp-content/uploads/2021/11/Kabul-Afghanistan.jpg	therecord	t	2021-11-16 22:00:01.989294+01	2021-11-16 21:21:05+01	Catalin Cimpanu	therecord/Pakistani-hackers-operated-a-fake-app-store-to-target-former-Afghan-officials
 2822	200M Adult Cam Model, User Records Exposed in Stripchat Breach	The leak included model information, chat messages and payment details.	https://kasperskycontenthub.com/threatpost-global/?p=176372	https://media.threatpost.com/wp-content/uploads/sites/103/2021/02/18084733/camera_video_lens.jpg	threatpost	t	2021-11-16 22:00:01.989294+01	2021-11-16 21:32:16+01	Becky Bracken	threatpost/200M-Adult-Cam-Model-User-Records-Exposed-in-Stripchat-Breach
 2823	Rooting Malware Is Back. Here’s What to Look Out For.	Hank Schless, senior manager of security solutions at Lookout, discusses AbstractEmu, mobile malware found on Google Play, Amazon Appstore and the Samsung Galaxy Store.	https://kasperskycontenthub.com/threatpost-global/?p=176376	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/16164451/Emu-scaled-e1637099112810.jpg	threatpost	t	2021-11-16 23:00:02.098706+01	2021-11-16 22:46:51+01	Hank Schless	threatpost/Rooting-Malware-Is-Back-for-Mobile-Heres-What-to-Look-Out-For
+2824	FBI Email Hoaxer ID’ed by the Guy He Allegedly Loves to Torment	Vinny Troia, the cybersecurity researcher mentioned in a fake alert gushed out of the FBI’s email system, says it's just one of a string of jabs from a childish but cybercriminally talented tormentor.	https://kasperskycontenthub.com/threatpost-global/?p=176377	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/16172656/bullying-3362025_1280-e1637101628816.jpeg	threatpost	t	2021-11-17 00:00:02.036146+01	2021-11-16 23:33:59+01	Lisa Vaas	threatpost/FBI-Email-Hoaxer-IDed-by-the-Guy-He-Allegedly-Loves-to-Torment
 \.
 
 
@@ -2874,7 +2875,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2823, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2824, true);
 
 
 --
