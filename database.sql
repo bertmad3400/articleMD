@@ -2842,6 +2842,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2796	China Telecom requests court to overturn US ban: Report | ZDNet	If the order remains in force, China Telecom will be forced to exit the US by early December.	https://www.zdnet.com/article/china-telecom-requests-court-to-overturn-us-ban-report/	https://www.zdnet.com/a/img/resize/01969f19a6c654bf24664d97fc13a5bade7b1af6/2021/10/27/687e143f-f9fd-4e5b-8314-d163be2092b8/china-telecom-gettyimages.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-16 08:00:02.52093+01	2021-11-16 05:57:08+01	Campbell Kwan	zdnet/China-Telecom-requests-court-to-overturn-US-ban-Report
 2797	New banking Trojan SharkBot makes waves across Europe, US | ZDNet	The malware specializes in infiltrating Android handsets.	https://www.zdnet.com/article/new-banking-trojan-sharkbot-makes-waves-across-europe/	https://www.zdnet.com/a/img/resize/db72cd2cddf7280e9bf17e7fec78eab6237b11ba/2021/08/11/9a58774e-7724-45e0-9e32-91ac72b3a93b/extreme-networks-acquires-ipanema.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-16 11:00:01.78771+01	2021-11-16 09:59:10+01	Charlie Osborne	zdnet/New-banking-Trojan-SharkBot-makes-waves-across-Europe-US
 2798	Peloton bike, Amazon Halo Band and Facebook Portal featured on Mozilla list of holiday gifts lacking privacy features | ZDNet	Mozilla researchers spent over 950 hours examining 151 popular connected gifts, identifying 47 that had what they called problematic privacy practices.	https://www.zdnet.com/article/peloton-bike-amazon-halo-band-and-samsungs-galaxy-watch-4-featured-on-mozilla-list-for-holiday-gifts-lacking-privacy-features/	https://www.zdnet.com/a/img/resize/312204df942fd5d9ff8013fcc3c41b5faf134bf9/2021/11/10/839d0dec-fe9d-4392-add1-e702958f97e5/gettyimages-802365734.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-16 11:00:01.78771+01	2021-11-16 09:00:02+01	Jonathan Greig	zdnet/Peloton-bike-Amazon-Halo-Band-and-Facebook-Portal-featured-on-Mozilla-list-of-holiday-gifts-lacking-privacy-features
+2799	MosesStaff attacks organizations with encryption malware - no payment demand made | ZDNet	Israeli firms are being targeted for purely political and destructive purposes.	https://www.zdnet.com/article/mosesstaff-attackers-deploy-ransomware-on-your-systems-no-payment-no-decryption-possible/	https://www.zdnet.com/a/img/resize/018c38eaf6f46867fc42e657215d9b5a4ae088ac/2020/05/11/4f5908f2-fe92-4767-98e2-4a4fc906a8a7/hacking-future-and-attack-concept.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-16 13:00:02.022012+01	2021-11-16 11:44:00+01	Charlie Osborne	zdnet/MosesStaff-attacks-organizations-with-encryption-malware---no-payment-demand-made
 \.
 
 
@@ -2849,7 +2850,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2798, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2799, true);
 
 
 --
