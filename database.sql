@@ -2888,6 +2888,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2842	Russian ransomware gangs start collaborating with Chinese hackers	​There's some unusual activity brewing on Russian-speaking cybercrime forums, where hackers appear to be reaching out to Chinese counterparts for collaboration.	https://www.bleepingcomputer.com/news/security/russian-ransomware-gangs-start-collaborating-with-chinese-hackers/	https://www.bleepstatic.com/content/hl-images/2021/03/04/hacker-header.jpg	bleepingcomputer	t	2021-11-17 20:00:02.554103+01	2021-11-17 19:31:23+01	Bill Toulas	bleepingcomputer/Russian-ransomware-gangs-start-collaborating-with-Chinese-hackers
 2843	Most SS7 exploit service providers on dark web are scammers	The existence of Signaling System 7 (SS7) mobile telephony protocol vulnerabilities is something security researchers warned about in 2016, and it only took a year before the first attacks exploiting them were observed.	https://www.bleepingcomputer.com/news/security/most-ss7-exploit-service-providers-on-dark-web-are-scammers/	https://www.bleepstatic.com/content/hl-images/2021/11/08/cell_tower.jpg	bleepingcomputer	t	2021-11-17 21:00:02.387355+01	2021-11-17 20:34:39+01	Bill Toulas	bleepingcomputer/Most-SS7-exploit-service-providers-on-dark-web-are-scammers
 2844	Netflix Bait: Phishers Target Streamers with Fake Service Signups	Lures dressed up to look like movie and TV streaming offers are swiping payment data.	https://kasperskycontenthub.com/threatpost-global/?p=176422	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/17165010/Netflix-e1637185832928.png	threatpost	t	2021-11-17 23:00:02.107479+01	2021-11-17 22:56:26+01	Becky Bracken	threatpost/Netflix-Bait-Phishers-Target-Streamers-with-Fake-Service-Signups
+2845	Consumer protection in focus at FCC and FTC nomination hearings	The Senate began hearings Wednesday on nominees to help lead federal agencies key to the future of privacy and cybersecurity in the United States. 	https://therecord.media/consumer-protection-in-focus-at-fcc-and-ftc-nomination-hearings/	https://therecord.media/wp-content/uploads/2021/03/yael-clusman-qQQP4wLiSfU-unsplash-1-scaled-e1625499642946.jpg	therecord	t	2021-11-18 00:00:02.578487+01	2021-11-17 23:30:49+01	Andrea Peterson	therecord/Consumer-protection-in-focus-at-FCC-and-FTC-nomination-hearings
+2846	Fake Ransomware Infection Hits WordPress Sites	WordPress sites have been splashed with ransomware gore that’s as real as dime-store cobwebs made out of spun polyester.	https://kasperskycontenthub.com/threatpost-global/?p=176410	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/17164923/Halloween-e1637185777828.jpeg	threatpost	t	2021-11-18 00:00:02.578487+01	2021-11-17 23:06:26+01	Lisa Vaas	threatpost/Fake-Ransomware-Infection-Hits-WordPress-Sites
 \.
 
 
@@ -2895,7 +2897,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2844, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2846, true);
 
 
 --
