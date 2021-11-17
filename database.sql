@@ -2877,6 +2877,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2831	Now Iran's state-backed hackers are turning to ransomware | ZDNet	Iranian ransomware attacks are being launched in waves every six to eight weeks on average.	https://www.zdnet.com/article/now-irans-state-backed-hackers-are-turning-to-ransomware/	https://www.zdnet.com/a/img/resize/4ccdc435bf68f5f679e7e7cb04f4c06efd7bb3bc/2021/09/16/c22aaa4d-4315-43d3-ba0a-f368b6073e2a/shutterstock-1177798309.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-17 15:00:02.256431+01	2021-11-17 13:34:59+01	Liam Tung	zdnet/Now-Irans-state-backed-hackers-are-turning-to-ransomware
 2832	Netgear patches severe pre-auth RCE in 61 router and modem models	Networking equipment vendor Netgear has patched the fifth set of dangerous remote code execution bugs impacting its small office and small home (SOHO) routers this year.	https://therecord.media/netgear-deals-with-its-fifth-wave-of-severe-rce-bugs-this-year/	https://therecord.media/wp-content/uploads/2021/11/netgear.jpg	therecord	t	2021-11-17 15:00:02.256431+01	2021-11-17 14:43:48+01	Catalin Cimpanu	therecord/Netgear-patches-severe-pre-auth-RCE-in-61-router-and-modem-models
 2833	Phishing Scam Aims to Hijack TikTok ‘Influencer’ Accounts	Threat actors used malicious emails to target more than 125 people with high-profile TikTok accounts in an attempt to steal info and lock them out.	https://kasperskycontenthub.com/threatpost-global/?p=176391	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/17083123/social-meida.jpg	threatpost	t	2021-11-17 15:00:02.256431+01	2021-11-17 14:44:29+01	Elizabeth Montalbano	threatpost/Phishing-Scam-Aims-to-Hijack-TikTok-Influencer-Accounts
+2834	US, UK warn of Iranian hackers exploiting Microsoft Exchange, Fortinet	US, UK, and Australian cybersecurity agencies warned today of ongoing exploitation of Microsoft Exchange ProxyShell and Fortinet vulnerabilities linked to an Iranian-backed hacking group.	https://www.bleepingcomputer.com/news/security/us-uk-warn-of-iranian-hackers-exploiting-microsoft-exchange-fortinet/	https://www.bleepstatic.com/content/hl-images/2021/05/25/Iran-fingerprint_(1).jpg	bleepingcomputer	t	2021-11-17 16:00:02.569325+01	2021-11-17 15:44:24+01	Sergiu Gatlan	bleepingcomputer/US-UK-warn-of-Iranian-hackers-exploiting-Microsoft-Exchange-Fortinet
+2835	CISA releases cybersecurity response plans for federal agencies	The Cybersecurity and Infrastructure Security Agency (CISA) has released new cybersecurity response plans (known as playbooks) for federal civilian executive branch (FCEB) agencies.	https://www.bleepingcomputer.com/news/security/cisa-releases-cybersecurity-response-plans-for-federal-agencies/	https://www.bleepstatic.com/content/hl-images/2021/04/08/CISA.jpg	bleepingcomputer	t	2021-11-17 16:00:02.569325+01	2021-11-17 14:00:00+01	Sergiu Gatlan	bleepingcomputer/CISA-releases-cybersecurity-response-plans-for-federal-agencies
 \.
 
 
@@ -2884,7 +2886,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2833, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2835, true);
 
 
 --
