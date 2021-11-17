@@ -2886,6 +2886,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2839	TikTok phishing threatens to delete influencers’ accounts	Researchers have observed a new phishing campaign primarily targeting high-profile TikTok accounts belonging to influencers, brand consultants, production studios, and influencers' managers.	https://www.bleepingcomputer.com/news/security/tiktok-phishing-threatens-to-delete-influencers-accounts/	https://www.bleepstatic.com/content/hl-images/2021/01/25/TikTok.jpg	bleepingcomputer	t	2021-11-17 19:00:01.921688+01	2021-11-17 18:07:24+01	Bill Toulas	bleepingcomputer/TikTok-phishing-threatens-to-delete-influencers-accounts
 2841	Exchange, Fortinet Flaws Being Exploited by Iranian APT, CISA Warns	Meanwhile, a Microsoft analysis that followed six Iranian threat actor groups for over a year found them increasingly sophisticated, adapting and thriving.	https://kasperskycontenthub.com/threatpost-global/?p=176395	https://media.threatpost.com/wp-content/uploads/sites/103/2019/02/01142104/iran-apt.jpg	threatpost	t	2021-11-17 19:00:01.921688+01	2021-11-17 18:04:01+01	Lisa Vaas	threatpost/Exchange-Fortinet-Flaws-Being-Exploited-by-Iranian-APT-CISA-Warns
 2842	Russian ransomware gangs start collaborating with Chinese hackers	​There's some unusual activity brewing on Russian-speaking cybercrime forums, where hackers appear to be reaching out to Chinese counterparts for collaboration.	https://www.bleepingcomputer.com/news/security/russian-ransomware-gangs-start-collaborating-with-chinese-hackers/	https://www.bleepstatic.com/content/hl-images/2021/03/04/hacker-header.jpg	bleepingcomputer	t	2021-11-17 20:00:02.554103+01	2021-11-17 19:31:23+01	Bill Toulas	bleepingcomputer/Russian-ransomware-gangs-start-collaborating-with-Chinese-hackers
+2843	Most SS7 exploit service providers on dark web are scammers	The existence of Signaling System 7 (SS7) mobile telephony protocol vulnerabilities is something security researchers warned about in 2016, and it only took a year before the first attacks exploiting them were observed.	https://www.bleepingcomputer.com/news/security/most-ss7-exploit-service-providers-on-dark-web-are-scammers/	https://www.bleepstatic.com/content/hl-images/2021/11/08/cell_tower.jpg	bleepingcomputer	t	2021-11-17 21:00:02.387355+01	2021-11-17 20:34:39+01	Bill Toulas	bleepingcomputer/Most-SS7-exploit-service-providers-on-dark-web-are-scammers
 \.
 
 
@@ -2893,7 +2894,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2842, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2843, true);
 
 
 --
