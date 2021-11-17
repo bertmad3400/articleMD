@@ -2869,6 +2869,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2823	Rooting Malware Is Back. Here’s What to Look Out For.	Hank Schless, senior manager of security solutions at Lookout, discusses AbstractEmu, mobile malware found on Google Play, Amazon Appstore and the Samsung Galaxy Store.	https://kasperskycontenthub.com/threatpost-global/?p=176376	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/16164451/Emu-scaled-e1637099112810.jpg	threatpost	t	2021-11-16 23:00:02.098706+01	2021-11-16 22:46:51+01	Hank Schless	threatpost/Rooting-Malware-Is-Back-for-Mobile-Heres-What-to-Look-Out-For
 2824	FBI Email Hoaxer ID’ed by the Guy He Allegedly Loves to Torment	Vinny Troia, the cybersecurity researcher mentioned in a fake alert gushed out of the FBI’s email system, says it's just one of a string of jabs from a childish but cybercriminally talented tormentor.	https://kasperskycontenthub.com/threatpost-global/?p=176377	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/16172656/bullying-3362025_1280-e1637101628816.jpeg	threatpost	t	2021-11-17 00:00:02.036146+01	2021-11-16 23:33:59+01	Lisa Vaas	threatpost/FBI-Email-Hoaxer-IDed-by-the-Guy-He-Allegedly-Loves-to-Torment
 2825	Here are the new Emotet spam campaigns hitting mailboxes worldwide	The Emotet malware kicked into action yesterday after a ten-month hiatus with multiple spam campaigns delivering malicious documents to mailboxes worldwide.	https://www.bleepingcomputer.com/news/security/here-are-the-new-emotet-spam-campaigns-hitting-mailboxes-worldwide/	https://www.bleepstatic.com/content/hl-images/2020/10/06/Emotet-map.jpg	bleepingcomputer	t	2021-11-17 01:00:02.15746+01	2021-11-17 00:07:17+01	Lawrence Abrams	bleepingcomputer/Here-are-the-new-Emotet-spam-campaigns-hitting-mailboxes-worldwide
+2826	Windows 11 issue with Intel audio drivers triggers blue screens	Microsoft has confirmed a new known issue impacting Windows 11 customers and triggering to blue screens of death (BSODs) on affected systems.	https://www.bleepingcomputer.com/news/microsoft/windows-11-issue-with-intel-audio-drivers-triggers-blue-screens/	https://www.bleepstatic.com/content/hl-images/2021/09/01/windows-11-glow-glass.jpg	bleepingcomputer	t	2021-11-17 10:00:01.939714+01	2021-11-17 09:23:17+01	Sergiu Gatlan	bleepingcomputer/Windows-11-issue-with-Intel-audio-drivers-triggers-blue-screens
 \.
 
 
@@ -2876,7 +2877,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2825, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2826, true);
 
 
 --
