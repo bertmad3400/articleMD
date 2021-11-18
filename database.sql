@@ -2910,6 +2910,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2864	US charges Iranian hackers for spoofed Proud Boys emails threatening US voters	The US Department of Justice has charged today two Iranian nationals of attempting to undermine and influence the 2020 US Presidential Election through a series of hacks and influence operations carried out between September and November 2020.	https://therecord.media/us-charges-iranian-hackers-for-spoofed-proud-boys-emails-threatening-us-voters/	https://therecord.media/wp-content/uploads/2021/11/election-voting-voter-ballot.jpg	therecord	t	2021-11-18 20:00:02.407676+01	2021-11-18 19:27:31+01	Catalin Cimpanu	therecord/US-charges-Iranian-hackers-for-spoofed-Proud-Boys-emails-threatening-US-voters
 2865	3 Top Tools for Defending Against Phishing Attacks	Phishing emails are now skating past traditional defenses. Justin Jett, director of audit and compliance at Plixer, discusses what to do about it.	https://kasperskycontenthub.com/threatpost-global/?p=176463	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/18134711/fish-tropical-e1637261254230.jpg	threatpost	t	2021-11-18 20:00:02.407676+01	2021-11-18 19:49:37+01	Justin Jett	threatpost/3-Top-Tools-for-Defending-Against-Phishing-Attacks
 2866	Winamp prepares a relaunch, new beta version almost ready	Winamp is getting closer to release with a redesigned website, logo, and a new beta signup allowing users to soon test the upcoming version of the media player.	https://www.bleepingcomputer.com/news/software/winamp-prepares-a-relaunch-new-beta-version-almost-ready/	https://www.bleepstatic.com/content/hl-images/2021/11/18/winamp.jpg	bleepingcomputer	t	2021-11-18 21:00:02.43559+01	2021-11-18 20:51:27+01	Lawrence Abrams	bleepingcomputer/Winamp-prepares-a-relaunch-new-beta-version-almost-ready
+2868	Hackers deploy Linux malware, web skimmer on e-commerce servers	Security researchers discovered that attackers are also deploying a Linux backdoor on compromised e-commerce servers after injecting a credit card skimmer into online shops' websites.	https://www.bleepingcomputer.com/news/security/hackers-deploy-linux-malware-web-skimmer-on-e-commerce-servers/	https://www.bleepstatic.com/content/hl-images/2021/11/18/Linux_backdoor.jpg	bleepingcomputer	t	2021-11-18 22:00:02.012767+01	2021-11-18 19:28:32+01	Sergiu Gatlan	bleepingcomputer/Hackers-deploy-Linux-malware-web-skimmer-on-e-commerce-servers
+2867	US indicts Iranian hackers for Proud Boys voter intimidation emails	The U.S. Department of State is offering a $10 million reward for information about the activities of two Iranian nationals charged for cyber activity intended to intimidate and influence American voters during the 2020 U.S. presidential campaign.	https://www.bleepingcomputer.com/news/security/us-indicts-iranian-hackers-for-proud-boys-voter-intimidation-emails/	https://www.bleepstatic.com/content/hl-images/2021/11/09/iran-usa-flag-header.jpg	bleepingcomputer	t	2021-11-18 22:00:02.012767+01	2021-11-18 21:19:37+01	Ionut Ilascu	bleepingcomputer/US-indicts-Iranian-hackers-for-Proud-Boys-voter-intimidation-emails
 \.
 
 
@@ -2917,7 +2919,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2866, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2868, true);
 
 
 --
