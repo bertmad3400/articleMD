@@ -2901,6 +2901,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2855	How to Choose the Right DDoS Protection Solution	Pankaj Gupta, Senior Director at Citrix, outlines how distributed denial of service attacks have become increasingly sophisticated, bigger and economically motivated.	https://kasperskycontenthub.com/threatpost-global/?p=176409	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/10120505/DDoS.jpg	threatpost	t	2021-11-18 15:00:01.93135+01	2021-11-18 14:59:20+01	Threatpost	threatpost/How-to-Choose-the-Right-DDoS-Protection-Solution
 2856	North Korean cyberspies target govt officials with custom malware	A state-sponsored North Korean threat actor tracked as TA406 was recently observed deploying custom info-stealing malware in espionage campaigns.	https://www.bleepingcomputer.com/news/security/north-korean-cyberspies-target-govt-officials-with-custom-malware/	https://www.bleepstatic.com/content/hl-images/2021/10/26/north_korean_flag.jpg	bleepingcomputer	t	2021-11-18 16:00:02.28391+01	2021-11-18 15:47:45+01	Bill Toulas	bleepingcomputer/North-Korean-cyberspies-target-govt-officials-with-custom-malware
 2857	Spear-Phishing Campaign Exploits Glitch Platform to Steal Credentials	Threat actors are targeting Middle-East-based employees of major corporations in a scam that uses a specific ‘ephemeral’ aspect of the project-management tool to link to SharePoint phishing pages.	https://kasperskycontenthub.com/threatpost-global/?p=176449	https://media.threatpost.com/wp-content/uploads/sites/103/2013/03/07050138/spearphishing.jpg	threatpost	t	2021-11-18 16:00:02.28391+01	2021-11-18 15:00:50+01	Elizabeth Montalbano	threatpost/Spear-Phishing-Campaign-Exploits-Glitch-Platform-to-Steal-Credentials
+2858	Glitch service abused to host short-lived phishing sites	Phishing actors are now actively abusing the Glitch platform to host short-lived credential-stealing URLs for free while evading detection and takedowns.	https://www.bleepingcomputer.com/news/security/glitch-service-abused-to-host-short-lived-phishing-sites/	https://www.bleepstatic.com/content/hl-images/2021/11/18/Glitch-hp.jpg	bleepingcomputer	t	2021-11-18 17:00:01.951474+01	2021-11-18 16:38:55+01	Bill Toulas	bleepingcomputer/Glitch-service-abused-to-host-short-lived-phishing-sites
 \.
 
 
@@ -2908,7 +2909,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2857, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2858, true);
 
 
 --
