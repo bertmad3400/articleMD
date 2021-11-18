@@ -2899,6 +2899,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2853	Conti gang has made at least $25.5 million since July 2021	The operators of the Conti ransomware have earned at least $25.5 million from attacks and subsequent ransoms carried out since July 2021, Swiss security firm Prodaft said in a report today.	https://therecord.media/conti-gang-has-made-at-least-25-5-million-since-july-2021/	https://therecord.media/wp-content/uploads/2021/11/Conti.png	therecord	t	2021-11-18 15:00:01.93135+01	2021-11-18 15:00:21+01	Catalin Cimpanu	therecord/Conti-gang-has-made-at-least-255-million-since-July-2021
 2854	FBI warns of APT group exploiting FatPipe VPN zero-day since May	The Federal Bureau of Investigation (FBI) warned of an advanced persistent threat (APT) compromising FatPipe router clustering and load balancer products to breach targets' networks.	https://www.bleepingcomputer.com/news/security/fbi-warns-of-apt-group-exploiting-fatpipe-vpn-zero-day-since-may/	https://www.bleepstatic.com/content/posts/2021/11/18/Fatpipe.jpg	bleepingcomputer	t	2021-11-18 15:00:01.93135+01	2021-11-18 14:46:51+01	Sergiu Gatlan	bleepingcomputer/FBI-warns-of-APT-group-exploiting-FatPipe-VPN-zero-day-since-May
 2855	How to Choose the Right DDoS Protection Solution	Pankaj Gupta, Senior Director at Citrix, outlines how distributed denial of service attacks have become increasingly sophisticated, bigger and economically motivated.	https://kasperskycontenthub.com/threatpost-global/?p=176409	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/10120505/DDoS.jpg	threatpost	t	2021-11-18 15:00:01.93135+01	2021-11-18 14:59:20+01	Threatpost	threatpost/How-to-Choose-the-Right-DDoS-Protection-Solution
+2856	North Korean cyberspies target govt officials with custom malware	A state-sponsored North Korean threat actor tracked as TA406 was recently observed deploying custom info-stealing malware in espionage campaigns.	https://www.bleepingcomputer.com/news/security/north-korean-cyberspies-target-govt-officials-with-custom-malware/	https://www.bleepstatic.com/content/hl-images/2021/10/26/north_korean_flag.jpg	bleepingcomputer	t	2021-11-18 16:00:02.28391+01	2021-11-18 15:47:45+01	Bill Toulas	bleepingcomputer/North-Korean-cyberspies-target-govt-officials-with-custom-malware
+2857	Spear-Phishing Campaign Exploits Glitch Platform to Steal Credentials	Threat actors are targeting Middle-East-based employees of major corporations in a scam that uses a specific ‘ephemeral’ aspect of the project-management tool to link to SharePoint phishing pages.	https://kasperskycontenthub.com/threatpost-global/?p=176449	https://media.threatpost.com/wp-content/uploads/sites/103/2013/03/07050138/spearphishing.jpg	threatpost	t	2021-11-18 16:00:02.28391+01	2021-11-18 15:00:50+01	Elizabeth Montalbano	threatpost/Spear-Phishing-Campaign-Exploits-Glitch-Platform-to-Steal-Credentials
 \.
 
 
@@ -2906,7 +2908,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2855, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2857, true);
 
 
 --
