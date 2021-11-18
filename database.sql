@@ -2893,6 +2893,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2847	US, UK, and Australia pin Iran for exploiting Fortinet and Exchange holes | ZDNet	American and Australian authorities claim to have observed Iranian-backed attackers scanning and exploiting various systems.	https://www.zdnet.com/article/us-uk-and-australia-pin-iran-for-exploiting-fortinet-and-exchange-holes/	https://www.zdnet.com/a/img/resize/0951d2f112a8eca3bb60d65d1002f853242ba258/2019/11/25/b87b4f70-93e8-4ff1-816f-f0b9ae07dfe3/fortinet-logo.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-18 06:00:02.041465+01	2021-11-18 04:02:32+01	Chris Duckett	zdnet/US-UK-and-Australia-pin-Iran-for-exploiting-Fortinet-and-Exchange-holes
 2848	RedCurl hacking group returns with new attacks	Even after its operations were publicly exposed in August 2020, the RedCurl hacking group has continued to carry out new intrusions and has breached at least four companies this year, according to a new report from security firm Group-IB.	https://therecord.media/redcurl-hacking-group-returns-with-new-attacks/	https://therecord.media/wp-content/uploads/2021/11/hacking-hacker-computer-keyboard.png	therecord	t	2021-11-18 12:00:02.662659+01	2021-11-18 11:01:36+01	Catalin Cimpanu	therecord/RedCurl-hacking-group-returns-with-new-attacks
 2849	State-sponsored North Korean hackers responsible for blitz of attacks in 2021	Suspected government-backed hackers from North Korea launched almost weekly cyberattacks on a wide array of targets throughout the first half of 2021, according to research released on Thursday.	https://therecord.media/state-sponsored-north-korean-hackers-responsible-for-blitz-of-attacks-in-2021/	https://therecord.media/wp-content/uploads/2021/02/bigstock-Pyongyang-Dpr-Korea-Novemb-363581065-1-scaled.jpg	therecord	t	2021-11-18 12:00:02.662659+01	2021-11-18 11:01:33+01	Martin Matishak	therecord/State-sponsored-North-Korean-hackers-responsible-for-blitz-of-attacks-in-2021
+2850	RedCurl corporate espionage hackers resume attacks with updated tools	A crew of highly-skilled hackers specialized in corporate espionage has resumed activity, one of their victims this year being a large wholesale company in Russia.	https://www.bleepingcomputer.com/news/security/redcurl-corporate-espionage-hackers-resume-attacks-with-updated-tools/	https://www.bleepstatic.com/content/hl-images/2021/11/18/RedCurl.jpg	bleepingcomputer	t	2021-11-18 13:00:02.230863+01	2021-11-18 12:32:33+01	Ionut Ilascu	bleepingcomputer/RedCurl-corporate-espionage-hackers-resume-attacks-with-updated-tools
 \.
 
 
@@ -2900,7 +2901,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2849, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2850, true);
 
 
 --
