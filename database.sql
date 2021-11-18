@@ -2891,6 +2891,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2845	Consumer protection in focus at FCC and FTC nomination hearings	The Senate began hearings Wednesday on nominees to help lead federal agencies key to the future of privacy and cybersecurity in the United States. 	https://therecord.media/consumer-protection-in-focus-at-fcc-and-ftc-nomination-hearings/	https://therecord.media/wp-content/uploads/2021/03/yael-clusman-qQQP4wLiSfU-unsplash-1-scaled-e1625499642946.jpg	therecord	t	2021-11-18 00:00:02.578487+01	2021-11-17 23:30:49+01	Andrea Peterson	therecord/Consumer-protection-in-focus-at-FCC-and-FTC-nomination-hearings
 2846	Fake Ransomware Infection Hits WordPress Sites	WordPress sites have been splashed with ransomware gore that’s as real as dime-store cobwebs made out of spun polyester.	https://kasperskycontenthub.com/threatpost-global/?p=176410	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/17164923/Halloween-e1637185777828.jpeg	threatpost	t	2021-11-18 00:00:02.578487+01	2021-11-17 23:06:26+01	Lisa Vaas	threatpost/Fake-Ransomware-Infection-Hits-WordPress-Sites
 2847	US, UK, and Australia pin Iran for exploiting Fortinet and Exchange holes | ZDNet	American and Australian authorities claim to have observed Iranian-backed attackers scanning and exploiting various systems.	https://www.zdnet.com/article/us-uk-and-australia-pin-iran-for-exploiting-fortinet-and-exchange-holes/	https://www.zdnet.com/a/img/resize/0951d2f112a8eca3bb60d65d1002f853242ba258/2019/11/25/b87b4f70-93e8-4ff1-816f-f0b9ae07dfe3/fortinet-logo.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-18 06:00:02.041465+01	2021-11-18 04:02:32+01	Chris Duckett	zdnet/US-UK-and-Australia-pin-Iran-for-exploiting-Fortinet-and-Exchange-holes
+2848	RedCurl hacking group returns with new attacks	Even after its operations were publicly exposed in August 2020, the RedCurl hacking group has continued to carry out new intrusions and has breached at least four companies this year, according to a new report from security firm Group-IB.	https://therecord.media/redcurl-hacking-group-returns-with-new-attacks/	https://therecord.media/wp-content/uploads/2021/11/hacking-hacker-computer-keyboard.png	therecord	t	2021-11-18 12:00:02.662659+01	2021-11-18 11:01:36+01	Catalin Cimpanu	therecord/RedCurl-hacking-group-returns-with-new-attacks
+2849	State-sponsored North Korean hackers responsible for blitz of attacks in 2021	Suspected government-backed hackers from North Korea launched almost weekly cyberattacks on a wide array of targets throughout the first half of 2021, according to research released on Thursday.	https://therecord.media/state-sponsored-north-korean-hackers-responsible-for-blitz-of-attacks-in-2021/	https://therecord.media/wp-content/uploads/2021/02/bigstock-Pyongyang-Dpr-Korea-Novemb-363581065-1-scaled.jpg	therecord	t	2021-11-18 12:00:02.662659+01	2021-11-18 11:01:33+01	Martin Matishak	therecord/State-sponsored-North-Korean-hackers-responsible-for-blitz-of-attacks-in-2021
 \.
 
 
@@ -2898,7 +2900,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2847, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2849, true);
 
 
 --
