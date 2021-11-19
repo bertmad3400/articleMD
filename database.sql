@@ -2921,6 +2921,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2875	Ransomware is now a giant black hole that is sucking in all other forms of cybercrime | ZDNet	File-encrypting malware is where the money is - and that's changing the whole online crime ecosystem.	https://www.zdnet.com/article/ransomware-is-now-a-giant-black-hole-that-is-sucking-in-all-other-forms-of-cybercrime/	https://www.zdnet.com/a/img/resize/82191d1e39e5f9366bf18beac976f0f2c9411ae8/2021/11/19/d304247f-2b3d-4c25-8b8c-bcbc70746371/shutterstock-1619862829.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-19 13:00:02.142605+01	2021-11-19 11:04:20+01	Steve Ranger	zdnet/Ransomware-is-now-a-giant-black-hole-that-is-sucking-in-all-other-forms-of-cybercrime
 2876	Microsoft: Windows Installer breaks apps after updates, repairs	Microsoft has confirmed a new known issue impacting client and server Windows versions that breaks apps after updating or repairing them using the Windows Installer (previously known as Microsoft Installer).	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-installer-breaks-apps-after-updates-repairs/	https://www.bleepstatic.com/content/hl-images/2021/06/23/Store-broke.jpg	bleepingcomputer	t	2021-11-19 13:00:02.142605+01	2021-11-19 12:36:10+01	Sergiu Gatlan	bleepingcomputer/Microsoft-Windows-Installer-breaks-apps-after-updates-repairs
 2877	Israel charges Defense Minister's house cleaner with leaking data to Iranian hackers	Israel has detained a man who worked as the personal house cleaner for the Defense Minister and charged him with leaking his employer's photos and personal details to a group of Iranian hackers known as Black Shadow.	https://therecord.media/israel-charges-defense-ministers-house-cleaner-with-leaking-data-to-iranian-hackers/	https://therecord.media/wp-content/uploads/2021/03/Israel-flag.jpg	therecord	t	2021-11-19 13:00:02.142605+01	2021-11-19 12:57:03+01	Catalin Cimpanu	therecord/Israel-charges-Defense-Ministers-house-cleaner-with-leaking-data-to-Iranian-hackers
+2878	FBI warning: This zero-day VPN software flaw was exploited by APT hackers | ZDNet	A flaw in FatPipe WARP, MPVPN, and IPVPN software has been patched - so upgrade now.	https://www.zdnet.com/article/fbi-warning-this-zero-day-vpn-software-flaw-was-exploited-by-apt-hackers/	https://www.zdnet.com/a/img/resize/41c2d86ee6313c4eafc92b18b57837803b016203/2021/11/19/5c020588-4a2f-4325-9dd6-0e8a90363b2e/shutterstock-1691211286.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-19 14:00:02.123227+01	2021-11-19 12:29:53+01	Steve Ranger	zdnet/FBI-warning-This-zero-day-VPN-software-flaw-was-exploited-by-APT-hackers
 \.
 
 
@@ -2928,7 +2929,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2877, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2878, true);
 
 
 --
