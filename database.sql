@@ -2917,6 +2917,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2871	Ransomware Phishing Emails Sneak Through SEGs	The MICROP ransomware spreads via Google Drive and locally stored passwords.	https://kasperskycontenthub.com/threatpost-global/?p=176470	https://media.threatpost.com/wp-content/uploads/sites/103/2020/10/30130425/halloween.jpg	threatpost	t	2021-11-18 23:00:02.127266+01	2021-11-18 22:45:54+01	Becky Bracken	threatpost/Ransomware-Phishing-Emails-Sneak-Through-SEGs
 2872	Are China’s new privacy laws scuppering access to ship positioning systems?	Two new Chinese privacy laws, the Data Security Law (DSL) and the Personal Information Protection Law (PIPL), appear to be stifling international access to AIS ship navigation data picked up by stations in China, according to a new report.	https://therecord.media/are-chinas-new-privacy-laws-scuppering-access-to-ship-positioning-systems/	https://www-therecord.recfut.com/wp-content/uploads/2021/11/etienne-girardet-yeq8kFKsxGs-unsplash-1.jpg	therecord	t	2021-11-19 03:00:02.673696+01	2021-11-19 02:55:58+01	Dina Temple-Raston	therecord/Are-Chinas-new-privacy-laws-scuppering-access-to-ship-positioning-systems
 2873	Chinese leaders approve a new government digitization drive	Premier Li Keqiang and the State Council called for provincial leaders to step up their efforts to digitize Chinese government information.	https://therecord.media/chinese-leaders-approve-a-new-government-digitization-drive/	https://www-therecord.recfut.com/wp-content/uploads/2021/11/leon-liu-eOPW2FRIHUc-unsplash-1.jpg	therecord	t	2021-11-19 04:00:02.669406+01	2021-11-19 03:36:30+01	Dina Temple-Raston	therecord/Chinese-leaders-approve-a-new-government-digitization-drive
+2874	Malicious Python packages caught stealing Discord tokens, installing shells	The operators of the Python Package Index (PyPI) have removed this week 11 Python libraries from their portal for various malicious behaviors, including the collection and theft of user data, passwords, and Discord access tokens and the installation of remote access shells for remote access to infected systems.	https://therecord.media/malicious-python-packages-caught-stealing-discord-tokens-installing-shells/	https://live-the-record.pantheonsite.io/wp-content/uploads/2021/07/PyPI-logo.png	therecord	t	2021-11-19 07:00:02.158788+01	2021-11-19 07:00:00+01	Catalin Cimpanu	therecord/Malicious-Python-packages-caught-stealing-Discord-tokens-installing-shells
 \.
 
 
@@ -2924,7 +2925,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2873, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2874, true);
 
 
 --
