@@ -2915,6 +2915,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2869	Palo Alto Networks raises FY22 revenue guidance | ZDNet	The security company posted solid Q1 results with 32% year-over-year revenue growth.	https://www.zdnet.com/article/palo-alto-networks-raises-fy22-revenue-guidance/	https://www.zdnet.com/a/img/resize/c8486cadf0eb804acfef93da9ca8cd9d5ae87489/2017/03/07/39fb3f4b-14cd-45a5-a514-58657977973a/financial-graph-on-technology-abstract-background.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-18 23:00:02.127266+01	2021-11-18 21:28:00+01	Stephanie Condon	zdnet/Palo-Alto-Networks-raises-FY22-revenue-guidance
 2870	Android malware BrazKing returns as a stealthier banking trojan	​The BrazKing Android banking trojan has returned with dynamic banking overlays and a new implementation trick that enables it to operate without requesting risky permissions.	https://www.bleepingcomputer.com/news/security/android-malware-brazking-returns-as-a-stealthier-banking-trojan/	https://www.bleepstatic.com/content/hl-images/2021/07/07/Android-headpic.jpg	bleepingcomputer	t	2021-11-18 23:00:02.127266+01	2021-11-18 22:19:09+01	Bill Toulas	bleepingcomputer/Android-malware-BrazKing-returns-as-a-stealthier-banking-trojan
 2871	Ransomware Phishing Emails Sneak Through SEGs	The MICROP ransomware spreads via Google Drive and locally stored passwords.	https://kasperskycontenthub.com/threatpost-global/?p=176470	https://media.threatpost.com/wp-content/uploads/sites/103/2020/10/30130425/halloween.jpg	threatpost	t	2021-11-18 23:00:02.127266+01	2021-11-18 22:45:54+01	Becky Bracken	threatpost/Ransomware-Phishing-Emails-Sneak-Through-SEGs
+2872	Are China’s new privacy laws scuppering access to ship positioning systems?	Two new Chinese privacy laws, the Data Security Law (DSL) and the Personal Information Protection Law (PIPL), appear to be stifling international access to AIS ship navigation data picked up by stations in China, according to a new report.	https://therecord.media/are-chinas-new-privacy-laws-scuppering-access-to-ship-positioning-systems/	https://www-therecord.recfut.com/wp-content/uploads/2021/11/etienne-girardet-yeq8kFKsxGs-unsplash-1.jpg	therecord	t	2021-11-19 03:00:02.673696+01	2021-11-19 02:55:58+01	Dina Temple-Raston	therecord/Are-Chinas-new-privacy-laws-scuppering-access-to-ship-positioning-systems
 \.
 
 
@@ -2922,7 +2923,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2871, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2872, true);
 
 
 --
