@@ -2937,6 +2937,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2891	Fake TSA PreCheck sites scam US travelers with fake renewals	There has been a surge in reports of people getting scammed after visiting TSA PreCheck, Global Entry, and NEXUS application service sites, being charged $140 only to get nothing in return.	https://www.bleepingcomputer.com/news/security/fake-tsa-precheck-sites-scam-us-travelers-with-fake-renewals/	https://www.bleepstatic.com/content/hl-images/2021/11/19/airport.jpg	bleepingcomputer	t	2021-11-19 20:00:02.037735+01	2021-11-19 17:32:16+01	Bill Toulas	bleepingcomputer/Fake-TSA-PreCheck-sites-scam-US-travelers-with-fake-renewals
 2893	Iranians Charged in Cyberattacks Against U.S. 2020 Election	Meanwhile, the State Department offered a $10M reward for tips on Iran-based threat actors accused of voter intimidation and disinformation.	https://kasperskycontenthub.com/threatpost-global/?p=176488	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/19144537/I_Voted_-_3002776434-e1637351153312.jpeg	threatpost	t	2021-11-19 21:00:02.033665+01	2021-11-19 20:49:31+01	Becky Bracken	threatpost/Iranians-Charged-in-Cyberattacks-Against-US-2020-Election
 2892	Emotet botnet comeback hatched by ex-Ryuk member now part of Conti gang	The Emotet botnet is back by popular demand, resurrected by its former operator convinced by ex-members of the Ryuk ransomware gang.	https://www.bleepingcomputer.com/news/security/emotet-botnet-comeback-hatched-by-ex-ryuk-member-now-part-of-conti-gang/	https://www.bleepstatic.com/content/hl-images/2020/10/06/Emotet-map.jpg	bleepingcomputer	t	2021-11-19 21:00:02.033665+01	2021-11-19 20:05:11+01	Ionut Ilascu	bleepingcomputer/Emotet-botnet-comeback-hatched-by-ex-Ryuk-member-now-part-of-Conti-gang
+2894	Emotet botnet comeback orchestrated by Conti ransomware gang	The Emotet botnet is back by popular demand, resurrected by its former operator, who was convinced by members of the Conti ransomware gang.	https://www.bleepingcomputer.com/news/security/emotet-botnet-comeback-orchestrated-by-conti-ransomware-gang/	https://www.bleepstatic.com/content/hl-images/2020/10/06/Emotet-map.jpg	bleepingcomputer	t	2021-11-19 23:00:02.247555+01	2021-11-19 20:05:11+01	Ionut Ilascu	bleepingcomputer/Emotet-botnet-comeback-orchestrated-by-Conti-ransomware-gang
 \.
 
 
@@ -2944,7 +2945,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2893, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2894, true);
 
 
 --
