@@ -2925,6 +2925,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2878	FBI warning: This zero-day VPN software flaw was exploited by APT hackers | ZDNet	A flaw in FatPipe WARP, MPVPN, and IPVPN software has been patched - so upgrade now.	https://www.zdnet.com/article/fbi-warning-this-zero-day-vpn-software-flaw-was-exploited-by-apt-hackers/	https://www.zdnet.com/a/img/resize/41c2d86ee6313c4eafc92b18b57837803b016203/2021/11/19/5c020588-4a2f-4325-9dd6-0e8a90363b2e/shutterstock-1691211286.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-19 14:00:02.123227+01	2021-11-19 12:29:53+01	Steve Ranger	zdnet/FBI-warning-This-zero-day-VPN-software-flaw-was-exploited-by-APT-hackers
 2880	US regulators order banks to report cyberattacks within 3 days	US federal bank regulatory agencies have approved a new rule requiring banks to notify their primary federal regulators of significant computer-security incidents within 36 hours.	https://www.bleepingcomputer.com/news/security/us-regulators-order-banks-to-report-cyberattacks-within-3-days/	https://www.bleepstatic.com/content/hl-images/2021/08/25/lights.jpg	bleepingcomputer	t	2021-11-19 15:00:02.607263+01	2021-11-19 14:05:29+01	Sergiu Gatlan	bleepingcomputer/US-regulators-order-banks-to-report-cyberattacks-within-3-days
 2879	Microsoft warning: Now Iran's hackers are attacking IT companies, too | ZDNet	Attacks on IT services by Iranian hackers were virtually non-existent in 2020. In 2021, Iran's attacks on this sector grew dramatically.	https://www.zdnet.com/article/microsoft-warning-now-irans-hackers-are-attacking-it-companies-too/	https://www.zdnet.com/a/img/resize/0d927c93b5c7abd68304637ad5badbee1d09e521/2021/10/15/3eab866d-2d38-4d61-a69c-c255bd7bd477/shutterstock-2032695119.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-19 15:00:02.607263+01	2021-11-19 11:45:00+01	Liam Tung	zdnet/Microsoft-warning-Now-Irans-hackers-are-attacking-IT-companies-too
+2882	Six million Sky routers exposed to takeover attacks for 17 months	Around six million Sky Broadband customer routers in the UK were affected by a critical vulnerability that took over 17 months to roll out a fix to customers.	https://www.bleepingcomputer.com/news/security/six-million-sky-routers-exposed-to-takeover-attacks-for-17-months/	https://www.bleepstatic.com/content/hl-images/2021/11/19/modem_router.jpg	bleepingcomputer	t	2021-11-19 16:00:02.299916+01	2021-11-19 15:57:57+01	Bill Toulas	bleepingcomputer/Six-million-Sky-routers-exposed-to-takeover-attacks-for-17-months
+2883	Tor Project sees decline in server numbers, will offer rewards for new bridge operators	The Tor Project said this week that it has seen a drop in the number of Tor relays and bridge servers and is now offering various rewards to users who help bring the number back up.	https://therecord.media/tor-project-sees-decline-in-server-numbers-will-offer-rewards-for-new-bridge-operators/	https://therecord.media/wp-content/uploads/2021/05/Tor-Onion-e1637327263745.png	therecord	t	2021-11-19 16:00:02.299916+01	2021-11-19 15:24:44+01	Catalin Cimpanu	therecord/Tor-Project-sees-decline-in-server-numbers-will-offer-rewards-for-new-bridge-operators
 \.
 
 
@@ -2932,7 +2934,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2881, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2883, true);
 
 
 --
