@@ -2938,6 +2938,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2893	Iranians Charged in Cyberattacks Against U.S. 2020 Election	Meanwhile, the State Department offered a $10M reward for tips on Iran-based threat actors accused of voter intimidation and disinformation.	https://kasperskycontenthub.com/threatpost-global/?p=176488	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/19144537/I_Voted_-_3002776434-e1637351153312.jpeg	threatpost	t	2021-11-19 21:00:02.033665+01	2021-11-19 20:49:31+01	Becky Bracken	threatpost/Iranians-Charged-in-Cyberattacks-Against-US-2020-Election
 2892	Emotet botnet comeback hatched by ex-Ryuk member now part of Conti gang	The Emotet botnet is back by popular demand, resurrected by its former operator convinced by ex-members of the Ryuk ransomware gang.	https://www.bleepingcomputer.com/news/security/emotet-botnet-comeback-hatched-by-ex-ryuk-member-now-part-of-conti-gang/	https://www.bleepstatic.com/content/hl-images/2020/10/06/Emotet-map.jpg	bleepingcomputer	t	2021-11-19 21:00:02.033665+01	2021-11-19 20:05:11+01	Ionut Ilascu	bleepingcomputer/Emotet-botnet-comeback-hatched-by-ex-Ryuk-member-now-part-of-Conti-gang
 2894	Emotet botnet comeback orchestrated by Conti ransomware gang	The Emotet botnet is back by popular demand, resurrected by its former operator, who was convinced by members of the Conti ransomware gang.	https://www.bleepingcomputer.com/news/security/emotet-botnet-comeback-orchestrated-by-conti-ransomware-gang/	https://www.bleepstatic.com/content/hl-images/2020/10/06/Emotet-map.jpg	bleepingcomputer	t	2021-11-19 23:00:02.247555+01	2021-11-19 20:05:11+01	Ionut Ilascu	bleepingcomputer/Emotet-botnet-comeback-orchestrated-by-Conti-ransomware-gang
+2895	Some Tesla owners unable to unlock cars due to server errors	Some Tesla owners worldwide are unable to unlock their cars or communicate with it using the app due to problems with the company's servers.	https://www.bleepingcomputer.com/news/technology/some-tesla-owners-unable-to-unlock-cars-due-to-server-errors/	https://www.bleepstatic.com/content/hl-images/2021/03/19/TESLA-milan-csizmadia.jpg	bleepingcomputer	t	2021-11-20 00:00:02.18257+01	2021-11-19 23:30:03+01	Lawrence Abrams	bleepingcomputer/Some-Tesla-owners-unable-to-unlock-cars-due-to-server-errors
 \.
 
 
@@ -2945,7 +2946,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2894, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2895, true);
 
 
 --
