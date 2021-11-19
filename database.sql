@@ -2933,6 +2933,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2887	Utah medical center hit by data breach affecting 582k patients	Utah Imaging Associates (UIA), a Utah-based radiology center, has announced a data breach affecting 582,170 people after their personal information was exposed.	https://www.bleepingcomputer.com/news/security/utah-medical-center-hit-by-data-breach-affecting-582k-patients/	https://www.bleepstatic.com/content/hl-images/2021/11/19/ct_Scan.jpg	bleepingcomputer	t	2021-11-19 17:00:01.961766+01	2021-11-19 16:35:08+01	Bill Toulas	bleepingcomputer/Utah-medical-center-hit-by-data-breach-affecting-582k-patients
 2888	US regulators order banks to report cyberattacks within 36 hours	US federal bank regulatory agencies have approved a new rule requiring banks to notify their primary federal regulators of significant computer-security incidents within 36 hours.	https://www.bleepingcomputer.com/news/security/us-regulators-order-banks-to-report-cyberattacks-within-36-hours/	https://www.bleepstatic.com/content/hl-images/2021/07/15/Lights-Man-Action.jpg	bleepingcomputer	t	2021-11-19 17:00:01.961766+01	2021-11-19 14:05:29+01	Sergiu Gatlan	bleepingcomputer/US-regulators-order-banks-to-report-cyberattacks-within-36-hours
 2889	6M Sky Routers Left Exposed to Attack for Nearly 1.5 Years	Pen Test Partners didn't disclose the vulnerability after 90 days because it knew ISPs were struggling with a pandemic-increased network load as work from home became the new norm.	https://kasperskycontenthub.com/threatpost-global/?p=176483	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/19123418/work_from_home-e1637343268627.jpg	threatpost	t	2021-11-19 19:00:02.017811+01	2021-11-19 18:39:18+01	Lisa Vaas	threatpost/6M-Sky-Routers-Left-Exposed-to-Attack-for-Nearly-15-Years
+2890	New Windows 11 build fixes Microsoft Installer issue breaking apps	Microsoft has fixed a recently confirmed Windows 11 issue in a newly released build for Windows Insiders in the Beta and Release Preview channels.	https://www.bleepingcomputer.com/news/microsoft/new-windows-11-build-fixes-microsoft-installer-issue-breaking-apps/	https://www.bleepstatic.com/content/hl-images/2021/10/05/Windows_11_laptop.jpg	bleepingcomputer	t	2021-11-19 20:00:02.037735+01	2021-11-19 19:54:57+01	Sergiu Gatlan	bleepingcomputer/New-Windows-11-build-fixes-Microsoft-Installer-issue-breaking-apps
+2891	Fake TSA PreCheck sites scam US travelers with fake renewals	There has been a surge in reports of people getting scammed after visiting TSA PreCheck, Global Entry, and NEXUS application service sites, being charged $140 only to get nothing in return.	https://www.bleepingcomputer.com/news/security/fake-tsa-precheck-sites-scam-us-travelers-with-fake-renewals/	https://www.bleepstatic.com/content/hl-images/2021/11/19/airport.jpg	bleepingcomputer	t	2021-11-19 20:00:02.037735+01	2021-11-19 17:32:16+01	Bill Toulas	bleepingcomputer/Fake-TSA-PreCheck-sites-scam-US-travelers-with-fake-renewals
 \.
 
 
@@ -2940,7 +2942,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2889, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2891, true);
 
 
 --
