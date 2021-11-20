@@ -2939,6 +2939,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2892	Emotet botnet comeback hatched by ex-Ryuk member now part of Conti gang	The Emotet botnet is back by popular demand, resurrected by its former operator convinced by ex-members of the Ryuk ransomware gang.	https://www.bleepingcomputer.com/news/security/emotet-botnet-comeback-hatched-by-ex-ryuk-member-now-part-of-conti-gang/	https://www.bleepstatic.com/content/hl-images/2020/10/06/Emotet-map.jpg	bleepingcomputer	t	2021-11-19 21:00:02.033665+01	2021-11-19 20:05:11+01	Ionut Ilascu	bleepingcomputer/Emotet-botnet-comeback-hatched-by-ex-Ryuk-member-now-part-of-Conti-gang
 2894	Emotet botnet comeback orchestrated by Conti ransomware gang	The Emotet botnet is back by popular demand, resurrected by its former operator, who was convinced by members of the Conti ransomware gang.	https://www.bleepingcomputer.com/news/security/emotet-botnet-comeback-orchestrated-by-conti-ransomware-gang/	https://www.bleepstatic.com/content/hl-images/2020/10/06/Emotet-map.jpg	bleepingcomputer	t	2021-11-19 23:00:02.247555+01	2021-11-19 20:05:11+01	Ionut Ilascu	bleepingcomputer/Emotet-botnet-comeback-orchestrated-by-Conti-ransomware-gang
 2895	Some Tesla owners unable to unlock cars due to server errors	Some Tesla owners worldwide are unable to unlock their cars or communicate with it using the app due to problems with the company's servers.	https://www.bleepingcomputer.com/news/technology/some-tesla-owners-unable-to-unlock-cars-due-to-server-errors/	https://www.bleepstatic.com/content/hl-images/2021/03/19/TESLA-milan-csizmadia.jpg	bleepingcomputer	t	2021-11-20 00:00:02.18257+01	2021-11-19 23:30:03+01	Lawrence Abrams	bleepingcomputer/Some-Tesla-owners-unable-to-unlock-cars-due-to-server-errors
+2896	The Week in Ransomware - November 19th 2021 - Targeting Conti	While last week was full of arrests and law enforcement actions, this week has been much quieter, with mostly new research released.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-november-19th-2021-targeting-conti/	https://www.bleepstatic.com/content/hl-images/2020/09/24/padlock.jpg	bleepingcomputer	t	2021-11-20 02:00:01.755097+01	2021-11-20 01:19:16+01	Lawrence Abrams	bleepingcomputer/The-Week-in-Ransomware---November-19th-2021---Targeting-Conti
 \.
 
 
@@ -2946,7 +2947,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2895, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2896, true);
 
 
 --
