@@ -2943,6 +2943,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2897	Conti ransomware gang suffers security breach	The Conti ransomware group has suffered an embarrassing data breach after a security firm was able to identify the real IP address of one of its most sensitive servers and then gain console access to the affected system for more than a month.	https://therecord.media/conti-ransomware-gang-suffers-security-breach/	https://therecord.media/wp-content/uploads/2021/11/Conti-1.png	therecord	t	2021-11-20 15:00:02.347129+01	2021-11-20 14:32:56+01	Catalin Cimpanu	therecord/Conti-ransomware-gang-suffers-security-breach
 2898	Microsoft Exchange servers hacked in internal reply-chain attacks	Threat actors are hacking Microsoft Exchange servers using ProxyShell and ProxyLogon exploits to distribute malware and bypass detection using stolen internal reply-chain emails.	https://www.bleepingcomputer.com/news/security/microsoft-exchange-servers-hacked-in-internal-reply-chain-attacks/	https://www.bleepstatic.com/content/hl-images/2021/03/10/Exchange1.jpg	bleepingcomputer	t	2021-11-20 19:00:02.399149+01	2021-11-20 18:55:47+01	Bill Toulas	bleepingcomputer/Microsoft-Exchange-servers-hacked-in-internal-reply-chain-attacks
 2899	Microsoft: Office 365 will boost default protection for all users	Microsoft is rolling out Built-In Protection to Defender for Office 365, a new feature that would automatically enable recommended settings and policies to make sure all new and existing users get at least a basic level of protection.	https://www.bleepingcomputer.com/news/microsoft/microsoft-office-365-will-boost-default-protection-for-all-users/	https://www.bleepstatic.com/content/hl-images/2020/11/06/Office-365.jpg	bleepingcomputer	t	2021-11-20 19:00:02.399149+01	2021-11-20 16:00:00+01	Sergiu Gatlan	bleepingcomputer/Microsoft-Office-365-will-boost-default-protection-for-all-users
+2900	For a limited time, new users can get a lifetime of VPNSecure Online Privacy for just $40 | ZDNet	You'll never have to worry about your online safety again while enjoying unlimited bandwidth and unrestricted access to all your favorite content no matter where you happen to be.	https://www.zdnet.com/article/for-a-limited-time-new-users-can-get-a-lifetime-of-vpnsecure-online-privacy-for-just-40/	https://www.zdnet.com/a/img/resize/08becb3310482e429db93238ad8bad1043ccc3c1/2021/11/19/c4a98b74-ee76-48aa-8837-b8edbb9081fd/sale-306731-article-image.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-21 16:00:02.318834+01	2021-11-21 14:00:02+01	ZDNet Academy	zdnet/For-a-limited-time-new-users-can-get-a-lifetime-of-VPNSecure-Online-Privacy-for-just-40
 \.
 
 
@@ -2950,7 +2951,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2899, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2900, true);
 
 
 --
