@@ -2946,6 +2946,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2900	For a limited time, new users can get a lifetime of VPNSecure Online Privacy for just $40 | ZDNet	You'll never have to worry about your online safety again while enjoying unlimited bandwidth and unrestricted access to all your favorite content no matter where you happen to be.	https://www.zdnet.com/article/for-a-limited-time-new-users-can-get-a-lifetime-of-vpnsecure-online-privacy-for-just-40/	https://www.zdnet.com/a/img/resize/08becb3310482e429db93238ad8bad1043ccc3c1/2021/11/19/c4a98b74-ee76-48aa-8837-b8edbb9081fd/sale-306731-article-image.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-21 16:00:02.318834+01	2021-11-21 14:00:02+01	ZDNet Academy	zdnet/For-a-limited-time-new-users-can-get-a-lifetime-of-VPNSecure-Online-Privacy-for-just-40
 2901	How to download a Windows 10 21H2 ISO from Microsoft	Microsoft released Windows 10 21H2, the November 2021 Update, last week and you can now download an ISO image for the new version to put aside for emergencies or clean installs.	https://www.bleepingcomputer.com/news/microsoft/how-to-download-a-windows-10-21h2-iso-from-microsoft/	https://www.bleepstatic.com/content/hl-images/2020/07/31/windows-10-mesh-header.jpg	bleepingcomputer	t	2021-11-21 21:00:02.008193+01	2021-11-21 20:07:44+01	Lawrence Abrams	bleepingcomputer/How-to-download-a-Windows-10-21H2-ISO-from-Microsoft
 2902	US SEC warns investors of ongoing govt impersonation attacks	The Securities and Exchange Commission (SEC) has warned US investors of scammers impersonating SEC officials in government impersonator schemes via phone calls, voicemails, emails, and letters.	https://www.bleepingcomputer.com/news/security/us-sec-warns-investors-of-ongoing-govt-impersonation-attacks/	https://www.bleepstatic.com/content/hl-images/2021/11/19/US_SEC.jpg	bleepingcomputer	t	2021-11-21 21:00:02.008193+01	2021-11-21 16:00:00+01	Sergiu Gatlan	bleepingcomputer/US-SEC-warns-investors-of-ongoing-govt-impersonation-attacks
+2903	Eftpos added security features go-live as digital upgrades continue | ZDNet	Eftpos' enhanced security features, which include two-factor authentication, have been initially adopted by local merchants Till Payments, Fat Zebra, and Eftex.	https://www.zdnet.com/article/eftpos-added-security-features-go-live-as-digital-upgrades-continue/	https://www.zdnet.com/a/img/resize/74773b512998c7b6a5e8179df5326ab76c176f2a/2021/08/04/77a2b619-3d0f-450d-b5a9-f5d44a62aff2/customer-payment-eftpos-lghero.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-21 22:00:02.152774+01	2021-11-21 20:00:02+01	Aimee Chanthadavong	zdnet/Eftpos-added-security-features-go-live-as-digital-upgrades-continue
 \.
 
 
@@ -2953,7 +2954,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2902, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2903, true);
 
 
 --
