@@ -2951,6 +2951,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2905	Hackers targeted thousands of online retailers to steal credit card details | ZDNet	Hackers used flaw in popular e-commerce software.	https://www.zdnet.com/article/hackers-targeted-thousands-of-online-retailers-to-steal-credit-card-details/	https://www.zdnet.com/a/img/resize/6a97e3f59706d82eef7568920acf0adbcf229b64/2021/11/22/dd381fa7-ac7c-4850-8fd8-8d4acb751588/a-woman-using-a-laptop-for-online-shopping.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-22 14:00:02.4452+01	2021-11-22 12:10:26+01	Danny Palmer	zdnet/Hackers-targeted-thousands-of-online-retailers-to-steal-credit-card-details
 2906	Facebook's Meta pushes back Messenger and Instagram encryption plans until 2023 | ZDNet	Facebook's messaging encryption plans move back by a year.	https://www.zdnet.com/article/facebooks-meta-pushes-back-messenger-and-instagram-encryption-plans-until-2023/	https://www.zdnet.com/a/img/resize/2ef0e89ea1ddd3fdf1c3682410b5f9957d4e36c8/2021/01/27/1957b2fc-4610-4fad-81a3-6e835b898ead/istock-1073181480.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-22 15:00:02.385119+01	2021-11-22 13:14:30+01	Liam Tung	zdnet/Facebooks-Meta-pushes-back-Messenger-and-Instagram-encryption-plans-until-2023
 2907	Hackers breach corporate email servers to send spam to employees	A threat actor has hacked Microsoft Exchange email servers across the world in order to gain access to their internal messaging capabilities and send malicious emails to company customers and employees in the hopes of infecting them with malware.	https://therecord.media/hackers-breach-corporate-email-servers-to-send-spam-on-employees/	https://therecord.media/wp-content/uploads/2021/11/email.jpg	therecord	t	2021-11-22 15:00:02.385119+01	2021-11-22 14:42:58+01	Catalin Cimpanu	therecord/Hackers-breach-corporate-email-servers-to-send-spam-to-employees
+2908	Wind turbine giant Vestas data compromised in cyberattack	Vestas Wind Systems, a leader in wind turbine manufacturing, has shut down its IT systems after suffering a cyberattack.	https://www.bleepingcomputer.com/news/security/wind-turbine-giant-vestas-data-compromised-in-cyberattack/	https://www.bleepstatic.com/content/hl-images/2021/11/22/vestas_wind_turbine.jpg	bleepingcomputer	t	2021-11-22 16:00:02.399701+01	2021-11-22 15:56:39+01	Bill Toulas	bleepingcomputer/Wind-turbine-giant-Vestas-data-compromised-in-cyberattack
 \.
 
 
@@ -2958,7 +2959,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2907, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2908, true);
 
 
 --
