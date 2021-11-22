@@ -2948,6 +2948,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2902	US SEC warns investors of ongoing govt impersonation attacks	The Securities and Exchange Commission (SEC) has warned US investors of scammers impersonating SEC officials in government impersonator schemes via phone calls, voicemails, emails, and letters.	https://www.bleepingcomputer.com/news/security/us-sec-warns-investors-of-ongoing-govt-impersonation-attacks/	https://www.bleepstatic.com/content/hl-images/2021/11/19/US_SEC.jpg	bleepingcomputer	t	2021-11-21 21:00:02.008193+01	2021-11-21 16:00:00+01	Sergiu Gatlan	bleepingcomputer/US-SEC-warns-investors-of-ongoing-govt-impersonation-attacks
 2903	Eftpos added security features go-live as digital upgrades continue | ZDNet	Eftpos' enhanced security features, which include two-factor authentication, have been initially adopted by local merchants Till Payments, Fat Zebra, and Eftex.	https://www.zdnet.com/article/eftpos-added-security-features-go-live-as-digital-upgrades-continue/	https://www.zdnet.com/a/img/resize/74773b512998c7b6a5e8179df5326ab76c176f2a/2021/08/04/77a2b619-3d0f-450d-b5a9-f5d44a62aff2/customer-payment-eftpos-lghero.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-21 22:00:02.152774+01	2021-11-21 20:00:02+01	Aimee Chanthadavong	zdnet/Eftpos-added-security-features-go-live-as-digital-upgrades-continue
 2904	NextDC takes one-fifth stake in AUCloud during $35m capital raising | ZDNet	NextDC's placement in AUCloud will be approximately $12.4 million, which will be equivalent to about a 20% share in AUCloud.	https://www.zdnet.com/article/nextdc-takes-one-fifth-stake-in-aucloud-during-35m-capital-raising/	https://www.zdnet.com/a/img/resize/c6a13bc9d7a65bcbb1df40213e030f8273c7dd85/2021/09/29/e90bef5c-f13d-491d-923d-45f586e372e3/cash-management.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-22 06:00:02.132201+01	2021-11-22 04:58:06+01	Aimee Chanthadavong	zdnet/NextDC-takes-one-fifth-stake-in-AUCloud-during-35m-capital-raising
+2905	Hackers targeted thousands of online retailers to steal credit card details | ZDNet	Hackers used flaw in popular e-commerce software.	https://www.zdnet.com/article/hackers-targeted-thousands-of-online-retailers-to-steal-credit-card-details/	https://www.zdnet.com/a/img/resize/6a97e3f59706d82eef7568920acf0adbcf229b64/2021/11/22/dd381fa7-ac7c-4850-8fd8-8d4acb751588/a-woman-using-a-laptop-for-online-shopping.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-22 14:00:02.4452+01	2021-11-22 12:10:26+01	Danny Palmer	zdnet/Hackers-targeted-thousands-of-online-retailers-to-steal-credit-card-details
 \.
 
 
@@ -2955,7 +2956,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2904, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2905, true);
 
 
 --
