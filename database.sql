@@ -2960,6 +2960,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2914	Biometric auth bypassed using fingerprint photo, printer, and glue	Researchers demonstrated that fingerprints could be cloned for biometric authentication for as little as $5 without using any sophisticated or uncommon tools.	https://www.bleepingcomputer.com/news/security/biometric-auth-bypassed-using-fingerprint-photo-printer-and-glue/	https://www.bleepstatic.com/content/hl-images/2021/11/22/fingerprint.jpg	bleepingcomputer	t	2021-11-22 19:00:02.35444+01	2021-11-22 18:10:11+01	Bill Toulas	bleepingcomputer/Biometric-auth-bypassed-using-fingerprint-photo-printer-and-glue
 2915	Hackers hit Iran's Mahan airline, claim confidential data theft	One of Iran's largest privately-owned airlines, Mahan Air, has announced a cybersecurity incident that has resulted in its website going offline and potentially data loss.	https://www.bleepingcomputer.com/news/security/hackers-hit-irans-mahan-airline-claim-confidential-data-theft/	https://www.bleepstatic.com/content/hl-images/2021/05/12/Airplane-headpic.jpg	bleepingcomputer	t	2021-11-22 20:00:02.17558+01	2021-11-22 19:30:13+01	Bill Toulas	bleepingcomputer/Hackers-hit-Irans-Mahan-airline-claim-confidential-data-theft
 2916	Attackers don't bother brute-forcing long passwords, Microsoft engineer says	According to data collected by Microsoft's network of honeypot servers, most brute-force attackers primarily attempt to guess short passwords, with very few attacks targeting credentials that are either long or contain complex characters.	https://therecord.media/attackers-dont-bother-brute-forcing-long-passwords-microsoft-engineer-says/	https://therecord.media/wp-content/uploads/2021/11/password-decryption-key.jpg	therecord	t	2021-11-22 20:00:02.17558+01	2021-11-22 19:43:36+01	Catalin Cimpanu	therecord/Attackers-dont-bother-brute-forcing-long-passwords-Microsoft-engineer-says
+2918	Imunify360 Bug Leaves Linux Web Servers Open to Code Execution, Takeover	CloudLinux' security platform for Linux-based websites and web servers contains a high-severity PHP deserialization bug.	https://kasperskycontenthub.com/threatpost-global/?p=176508	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/22105133/bug-bounty-e1632322308252.jpg	threatpost	t	2021-11-22 21:00:01.761156+01	2021-11-22 20:14:11+01	Tara Seals	threatpost/Imunify360-Bug-Leaves-Linux-Web-Servers-Open-to-Code-Execution-Takeover
+2917	Attackers Hijack Email Threads Using Proxy Logon/Proxyshell Flaws	Exploiting ProxyLogon and ProxyShell vulnerabilities, attackers have been malspamming replies in existing threads and slipping past malicious-email filters.	https://kasperskycontenthub.com/threatpost-global/?p=176496	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/22134744/ProxyLogon_logo_-_Black-e1637606992968.png	threatpost	t	2021-11-22 21:00:01.761156+01	2021-11-22 20:26:25+01	Lisa Vaas	threatpost/Attackers-Hijack-Email-Threads-Using-ProxyLogonProxyShell-Flaws
 \.
 
 
@@ -2967,7 +2969,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2916, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2918, true);
 
 
 --
