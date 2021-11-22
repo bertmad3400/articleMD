@@ -2955,6 +2955,9 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2909	GoDaddy hack causes data breach affecting 1.2 million customers	GoDaddy said in a data breach notification published today that the data of up to 1.2 million of its customers was exposed after hackers gained access to the company's Managed WordPress hosting environment.	https://www.bleepingcomputer.com/news/security/godaddy-hack-causes-data-breach-affecting-12-million-customers/	https://www.bleepstatic.com/content/posts/2021/11/22/GoDaddy.jpg	bleepingcomputer	t	2021-11-22 18:00:02.318119+01	2021-11-22 17:43:08+01	Sergiu Gatlan	bleepingcomputer/GoDaddy-hack-causes-data-breach-affecting-12-million-customers
 2910	CISA, FBI issue holiday warning about hackers, urge vigilance	Hackers could try to ruin your holiday season, CISA and the FBI warned on Monday.	https://therecord.media/cisa-fbi-issue-holiday-warning-about-hackers-urge-vigilance/	https://therecord.media/wp-content/uploads/2021/11/turkey-thanksgiving.jpg	therecord	t	2021-11-22 18:00:02.318119+01	2021-11-22 17:32:03+01	Martin Matishak	therecord/CISA-FBI-issue-holiday-warning-about-hackers-urge-vigilance
 2911	GoDaddy data breach impacts 1.2 million WordPress site owners	Internet infrastructure company GoDaddy said on Monday that a hacker gained access to the personal information of more than 1.2 million customers of its WordPress hosting service.	https://therecord.media/godaddy-data-breach-impacts-1-2-million-wordpress-site-owners/	https://therecord.media/wp-content/uploads/2021/11/GoDaddy.jpg	therecord	t	2021-11-22 18:00:02.318119+01	2021-11-22 17:04:29+01	Catalin Cimpanu	therecord/GoDaddy-data-breach-impacts-12-million-WordPress-site-owners
+2912	Over a million WordPress sites breached | ZDNet	WordPress site owners hosted by GoDaddy woke this morning to find that their sites had been cracked open.	https://www.zdnet.com/article/over-a-million-godaddy-managed-wordpress-sites-cracked/	https://www.zdnet.com/a/img/resize/bc54dd06f3bb3fe1b718d7eb0e412a7f04816831/2020/09/27/25b822b6-5bf8-446a-9c47-43ebf7ddbaee/godaddy.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-22 19:00:02.35444+01	2021-11-22 17:24:51+01	Steven J. Vaughan-Nichols	zdnet/Over-a-million-WordPress-sites-breached
+2913	Black Friday 2021 Deal: 60% off Malwarebytes Premium	Malwarebytes's Black Friday deals are live with 60% off Malwarebytes Premium and 50% off the Malwarebytes Premium + Privacy.	https://www.bleepingcomputer.com/news/software/black-friday-2021-deal-60-percent-off-malwarebytes-premium/	https://www.bleepstatic.com/content/hl-images/2020/04/15/malwarebytes-honeycomb.jpg	bleepingcomputer	t	2021-11-22 19:00:02.35444+01	2021-11-22 18:34:18+01	Lawrence Abrams	bleepingcomputer/Black-Friday-2021-Deal-60-off-Malwarebytes-Premium
+2914	Biometric auth bypassed using fingerprint photo, printer, and glue	Researchers demonstrated that fingerprints could be cloned for biometric authentication for as little as $5 without using any sophisticated or uncommon tools.	https://www.bleepingcomputer.com/news/security/biometric-auth-bypassed-using-fingerprint-photo-printer-and-glue/	https://www.bleepstatic.com/content/hl-images/2021/11/22/fingerprint.jpg	bleepingcomputer	t	2021-11-22 19:00:02.35444+01	2021-11-22 18:10:11+01	Bill Toulas	bleepingcomputer/Biometric-auth-bypassed-using-fingerprint-photo-printer-and-glue
 \.
 
 
@@ -2962,7 +2965,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2911, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2914, true);
 
 
 --
