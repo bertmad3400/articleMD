@@ -2958,6 +2958,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2912	Over a million WordPress sites breached | ZDNet	WordPress site owners hosted by GoDaddy woke this morning to find that their sites had been cracked open.	https://www.zdnet.com/article/over-a-million-godaddy-managed-wordpress-sites-cracked/	https://www.zdnet.com/a/img/resize/bc54dd06f3bb3fe1b718d7eb0e412a7f04816831/2020/09/27/25b822b6-5bf8-446a-9c47-43ebf7ddbaee/godaddy.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-22 19:00:02.35444+01	2021-11-22 17:24:51+01	Steven J. Vaughan-Nichols	zdnet/Over-a-million-WordPress-sites-breached
 2913	Black Friday 2021 Deal: 60% off Malwarebytes Premium	Malwarebytes's Black Friday deals are live with 60% off Malwarebytes Premium and 50% off the Malwarebytes Premium + Privacy.	https://www.bleepingcomputer.com/news/software/black-friday-2021-deal-60-percent-off-malwarebytes-premium/	https://www.bleepstatic.com/content/hl-images/2020/04/15/malwarebytes-honeycomb.jpg	bleepingcomputer	t	2021-11-22 19:00:02.35444+01	2021-11-22 18:34:18+01	Lawrence Abrams	bleepingcomputer/Black-Friday-2021-Deal-60-off-Malwarebytes-Premium
 2914	Biometric auth bypassed using fingerprint photo, printer, and glue	Researchers demonstrated that fingerprints could be cloned for biometric authentication for as little as $5 without using any sophisticated or uncommon tools.	https://www.bleepingcomputer.com/news/security/biometric-auth-bypassed-using-fingerprint-photo-printer-and-glue/	https://www.bleepstatic.com/content/hl-images/2021/11/22/fingerprint.jpg	bleepingcomputer	t	2021-11-22 19:00:02.35444+01	2021-11-22 18:10:11+01	Bill Toulas	bleepingcomputer/Biometric-auth-bypassed-using-fingerprint-photo-printer-and-glue
+2915	Hackers hit Iran's Mahan airline, claim confidential data theft	One of Iran's largest privately-owned airlines, Mahan Air, has announced a cybersecurity incident that has resulted in its website going offline and potentially data loss.	https://www.bleepingcomputer.com/news/security/hackers-hit-irans-mahan-airline-claim-confidential-data-theft/	https://www.bleepstatic.com/content/hl-images/2021/05/12/Airplane-headpic.jpg	bleepingcomputer	t	2021-11-22 20:00:02.17558+01	2021-11-22 19:30:13+01	Bill Toulas	bleepingcomputer/Hackers-hit-Irans-Mahan-airline-claim-confidential-data-theft
+2916	Attackers don't bother brute-forcing long passwords, Microsoft engineer says	According to data collected by Microsoft's network of honeypot servers, most brute-force attackers primarily attempt to guess short passwords, with very few attacks targeting credentials that are either long or contain complex characters.	https://therecord.media/attackers-dont-bother-brute-forcing-long-passwords-microsoft-engineer-says/	https://therecord.media/wp-content/uploads/2021/11/password-decryption-key.jpg	therecord	t	2021-11-22 20:00:02.17558+01	2021-11-22 19:43:36+01	Catalin Cimpanu	therecord/Attackers-dont-bother-brute-forcing-long-passwords-Microsoft-engineer-says
 \.
 
 
@@ -2965,7 +2967,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2914, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2916, true);
 
 
 --
