@@ -2969,6 +2969,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2923	GoDaddy’s Latest Breach Affects 1.2M Customers	The kingpin domain registrar has logged its fifth cyber-incident since 2018, after an attacker with a compromised password stole email addresses, SSH keys and database logins.	https://kasperskycontenthub.com/threatpost-global/?p=176530	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/22164808/GoDaddy-e1637617704303.jpg	threatpost	t	2021-11-23 00:00:02.626715+01	2021-11-22 23:03:30+01	Tara Seals	threatpost/GoDaddys-Latest-Breach-Affects-12M-Customers
 2924	New Windows zero-day with public exploit lets you become an admin	A security researcher has publicly disclosed an exploit for a new Windows zero-day local privilege elevation vulnerability that gives admin privileges in Windows 10, Windows 11, and Windows Server.	https://www.bleepingcomputer.com/news/microsoft/new-windows-zero-day-with-public-exploit-lets-you-become-an-admin/	https://www.bleepstatic.com/content/hl-images/2021/09/12/Microsoft-Defender.jpg	bleepingcomputer	t	2021-11-23 00:00:02.626715+01	2021-11-22 23:40:37+01	Lawrence Abrams	bleepingcomputer/New-Windows-zero-day-with-public-exploit-lets-you-become-an-admin
 2925	Exploit released for Microsoft Exchange RCE bug, patch now	Proof-of-concept exploit code has been released online over the weekend for an actively exploited high severity vulnerability impacting Microsoft Exchange servers.	https://www.bleepingcomputer.com/news/security/exploit-released-for-microsoft-exchange-rce-bug-patch-now/	https://www.bleepstatic.com/content/hl-images/2021/09/28/Exchange_headpic.jpg	bleepingcomputer	t	2021-11-23 00:00:02.626715+01	2021-11-22 23:04:40+01	Sergiu Gatlan	bleepingcomputer/Exploit-released-for-Microsoft-Exchange-RCE-bug-patch-now
+2926	Windows 11 KB5007262 Cumulative Update Preview Released	Microsoft has released the optional KB5007262 Preview cumulative update for Windows 11 with 70 fixes or improvements.	https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5007262-cumulative-update-preview-released/	https://www.bleepstatic.com/content/hl-images/2021/08/31/windows-11-header-light.jpg	bleepingcomputer	t	2021-11-23 01:00:01.875686+01	2021-11-23 00:49:37+01	Lawrence Abrams	bleepingcomputer/Windows-11-KB5007262-Cumulative-Update-Preview-Released
 \.
 
 
@@ -2976,7 +2977,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2925, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2926, true);
 
 
 --
