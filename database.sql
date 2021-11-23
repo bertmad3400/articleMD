@@ -2970,6 +2970,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2924	New Windows zero-day with public exploit lets you become an admin	A security researcher has publicly disclosed an exploit for a new Windows zero-day local privilege elevation vulnerability that gives admin privileges in Windows 10, Windows 11, and Windows Server.	https://www.bleepingcomputer.com/news/microsoft/new-windows-zero-day-with-public-exploit-lets-you-become-an-admin/	https://www.bleepstatic.com/content/hl-images/2021/09/12/Microsoft-Defender.jpg	bleepingcomputer	t	2021-11-23 00:00:02.626715+01	2021-11-22 23:40:37+01	Lawrence Abrams	bleepingcomputer/New-Windows-zero-day-with-public-exploit-lets-you-become-an-admin
 2925	Exploit released for Microsoft Exchange RCE bug, patch now	Proof-of-concept exploit code has been released online over the weekend for an actively exploited high severity vulnerability impacting Microsoft Exchange servers.	https://www.bleepingcomputer.com/news/security/exploit-released-for-microsoft-exchange-rce-bug-patch-now/	https://www.bleepstatic.com/content/hl-images/2021/09/28/Exchange_headpic.jpg	bleepingcomputer	t	2021-11-23 00:00:02.626715+01	2021-11-22 23:04:40+01	Sergiu Gatlan	bleepingcomputer/Exploit-released-for-Microsoft-Exchange-RCE-bug-patch-now
 2926	Windows 11 KB5007262 Cumulative Update Preview Released	Microsoft has released the optional KB5007262 Preview cumulative update for Windows 11 with 70 fixes or improvements.	https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5007262-cumulative-update-preview-released/	https://www.bleepstatic.com/content/hl-images/2021/08/31/windows-11-header-light.jpg	bleepingcomputer	t	2021-11-23 01:00:01.875686+01	2021-11-23 00:49:37+01	Lawrence Abrams	bleepingcomputer/Windows-11-KB5007262-Cumulative-Update-Preview-Released
+2927	OAIC finds big four banks are handling consumer data with good privacy practices | ZDNet	The OAIC's first CDR privacy assessment has uncovered while there is still room for improvement, the big four banks have been fairly compliant with the privacy safeguard set out under Australia's CDR.	https://www.zdnet.com/article/oaic-finds-big-four-banks-are-handling-consumer-data-with-good-privacy-practices/	https://www.zdnet.com/a/img/resize/d1af909aaa6fec91238a200c9399854f0873bfbf/2021/02/03/a21b2ee5-a3a5-4eb6-9c9d-324fb22e5e90/data.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-23 02:00:02.66808+01	2021-11-23 00:20:54+01	Aimee Chanthadavong	zdnet/OAIC-finds-big-four-banks-are-handling-consumer-data-with-good-privacy-practices
 \.
 
 
@@ -2977,7 +2978,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2926, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2927, true);
 
 
 --
