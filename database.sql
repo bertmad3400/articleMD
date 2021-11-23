@@ -2977,6 +2977,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2931	Security warning: Ransomware attackers are working on the holidays, even if you aren't | ZDNet	Just because you're taking a break, that doesn't mean hackers will be too.	https://www.zdnet.com/article/security-warning-ransomware-attackers-are-working-on-the-holidays-even-if-you-arent/	https://www.zdnet.com/a/img/resize/4ccdc435bf68f5f679e7e7cb04f4c06efd7bb3bc/2021/09/16/c22aaa4d-4315-43d3-ba0a-f368b6073e2a/shutterstock-1177798309.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-23 13:00:02.578949+01	2021-11-23 11:21:14+01	Liam Tung	zdnet/Security-warning-Ransomware-attackers-are-working-on-the-holidays-even-if-you-arent
 2932	FBI identified BEC scammers using bank surveillance footage	Two Nigerian nationals have been sentenced to a combined 22 years in prison for their role in a global cybercrime gang that tricked companies into sending funds to the wrong bank accounts—also known as a business email compromise (BEC) scam.	https://therecord.media/fbi-identified-bec-scammers-using-bank-surveillance-footage/	https://therecord.media/wp-content/uploads/2021/11/bank-vhs.jpg	therecord	t	2021-11-23 14:00:02.2573+01	2021-11-23 13:41:26+01	Catalin Cimpanu	therecord/FBI-identified-BEC-scammers-using-bank-surveillance-footage
 2933	Common Cloud Misconfigurations Exploited in Minutes, Report	Opportunistic attackers instantly exploited insecurely exposed services deployed in honeypots by Unit 42 researchers, demonstrating the immediate danger of these typical mistakes.	https://kasperskycontenthub.com/threatpost-global/?p=176539	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/23075615/cloud-misconfiguration.jpg	threatpost	t	2021-11-23 14:00:02.2573+01	2021-11-23 13:59:47+01	Elizabeth Montalbano	threatpost/Common-Cloud-Misconfigurations-Exploited-in-Minutes-Report
+2934	Pixel 6 vs. iPhone 12: Which phone is really more secure? | ZDNet	A new report claims that the Google Pixel 6 is significantly more secure than the Apple iPhone 12. But upon a closer look, legitimate questions arise.	https://www.zdnet.com/article/dissecting-the-pixel-6-vs-iphone-security-debate/	https://www.zdnet.com/a/img/resize/0bbfa653daf7c2eec4cb3d095177337192e70e2b/2021/11/23/5020324b-7caa-4211-9691-f551e9f1bf8a/apple-vs-android.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-23 15:00:01.991332+01	2021-11-23 13:05:00+01	Zeus Kerravala	zdnet/Pixel-6-vs-iPhone-12-Which-phone-is-really-more-secure
 \.
 
 
@@ -2984,7 +2985,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2933, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2934, true);
 
 
 --
