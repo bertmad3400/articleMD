@@ -2990,6 +2990,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2944	Researchers warn of severe risks from ‘Printjack’ printer attacks	A team of Italian researchers has compiled a set of three attacks called 'Printjack,' warning users of the significant consequences of over-trusting their printer.	https://www.bleepingcomputer.com/news/security/researchers-warn-of-severe-risks-from-printjack-printer-attacks/	https://www.bleepstatic.com/content/hl-images/2021/06/30/Printer.jpg	bleepingcomputer	t	2021-11-23 20:00:02.50254+01	2021-11-23 19:05:13+01	Bill Toulas	bleepingcomputer/Researchers-warn-of-severe-risks-from-Printjack-printer-attacks
 2945	Apple sues spyware maker NSO Group	Apple announced earlier today that it filed a lawsuit against NSO Group, the Israeli company behind Pegasus, a powerful spyware and surveillance platform capable of infecting and taking over even the most secure and up-to-date iPhones.	https://therecord.media/apple-sues-spyware-maker-nso-group/	https://therecord.media/wp-content/uploads/2021/07/NSO-Group.png	therecord	t	2021-11-23 21:00:02.758589+01	2021-11-23 20:31:41+01	Catalin Cimpanu	therecord/Apple-sues-spyware-maker-NSO-Group
 2946	FBI warns of phishing targeting high-profile brands' customers	The Federal Bureau of Investigation (FBI) warned today of recently detected spear-phishing email campaigns targeting customers of brand-name companies in attacks known as brand phishing.	https://www.bleepingcomputer.com/news/security/fbi-warns-of-phishing-targeting-high-profile-brands-customers/	https://www.bleepstatic.com/content/hl-images/2021/11/10/FBI.jpg	bleepingcomputer	t	2021-11-23 21:00:02.758589+01	2021-11-23 20:52:50+01	Sergiu Gatlan	bleepingcomputer/FBI-warns-of-phishing-targeting-high-profile-brands-customers
+2947	Apple sues NSO Group over Pegasus spyware | ZDNet	Apple is seeking a permanent injunction that bans NSO Group from using any Apple software, services or devices.	https://www.zdnet.com/article/apple-sues-nso-group-over-pegasus-spyware/	https://www.zdnet.com/a/img/resize/444e1741219d7ccb40ec503c747ebd6cb3b6f3b5/2018/02/28/28f135ac-cb2b-4a71-93d4-5529dce7dc76/apple-hq-logo.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-23 22:00:01.99192+01	2021-11-23 19:58:57+01	Stephanie Condon	zdnet/Apple-sues-NSO-Group-over-Pegasus-spyware
+2948	The Best Black Friday 2021 Security, IT, VPN, & Antivirus Deals	Black Friday is almost here and there are already great deals available for computer security, software, online courses, system admin services, antivirus, and VPN software.	https://www.bleepingcomputer.com/news/security/the-best-black-friday-2021-security-it-vpn-and-antivirus-deals/	https://www.bleepstatic.com/content/hl-images/2021/11/23/black-friday-header.jpg	bleepingcomputer	t	2021-11-23 22:00:01.99192+01	2021-11-23 21:01:02+01	Lawrence Abrams	bleepingcomputer/The-Best-Black-Friday-2021-Security-IT-VPN--Antivirus-Deals
 \.
 
 
@@ -2997,7 +2999,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2946, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2948, true);
 
 
 --
