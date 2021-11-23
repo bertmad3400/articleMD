@@ -2974,6 +2974,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2928	Code execution bug patched in Imunify360 Linux server security suite | ZDNet	The vulnerability could be used to hijack web servers.	https://www.zdnet.com/article/code-execution-bug-patched-in-imunity360-linux-security-suite/	https://www.zdnet.com/a/img/resize/63f5f8469ef2bc88d3a2134104242ff0875ba4f6/2020/09/28/6ce2ab9c-621c-4b07-90a2-7fb82fe7c55c/istock-1185282377.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-23 09:00:02.192994+01	2021-11-23 07:55:21+01	Charlie Osborne	zdnet/Code-execution-bug-patched-in-Imunify360-Linux-server-security-suite
 2929	Suspect arrested in 'ransom your employer' criminal scheme | ZDNet	The man at the heart of the 'business' allegedly wanted cash to fund a new social network project.	https://www.zdnet.com/article/suspect-arrested-in-ransom-your-employer-criminal-scheme/	https://www.zdnet.com/a/img/resize/1a114fceee3dde2b1ce019b288f7fce891335bfe/2019/09/17/2b29f76a-a335-4062-a367-27ba7ba638ef/internet-cash.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-23 10:00:02.101681+01	2021-11-23 08:41:24+01	Charlie Osborne	zdnet/Suspect-arrested-in-ransom-your-employer-criminal-scheme
 2930	Ethical Hacking, book review: A hands-on guide for would-be security professionals | ZDNet	Daniel G Graham's book won't help hackers, who already have a wide range of tools to attack networks and devices. But it will help defenders who want to turn those techniques to more benevolent use.	https://www.zdnet.com/article/ethical-hacking-book-review-a-hands-on-guide-for-would-be-security-professionals/	https://www.zdnet.com/a/img/resize/14f836d892d915f13a9fe61c1be15b847d0728c9/2021/11/23/f04dfea8-67b1-48f1-b037-4a46ab3ee467/ethical-hacking-book-thumb.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-23 11:00:02.443067+01	2021-11-23 09:50:14+01	Mary Branscombe	zdnet/Ethical-Hacking-book-review-A-hands-on-guide-for-would-be-security-professionals
+2931	Security warning: Ransomware attackers are working on the holidays, even if you aren't | ZDNet	Just because you're taking a break, that doesn't mean hackers will be too.	https://www.zdnet.com/article/security-warning-ransomware-attackers-are-working-on-the-holidays-even-if-you-arent/	https://www.zdnet.com/a/img/resize/4ccdc435bf68f5f679e7e7cb04f4c06efd7bb3bc/2021/09/16/c22aaa4d-4315-43d3-ba0a-f368b6073e2a/shutterstock-1177798309.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-23 13:00:02.578949+01	2021-11-23 11:21:14+01	Liam Tung	zdnet/Security-warning-Ransomware-attackers-are-working-on-the-holidays-even-if-you-arent
 \.
 
 
@@ -2981,7 +2982,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2930, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2931, true);
 
 
 --
