@@ -2984,6 +2984,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2938	Cybersecurity: Why this beautiful city of spires could be the next tech innovation hub | ZDNet	This capital city is now home to well-established IT and cybersecurity companies and a flourishing pool of tech talent.	https://www.zdnet.com/article/cybersecurity-why-this-beautiful-city-of-spires-could-be-the-next-tech-innovation-hub/	https://www.zdnet.com/a/img/resize/4ca2212b00aceadb22fcc41284acf1db205cb5dc/2021/11/22/4e210398-d84d-4ce8-a4c0-f8a81a315b6b/prague-czech-cityscape-skyline-joe-daniel-price.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-23 16:00:02.103691+01	2021-11-23 12:51:00+01	Bojan Stojkovski	zdnet/Cybersecurity-Why-this-beautiful-city-of-spires-could-be-the-next-tech-innovation-hub
 2939	Over nine million Android devices infected by info-stealing trojan	A large-scale malware campaign on Huawei's AppGallery has led to approximately 9,300,000 installs of Android trojans masquerading as over 190 different apps	https://www.bleepingcomputer.com/news/security/over-nine-million-android-devices-infected-by-info-stealing-trojan/	https://www.bleepstatic.com/content/hl-images/2021/10/21/Android.jpg	bleepingcomputer	t	2021-11-23 17:00:02.624013+01	2021-11-23 17:00:29+01	Bill Toulas	bleepingcomputer/Over-nine-million-Android-devices-infected-by-info-stealing-trojan
 2940	Tardigrade hackers target big pharma vaccine makers with stealthy malware	​An advanced hacking group known as 'Tardigrade' is targeting biomanufacturing facilities and research centers working on vaccines and critical medicines.	https://www.bleepingcomputer.com/news/security/tardigrade-hackers-target-big-pharma-vaccine-makers-with-stealthy-malware/	https://www.bleepstatic.com/content/hl-images/2021/11/23/medicine.jpg	bleepingcomputer	t	2021-11-23 17:00:02.624013+01	2021-11-23 16:38:06+01	Bill Toulas	bleepingcomputer/Tardigrade-hackers-target-big-pharma-vaccine-makers-with-stealthy-malware
+2941	Microsoft Edge adds Super Duper Secure Mode to Stable channel	Microsoft has quietly added a 'Super Duper Secure Mode' to the Microsoft Edge web browser, a new feature that brings security improvements without significant performance losses.	https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-adds-super-duper-secure-mode-to-stable-channel/	https://www.bleepstatic.com/content/hl-images/2021/06/01/Microsoft_Edge.jpg	bleepingcomputer	t	2021-11-23 19:00:02.519655+01	2021-11-23 18:09:55+01	Sergiu Gatlan	bleepingcomputer/Microsoft-Edge-adds-Super-Duper-Secure-Mode-to-Stable-channel
 \.
 
 
@@ -2991,7 +2992,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2940, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2941, true);
 
 
 --
