@@ -2988,6 +2988,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2942	A third of all dark web domains are now v3 onion sites	Throughout 2020 and 2021, the Tor anonymity network has gone through a major change as the Tor software team has released a new version of its software that updated how .onion domains look and work.	https://therecord.media/a-third-of-all-dark-web-domains-are-now-v3-onion-sites/	https://therecord.media/wp-content/uploads/2021/10/dark-web.jpg	therecord	t	2021-11-23 20:00:02.50254+01	2021-11-23 19:20:51+01	Catalin Cimpanu	therecord/A-third-of-all-dark-web-domains-are-now-v3-onion-sites
 2943	Apple sues spyware-maker NSO Group, notifies iOS exploit targets	Apple has filed a lawsuit against Pegasus spyware-maker NSO Group and its parent company for the targeting and spying of Apple users with surveillance tech.	https://www.bleepingcomputer.com/news/apple/apple-sues-spyware-maker-nso-group-notifies-ios-exploit-targets/	https://www.bleepstatic.com/content/hl-images/2021/08/25/Apple-glitch.jpg	bleepingcomputer	t	2021-11-23 20:00:02.50254+01	2021-11-23 19:31:33+01	Sergiu Gatlan	bleepingcomputer/Apple-sues-spyware-maker-NSO-Group-notifies-iOS-exploit-targets
 2944	Researchers warn of severe risks from ‘Printjack’ printer attacks	A team of Italian researchers has compiled a set of three attacks called 'Printjack,' warning users of the significant consequences of over-trusting their printer.	https://www.bleepingcomputer.com/news/security/researchers-warn-of-severe-risks-from-printjack-printer-attacks/	https://www.bleepstatic.com/content/hl-images/2021/06/30/Printer.jpg	bleepingcomputer	t	2021-11-23 20:00:02.50254+01	2021-11-23 19:05:13+01	Bill Toulas	bleepingcomputer/Researchers-warn-of-severe-risks-from-Printjack-printer-attacks
+2945	Apple sues spyware maker NSO Group	Apple announced earlier today that it filed a lawsuit against NSO Group, the Israeli company behind Pegasus, a powerful spyware and surveillance platform capable of infecting and taking over even the most secure and up-to-date iPhones.	https://therecord.media/apple-sues-spyware-maker-nso-group/	https://therecord.media/wp-content/uploads/2021/07/NSO-Group.png	therecord	t	2021-11-23 21:00:02.758589+01	2021-11-23 20:31:41+01	Catalin Cimpanu	therecord/Apple-sues-spyware-maker-NSO-Group
+2946	FBI warns of phishing targeting high-profile brands' customers	The Federal Bureau of Investigation (FBI) warned today of recently detected spear-phishing email campaigns targeting customers of brand-name companies in attacks known as brand phishing.	https://www.bleepingcomputer.com/news/security/fbi-warns-of-phishing-targeting-high-profile-brands-customers/	https://www.bleepstatic.com/content/hl-images/2021/11/10/FBI.jpg	bleepingcomputer	t	2021-11-23 21:00:02.758589+01	2021-11-23 20:52:50+01	Sergiu Gatlan	bleepingcomputer/FBI-warns-of-phishing-targeting-high-profile-brands-customers
 \.
 
 
@@ -2995,7 +2997,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2944, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2946, true);
 
 
 --
