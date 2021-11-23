@@ -2972,6 +2972,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2926	Windows 11 KB5007262 Cumulative Update Preview Released	Microsoft has released the optional KB5007262 Preview cumulative update for Windows 11 with 70 fixes or improvements.	https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5007262-cumulative-update-preview-released/	https://www.bleepstatic.com/content/hl-images/2021/08/31/windows-11-header-light.jpg	bleepingcomputer	t	2021-11-23 01:00:01.875686+01	2021-11-23 00:49:37+01	Lawrence Abrams	bleepingcomputer/Windows-11-KB5007262-Cumulative-Update-Preview-Released
 2927	OAIC finds big four banks are handling consumer data with good privacy practices | ZDNet	The OAIC's first CDR privacy assessment has uncovered while there is still room for improvement, the big four banks have been fairly compliant with the privacy safeguard set out under Australia's CDR.	https://www.zdnet.com/article/oaic-finds-big-four-banks-are-handling-consumer-data-with-good-privacy-practices/	https://www.zdnet.com/a/img/resize/d1af909aaa6fec91238a200c9399854f0873bfbf/2021/02/03/a21b2ee5-a3a5-4eb6-9c9d-324fb22e5e90/data.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-23 02:00:02.66808+01	2021-11-23 00:20:54+01	Aimee Chanthadavong	zdnet/OAIC-finds-big-four-banks-are-handling-consumer-data-with-good-privacy-practices
 2928	Code execution bug patched in Imunify360 Linux server security suite | ZDNet	The vulnerability could be used to hijack web servers.	https://www.zdnet.com/article/code-execution-bug-patched-in-imunity360-linux-security-suite/	https://www.zdnet.com/a/img/resize/63f5f8469ef2bc88d3a2134104242ff0875ba4f6/2020/09/28/6ce2ab9c-621c-4b07-90a2-7fb82fe7c55c/istock-1185282377.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-23 09:00:02.192994+01	2021-11-23 07:55:21+01	Charlie Osborne	zdnet/Code-execution-bug-patched-in-Imunify360-Linux-server-security-suite
+2929	Suspect arrested in 'ransom your employer' criminal scheme | ZDNet	The man at the heart of the 'business' allegedly wanted cash to fund a new social network project.	https://www.zdnet.com/article/suspect-arrested-in-ransom-your-employer-criminal-scheme/	https://www.zdnet.com/a/img/resize/1a114fceee3dde2b1ce019b288f7fce891335bfe/2019/09/17/2b29f76a-a335-4062-a367-27ba7ba638ef/internet-cash.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-23 10:00:02.101681+01	2021-11-23 08:41:24+01	Charlie Osborne	zdnet/Suspect-arrested-in-ransom-your-employer-criminal-scheme
 \.
 
 
@@ -2979,7 +2980,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2928, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2929, true);
 
 
 --
