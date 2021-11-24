@@ -2997,6 +2997,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2951	Attackers Will Flock to Crypto Wallets, Linux in 2022:  Podcast	That’s just the start of what cyberattackers will zero in on as they pick up APT techniques to hurl more destructive ransomware & supply-chain attacks, says Fortinet’s Derek Manky.	https://kasperskycontenthub.com/threatpost-global/?p=176546	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/23123447/crystal-ball-gfc10366a7_1280-e1637688901816.jpeg	threatpost	t	2021-11-23 23:00:02.628498+01	2021-11-23 22:09:04+01	Threatpost	threatpost/Attackers-Will-Flock-to-Crypto-Wallets-Linux-in-2022--Podcast
 2952	Threat actors find and compromise exposed services in 24 hours	Researchers set up 320 honeypots to see how quickly threat actors would target exposed cloud services and report that 80% of them were compromised in under 24 hours.	https://www.bleepingcomputer.com/news/security/threat-actors-find-and-compromise-exposed-services-in-24-hours/	https://www.bleepstatic.com/content/hl-images/2021/11/23/honeybees.jpg	bleepingcomputer	t	2021-11-23 23:00:02.628498+01	2021-11-23 22:35:51+01	Bill Toulas	bleepingcomputer/Threat-actors-find-and-compromise-exposed-services-in-24-hours
 2953	Malware now trying to exploit new Windows Installer zero-day	Malware creators have already started testing a proof-of-concept exploit targeting a new Microsoft Windows Installer zero-day publicly disclosed by security researcher Abdelhamid Naceri over the weekend.	https://www.bleepingcomputer.com/news/security/malware-now-trying-to-exploit-new-windows-installer-zero-day/	https://www.bleepstatic.com/content/hl-images/2021/07/09/Windows.jpg	bleepingcomputer	t	2021-11-23 23:00:02.628498+01	2021-11-23 22:09:03+01	Sergiu Gatlan	bleepingcomputer/Malware-now-trying-to-exploit-new-Windows-Installer-zero-day
+2954	Hackers target biomanufacturing with stealthy Tardigrade malware	​An advanced hacking group is actively targeting biomanufacturing facilities with a new custom malware called 'Tardigrade.'	https://www.bleepingcomputer.com/news/security/hackers-target-biomanufacturing-with-stealthy-tardigrade-malware/	https://www.bleepstatic.com/content/hl-images/2021/11/23/medicine.jpg	bleepingcomputer	t	2021-11-24 01:00:02.671841+01	2021-11-23 16:38:06+01	Bill Toulas	bleepingcomputer/Hackers-target-biomanufacturing-with-stealthy-Tardigrade-malware
 \.
 
 
@@ -3004,7 +3005,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2953, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2954, true);
 
 
 --
