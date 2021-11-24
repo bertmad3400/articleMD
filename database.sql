@@ -3021,6 +3021,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2975	How to Defend against App Impersonation in 2021	Despite tight security measures by Google/Apple, cybercriminals still find ways to bypass fake app checks to plant malware on mobile devices. Dave Stewart, CEO of Approov, discusses technical approaches to defense against this.	https://kasperskycontenthub.com/threatpost-global/?p=176519	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/22160337/Picture1.jpg	threatpost	t	2021-11-24 19:00:02.274011+01	2021-11-23 15:00:01+01	David Stewart	threatpost/How-to-Defend-Against-Mobile-App-Impersonation
 2976	Hackers exploit Microsoft MSHTML bug to steal Google, Instagram creds	A newly discovered Iranian threat actor is stealing Google and Instagram credentials belonging to Farsi-speaking targets worldwide using a new PowerShell-based stealer dubbed PowerShortShell by security researchers at SafeBreach Labs.	https://www.bleepingcomputer.com/news/security/hackers-exploit-microsoft-mshtml-bug-to-steal-google-instagram-creds/	https://www.bleepstatic.com/content/hl-images/2021/11/24/silhouette.jpg	bleepingcomputer	t	2021-11-24 20:00:01.812941+01	2021-11-24 19:42:37+01	Sergiu Gatlan	bleepingcomputer/Hackers-exploit-Microsoft-MSHTML-bug-to-steal-Google-Instagram-creds
 2977	Germany to force ISPs to give discounts for slow Internet speeds	A new regulation coming in the form of an amendment in the Telecommunications Act of Germany could radically change the relationship between consumers and internet service providers.	https://www.bleepingcomputer.com/news/legal/germany-to-force-isps-to-give-discounts-for-slow-internet-speeds/	https://www.bleepstatic.com/content/hl-images/2021/11/24/fiber_cable.jpg	bleepingcomputer	t	2021-11-24 21:00:01.937761+01	2021-11-24 20:08:59+01	Bill Toulas	bleepingcomputer/Germany-to-force-ISPs-to-give-discounts-for-slow-Internet-speeds
+2978	Windows 10 KB5007253 update released with network printing fixes	Microsoft has released the optional KB5007253 Preview cumulative update for Windows 10 2004, Windows 10 20H2, Windows 10 21H1, and Windows 10 21H2 that claims to fix the 0x000006e4, 0x0000007c, or 0x00000709 network printing errors.	https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5007253-update-released-with-network-printing-fixes/	https://www.bleepstatic.com/content/hl-images/2021/01/25/Windows-10.jpg	bleepingcomputer	t	2021-11-24 22:00:02.604306+01	2021-11-24 21:46:07+01	Lawrence Abrams	bleepingcomputer/Windows-10-KB5007253-update-released-with-network-printing-fixes
 \.
 
 
@@ -3028,7 +3029,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2977, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2978, true);
 
 
 --
