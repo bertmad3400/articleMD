@@ -3000,6 +3000,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2954	Hackers target biomanufacturing with stealthy Tardigrade malware	​An advanced hacking group is actively targeting biomanufacturing facilities with a new custom malware called 'Tardigrade.'	https://www.bleepingcomputer.com/news/security/hackers-target-biomanufacturing-with-stealthy-tardigrade-malware/	https://www.bleepstatic.com/content/hl-images/2021/11/23/medicine.jpg	bleepingcomputer	t	2021-11-24 01:00:02.671841+01	2021-11-23 16:38:06+01	Bill Toulas	bleepingcomputer/Hackers-target-biomanufacturing-with-stealthy-Tardigrade-malware
 2955	Microsoft silently enables ‘Super Duper Secure Mode’ for Edge	Microsoft last week secretly added a security feature in its Edge web browser that allows users to sacrifice the browser's performance for improved security.	https://therecord.media/microsoft-silently-enables-super-duper-secure-mode-for-edge/	https://therecord.media/wp-content/uploads/2021/06/Microsoft-Edge-1-e1628118995558.jpg	therecord	t	2021-11-24 02:00:02.051813+01	2021-11-24 01:50:03+01	Catalin Cimpanu	therecord/Microsoft-silently-enables-Super-Duper-Secure-Mode-for-Edge
 2956	Mozilla ends support for Firefox Lockwise password management app, strands iOS users | ZDNet	Password management app to be replaced by functionality already existing in the Firefox browser.	https://www.zdnet.com/article/mozilla-ends-support-for-firefox-lockwise-password-management-app-strands-ios-users/	https://www.zdnet.com/a/img/resize/e6a1edcb2f5628ff88dc98f90292f122d06918bc/2021/11/24/a3b6d377-aa0f-49c6-bb7a-c448f9c98c6f/firefox-lockwise-app.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-24 06:00:02.373698+01	2021-11-24 04:00:06+01	Chris Duckett	zdnet/Mozilla-ends-support-for-Firefox-Lockwise-password-management-app-strands-iOS-users
+2957	WA Auditor-General drags local governments over horrendous cyber risk management | ZDNet	Usage of out-of-date software came in for special treatment from the Western Australia Auditor-General, with one entity vulnerable to a 15-year vulnerability.	https://www.zdnet.com/article/wa-auditor-general-drags-local-governments-over-horrendous-cyber-risk-management/	https://www.zdnet.com/a/img/resize/3a3c39466ceac653b70dd0410513729f345184ee/2021/05/12/eb3007ab-285d-4c0b-8286-2bbfee97c99b/perth-city.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-24 08:00:01.986615+01	2021-11-24 06:58:06+01	Chris Duckett	zdnet/WA-Auditor-General-drags-local-governments-over-horrendous-cyber-risk-management
 \.
 
 
@@ -3007,7 +3008,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2956, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2957, true);
 
 
 --
