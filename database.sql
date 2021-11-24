@@ -3002,6 +3002,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2956	Mozilla ends support for Firefox Lockwise password management app, strands iOS users | ZDNet	Password management app to be replaced by functionality already existing in the Firefox browser.	https://www.zdnet.com/article/mozilla-ends-support-for-firefox-lockwise-password-management-app-strands-ios-users/	https://www.zdnet.com/a/img/resize/e6a1edcb2f5628ff88dc98f90292f122d06918bc/2021/11/24/a3b6d377-aa0f-49c6-bb7a-c448f9c98c6f/firefox-lockwise-app.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-24 06:00:02.373698+01	2021-11-24 04:00:06+01	Chris Duckett	zdnet/Mozilla-ends-support-for-Firefox-Lockwise-password-management-app-strands-iOS-users
 2957	WA Auditor-General drags local governments over horrendous cyber risk management | ZDNet	Usage of out-of-date software came in for special treatment from the Western Australia Auditor-General, with one entity vulnerable to a 15-year vulnerability.	https://www.zdnet.com/article/wa-auditor-general-drags-local-governments-over-horrendous-cyber-risk-management/	https://www.zdnet.com/a/img/resize/3a3c39466ceac653b70dd0410513729f345184ee/2021/05/12/eb3007ab-285d-4c0b-8286-2bbfee97c99b/perth-city.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-24 08:00:01.986615+01	2021-11-24 06:58:06+01	Chris Duckett	zdnet/WA-Auditor-General-drags-local-governments-over-horrendous-cyber-risk-management
 2958	New JavaScript malware works as a RAT dispenser	Cybersecurity experts from HP said they discovered a new strain of JavaScript malware that criminals are using as a way to infect systems and then deploy much dangerous remote access trojans (RATs).	https://therecord.media/new-javascript-malware-works-as-a-rat-dispenser/	https://therecord.media/wp-content/uploads/2021/11/ratdispenser.png	therecord	t	2021-11-24 13:00:02.720496+01	2021-11-24 12:46:47+01	Catalin Cimpanu	therecord/New-JavaScript-malware-works-as-a-RAT-dispenser
+2959	Hit by ransomware? Make sure you don't make this first obvious mistake | ZDNet	Cybersecurity researchers have analysed 700 ransomware negotiations between victims and crooks. Here's what they found.	https://www.zdnet.com/article/hit-by-ransomware-make-sure-you-dont-make-this-first-obvious-mistake/	https://www.zdnet.com/a/img/resize/65a0f0c1f245f4f1c2d9dfa83649f38e9a277124/2021/11/23/52195e69-6cae-493e-8761-e13e6a05cd57/gettyimages-businesswoman-frustrated-by-bad-new-at-office-desk.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-24 14:00:01.855206+01	2021-11-24 12:10:16+01	Danny Palmer	zdnet/Hit-by-ransomware-Make-sure-you-dont-make-this-first-obvious-mistake
 \.
 
 
@@ -3009,7 +3010,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2958, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2959, true);
 
 
 --
