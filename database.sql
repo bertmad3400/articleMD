@@ -3010,6 +3010,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2964	Ukraine arrests ‘Phoenix’ hackers behind Apple phishing attacks	The Security Service of Ukraine (SSU) has arrested five members of the international 'Phoenix' hacking group who specialize in the remote hacking of mobile devices.	https://www.bleepingcomputer.com/news/security/ukraine-arrests-phoenix-hackers-behind-apple-phishing-attacks/	https://www.bleepstatic.com/content/hl-images/2021/11/24/featured.jpg	bleepingcomputer	t	2021-11-24 16:00:02.036382+01	2021-11-24 15:57:24+01	Bill Toulas	bleepingcomputer/Ukraine-arrests-Phoenix-hackers-behind-Apple-phishing-attacks
 2965	Mediatek eavesdropping bug impacts 30% of all Android smartphones	MediaTek fixed security vulnerabilities that could have allowed attackers to eavesdrop on Android phone calls, execute commands, or elevate their privileges to a higher level.	https://www.bleepingcomputer.com/news/security/mediatek-eavesdropping-bug-impacts-30-percent-of-all-android-smartphones/	https://www.bleepstatic.com/content/hl-images/2021/11/24/Mediatek_logo.jpg	bleepingcomputer	t	2021-11-24 16:00:02.036382+01	2021-11-24 15:23:14+01	Bill Toulas	bleepingcomputer/Mediatek-eavesdropping-bug-impacts-30-of-all-Android-smartphones
 2966	Black Friday 2021 deal: 20% off Zero2Automated malware analysis courses	The popular Zero2Automated malware analysis and reverse-engineering course is having another Black Friday and Cyber Monday promotion this year, where you can get 20% off all courses on their site.	https://www.bleepingcomputer.com/news/security/black-friday-2021-deal-20-percent-off-zero2automated-malware-analysis-courses/	https://www.bleepstatic.com/content/hl-images/2020/11/22/zero2automated.jpg	bleepingcomputer	t	2021-11-24 16:00:02.036382+01	2021-11-24 14:02:04+01	Lawrence Abrams	bleepingcomputer/Black-Friday-2021-deal-20-off-Zero2Automated-malware-analysis-courses
+2967	GoDaddy data breach hits WordPress hosting services resellers	GoDaddy says the recently disclosed data breach affecting roughly 1.2 million customers has also hit multiple Managed WordPress services resellers.	https://www.bleepingcomputer.com/news/security/godaddy-data-breach-hits-wordpress-hosting-services-resellers/	https://www.bleepstatic.com/content/hl-images/2021/11/24/GoDaddy_headpic.jpg	bleepingcomputer	t	2021-11-24 17:00:01.962932+01	2021-11-24 16:47:05+01	Sergiu Gatlan	bleepingcomputer/GoDaddy-data-breach-hits-WordPress-hosting-services-resellers
+2968	Apple’s NSO Group Lawsuit Amps Up Pressure on Pegasus Spyware-Maker	Just weeks after a judge ruled that NSO Group did not have immunity in a suit brought by Facebook subsidiary WhatsApp, Apple is adding significant weight to the company’s woes.	https://kasperskycontenthub.com/threatpost-global/?p=176565	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/24103454/pegasus-e1637768109715.jpg	threatpost	t	2021-11-24 17:00:01.962932+01	2021-11-24 16:55:50+01	Tara Seals	threatpost/Apples-NSO-Group-Lawsuit-Amps-Up-Pressure-on-Pegasus-Spyware-Maker
 \.
 
 
@@ -3017,7 +3019,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2966, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2968, true);
 
 
 --
