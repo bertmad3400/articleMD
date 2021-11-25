@@ -3033,6 +3033,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2987	New Linux malware hides in cron jobs with invalid dates	Security researchers have discovered a new remote access trojan (RAT) for Linux that keeps an almost invisible profile by hiding in tasks scheduled for execution on a non-existent day, February 31st.	https://www.bleepingcomputer.com/news/security/new-linux-malware-hides-in-cron-jobs-with-invalid-dates/	https://www.bleepstatic.com/content/hl-images/2021/11/25/OnlineShopping.jpg	bleepingcomputer	t	2021-11-25 19:00:02.102915+01	2021-11-25 16:45:38+01	Ionut Ilascu	bleepingcomputer/New-Linux-malware-hides-in-cron-jobs-with-invalid-dates
 2988	UK government transport website caught showing porn	A UK Department for Transport (DfT) website was caught serving porn earlier today. The particular DfT subdomain behind the mishap, on most days, provides vital DfT statistics for the public and the department's business plan.	https://www.bleepingcomputer.com/news/security/uk-government-transport-website-caught-showing-porn/	https://www.bleepstatic.com/content/hl-images/2021/11/25/dft-bg2.png	bleepingcomputer	t	2021-11-25 21:00:01.908488+01	2021-11-25 20:33:23+01	Ax Sharma	bleepingcomputer/UK-government-transport-website-caught-showing-porn
 2989	How cybercriminals adjusted their scams for Black Friday 2021	Black Friday is approaching, and while shoppers prepare to open their wallets, cybercriminals hone their malware droppers, phishing lures, and fake sites.	https://www.bleepingcomputer.com/news/security/how-cybercriminals-adjusted-their-scams-for-black-friday-2021/	https://www.bleepstatic.com/content/hl-images/2021/11/22/black_friday.jpg	bleepingcomputer	t	2021-11-25 21:00:01.908488+01	2021-11-25 20:30:00+01	Bill Toulas	bleepingcomputer/How-cybercriminals-adjusted-their-scams-for-Black-Friday-2021
+2990	China’s top policymaking body charts plan for science and technology 'self-sufficiency'	China's top leadership unveiled a plan for developing homegrown science and technology with an eye toward Chinese self-sufficiency.	https://therecord.media/chinas-top-policymaking-body-charts-plan-for-science-and-technology-self-sufficiency/	https://therecord.media/wp-content/uploads/2021/11/terry-xu-WhypIfd5Fp0-unsplash-1.jpg	therecord	t	2021-11-25 22:00:02.399863+01	2021-11-25 21:31:10+01	Dina Temple-Raston	therecord/Chinas-top-policymaking-body-charts-plan-for-science-and-technology-self-sufficiency
 \.
 
 
@@ -3040,7 +3041,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2989, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2990, true);
 
 
 --
