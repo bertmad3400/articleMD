@@ -3027,6 +3027,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2981	This chip flaw could have let malicious apps eavesdrop on Android phone users | ZDNet	MediaTek fixes several flaws that attackers can exploit without user interaction.	https://www.zdnet.com/article/this-chip-flaw-could-have-let-malicious-apps-eavesdrop-on-android-phone-users/	https://www.zdnet.com/a/img/resize/2be7e46d2f903a1eb4e19cb5c47684f57bb59536/2019/06/07/f142837c-e7ea-4d13-99ce-4de874134519/phoneusersistock-999231414.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-25 13:00:02.106301+01	2021-11-25 11:13:05+01	Liam Tung	zdnet/This-chip-flaw-could-have-let-malicious-apps-eavesdrop-on-Android-phone-users
 2982	Israel restricts cyberweapons export list by two-thirds, from 102 to 37 countries	The Israeli government has restricted the list of countries to which local security firms are allowed to sell surveillance and offensive hacking tools by almost two-thirds, cutting the official cyber export list from 102 to 37 entries.	https://therecord.media/israel-restricts-cyberweapons-export-list-by-two-thirds-from-102-to-37-countries/	https://therecord.media/wp-content/uploads/2021/11/narrow-restrict.jpg	therecord	t	2021-11-25 13:00:02.106301+01	2021-11-25 12:51:52+01	Catalin Cimpanu	therecord/Israel-restricts-cyberweapons-export-list-by-two-thirds-from-102-to-37-countries
 2983	Black Friday shopping? FBI says beware of these holiday scams and phishing threats | ZDNet	The FBI expects a rise in complaints and losses to scams as shoppers hunt out bargains.	https://www.zdnet.com/article/black-friday-shopping-fbi-says-beware-of-these-holiday-scams-and-phishing-threats/	https://www.zdnet.com/a/img/resize/8d12287fc459f9b66a02474cac683ea28e454b4a/2020/05/05/bd65d396-70e6-4b67-85fc-8378ef2c3196/istock-12175457731.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-25 15:00:02.553248+01	2021-11-25 13:00:53+01	Liam Tung	zdnet/Black-Friday-shopping-FBI-says-beware-of-these-holiday-scams-and-phishing-threats
+2984	New CronRAT malware infects Linux systems using odd day cron jobs	Security researchers have discovered a new remote access trojan (RAT) for Linux that keeps an almost invisible profile by hiding in tasks scheduled for execution on a non-existent day, February 31st.	https://www.bleepingcomputer.com/news/security/new-cronrat-malware-infects-linux-systems-using-odd-day-cron-jobs/	https://www.bleepstatic.com/content/hl-images/2021/11/25/OnlineShopping.jpg	bleepingcomputer	t	2021-11-25 17:00:02.188683+01	2021-11-25 16:45:38+01	Ionut Ilascu	bleepingcomputer/New-CronRAT-malware-infects-Linux-systems-using-odd-day-cron-jobs
+2985	Discord malware campaign targets crypto and NFT communities	A new malware campaign on Discord uses the Babadeda crypter to hide malware that targets the crypto, NFT, and DeFi communities.	https://www.bleepingcomputer.com/news/security/discord-malware-campaign-targets-crypto-and-nft-communities/	https://www.bleepstatic.com/content/hl-images/2020/12/21/Bitcoin-cryptocurrency.jpg	bleepingcomputer	t	2021-11-25 17:00:02.188683+01	2021-11-25 15:26:52+01	Bill Toulas	bleepingcomputer/Discord-malware-campaign-targets-crypto-and-NFT-communities
 \.
 
 
@@ -3034,7 +3036,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2983, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2985, true);
 
 
 --
