@@ -3031,6 +3031,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2985	Discord malware campaign targets crypto and NFT communities	A new malware campaign on Discord uses the Babadeda crypter to hide malware that targets the crypto, NFT, and DeFi communities.	https://www.bleepingcomputer.com/news/security/discord-malware-campaign-targets-crypto-and-nft-communities/	https://www.bleepstatic.com/content/hl-images/2020/12/21/Bitcoin-cryptocurrency.jpg	bleepingcomputer	t	2021-11-25 17:00:02.188683+01	2021-11-25 15:26:52+01	Bill Toulas	bleepingcomputer/Discord-malware-campaign-targets-crypto-and-NFT-communities
 2986	New Twists on Gift-Card Scams Flourish on Black Friday	Fake merchandise and crypto jacking are among the new ways cybercriminals will try to defraud people flocking online for Black Friday and Cyber Monday.	https://kasperskycontenthub.com/threatpost-global/?p=176593	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/25110038/scam-alert.jpg	threatpost	t	2021-11-25 18:00:02.328549+01	2021-11-25 17:02:38+01	Elizabeth Montalbano	threatpost/New-Twists-on-Gift-Card-Scams-Flourish-on-Black-Friday
 2987	New Linux malware hides in cron jobs with invalid dates	Security researchers have discovered a new remote access trojan (RAT) for Linux that keeps an almost invisible profile by hiding in tasks scheduled for execution on a non-existent day, February 31st.	https://www.bleepingcomputer.com/news/security/new-linux-malware-hides-in-cron-jobs-with-invalid-dates/	https://www.bleepstatic.com/content/hl-images/2021/11/25/OnlineShopping.jpg	bleepingcomputer	t	2021-11-25 19:00:02.102915+01	2021-11-25 16:45:38+01	Ionut Ilascu	bleepingcomputer/New-Linux-malware-hides-in-cron-jobs-with-invalid-dates
+2988	UK government transport website caught showing porn	A UK Department for Transport (DfT) website was caught serving porn earlier today. The particular DfT subdomain behind the mishap, on most days, provides vital DfT statistics for the public and the department's business plan.	https://www.bleepingcomputer.com/news/security/uk-government-transport-website-caught-showing-porn/	https://www.bleepstatic.com/content/hl-images/2021/11/25/dft-bg2.png	bleepingcomputer	t	2021-11-25 21:00:01.908488+01	2021-11-25 20:33:23+01	Ax Sharma	bleepingcomputer/UK-government-transport-website-caught-showing-porn
+2989	How cybercriminals adjusted their scams for Black Friday 2021	Black Friday is approaching, and while shoppers prepare to open their wallets, cybercriminals hone their malware droppers, phishing lures, and fake sites.	https://www.bleepingcomputer.com/news/security/how-cybercriminals-adjusted-their-scams-for-black-friday-2021/	https://www.bleepstatic.com/content/hl-images/2021/11/22/black_friday.jpg	bleepingcomputer	t	2021-11-25 21:00:01.908488+01	2021-11-25 20:30:00+01	Bill Toulas	bleepingcomputer/How-cybercriminals-adjusted-their-scams-for-Black-Friday-2021
 \.
 
 
@@ -3038,7 +3040,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2987, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2989, true);
 
 
 --
