@@ -3039,6 +3039,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2994	Google: Half of compromised cloud instances have weak or no passwords | ZDNet	And many attackers are installing cryptomining malware within 22 seconds of compromising cloud instances.	https://www.zdnet.com/article/google-half-of-compromised-cloud-instances-have-weak-or-no-passwords/	https://www.zdnet.com/a/img/resize/0d927c93b5c7abd68304637ad5badbee1d09e521/2021/10/15/3eab866d-2d38-4d61-a69c-c255bd7bd477/shutterstock-2032695119.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-26 12:00:01.907606+01	2021-11-26 10:01:09+01	Liam Tung	zdnet/Google-Half-of-compromised-cloud-instances-have-weak-or-no-passwords
 2993	Hackers are targeting this Microsoft Windows Installer flaw, say security researchers | ZDNet	Flaw can be exploited to give an attacker administrator rights on a compromised system, despite efforts to fix the problem.	https://www.zdnet.com/article/hackers-are-targeting-this-microsoft-windows-installer-flaw-say-security-researchers/	https://www.zdnet.com/a/img/resize/2a102be54d9ddd3c0248d626ef37c0849594dc76/2021/10/20/198f613b-750c-4aef-bb40-ac9098fb74d4/shutterstock-1692847237.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-26 12:00:01.907606+01	2021-11-26 10:24:05+01	Liam Tung	zdnet/Hackers-are-targeting-this-Microsoft-Windows-Installer-flaw-say-security-researchers
 2995	US sanctions 28 quantum computing entities in China, Russia, Pakistan, Japan	The US Department of Commerce has sanctioned 28 organizations from China, Russia, Pakistan, Japan, and Singapore for helping advance and distribute quantum computing technologies to military and nuclear weapons programs.	https://therecord.media/us-sanctions-28-quantum-computing-entities-in-china-russia-pakistan-japan/	https://therecord.media/wp-content/uploads/2021/11/quantum-computing.jpg	therecord	t	2021-11-26 13:00:02.076332+01	2021-11-26 12:48:18+01	Catalin Cimpanu	therecord/US-sanctions-28-quantum-computing-entities-in-China-Russia-Pakistan-Japan
+2996	This stealthy malware hides behind an impossible date | ZDNet	Linux remote access trojan hides behind the invalid date, February 31.	https://www.zdnet.com/article/this-stealthy-malware-hides-behind-an-impossible-date/	https://www.zdnet.com/a/img/resize/ece7b7b7f421faeed6e68810128783b262fc1a7c/2021/08/12/ad9b1957-6f9b-42ee-9a6f-32b70f3481c1/shutterstock-1714665730.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-26 16:00:02.533287+01	2021-11-26 12:03:16+01	Liam Tung	zdnet/This-stealthy-malware-hides-behind-an-impossible-date
+2997	Interpol arrests over 1,000 suspects linked to cyber crime	Interpol has coordinated the arrest of 1,003 individuals linked to various cyber-crimes such as romance scams, investment frauds, online money laundering, and illegal online gambling.	https://www.bleepingcomputer.com/news/legal/interpol-arrests-over-1-000-suspects-linked-to-cyber-crime/	https://www.bleepstatic.com/content/hl-images/2021/07/12/Interpol-headpic.jpg	bleepingcomputer	t	2021-11-26 16:00:02.533287+01	2021-11-26 15:21:46+01	Bill Toulas	bleepingcomputer/Interpol-arrests-over-1000-suspects-linked-to-cyber-crime
 \.
 
 
@@ -3046,7 +3048,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2995, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2997, true);
 
 
 --
