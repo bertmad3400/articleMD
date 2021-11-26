@@ -3041,6 +3041,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2995	US sanctions 28 quantum computing entities in China, Russia, Pakistan, Japan	The US Department of Commerce has sanctioned 28 organizations from China, Russia, Pakistan, Japan, and Singapore for helping advance and distribute quantum computing technologies to military and nuclear weapons programs.	https://therecord.media/us-sanctions-28-quantum-computing-entities-in-china-russia-pakistan-japan/	https://therecord.media/wp-content/uploads/2021/11/quantum-computing.jpg	therecord	t	2021-11-26 13:00:02.076332+01	2021-11-26 12:48:18+01	Catalin Cimpanu	therecord/US-sanctions-28-quantum-computing-entities-in-China-Russia-Pakistan-Japan
 2996	This stealthy malware hides behind an impossible date | ZDNet	Linux remote access trojan hides behind the invalid date, February 31.	https://www.zdnet.com/article/this-stealthy-malware-hides-behind-an-impossible-date/	https://www.zdnet.com/a/img/resize/ece7b7b7f421faeed6e68810128783b262fc1a7c/2021/08/12/ad9b1957-6f9b-42ee-9a6f-32b70f3481c1/shutterstock-1714665730.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-26 16:00:02.533287+01	2021-11-26 12:03:16+01	Liam Tung	zdnet/This-stealthy-malware-hides-behind-an-impossible-date
 2997	Interpol arrests over 1,000 suspects linked to cyber crime	Interpol has coordinated the arrest of 1,003 individuals linked to various cyber-crimes such as romance scams, investment frauds, online money laundering, and illegal online gambling.	https://www.bleepingcomputer.com/news/legal/interpol-arrests-over-1-000-suspects-linked-to-cyber-crime/	https://www.bleepstatic.com/content/hl-images/2021/07/12/Interpol-headpic.jpg	bleepingcomputer	t	2021-11-26 16:00:02.533287+01	2021-11-26 15:21:46+01	Bill Toulas	bleepingcomputer/Interpol-arrests-over-1000-suspects-linked-to-cyber-crime
+2998	How to identify (and avoid) security threats while shopping online | ZDNet	Black Friday and Cyber Monday are the perfect opportunities for scammers to take advantage of you online.	https://www.zdnet.com/article/this-holiday-weekends-security-threats-and-how-to-avoid-them/	https://www.zdnet.com/a/img/resize/c25add0a76546a53f6348d271a75c755ad0ca89f/2021/11/02/1ef2e335-5093-4b9a-a788-c4ad85651f87/ecommerce-mobile-payments-online-shopping-generic-button.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-26 17:00:02.262457+01	2021-11-26 13:29:00+01	Eileen Brown	zdnet/How-to-identify-and-avoid-security-threats-while-shopping-online
+2999	Marine services giant Swire Pacific Offshore hit by ransomware	Swire Pacific Offshore (SPO) has discovered an unauthorized network infiltration onto its IT systems, resulting in the compromise of some employee data.	https://www.bleepingcomputer.com/news/security/marine-services-giant-swire-pacific-offshore-hit-by-ransomware/	https://www.bleepstatic.com/content/hl-images/2021/11/26/containers.jpg	bleepingcomputer	t	2021-11-26 17:00:02.262457+01	2021-11-26 16:31:37+01	Bill Toulas	bleepingcomputer/Marine-services-giant-Swire-Pacific-Offshore-hit-by-ransomware
 \.
 
 
@@ -3048,7 +3050,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2997, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2999, true);
 
 
 --
