@@ -3046,6 +3046,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3000	Google, Apple fined by Italian authority for aggressive data collection	Italy's competition authority (Autorita Garante della Concorrenza e del Mercato) has announced a fine of 10 million Euros ($11.3 million) against Google and Apple.	https://www.bleepingcomputer.com/news/technology/google-apple-fined-by-italian-authority-for-aggressive-data-collection/	https://www.bleepstatic.com/content/hl-images/2021/11/26/italian_flag.jpg	bleepingcomputer	t	2021-11-26 20:00:02.080568+01	2021-11-26 19:42:44+01	Bill Toulas	bleepingcomputer/Google-Apple-fined-by-Italian-authority-for-aggressive-data-collection
 3001	TrickBot phishing checks screen resolution to evade researchers	The TrickBot malware operators have been using a new method to check the screen resolution of a victim system to evade detection of security software and analysis by researchers.	https://www.bleepingcomputer.com/news/security/trickbot-phishing-checks-screen-resolution-to-evade-researchers/	https://www.bleepstatic.com/content/hl-images/2020/11/20/Trickbot.jpg	bleepingcomputer	t	2021-11-26 20:00:02.080568+01	2021-11-26 19:02:16+01	Ionut Ilascu	bleepingcomputer/TrickBot-phishing-checks-screen-resolution-to-evade-researchers
 3002	Most Brazilian remote workers feel responsible for corporate data security | ZDNet	But only a minority of professionals hold employers accountable for the integrity of data, research has found.	https://www.zdnet.com/article/most-brazilian-remote-workers-feel-responsible-for-corporate-data-security/	https://www.zdnet.com/a/img/resize/15d8ae66a17ac6f8d78f002bfa3e9d6435fb970a/2021/09/07/8e143c77-2bf4-49c4-9a31-9150db49a328/cybersecurity.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-26 21:00:02.255403+01	2021-11-26 19:35:00+01	Angelica Mari	zdnet/Most-Brazilian-remote-workers-feel-responsible-for-corporate-data-security
+3003	IKEA email systems hit by ongoing cyberattack	IKEA is battling an ongoing cyberattack where threat actors are targeting employees in internal phishing attacks using stolen reply-chain emails.	https://www.bleepingcomputer.com/news/security/ikea-email-systems-hit-by-ongoing-cyberattack/	https://www.bleepstatic.com/content/hl-images/2021/11/26/IKEA_headpic.jpg	bleepingcomputer	t	2021-11-26 22:00:02.341843+01	2021-11-26 21:41:42+01	Lawrence Abrams	bleepingcomputer/IKEA-email-systems-hit-by-ongoing-cyberattack
 \.
 
 
@@ -3053,7 +3054,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3002, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3003, true);
 
 
 --
