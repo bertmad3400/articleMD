@@ -3035,6 +3035,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2989	How cybercriminals adjusted their scams for Black Friday 2021	Black Friday is approaching, and while shoppers prepare to open their wallets, cybercriminals hone their malware droppers, phishing lures, and fake sites.	https://www.bleepingcomputer.com/news/security/how-cybercriminals-adjusted-their-scams-for-black-friday-2021/	https://www.bleepstatic.com/content/hl-images/2021/11/22/black_friday.jpg	bleepingcomputer	t	2021-11-25 21:00:01.908488+01	2021-11-25 20:30:00+01	Bill Toulas	bleepingcomputer/How-cybercriminals-adjusted-their-scams-for-Black-Friday-2021
 2990	China’s top policymaking body charts plan for science and technology 'self-sufficiency'	China's top leadership unveiled a plan for developing homegrown science and technology with an eye toward Chinese self-sufficiency.	https://therecord.media/chinas-top-policymaking-body-charts-plan-for-science-and-technology-self-sufficiency/	https://therecord.media/wp-content/uploads/2021/11/terry-xu-WhypIfd5Fp0-unsplash-1.jpg	therecord	t	2021-11-25 22:00:02.399863+01	2021-11-25 21:31:10+01	Dina Temple-Raston	therecord/Chinas-top-policymaking-body-charts-plan-for-science-and-technology-self-sufficiency
 2991	North Korean hackers posed as Samsung recruiters to target security researchers	North Korean state-sponsored hackers posed as Samsung recruiters and sent fake job offers to employees at South Korean security companies that sell anti-malware software, Google said this week in the first edition of its new Threat Horizons report.	https://therecord.media/north-korean-hackers-posed-as-samsung-recruiters-to-target-security-researchers/	https://live-the-record.pantheonsite.io/wp-content/uploads/2021/11/samsung.jpg	therecord	t	2021-11-26 07:00:02.458825+01	2021-11-26 07:00:00+01	Catalin Cimpanu	therecord/North-Korean-hackers-posed-as-Samsung-recruiters-to-target-security-researchers
+2992	This stealthy malware delivers a 'silent threat' that wants to steal your passwords | ZDNet	Cybersecurity researchers at HP Wolf Security warn about RATDispenser, a downloader that delivers trojan malware, information stealers and keyloggers.	https://www.zdnet.com/article/this-stealthy-malware-delivers-a-silent-threat-that-wants-to-steal-your-passwords/	https://www.zdnet.com/a/img/resize/5511d03a62270b85dffced59f3186cb1758dc1a8/2021/02/11/3bcbc4df-85c1-4532-8a72-2923564acbcd/istock-checking-emails-at-home.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-26 11:00:01.752653+01	2021-11-26 09:39:30+01	Danny Palmer	zdnet/This-stealthy-malware-delivers-a-silent-threat-that-wants-to-steal-your-passwords
 \.
 
 
@@ -3042,7 +3043,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2991, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2992, true);
 
 
 --
