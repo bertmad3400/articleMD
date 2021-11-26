@@ -3043,6 +3043,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2997	Interpol arrests over 1,000 suspects linked to cyber crime	Interpol has coordinated the arrest of 1,003 individuals linked to various cyber-crimes such as romance scams, investment frauds, online money laundering, and illegal online gambling.	https://www.bleepingcomputer.com/news/legal/interpol-arrests-over-1-000-suspects-linked-to-cyber-crime/	https://www.bleepstatic.com/content/hl-images/2021/07/12/Interpol-headpic.jpg	bleepingcomputer	t	2021-11-26 16:00:02.533287+01	2021-11-26 15:21:46+01	Bill Toulas	bleepingcomputer/Interpol-arrests-over-1000-suspects-linked-to-cyber-crime
 2998	How to identify (and avoid) security threats while shopping online | ZDNet	Black Friday and Cyber Monday are the perfect opportunities for scammers to take advantage of you online.	https://www.zdnet.com/article/this-holiday-weekends-security-threats-and-how-to-avoid-them/	https://www.zdnet.com/a/img/resize/c25add0a76546a53f6348d271a75c755ad0ca89f/2021/11/02/1ef2e335-5093-4b9a-a788-c4ad85651f87/ecommerce-mobile-payments-online-shopping-generic-button.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-26 17:00:02.262457+01	2021-11-26 13:29:00+01	Eileen Brown	zdnet/How-to-identify-and-avoid-security-threats-while-shopping-online
 2999	Marine services giant Swire Pacific Offshore hit by ransomware	Swire Pacific Offshore (SPO) has discovered an unauthorized network infiltration onto its IT systems, resulting in the compromise of some employee data.	https://www.bleepingcomputer.com/news/security/marine-services-giant-swire-pacific-offshore-hit-by-ransomware/	https://www.bleepstatic.com/content/hl-images/2021/11/26/containers.jpg	bleepingcomputer	t	2021-11-26 17:00:02.262457+01	2021-11-26 16:31:37+01	Bill Toulas	bleepingcomputer/Marine-services-giant-Swire-Pacific-Offshore-hit-by-ransomware
+3000	Google, Apple fined by Italian authority for aggressive data collection	Italy's competition authority (Autorita Garante della Concorrenza e del Mercato) has announced a fine of 10 million Euros ($11.3 million) against Google and Apple.	https://www.bleepingcomputer.com/news/technology/google-apple-fined-by-italian-authority-for-aggressive-data-collection/	https://www.bleepstatic.com/content/hl-images/2021/11/26/italian_flag.jpg	bleepingcomputer	t	2021-11-26 20:00:02.080568+01	2021-11-26 19:42:44+01	Bill Toulas	bleepingcomputer/Google-Apple-fined-by-Italian-authority-for-aggressive-data-collection
+3001	TrickBot phishing checks screen resolution to evade researchers	The TrickBot malware operators have been using a new method to check the screen resolution of a victim system to evade detection of security software and analysis by researchers.	https://www.bleepingcomputer.com/news/security/trickbot-phishing-checks-screen-resolution-to-evade-researchers/	https://www.bleepstatic.com/content/hl-images/2020/11/20/Trickbot.jpg	bleepingcomputer	t	2021-11-26 20:00:02.080568+01	2021-11-26 19:02:16+01	Ionut Ilascu	bleepingcomputer/TrickBot-phishing-checks-screen-resolution-to-evade-researchers
 \.
 
 
@@ -3050,7 +3052,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2999, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3001, true);
 
 
 --
