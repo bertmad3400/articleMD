@@ -3038,6 +3038,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 2992	This stealthy malware delivers a 'silent threat' that wants to steal your passwords | ZDNet	Cybersecurity researchers at HP Wolf Security warn about RATDispenser, a downloader that delivers trojan malware, information stealers and keyloggers.	https://www.zdnet.com/article/this-stealthy-malware-delivers-a-silent-threat-that-wants-to-steal-your-passwords/	https://www.zdnet.com/a/img/resize/5511d03a62270b85dffced59f3186cb1758dc1a8/2021/02/11/3bcbc4df-85c1-4532-8a72-2923564acbcd/istock-checking-emails-at-home.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-26 11:00:01.752653+01	2021-11-26 09:39:30+01	Danny Palmer	zdnet/This-stealthy-malware-delivers-a-silent-threat-that-wants-to-steal-your-passwords
 2994	Google: Half of compromised cloud instances have weak or no passwords | ZDNet	And many attackers are installing cryptomining malware within 22 seconds of compromising cloud instances.	https://www.zdnet.com/article/google-half-of-compromised-cloud-instances-have-weak-or-no-passwords/	https://www.zdnet.com/a/img/resize/0d927c93b5c7abd68304637ad5badbee1d09e521/2021/10/15/3eab866d-2d38-4d61-a69c-c255bd7bd477/shutterstock-2032695119.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-26 12:00:01.907606+01	2021-11-26 10:01:09+01	Liam Tung	zdnet/Google-Half-of-compromised-cloud-instances-have-weak-or-no-passwords
 2993	Hackers are targeting this Microsoft Windows Installer flaw, say security researchers | ZDNet	Flaw can be exploited to give an attacker administrator rights on a compromised system, despite efforts to fix the problem.	https://www.zdnet.com/article/hackers-are-targeting-this-microsoft-windows-installer-flaw-say-security-researchers/	https://www.zdnet.com/a/img/resize/2a102be54d9ddd3c0248d626ef37c0849594dc76/2021/10/20/198f613b-750c-4aef-bb40-ac9098fb74d4/shutterstock-1692847237.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-26 12:00:01.907606+01	2021-11-26 10:24:05+01	Liam Tung	zdnet/Hackers-are-targeting-this-Microsoft-Windows-Installer-flaw-say-security-researchers
+2995	US sanctions 28 quantum computing entities in China, Russia, Pakistan, Japan	The US Department of Commerce has sanctioned 28 organizations from China, Russia, Pakistan, Japan, and Singapore for helping advance and distribute quantum computing technologies to military and nuclear weapons programs.	https://therecord.media/us-sanctions-28-quantum-computing-entities-in-china-russia-pakistan-japan/	https://therecord.media/wp-content/uploads/2021/11/quantum-computing.jpg	therecord	t	2021-11-26 13:00:02.076332+01	2021-11-26 12:48:18+01	Catalin Cimpanu	therecord/US-sanctions-28-quantum-computing-entities-in-China-Russia-Pakistan-Japan
 \.
 
 
@@ -3045,7 +3046,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 2994, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 2995, true);
 
 
 --
