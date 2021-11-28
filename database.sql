@@ -3081,6 +3081,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3035	Acronis vmProtect 6 Review | ZDNet	An ideal backup tool for small businesses and larger enterprises alike, vmProtect 6 makes light work of protecting and rapidly recovering virtual machines on VMware vSphere hosts.	https://www.zdnet.com/product/acronis-vmprotect-6/	https://www.zdnet.com/a/img/resize/bb193649e4c72ddfa435df909c6d1f5de4b6b992/2014/08/22/3efc5298-29ae-11e4-9e6a-00505685119a/vmp6-200.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-27 18:00:17.928353+01	2012-01-23 12:26:02+01	Alan Stevens	zdnet/Unknown
 3036	SonicWALL TZ 210 Review | ZDNet	SonicWALL's feature-packed TZ 210 gateway security appliance is capable of protecting all kinds of networks at a very affordable price. It's easy to setup and manage, and sets a new price point in the UTM market.	https://www.zdnet.com/product/sonicwall-tz-210/	https://www.zdnet.com/a/img/resize/9dd26b52746911aeb1457a85884cc1ee84ea8d90/2014/08/22/ae85b56a-29b0-11e4-9e6a-00505685119a/sonicwalltz210lead.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-27 18:00:17.928353+01	2009-10-15 09:19:01+02	Alan Stevens	zdnet/Unknown
 3037	Here's the perfect gift for anyone with a PC, Mac, iPhone, or Android, and it doesn't break the bank | ZDNet	And even if someone has one of these, they could do with another.	https://www.zdnet.com/article/heres-the-perfect-gift-for-anyone-with-a-pc-mac-iphone-or-android-and-it-doesnt-break-the-bank/	https://www.zdnet.com/a/img/resize/87195ab4af891d5ebebe4f66df0677078d8ffa39/2021/11/27/1929d91d-092e-447d-9f74-cc3767b4478a/2021-11-27-17-05-42.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-27 19:00:16.261385+01	2021-11-27 17:13:00+01	Adrian Kingsley-Hughes	zdnet/Heres-the-perfect-gift-for-anyone-with-a-PC-Mac-iPhone-or-Android-and-it-doesnt-break-the-bank
+3038	Customize Windows 11 experience with these free apps	Windows 11 is now available with a long list of limitations and missing features. The big feature update is currently available for download as an optional update and if you've already upgraded to the new operating system, you can try the third-party programs highlighted below.	https://www.bleepingcomputer.com/news/microsoft/customize-windows-11-experience-with-these-free-apps/	https://www.bleepstatic.com/content/hl-images/2021/10/21/windows-11-gradient-header.jpg	bleepingcomputer	t	2021-11-29 00:00:16.106906+01	2021-11-28 23:47:39+01	Mayank Parmar	bleepingcomputer/Customize-Windows-11-experience-with-these-free-apps
 \.
 
 
@@ -3088,7 +3089,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3037, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3038, true);
 
 
 --
