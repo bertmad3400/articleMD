@@ -3096,6 +3096,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3050	Stealthy WIRTE hackers target governments in the Middle East	A stealthy hacking group named WIRTE has been linked to a government-targeting campaign conducting attacks since at least 2019 using malicious Excel 4.0 macros.	https://www.bleepingcomputer.com/news/security/stealthy-wirte-hackers-target-governments-in-the-middle-east/	https://www.bleepstatic.com/content/hl-images/2021/11/29/middle_east.jpg	bleepingcomputer	t	2021-11-29 18:00:16.950236+01	2021-11-29 17:30:07+01	Bill Toulas	bleepingcomputer/Stealthy-WIRTE-hackers-target-governments-in-the-Middle-East
 3051	Hackers plant card-stealing malware on website that sells baron and duke titles	A threat actor has hacked the website of the Principality of Sealand, a micronation in the North Sea, and planted malicious code on its web store, which the government is using to sell baron, count, duke, and other nobility titles.	https://therecord.media/hackers-plant-card-stealing-malware-on-website-that-sells-baron-and-duke-titles/	https://therecord.media/wp-content/uploads/2021/11/Sealand.jpg	therecord	t	2021-11-29 18:00:16.950236+01	2021-11-29 17:47:58+01	Catalin Cimpanu	therecord/Hackers-plant-card-stealing-malware-on-website-that-sells-baron-and-duke-titles
 3052	Shape-Shifting ‘Tardigrade’ Malware Hits Vaccine Makers	Some security researchers say it’s actually Cobalt Strike and not a SmokeLoader variant, but BioBright says in-depth testing shows it’s for real a scary morphic malware that changes its parts and recompiles itself.	https://kasperskycontenthub.com/threatpost-global/?p=176601	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/29111425/Screen-Shot-2021-11-29-at-11.08.22-AM-e1638202539234.png	threatpost	t	2021-11-29 18:00:16.950236+01	2021-11-29 17:37:16+01	Elizabeth Montalbano	threatpost/Shape-Shifting-Tardigrade-Malware-Hits-Vaccine-Makers
+3053	Unpatched Windows Zero-Day Allows Privileged File Access	A temporary fix has been issued for CVE-2021-24084, which can be exploited using the LPE exploitation approach for the HiveNightmare/SeriousSAM bug.	https://kasperskycontenthub.com/threatpost-global/?p=176609	https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/26141726/Windows-Abstract.jpg	threatpost	t	2021-11-29 19:00:18.943465+01	2021-11-29 18:47:10+01	Tara Seals	threatpost/Unpatched-Windows-Zero-Day-Allows-Privileged-File-Access
 \.
 
 
@@ -3103,7 +3104,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3052, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3053, true);
 
 
 --
