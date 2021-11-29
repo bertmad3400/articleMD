@@ -3089,6 +3089,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3043	1,000 arrests made in online fraud crackdown, says Interpol | ZDNet	Police make arrests across 22 jurisdictions as part of operation against cyber-enabled financial crime scams including business email compromise.	https://www.zdnet.com/article/1000-arrests-made-in-online-fraud-crackdown-says-interpol/	https://www.zdnet.com/a/img/resize/5aaa0b5f4da14ab5f0d12114d4990afff7f1f019/2021/08/11/0edc5f03-6119-49b2-8f5f-d0bde9cdc02b/shutterstock-1095422036.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-29 15:00:17.428287+01	2021-11-29 13:15:32+01	Liam Tung	zdnet/1000-arrests-made-in-online-fraud-crackdown-says-Interpol
 3044	APT37 targets journalists with Chinotto multi-platform malware	North Korean state hacking group APT37 targets South Korean journalists, defectors, and human rights activists in watering hole, spear-phishing emails, and smishing attacks delivering malware dubbed Chinotto capable of infecting Windows and Android devices.	https://www.bleepingcomputer.com/news/security/apt37-targets-journalists-with-chinotto-multi-platform-malware/	https://www.bleepstatic.com/content/hl-images/2021/11/29/North_Korea__flag.jpg	bleepingcomputer	t	2021-11-29 15:00:17.428287+01	2021-11-29 14:43:29+01	Sergiu Gatlan	bleepingcomputer/APT37-targets-journalists-with-Chinotto-multi-platform-malware
 3045	Panasonic discloses four-months-long data breach	Japanese electronics giant Panasonic has disclosed on Friday a major security breach after an unidentified threat actor had gained access to its internal network.	https://therecord.media/panasonic-discloses-four-months-long-data-breach/	https://therecord.media/wp-content/uploads/2021/11/panasonic-logo.jpg	therecord	t	2021-11-29 15:00:17.428287+01	2021-11-29 14:23:37+01	Catalin Cimpanu	therecord/Panasonic-discloses-four-months-long-data-breach
+3046	Panasonic discloses data breach after network hack	Japanese multinational conglomerate Panasonic disclosed a security breach after unknown threat actors gained access to servers on its network this month.	https://www.bleepingcomputer.com/news/security/panasonic-discloses-data-breach-after-network-hack/	https://www.bleepstatic.com/content/hl-images/2021/11/29/Panasonic.jpg	bleepingcomputer	t	2021-11-29 16:00:17.318559+01	2021-11-29 15:40:21+01	Sergiu Gatlan	bleepingcomputer/Panasonic-discloses-data-breach-after-network-hack
 \.
 
 
@@ -3096,7 +3097,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3045, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3046, true);
 
 
 --
