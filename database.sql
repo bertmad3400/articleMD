@@ -3098,6 +3098,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3052	Shape-Shifting ‘Tardigrade’ Malware Hits Vaccine Makers	Some security researchers say it’s actually Cobalt Strike and not a SmokeLoader variant, but BioBright says in-depth testing shows it’s for real a scary morphic malware that changes its parts and recompiles itself.	https://kasperskycontenthub.com/threatpost-global/?p=176601	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/29111425/Screen-Shot-2021-11-29-at-11.08.22-AM-e1638202539234.png	threatpost	t	2021-11-29 18:00:16.950236+01	2021-11-29 17:37:16+01	Elizabeth Montalbano	threatpost/Shape-Shifting-Tardigrade-Malware-Hits-Vaccine-Makers
 3053	Unpatched Windows Zero-Day Allows Privileged File Access	A temporary fix has been issued for CVE-2021-24084, which can be exploited using the LPE exploitation approach for the HiveNightmare/SeriousSAM bug.	https://kasperskycontenthub.com/threatpost-global/?p=176609	https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/26141726/Windows-Abstract.jpg	threatpost	t	2021-11-29 19:00:18.943465+01	2021-11-29 18:47:10+01	Tara Seals	threatpost/Unpatched-Windows-Zero-Day-Allows-Privileged-File-Access
 3054	Dark web market Cannazon shuts down after massive DDoS attack	Cannazon, one of the largest dark web marketplaces for buying marijuana products, shut down last week after suffering a debilitating distributed denial of service attack.	https://www.bleepingcomputer.com/news/security/dark-web-market-cannazon-shuts-down-after-massive-ddos-attack/	https://www.bleepstatic.com/content/hl-images/2021/11/29/dark_web.jpg	bleepingcomputer	t	2021-11-29 20:00:16.616827+01	2021-11-29 19:26:30+01	Bill Toulas	bleepingcomputer/Dark-web-market-Cannazon-shuts-down-after-massive-DDoS-attack
+3055	Tencent bows to Beijing’s pressure, opens WeChat groups to social media rivals	Chinese internet giant Tencent will allow more content from third-party social media rivals to open directly within its popular WeChat app, bowing to pressure from the central government.	https://therecord.media/tencent-bows-to-beijings-pressure-opens-wechat-groups-to-social-media-rivals/	https://therecord.media/wp-content/uploads/2021/04/WeChat.png	therecord	t	2021-11-29 21:00:15.504553+01	2021-11-29 20:06:43+01	Dina Temple-Raston	therecord/Tencent-bows-to-Beijings-pressure-opens-WeChat-groups-to-social-media-rivals
+3056	ScarCruft APT Mounts Desktop/Mobile Double-Pronged Spy Attacks	The North Korea-linked group is deploying the Chinotto spyware backdoor against dissidents, journalists and other politically relevant individuals in South Korea.	https://kasperskycontenthub.com/threatpost-global/?p=176620	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/26152055/north-korea-flag-e1635276069649.jpeg	threatpost	t	2021-11-29 21:00:15.504553+01	2021-11-29 20:08:06+01	Tara Seals	threatpost/ScarCruft-APT-Mounts-DesktopMobile-Double-Pronged-Spy-Attacks
 \.
 
 
@@ -3105,7 +3107,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3054, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3056, true);
 
 
 --
