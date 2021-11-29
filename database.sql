@@ -3084,6 +3084,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3038	Customize Windows 11 experience with these free apps	Windows 11 is now available with a long list of limitations and missing features. The big feature update is currently available for download as an optional update and if you've already upgraded to the new operating system, you can try the third-party programs highlighted below.	https://www.bleepingcomputer.com/news/microsoft/customize-windows-11-experience-with-these-free-apps/	https://www.bleepstatic.com/content/hl-images/2021/10/21/windows-11-gradient-header.jpg	bleepingcomputer	t	2021-11-29 00:00:16.106906+01	2021-11-28 23:47:39+01	Mayank Parmar	bleepingcomputer/Customize-Windows-11-experience-with-these-free-apps
 3039	Telcos to get expanded scam-blocking powers through telecommunications law amendment | ZDNet	Telstra is developing a new cyber safety capability designed to automatically detect and block scam SMS messages in light of new regulatory changes for the telecommunications sector.	https://www.zdnet.com/article/telcos-to-get-expanded-scam-blocking-powers-through-telecommunications-law-amendment/	https://www.zdnet.com/a/img/resize/bca0081b3e7c80f0759fbeba87db5818f95cd98c/2021/10/27/433dd231-c3be-42ad-a56a-48a97e7384d8/gettyimages-1232298161.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-29 04:00:15.429424+01	2021-11-29 02:19:16+01	Campbell Kwan	zdnet/Telcos-to-get-expanded-scam-blocking-powers-through-telecommunications-law-amendment
 3040	CONTInuing the Bazar Ransomware Story	In this report we will discuss a case from early August where we witnessed threat actors utilizing BazarLoader and Cobalt Strike to accomplish their mission of encrypting systems with Conti ransomware.	https://thedfirreport.com/2021/11/29/continuing-the-bazar-ransomware-story/	https://thedfirreport.com/wp-content/uploads/2021/11/f22784bc5813874c131d0c6f21acb3404084de7b57c0ae1f2afde6d8fe24c3a2.png	dfirreport	t	2021-11-29 04:00:15.429424+01	2021-11-29 03:19:21+01	editor	dfirreport/CONTInuing-the-Bazar-Ransomware-Story
+3041	Customize the Windows 11 experience with these free apps	Windows 11 is now available with a long list of limitations and missing features. The big feature update is currently available for download as an optional update and if you've already upgraded to the new operating system, you can try the third-party programs highlighted below.	https://www.bleepingcomputer.com/news/microsoft/customize-the-windows-11-experience-with-these-free-apps/	https://www.bleepstatic.com/content/hl-images/2021/10/21/windows-11-gradient-header.jpg	bleepingcomputer	t	2021-11-29 06:00:15.635107+01	2021-11-28 23:47:39+01	Mayank Parmar	bleepingcomputer/Customize-the-Windows-11-experience-with-these-free-apps
 \.
 
 
@@ -3091,7 +3092,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3040, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3041, true);
 
 
 --
