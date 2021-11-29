@@ -3097,6 +3097,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3051	Hackers plant card-stealing malware on website that sells baron and duke titles	A threat actor has hacked the website of the Principality of Sealand, a micronation in the North Sea, and planted malicious code on its web store, which the government is using to sell baron, count, duke, and other nobility titles.	https://therecord.media/hackers-plant-card-stealing-malware-on-website-that-sells-baron-and-duke-titles/	https://therecord.media/wp-content/uploads/2021/11/Sealand.jpg	therecord	t	2021-11-29 18:00:16.950236+01	2021-11-29 17:47:58+01	Catalin Cimpanu	therecord/Hackers-plant-card-stealing-malware-on-website-that-sells-baron-and-duke-titles
 3052	Shape-Shifting ‘Tardigrade’ Malware Hits Vaccine Makers	Some security researchers say it’s actually Cobalt Strike and not a SmokeLoader variant, but BioBright says in-depth testing shows it’s for real a scary morphic malware that changes its parts and recompiles itself.	https://kasperskycontenthub.com/threatpost-global/?p=176601	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/29111425/Screen-Shot-2021-11-29-at-11.08.22-AM-e1638202539234.png	threatpost	t	2021-11-29 18:00:16.950236+01	2021-11-29 17:37:16+01	Elizabeth Montalbano	threatpost/Shape-Shifting-Tardigrade-Malware-Hits-Vaccine-Makers
 3053	Unpatched Windows Zero-Day Allows Privileged File Access	A temporary fix has been issued for CVE-2021-24084, which can be exploited using the LPE exploitation approach for the HiveNightmare/SeriousSAM bug.	https://kasperskycontenthub.com/threatpost-global/?p=176609	https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/26141726/Windows-Abstract.jpg	threatpost	t	2021-11-29 19:00:18.943465+01	2021-11-29 18:47:10+01	Tara Seals	threatpost/Unpatched-Windows-Zero-Day-Allows-Privileged-File-Access
+3054	Dark web market Cannazon shuts down after massive DDoS attack	Cannazon, one of the largest dark web marketplaces for buying marijuana products, shut down last week after suffering a debilitating distributed denial of service attack.	https://www.bleepingcomputer.com/news/security/dark-web-market-cannazon-shuts-down-after-massive-ddos-attack/	https://www.bleepstatic.com/content/hl-images/2021/11/29/dark_web.jpg	bleepingcomputer	t	2021-11-29 20:00:16.616827+01	2021-11-29 19:26:30+01	Bill Toulas	bleepingcomputer/Dark-web-market-Cannazon-shuts-down-after-massive-DDoS-attack
 \.
 
 
@@ -3104,7 +3105,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3053, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3054, true);
 
 
 --
