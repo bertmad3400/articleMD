@@ -3090,6 +3090,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3044	APT37 targets journalists with Chinotto multi-platform malware	North Korean state hacking group APT37 targets South Korean journalists, defectors, and human rights activists in watering hole, spear-phishing emails, and smishing attacks delivering malware dubbed Chinotto capable of infecting Windows and Android devices.	https://www.bleepingcomputer.com/news/security/apt37-targets-journalists-with-chinotto-multi-platform-malware/	https://www.bleepstatic.com/content/hl-images/2021/11/29/North_Korea__flag.jpg	bleepingcomputer	t	2021-11-29 15:00:17.428287+01	2021-11-29 14:43:29+01	Sergiu Gatlan	bleepingcomputer/APT37-targets-journalists-with-Chinotto-multi-platform-malware
 3045	Panasonic discloses four-months-long data breach	Japanese electronics giant Panasonic has disclosed on Friday a major security breach after an unidentified threat actor had gained access to its internal network.	https://therecord.media/panasonic-discloses-four-months-long-data-breach/	https://therecord.media/wp-content/uploads/2021/11/panasonic-logo.jpg	therecord	t	2021-11-29 15:00:17.428287+01	2021-11-29 14:23:37+01	Catalin Cimpanu	therecord/Panasonic-discloses-four-months-long-data-breach
 3046	Panasonic discloses data breach after network hack	Japanese multinational conglomerate Panasonic disclosed a security breach after unknown threat actors gained access to servers on its network this month.	https://www.bleepingcomputer.com/news/security/panasonic-discloses-data-breach-after-network-hack/	https://www.bleepstatic.com/content/hl-images/2021/11/29/Panasonic.jpg	bleepingcomputer	t	2021-11-29 16:00:17.318559+01	2021-11-29 15:40:21+01	Sergiu Gatlan	bleepingcomputer/Panasonic-discloses-data-breach-after-network-hack
+3047	Zoom finally adds automatic updates to Windows, macOS clients	Zoom has announced today the launch of an automatic update feature designed to streamline the update process for desktop clients.	https://www.bleepingcomputer.com/news/security/zoom-finally-adds-automatic-updates-to-windows-macos-clients/	https://www.bleepstatic.com/content/hl-images/2021/11/29/Zoom_headpic.jpg	bleepingcomputer	t	2021-11-29 17:00:16.517406+01	2021-11-29 16:45:36+01	Sergiu Gatlan	bleepingcomputer/Zoom-finally-adds-automatic-updates-to-Windows-macOS-clients
+3048	Telegram channel admins who sold fake vaccine cards arrested	The Italian financial crime agency (Guardia di Finanza - GdF) has announced the arrest of several individuals suspected of managing Telegram channels to promote fake vaccine certificates, aka 'Green Passes.'	https://www.bleepingcomputer.com/news/legal/telegram-channel-admins-who-sold-fake-vaccine-cards-arrested/	https://www.bleepstatic.com/content/hl-images/2021/11/29/italian_police.jpg	bleepingcomputer	t	2021-11-29 17:00:16.517406+01	2021-11-29 16:11:40+01	Bill Toulas	bleepingcomputer/Telegram-channel-admins-who-sold-fake-vaccine-cards-arrested
 \.
 
 
@@ -3097,7 +3099,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3046, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3048, true);
 
 
 --
