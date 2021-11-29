@@ -3101,6 +3101,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3055	Tencent bows to Beijing’s pressure, opens WeChat groups to social media rivals	Chinese internet giant Tencent will allow more content from third-party social media rivals to open directly within its popular WeChat app, bowing to pressure from the central government.	https://therecord.media/tencent-bows-to-beijings-pressure-opens-wechat-groups-to-social-media-rivals/	https://therecord.media/wp-content/uploads/2021/04/WeChat.png	therecord	t	2021-11-29 21:00:15.504553+01	2021-11-29 20:06:43+01	Dina Temple-Raston	therecord/Tencent-bows-to-Beijings-pressure-opens-WeChat-groups-to-social-media-rivals
 3056	ScarCruft APT Mounts Desktop/Mobile Double-Pronged Spy Attacks	The North Korea-linked group is deploying the Chinotto spyware backdoor against dissidents, journalists and other politically relevant individuals in South Korea.	https://kasperskycontenthub.com/threatpost-global/?p=176620	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/26152055/north-korea-flag-e1635276069649.jpeg	threatpost	t	2021-11-29 21:00:15.504553+01	2021-11-29 20:08:06+01	Tara Seals	threatpost/ScarCruft-APT-Mounts-DesktopMobile-Double-Pronged-Spy-Attacks
 3057	More than 300,000 Play Store users infected with Android banking trojans	More than 300,000 Android users were infected with banking trojans after installing apps from the official Google Play Store over the past few months, mobile security firm ThreatFabric said today.	https://therecord.media/more-than-300000-play-store-users-infected-with-android-banking-trojans/	https://therecord.media/wp-content/uploads/2021/11/play-store.png	therecord	t	2021-11-29 22:00:17.530067+01	2021-11-29 21:21:09+01	Catalin Cimpanu	therecord/More-than-300000-Play-Store-users-infected-with-Android-banking-trojans
+3058	IKEA Hit by Email Reply-Chain Cyberattack	IKEA, king of furniture-in-a-flat-box, warned employees on Friday that an ongoing cyberattack was using internal emails to malspam malicious links in active email threads.	https://kasperskycontenthub.com/threatpost-global/?p=176625	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/29155618/ikea-scaled-e1638219440979.jpeg	threatpost	t	2021-11-29 23:00:17.184797+01	2021-11-29 22:22:12+01	Lisa Vaas	threatpost/IKEA-Hit-by-Email-Reply-Chain-Cyberattack
+3059	Researchers Flag 300K Banking Trojan Infections from Google Play in 4 Months	Attackers are honing Google Play dropper campaigns, overcoming app store restrictions.	https://kasperskycontenthub.com/threatpost-global/?p=176630	https://media.threatpost.com/wp-content/uploads/sites/103/2019/08/29094752/google-play.jpeg	threatpost	t	2021-11-29 23:00:17.184797+01	2021-11-29 22:15:35+01	Becky Bracken	threatpost/Researchers-Flag-300K-Banking-Trojan-Infections-from-Google-Play-in-4-Months
 \.
 
 
@@ -3108,7 +3110,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3057, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3059, true);
 
 
 --
