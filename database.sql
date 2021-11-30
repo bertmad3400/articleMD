@@ -3107,6 +3107,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3061	Eftpos expands security kit bag with new AI anti-fraud capability | ZDNet	An AI fraud detection engine is Eftpos' latest security feature to go-live.	https://www.zdnet.com/article/eftpos-expands-security-kit-bag-with-new-ai-anti-fraud-capability/	https://www.zdnet.com/a/img/resize/3d34cb7f02528f5bab71ebc1224c323fce269e51/2020/07/23/efe90b89-2b6b-47e1-9f81-7e4faaf12094/eftpos-digital-payments.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-30 06:00:16.636088+01	2021-11-30 04:02:25+01	Aimee Chanthadavong	zdnet/Eftpos-expands-security-kit-bag-with-new-AI-anti-fraud-capability
 3062	Queensland government energy generator hit by ransomware | ZDNet	CS Energy has said its corporate network was segregated to contain the weekend incident.	https://www.zdnet.com/article/queensland-government-energy-generator-hit-by-ransomware/	https://www.zdnet.com/a/img/resize/c19ba757abf55d6d56b45732fa8a05fde090902f/2021/11/29/bab95eda-eab0-41d6-b692-d97ed32212dd/power-supply.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-30 07:00:16.228405+01	2021-11-30 05:16:40+01	Chris Duckett	zdnet/Queensland-government-energy-generator-hit-by-ransomware
 3063	Yanluowang ransomware operation matures with experienced affiliates	An affiliate of the recently discovered Yanluowang ransomware operation is focusing its attacks on U.S. organizations in the financial sector using BazarLoader malware in the reconnaissance stage.	https://www.bleepingcomputer.com/news/security/yanluowang-ransomware-operation-matures-with-experienced-affiliates/	https://www.bleepstatic.com/content/hl-images/2021/10/13/Yanluowang_ransomware.jpg	bleepingcomputer	t	2021-11-30 13:00:16.109727+01	2021-11-30 12:56:06+01	Ionut Ilascu	bleepingcomputer/Yanluowang-ransomware-operation-matures-with-experienced-affiliates
+3064	HP patches wormable bug impacting more than 150 multi-functional printers	Hewlett Packard has released security updates earlier this month to address a vulnerability that impacts more than 150 models from the company's line of multi-functional printers.	https://therecord.media/hp-patches-wormable-bug-impacting-more-than-150-multi-functional-printers/	https://live-the-record.pantheonsite.io/wp-content/uploads/2021/07/HP-printer.jpg	therecord	t	2021-11-30 14:00:15.683504+01	2021-11-30 14:00:00+01	Catalin Cimpanu	therecord/HP-patches-wormable-bug-impacting-more-than-150-multi-functional-printers
 \.
 
 
@@ -3114,7 +3115,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3063, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3064, true);
 
 
 --
