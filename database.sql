@@ -3118,6 +3118,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3072	EwDoor botnet targets AT&T network edge devices at US firms	A recently discovered botnet is attacking unpatched AT&T enterprise network edge devices using exploits for a four-year-old critical severity Blind Command Injection security flaw.	https://www.bleepingcomputer.com/news/security/ewdoor-botnet-targets-atandt-network-edge-devices-at-us-firms/	https://www.bleepstatic.com/content/hl-images/2021/11/30/ATT_botnet.jpg	bleepingcomputer	t	2021-11-30 19:00:16.396833+01	2021-11-30 18:26:05+01	Sergiu Gatlan	bleepingcomputer/EwDoor-botnet-targets-ATT-network-edge-devices-at-US-firms
 3073	FBI document shows what data can be obtained from encrypted messaging apps	A recently discovered FBI training document shows that US law enforcement can gain limited access to the content of encrypted messages from secure messaging services like iMessage, Line, and WhatsApp, but not to messages sent via Signal, Telegram, Threema, Viber, WeChat, or Wickr.	https://therecord.media/fbi-document-shows-what-data-can-be-obtained-from-encrypted-messaging-apps/	https://therecord.media/wp-content/uploads/2021/11/FBI-document-E2EE-1.png	therecord	t	2021-11-30 19:00:16.396833+01	2021-11-30 18:10:07+01	Catalin Cimpanu	therecord/FBI-document-shows-what-data-can-be-obtained-from-encrypted-messaging-apps
 3074	Panasonic’s Data Breach Leaves Open Questions	Cyberattackers had unfettered access to the technology giant's file server for four months.	https://kasperskycontenthub.com/threatpost-global/?p=176660	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/30124504/panasonic-e1638294319853.jpeg	threatpost	t	2021-11-30 19:00:16.396833+01	2021-11-30 18:56:03+01	Tara Seals	threatpost/Panasonics-Data-Breach-Leaves-Open-Questions
+3075	Smartwatches for children are a privacy and security nightmare	Researchers analyzed the security of four popular smartwatches for children and found pre-installed downloaders, weak passwords, and unencrypted data transmissions.	https://www.bleepingcomputer.com/news/security/smartwatches-for-children-are-a-privacy-and-security-nightmare/	https://www.bleepstatic.com/content/hl-images/2021/11/30/kids-smartwatches.jpg	bleepingcomputer	t	2021-11-30 20:00:16.392881+01	2021-11-30 19:55:57+01	Bill Toulas	bleepingcomputer/Smartwatches-for-children-are-a-privacy-and-security-nightmare
+3076	Finland Faces Blizzard of Flubot-Spreading Text Messages	Millions of texts leading to the Flubot spyware/banking trojan are targeting everyone who uses Androids in the country, in an exceptional attack.	https://kasperskycontenthub.com/threatpost-global/?p=176649	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/30105841/nature-outdoor-snow-cold-winter-people-1213447-pxhere.com_.jpg	threatpost	t	2021-11-30 20:00:16.392881+01	2021-11-30 19:11:16+01	Lisa Vaas	threatpost/Finland-Faces-Blizzard-of-FluBot-Spreading-Text-Messages
 \.
 
 
@@ -3125,7 +3127,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3074, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3076, true);
 
 
 --
