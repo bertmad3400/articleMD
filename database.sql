@@ -3103,6 +3103,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3057	More than 300,000 Play Store users infected with Android banking trojans	More than 300,000 Android users were infected with banking trojans after installing apps from the official Google Play Store over the past few months, mobile security firm ThreatFabric said today.	https://therecord.media/more-than-300000-play-store-users-infected-with-android-banking-trojans/	https://therecord.media/wp-content/uploads/2021/11/play-store.png	therecord	t	2021-11-29 22:00:17.530067+01	2021-11-29 21:21:09+01	Catalin Cimpanu	therecord/More-than-300000-Play-Store-users-infected-with-Android-banking-trojans
 3058	IKEA Hit by Email Reply-Chain Cyberattack	IKEA, king of furniture-in-a-flat-box, warned employees on Friday that an ongoing cyberattack was using internal emails to malspam malicious links in active email threads.	https://kasperskycontenthub.com/threatpost-global/?p=176625	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/29155618/ikea-scaled-e1638219440979.jpeg	threatpost	t	2021-11-29 23:00:17.184797+01	2021-11-29 22:22:12+01	Lisa Vaas	threatpost/IKEA-Hit-by-Email-Reply-Chain-Cyberattack
 3059	Researchers Flag 300K Banking Trojan Infections from Google Play in 4 Months	Attackers are honing Google Play dropper campaigns, overcoming app store restrictions.	https://kasperskycontenthub.com/threatpost-global/?p=176630	https://media.threatpost.com/wp-content/uploads/sites/103/2019/08/29094752/google-play.jpeg	threatpost	t	2021-11-29 23:00:17.184797+01	2021-11-29 22:15:35+01	Becky Bracken	threatpost/Researchers-Flag-300K-Banking-Trojan-Infections-from-Google-Play-in-4-Months
+3060	Panasonic confirms cyberattack and data breach | ZDNet	On Friday, the tech giant said its network was illegally accessed on November 11.	https://www.zdnet.com/article/panasonic-confirms-cyberattack-and-data-breach/	https://www.zdnet.com/a/img/resize/96e5c56f36cd79dee124838ce0ace6742058d5aa/2019/12/10/6344a07b-82b6-4d2e-b344-acbb528c2d0c/how-panasonic-watches-hackers-to-help-bo-5dee24fb9184870001a151ea-1-dec-10-2019-12-54-11-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-30 01:00:17.417525+01	2021-11-29 23:21:42+01	Jonathan Greig	zdnet/Panasonic-confirms-cyberattack-and-data-breach
 \.
 
 
@@ -3110,7 +3111,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3059, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3060, true);
 
 
 --
