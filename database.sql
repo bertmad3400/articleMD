@@ -3105,6 +3105,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3059	Researchers Flag 300K Banking Trojan Infections from Google Play in 4 Months	Attackers are honing Google Play dropper campaigns, overcoming app store restrictions.	https://kasperskycontenthub.com/threatpost-global/?p=176630	https://media.threatpost.com/wp-content/uploads/sites/103/2019/08/29094752/google-play.jpeg	threatpost	t	2021-11-29 23:00:17.184797+01	2021-11-29 22:15:35+01	Becky Bracken	threatpost/Researchers-Flag-300K-Banking-Trojan-Infections-from-Google-Play-in-4-Months
 3060	Panasonic confirms cyberattack and data breach | ZDNet	On Friday, the tech giant said its network was illegally accessed on November 11.	https://www.zdnet.com/article/panasonic-confirms-cyberattack-and-data-breach/	https://www.zdnet.com/a/img/resize/96e5c56f36cd79dee124838ce0ace6742058d5aa/2019/12/10/6344a07b-82b6-4d2e-b344-acbb528c2d0c/how-panasonic-watches-hackers-to-help-bo-5dee24fb9184870001a151ea-1-dec-10-2019-12-54-11-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-30 01:00:17.417525+01	2021-11-29 23:21:42+01	Jonathan Greig	zdnet/Panasonic-confirms-cyberattack-and-data-breach
 3061	Eftpos expands security kit bag with new AI anti-fraud capability | ZDNet	An AI fraud detection engine is Eftpos' latest security feature to go-live.	https://www.zdnet.com/article/eftpos-expands-security-kit-bag-with-new-ai-anti-fraud-capability/	https://www.zdnet.com/a/img/resize/3d34cb7f02528f5bab71ebc1224c323fce269e51/2020/07/23/efe90b89-2b6b-47e1-9f81-7e4faaf12094/eftpos-digital-payments.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-30 06:00:16.636088+01	2021-11-30 04:02:25+01	Aimee Chanthadavong	zdnet/Eftpos-expands-security-kit-bag-with-new-AI-anti-fraud-capability
+3062	Queensland government energy generator hit by ransomware | ZDNet	CS Energy has said its corporate network was segregated to contain the weekend incident.	https://www.zdnet.com/article/queensland-government-energy-generator-hit-by-ransomware/	https://www.zdnet.com/a/img/resize/c19ba757abf55d6d56b45732fa8a05fde090902f/2021/11/29/bab95eda-eab0-41d6-b692-d97ed32212dd/power-supply.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-30 07:00:16.228405+01	2021-11-30 05:16:40+01	Chris Duckett	zdnet/Queensland-government-energy-generator-hit-by-ransomware
 \.
 
 
@@ -3112,7 +3113,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3061, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3062, true);
 
 
 --
