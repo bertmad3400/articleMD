@@ -3114,6 +3114,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3068	Printing Shellz: Critical bugs impacting 150 HP printer models patched | ZDNet	Cross-site printing attacks feature in the research.	https://www.zdnet.com/article/printing-shellz-critical-bugs-impacting-150-hp-printers-patched/	https://www.zdnet.com/a/img/resize/6311b2c2359b6ab24824ebba40a6a10a110635da/2021/11/18/34f27153-3810-4fdd-8223-40800769b2c5/screenshot-2021-11-18-at-12-24-33.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-30 15:00:16.038911+01	2021-11-30 13:00:02+01	Charlie Osborne	zdnet/Printing-Shellz-Critical-bugs-impacting-150-HP-printer-models-patched
 3069	DNA testing firm discloses data breach affecting 2.1 million people	DNA Diagnostics Center (DDC), an Ohio-based DNA testing company, has disclosed a hacking incident that affects 2,102,436 persons.	https://www.bleepingcomputer.com/news/security/dna-testing-firm-discloses-data-breach-affecting-21-million-people/	https://www.bleepstatic.com/content/hl-images/2021/11/30/dna.jpg	bleepingcomputer	t	2021-11-30 16:00:16.218104+01	2021-11-30 14:26:13+01	Bill Toulas	bleepingcomputer/DNA-testing-firm-discloses-data-breach-affecting-21-million-people
 3070	8-year-old HP printer vulnerability affects 150 printer models	Researchers have discovered several vulnerabilities affecting at least 150 multi-function (print, scan, fax) printers made by Hewlett Packard.	https://www.bleepingcomputer.com/news/security/8-year-old-hp-printer-vulnerability-affects-150-printer-models/	https://www.bleepstatic.com/content/hl-images/2021/07/19/HP-Printer-Logo.jpg	bleepingcomputer	t	2021-11-30 16:00:16.218104+01	2021-11-30 14:00:00+01	Bill Toulas	bleepingcomputer/8-year-old-HP-printer-vulnerability-affects-150-printer-models
+3071	Android banking malware infects 300,000 Google Play users	Malware campaigns distributing Android trojans that steals online bank credentials have infected almost 300,000 devices through malicious apps pushed via Google's Play Store.	https://www.bleepingcomputer.com/news/security/android-banking-malware-infects-300-000-google-play-users/	https://www.bleepstatic.com/content/hl-images/2021/07/07/Android-headpic.jpg	bleepingcomputer	t	2021-11-30 18:00:16.915819+01	2021-11-30 17:07:09+01	Lawrence Abrams	bleepingcomputer/Android-banking-malware-infects-300000-Google-Play-users
 \.
 
 
@@ -3121,7 +3122,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3070, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3071, true);
 
 
 --
