@@ -3141,6 +3141,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3095	VMware's Carbon Black offers more analyst assistance to respond to attacks | ZDNet	With the new Managed Detection and Response solution, Carbon Black analysts will help security teams detect threats and respond to them.	https://www.zdnet.com/article/vmwares-carbon-black-offers-more-analyst-assistance-to-respond-to-attacks/	https://www.zdnet.com/a/img/resize/9142fa37ca5ef9db83435ca434084f8e8b853183/2020/10/09/6f2cd5c4-0b1c-412c-82e9-176e9a8637f1/vmware-using-carbon-black-to-secure-the-5f7fbaf893eaa218d73901d1-1-oct-09-2020-4-42-50-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-01 15:00:17.666579+01	2021-12-01 13:00:02+01	Stephanie Condon	zdnet/VMwares-Carbon-Black-offers-more-analyst-assistance-to-respond-to-attacks
 3096	Most Brazilian businesses set to boost cybersecurity spend in 2022 | ZDNet	Decision-makers in the country are more concerned with security threats when compared to their global counterparts, according to a PwC study.	https://www.zdnet.com/article/most-brazilian-businesses-set-to-boost-cybersecurity-spend-in-2022/	https://www.zdnet.com/a/img/resize/a2b78081718a2a43a7b3fe7c6f41124809f9ba02/2021/10/22/6699aa51-e7c7-4825-ab43-852551823ebf/cybersecurity.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-01 18:00:18.290233+01	2021-12-01 16:10:00+01	Angelica Mari	zdnet/Most-Brazilian-businesses-set-to-boost-cybersecurity-spend-in-2022
 3097	Microsoft Exchange servers hacked to deploy BlackByte ransomware	BlackByte ransomware actors were observed exploiting the ProxyShell set of vulnerabilities (CVE-2021-34473, CVE-2021-34523, CVE-2021-31207) to compromise Microsoft Exchange servers.	https://www.bleepingcomputer.com/news/security/microsoft-exchange-servers-hacked-to-deploy-blackbyte-ransomware/	https://www.bleepstatic.com/content/hl-images/2021/09/03/exchange-header.jpg	bleepingcomputer	t	2021-12-01 18:00:18.290233+01	2021-12-01 17:21:48+01	Bill Toulas	bleepingcomputer/Microsoft-Exchange-servers-hacked-to-deploy-BlackByte-ransomware
+3098	Mozilla fixes critical bug in cross-platform cryptography library	Mozilla has addressed a critical memory corruption vulnerability affecting its cross-platform Network Security Services (NSS) set of cryptography libraries.	https://www.bleepingcomputer.com/news/security/mozilla-fixes-critical-bug-in-cross-platform-cryptography-library/	https://www.bleepstatic.com/content/hl-images/2021/05/26/Mozilla___logo.jpg	bleepingcomputer	t	2021-12-01 19:00:17.906658+01	2021-12-01 18:39:15+01	Sergiu Gatlan	bleepingcomputer/Mozilla-fixes-critical-bug-in-cross-platform-cryptography-library
+3099	Stealthy ‘WIRTE’ Gang Targets Middle Eastern Governments	Kaspersky researchers suspect that the cyberattackers may be a subgroup of the politically motivated, Palestine-focused Gaza Cybergang.	https://kasperskycontenthub.com/threatpost-global/?p=176688	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/01115115/middle-east-map.jpeg	threatpost	t	2021-12-01 19:00:17.906658+01	2021-12-01 18:11:04+01	Lisa Vaas	threatpost/Stealthy-WIRTE-Gang-Targets-Middle-Eastern-Governments
 \.
 
 
@@ -3148,7 +3150,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3097, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3099, true);
 
 
 --
