@@ -3143,6 +3143,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3097	Microsoft Exchange servers hacked to deploy BlackByte ransomware	BlackByte ransomware actors were observed exploiting the ProxyShell set of vulnerabilities (CVE-2021-34473, CVE-2021-34523, CVE-2021-31207) to compromise Microsoft Exchange servers.	https://www.bleepingcomputer.com/news/security/microsoft-exchange-servers-hacked-to-deploy-blackbyte-ransomware/	https://www.bleepstatic.com/content/hl-images/2021/09/03/exchange-header.jpg	bleepingcomputer	t	2021-12-01 18:00:18.290233+01	2021-12-01 17:21:48+01	Bill Toulas	bleepingcomputer/Microsoft-Exchange-servers-hacked-to-deploy-BlackByte-ransomware
 3098	Mozilla fixes critical bug in cross-platform cryptography library	Mozilla has addressed a critical memory corruption vulnerability affecting its cross-platform Network Security Services (NSS) set of cryptography libraries.	https://www.bleepingcomputer.com/news/security/mozilla-fixes-critical-bug-in-cross-platform-cryptography-library/	https://www.bleepstatic.com/content/hl-images/2021/05/26/Mozilla___logo.jpg	bleepingcomputer	t	2021-12-01 19:00:17.906658+01	2021-12-01 18:39:15+01	Sergiu Gatlan	bleepingcomputer/Mozilla-fixes-critical-bug-in-cross-platform-cryptography-library
 3099	Stealthy ‘WIRTE’ Gang Targets Middle Eastern Governments	Kaspersky researchers suspect that the cyberattackers may be a subgroup of the politically motivated, Palestine-focused Gaza Cybergang.	https://kasperskycontenthub.com/threatpost-global/?p=176688	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/01115115/middle-east-map.jpeg	threatpost	t	2021-12-01 19:00:17.906658+01	2021-12-01 18:11:04+01	Lisa Vaas	threatpost/Stealthy-WIRTE-Gang-Targets-Middle-Eastern-Governments
+3100	Malicious Android app steals Malaysian bank credentials, MFA codes	A fake Android app is masquerading as a housekeeping service to steal online banking credentials from the customers of eight Malaysian banks.	https://www.bleepingcomputer.com/news/security/malicious-android-app-steals-malaysian-bank-credentials-mfa-codes/	https://www.bleepstatic.com/content/hl-images/2021/12/01/cleaning.jpg	bleepingcomputer	t	2021-12-01 20:00:26.68951+01	2021-12-01 19:33:17+01	Bill Toulas	bleepingcomputer/Malicious-Android-app-steals-Malaysian-bank-credentials-MFA-codes
+3101	Founder of bulletproof hosting provider used by malware gangs gets 5 years in prison	A US federal judge has sentenced today a Russian national to five years in prison for founding and operating a bulletproof hosting company that provided servers and technical support to malware and cybercrime groups between 2008 and 2015.	https://therecord.media/founder-of-bulletproof-hosting-provider-used-by-malware-gangs-gets-5-years-in-prison/	https://therecord.media/wp-content/uploads/2021/12/prison-jail.jpg	therecord	t	2021-12-01 20:00:26.68951+01	2021-12-01 19:06:55+01	Catalin Cimpanu	therecord/Founder-of-bulletproof-hosting-provider-used-by-malware-gangs-gets-5-years-in-prison
 \.
 
 
@@ -3150,7 +3152,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3099, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3101, true);
 
 
 --
