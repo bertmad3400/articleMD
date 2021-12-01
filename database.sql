@@ -3130,6 +3130,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3084	DNA testing center admits to breach affecting SSNs, banking info of more than 2 million people | ZDNet	DNA Diagnostics Center said it discovered the breach on August 6 but noted that hackers had access from May 24 to July 28.	https://www.zdnet.com/article/dna-testing-center-admits-to-breach-affecting-ssns-banking-info-of-more-than-2-million-people/	https://www.zdnet.com/a/img/resize/058ab159f8d32229529449e0da026be595e7f0f9/2020/06/24/70119537-af3f-4a2b-8e14-bc13748ac460/istock-1165067633.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-01 01:00:17.329371+01	2021-11-30 22:59:43+01	Jonathan Greig	zdnet/DNA-testing-center-admits-to-breach-affecting-SSNs-banking-info-of-more-than-2-million-people
 3085	Microsoft Defender scares admins with Emotet false positives	Microsoft Defender for Endpoint is currently blocking Office documents from being opened and some executables from launching due to a false positive tagging the files as potentially bundling an Emotet malware payload.	https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-scares-admins-with-emotet-false-positives/	https://www.bleepstatic.com/content/hl-images/2021/05/26/Microsoft-Defender.jpg	bleepingcomputer	t	2021-12-01 01:00:17.329371+01	2021-12-01 00:04:42+01	Sergiu Gatlan	bleepingcomputer/Microsoft-Defender-scares-admins-with-Emotet-false-positives
 3086	Twitter to ban sharing of photos and videos without people's consent | ZDNet	Twitter has expanded its private information policy to include private media, such as photos and videos.	https://www.zdnet.com/article/twitter-to-ban-sharing-of-photos-and-videos-without-peoples-consent/	https://www.zdnet.com/a/img/resize/bcc540071ad26ac4ff3e47b410f23f5dc151dea6/2020/12/21/cfd82399-6ee5-4ea8-bf94-aa443a09c2e0/twitter-logo-11.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-01 02:00:16.112954+01	2021-12-01 00:14:22+01	Aimee Chanthadavong	zdnet/Twitter-to-ban-sharing-of-photos-and-videos-without-peoples-consent
+3087	FBI seized $2.3M from affiliate of REvil, Gandcrab ransomware gangs	The FBI seized $2.2 million in August from a well-known REvil and GandCrab ransomware affiliate, according to court documents seen by BleepingComputer.	https://www.bleepingcomputer.com/news/security/fbi-seized-23m-from-affiliate-of-revil-gandcrab-ransomware-gangs/	https://www.bleepstatic.com/content/hl-images/2021/07/09/FBI-cryptocurrency.jpg	bleepingcomputer	t	2021-12-01 05:00:17.727673+01	2021-11-30 22:46:32+01	Lawrence Abrams	bleepingcomputer/FBI-seized-23M-from-affiliate-of-REvil-Gandcrab-ransomware-gangs
 \.
 
 
@@ -3137,7 +3138,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3086, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3087, true);
 
 
 --
