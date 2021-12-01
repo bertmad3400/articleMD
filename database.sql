@@ -3136,6 +3136,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3091	VirusTotal Collections feature helps keep neat IoC lists	Scanning service VirusTotal announced today a new feature called Collections that lets researchers create and share reports with indicators of compromise observed in security incidents.	https://www.bleepingcomputer.com/news/security/virustotal-collections-feature-helps-keep-neat-ioc-lists/	https://www.bleepstatic.com/content/hl-images/2018/04/05/VT-logo.png	bleepingcomputer	t	2021-12-01 13:00:15.101623+01	2021-12-01 11:33:22+01	Ionut Ilascu	bleepingcomputer/VirusTotal-Collections-feature-helps-keep-neat-IoC-lists
 3089	These researchers wanted to test cloud security. They were shocked by what they found | ZDNet	Cybersecurity researchers set up a tempting cloud honeypot to examine how cyber attackers work.	https://www.zdnet.com/article/these-researchers-wanted-to-test-cloud-security-they-were-shocked-by-what-they-found/	https://www.zdnet.com/a/img/resize/d8a4561bd603e904bb24700fb3fb97cb37cc5f4e/2021/08/25/99bd596a-6b7d-47a5-9d50-5726551168c3/getty-hands-typing-on-a-laptop-keyboard.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-01 13:00:15.101623+01	2021-12-01 11:16:56+01	Danny Palmer	zdnet/These-researchers-wanted-to-test-cloud-security-They-were-shocked-by-what-they-found
 3092	State-backed hackers increasingly use RTF injection for phishing	Three APT hacking groups from India, Russia, and China, were observed using a novel RTF (rich text format) template injection technique in their recent phishing campaigns.	https://www.bleepingcomputer.com/news/security/state-backed-hackers-increasingly-use-rtf-injection-for-phishing/	https://www.bleepstatic.com/content/hl-images/2021/04/16/malware-phishing-header.jpg	bleepingcomputer	t	2021-12-01 13:00:15.101623+01	2021-12-01 11:00:00+01	Bill Toulas	bleepingcomputer/State-backed-hackers-increasingly-use-RTF-injection-for-phishing
+3093	Widespread ‘Smishing’ Campaign Defrauds Iranian Android Users	Attackers use socially engineered SMS messages and malware to compromise tens of thousands of devices and drain user bank accounts.	https://kasperskycontenthub.com/threatpost-global/?p=176679	https://media.threatpost.com/wp-content/uploads/sites/103/2020/02/19101804/smishing.png	threatpost	t	2021-12-01 14:00:16.670612+01	2021-12-01 13:15:28+01	Elizabeth Montalbano	threatpost/Widespread-Smishing-Campaign-Defrauds-Iranian-Android-Users
 \.
 
 
@@ -3143,7 +3144,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3092, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3093, true);
 
 
 --
