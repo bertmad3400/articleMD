@@ -3139,6 +3139,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3093	Widespread ‘Smishing’ Campaign Defrauds Iranian Android Users	Attackers use socially engineered SMS messages and malware to compromise tens of thousands of devices and drain user bank accounts.	https://kasperskycontenthub.com/threatpost-global/?p=176679	https://media.threatpost.com/wp-content/uploads/sites/103/2020/02/19101804/smishing.png	threatpost	t	2021-12-01 14:00:16.670612+01	2021-12-01 13:15:28+01	Elizabeth Montalbano	threatpost/Widespread-Smishing-Campaign-Defrauds-Iranian-Android-Users
 3094	Amazon Web Services, CrowdStrike and Presidio partner for ransomware mitigation kit | ZDNet	The companies said the tool will help enterprises respond to ransomware incidents.	https://www.zdnet.com/article/amazon-web-services-crowdstrike-and-presidio-partner-for-ransomware-mitigation-kit/	https://www.zdnet.com/a/img/resize/b149f391746a3a8280f3536b733ed4eca2a81af5/2021/09/29/1900e4c7-5110-4b73-a556-0123cdf71305/cyberattack.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-01 15:00:17.666579+01	2021-12-01 14:00:55+01	Jonathan Greig	zdnet/Amazon-Web-Services-CrowdStrike-and-Presidio-partner-for-ransomware-mitigation-kit
 3095	VMware's Carbon Black offers more analyst assistance to respond to attacks | ZDNet	With the new Managed Detection and Response solution, Carbon Black analysts will help security teams detect threats and respond to them.	https://www.zdnet.com/article/vmwares-carbon-black-offers-more-analyst-assistance-to-respond-to-attacks/	https://www.zdnet.com/a/img/resize/9142fa37ca5ef9db83435ca434084f8e8b853183/2020/10/09/6f2cd5c4-0b1c-412c-82e9-176e9a8637f1/vmware-using-carbon-black-to-secure-the-5f7fbaf893eaa218d73901d1-1-oct-09-2020-4-42-50-poster.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-01 15:00:17.666579+01	2021-12-01 13:00:02+01	Stephanie Condon	zdnet/VMwares-Carbon-Black-offers-more-analyst-assistance-to-respond-to-attacks
+3096	Most Brazilian businesses set to boost cybersecurity spend in 2022 | ZDNet	Decision-makers in the country are more concerned with security threats when compared to their global counterparts, according to a PwC study.	https://www.zdnet.com/article/most-brazilian-businesses-set-to-boost-cybersecurity-spend-in-2022/	https://www.zdnet.com/a/img/resize/a2b78081718a2a43a7b3fe7c6f41124809f9ba02/2021/10/22/6699aa51-e7c7-4825-ab43-852551823ebf/cybersecurity.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-01 18:00:18.290233+01	2021-12-01 16:10:00+01	Angelica Mari	zdnet/Most-Brazilian-businesses-set-to-boost-cybersecurity-spend-in-2022
+3097	Microsoft Exchange servers hacked to deploy BlackByte ransomware	BlackByte ransomware actors were observed exploiting the ProxyShell set of vulnerabilities (CVE-2021-34473, CVE-2021-34523, CVE-2021-31207) to compromise Microsoft Exchange servers.	https://www.bleepingcomputer.com/news/security/microsoft-exchange-servers-hacked-to-deploy-blackbyte-ransomware/	https://www.bleepstatic.com/content/hl-images/2021/09/03/exchange-header.jpg	bleepingcomputer	t	2021-12-01 18:00:18.290233+01	2021-12-01 17:21:48+01	Bill Toulas	bleepingcomputer/Microsoft-Exchange-servers-hacked-to-deploy-BlackByte-ransomware
 \.
 
 
@@ -3146,7 +3148,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3095, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3097, true);
 
 
 --
