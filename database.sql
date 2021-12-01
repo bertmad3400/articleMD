@@ -3145,6 +3145,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3099	Stealthy ‘WIRTE’ Gang Targets Middle Eastern Governments	Kaspersky researchers suspect that the cyberattackers may be a subgroup of the politically motivated, Palestine-focused Gaza Cybergang.	https://kasperskycontenthub.com/threatpost-global/?p=176688	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/01115115/middle-east-map.jpeg	threatpost	t	2021-12-01 19:00:17.906658+01	2021-12-01 18:11:04+01	Lisa Vaas	threatpost/Stealthy-WIRTE-Gang-Targets-Middle-Eastern-Governments
 3100	Malicious Android app steals Malaysian bank credentials, MFA codes	A fake Android app is masquerading as a housekeeping service to steal online banking credentials from the customers of eight Malaysian banks.	https://www.bleepingcomputer.com/news/security/malicious-android-app-steals-malaysian-bank-credentials-mfa-codes/	https://www.bleepstatic.com/content/hl-images/2021/12/01/cleaning.jpg	bleepingcomputer	t	2021-12-01 20:00:26.68951+01	2021-12-01 19:33:17+01	Bill Toulas	bleepingcomputer/Malicious-Android-app-steals-Malaysian-bank-credentials-MFA-codes
 3101	Founder of bulletproof hosting provider used by malware gangs gets 5 years in prison	A US federal judge has sentenced today a Russian national to five years in prison for founding and operating a bulletproof hosting company that provided servers and technical support to malware and cybercrime groups between 2008 and 2015.	https://therecord.media/founder-of-bulletproof-hosting-provider-used-by-malware-gangs-gets-5-years-in-prison/	https://therecord.media/wp-content/uploads/2021/12/prison-jail.jpg	therecord	t	2021-12-01 20:00:26.68951+01	2021-12-01 19:06:55+01	Catalin Cimpanu	therecord/Founder-of-bulletproof-hosting-provider-used-by-malware-gangs-gets-5-years-in-prison
+3102	Microsoft fixes installation issues in new Windows 11 dev build	Microsoft has addressed a long list of issues and added more Windows 11 start menu customization options with the release of Windows 11 Insider Preview Build 22509 to the Dev Channel.	https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-installation-issues-in-new-windows-11-dev-build/	https://www.bleepstatic.com/content/hl-images/2021/10/06/Windows_11.jpg	bleepingcomputer	t	2021-12-01 21:00:32.334637+01	2021-12-01 20:55:12+01	Sergiu Gatlan	bleepingcomputer/Microsoft-fixes-installation-issues-in-new-Windows-11-dev-build
+3103	80K Retail WooCommerce Sites Exposed by Plugin XSS Bug	The Variation Swatches plugin security flaw lets attackers with low-level permissions tweak important settings on e-commerce sites to inject malicious scripts.	https://kasperskycontenthub.com/threatpost-global/?p=176704	https://media.threatpost.com/wp-content/uploads/sites/103/2021/06/01131125/Bug-Digital.jpeg	threatpost	t	2021-12-01 21:00:32.334637+01	2021-12-01 20:34:53+01	Becky Bracken	threatpost/80K-Retail-WooCommerce-Sites-Exposed-by-Plugin-XSS-Bug
 \.
 
 
@@ -3152,7 +3154,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3101, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3103, true);
 
 
 --
