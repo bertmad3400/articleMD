@@ -3127,6 +3127,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3081	Zscaler delivers strong Q1, sees revenue grow 62% year over year | ZDNet	The cybersecurity firm reported $230.5 million in revenue for Q1, yielding a profit of 14 cents per share.	https://www.zdnet.com/article/zscaler-delivers-strong-q1-sees-revenue-grow-62-year-over-year/	https://www.zdnet.com/a/img/resize/a2b78081718a2a43a7b3fe7c6f41124809f9ba02/2021/10/22/6699aa51-e7c7-4825-ab43-852551823ebf/cybersecurity.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-11-30 23:00:29.62388+01	2021-11-30 21:30:00+01	Jonathan Greig	zdnet/Zscaler-delivers-strong-Q1-sees-revenue-grow-62-year-over-year
 3082	FBI seized $2.2M from affiliate of REvil, Gandcrab ransomware gangs	The FBI seized $2.2 million in August from a well-known REvil and GandCrab ransomware affiliate, according to court documents seen by BleepingComputer.	https://www.bleepingcomputer.com/news/security/fbi-seized-22m-from-affiliate-of-revil-gandcrab-ransomware-gangs/	https://www.bleepstatic.com/content/hl-images/2021/07/09/FBI-cryptocurrency.jpg	bleepingcomputer	t	2021-11-30 23:00:29.62388+01	2021-11-30 22:46:32+01	Lawrence Abrams	bleepingcomputer/FBI-seized-22M-from-affiliate-of-REvil-Gandcrab-ransomware-gangs
 3083	AT&T takes action against DDoS botnet that hijacked VoIP servers	AT&T said it's investigating and has taken steps to mitigate a botnet that infected more than 5,700 VoIP servers located inside its network, a spokesperson has told The Record earlier today.	https://therecord.media/att-takes-action-against-ddos-botnet-that-hijacked-voip-servers/	https://therecord.media/wp-content/uploads/2021/11/cell-tower-mobile.png	therecord	t	2021-11-30 23:00:29.62388+01	2021-11-30 22:06:06+01	Catalin Cimpanu	therecord/ATT-takes-action-against-DDoS-botnet-that-hijacked-VoIP-servers
+3084	DNA testing center admits to breach affecting SSNs, banking info of more than 2 million people | ZDNet	DNA Diagnostics Center said it discovered the breach on August 6 but noted that hackers had access from May 24 to July 28.	https://www.zdnet.com/article/dna-testing-center-admits-to-breach-affecting-ssns-banking-info-of-more-than-2-million-people/	https://www.zdnet.com/a/img/resize/058ab159f8d32229529449e0da026be595e7f0f9/2020/06/24/70119537-af3f-4a2b-8e14-bc13748ac460/istock-1165067633.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-01 01:00:17.329371+01	2021-11-30 22:59:43+01	Jonathan Greig	zdnet/DNA-testing-center-admits-to-breach-affecting-SSNs-banking-info-of-more-than-2-million-people
+3085	Microsoft Defender scares admins with Emotet false positives	Microsoft Defender for Endpoint is currently blocking Office documents from being opened and some executables from launching due to a false positive tagging the files as potentially bundling an Emotet malware payload.	https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-scares-admins-with-emotet-false-positives/	https://www.bleepstatic.com/content/hl-images/2021/05/26/Microsoft-Defender.jpg	bleepingcomputer	t	2021-12-01 01:00:17.329371+01	2021-12-01 00:04:42+01	Sergiu Gatlan	bleepingcomputer/Microsoft-Defender-scares-admins-with-Emotet-false-positives
 \.
 
 
@@ -3134,7 +3136,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3083, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3085, true);
 
 
 --
