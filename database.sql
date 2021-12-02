@@ -3157,6 +3157,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3111	Former Ubiquiti dev charged for trying to extort his employer	Nickolas Sharp, a former employee of networking device maker Ubiquiti, was arrested and charged today with data theft and attempting to extort his employer while posing as a whistleblower and an anonymous hacker.	https://www.bleepingcomputer.com/news/security/former-ubiquiti-dev-charged-for-trying-to-extort-his-employer/	https://www.bleepstatic.com/content/hl-images/2021/04/01/Ubiquiti.jpg	bleepingcomputer	t	2021-12-02 01:00:16.618162+01	2021-12-02 00:03:42+01	Sergiu Gatlan	bleepingcomputer/Former-Ubiquiti-dev-charged-for-trying-to-extort-his-employer
 3112	Former Ubiquiti employee charged with hacking and extorting company	An Oregon man and a former employee of Ubiquiti Networks was arrested and charged today with hacking the company's servers, stealing gigabytes of information, and then attempting to extort his employer for $2 million when Ubiquiti began investigating the breach.	https://therecord.media/former-ubiquiti-employee-charged-with-hacking-and-extorting-company/	https://therecord.media/wp-content/uploads/2021/04/Ubiquiti.jpg	therecord	t	2021-12-02 03:00:15.983706+01	2021-12-02 02:24:15+01	Catalin Cimpanu	therecord/Former-Ubiquiti-employee-charged-with-hacking-and-extorting-company
 3113	Planned Parenthood LA discloses data breach after ransomware attack	​Planned Parenthood Los Angeles has disclosed a data breach after suffering a ransomware attack in October that exposed the personal information of approximately 400,000 patients.	https://www.bleepingcomputer.com/news/security/planned-parenthood-la-discloses-data-breach-after-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/12/01/planned-parenthood.jpg	bleepingcomputer	t	2021-12-02 03:00:15.983706+01	2021-12-02 02:18:12+01	Lawrence Abrams	bleepingcomputer/Planned-Parenthood-LA-discloses-data-breach-after-ransomware-attack
+3114	Mozilla properly fuzzed NSS and still ended up with a simple memory corruption hole | ZDNet	Bug detection king Tavis Ormandy simply made a really big signature with NSS, and bad things happened.	https://www.zdnet.com/article/mozilla-properly-fuzzed-nss-and-still-ended-up-with-a-simple-memory-corruption-hole/	https://www.zdnet.com/a/img/resize/26914634cec322d83b2eac7371e47c2e1756b42f/2020/11/19/4da7f391-c50a-4987-b32c-a208cb745974/mozilla-logo.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-02 08:00:16.11889+01	2021-12-02 06:34:48+01	Chris Duckett	zdnet/Mozilla-properly-fuzzed-NSS-and-still-ended-up-with-a-simple-memory-corruption-hole
+3115	Australia to appoint its first National Data Commissioner | ZDNet	Gayle Milnes will become Australia's first national data commissioner designate.	https://www.zdnet.com/article/australia-to-appoint-its-first-national-data-commissioner/	https://www.zdnet.com/a/img/resize/649abad83c26c6a4f7365fd2587f8aff1c0e9aa3/2021/04/20/f5369e78-0429-451c-8a8c-6d55c1cd21eb/parliament-house-canberra.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-02 08:00:16.11889+01	2021-12-02 06:22:17+01	Campbell Kwan	zdnet/Australia-to-appoint-its-first-National-Data-Commissioner
 \.
 
 
@@ -3164,7 +3166,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3113, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3115, true);
 
 
 --
