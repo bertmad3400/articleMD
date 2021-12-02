@@ -3155,6 +3155,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3109	FIN7 hacker trialed in Russia gets no prison time	A Russian court handed down a mild one-year suspended prison sentence to a member of the FIN7 hacking group, a notorious cybercrime cartel that has hacked more than 100 US companies between 2015 and 2018.	https://therecord.media/fin7-hacker-trialed-in-russia-gets-no-prison-time/	https://therecord.media/wp-content/uploads/2021/12/drinks-beach.jpg	therecord	t	2021-12-02 01:00:16.618162+01	2021-12-02 00:45:40+01	Catalin Cimpanu	therecord/FIN7-hacker-trialed-in-Russia-gets-no-prison-time
 3110	Emotet now spreads via fake Adobe Windows App Installer packages	The notorious Emotet malware is now distributed through malicious Windows App Installer packages that pretend to be Adobe PDF software.	https://www.bleepingcomputer.com/news/security/emotet-now-spreads-via-fake-adobe-windows-app-installer-packages/	https://www.bleepstatic.com/content/hl-images/2020/10/06/Emotet-map.jpg	bleepingcomputer	t	2021-12-02 01:00:16.618162+01	2021-12-02 00:43:10+01	Lawrence Abrams	bleepingcomputer/Emotet-now-spreads-via-fake-Adobe-Windows-App-Installer-packages
 3111	Former Ubiquiti dev charged for trying to extort his employer	Nickolas Sharp, a former employee of networking device maker Ubiquiti, was arrested and charged today with data theft and attempting to extort his employer while posing as a whistleblower and an anonymous hacker.	https://www.bleepingcomputer.com/news/security/former-ubiquiti-dev-charged-for-trying-to-extort-his-employer/	https://www.bleepstatic.com/content/hl-images/2021/04/01/Ubiquiti.jpg	bleepingcomputer	t	2021-12-02 01:00:16.618162+01	2021-12-02 00:03:42+01	Sergiu Gatlan	bleepingcomputer/Former-Ubiquiti-dev-charged-for-trying-to-extort-his-employer
+3112	Former Ubiquiti employee charged with hacking and extorting company	An Oregon man and a former employee of Ubiquiti Networks was arrested and charged today with hacking the company's servers, stealing gigabytes of information, and then attempting to extort his employer for $2 million when Ubiquiti began investigating the breach.	https://therecord.media/former-ubiquiti-employee-charged-with-hacking-and-extorting-company/	https://therecord.media/wp-content/uploads/2021/04/Ubiquiti.jpg	therecord	t	2021-12-02 03:00:15.983706+01	2021-12-02 02:24:15+01	Catalin Cimpanu	therecord/Former-Ubiquiti-employee-charged-with-hacking-and-extorting-company
+3113	Planned Parenthood LA discloses data breach after ransomware attack	​Planned Parenthood Los Angeles has disclosed a data breach after suffering a ransomware attack in October that exposed the personal information of approximately 400,000 patients.	https://www.bleepingcomputer.com/news/security/planned-parenthood-la-discloses-data-breach-after-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/12/01/planned-parenthood.jpg	bleepingcomputer	t	2021-12-02 03:00:15.983706+01	2021-12-02 02:18:12+01	Lawrence Abrams	bleepingcomputer/Planned-Parenthood-LA-discloses-data-breach-after-ransomware-attack
 \.
 
 
@@ -3162,7 +3164,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3111, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3113, true);
 
 
 --
