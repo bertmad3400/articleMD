@@ -3163,6 +3163,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3117	Hybrid cloud brings benefits. But it also brings new cybersecurity risks, too | ZDNet	Many enterprises are shifting towards a hybrid cloud model, which while an advantage in many ways, can bring major cybersecurity headaches if not managed properly.	https://www.zdnet.com/article/hybrid-cloud-brings-benefits-but-also-additional-cybersecurity-risks-heres-how-to-securely-manage-your-cloud/	https://www.zdnet.com/a/img/resize/4f2bbe98748fa797051c954a9de1c62ad7de2885/2021/10/18/36a15445-2b5d-4281-b991-446fc91b6684/shutterstock-518789926.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-02 13:00:15.388755+01	2021-12-01 14:28:00+01	Danny Palmer	zdnet/Hybrid-cloud-brings-benefits-But-it-also-brings-new-cybersecurity-risks-too
 3118	Facebook's Meta says bad actors are changing tactics as it takes down six more groups | ZDNet	Meta targets coordinate inauthentic behavior on Facebook.	https://www.zdnet.com/article/facebooks-meta-says-bad-actors-are-changing-tactics-as-it-takes-down-six-more-groups/	https://www.zdnet.com/a/img/resize/ab229a2a6dbba549375256d795525d8659b405ce/2021/04/15/be3f64fd-0f61-4579-a84a-e80b721a3e85/cyberbullying.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-02 14:00:16.148756+01	2021-12-02 13:00:02+01	Liam Tung	zdnet/Facebooks-Meta-says-bad-actors-are-changing-tactics-as-it-takes-down-six-more-groups
 3119	Hackers are turning to this simple technique to install their malware on PCs | ZDNet	Cybersecurity researchers warn about hacking groups increasingly using a simple technique that seems to work.	https://www.zdnet.com/article/hackers-are-turning-to-this-simple-technique-to-install-their-malware-on-pcs/	https://www.zdnet.com/a/img/resize/fc6b456eca611b0e8b034db4d2637783c3f768db/2021/09/28/b8e87bb6-d657-4da5-8860-16a3555c5a76/hands-on-a-keyboard-with-blue-lighting.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-02 14:00:16.148756+01	2021-12-02 12:37:40+01	Danny Palmer	zdnet/Hackers-are-turning-to-this-simple-technique-to-install-their-malware-on-PCs
+3120	1.5 million users joined Facebook Protect since September	Meta (formerly Facebook) said today that they enrolled more than 1.5 million users in Facebook Protect, a security program designed for human rights activists, journalists, and government officials.	https://therecord.media/1-5-million-users-joined-facebook-protect-since-september/	https://live-the-record.pantheonsite.io/wp-content/uploads/2021/04/Facebook-e1626363489804.png	therecord	t	2021-12-02 15:00:15.179658+01	2021-12-02 15:00:00+01	Catalin Cimpanu	therecord/15-million-users-joined-Facebook-Protect-since-September
 \.
 
 
@@ -3170,7 +3171,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3119, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3120, true);
 
 
 --
