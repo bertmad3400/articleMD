@@ -3173,6 +3173,8 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3128	‘Double-Extortion’ Ransomware Data Leaks Skyrocket 935%	Startling triple-digit growth is fueled by easy criminal access to corporate networks and RaaS tools, an analysis found.	https://kasperskycontenthub.com/threatpost-global/?p=176723	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/03083226/shutdown-ransomware.jpg	threatpost	t	2021-12-02 21:00:02.210047+01	2021-12-02 20:53:02+01	Becky Bracken	threatpost/Double-Extortion-Ransomware-Data-Leaks-Skyrocket-935
 3129	Planned Parenthood Breach Opens Patients to Follow-On Attacks	Cyberattackers made off with addresses, insurance information, dates of birth, and most worryingly, clinical information, such as diagnosis, procedures and/or prescription information.	https://kasperskycontenthub.com/threatpost-global/?p=176718	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/02142821/planned-parenthood.jpg	threatpost	t	2021-12-02 21:00:02.210047+01	2021-12-02 20:29:18+01	Tara Seals	threatpost/Planned-Parenthood-Breach-Opens-Patients-to-Follow-On-Attacks
 3127	Planned Parenthood LA: Ransomware attack leaks health data of 400,000 patients | ZDNet	In a letter shared with the California Attorney General's office and sent out on November 30, the organization said they identified suspicious activity in their computer network on October 17.	https://www.zdnet.com/article/planned-parenthood-la-announces-ransomware-incident-healthcare-info-of-400000-patients-leaked/	https://www.zdnet.com/a/img/resize/6750f1c1b1f0ce1f5e069fb6608747ffd0230d5a/2021/08/02/253a288c-5262-41b8-8afe-bb70f06cb183/gettyimages-doctor-and-nurse-at-a-laptop-inside-a-hospital.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-02 20:00:02.648558+01	2021-12-02 17:55:00+01	Jonathan Greig	zdnet/Planned-Parenthood-LA-Ransomware-attack-leaks-health-data-of-400000-patients
+3130	Meta expanding Facebook security program for government officials, journalists, activists | ZDNet	The company will be rolling out Facebook Protect services to more than 50 countries by the end of 2021.	https://www.zdnet.com/article/meta-expanding-facebook-security-program-for-government-officials-journalists-activists/	https://www.zdnet.com/a/img/resize/1e5d344a1954331e56324751e9238f59d8c73e2a/2021/10/07/efafef61-573e-4f9d-8b6d-f301d460d4e9/data-protection.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-02 22:00:01.992972+01	2021-12-02 20:28:00+01	Jonathan Greig	zdnet/Meta-expanding-Facebook-security-program-for-government-officials-journalists-activists
+3131	Twitter removes 3,400 accounts used in govt propaganda campaigns	Twitter today announced the permanent removal of more than 3,400 accounts linked to governments of six countries running manipulation or spam campaigns.	https://www.bleepingcomputer.com/news/security/twitter-removes-3-400-accounts-used-in-govt-propaganda-campaigns/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Twitter_headpic.jpg	bleepingcomputer	t	2021-12-02 22:00:01.992972+01	2021-12-02 21:28:25+01	Ionut Ilascu	bleepingcomputer/Twitter-removes-3400-accounts-used-in-govt-propaganda-campaigns
 \.
 
 
@@ -3180,7 +3182,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3129, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3131, true);
 
 
 --
