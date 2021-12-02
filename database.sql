@@ -3159,6 +3159,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3113	Planned Parenthood LA discloses data breach after ransomware attack	​Planned Parenthood Los Angeles has disclosed a data breach after suffering a ransomware attack in October that exposed the personal information of approximately 400,000 patients.	https://www.bleepingcomputer.com/news/security/planned-parenthood-la-discloses-data-breach-after-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/12/01/planned-parenthood.jpg	bleepingcomputer	t	2021-12-02 03:00:15.983706+01	2021-12-02 02:18:12+01	Lawrence Abrams	bleepingcomputer/Planned-Parenthood-LA-discloses-data-breach-after-ransomware-attack
 3114	Mozilla properly fuzzed NSS and still ended up with a simple memory corruption hole | ZDNet	Bug detection king Tavis Ormandy simply made a really big signature with NSS, and bad things happened.	https://www.zdnet.com/article/mozilla-properly-fuzzed-nss-and-still-ended-up-with-a-simple-memory-corruption-hole/	https://www.zdnet.com/a/img/resize/26914634cec322d83b2eac7371e47c2e1756b42f/2020/11/19/4da7f391-c50a-4987-b32c-a208cb745974/mozilla-logo.png?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-02 08:00:16.11889+01	2021-12-02 06:34:48+01	Chris Duckett	zdnet/Mozilla-properly-fuzzed-NSS-and-still-ended-up-with-a-simple-memory-corruption-hole
 3115	Australia to appoint its first National Data Commissioner | ZDNet	Gayle Milnes will become Australia's first national data commissioner designate.	https://www.zdnet.com/article/australia-to-appoint-its-first-national-data-commissioner/	https://www.zdnet.com/a/img/resize/649abad83c26c6a4f7365fd2587f8aff1c0e9aa3/2021/04/20/f5369e78-0429-451c-8a8c-6d55c1cd21eb/parliament-house-canberra.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-02 08:00:16.11889+01	2021-12-02 06:22:17+01	Campbell Kwan	zdnet/Australia-to-appoint-its-first-National-Data-Commissioner
+3116	New malware hides as legit nginx process on e-commerce servers	eCommerce servers are being targeted with remote access malware that hides on Nginx servers in a way that makes it virtually invisible to security solutions.	https://www.bleepingcomputer.com/news/security/new-malware-hides-as-legit-nginx-process-on-e-commerce-servers/	https://www.bleepstatic.com/content/posts/2021/12/02/Nginx_RAT.jpg	bleepingcomputer	t	2021-12-02 12:00:16.833271+01	2021-12-02 11:12:19+01	Ionut Ilascu	bleepingcomputer/New-malware-hides-as-legit-nginx-process-on-e-commerce-servers
 \.
 
 
@@ -3166,7 +3167,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3115, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3116, true);
 
 
 --
