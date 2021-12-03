@@ -1,17 +1,22 @@
 # FIN7 hacker trialed in Russia gets no prison time
-### 
+### A Russian court handed down a mild one-year suspended prison sentence to a member of the FIN7 hacking group, a notorious cybercrime cartel that has hacked more than 100 US companies between 2015 and 2018.
 
 ## Information:
 + Source: The Record
-+ Link: [article](https://therecord.media/fin7-hacker-trialed-in-russia-gets-no-prison-time/)
-+ Date: December 1, 2021
++ Link: https://therecord.media/fin7-hacker-trialed-in-russia-gets-no-prison-time/
++ Date: 2021-12-01T23:45:40+00:00
 + Author: Catalin Cimpanu
 
 
 ## Article:
-![FIN7 hacker trialed in Russia gets no prison time](https://therecord.media/wp-content/uploads/2021/12/drinks-beach.jpg)
+![Article Image](https://therecord.media/wp-content/uploads/2021/12/drinks-beach.jpg)
 
-A Russian court handed down a mild one-year suspended prison sentence to a member of the FIN7 hacking group, a notorious cybercrime cartel that has hacked more than 100 US companies between 2015 and 2018.
+* Maxim Zhukov was sentenced to a one year suspended sentence and one year probation for developing malware for the FIN7 gang.
+* Zhukov, 36, from Vladimir, worked as a Ruby developer specialized in Metasploit development for Combi Security.
+* Combi Security was a Russian security firm that FIN7 used as a front company to hire hackers.
+
+
+**A Russian court handed down a mild one-year suspended prison sentence to a member of the FIN7 hacking group, a notorious cybercrime cartel that has hacked more than 100 US companies between 2015 and 2018.**
 
 
 The man, whose identity was not initially shared in a press release circulated to Russian media last week, was identified today by *The Record* in Russian court proceedings as **Maxim Zhukov Sergeevich** (Максим Жуков Сергеевич), a 36-year-old from the city of Vladimir.
@@ -23,7 +28,7 @@ Zhukov previously worked as a developer for Combi Security, a Russian company th
 According to public directories [[archived](https://web.archive.org/web/20211201220309/https://contactout.com/Maxim-Zhukov-79458149)], Zhukov worked as a Ruby programmer specialized in Metasploit, a legitimate penetration-testing framework that was a known tool used by FIN7 in past operations.
 
 
-![MZ-contacts](https://www-therecord.recfut.com/wp-content/uploads/2021/12/MZ-contacts.png)Image: The Record
+![MZ-contacts](https://therecord.media/wp-content/uploads/2021/12/MZ-contacts.png)Image: The Record
 Zhukov was identified as a FIN7 member and detained by Russia’s FSB security service in February 2019 and later accused of creating malware specialized in the theft of money from bank accounts.
 
 
@@ -33,7 +38,7 @@ His arrest came months after the FBI cracked down and arrested three Ukrainian n
 The FBI said the group hacked more than 100 US companies and orchestrated intrusions at tens of US retailers, such as Chipotle Mexican Grill, Chili’s, Arby’s, Red Robin, and Jason’s Deli, where they deployed malware that collected millions of customer payment card details that they later sold on hacking forums.
 
 
-![FIN7-malware](https://www-therecord.recfut.com/wp-content/uploads/2021/12/FIN7-malware.png)Image: FBI
+![FIN7-malware](https://therecord.media/wp-content/uploads/2021/12/FIN7-malware.png)Image: FBI
 Zhukov is the fifth FIN7 member identified by law enforcement agencies and the third to be sentenced after two Ukrainian nationals received hefty prison terms in US jails.
 
 
@@ -72,9 +77,24 @@ But while FIN7 switched its targeting from Point-of-Sale malware to ransomware, 
 According to Microsoft and Gemini Advisory, the group has even set up a second fake security firm, named [Bastion Secure](https://therecord.media/cybercrime-gang-sets-up-fake-company-to-hire-security-experts-to-aid-in-ransomware-attacks/), which they have been using to hire security researchers and trick them into conducting hacks disguised as “customer penetration tests.” Following these intrusions, the group has often deployed the Darkside and BlackMatter ransomware.
 
 
-![Bastion Secure](https://www-therecord.recfut.com/wp-content/uploads/2021/10/BastionSecure-1024x680.png)
+![Bastion Secure](https://therecord.media/wp-content/uploads/2021/10/BastionSecure-1024x680.png)
 
 
 
-#### Tags:
-[[FIN7]] [[Zhukov]] [[malware]] [[ransomware]] [[Darkside]] [[BlackMatter]] [[RaaS]] [[The Record]]
+## Tags:
+
+#### Threatactor:
+[[threatactor.name=FIN7]] [[threatactor.name=RTM]]
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=BitPaymer]] [[action.malware.name=Egregor]] [[action.malware.name=Maze]] [[action.malware.name=Net]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=PLEAD]] [[action.malware.name=Reg]] [[action.malware.name=REvil]] [[action.malware.name=RTM]] [[action.malware.name=Tor]]
+
+#### Industry:
+[[victim.industry.name=Finance]] [[victim.industry.name=Retail]]
+
+#### Location:
+[[victim.country.name=Russia]] [[victim.continent.name=Asia]] [[victim.continent.name=Europe]] [[victim.country.name=Germany]] [[victim.continent.name=Europe]] [[victim.country.name=Poland]] [[victim.continent.name=Europe]] [[victim.country.name=Russia]] [[victim.continent.name=Europe]] [[victim.country.name=Spain]] [[victim.continent.name=Europe]] [[victim.country.name=Ukraine]] [[victim.continent.name=Europe]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Fin7]] [[Zhukov]] [[Ransomware]] [[Malware]] [[Combi]] [[Darkside]] [[Blackmatter]] [[Raas]] [[The Record]]
+

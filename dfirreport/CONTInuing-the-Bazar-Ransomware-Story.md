@@ -1,14 +1,15 @@
 # CONTInuing the Bazar Ransomware Story
-### 
+### In this report we will discuss a case from early August where we witnessed threat actors utilizing BazarLoader and Cobalt Strike to accomplish their mission of encrypting systems with Conti ransomware.
 
 ## Information:
 + Source: The DFIR Report
-+ Link: [article](https://thedfirreport.com/2021/11/29/continuing-the-bazar-ransomware-story/)
-+ Date: November 29, 2021
-+ Author: Unknown
++ Link: https://thedfirreport.com/2021/11/29/continuing-the-bazar-ransomware-story/
++ Date: 2021-11-29T02:19:21+00:00
++ Author: editor
 
 
 ## Article:
+![Article Image](https://thedfirreport.com/wp-content/uploads/2021/11/f22784bc5813874c131d0c6f21acb3404084de7b57c0ae1f2afde6d8fe24c3a2.png)
 
 
 In this report we will discuss a case from early August where we witnessed threat actors utilizing [BazarLoader](https://thedfirreport.com/?s=BazarLoader) and [Cobalt Strike](https://thedfirreport.com/2021/08/29/cobalt-strike-a-defenders-guide/) to accomplish their mission of encrypting systems with Conti ransomware.
@@ -651,7 +652,7 @@ The Rclone activity was observed on two separate instances, each lasting around 
 ### Impact
 
 
-On the fifth day, the threat actors moved to their final actions to encrypt the domain. They first pinged systems across the network via an interactive command shell. After pinging systems, the threat actors opened a batch file that was ultimately used to launch the Conti ransomware.
+On the fifth day, the threat actors moved to their final actions to encrypt the domain. They first pinged systems across the network via an interactive command shell. [Iobit unlocker](https://www.iobit.com/en/iobit-unlocker.php) was also dropped during this phase but we did not see it used. After pinging systems, the threat actors opened a batch file that was ultimately used to launch the Conti ransomware.
 
 
 [![](https://thedfirreport.com/wp-content/uploads/2021/11/f3a3a919075ac160b8b18838ec9cef851eafe21ccb08c306f068ef7b0f6dead3.png)](https://thedfirreport.com/wp-content/uploads/2021/11/f3a3a919075ac160b8b18838ec9cef851eafe21ccb08c306f068ef7b0f6dead3.png)
@@ -769,15 +770,18 @@ IOCs
 
 
 ```
+**BazarLoader**
+64.227.69.92|443 
+161.35.155.92|443 
+161.35.147.110|443 
+64.227.65.60|443
+
+**Loader download**
 millscruelg.com
 45.95.11.133|80
 
-64.227.69.92|443
-161.35.155.92|443
-161.35.147.110|443
-64.227.65.60|443
+**Cobalt Strike**
 volga.azureedge.net
-
 five.azureedge.net
 checkauj.com
 82.117.252.143|443
@@ -860,18 +864,18 @@ ET POLICY HTTP POST to MEGA Userstorage
 
 
 ```
-rclone_execution.yaml (https://gist.github.com/beardofbinary/fede0607e830aa1add8deda3d59d9a77)
-sysmon_in_memory_powershell.yml (https://github.com/SigmaHQ/sigma/blob/master/rules/windows/image\_load/sysmon\_in\_memory\_powershell.yml)
-win_susp_wmic_proc_create_rundll32.yml (https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process\_creation/win\_susp\_wmic\_proc\_create\_rundll32.yml)
-sysmon_abusing_debug_privilege.yml (https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process\_creation/sysmon\_abusing\_debug\_privilege.yml)
-win_trust_discovery.yml (https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process\_creation/win\_trust\_discovery.yml)
-win_office_shell.yml (https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process\_creation/win\_office\_shell.yml)
-win_mshta_spawn_shell.yml (https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process\_creation/win\_mshta\_spawn\_shell.yml)
-win_susp_net_execution.yml (https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process\_creation/win\_susp\_net\_execution.yml)
-win_susp_regsvr32_anomalies.yml (https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process\_creation/win\_susp\_regsvr32\_anomalies.yml)
-sysmon_rundll32_net_connections.yml (https://github.com/SigmaHQ/sigma/blob/master/rules/windows/network\_connection/sysmon\_rundll32\_net\_connections.yml)
-win_net_enum.yml (https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process\_creation/win\_net\_enum.yml)
-win_susp_wmi_execution.yml (https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process\_creation/win\_susp\_wmi\_execution.yml)
+[rclone\_execution.yaml](https://gist.github.com/beardofbinary/fede0607e830aa1add8deda3d59d9a77) 
+[sysmon\_in\_memory\_powershell.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/image_load/sysmon_in_memory_powershell.yml) 
+[win\_susp\_wmic\_proc\_create\_rundll32.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/win_susp_wmic_proc_create_rundll32.yml) 
+[sysmon\_abusing\_debug\_privilege.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/sysmon_abusing_debug_privilege.yml) 
+[win\_trust\_discovery.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/win_trust_discovery.yml)
+[win\_office\_shell.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/win_office_shell.yml)
+[win\_mshta\_spawn\_shell.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/win_mshta_spawn_shell.yml) 
+[win\_susp\_net\_execution.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/win_susp_net_execution.yml)
+[win\_susp\_regsvr32\_anomalies.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/win_susp_regsvr32_anomalies.yml)
+[sysmon\_rundll32\_net\_connections.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/network_connection/sysmon_rundll32_net_connections.yml)
+[win\_net\_enum.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/win_net_enum.yml)
+[win\_susp\_wmi\_execution.yml](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/win_susp_wmi_execution.yml)
 ```
 
 ### Yara
@@ -1061,6 +1065,98 @@ rule mal_host2_locker {
       uint16(0) == 0x7473 and filesize < 8KB and
       $x1
 }
+
+import "pe"
+
+rule o4IRWsH4N1a3hjO9Sy2rPP02oyUddH7zA5xGih0ESmlhiiXD9kpWVCPfOwUnayZp_locker {
+   meta:
+      description = "conti - file o4IRWsH4N1a3hjO9Sy2rPP02oyUddH7zA5xGih0ESmlhiiXD9kpWVCPfOwUnayZp_locker.exe"
+      author = "The DFIR Report"
+      reference = "https://thedfirreport.com"
+      date = "2021-11-29"
+      hash1 = "9cd3c0cff6f3ecb31c7d6bc531395ccfd374bcd257c3c463ac528703ae2b0219"
+   strings:
+      $s1 = "AppPolicyGetProcessTerminationMethod" fullword ascii
+      $s2 = "operator co_await" fullword ascii
+      $s3 = ">*>6>A>_>" fullword ascii /* hex encoded string 'j' */
+      $s4 = "api-ms-win-appmodel-runtime-l1-1-2" fullword wide
+      $s5 = "Bapi-ms-win-core-fibers-l1-1-1" fullword wide
+      $s6 = "SVWjEhQ" fullword ascii
+      $s7 = ";F;[;l;" fullword ascii /* Goodware String - occured 1 times */
+      $s8 = "74787@7H7P7T7\\7p7" fullword ascii /* Goodware String - occured 1 times */
+      $s9 = "6#606B6" fullword ascii /* Goodware String - occured 1 times */
+      $s10 = "<!=X=u=" fullword ascii /* Goodware String - occured 1 times */
+      $s11 = "expand 32-byte k" fullword ascii /* Goodware String - occured 1 times */
+      $s12 = "6!7?7J7" fullword ascii /* Goodware String - occured 2 times */
+      $s13 = "delete" fullword ascii /* Goodware String - occured 2789 times */
+      $s14 = "4!4(4/464=4D4K4R4Z4b4j4v4" fullword ascii /* Goodware String - occured 3 times */
+      $s15 = ".CRT$XIAC" fullword ascii /* Goodware String - occured 3 times */
+      $s16 = "0#0)01060\\0a0" fullword ascii
+      $s17 = ";\";/;=;K;V;l;" fullword ascii
+      $s18 = "6,606P6X6\\6x6" fullword ascii
+      $s19 = "6(6,6@6D6H6L6P6T6X6\\6`6d6p6t6x6|6" fullword ascii
+      $s20 = "8 :M:}:" fullword ascii
+   condition:
+      uint16(0) == 0x5a4d and filesize < 600KB and
+      ( pe.imphash() == "50472e0ba953856d228c7483b149ea72" or all of them )
+}
+
+rule o4IRWsH4N1a3hjO9Sy2rPP02oyUddH7zA5xGih0ESmlhiiXD9kpWVCPfOwUnayZp_locker_x86 {
+   meta:
+      description = "conti - file o4IRWsH4N1a3hjO9Sy2rPP02oyUddH7zA5xGih0ESmlhiiXD9kpWVCPfOwUnayZp_locker_x86.dll"
+      author = "The DFIR Report"
+      reference = "https://thedfirreport.com"
+      date = "2021-11-29"
+      hash1 = "01a9549c015cfcbff4a830cea7df6386dc5474fd433f15a6944b834551a2b4c9"
+   strings:
+      $s1 = "conti_v3.dll" fullword ascii
+      $s2 = "AppPolicyGetProcessTerminationMethod" fullword ascii
+      $s3 = "6 7/787E7[7" fullword ascii /* hex encoded string 'gx~w' */
+      $s4 = "operator co_await" fullword ascii
+      $s5 = "2%3.3f3~3" fullword ascii /* hex encoded string '#?3' */
+      $s6 = "1\"1&1,:4:<:D:L:T:\\:d:l:t:|:" fullword ascii $s7 = "api-ms-win-appmodel-runtime-l1-1-2" fullword wide $s8 = "SVWjEhQ" fullword ascii $s9 = "__swift_2" fullword ascii $s10 = "__swift_1" fullword ascii $s11 = "api-ms-win-core-file-l1-2-2" fullword wide /* Goodware String - occured 1 times */ $s12 = "7K7P7T7X7\\7" fullword ascii /* Goodware String - occured 1 times */ $s13 = "7h7o7v7}7" fullword ascii /* Goodware String - occured 1 times */ $s14 = "O0a0s0" fullword ascii /* Goodware String - occured 1 times */ $s15 = ";?;I;S;" fullword ascii /* Goodware String - occured 1 times */ $s16 = "8>8C8Q8V8" fullword ascii /* Goodware String - occured 1 times */
+      $s17 = "QQSVj8j@" fullword ascii
+      $s18 = "5-5X5s5" fullword ascii /* Goodware String - occured 1 times */
+      $s19 = "expand 32-byte k" fullword ascii /* Goodware String - occured 1 times */
+      $s20 = "delete" fullword ascii /* Goodware String - occured 2789 times */
+   condition:
+      uint16(0) == 0x5a4d and filesize < 600KB and
+      ( pe.imphash() == "749dc5143e9fc01aa1d221fb9a48d5ea" or all of them )
+}
+
+rule o4IRWsH4N1a3hjO9Sy2rPP02oyUddH7zA5xGih0ESmlhiiXD9kpWVCPfOwUnayZp_locker_x64 {
+   meta:
+      description = "conti - file o4IRWsH4N1a3hjO9Sy2rPP02oyUddH7zA5xGih0ESmlhiiXD9kpWVCPfOwUnayZp_locker_x64.dll"
+      author = "The DFIR Report"
+      reference = "https://thedfirreport.com"
+      date = "2021-11-29"
+      hash1 = "31656dcea4da01879e80dff59a1af60ca09c951fe5fc7e291be611c4eadd932a"
+   strings:
+      $s1 = "conti_v3.dll" fullword ascii
+      $s2 = "AppPolicyGetProcessTerminationMethod" fullword ascii
+      $s3 = "operator co_await" fullword ascii
+      $s4 = "api-ms-win-appmodel-runtime-l1-1-2" fullword wide
+      $s5 = "api-ms-win-core-file-l1-2-2" fullword wide /* Goodware String - occured 1 times */
+      $s6 = "__swift_2" fullword ascii
+      $s7 = "__swift_1" fullword ascii
+      $s8 = "expand 32-byte k" fullword ascii /* Goodware String - occured 1 times */
+      $s9 = "u3HcH<H" fullword ascii /* Goodware String - occured 2 times */
+      $s10 = "D$XD9x" fullword ascii /* Goodware String - occured 2 times */
+      $s11 = "delete" fullword ascii /* Goodware String - occured 2789 times */
+      $s12 = "ue!T$(H!T$ " fullword ascii
+      $s13 = "L$&8\\$&t,8Y" fullword ascii
+      $s14 = "F 2-by" fullword ascii
+      $s15 = "u\"8Z(t" fullword ascii
+      $s16 = "L$ |+L;" fullword ascii
+      $s17 = "vB8_(t" fullword ascii
+      $s18 = "ext-ms-" fullword wide
+      $s19 = "OOxq*H" fullword ascii
+      $s20 = "H97u+A" fullword ascii
+   condition:
+      uint16(0) == 0x5a4d and filesize < 600KB and
+      ( pe.imphash() == "137fa89046164fe07e0dd776ed7a0191" or all of them )
+}
+
 ```
 
 ### MITRE
@@ -1109,13 +1205,11 @@ AdFind - S0552
 ### Reference
 
 
-* Detecting Rclone – An Effective Tool for Exfiltration, NCC Group – https://research.nccgroup.com/2021/05/27/detecting-rclone-an-effective-tool-for-exfiltration/
-* Rundll32, Red Canary – https://redcanary.com/threat-detection-report/techniques/rundll32/
-* TA551 (Shathak) continues pushing BazarLoader, infections lead to Cobalt Strike, SANS ISC – https://isc.sans.edu/forums/diary/TA551+Shathak+continues+pushing+BazarLoader+infections+lead+to+Cobalt+Strike/27738/
-* AnyDesk – https://www.anydesk.com
-* AdFind, TheDFIRReport – https://thedfirreport.com/2020/05/08/adfind-recon/
-* Invoke-ShareFinder, GitHub [Veil PowerView] – https://github.com/darkoperator/Veil-PowerView/blob/master/PowerView/functions/Invoke-ShareFinder.ps1
-* taskmgr.exe slashing numbers, Hexicorn – https://www.hexacorn.com/blog/2018/07/22/taskmgr-exe-slashing-numbers/
+* Detecting Rclone – An Effective Tool for Exfiltration, NCC Group – <https://research.nccgroup.com/2021/05/27/detecting-rclone-an-effective-tool-for-exfiltration/>
+* Rundll32, Red Canary – <https://redcanary.com/threat-detection-report/techniques/rundll32/>
+* TA551 (Shathak) continues pushing BazarLoader, infections lead to Cobalt Strike, SANS ISC – <https://isc.sans.edu/forums/diary/TA551+Shathak+continues+pushing+BazarLoader+infections+lead+to+Cobalt+Strike/27738/>
+* Invoke-ShareFinder, GitHub [Veil PowerView] – <https://github.com/darkoperator/Veil-PowerView/blob/master/PowerView/functions/Invoke-ShareFinder.ps1>
+* taskmgr.exe slashing numbers, Hexicorn – <https://www.hexacorn.com/blog/2018/07/22/taskmgr-exe-slashing-numbers/>
 
 
 Internal case #5794
@@ -1125,5 +1219,28 @@ Internal case #5794
 
 
 
-#### Tags:
-[[Conti]] [[UTC]] [[Org:]] [[DLL]] [[GG]] [[Rclone]] [[AnyDesk]] [[meta:]] [["mal]] [["TheDFIRReport"]] [[The DFIR Report]]
+## Tags:
+
+#### Threatactor:
+[[threatactor.name=RTM]] [[threatactor.name=TA551]] [[threatactor.name=TA551]]
+
+#### Action:
+[[action.malware.name=AdFind]] [[action.malware.name=Arp]] [[action.malware.name=at]] [[action.malware.name=at]] [[action.malware.name=Bazar]] [[action.malware.name=cmd]] [[action.malware.name=cmd]] [[action.malware.name=Cobalt Strike]] [[action.malware.name=Conti]] [[action.malware.name=Emotet]] [[action.malware.name=Empire]] [[action.malware.name=Expand]] [[action.malware.name=Net]] [[action.malware.name=Net]] [[action.malware.name=njRAT]] [[action.malware.name=Nltest]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=PoshC2]] [[action.malware.name=PS1]] [[action.malware.name=PS1]] [[action.malware.name=Reg]] [[action.malware.name=Reg]] [[action.malware.name=RTM]] [[action.malware.name=S-Type]] [[action.malware.name=Tasklist]] [[action.malware.name=Tor]] [[action.malware.name=WannaCry]]
+
+#### Industry:
+[[victim.industry.name=Accomodation]]
+
+#### Location:
+[[victim.country.name=Chad]] [[victim.continent.name=Africa]] [[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Conti]] [[Dll]] [[Utc]] [[Gg]] [[Bazarloader]] [[Ransomware]] [[D8b3.dll]] [[Rdp]] [[Rclone]] [[C2]] [[The DFIR Report]]
+#### ipv4-adresses
+82.117.252.143 64.227.65.60 161.35.147.110 161.35.155.92 64.227.69.92 45.95.11.133 6.0.0.0 6.3.2.0
+#### ipv6-adresses
+7f:d6:df:4d:5e:c4:d9:71d9: c0:46:8d:47:e5:81:75:5775: 21:ff:9f:e0:8a:dd:c3:edc3: 36:90:a0:e1:11:70:fe:c4fe: 42:7d:a4:48:5b:6b:2b:922b: 2c:07:9d:cc:59:14:2e:de2e: 97:33:eb:80:85:ae:f0:0ef0: 40:94:ac:d5:38:96:6a:e56a: 68:c5:fc:c0:4a:34:e4:8fe4: 01:86:59:c1:da:40:78:0078:
+#### urls
+https://t.co/fP7WiT4KHL https://161.35.147.110/out/run/text/plain https://tria.ge/210803-w15fxk72ns https://capesandbox.com/analysis/175977/ www.checkauj.com http://ocsp.digicert.com0N http://www.digicert.com/CPS0 Bhttp://cacerts.digicert.com/DigiCertSHA2AssuredIDCodeSigningCA.crt0 http://crl3.digicert.com/sha2-assured-cs-g1.crl05 http://crl4.digicert.com/sha2-assured-cs-g1.crl0L http://www.jrsoftware.org/ishelp/index.php?topic=setupcmdline http://schemas.microsoft.com/SMI/2005/WindowsSettings\ https://thedfirreport.com https://research.nccgroup.com/2021/05/27/detecting-rclone-an-effective-tool-for-exfiltration/ https://redcanary.com/threat-detection-report/techniques/rundll32/ https://isc.sans.edu/forums/diary/TA551+Shathak+continues+pushing+BazarLoader+infections+lead+to+Cobalt+Strike/27738/ https://github.com/darkoperator/Veil-PowerView/blob/master/PowerView/functions/Invoke-ShareFinder.ps1 https://www.hexacorn.com/blog/2018/07/22/taskmgr-exe-slashing-numbers/
+#### MITRE IDs
+[[T1218.010]] [[T1218.005]] [[T1218.011]] [[T1567.002]] [[T1059.005]] [[T1059.007]] [[T1059.001]] [[T1021.002]] [[T1021.001]] [[T1566.001]] [[T1087.002]] [[T1087.001]] [[T1590.005]]
+

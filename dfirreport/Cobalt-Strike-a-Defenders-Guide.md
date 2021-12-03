@@ -1,14 +1,15 @@
-# Cobalt Strike, a Defender’s Guide
-### 
+# Cobalt Strike, a Defender's Guide
+### As you have noticed from our reporting so far, Cobalt Strike is used as a post-exploitation tool with various malware droppers responsible for the initial infection stage. Some of the most common droppers we see are IcedID (a.k.a. BokBot), ZLoader, Qbot (a.k.a. QakBot), Ursnif, Hancitor, Bazar and TrickBot.
 
 ## Information:
 + Source: The DFIR Report
-+ Link: [article](https://thedfirreport.com/2021/08/29/cobalt-strike-a-defenders-guide/)
-+ Date: August 29, 2021
-+ Author: Unknown
++ Link: https://thedfirreport.com/2021/08/29/cobalt-strike-a-defenders-guide/
++ Date: 2021-08-29T23:36:36+00:00
++ Author: editor
 
 
 ## Article:
+![Article Image](https://thedfirreport.com/wp-content/uploads/2021/08/1-10.png)
 
 Intro
 -----
@@ -35,66 +36,26 @@ Cobalt Strike has many features, and it is under constant development by a team 
 
 | **Capabilities** | **Documented features/commands** |
 | Upload and Download payloads and files | Download <file>
-
-
-Upload <file>
-
- |
+Upload <file> |
 | Running Commands | shell <command>
-
-
 run <command>
-
-
-powershell <command>
-
- |
+powershell <command> |
 | Process Injection | inject <pid>
-
-
 dllinject <pid> *(for reflective dll injection)*
-
-
 dllload <pid> (*for loading an on-disk DLL to memory)*
-
-
-spawnto <arch> <full-exe-path> (*for process hollowing)*
-
- |
+spawnto <arch> <full-exe-path> (*for process hollowing)* |
 | SOCKS Proxy | socks <port number> |
 | Privilege Escalation | getsystem *(SYSTEM account impersonation using named pipes)*
-
-
-elevate svc-exe [listener] *(creates a services that runs a payload as SYSTEM)*
-
- |
+elevate svc-exe [listener] *(creates a services that runs a payload as SYSTEM)* |
 | Credential and Hash Harvesting | hashdump
-
-
 logonpasswords *(Using Mimikatz)*
-
-
-chromedump *(Recover Google Chrome passwords from current user)*
-
- |
+chromedump *(Recover Google Chrome passwords from current user)* |
 | Network Enumeration | portscan [targets] [ports] [discovery method]
-
-
-net <commands> *(commands to find targets on the domain)*
-
- |
+net <commands> *(commands to find targets on the domain)* |
 | Lateral Movement | jump psexec *(Run service EXE on remote host)*
-
-
 jump psexec\_psh *(Run a PowerShell one-liner on remote host via a service)*
-
-
 jump winrm *(Run a PowerShell script via WinRM on remote host)*
-
-
-*remote-exec <any of the above> (Run a single command using the above methods on remote host)*
-
- |
+*remote-exec <any of the above> (Run a single command using the above methods on remote host)* |
 
 
 
@@ -337,7 +298,7 @@ IcedID reached out to two Cobalt Strike servers to download and execute the beac
 ### Defense Evasion
 
 
-In every intrusion, we see [process injection](https://thedfirreport.com/?s=process+injection) taking place across the environment. It is mainly used to inject malicious code into a remote process and inject it into lsass.exe to extract credentials from memory. By injecting the malicious payload into a remote process, the threat actors are spawning a new session in the user context that the injected process belongs to. There are many ways in which process injection can be used. You can check out a helpful post by [Boschko](https://hideandsec.sh/books/red-teaming-tactics/page/cobalt-strike-process-injection) that goes through all the various methods that Cobalt Strike uses.   
+In every intrusion, we see [process injection](https://thedfirreport.com/?s=process+injection) taking place across the environment. It is mainly used to inject malicious code into a remote process and inject it into lsass.exe to extract credentials from memory. By injecting the malicious payload into a remote process, the threat actors are spawning a new session in the user context that the injected process belongs to. There are many ways in which process injection can be used. You can check out a helpful post by [Boschko](https://boschko.ca/cobalt-strike-process-injection/) that goes through all the various methods that Cobalt Strike uses.   
 Detect the Cobalt Strike default process injection with Sysmon by looking for the below EIDs in consecutive order:
 
 
@@ -540,8 +501,6 @@ You can read more about detecting Pass The Hash [here](https://stealthbits.com/b
 * **SMB remote service execution**
 
 
-
-
 In the below example, the threat actors executed the “jump psexec” command to create a remote service on the remote machine (DC) and execute the service exe beacon. Cobalt Strike specifies an executable to create the remote service. Before it can do that, it will have to transfer the service executable to the target host.  The name of the service executable is created with seven random alphanumeric -characters, e.g. “<7-alphanumeric-characters>.exe”. This was changed after version 4.1 of Cobalt Strike ([Getting the Bacon from the Beacon](https://www.crowdstrike.com/blog/getting-the-bacon-from-cobalt-strike-beacon/)).
  
 The attacker must have administrative privileges to complete this task.
@@ -619,6 +578,9 @@ Useful Open Source Information
 ------------------------------
 
 
+[Defining Cobalt Strike Components So You Can BEA-CONfident in Your Analysis](https://www.mandiant.com/resources/defining-cobalt-strike-components)
+
+
 [Volatility plugin for detecting Cobalt Strike Beacon and extracting its config](https://github.com/JPCERTCC/aa-tools/blob/master/cobaltstrikescan.py)
 
 
@@ -660,6 +622,12 @@ Sigma Rules
 
 
 [Process Injection](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/create_remote_thread/sysmon_cobaltstrike_process_injection.yml)
+
+
+[Process Creation Cobalt Strike load by rundll32](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/process_creation_cobaltstrike_load_by_rundll32.yml)
+
+
+[Sysmon Cobalt Strike Service Installs](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/registry_event/sysmon_cobaltstrike_service_installs.yml)
 
 
 Suricata
@@ -830,7 +798,7 @@ $s2 = "StartW" fullword ascii
 $s4 = ".rdata$zzzdbg" fullword ascii  
 condition:  
 uint16(0) == 0x5a4d and filesize < 70KB and ( pe.imphash() == "42205b145650671fa4469a6321ccf8bf" )  
-or (any of them)  
+or (all of them)  
 }  
   
 rule conti\_cobaltstrike\_192145\_icju1\_0 {  
@@ -1011,5 +979,28 @@ condition:
 
 
 
-#### Tags:
-[[C2]] [[DNS]] [[CnC]] [[SSL]] [[Goodware]] [[occured]] [[Profile)ET]] [[filesize]] [[PowerShell]] [[CobaltStrike]] [[The DFIR Report]]
+## Tags:
+
+#### Threatactor:
+[[threatactor.name=APT29]] [[threatactor.name=CopyKittens]] [[threatactor.name=RTM]] [[threatactor.name=Wizard Spider]]
+
+#### Action:
+[[action.malware.name=AdFind]] [[action.malware.name=Anchor]] [[action.malware.name=at]] [[action.malware.name=at]] [[action.malware.name=Backdoor.Oldrea]] [[action.malware.name=Bazar]] [[action.malware.name=BloodHound]] [[action.malware.name=CHOPSTICK]] [[action.malware.name=cmd]] [[action.malware.name=cmd]] [[action.malware.name=Cobalt Strike]] [[action.malware.name=Conti]] [[action.malware.name=Elise]] [[action.malware.name=Emotet]] [[action.malware.name=Hancitor]] [[action.malware.name=IcedID]] [[action.malware.name=LaZagne]] [[action.malware.name=Mimikatz]] [[action.malware.name=Net]] [[action.malware.name=Net]] [[action.malware.name=Nltest]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=PowerSploit]] [[action.malware.name=PsExec]] [[action.malware.name=QakBot]] [[action.malware.name=QakBot]] [[action.malware.name=Raindrop]] [[action.malware.name=RDAT]] [[action.malware.name=RDAT]] [[action.malware.name=Reg]] [[action.malware.name=REvil]] [[action.malware.name=REvil]] [[action.malware.name=REvil]] [[action.malware.name=RTM]] [[action.malware.name=Ryuk]] [[action.malware.name=S-Type]] [[action.malware.name=SUNBURST]] [[action.malware.name=SUNBURST]] [[action.malware.name=TEARDROP]] [[action.malware.name=Tor]] [[action.malware.name=TrickBot]] [[action.malware.name=Ursnif]]
+
+#### Industry:
+[[victim.industry.name=Accomodation]]
+
+#### Location:
+[[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.city.name=Rome]] [[victim.country.name=Italy]] [[victim.continent.name=Europe]] [[victim.city.name=Riga]] [[victim.country.name=Latvia]] [[victim.continent.name=Europe]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[C2]] [[Powershell]] [[Dns]] [[Sysmon]] [[Http]] [[Windows]] [[Post-exploitation]] [[Trickbot]] [[(run]] [[Beacontype]] [[The DFIR Report]]
+#### ipv4-adresses
+195.123.217.45
+#### ipv6-adresses
+79:97:9a:e4:cb:ae:ae:32ae: d6:4a:e5:0e:f6:73:d0:69d0:
+#### email-adresses
+yara@s3c.za.net ealagi@aol.com0 alerajner@aol.com0 tek@randhome.io
+#### urls
+https://github.com/bluscreenofjeff/Malleable-C2-Randomizer https://github.com/FortyNorthSecurity/C2concealer https://github.com/harleyQu1nn/AggressorScripts https://github.com/timwhitez/Cobalt-Strike-Aggressor-Scripts https://github.com/Und3rf10w/Aggressor-scripts https://thedfirreport.com/2021/08/01/bazarcall-to-conti-ransomware-via-trickbot-and-cobalt-strike/ https://thedfirreport.com https://sectigo.com/CPS0 http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl0v http://ocsp.sectigo.com0 http://www.digicert.com/CPS0
+

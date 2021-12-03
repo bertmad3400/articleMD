@@ -1,19 +1,20 @@
 # BazarCall to Conti Ransomware via Trickbot and Cobalt Strike
-### 
+### This report will go through an intrusion that went from an Excel file to domain wide ransomware. The threat actors used BazarCall to install Trickbot in the environment which downloaded an executed a Cobalt Strike Beacon. A couple days later, the threat actors came back and executed Conti ransomware across the domain.
 
 ## Information:
 + Source: The DFIR Report
-+ Link: [article](https://thedfirreport.com/2021/08/01/bazarcall-to-conti-ransomware-via-trickbot-and-cobalt-strike/)
-+ Date: August 1, 2021
-+ Author: Unknown
++ Link: https://thedfirreport.com/2021/08/01/bazarcall-to-conti-ransomware-via-trickbot-and-cobalt-strike/
++ Date: 2021-08-01T22:47:29+00:00
++ Author: editor
 
 
 ## Article:
+![Article Image](https://thedfirreport.com/wp-content/uploads/2021/07/image-43.png)
 
 ### Intro
 
 
-This report will go through an intrusion that went from an Excel file to domain wide ransomware. The threat actors used BazarCall to install Trickbot in the environment which downloaded an executed a Cobalt Strike Beacon. From there the threat actor discovered the internal network before moving laterally to a domain controller for additional discovery. A couple days later, the threat actors came back and executed Conti ransomware across the domain.
+This report will go through an intrusion that went from an Excel file to domain wide ransomware. The threat actors used BazarCall to install Trickbot in the environment which downloaded and executed a Cobalt Strike Beacon. From there the threat actor discovered the internal network before moving laterally to a domain controller for additional discovery. A couple days later, the threat actors came back and executed Conti ransomware across the domain.
 
 
 Unfamiliar with BazaCall/BazarCall? Read more [here](https://www.microsoft.com/security/blog/2021/07/29/bazacall-phony-call-centers-lead-to-exfiltration-and-ransomware/) from [@MsftSecIntel](https://twitter.com/MsftSecIntel), [@dreadphones](https://twitter.com/dreadphones), & [@JCearbhall](https://twitter.com/JCearbhall) and [here](https://unit42.paloaltonetworks.com/bazarloader-malware/) from [@Unit42\_Intel](https://twitter.com/Unit42_Intel) & [@malware\_traffic](https://twitter.com/malware_traffic).
@@ -26,21 +27,21 @@ Unfamiliar with BazaCall/BazarCall? Read more [here](https://www.microsoft.com/s
 
 
 
-In this intrusion, we observed a number of interesting techniques being leveraged by the threat actors. The threat actors were able to go from initial access to the deployment of Conti ransomware in a matter of hours. The Conti operators chose to wait a couple days before activating the data encryptors. Even though most of the techniques aren’t new or advanced, they have proven to be effective. We have observed the same techniques in other intrusion and understanding these techniques will allow defenders to disrupt such intrusion activity and deny it in their own networks. 
+In this intrusion, we observed a number of interesting techniques being leveraged by the threat actors. The threat actors were able to go from initial access to the deployment of Conti ransomware in a matter of hours. The Conti operators chose to wait a couple days before ransoming the environment. Even though most of the techniques aren’t new or advanced, they have proven to be effective. We have observed the same techniques in other intrusions and understanding these techniques will allow defenders to disrupt such intrusion activity and deny it in their own networks. 
 
 
 
 
 
 
-The Trickbot payload came from a [phishing campaign](https://twitter.com/ffforward/status/1403086116463562753) associated with BazarCall, delivering weaponized XLSB documents. Upon execution, the macros moved certutil.exe under %programdata% and renamed it with random alphanumeric characters. Certutil was used to download and load the Trickbot DLL in memory. Trickbot was automatically tasked to inject into the wermgr.exe process and use its well-known “pwgrab” module to steal browser credentials. As part of further automated tasking, Trickbot performed an initial reconnaissance of the environment using native Windows tools such as nltest.exe and net.exe. 
+The Trickbot payload came from a [phishing campaign](https://twitter.com/ffforward/status/1403086116463562753) associated with BazarCall, delivering weaponized XLSB files. Upon execution, certutil.exe was copied to %programdata% and renamed with random alphanumeric characters. Certutil was used to download and load the Trickbot DLL into memory. Trickbot was automatically tasked to inject into the wermgr.exe process and use its well-known “pwgrab” module to steal browser credentials. As part of further automated tasking, Trickbot performed an initial reconnaissance of the environment using native Windows tools such as nltest.exe and net.exe. 
 
 
 
 
 
 
-First hands-on activity was observed two hours after initial compromise, when Trickbot downloaded and executed Cobalt Strike Beacons. To guarantee execution on the beachhead host, multiple different payloads were used. One of the Cobalt Strike Beacons was the same payload and command and control infrastructure as used in a [prior case](https://thedfirreport.com/2021/07/19/icedid-and-cobalt-strike-vs-antivirus/). The initial access method for that case was IcedID, which shows that the threat actors utilize various initial access methods to get into environments and accomplish their goals.
+First hands-on activity was observed two hours after initial compromise, when Trickbot downloaded and executed Cobalt Strike Beacons. To guarantee execution on the beachhead host, multiple payloads were used. One of the Cobalt Strike Beacons was the same payload and command and control infrastructure as used in a [prior case](https://thedfirreport.com/2021/07/19/icedid-and-cobalt-strike-vs-antivirus/). The initial access method for that case was IcedID, which shows that the threat actors utilize various initial access methods to get into environments and accomplish their goals.
 
 
 Once access through Cobalt Strike was established, the threat actors immediately proceeded with domain enumeration via Nltest, AdFind, BloodHound, and PowerSploit. Presence was then expanded on the beachhead by using a PowerShell loader to execute additional Beacons.
@@ -56,7 +57,7 @@ Fifteen minutes after domain enumeration, we observed successful lateral movemen
 
 
 
-Almost four hours after initial execution, the threat actors pivoted to a domain controller using domain admin credentials and executed a Cobalt Strike Beacon. Once they had domain controller access, “[ntdsutil](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc753343(v=ws.11))” was used to take a snapshot of “ntds.dit”, saved under “C:\Perflogs\1”, for offline password hash extraction. This is a technique that we don’t see very often, but effective nevertheless. 
+Almost four hours after initial execution, the threat actors pivoted to a domain controller using domain admin credentials and executed a Cobalt Strike Beacon. Once they had domain controller access, [ntdsutil](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc753343(v=ws.11)) was used to take a snapshot of “ntds.dit”, saved under “C:\Perflogs\1”, for offline password hash extraction. This is a technique that we don’t see very often, but effective nevertheless. 
 
 
 The threat actors then reran many of the same discovery techniques that were previously executed on the beachhead, including AdFind and BloodHound. This was the last observed hands-on-keyboard activity for awhile. 
@@ -89,7 +90,7 @@ We also have artifacts available from this case such as pcaps, memory captures, 
 
 
 
-![](https://thedfirreport.com/wp-content/uploads/2021/08/BazarCall-to-Conti-Ransomware-via-Trickbot-and-Cobalt-Strike.png)
+![](https://thedfirreport.com/wp-content/uploads/2021/08/BazarCall-to-Conti-Ransomware-via-Trickbot-and-Cobalt-Strike-2.png)
 
 
 Analysis and reporting completed by [@\_pete\_0](https://twitter.com/_pete_0) and [@kostastsale](https://twitter.com/Kostastsale).
@@ -105,6 +106,9 @@ The initial access was achieved as a result of the user opening what appeared to
 
 
 ![](https://thedfirreport.com/wp-content/uploads/2021/07/image-43.png)
+ 
+
+
 The workbook contained hidden and password protected worksheets, these were malicious. Module functions also indicated code designed to obfuscate and hide true values and functions. 
 
 
@@ -124,7 +128,7 @@ This document and the following DLL were noted as being associated to a BazarCal
 ### Execution
 
 
-From the [xlsb](https://tria.ge/210610-xr9avxf7f6/behavioral2) document, the the following execution chain occurs. Including copying the Windows CertUtil program and using that to collect further Trickbot payloads.
+From the [xlsb](https://tria.ge/210610-xr9avxf7f6/behavioral2) document, the following execution chain occurs. Including copying the Windows CertUtil program and using that to collect further Trickbot payloads.
 
 
 [![](https://thedfirreport.com/wp-content/uploads/2021/07/4641-02.png)](https://thedfirreport.com/wp-content/uploads/2021/07/4641-02.png)
@@ -141,9 +145,6 @@ Almost immediately an outbound IPv4 address lookup was requested via HTTP. This 
 
 
 ![](https://thedfirreport.com/wp-content/uploads/2021/07/image-26.png)
- 
-
-
 On the beachhead, multiple executables were saved in a temp directory and then pushed into memory by TrickBot process “wermgr.exe”. The executables were identified as Cobalt Strike and communicated over port 443 to C2 88.80.147[.]101. 
 
 
@@ -152,9 +153,6 @@ A PowerShell download cradle was then used to execute Cobalt Strike Beacon in me
 
 
 ![](https://thedfirreport.com/wp-content/uploads/2021/07/image-38-1024x26.png)
- 
-
-
 ### Privilege Escalation
 
 
@@ -168,9 +166,6 @@ We observed several attempts by the threat actor trying to escalate to SYSTEM �
 
 
 ![](https://thedfirreport.com/wp-content/uploads/2021/08/11.png)
- 
-
-
 Service creation events System Event ID 7045, coupled with unusual commands and service names are a strong indication of privilege escalation activity. RedCanary provided useful background on GetSystem capabilities of offensive security tools and [methods of detection](https://redcanary.com/blog/getsystem-offsec/).
 
 
@@ -185,19 +180,23 @@ Another defense evasion technique employed by Cobalt Strike, was to disable Wind
 
 
 ```
-shell Set-MpPreference -DisableRealtimeMonitoring $true 
+Set-MpPreference -DisableRealtimeMonitoring $true 
 ```
 
 ### Credential Access
 
 
+Trickbot made use of esentutl to gather MSEdge history, webcache, and saved passwords using TrickBot’s “pwgrab” module.
+
+
+### 
+
+
+![](https://thedfirreport.com/wp-content/uploads/2021/07/image-36.png)
 LSASS was dumped remotely using ProcDump. The execution took place from the beachhead using WMIC.  
 
 
 ![](https://thedfirreport.com/wp-content/uploads/2021/07/image-39.png)
- 
-
-
 “Ntdsutil” was used to take a snapshot of ntds.dit and save it under “C:\Perflogs\1”. This technique is useful for offline password hash extraction. This activity occurred twice. The same batch file, ‘12.bat’, was first executed in the context of SYSTEM; and secondly, in the context of a domain admin user. The contents of ‘12.bat’: 
 
 
@@ -207,13 +206,6 @@ ntdsutil "ac in ntds" "ifm" "cr fu C:\Perflogs\1" q q 
 ```
 
 ### Discovery
-
-
-Trickbot made use of esentutl to gather MSEdge history and webcache using TrickBot’s “pwgrab” module.
-
-
-![](https://thedfirreport.com/wp-content/uploads/2021/07/image-36.png)
- 
 
 
 Net and Nltest commands were used to gather network and domain reconnaissance. During the intrusion, this activity was seen multiple times, on multiple hosts. 
@@ -294,7 +286,9 @@ An encoded PowerShell command was executed on the domain controller to enumerate
 ```
 
 
-[![](https://thedfirreport.com/wp-content/uploads/2021/07/13-PS-script_encoded.png)](https://thedfirreport.com/wp-content/uploads/2021/07/13-PS-script_encoded.png)  
+[![](https://thedfirreport.com/wp-content/uploads/2021/07/13-PS-script_encoded.png)](https://thedfirreport.com/wp-content/uploads/2021/07/13-PS-script_encoded.png)
+
+
 The decoded PowerShell command: 
 
 
@@ -309,9 +303,6 @@ From the beachhead, WMIC was used to remotely execute ‘165.bat’ on two other
 
 
 ![](https://thedfirreport.com/wp-content/uploads/2021/07/image-42.png)
- 
-
-
 Multiple failed attempts were observed prior to the successful execution of a PowerShell Cobalt Strike loader via a service with “SYSTEM” privileges.
 
 
@@ -339,30 +330,18 @@ We observed a payload being retrieved from a unique IPv4 address. An indication 
 
 
 ![](https://thedfirreport.com/wp-content/uploads/2021/07/image-28.png)
- 
-
-
 Using the Curl 7.74.0 user agent: 
 
 
 ![](https://thedfirreport.com/wp-content/uploads/2021/07/image-29.png)
- 
-
-
 Analysis of this binary, shows C2 activity to the following: 
 
 
-![](https://thedfirreport.com/wp-content/uploads/2021/07/image-37.png)
- 
-
-
+![](https://thedfirreport.com/wp-content/uploads/2021/08/55.png)
 The binary has an unusual PDB string that indicates obfuscation: 
 
 
 ![](https://thedfirreport.com/wp-content/uploads/2021/07/image-33.png)
- 
-
-
 The two persistent C2 channels were analyzed to determine the Cobalt Strike configuration. Each C2 channel was configured as follows: 
 
 
@@ -484,9 +463,6 @@ Entire AD forest data – including usernames , DC configuration, and machine en
 
 
 ![](https://thedfirreport.com/wp-content/uploads/2021/08/1.png)
- 
-
-
 ### Impact
 
 
@@ -522,13 +498,13 @@ Files were then encrypted with the following extension [KCRAO]: 
 
 
 ![](https://thedfirreport.com/wp-content/uploads/2021/07/image-34.png)
+ 
+
+
 A readme.txt file was created in each folder: 
 
 
 ![](https://thedfirreport.com/wp-content/uploads/2021/07/image-41.png)
- 
-
-
 The content of readme.txt: 
 
 
@@ -718,7 +694,7 @@ Windows PowerShell Web Request – <https://github.com/SigmaHQ/sigma/blob/08ca62
 /*  
 YARA Rule Set  
 Author: The DFIR Report  
-Date: 2021-07-26  
+Date: 2021-08-02  
 Identifier: 4641  
 Reference: https://thedfirreport.com  
 */  
@@ -732,7 +708,7 @@ meta:
 description = "4641 - file fQumH.exe"  
 author = "The DFIR Report"  
 reference = "https://thedfirreport.com"  
-date = "2021-07-26"  
+date = "2021-08-02"  
 hash1 = "3420a0f6f0f0cc06b537dc1395638be0bffa89d55d47ef716408309e65027f31"  
 strings:  
 $s1 = "Usage: .system COMMAND" fullword ascii  
@@ -765,7 +741,7 @@ meta:
 description = "4641 - file 62.dll"  
 author = "The DFIR Report"  
 reference = "https://thedfirreport.com"  
-date = "2021-07-26"  
+date = "2021-08-02"  
 hash1 = "8b9d605b826258e07e63687d1cefb078008e1a9c48c34bc131d7781b142c84ab"  
 strings:  
 $s1 = "Common causes completion include incomplete download and damaged media" fullword ascii  
@@ -798,7 +774,7 @@ meta:
 description = "4641 - file tdrE934.exe"  
 author = "The DFIR Report"  
 reference = "https://thedfirreport.com"  
-date = "2021-07-26"  
+date = "2021-08-02"  
 hash1 = "48f2e2a428ec58147a4ad7cc0f06b3cf7d2587ccd47bad2ea1382a8b9c20731c"  
 strings:  
 $s1 = "AppPolicyGetProcessTerminationMethod" fullword ascii  
@@ -831,7 +807,7 @@ meta:
 description = "4641 - file netscan.exe"  
 author = "The DFIR Report"  
 reference = "https://thedfirreport.com"  
-date = "2021-07-26"  
+date = "2021-08-02"  
 hash1 = "bb574434925e26514b0daf56b45163e4c32b5fc52a1484854b315f40fd8ff8d2"  
 strings:  
 $s1 = "netscan.exe" fullword ascii  
@@ -864,7 +840,7 @@ meta:
 description = "4641 - file tdr615.exe"  
 author = "The DFIR Report"  
 reference = "https://thedfirreport.com"  
-date = "2021-07-26"  
+date = "2021-08-02"  
 hash1 = "12761d7a186ff14dc55dd4f59c4e3582423928f74d8741e7ec9f761f44f369e5"  
 strings:  
 $s1 = "AppPolicyGetProcessTerminationMethod" fullword ascii  
@@ -890,7 +866,47 @@ $s20 = "WindowsProject1" fullword wide
 condition:  
 uint16(0) == 0x5a4d and filesize < 10000KB and  
 ( pe.imphash() == "555560b7871e0ba802f2f6fbf05d9bfa" or 8 of them )  
-}
+}  
+  
+rule CS\_DLL {   
+meta:   
+description = "62.dll"   
+author = "The DFIR Report"   
+reference = "https://thedfirreport.com"   
+date = "2021-07-07"   
+hash1 = "8b9d605b826258e07e63687d1cefb078008e1a9c48c34bc131d7781b142c84ab"   
+strings:   
+$s1 = "Common causes completion include incomplete download and damaged media" fullword ascii   
+$s2 = "StartW" fullword ascii   
+$s4 = ".rdata$zzzdbg" fullword ascii   
+condition:   
+uint16(0) == 0x5a4d and filesize < 70KB and ( pe.imphash() == "42205b145650671fa4469a6321ccf8bf" )   
+or (all of them)   
+}  
+  
+  
+rule tdr615\_exe {   
+meta:   
+description = "Cobalt Strike on beachhead: tdr615.exe"   
+author = "The DFIR Report"   
+reference = "https://thedfirreport.com"   
+date = "2021-07-07"   
+hash1 = "12761d7a186ff14dc55dd4f59c4e3582423928f74d8741e7ec9f761f44f369e5"   
+strings:   
+$a1 = "AppPolicyGetProcessTerminationMethod" fullword ascii   
+$a2 = "I:\\RoDcnyLYN\\k1GP\\ap0pivKfOF\\odudwtm30XMz\\UnWdqN\\01\\7aXg1kTkp.pdb" fullword ascii   
+$b1 = "ealagi@aol.com0" fullword ascii   
+$b2 = "operator co\_await" fullword ascii   
+$b3 = "GetModuleHandleRNtUnmapViewOfSe" fullword ascii   
+$b4 = "RtlExitUserThrebNtFlushInstruct" fullword ascii   
+$c1 = "Jersey City1" fullword ascii   
+$c2 = "Mariborska cesta 971" fullword ascii   
+condition:   
+uint16(0) == 0x5a4d and filesize < 10000KB and   
+any of ($a* ) and 2 of ($b* ) and any of ($c* )   
+}   
+  
+
 ```
 
 **MITRE**
@@ -952,5 +968,28 @@ Internal case #4641
 
 
 
-#### Tags:
-[[PowerShell]] [[Trickbot]] [[C2]] [[Windows]] [[CNC]] [[Feodo]] [[CnC]] [["Method]] [["Spawn]] [[LSASS]] [[The DFIR Report]]
+## Tags:
+
+#### Threatactor:
+[[threatactor.name=APT29]]
+
+#### Action:
+[[action.malware.name=AdFind]] [[action.malware.name=Arp]] [[action.malware.name=at]] [[action.malware.name=at]] [[action.malware.name=Bazar]] [[action.malware.name=BloodHound]] [[action.malware.name=certutil]] [[action.malware.name=certutil]] [[action.malware.name=cmd]] [[action.malware.name=cmd]] [[action.malware.name=Cobalt Strike]] [[action.malware.name=Conti]] [[action.malware.name=Derusbi]] [[action.malware.name=Dridex]] [[action.malware.name=Elise]] [[action.malware.name=Empire]] [[action.malware.name=Empire]] [[action.malware.name=esentutl]] [[action.malware.name=esentutl]] [[action.malware.name=Expand]] [[action.malware.name=FTP]] [[action.malware.name=IcedID]] [[action.malware.name=Mimikatz]] [[action.malware.name=Net]] [[action.malware.name=Net]] [[action.malware.name=Net Crawler]] [[action.malware.name=Nltest]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=PoshC2]] [[action.malware.name=Power Loader]] [[action.malware.name=PowerSploit]] [[action.malware.name=PS1]] [[action.malware.name=PS1]] [[action.malware.name=PsExec]] [[action.malware.name=RDAT]] [[action.malware.name=RDAT]] [[action.malware.name=Reg]] [[action.malware.name=Reg]] [[action.malware.name=S-Type]] [[action.malware.name=Systeminfo]] [[action.malware.name=Systeminfo]] [[action.malware.name=Tor]] [[action.malware.name=TrickBot]]
+
+#### Industry:
+[[victim.industry.name=Accomodation]] [[victim.industry.name=Finance]] [[victim.industry.name=Finance]]
+
+#### Location:
+[[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]] [[victim.continent.name=References]]
+
+### Autogenerated Tags:
+[[Trickbot]] [[C2]] [[Powershell]] [[Windows]] [[Ransomware]] [[Conti]] [[Adfind]] [[Trickbot]] [[Bazarcall]] [[Dll]] [[The DFIR Report]]
+#### ipv4-adresses
+88.80.147.101 123.231.149.123 146.196.121.219 177.221.39.161 180.178.106.50 85.248.1.126 94.142.179.179 94.142.179.77 88.150.240.129 46.209.140.220 85.175.171.246 89.37.1.2 94.183.237.101 103.101.104.229 103.124.145.98 114.7.240.222 131.0.112.122 123.231.149.122 45.5.152.39
+#### email-adresses
+ealagi@aol.com0
+#### urls
+https://github.com/mattnotmax/cyberchef-recipes#recipe-28—de-obfuscation-of-cobalt-strike-beacon-using-conditional-jumps-to-obtain-shellcode https://tria.ge/210610-vfygj4t1yn https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/sysmon_abusing_debug_privilege.yml https://github.com/SigmaHQ/sigma/blob/1ff5e226ad8bed34916c16ccc77ba281ca3203ae/rules/windows/powershell/powershell_code_injection.yml https://github.com/SigmaHQ/sigma/blob/5e35e387dd0dcdd564db7077da3470fbc070b975/rules/windows/powershell/powershell_bad_opsec_artifacts.yml https://github.com/SigmaHQ/sigma/blob/b26eece20d4c19b202185a6dce86aff147e92d0f/rules/windows/builtin/win_cobaltstrike_service_installs.yml https://github.com/SigmaHQ/sigma/blob/1ff5e226ad8bed34916c16ccc77ba281ca3203ae/rules/windows/process_creation/win_hktl_createminidump.yml https://github.com/SigmaHQ/sigma/blob/99b0d32cec5746c8f9a79ddbbeb53391cef326ba/rules/windows/process_creation/win_trust_discovery.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_malware_dridex.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_susp_powershell_empire_launch.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_susp_execution_path.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_susp_ntdsutil.yml https://github.com/SigmaHQ/sigma/blob/ff0f1a0222b5100120ae3e43df18593f904c69c0/rules/windows/process_creation/win_local_system_owner_account_discovery.yml https://github.com/SigmaHQ/sigma/blob/b81839e3ce507df925d6e583e569e1ac3a3894ab/rules/windows/process_access/sysmon_lsass_memdump.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/file_event/sysmon_lsass_memory_dump_file_creation.yml https://github.com/SigmaHQ/sigma/blob/ff0f1a0222b5100120ae3e43df18593f904c69c0/rules/windows/process_creation/win_lsass_dump.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_susp_powershell_hidden_b64_cmd.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/powershell/powershell_malicious_commandlets.yml https://github.com/SigmaHQ/sigma/blob/b81839e3ce507df925d6e583e569e1ac3a3894ab/rules/windows/deprecated/sysmon_mimikatz_detection_lsass.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_susp_net_execution.yml https://github.com/SigmaHQ/sigma/blob/1425ede905514b7dbf3c457561aaf2ff27274724/rules/windows/process_creation/win_non_interactive_powershell.yml https://github.com/SigmaHQ/sigma/blob/a80c29a7c2e2e500a1a532db2a2a8bd69bd4a63d/rules/windows/registry_event/sysmon_powershell_as_service.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_powershell_download.yml https://github.com/SigmaHQ/sigma/blob/8aabb58eca06cc44ae21ae4d091793d8c5ca6a23/rules/windows/image_load/sysmon_powershell_execution_moduleload.yml https://github.com/SigmaHQ/sigma/blob/c91eda766032b14eee60412a14875f91664e670f/rules/windows/network_connection/sysmon_powershell_network_connection.yml https://github.com/SigmaHQ/sigma/blob/a80c29a7c2e2e500a1a532db2a2a8bd69bd4a63d/rules/windows/builtin/win_powershell_script_installed_as_service.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_susp_psexec_eula.yml https://github.com/SigmaHQ/sigma/blob/ea430c8823803b9026a4e6e2ea7365dc5d96f385/rules/windows/other/win_tool_psexec.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/builtin/win_rare_service_installs.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_susp_regsvr32_anomalies.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/network_connection/sysmon_rundll32_net_connections.yml https://github.com/SigmaHQ/sigma/blob/30bee7204cc1b98a47635ed8e52f44fdf776c602/rules/windows/process_creation/win_susp_adfind.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_susp_powershell_enc_cmd.yml https://github.com/SigmaHQ/sigma/blob/5cf7078fb3d61f2c15b01d9426f07f9197dd3db1/rules/windows/process_access/sysmon_in_memory_assembly_execution.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_susp_powershell_parent_process.yml https://github.com/SigmaHQ/sigma/blob/e7d9f1b4279a235406b61cc9c16fde9d7ab5e3ba/rules/windows/create_remote_thread/sysmon_suspicious_remote_thread.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_susp_procdump.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_susp_procdump_lsass.yml https://github.com/SigmaHQ/sigma/blob/5e701a2bcb353338854c8ab47de616fe7e0e56ff/rules/windows/process_creation/win_susp_wmi_execution.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_malware_trickbot_recon_activity.yml https://github.com/SigmaHQ/sigma/blob/e7d9f1b4279a235406b61cc9c16fde9d7ab5e3ba/rules/windows/process_creation/win_apt_unc2452_cmds.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/registry_event/sysmon_sysinternals_eula_accepted.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/process_creation/win_susp_whoami.yml https://github.com/SigmaHQ/sigma/blob/ff0f1a0222b5100120ae3e43df18593f904c69c0/rules/windows/process_creation/win_net_enum.yml https://github.com/SigmaHQ/sigma/blob/08ca62cc8860f4660e945805d0dd615ce75258c1/rules/windows/powershell/win_powershell_web_request.yml https://thedfirreport.com*//* https://thedfirreport.com https://sectigo.com/CPS0 http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl0v http://ocsp.sectigo.com0 http://crl4.digicert.com/assured-cs-g1.crl0L http://crl3.digicert.com/assured-cs-g1.crl00 https://us-cert.cisa.gov/ncas/alerts/aa21-076a https://www.ncsc.gov.uk/news/trickbot-advisory https://thedfirreport.com/2021/01/11/trickbot-still-alive-and-well/ https://redcanary.com/blog/getsystem-offsec/ https://threatpost.com/trickbot-banking-trojan-module/167521/
+#### MITRE IDs
+[[T1566.001]] [[T1218.010]] [[T1562.001]] [[T1003.001]] [[T1059.001]] [[T1074.001]] [[T1087.001]] [[T1087.002]] [[T1003.003]] [[T1021.002]]
+

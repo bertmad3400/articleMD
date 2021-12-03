@@ -1,14 +1,15 @@
 # From Zero to Domain Admin
-### 
+### This report will go through an intrusion from July that began with an email, which included a link to Google's Feed Proxy service that was used to download a malicious Word document. Upon the user enabling macros, a Hancitor dll was executed, which called the usual suspect, Cobalt Strike.
 
 ## Information:
 + Source: The DFIR Report
-+ Link: [article](https://thedfirreport.com/2021/11/01/from-zero-to-domain-admin/)
-+ Date: November 1, 2021
-+ Author: Unknown
++ Link: https://thedfirreport.com/2021/11/01/from-zero-to-domain-admin/
++ Date: 2021-11-01T00:57:41+00:00
++ Author: editor
 
 
 ## Article:
+![Article Image](https://thedfirreport.com/wp-content/uploads/2021/10/From-Zero-to-Domain-Admin.png)
 
 
 ### Intro
@@ -26,7 +27,7 @@ Various different enumeration and lateral movement tactics were observed on the 
 Like with many infections today, the threat actors gained initial access on a system through a malicious document email campaign, which made use of the Hancitor downloader. The document, upon opening and enabling of macros, would write and then execute a dll file from the users appdata folder.
 
 
-The Hancitor dll ran multiple malware payloads including a Cobalt Strike stager and Ficker Stealer. The threat actors then began port scanning for SMB and a few backup systems such as Synology, Veeam and Backup Exec.
+The Hancitor dll downloaded and executed multiple payloads including a Cobalt Strike stager and Ficker Stealer. The threat actors then began port scanning for SMB and a few backup systems such as Synology, Veeam and Backup Exec.
 
 
 After that, a battery of Windows utilities were run to check the windows domain trusts, domain administrators, domain controllers, and test connectivity. They then checked access to remote systems by connecting to the C$ share.
@@ -108,7 +109,7 @@ Options.DefaultFilePath
 ![enter image description here](https://thedfirreport.com/wp-content/uploads/2021/10/5295-doc2.png "enter image title here")
 
 
-We can see that this path relates to the path:
+We can see that this relates to the path:
 
 
 
@@ -396,7 +397,7 @@ A successful connection from Ficker Stealer was not observed. A domain was queri
 Cobalt Strike was also observed to be making use of HTTP.
 
 
-![enter image description here](https://thedfirreport.com/wp-content/uploads/2021/10/2-CS-traffic.png "enter image title here")
+![](https://thedfirreport.com/wp-content/uploads/2021/11/1-1.png)
 
 
 Lastly, the shellcode executed by the agent1.ps1 PowerShell loader, was observed loading a PE file into memory that would beacon out at consistent intervals to 64.235.39[.]32. Further encrypted network activity was also observed to this IP address. Unfortunately, the tool sending these connections could not be definitively determined.
@@ -556,44 +557,6 @@ Public Algorithm: rsaEncryption
  "md5": "cc37829b6bfd8b4f4f0aa7f1b2632831",
  "time": 1626347231021.8,
  "sha1": "7a5dd6d163f2d864593e8441a26ed16c610ded52"
- }
-}
-{
-  "x86": {
- "sha256": "c0ef889bda5881d8c5441ba7bed8655851d9f734d1ede2bb934f2c5060b65e61",
- "config": {
- "Method 1": "GET",
- "Spawn To x64": "%windir%\\sysnative\\rundll32.exe",
- "C2 Server": "162.244.83.95,/match",
- "Method 2": "POST",
- "Jitter": 0,
- "Spawn To x86": "%windir%\\syswow64\\rundll32.exe",
- "HTTP Method Path 2": "/submit.php",
- "Beacon Type": "0 (HTTP)",
- "Polling": 60000,
- "Port": 8080
- },
- "md5": "b1db74c22e7280a806db72ac5959a4ed",
- "time": 1626347224645,
- "sha1": "d8f0bda5ee2416d7059b9ff58aa6c7f5357d3a6d"
- },
-  "x64": {
- "sha256": "0e5f353721f618b1d1ec89570443a4a42ae5e41d466f9a022ace75bf74ff9dcd",
- "config": {
- "Method 1": "GET",
- "Spawn To x64": "%windir%\\sysnative\\rundll32.exe",
- "C2 Server": "162.244.83.95,/fwlink",
- "Method 2": "POST",
- "Jitter": 0,
- "Spawn To x86": "%windir%\\syswow64\\rundll32.exe",
- "HTTP Method Path 2": "/submit.php",
- "Beacon Type": "0 (HTTP)",
- "Polling": 60000,
- "Port": 8080
- },
- "md5": "d95a14820204fdab4a68791c64c22354",
- "time": 1626347239949.4,
- "sha1": "93d1f927eae5d7cee5a36c4b5570fedd1e04f362"
  }
 }
 
@@ -962,5 +925,27 @@ Internal case #5295
 
 
 
-#### Tags:
-[["Method]] [["Spawn]] [[Hancitor]] [[PowerShell]] [[IP]] [["The]] [[/C]] [[comps.txt]] [["md5":]] [["time":]] [[The DFIR Report]]
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=at]] [[action.malware.name=Bazar]] [[action.malware.name=CHOPSTICK]] [[action.malware.name=cmd]] [[action.malware.name=cmd]] [[action.malware.name=Cobalt Strike]] [[action.malware.name=Conti]] [[action.malware.name=Empire]] [[action.malware.name=FTP]] [[action.malware.name=Hancitor]] [[action.malware.name=Net]] [[action.malware.name=Net]] [[action.malware.name=njRAT]] [[action.malware.name=Nltest]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=PoshC2]] [[action.malware.name=Power Loader]] [[action.malware.name=PS1]] [[action.malware.name=PS1]] [[action.malware.name=Reg]] [[action.malware.name=S-Type]] [[action.malware.name=Tor]] [[action.malware.name=ZeroT]]
+
+#### Industry:
+[[victim.industry.name=Accomodation]]
+
+#### Location:
+[[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Hancitor]] [[Dll]] [[Dll]] [[Windows]] [[Powershell]] [[The DFIR Report]]
+#### ipv4-adresses
+8.211.241.0 10.10.10.10 190.114.254.116 207.148.23.64 194.147.78.155 64.235.39.32
+#### ipv6-adresses
+6e:ce:5e:ce:41:92:68:3d68: 2d:84:e2:5b:0b:a7:e0:4fe0:
+#### urls
+https://t.co/5chAcaDocM senderhttps://t.co/Cw70zbKWxg.com/~r/oknik/~3/F4HyZtdB_4k/ponce.php https://blogs.blackberry.com/en/2021/03/zerologon-to-ransomware. http://wortlybeentax.com/8/forum.php https://thedfirreport.com
+#### CVE's
+[[CVE-2020-1472]]
+#### MITRE IDs
+[[T1071.001]] [[T1569.002]] [[T1069.002]] [[T1059.001]] [[T1059.003]] [[T1204.002]]
+
