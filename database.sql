@@ -3182,6 +3182,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3136	Federal government refreshes digital transformation strategy and expands cyber hub trial | ZDNet	The federal government will now look to have all services digitally available by 2025.	https://www.zdnet.com/article/australian-government-updates-digital-transformation-strategy-and-expands-cyber-hub-trial/	https://www.zdnet.com/a/img/resize/37d727133126e583a5c445a9985e51d00aae397a/2021/09/29/fef3c385-ab32-410b-8098-49f5c407e42a/dta.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-03 05:00:01.924933+01	2021-12-03 03:02:02+01	Campbell Kwan	zdnet/Federal-government-refreshes-digital-transformation-strategy-and-expands-cyber-hub-trial
 3137	Twitter removes another 3,000 state-backed accounts linked to six countries | ZDNet	2,000 banned accounts were linked to Chinese Communist Party narratives related to the treatment of Uyghurs in Xinjiang.	https://www.zdnet.com/article/twitter-removes-another-3000-state-backed-accounts-linked-to-six-countries/	https://www.zdnet.com/a/img/resize/83bc33d2d5cb7a28264122b0a5cb41ce00212858/2017/03/31/f85ea14a-aab5-40c9-a8d1-f9e6f7cd2af1/twitter-ios-app-logo.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-03 07:00:02.75717+01	2021-12-03 05:17:28+01	Campbell Kwan	zdnet/Twitter-removes-another-3000-state-backed-accounts-linked-to-six-countries
 3138	This password-stealing and keylogging malware is being spread through fake software downloads | ZDNet	Cybersecurity researchers disclose a newly discovered campaign that users custom malware to steal usernames, passwords and other sensitive information from victims.	https://www.zdnet.com/article/this-password-stealing-and-keylogging-malware-is-being-spread-through-fake-software-downloads/	https://www.zdnet.com/a/img/resize/f1fe43dcec91c99db28e0cc350db53ba4fec0e9f/2018/12/03/017fe9bd-fc01-4e76-a133-bc16cdbb3a29/hacker-hands-in-the-shadows-istock.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-03 12:00:02.143169+01	2021-12-03 10:00:29+01	Danny Palmer	zdnet/This-password-stealing-and-keylogging-malware-is-being-spread-through-fake-software-downloads
+3139	A mysterious threat actor is running hundreds of malicious Tor relays	Since at least 2017, a mysterious threat actor has run thousands of malicious servers in entry, middle, and exit positions of the Tor network in what a security researcher has described as an attempt to deanonymize Tor users.	https://therecord.media/a-mysterious-threat-actor-is-running-hundreds-of-malicious-tor-relays/	https://therecord.media/wp-content/uploads/2021/12/Tor-Project.png	therecord	t	2021-12-03 14:00:02.366026+01	2021-12-03 13:29:08+01	Catalin Cimpanu	therecord/A-mysterious-threat-actor-is-running-hundreds-of-malicious-Tor-relays
 \.
 
 
@@ -3189,7 +3190,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3138, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3139, true);
 
 
 --
