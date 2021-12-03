@@ -155,6 +155,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 132	Planned Parenthood LA: Ransomware attack leaks health data of 400,000 patients | ZDNet	In a letter shared with the California Attorney General's office and sent out on November 30, the organization said they identified suspicious activity in their computer network on October 17.	https://www.zdnet.com/article/planned-parenthood-la-announces-ransomware-incident-healthcare-info-of-400000-patients-leaked/	https://www.zdnet.com/a/img/resize/6750f1c1b1f0ce1f5e069fb6608747ffd0230d5a/2021/08/02/253a288c-5262-41b8-8afe-bb70f06cb183/gettyimages-doctor-and-nurse-at-a-laptop-inside-a-hospital.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-02 17:55:00+01	zdnet	t	2021-12-03 19:31:49.771905+01	zdnet/Planned-Parenthood-LA-Ransomware-attack-leaks-health-data-of-400000-patients--ZDNet
 157	Pandemic-Influenced Car Shopping: Just Use the Manufacturer API	Jason Kent, hacker-in-residence at Cequence, found a way to exploit a Toyota API to get around the hassle of car shopping in the age of supply-chain woes.	https://kasperskycontenthub.com/threatpost-global/?p=176740	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/03120815/noleggio-auto-1024x682-1.jpg	Jason Kent	2021-12-03 21:09:24+01	threatpost	t	2021-12-03 22:00:37.514244+01	threatpost/Pandemic-Influenced-Car-Shopping-Just-Use-the-Manufacturer-API
 158	Sensitive information of 30k Florida healthcare workers exposed in unprotected database | ZDNet	Ethical hackers discovered the names, addresses, social security numbers and tax information for more than 30,000 healthcare workers in a database run by Gale Healthcare Solutions.	https://www.zdnet.com/article/sensitive-information-of-30k-florida-healthcare-workers-exposed-in-unprotected-database/	https://www.zdnet.com/a/img/resize/fdf770216b0f8b0030af26890993230493d663a7/2014/10/02/02fa65d5-4a0a-11e4-b6a0-d4ae52e95e57/40154350-1-300x405-nurse-keyboard-nhs.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-03 21:07:00+01	zdnet	t	2021-12-03 23:00:28.583569+01	zdnet/Sensitive-information-of-30k-Florida-healthcare-workers-exposed-in-unprotected-database--ZDNet
+159	FBI: Cuba ransomware group hit 49 critical infrastructure organizations | ZDNet	The FBI claimed the group has made at least $43.9 million in ransom payments.	https://www.zdnet.com/article/fbi-cuba-ransomware-hit-49-critical-infrastructure-organizations/	https://www.zdnet.com/a/img/resize/db6e8e885ac2ba67171e631c838e8c946b163e98/2021/02/02/9a9177ed-a0cf-4c13-8082-23535179348a/cuba-ransomware-leak-site.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-03 22:42:04+01	zdnet	t	2021-12-04 00:00:37.93667+01	zdnet/FBI-Cuba-ransomware-group-hit-49-critical-infrastructure-organizations--ZDNet
 \.
 
 
@@ -162,7 +163,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 158, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 159, true);
 
 
 --
