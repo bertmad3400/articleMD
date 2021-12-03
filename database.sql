@@ -3179,6 +3179,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 3133	Microsoft Edge now bashes Google Chrome when you download it	​Microsoft Edge is now displaying in-browser alerts that discourage users from downloading Google Chrome by bashing the popular browser.	https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-now-bashes-google-chrome-when-you-download-it/	https://www.bleepstatic.com/content/hl-images/2020/12/10/Microsoft-Edge.jpg	bleepingcomputer	t	2021-12-02 23:00:02.368979+01	2021-12-02 22:46:44+01	Lawrence Abrams	bleepingcomputer/Microsoft-Edge-now-bashes-Google-Chrome-when-you-download-it
 3134	Phishing actors start exploiting the Omicron COVID-19 variant	Phishing actors have quickly started to exploit the emergence of the Omicron COVID-19 variant and now use it as a lure in their malicious email campaigns.	https://www.bleepingcomputer.com/news/security/phishing-actors-start-exploiting-the-omicron-covid-19-variant/	https://www.bleepstatic.com/content/hl-images/2020/08/03/Coronavirus2.jpg	bleepingcomputer	t	2021-12-02 23:00:02.368979+01	2021-12-02 22:34:34+01	Bill Toulas	bleepingcomputer/Phishing-actors-start-exploiting-the-Omicron-COVID-19-variant
 3135	Colorado energy company loses 25 years of data after cyberattack, still rebuilding network | ZDNet	DMEA did not use the term ransomware but said much of their data had been corrupted while phone and email services were down for weeks.	https://www.zdnet.com/article/colorado-energy-company-loses-25-years-of-data-after-cyberattack-still-rebuilding-network/	https://www.zdnet.com/a/img/resize/708451ea41ac53e5e78ef82fee6e51cf8ae7b238/2021/11/23/22414342-9b77-4ea5-b5c1-b4817575f3a4/bitcoin-el-salvador-gettyimages.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-03 01:00:01.930807+01	2021-12-02 23:45:21+01	Jonathan Greig	zdnet/Colorado-energy-company-loses-25-years-of-data-after-cyberattack-still-rebuilding-network
+3136	Federal government refreshes digital transformation strategy and expands cyber hub trial | ZDNet	The federal government will now look to have all services digitally available by 2025.	https://www.zdnet.com/article/australian-government-updates-digital-transformation-strategy-and-expands-cyber-hub-trial/	https://www.zdnet.com/a/img/resize/37d727133126e583a5c445a9985e51d00aae397a/2021/09/29/fef3c385-ab32-410b-8098-49f5c407e42a/dta.jpg?width=770&height=578&fit=crop&auto=webp	zdnet	t	2021-12-03 05:00:01.924933+01	2021-12-03 03:02:02+01	Campbell Kwan	zdnet/Federal-government-refreshes-digital-transformation-strategy-and-expands-cyber-hub-trial
 \.
 
 
@@ -3186,7 +3187,7 @@ COPY public.articles (id, title, description, url, image_url, profile, scraped, 
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 3135, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 3136, true);
 
 
 --
