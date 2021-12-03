@@ -153,6 +153,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 119	Microsoft Edge now bashes Google Chrome when you download it	​Microsoft Edge is now displaying in-browser alerts that discourage users from downloading Google Chrome by bashing the popular browser.	https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-now-bashes-google-chrome-when-you-download-it/	https://www.bleepstatic.com/content/hl-images/2020/12/10/Microsoft-Edge.jpg	Lawrence Abrams	2021-12-02 22:46:44+01	bleepingcomputer	t	2021-12-03 19:31:49.771905+01	bleepingcomputer/Microsoft-Edge-now-bashes-Google-Chrome-when-you-download-it
 124	Crooks are selling access to hacked networks. Ransomware gangs are their biggest customers | ZDNet	Dark web forum posts offering compromised VPN, RDP credentials and other ways into networks have tripled in the last year.	https://www.zdnet.com/article/theres-been-a-big-jump-in-crooks-selling-access-to-hacked-networks-ransomware-gangs-are-their-best-customers/	https://www.zdnet.com/a/img/resize/26777d00af07689d20b96d09b0ffdae4e6fa83ae/2021/01/08/6604d540-9eb0-41c2-9f00-6fbf24d996f7/hacker-hands-on-a-keyboard.jpg?width=770&height=578&fit=crop&auto=webp	Danny Palmer	2021-12-03 13:20:00+01	zdnet	t	2021-12-03 19:31:49.771905+01	zdnet/Crooks-are-selling-access-to-hacked-networks-Ransomware-gangs-are-their-biggest-customers--ZDNet
 132	Planned Parenthood LA: Ransomware attack leaks health data of 400,000 patients | ZDNet	In a letter shared with the California Attorney General's office and sent out on November 30, the organization said they identified suspicious activity in their computer network on October 17.	https://www.zdnet.com/article/planned-parenthood-la-announces-ransomware-incident-healthcare-info-of-400000-patients-leaked/	https://www.zdnet.com/a/img/resize/6750f1c1b1f0ce1f5e069fb6608747ffd0230d5a/2021/08/02/253a288c-5262-41b8-8afe-bb70f06cb183/gettyimages-doctor-and-nurse-at-a-laptop-inside-a-hospital.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-02 17:55:00+01	zdnet	t	2021-12-03 19:31:49.771905+01	zdnet/Planned-Parenthood-LA-Ransomware-attack-leaks-health-data-of-400000-patients--ZDNet
+157	Pandemic-Influenced Car Shopping: Just Use the Manufacturer API	Jason Kent, hacker-in-residence at Cequence, found a way to exploit a Toyota API to get around the hassle of car shopping in the age of supply-chain woes.	https://kasperskycontenthub.com/threatpost-global/?p=176740	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/03120815/noleggio-auto-1024x682-1.jpg	Jason Kent	2021-12-03 21:09:24+01	threatpost	t	2021-12-03 22:00:37.514244+01	threatpost/Pandemic-Influenced-Car-Shopping-Just-Use-the-Manufacturer-API
 \.
 
 
@@ -160,7 +161,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 156, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 157, true);
 
 
 --
