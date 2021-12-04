@@ -157,6 +157,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 158	Sensitive information of 30k Florida healthcare workers exposed in unprotected database | ZDNet	Ethical hackers discovered the names, addresses, social security numbers and tax information for more than 30,000 healthcare workers in a database run by Gale Healthcare Solutions.	https://www.zdnet.com/article/sensitive-information-of-30k-florida-healthcare-workers-exposed-in-unprotected-database/	https://www.zdnet.com/a/img/resize/fdf770216b0f8b0030af26890993230493d663a7/2014/10/02/02fa65d5-4a0a-11e4-b6a0-d4ae52e95e57/40154350-1-300x405-nurse-keyboard-nhs.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-03 21:07:00+01	zdnet	t	2021-12-03 23:00:28.583569+01	zdnet/Sensitive-information-of-30k-Florida-healthcare-workers-exposed-in-unprotected-database--ZDNet
 159	FBI: Cuba ransomware group hit 49 critical infrastructure organizations | ZDNet	The FBI claimed the group has made at least $43.9 million in ransom payments.	https://www.zdnet.com/article/fbi-cuba-ransomware-hit-49-critical-infrastructure-organizations/	https://www.zdnet.com/a/img/resize/db6e8e885ac2ba67171e631c838e8c946b163e98/2021/02/02/9a9177ed-a0cf-4c13-8082-23535179348a/cuba-ransomware-leak-site.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-03 22:42:04+01	zdnet	t	2021-12-04 00:00:37.93667+01	zdnet/FBI-Cuba-ransomware-group-hit-49-critical-infrastructure-organizations--ZDNet
 160	The Week in Ransomware - December 3rd 2021 - Seizing Bitcoin	For this week's 'Week in Ransomware' article we have included the latest ransomware news over the past two weeks.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-december-3rd-2021-seizing-bitcoin/	https://www.bleepstatic.com/content/hl-images/2021/08/06/data-lock.jpg	Lawrence Abrams	2021-12-04 00:34:06+01	bleepingcomputer	t	2021-12-04 01:00:35.647474+01	bleepingcomputer/The-Week-in-Ransomware---December-3rd-2021---Seizing-Bitcoin
+161	Microsoft shares fix for broken Outlook search in Windows 11	Microsoft has shared a solution for Outlook users who have been experiencing search issues after upgrading to Windows 11.	https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-broken-outlook-search-in-windows-11/	https://www.bleepstatic.com/content/hl-images/2021/05/11/outlook-header-image.jpg	Sergiu Gatlan	2021-12-04 17:14:07+01	bleepingcomputer	t	2021-12-04 18:00:51.136513+01	bleepingcomputer/Microsoft-shares-fix-for-broken-Outlook-search-in-Windows-11
+162	Microsoft reverses Windows 11's annoying default browser setting changes	Microsoft has reversed a Windows 11 design change that made it highly annoying to change the default browser used by the operating system.	https://www.bleepingcomputer.com/news/microsoft/microsoft-reverses-windows-11s-annoying-default-browser-setting-changes/	https://www.bleepstatic.com/content/hl-images/2021/06/15/Windows-11-logo.jpg	Lawrence Abrams	2021-12-04 16:08:16+01	bleepingcomputer	t	2021-12-04 18:00:51.136513+01	bleepingcomputer/Microsoft-reverses-Windows-11s-annoying-default-browser-setting-changes
 \.
 
 
@@ -164,7 +166,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 160, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 162, true);
 
 
 --
