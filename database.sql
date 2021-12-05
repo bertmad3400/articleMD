@@ -161,6 +161,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 162	Microsoft reverses Windows 11's annoying default browser setting changes	Microsoft has reversed a Windows 11 design change that made it highly annoying to change the default browser used by the operating system.	https://www.bleepingcomputer.com/news/microsoft/microsoft-reverses-windows-11s-annoying-default-browser-setting-changes/	https://www.bleepstatic.com/content/hl-images/2021/06/15/Windows-11-logo.jpg	Lawrence Abrams	2021-12-04 16:08:16+01	bleepingcomputer	t	2021-12-04 18:00:51.136513+01	bleepingcomputer/Microsoft-reverses-Windows-11s-annoying-default-browser-setting-changes
 163	New Twitter phishing campaign targets verified accounts	A new phishing campaign has been targeting verified Twitter accounts, as seen by BleepingComputer. The phishing campaign follows Twitter's recent removal of the checkmark from a number of verified accounts, citing that these were ineligible for the legendary status, and verified in error.	https://www.bleepingcomputer.com/news/security/new-twitter-phishing-campaign-targets-verified-accounts/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Twitter--header.jpg	Ax Sharma	2021-12-05 10:50:00+01	bleepingcomputer	t	2021-12-05 12:00:31.157459+01	bleepingcomputer/New-Twitter-phishing-campaign-targets-verified-accounts
 164	Malicious KMSPico installers steal your cryptocurrency wallets	Threat actors are distributing altered KMSpico installers to infect Windows devices with malware that steals cryptocurrency wallets.	https://www.bleepingcomputer.com/news/security/malicious-kmspico-installers-steal-your-cryptocurrency-wallets/	https://www.bleepstatic.com/content/hl-images/2021/12/03/disappearing-bitcoin.jpg	Bill Toulas	2021-12-04 18:06:12+01	bleepingcomputer	t	2021-12-05 12:00:31.157459+01	bleepingcomputer/Malicious-KMSPico-installers-steal-your-cryptocurrency-wallets
+165	Mozilla Patched “BigSig” Vulnerability That Affects The NSS Cryptographic Library	A critical BigSig memory corruption bug affected Mozilla's NSS cryptographic library. It affected many NSS-using products, except Firefox.	https://latesthackingnews.com/2021/12/05/mozilla-patched-bigsig-vulnerability-that-affects-the-nss-cryptographic-library/	https://latesthackingnews.com/wp-content/uploads/2019/01/mozilla-firefox-69-e1548942912750.jpg	Abeerah Hashim	2021-12-05 00:00:00+01	latesthackingnews	t	2021-12-05 14:00:32.569609+01	latesthackingnews/Mozilla-Patched-BigSig-Vulnerability-That-Affects-The-NSS-Cryptographic-Library
 \.
 
 
@@ -168,7 +169,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 164, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 165, true);
 
 
 --
