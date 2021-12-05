@@ -163,6 +163,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 164	Malicious KMSPico installers steal your cryptocurrency wallets	Threat actors are distributing altered KMSpico installers to infect Windows devices with malware that steals cryptocurrency wallets.	https://www.bleepingcomputer.com/news/security/malicious-kmspico-installers-steal-your-cryptocurrency-wallets/	https://www.bleepstatic.com/content/hl-images/2021/12/03/disappearing-bitcoin.jpg	Bill Toulas	2021-12-04 18:06:12+01	bleepingcomputer	t	2021-12-05 12:00:31.157459+01	bleepingcomputer/Malicious-KMSPico-installers-steal-your-cryptocurrency-wallets
 165	Mozilla Patched “BigSig” Vulnerability That Affects The NSS Cryptographic Library	A critical BigSig memory corruption bug affected Mozilla's NSS cryptographic library. It affected many NSS-using products, except Firefox.	https://latesthackingnews.com/2021/12/05/mozilla-patched-bigsig-vulnerability-that-affects-the-nss-cryptographic-library/	https://latesthackingnews.com/wp-content/uploads/2019/01/mozilla-firefox-69-e1548942912750.jpg	Abeerah Hashim	2021-12-05 00:00:00+01	latesthackingnews	t	2021-12-05 14:00:32.569609+01	latesthackingnews/Mozilla-Patched-BigSig-Vulnerability-That-Affects-The-NSS-Cryptographic-Library
 166	Convincing Microsoft phishing uses fake Office 365 spam alerts	A persuasive and ongoing series of phishing attacks are using fake Office 365 notifications asking the recipients to review blocked spam messages, with the end goal of stealing their Microsoft credentials.	https://www.bleepingcomputer.com/news/security/convincing-microsoft-phishing-uses-fake-office-365-spam-alerts/	https://www.bleepstatic.com/content/hl-images/2020/11/03/Office-365--phishing.jpg	Sergiu Gatlan	2021-12-05 17:07:37+01	bleepingcomputer	t	2021-12-05 18:01:21.43031+01	bleepingcomputer/Convincing-Microsoft-phishing-uses-fake-Office-365-spam-alerts
+167	Malicious Excel XLL add-ins push RedLine password-stealing malware	Cybercriminals are spamming website contact forms and discussion forums to distribute Excel XLL files that download and install the RedLine password and information-stealing malware.	https://www.bleepingcomputer.com/news/security/malicious-excel-xll-add-ins-push-redline-password-stealing-malware/	https://www.bleepstatic.com/content/hl-images/2021/04/16/malware-phishing-header.jpg	Lawrence Abrams	2021-12-05 19:45:16+01	bleepingcomputer	t	2021-12-05 20:00:55.666594+01	bleepingcomputer/Malicious-Excel-XLL-add-ins-push-RedLine-password-stealing-malware
 \.
 
 
@@ -170,7 +171,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 166, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 167, true);
 
 
 --
