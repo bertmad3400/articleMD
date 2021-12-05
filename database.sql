@@ -162,6 +162,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 163	New Twitter phishing campaign targets verified accounts	A new phishing campaign has been targeting verified Twitter accounts, as seen by BleepingComputer. The phishing campaign follows Twitter's recent removal of the checkmark from a number of verified accounts, citing that these were ineligible for the legendary status, and verified in error.	https://www.bleepingcomputer.com/news/security/new-twitter-phishing-campaign-targets-verified-accounts/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Twitter--header.jpg	Ax Sharma	2021-12-05 10:50:00+01	bleepingcomputer	t	2021-12-05 12:00:31.157459+01	bleepingcomputer/New-Twitter-phishing-campaign-targets-verified-accounts
 164	Malicious KMSPico installers steal your cryptocurrency wallets	Threat actors are distributing altered KMSpico installers to infect Windows devices with malware that steals cryptocurrency wallets.	https://www.bleepingcomputer.com/news/security/malicious-kmspico-installers-steal-your-cryptocurrency-wallets/	https://www.bleepstatic.com/content/hl-images/2021/12/03/disappearing-bitcoin.jpg	Bill Toulas	2021-12-04 18:06:12+01	bleepingcomputer	t	2021-12-05 12:00:31.157459+01	bleepingcomputer/Malicious-KMSPico-installers-steal-your-cryptocurrency-wallets
 165	Mozilla Patched “BigSig” Vulnerability That Affects The NSS Cryptographic Library	A critical BigSig memory corruption bug affected Mozilla's NSS cryptographic library. It affected many NSS-using products, except Firefox.	https://latesthackingnews.com/2021/12/05/mozilla-patched-bigsig-vulnerability-that-affects-the-nss-cryptographic-library/	https://latesthackingnews.com/wp-content/uploads/2019/01/mozilla-firefox-69-e1548942912750.jpg	Abeerah Hashim	2021-12-05 00:00:00+01	latesthackingnews	t	2021-12-05 14:00:32.569609+01	latesthackingnews/Mozilla-Patched-BigSig-Vulnerability-That-Affects-The-NSS-Cryptographic-Library
+166	Convincing Microsoft phishing uses fake Office 365 spam alerts	A persuasive and ongoing series of phishing attacks are using fake Office 365 notifications asking the recipients to review blocked spam messages, with the end goal of stealing their Microsoft credentials.	https://www.bleepingcomputer.com/news/security/convincing-microsoft-phishing-uses-fake-office-365-spam-alerts/	https://www.bleepstatic.com/content/hl-images/2020/11/03/Office-365--phishing.jpg	Sergiu Gatlan	2021-12-05 17:07:37+01	bleepingcomputer	t	2021-12-05 18:01:21.43031+01	bleepingcomputer/Convincing-Microsoft-phishing-uses-fake-Office-365-spam-alerts
 \.
 
 
@@ -169,7 +170,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 165, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 166, true);
 
 
 --
