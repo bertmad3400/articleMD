@@ -185,6 +185,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 186	France warns of Nobelium cyberspies attacking French orgs	The French national cyber-security agency ANSSI said today that the Russian-backed Nobelium hacking group behind last year's SolarWinds hack has been targeting French organizations since February 2021.	https://www.bleepingcomputer.com/news/security/france-warns-of-nobelium-cyberspies-attacking-french-orgs/	https://www.bleepstatic.com/content/hl-images/2021/10/08/Russia-flag.jpg	Sergiu Gatlan	2021-12-06 19:46:47+01	bleepingcomputer	t	2021-12-06 20:00:35.533572+01	bleepingcomputer/France-warns-of-Nobelium-cyberspies-attacking-French-orgs
 187	Russia could launch digital offensive against Ukraine, administration official warns	Russia could opt to launch a sweeping cyber and disinformation campaign against Ukraine and its government rather than a traditional military invasion of the country, a senior Biden administration said on Monday.	https://therecord.media/russia-could-launch-digital-offensive-against-ukraine-administration-official-warns/	https://therecord.media/wp-content/uploads/2021/04/Russia-Kremlin.png	Martin Matishak	2021-12-06 19:31:17+01	therecord	t	2021-12-06 20:00:35.533572+01	therecord/Russia-could-launch-digital-offensive-against-Ukraine-administration-official-warns
 188	Cuba Ransomware Gang Hauls in $44M in Payouts	The gang is using a variety of tools and malware to carry out attacks in volume on critical sectors, the FBI warned.	https://kasperskycontenthub.com/threatpost-global/?p=176790	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/06130820/cuba2-e1638814156705.jpg	Tara Seals	2021-12-06 19:29:59+01	threatpost	t	2021-12-06 20:00:35.533572+01	threatpost/Cuba-Ransomware-Gang-Hauls-in-44M-in-Payouts
+189	Security experts question new DHS/TSA cybersecurity rules for rail companies | ZDNet	Some questioned whether CISA would be overloaded with messages now that rail companies have to report many cybersecurity incidents.	https://www.zdnet.com/article/security-experts-question-new-dhstsa-cybersecurity-rules-for-rail-companies/	https://www.zdnet.com/a/img/resize/0d8afb02ad14070f3546d9d260adab2cc0b69498/2021/12/06/e458798d-bb26-421f-8bcd-10b37bc4793d/train-cyber-security.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-06 19:12:00+01	zdnet	t	2021-12-06 21:00:29.588359+01	zdnet/Security-experts-question-new-DHSTSA-cybersecurity-rules-for-rail-companies--ZDNet
+190	Eurostar tests facial recognition system on London train station	Eurostar is testing a new biometric facial recognition technology on passengers traveling from London's St Pancras International station to continental Europe.	https://www.bleepingcomputer.com/news/technology/eurostar-tests-facial-recognition-system-on-london-train-station/	https://www.bleepstatic.com/content/hl-images/2021/12/06/eurostar.jpg	Bill Toulas	2021-12-06 20:25:41+01	bleepingcomputer	t	2021-12-06 21:00:29.588359+01	bleepingcomputer/Eurostar-tests-facial-recognition-system-on-London-train-station
 \.
 
 
@@ -192,7 +194,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 188, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 190, true);
 
 
 --
