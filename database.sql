@@ -180,6 +180,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 182	Pegasus Spyware Infects U.S. State Department iPhones	It's unknown who's behind the cyberattacks against at least nine employees' iPhones, who are all involved in Ugandan diplomacy.	https://kasperskycontenthub.com/threatpost-global/?p=176779	https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/20141444/white-pegasus-e1626804896117.jpg	Lisa Vaas	2021-12-06 17:25:02+01	threatpost	t	2021-12-06 18:00:33.602711+01	threatpost/Pegasus-Spyware-Infects-US-State-Department-iPhones
 183	Apache Kafka Cloud Clusters Expose Sensitive Data for Large Companies	The culprit is misconfigured Kafdrop interfaces, used for centralized management of the open-source platform.	https://kasperskycontenthub.com/threatpost-global/?p=176778	https://media.threatpost.com/wp-content/uploads/sites/103/2020/03/09191149/insecure-cloud.jpg	Tara Seals	2021-12-06 17:14:54+01	threatpost	t	2021-12-06 18:00:33.602711+01	threatpost/Apache-Kafka-Cloud-Clusters-Expose-Sensitive-Data-for-Large-Companies
 180	A cyber attack has forced supermarket Spar to close some stores | ZDNet	Retailer has been forced to close a number of stores following what it describes as an online attack.	https://www.zdnet.com/article/a-cyber-attack-has-forced-supermarket-spar-to-close-some-stores/	https://www.zdnet.com/a/img/resize/c1a1c0041ed4c607032e01fcd5a1274287ce9b5a/2021/12/06/f4fd85d7-d9c3-4e5a-a562-7c6f25b8e6a4/spar-supermarket-logo.jpg?width=770&height=578&fit=crop&auto=webp	Danny Palmer	2021-12-06 16:38:00+01	zdnet	t	2021-12-06 18:00:33.602711+01	zdnet/A-cyber-attack-has-forced-supermarket-Spar-to-close-some-stores--ZDNet
+184	Best robot toys for kids: LEGO, Raspberry Pi, and other awesome STEM gift ideas | ZDNet	If you want to spark the imagination of your kids and help them hone tech skills they'll need as adults, check out this list of our favorite tech toys.	https://www.zdnet.com/article/best-tech-toys-for-kids-robots-gifts/	https://www.zdnet.com/a/img/resize/5003a0f4a6daa0e63cb14d1c927bc0185dcc3562/2021/12/06/6f0b9581-2de7-43ca-97f1-8aa4d45b3fd8/dji-robomaster-s1.jpg?width=770&height=578&fit=crop&auto=webp	David Gewirtz	2021-12-06 17:29:00+01	zdnet	t	2021-12-06 19:00:27.81948+01	zdnet/Best-robot-toys-for-kids-LEGO-Raspberry-Pi-and-other-awesome-STEM-gift-ideas--ZDNet
+185	Hundreds of SPAR stores shut down, switch to cash after cyberattack	Approximately 330 SPAR shops in North East England face severe operational problems following a weekend cyberattack, forcing many stores to close or switch to cash-only payments.	https://www.bleepingcomputer.com/news/security/hundreds-of-spar-stores-shut-down-switch-to-cash-after-cyberattack/	https://www.bleepstatic.com/content/hl-images/2021/12/06/0_SPAR-Express-in-Ireland-1.jpg	Bill Toulas	2021-12-06 18:22:00+01	bleepingcomputer	t	2021-12-06 19:00:27.81948+01	bleepingcomputer/Hundreds-of-SPAR-stores-shut-down-switch-to-cash-after-cyberattack
 \.
 
 
@@ -187,7 +189,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 183, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 185, true);
 
 
 --
