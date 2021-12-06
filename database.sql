@@ -166,6 +166,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 167	Malicious Excel XLL add-ins push RedLine password-stealing malware	Cybercriminals are spamming website contact forms and discussion forums to distribute Excel XLL files that download and install the RedLine password and information-stealing malware.	https://www.bleepingcomputer.com/news/security/malicious-excel-xll-add-ins-push-redline-password-stealing-malware/	https://www.bleepstatic.com/content/hl-images/2021/04/16/malware-phishing-header.jpg	Lawrence Abrams	2021-12-05 19:45:16+01	bleepingcomputer	t	2021-12-05 20:00:55.666594+01	bleepingcomputer/Malicious-Excel-XLL-add-ins-push-RedLine-password-stealing-malware
 168	No surprise: NSW iVote fails during local council elections | ZDNet	The NSW Electoral Commission had planned and tested for 500,000 online votes, but on election day it just wasn't enough. Critics are not surprised.	https://www.zdnet.com/article/no-surprise-nsw-ivote-fails-during-local-council-elections/	https://www.zdnet.com/a/img/resize/7e7d8f9a61272e0ec87d9c8fd6e5273977309609/2021/05/12/2db1a99a-b95f-4f4e-b41e-f0dc6337440a/voting-australia.jpg?width=770&height=578&fit=crop&auto=webp	Stilgherrian 	2021-12-06 01:41:16+01	zdnet	t	2021-12-06 03:00:51.568199+01	zdnet/No-surprise-NSW-iVote-fails-during-local-council-elections--ZDNet
 169	Australia commences work on electronic surveillance law reforms | ZDNet	Under proposed reforms, Home Affairs will look to revamp various concepts regarding when law enforcement agencies will be able to access data to prevent serious crimes and security threats.	https://www.zdnet.com/article/australia-commences-work-on-electronic-surveillance-law-reforms/	https://www.zdnet.com/a/img/resize/76ecb1de544bfb69c0eed4f609957885cbbf20d7/2021/10/14/31150cff-22bb-4487-b7c2-004fb0db8459/shutterstock-574000213.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2021-12-06 01:19:44+01	zdnet	t	2021-12-06 03:00:51.568199+01	zdnet/Australia-commences-work-on-electronic-surveillance-law-reforms--ZDNet
+170	Didi to leave Wall St listing for Hong Kong Stock Exchange | ZDNet	Six months after appearing on the New York Stock Exchange, Didi is leaving it to list in Hong Kong.	https://www.zdnet.com/article/didi-to-leave-wall-st-listing-for-hong-kong-stock-exchange/	https://www.zdnet.com/a/img/resize/4fb154171752646f34c7b5f749d3281d9a6d8057/2018/05/30/5806df6c-5fe3-4f25-8008-d7e66f69d995/nyse-wall-st-javenlin.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2021-12-06 03:16:04+01	zdnet	t	2021-12-06 05:00:35.329359+01	zdnet/Didi-to-leave-Wall-St-listing-for-Hong-Kong-Stock-Exchange--ZDNet
 \.
 
 
@@ -173,7 +174,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 169, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 170, true);
 
 
 --
