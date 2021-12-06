@@ -171,6 +171,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 172	As Twitter removes blue badges for many, phishing targets verified accounts	A new phishing campaign has been targeting verified Twitter accounts, as seen by BleepingComputer. The phishing campaign follows Twitter's recent removal of the checkmark from a number of verified accounts, citing that these were ineligible for the legendary status, and verified in error.	https://www.bleepingcomputer.com/news/security/as-twitter-removes-blue-badges-for-many-phishing-targets-verified-accounts/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Twitter--header.jpg	Ax Sharma	2021-12-05 10:50:00+01	bleepingcomputer	t	2021-12-06 07:01:22.473924+01	bleepingcomputer/As-Twitter-removes-blue-badges-for-many-phishing-targets-verified-accounts
 173	Zoho warns of new zero-day vulnerability exploited in attacks	Zoho urged customers on Friday to update their ManageEngine servers and apply a software fix that patches a zero-day vulnerability that is currently being exploited in the wild.	https://therecord.media/zoho-warns-of-new-zero-day-vulnerability-exploited-in-attacks/	https://therecord.media/wp-content/uploads/2021/12/Zoho.jpg	Catalin Cimpanu	2021-12-06 07:01:00+01	therecord	t	2021-12-06 09:00:49.682977+01	therecord/Zoho-warns-of-new-zero-day-vulnerability-exploited-in-attacks
 174	BitMart loses $150 million in the second-largest crypto-heist of the year	Cryptocurrency exchange BitMart said on Saturday that it was hacked for $150 million in what was the third hack of a cryptocurrency exchange of last week and the second-largest crypto-heist of the year.	https://therecord.media/bitmart-loses-150-million-in-the-second-largest-crypto-heist-of-the-year/	https://therecord.media/wp-content/uploads/2021/12/BitMart.jpg	Catalin Cimpanu	2021-12-06 12:11:35+01	therecord	t	2021-12-06 13:00:36.111444+01	therecord/BitMart-loses-150-million-in-the-second-largest-crypto-heist-of-the-year
+175	Web skimmers hit 300+ sites hidden inside Google Tag Manager containers	Threat actors have abused a legitimate feature of the Google Tag Manager service to secretly add and deploy malicious JavaScript code to more than 300 e-commerce stores since March this year.	https://therecord.media/web-skimmers-hit-300-sites-hidden-inside-google-tag-manager-containers/	https://therecord.media/wp-content/uploads/2021/12/shopping-cart-ecommerce.jpg	Catalin Cimpanu	2021-12-06 16:00:00+01	therecord	t	2021-12-06 16:00:27.104809+01	therecord/Web-skimmers-hit-300-sites-hidden-inside-Google-Tag-Manager-containers
 \.
 
 
@@ -178,7 +179,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 174, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 175, true);
 
 
 --
