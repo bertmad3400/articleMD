@@ -192,6 +192,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 193	Microsoft seizes sites used by APT15 Chinese state hackers	Microsoft seized today dozens of malicious sites used by the Nickel China-based hacking group to target organizations in the US and 28 other countries worldwide.	https://www.bleepingcomputer.com/news/microsoft/microsoft-seizes-sites-used-by-apt15-chinese-state-hackers/	https://www.bleepstatic.com/content/hl-images/2021/11/08/China_hacker.jpg	Sergiu Gatlan	2021-12-06 22:53:08+01	bleepingcomputer	t	2021-12-06 23:00:25.714515+01	bleepingcomputer/Microsoft-seizes-sites-used-by-APT15-Chinese-state-hackers
 194	Microsoft seizes domains used by Chinese cyber-espionage group Nickel (APT15)	Microsoft said today that its legal team has successfully obtained a court warrant that allowed it to seize 42 domains used by a Chinese cyber-espionage group in recent operations that targeted organizations in the US and 28 other countries.	https://therecord.media/microsoft-seizes-domains-used-by-chinese-cyber-espionage-group-nickel-apt15/	https://therecord.media/wp-content/uploads/2021/11/china-flag-beijing.png	Catalin Cimpanu	2021-12-06 22:45:23+01	therecord	t	2021-12-06 23:00:25.714515+01	therecord/Microsoft-seizes-domains-used-by-Chinese-cyber-espionage-group-Nickel-APT15
 195	Are You Guilty of These 8 Network-Security Bad Practices?	Tony Lauro, director of Security Technology & Strategy at Akamai, discusses VPNs, RDP, flat networks, BYOD and other network-security bugbears.	https://kasperskycontenthub.com/threatpost-global/?p=176798	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/06162635/Bad-business-practice-e1638826008203.jpg	Tony Lauro	2021-12-06 22:47:45+01	threatpost	t	2021-12-06 23:00:25.714515+01	threatpost/Are-You-Guilty-of-These-8-Network-Security-Bad-Practices
+196	Best gifts for hackers: Cybersecurity presents, secured | ZDNet	From hobbyist hackers and programmers to professionals, people will love our picks for tech gifts this holiday season.	https://www.zdnet.com/article/best-gift-for-hackers/	https://www.zdnet.com/a/img/resize/3884b8c252ea52303e6fdffbb3a7483cb8338c35/2021/12/06/ed6b06a8-ae34-44b7-8700-b414434c2c8f/gift-guide-hackers.png?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2021-12-06 22:06:00+01	zdnet	t	2021-12-07 00:00:28.438143+01	zdnet/Best-gifts-for-hackers-Cybersecurity-presents-secured--ZDNet
+197	Crypto-Exchange BitMart Will Pay Users for $200M Theft	BitMart confirmed it had been drained of ~$150 million in cryptocurrency assets, but a blockchain security firm said it's closer to $200 million.	https://kasperskycontenthub.com/threatpost-global/?p=176805	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/06165641/ethereum-wallet-e1638827813860.jpeg	Lisa Vaas	2021-12-06 23:09:50+01	threatpost	t	2021-12-07 00:00:28.438143+01	threatpost/Crypto-Exchange-BitMart-Will-Pay-Users-for-200M-Theft
 \.
 
 
@@ -199,7 +201,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 195, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 197, true);
 
 
 --
