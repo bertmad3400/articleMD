@@ -169,6 +169,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 170	Didi to leave Wall St listing for Hong Kong Stock Exchange | ZDNet	Six months after appearing on the New York Stock Exchange, Didi is leaving it to list in Hong Kong.	https://www.zdnet.com/article/didi-to-leave-wall-st-listing-for-hong-kong-stock-exchange/	https://www.zdnet.com/a/img/resize/4fb154171752646f34c7b5f749d3281d9a6d8057/2018/05/30/5806df6c-5fe3-4f25-8008-d7e66f69d995/nyse-wall-st-javenlin.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2021-12-06 03:16:04+01	zdnet	t	2021-12-06 05:00:35.329359+01	zdnet/Didi-to-leave-Wall-St-listing-for-Hong-Kong-Stock-Exchange--ZDNet
 171	ASIC says financial market cyber resiliency remained steady but fell short of target | ZDNet	The corporate watchdog said overly ambitious targets, a rise in cyber threats, and COVID-19 disruptions were to blame for the cyber resiliency shortfall.	https://www.zdnet.com/article/asic-says-financial-market-cyber-resiliency-remained-steady-but-fell-short-of-target/	https://www.zdnet.com/a/img/resize/63ceca769d1b25fc121800ea262da0b45165e560/2014/09/18/085727c9-3f39-11e4-b6a0-d4ae52e95e57/sneaking-security-into-telstra-macquarie-bank.jpg?width=770&height=578&fit=crop&auto=webp	Aimee Chanthadavong	2021-12-06 05:08:50+01	zdnet	t	2021-12-06 07:01:22.473924+01	zdnet/ASIC-says-financial-market-cyber-resiliency-remained-steady-but-fell-short-of-target--ZDNet
 172	As Twitter removes blue badges for many, phishing targets verified accounts	A new phishing campaign has been targeting verified Twitter accounts, as seen by BleepingComputer. The phishing campaign follows Twitter's recent removal of the checkmark from a number of verified accounts, citing that these were ineligible for the legendary status, and verified in error.	https://www.bleepingcomputer.com/news/security/as-twitter-removes-blue-badges-for-many-phishing-targets-verified-accounts/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Twitter--header.jpg	Ax Sharma	2021-12-05 10:50:00+01	bleepingcomputer	t	2021-12-06 07:01:22.473924+01	bleepingcomputer/As-Twitter-removes-blue-badges-for-many-phishing-targets-verified-accounts
+173	Zoho warns of new zero-day vulnerability exploited in attacks	Zoho urged customers on Friday to update their ManageEngine servers and apply a software fix that patches a zero-day vulnerability that is currently being exploited in the wild.	https://therecord.media/zoho-warns-of-new-zero-day-vulnerability-exploited-in-attacks/	https://therecord.media/wp-content/uploads/2021/12/Zoho.jpg	Catalin Cimpanu	2021-12-06 07:01:00+01	therecord	t	2021-12-06 09:00:49.682977+01	therecord/Zoho-warns-of-new-zero-day-vulnerability-exploited-in-attacks
 \.
 
 
@@ -176,7 +177,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 172, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 173, true);
 
 
 --
