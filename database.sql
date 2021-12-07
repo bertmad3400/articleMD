@@ -210,6 +210,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 211	Rust takes a major step forward as Linux's second official language | ZDNet	Linux is getting more Rust in it by the day.	https://www.zdnet.com/article/rust-takes-a-major-step-forward-as-linuxs-second-official-language/	https://www.zdnet.com/a/img/resize/b4d0dbc2f65bf5f8ac6eb365774427876a8e0be6/2021/07/15/8d7d0acf-85fa-4fc4-8e79-445c5eceede4/rust-programming-language-a-long-road-ahead-for-the-linux-kernal.jpg?width=770&height=578&fit=crop&auto=webp	Steven J. Vaughan-Nichols	2021-12-07 16:29:46+01	zdnet	t	2021-12-07 18:00:28.871188+01	zdnet/Rust-takes-a-major-step-forward-as-Linuxs-second-official-language--ZDNet
 212	Google disrupts massive Glupteba botnet, sues Russian operators	Google has taken action to disrupt the Glupteba botnet that now controls more than 1 million Windows PCs around the world, growing by thousands of new infected devices each day.	https://www.bleepingcomputer.com/news/security/google-disrupts-massive-glupteba-botnet-sues-russian-operators/	https://www.bleepstatic.com/content/hl-images/2021/12/07/Glupteba.jpg	Sergiu Gatlan	2021-12-07 17:57:23+01	bleepingcomputer	t	2021-12-07 18:00:28.871188+01	bleepingcomputer/Google-disrupts-massive-Glupteba-botnet-sues-Russian-operators
 213	Google disrupts Glupteba botnet, files lawsuit against two Russians	Google has announced today that it has disrupted the operations of the Glupteba botnet and has filed a lawsuit against two Russian nationals it believes have created and helped run the malware for the past few years.	https://therecord.media/google-disrupts-glupteba-malware-botnet-files-lawsuit-against-two-russians/	https://therecord.media/wp-content/uploads/2021/12/botnet-map-globe-cyber.jpg	Catalin Cimpanu	2021-12-07 17:34:47+01	therecord	t	2021-12-07 18:00:28.871188+01	therecord/Google-disrupts-Glupteba-botnet-files-lawsuit-against-two-Russians
+214	How to use FileVault to protect business data on Macs	If you use Macs for business, you should be familiar with FileVault. Apple’s built-in disk encryption system for macOS can help protect corporate data.	https://www.computerworld.com/article/3643332/how-to-use-filevault-to-protect-business-data-on-macs.html	https://images.idgesg.net/images/idge/imported/imageapi/2021/03/30/11/filevault-macos-icon-100882745-large.jpg?auto=webp&quality=85,70	Jonny Evans	2021-12-02 00:00:00+01	computerworld	t	2021-12-07 19:00:27.539189+01	computerworld/How-to-use-FileVault-to-protect-business-data-on-Macs
+215	Google Takes Down Glupteba Botnet; Files Lawsuit Against Operators	The malware's unique blockchain-enabled backup C2 scheme makes it difficult to eliminate completely.	https://kasperskycontenthub.com/threatpost-global/?p=176826	https://media.threatpost.com/wp-content/uploads/sites/103/2021/05/19122836/Botnet2-e1621441729944.jpg	Tara Seals	2021-12-07 18:13:51+01	threatpost	t	2021-12-07 19:00:27.539189+01	threatpost/Google-Takes-Down-Glupteba-Botnet-Files-Lawsuit-Against-Operators
 \.
 
 
@@ -217,7 +219,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 213, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 215, true);
 
 
 --
