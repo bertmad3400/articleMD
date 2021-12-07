@@ -1,0 +1,85 @@
+# QNAP warns users of bitcoin miner targeting their NAS devices
+### QNAP warned customers today of ongoing attacks targeting their NAS (network-attached storage) devices with cryptomining malware, urging them to take measures to protect them immediately.
+
+## Information:
++ Source: Bleeping Computer
++ Link: https://www.bleepingcomputer.com/news/security/qnap-warns-users-of-bitcoin-miner-targeting-their-nas-devices/
++ Date: 2021-12-07T08:53:43-05:00
++ Author: Sergiu Gatlan
+
+
+## Article:
+![Article Image](https://www.bleepstatic.com/content/hl-images/2021/04/29/QNAP-headpic.jpg)
+
+![QNAP warns users of bitcoin miner targeting their NAS devices](https://www.bleepstatic.com/content/hl-images/2021/04/29/QNAP-headpic.jpg)
+
+
+QNAP warned customers today of ongoing attacks targeting their NAS (network-attached storage) devices with cryptomining malware, urging them to take measures to protect them immediately
+
+
+The cryptominer deployed in this campaign on compromised devices will create a new process named [oom\_reaper] that will mine for Bitcoin cryptocurrency.
+
+
+While running, the malware can take up to 50% of all CPU resources and will mimic a kernel process with a PID higher than 1000.
+
+
+"We strongly recommend users to act immediately to protect their device," QNAP said in a security advisory published today. "If you have any questions regarding this issue, please contact us through the [QNAP Helpdesk](https://www.qnap.com/go/support-ticket/)."
+
+
+Customers who suspect their NAS is infected with this bitcoin miner are advised to restart their device, which may remove the malware.
+
+
+QNAP also recommends customers take the following measures to protect their devices from these attacks:
+
+
+1. Update QTS or QuTS hero to the latest version.
+2. Install and update Malware Remover to the latest version.
+3. Use stronger passwords for your administrator and other user accounts.
+4. Update all installed applications to their latest versions.
+5. Do not expose your NAS to the internet, or avoid using default system port numbers 443 and 8080.
+
+You can find detailed information on the steps required for each of the actions above in [today's security advisory](https://www.qnap.com/en/security-advisory/QSA-21-56).
+
+
+QNAP NAS devices under siege
+----------------------------
+
+
+NAS devices are an attractive target for attackers, and this is not the first time QNAP systems were targeted by cryptomining malware this year.
+
+
+In March, researchers at Qihoo 360's Network Security Research Lab (360 Netlab) revealed that a cryptominer dubbed [UnityMiner was hijacking QNAP NAS devices](https://www.bleepingcomputer.com/news/security/unpatched-qnap-devices-are-being-hacked-to-mine-cryptocurrency/) unpatched against two pre-auth remote command execution (RCE) [vulnerabilities in the Helpdesk app](https://www.bleepingcomputer.com/news/security/qnap-fixes-critical-flaws-that-could-lead-to-device-takeover/).
+
+
+In January, QNAP users were also [urged to defend their devices](https://www.bleepingcomputer.com/news/security/qnap-warns-users-to-secure-nas-devices-against-dovecat-malware/) from a malware campaign that made them unusable after spawning dovecat and dedpma processes that would hog up almost all system resources.
+
+
+QNAP also notified customers of eCh0raix ransomware (also known as QNAPCrypt) [attacks in May](https://www.bleepingcomputer.com/news/security/qnap-warns-of-ech0raix-ransomware-attacks-roon-server-zero-day/) (as well as in [June 2019](https://www.bleepingcomputer.com/news/security/ongoing-ech0raix-ransomware-campaign-targets-qnap-nas-devices/) and [June 2020](https://www.bleepingcomputer.com/news/security/ongoing-ech0raix-ransomware-campaign-targets-qnap-nas-devices/)). This alert came just two weeks after another warning of an [AgeLocker ransomware outbreak](https://www.bleepingcomputer.com/news/security/qnap-warns-of-agelocker-ransomware-attacks-on-nas-devices/).
+
+
+A massive [Qlocker ransomware campaign](https://www.bleepingcomputer.com/news/security/massive-qlocker-ransomware-attack-uses-7zip-to-encrypt-qnap-devices/) also started hitting vulnerable QNAP devices beginning mid-April. The attackers [made $260,000 in just five days](https://www.bleepingcomputer.com/news/security/a-ransomware-gang-made-260-000-in-5-days-using-the-7zip-utility/) by locking the victims' data using the 7zip open-source file archiver.
+
+
+QNAP customers who want to secure their NAS devices from attacks further are advised to follow these [best practices](https://www.qnap.com/en/how-to/faq/article/what-is-the-best-practice-for-enhancing-nas-security).
+
+
+
+
+
+## Tags:
+
+#### Threatactor:
+[[threatactor.name=APT37]]
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Miner-C]] [[action.malware.name=Net]] [[action.malware.name=Reg]] [[action.malware.name=Tor]]
+
+#### Industry:
+[[victim.industry.name=Mining]]
+
+#### Location:
+[[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Qnap]] [[Nas]] [[Malware]] [[Ransomware]] [[Bleeping Computer]]
+
