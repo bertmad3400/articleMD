@@ -205,6 +205,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 206	Twitter bots monitor every tweet to push cryptocurrency scams	Scammers monitor every tweet containing requests for support on MetaMask, TrustWallet, and other popular crypto wallets, and respond to them with scam links in just seconds.	https://www.bleepingcomputer.com/news/security/twitter-bots-monitor-every-tweet-to-push-cryptocurrency-scams/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Twitter--header.jpg	Lawrence Abrams	2021-12-07 10:04:02+01	bleepingcomputer	t	2021-12-07 15:00:28.402541+01	bleepingcomputer/Twitter-bots-monitor-every-tweet-to-push-cryptocurrency-scams
 207	Hackers Target Random Business Printers To Spread Anti-Work Messages	Unidentified hackers are hacking insecure business printers globally to spread anti-work messages while promoting r/antiwork subreddit.	https://latesthackingnews.com/2021/12/07/hackers-target-random-business-printers-to-spread-anti-work-messages/	https://latesthackingnews.com/wp-content/uploads/2021/08/printer.jpg	Abeerah Hashim	2021-12-07 00:00:00+01	latesthackingnews	t	2021-12-07 16:00:28.20843+01	latesthackingnews/Hackers-Target-Random-Business-Printers-To-Spread-Anti-Work-Messages
 208	Twitter bots pose as support staff to steal your cryptocurrency	Scammers monitor every tweet containing requests for support on MetaMask, TrustWallet, and other popular crypto wallets, and respond to them with scam links in just seconds.	https://www.bleepingcomputer.com/news/security/twitter-bots-pose-as-support-staff-to-steal-your-cryptocurrency/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Twitter--header.jpg	Lawrence Abrams	2021-12-07 10:04:02+01	bleepingcomputer	t	2021-12-07 16:00:28.20843+01	bleepingcomputer/Twitter-bots-pose-as-support-staff-to-steal-your-cryptocurrency
+209	27 flaws in USB-over-network SDK affect millions of cloud users	Researchers have discovered 27 vulnerabilities in Eltima SDK, a library used by numerous cloud providers to remotely mount a local USB device.	https://www.bleepingcomputer.com/news/security/27-flaws-in-usb-over-network-sdk-affect-millions-of-cloud-users/	https://www.bleepstatic.com/content/hl-images/2021/12/07/dark_cloud.jpg	Bill Toulas	2021-12-07 16:15:44+01	bleepingcomputer	t	2021-12-07 17:00:27.40373+01	bleepingcomputer/27-flaws-in-USB-over-network-SDK-affect-millions-of-cloud-users
+210	STOP Ransomware vaccine released to block encryption	German security software company G DATA has released a vaccine that will block STOP Ransomware from encrypting victims' files after infection.	https://www.bleepingcomputer.com/news/security/stop-ransomware-vaccine-released-to-block-encryption/	https://www.bleepstatic.com/content/hl-images/2021/12/07/Stop_ransomware.jpg	Sergiu Gatlan	2021-12-07 16:06:39+01	bleepingcomputer	t	2021-12-07 17:00:27.40373+01	bleepingcomputer/STOP-Ransomware-vaccine-released-to-block-encryption
 \.
 
 
@@ -212,7 +214,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 208, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 210, true);
 
 
 --
