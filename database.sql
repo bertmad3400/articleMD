@@ -203,6 +203,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 204	SolarWinds Attackers Spotted Using New Tactics, Malware	One year after the disruptive supply-chain attacks, researchers have observed two new clusters of activity from the Russia-based actors that signal a significant threat may be brewing.	https://kasperskycontenthub.com/threatpost-global/?p=176818	https://media.threatpost.com/wp-content/uploads/sites/103/2021/01/11123618/solarwind-1-e1619800325586.jpg	Elizabeth Montalbano	2021-12-07 14:24:30+01	threatpost	t	2021-12-07 15:00:28.402541+01	threatpost/SolarWinds-Attackers-Spotted-Using-New-Tactics-Malware
 205	QNAP warns users of bitcoin miner targeting their NAS devices	QNAP warned customers today of ongoing attacks targeting their NAS (network-attached storage) devices with cryptomining malware, urging them to take measures to protect them immediately.	https://www.bleepingcomputer.com/news/security/qnap-warns-users-of-bitcoin-miner-targeting-their-nas-devices/	https://www.bleepstatic.com/content/hl-images/2021/04/29/QNAP-headpic.jpg	Sergiu Gatlan	2021-12-07 14:53:43+01	bleepingcomputer	t	2021-12-07 15:00:28.402541+01	bleepingcomputer/QNAP-warns-users-of-bitcoin-miner-targeting-their-NAS-devices
 206	Twitter bots monitor every tweet to push cryptocurrency scams	Scammers monitor every tweet containing requests for support on MetaMask, TrustWallet, and other popular crypto wallets, and respond to them with scam links in just seconds.	https://www.bleepingcomputer.com/news/security/twitter-bots-monitor-every-tweet-to-push-cryptocurrency-scams/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Twitter--header.jpg	Lawrence Abrams	2021-12-07 10:04:02+01	bleepingcomputer	t	2021-12-07 15:00:28.402541+01	bleepingcomputer/Twitter-bots-monitor-every-tweet-to-push-cryptocurrency-scams
+207	Hackers Target Random Business Printers To Spread Anti-Work Messages	Unidentified hackers are hacking insecure business printers globally to spread anti-work messages while promoting r/antiwork subreddit.	https://latesthackingnews.com/2021/12/07/hackers-target-random-business-printers-to-spread-anti-work-messages/	https://latesthackingnews.com/wp-content/uploads/2021/08/printer.jpg	Abeerah Hashim	2021-12-07 00:00:00+01	latesthackingnews	t	2021-12-07 16:00:28.20843+01	latesthackingnews/Hackers-Target-Random-Business-Printers-To-Spread-Anti-Work-Messages
+208	Twitter bots pose as support staff to steal your cryptocurrency	Scammers monitor every tweet containing requests for support on MetaMask, TrustWallet, and other popular crypto wallets, and respond to them with scam links in just seconds.	https://www.bleepingcomputer.com/news/security/twitter-bots-pose-as-support-staff-to-steal-your-cryptocurrency/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Twitter--header.jpg	Lawrence Abrams	2021-12-07 10:04:02+01	bleepingcomputer	t	2021-12-07 16:00:28.20843+01	bleepingcomputer/Twitter-bots-pose-as-support-staff-to-steal-your-cryptocurrency
 \.
 
 
@@ -210,7 +212,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 206, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 208, true);
 
 
 --
