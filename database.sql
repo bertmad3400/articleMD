@@ -194,6 +194,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 195	Are You Guilty of These 8 Network-Security Bad Practices?	Tony Lauro, director of Security Technology & Strategy at Akamai, discusses VPNs, RDP, flat networks, BYOD and other network-security bugbears.	https://kasperskycontenthub.com/threatpost-global/?p=176798	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/06162635/Bad-business-practice-e1638826008203.jpg	Tony Lauro	2021-12-06 22:47:45+01	threatpost	t	2021-12-06 23:00:25.714515+01	threatpost/Are-You-Guilty-of-These-8-Network-Security-Bad-Practices
 196	Best gifts for hackers: Cybersecurity presents, secured | ZDNet	From hobbyist hackers and programmers to professionals, people will love our picks for tech gifts this holiday season.	https://www.zdnet.com/article/best-gift-for-hackers/	https://www.zdnet.com/a/img/resize/3884b8c252ea52303e6fdffbb3a7483cb8338c35/2021/12/06/ed6b06a8-ae34-44b7-8700-b414434c2c8f/gift-guide-hackers.png?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2021-12-06 22:06:00+01	zdnet	t	2021-12-07 00:00:28.438143+01	zdnet/Best-gifts-for-hackers-Cybersecurity-presents-secured--ZDNet
 197	Crypto-Exchange BitMart Will Pay Users for $200M Theft	BitMart confirmed it had been drained of ~$150 million in cryptocurrency assets, but a blockchain security firm said it's closer to $200 million.	https://kasperskycontenthub.com/threatpost-global/?p=176805	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/06165641/ethereum-wallet-e1638827813860.jpeg	Lisa Vaas	2021-12-06 23:09:50+01	threatpost	t	2021-12-07 00:00:28.438143+01	threatpost/Crypto-Exchange-BitMart-Will-Pay-Users-for-200M-Theft
+198	Microsoft seizes domains used to attack 29 governments across Latin America, Caribbean, Europe | ZDNet	Microsoft said a group based in China named Nickel was using domains to attack government groups and NGOs.	https://www.zdnet.com/article/microsoft-seizes-domains-used-to-attack-29-governments-across-latin-america-caribbean-europe/	https://www.zdnet.com/a/img/resize/72ed23277880a96bf3606da542e2e93812474497/2021/09/15/82ec1a5e-3144-4f77-9909-21ce5e482dab/microsoft-security.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-06 23:14:11+01	zdnet	t	2021-12-07 01:00:28.020727+01	zdnet/Microsoft-seizes-domains-used-to-attack-29-governments-across-Latin-America-Caribbean-Europe--ZDNet
 \.
 
 
@@ -201,7 +202,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 197, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 198, true);
 
 
 --
