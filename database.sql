@@ -196,6 +196,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 197	Crypto-Exchange BitMart Will Pay Users for $200M Theft	BitMart confirmed it had been drained of ~$150 million in cryptocurrency assets, but a blockchain security firm said it's closer to $200 million.	https://kasperskycontenthub.com/threatpost-global/?p=176805	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/06165641/ethereum-wallet-e1638827813860.jpeg	Lisa Vaas	2021-12-06 23:09:50+01	threatpost	t	2021-12-07 00:00:28.438143+01	threatpost/Crypto-Exchange-BitMart-Will-Pay-Users-for-200M-Theft
 198	Microsoft seizes domains used to attack 29 governments across Latin America, Caribbean, Europe | ZDNet	Microsoft said a group based in China named Nickel was using domains to attack government groups and NGOs.	https://www.zdnet.com/article/microsoft-seizes-domains-used-to-attack-29-governments-across-latin-america-caribbean-europe/	https://www.zdnet.com/a/img/resize/72ed23277880a96bf3606da542e2e93812474497/2021/09/15/82ec1a5e-3144-4f77-9909-21ce5e482dab/microsoft-security.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-06 23:14:11+01	zdnet	t	2021-12-07 01:00:28.020727+01	zdnet/Microsoft-seizes-domains-used-to-attack-29-governments-across-Latin-America-Caribbean-Europe--ZDNet
 199	Hackers pretending to be Iranian govt use SMS messages to steal credit card info, create botnet | ZDNet	Hackers in Iran have been able to convince citizens to download malicious applications by claiming judicial complaints have been filed against them.	https://www.zdnet.com/article/hackers-pretending-to-be-iranian-govt-use-sms-messages-to-steal-credit-card-info-create-botnet/	https://www.zdnet.com/a/img/resize/c2ac2f2f9fbed08c3621002581e084c96e95e152/2018/05/09/9824ea10-5e49-4e4e-9202-a97915bb5fa4/iran-thumb.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-07 00:38:54+01	zdnet	t	2021-12-07 02:00:27.53908+01	zdnet/Hackers-pretending-to-be-Iranian-govt-use-SMS-messages-to-steal-credit-card-info-create-botnet--ZDNet
+200	Nordic Choice Hotels hit by Conti ransomware, no ransom demand yet	Nordic Choice Hotels has now confirmed a cyber attack on its systems from the Conti ransomware group. Although there is no indication of card or payment information being affected, information pertaining to guest bookings was potentially leaked.	https://www.bleepingcomputer.com/news/security/nordic-choice-hotels-hit-by-conti-ransomware-no-ransom-demand-yet/	https://www.bleepstatic.com/content/hl-images/2021/12/07/nordic-bg.png	Ax Sharma	2021-12-07 08:39:46+01	bleepingcomputer	t	2021-12-07 09:00:27.528658+01	bleepingcomputer/Nordic-Choice-Hotels-hit-by-Conti-ransomware-no-ransom-demand-yet
 \.
 
 
@@ -203,7 +204,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 199, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 200, true);
 
 
 --
