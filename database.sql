@@ -215,6 +215,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 216	New Cerber ransomware targets Confluence and GitLab servers	Cerber ransomware is back, as a new ransomware family adopts the old name and targets Atlassian Confluence and GitLab servers using remote code execution vulnerabilities.	https://www.bleepingcomputer.com/news/security/new-cerber-ransomware-targets-confluence-and-gitlab-servers/	https://www.bleepstatic.com/content/hl-images/2021/12/07/Cerber___ransomware.jpg	Lawrence Abrams	2021-12-07 19:19:53+01	bleepingcomputer	t	2021-12-07 20:00:30.553408+01	bleepingcomputer/New-Cerber-ransomware-targets-Confluence-and-GitLab-servers
 217	Israeli govt pledges greater oversight of cyber exports after NSO tools used to spy on US officials | ZDNet	A government agency said it will force countries to sign a pledge not to use the spyware tools for anything besides terrorism and serious crimes.	https://www.zdnet.com/article/israeli-govt-pledges-greater-oversight-of-cyber-exports-after-nso-tools-used-to-spy-on-us-officials/	https://www.zdnet.com/a/img/resize/deedf28be02f5d029f3fbfc2b12e7fef354e14c1/2020/12/21/4865e211-37a1-4556-83f9-86f3e885a96f/nso-group.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-07 18:47:19+01	zdnet	t	2021-12-07 20:00:30.553408+01	zdnet/Israeli-govt-pledges-greater-oversight-of-cyber-exports-after-NSO-tools-used-to-spy-on-US-officials--ZDNet
 218	AWS goes down and with it goes a host of websites and services | ZDNet	You may not know it but many of the websites and services you rely on run on Amazon Web Services, and when it goes down, so do they.	https://www.zdnet.com/article/aws-goes-down-and-with-it-goes-a-host-of-websites-and-services/	https://www.zdnet.com/a/img/resize/0a7be23ca2aa4546ca347e80739fb6346dee07e8/2021/11/16/2bd0825d-e720-4f65-8cc2-4ef198a1caea/shutterstock-1455620315.jpg?width=770&height=578&fit=crop&auto=webp	Steven J. Vaughan-Nichols	2021-12-07 18:00:18+01	zdnet	t	2021-12-07 20:00:30.553408+01	zdnet/AWS-goes-down-and-with-it-goes-a-host-of-websites-and-services--ZDNet
+219	Microsoft starts rolling out redesigned Notepad for Windows 11	Microsoft has started rolling out the new and completely redesigned Notepad for Windows 11 to all Windows Insiders in the Dev Channel.	https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-rolling-out-redesigned-notepad-for-windows-11/	https://www.bleepstatic.com/content/posts/2021/12/07/Windows_11_Notepad.jpg	Sergiu Gatlan	2021-12-07 20:22:58+01	bleepingcomputer	t	2021-12-07 21:00:28.241896+01	bleepingcomputer/Microsoft-starts-rolling-out-redesigned-Notepad-for-Windows-11
 \.
 
 
@@ -222,7 +223,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 218, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 219, true);
 
 
 --
