@@ -243,6 +243,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 244	Best VPNs for small and home-based businesses in 2021 | ZDNet	We take a look at some small-business VPNs that can help you consolidate billing and optimize your company's overall security profile.	https://www.zdnet.com/article/best-vpn-for-small-and-home-based-businesses/	https://www.zdnet.com/a/img/resize/7181d180f283f5df37bd3dab5fa91765fb8d0576/2021/09/03/480b69f4-89a3-4338-85c7-a898aef5bd51/shutterstock-1935153176.jpg?width=770&height=578&fit=crop&auto=webp	David Gewirtz	2021-12-08 15:27:07+01	zdnet	t	2021-12-08 17:00:30.164323+01	zdnet/Best-VPNs-for-small-and-home-based-businesses-in-2021--ZDNet
 245	XE Group exposed for eight years of hacking, credit card theft	A relatively unknown group of Vietnamese hackers calling themselves 'XE Group' has been linked to eight years of for-profit hacking and credit card skimming.	https://www.bleepingcomputer.com/news/security/xe-group-exposed-for-eight-years-of-hacking-credit-card-theft/	https://www.bleepstatic.com/content/hl-images/2021/02/02/Online-shopping-card.jpg	Bill Toulas	2021-12-08 16:12:35+01	bleepingcomputer	t	2021-12-08 17:00:30.164323+01	bleepingcomputer/XE-Group-exposed-for-eight-years-of-hacking-credit-card-theft
 246	Confluence and GitLab servers targeted by new ransomware strain	Over the past few days, a ransomware group has leveraged exploits for recently disclosed vulnerabilities to gain access to unpatched Confluence and GitLab servers, encrypt their files, and then ask server owners for a ransom payment to recover their data.	https://therecord.media/confluence-and-gitlab-servers-targeted-by-new-ransomware-strain/	https://therecord.media/wp-content/uploads/2021/12/New-Cerber.jpg	Catalin Cimpanu	2021-12-08 16:43:26+01	therecord	t	2021-12-08 17:00:30.164323+01	therecord/Confluence-and-GitLab-servers-targeted-by-new-ransomware-strain
+247	Senate Armed Services advances DoD CIO nominee	The Senate Armed Services Committee on Wednesday advanced President Joe Biden’s nominee for Defense Department chief information officer.	https://therecord.media/senate-armed-services-advances-dod-cio-nominee/	https://therecord.media/wp-content/uploads/2021/12/Screen-Shot-2021-12-08-at-10.45.44-AM.png	Martin Matishak	2021-12-08 17:07:08+01	therecord	t	2021-12-08 18:00:29.228902+01	therecord/Senate-Armed-Services-advances-DoD-CIO-nominee
 \.
 
 
@@ -250,7 +251,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 246, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 247, true);
 
 
 --
