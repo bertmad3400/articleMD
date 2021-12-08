@@ -228,6 +228,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 230	Canadian indicted for launching ransomware attacks on orgs in US, Canada | ZDNet	US officials had been investigating 31-year-old Canadian Matthew Philbert since 2018.	https://www.zdnet.com/article/canadian-indicted-for-launching-ransomware-attacks-in-us/	https://www.zdnet.com/a/img/resize/13ae50dad19fad76a55ec6b4fa192d06429898b4/2021/09/27/11cf4ae8-38a8-4caa-8a94-b2652ec8bc61/fbi-decision-to-withhold-kaseya-ransomware.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-07 22:46:00+01	zdnet	t	2021-12-08 00:00:27.889044+01	zdnet/Canadian-indicted-for-launching-ransomware-attacks-on-orgs-in-US-Canada--ZDNet
 231	First certified 'secured-core' Windows Servers and Azure Stack HCI servers are now available | ZDNet	Microsoft's promised secured-core servers, running Windows Server and Azure Stack HCI, are available for purchase.	https://www.zdnet.com/article/first-certified-secured-core-windows-servers-and-azure-stack-hci-servers-are-now-available/	https://www.zdnet.com/a/img/resize/79b71f1e47601efb51ebe658526197e64e3fcc99/2021/12/07/2cdfd657-9aeb-4bb1-973c-6753676cf18a/securedcoreservers.jpg?width=770&height=578&fit=crop&auto=webp	Mary Jo Foley	2021-12-07 22:14:00+01	zdnet	t	2021-12-08 00:00:27.889044+01	zdnet/First-certified-secured-core-Windows-Servers-and-Azure-Stack-HCI-servers-are-now-available--ZDNet
 229	Grafana fixes zero-day vulnerability after exploits spread over Twitter	Open-source analytics and interactive visualization solution Grafana received an emergency update today to fix a high-severity, zero-day vulnerability that enabled remote access to local files.	https://www.bleepingcomputer.com/news/security/grafana-fixes-zero-day-vulnerability-after-exploits-spread-over-twitter/	https://www.bleepstatic.com/content/posts/2021/12/07/Modal_dashboards.png	Ionut Ilascu	2021-12-07 23:46:58+01	bleepingcomputer	t	2021-12-08 00:00:27.889044+01	bleepingcomputer/Grafana-fixes-zero-day-vulnerability-after-exploits-spread-over-Twitter
+232	Emotet now drops Cobalt Strike, fast forwards ransomware attacks	In a concerning development, the notorious Emotet malware now installs Cobalt Strike beacons directly, giving immediate network access to threat actors and making ransomware attacks imminent.	https://www.bleepingcomputer.com/news/security/emotet-now-drops-cobalt-strike-fast-forwards-ransomware-attacks/	https://www.bleepstatic.com/content/hl-images/2020/10/06/Emotet.jpg	Lawrence Abrams	2021-12-08 00:21:46+01	bleepingcomputer	t	2021-12-08 01:00:45.791563+01	bleepingcomputer/Emotet-now-drops-Cobalt-Strike-fast-forwards-ransomware-attacks
 \.
 
 
@@ -235,7 +236,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 231, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 232, true);
 
 
 --
