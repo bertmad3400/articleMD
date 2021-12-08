@@ -244,6 +244,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 245	XE Group exposed for eight years of hacking, credit card theft	A relatively unknown group of Vietnamese hackers calling themselves 'XE Group' has been linked to eight years of for-profit hacking and credit card skimming.	https://www.bleepingcomputer.com/news/security/xe-group-exposed-for-eight-years-of-hacking-credit-card-theft/	https://www.bleepstatic.com/content/hl-images/2021/02/02/Online-shopping-card.jpg	Bill Toulas	2021-12-08 16:12:35+01	bleepingcomputer	t	2021-12-08 17:00:30.164323+01	bleepingcomputer/XE-Group-exposed-for-eight-years-of-hacking-credit-card-theft
 246	Confluence and GitLab servers targeted by new ransomware strain	Over the past few days, a ransomware group has leveraged exploits for recently disclosed vulnerabilities to gain access to unpatched Confluence and GitLab servers, encrypt their files, and then ask server owners for a ransom payment to recover their data.	https://therecord.media/confluence-and-gitlab-servers-targeted-by-new-ransomware-strain/	https://therecord.media/wp-content/uploads/2021/12/New-Cerber.jpg	Catalin Cimpanu	2021-12-08 16:43:26+01	therecord	t	2021-12-08 17:00:30.164323+01	therecord/Confluence-and-GitLab-servers-targeted-by-new-ransomware-strain
 247	Senate Armed Services advances DoD CIO nominee	The Senate Armed Services Committee on Wednesday advanced President Joe Biden’s nominee for Defense Department chief information officer.	https://therecord.media/senate-armed-services-advances-dod-cio-nominee/	https://therecord.media/wp-content/uploads/2021/12/Screen-Shot-2021-12-08-at-10.45.44-AM.png	Martin Matishak	2021-12-08 17:07:08+01	therecord	t	2021-12-08 18:00:29.228902+01	therecord/Senate-Armed-Services-advances-DoD-CIO-nominee
+248	Hackers infect random WordPress plugins to steal credit cards	Credit card swipers are being injected into random plugins of e-commerce WordPress sites, hiding from detection while stealing customer payment details.	https://www.bleepingcomputer.com/news/security/hackers-infect-random-wordpress-plugins-to-steal-credit-cards/	https://www.bleepstatic.com/content/hl-images/2021/12/08/credit_card.jpg	Bill Toulas	2021-12-08 19:11:55+01	bleepingcomputer	t	2021-12-08 20:01:05.254987+01	bleepingcomputer/Hackers-infect-random-WordPress-plugins-to-steal-credit-cards
+249	AWS, Other Cloud Services Affected by Flaws in Eltima SDK	Researchers have found a number of high-security vulnerabilities in third-party driver software – bugs that originated in a library created by network virtualization firm Eltima – that leave about a dozen cloud services used by millions of users worldwide open to privilege-escalation attacks.  That includes Amazon WorkSpaces, Accops and NoMachine, 	https://kasperskycontenthub.com/threatpost-global/?p=176852	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/08133732/cloud-security-e1638988664504.jpeg	Lisa Vaas	2021-12-08 19:54:12+01	threatpost	t	2021-12-08 20:01:05.254987+01	threatpost/AWS-Other-Cloud-Services-Affected-by-Flaws-in-Eltima-SDK
 \.
 
 
@@ -251,7 +253,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 247, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 249, true);
 
 
 --
