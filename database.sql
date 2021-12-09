@@ -270,6 +270,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 271	IoT under attack: Security is still good not enough on these edge devices | ZDNet	Most enterprises don't have visibility into the IoT devices that are being attacked by hackers who want to breach corporate IT networks.	https://www.zdnet.com/article/iot-under-attack-security-is-still-good-not-enough-on-these-edge-devices/	https://www.zdnet.com/a/img/resize/586c1704ffa8320d67317e05e19d01258a2e07e4/2021/09/27/6a234489-f1c2-447f-a864-596ba2d177ee/shutterstock-1715071444.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2021-12-09 15:04:39+01	zdnet	t	2021-12-09 17:00:26.007871+01	zdnet/IoT-under-attack-Security-is-still-good-not-enough-on-these-edge-devices--ZDNet
 272	Microsoft previews new endpoint security solution for SMBs	Microsoft Defender for Business, a new endpoint security solution specially built for small and medium-sized businesses (SMBs), is now rolling out in preview worldwide.	https://www.bleepingcomputer.com/news/security/microsoft-previews-new-endpoint-security-solution-for-smbs/	https://www.bleepstatic.com/content/hl-images/2021/05/26/Microsoft-Defender.jpg	Sergiu Gatlan	2021-12-09 16:36:36+01	bleepingcomputer	t	2021-12-09 17:00:26.007871+01	bleepingcomputer/Microsoft-previews-new-endpoint-security-solution-for-SMBs
 273	How MikroTik Routers Became a Cybercriminal Target	The powerful devices leveraged by the Meris botnet have weaknesses that make them easy to exploit, yet complex for organizations to track and secure, researchers said.	https://kasperskycontenthub.com/threatpost-global/?p=176894	https://media.threatpost.com/wp-content/uploads/sites/103/2018/03/10101223/Router_Target_Privacy.jpg	Elizabeth Montalbano	2021-12-09 16:56:16+01	threatpost	t	2021-12-09 17:00:26.007871+01	threatpost/How-MikroTik-Routers-Became-a-Cybercriminal-Target
+274	Microsoft, Google OAuth flaws can be abused in phishing attacks	Researchers have discovered a set of previously unknown methods to launch URL redirection attacks against weak OAuth 2.0 implementations.	https://www.bleepingcomputer.com/news/security/microsoft-google-oauth-flaws-can-be-abused-in-phishing-attacks/	https://www.bleepstatic.com/content/hl-images/2021/05/01/hacking.jpg	Bill Toulas	2021-12-09 17:21:47+01	bleepingcomputer	t	2021-12-09 18:00:27.244553+01	bleepingcomputer/Microsoft-Google-OAuth-flaws-can-be-abused-in-phishing-attacks
+275	ALPHV (BlackCat) is the first professional ransomware gang to use Rust	Security researchers have discovered this week the first professional ransomware strain that was coded in the Rust programming language and was deployed against companies in real-world attacks.	https://therecord.media/alphv-blackcat-is-the-first-professional-ransomware-gang-to-use-rust/	https://therecord.media/wp-content/uploads/2021/12/BlackCat.jpg	Catalin Cimpanu	2021-12-09 17:31:11+01	therecord	t	2021-12-09 18:00:27.244553+01	therecord/ALPHV-BlackCat-is-the-first-professional-ransomware-gang-to-use-Rust
 \.
 
 
@@ -277,7 +279,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 273, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 275, true);
 
 
 --
