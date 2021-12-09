@@ -259,6 +259,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 260	Amazon is shutting down web ranking site Alexa.com	Amazon announced on Wednesday plans to shut down its global website ranking system and competitor analysis tool Alexa.com, which has been available for 25 years.	https://www.bleepingcomputer.com/news/technology/amazon-is-shutting-down-web-ranking-site-alexacom/	https://www.bleepstatic.com/content/hl-images/2020/12/24/amazon-header.jpg	Mayank Parmar	2021-12-08 23:17:19+01	bleepingcomputer	t	2021-12-09 00:00:27.993902+01	bleepingcomputer/Amazon-is-shutting-down-web-ranking-site-Alexacom
 261	Malicious npm Code Packages Built for Hijacking Discord Servers	The lurking code-bombs lift Discord tokens from users of any applications that pulled the packages into their code bases.	https://kasperskycontenthub.com/threatpost-global/?p=176886	https://media.threatpost.com/wp-content/uploads/sites/103/2021/01/22125253/NPM-e1611337986238.jpg	Tara Seals	2021-12-08 23:30:04+01	threatpost	t	2021-12-09 00:00:27.993902+01	threatpost/Malicious-npm-Code-Packages-Built-for-Hijacking-Discord-Servers
 262	Queensland government energy generator says ransomware attack not state-based | ZDNet	CS Energy adds it continues to restore its systems in the wake of the incident.	https://www.zdnet.com/article/queensland-government-energy-generator-says-ransomware-attack-not-state-based/	https://www.zdnet.com/a/img/resize/5e46e79463a97e74d6f8a713c628e241f2e06275/2021/02/16/85d0cab5-f688-461d-afff-5e1d915f18cf/istock-1146965340.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2021-12-09 01:42:32+01	zdnet	t	2021-12-09 03:00:26.571131+01	zdnet/Queensland-government-energy-generator-says-ransomware-attack-not-state-based--ZDNet
+263	Google Pixel bug preventing users from making 911 calls caused by Microsoft Teams | ZDNet	Google and Microsoft are now working on an update to the Microsoft Teams app to resolve the issue.	https://www.zdnet.com/article/google-pixel-bug-preventing-users-from-making-911-calls-caused-by-microsoft-teams/	https://www.zdnet.com/a/img/resize/51c731ce5d993432eb4c4db45bf00655cb97b6c0/2021/11/18/e4c439ed-59c0-49a5-a7c6-2684378c57d2/google-pixel-6.png?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2021-12-09 04:25:57+01	zdnet	t	2021-12-09 06:00:34.241466+01	zdnet/Google-Pixel-bug-preventing-users-from-making-911-calls-caused-by-Microsoft-Teams--ZDNet
 \.
 
 
@@ -266,7 +267,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 262, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 263, true);
 
 
 --
