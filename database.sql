@@ -265,6 +265,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 266	Fujitsu pins Japanese govt data breach on stolen ProjectWEB accounts	Fujitsu says the attackers behind the May data breach used a vulnerability in the company's ProjectWEB information-sharing tool to steal accounts from legitimate users and access proprietary data belonging to multiple Japanese government agencies.	https://www.bleepingcomputer.com/news/security/fujitsu-pins-japanese-govt-data-breach-on-stolen-projectweb-accounts/	https://www.bleepstatic.com/content/hl-images/2021/12/09/Fujitsu.jpg	Sergiu Gatlan	2021-12-09 13:47:15+01	bleepingcomputer	t	2021-12-09 14:00:27.600443+01	bleepingcomputer/Fujitsu-pins-Japanese-govt-data-breach-on-stolen-ProjectWEB-accounts
 267	Hundreds of thousands of MikroTik devices still vulnerable to botnets	Approximately 300,000 MikroTik routers are vulnerable to critical vulnerabilities that malware botnets can exploit for cryptomining and DDoS attacks.	https://www.bleepingcomputer.com/news/security/hundreds-of-thousands-of-mikrotik-devices-still-vulnerable-to-botnets/	https://www.bleepstatic.com/content/hl-images/2021/12/08/mikrotik-datacenter.jpg	Bill Toulas	2021-12-09 12:00:00+01	bleepingcomputer	t	2021-12-09 14:00:27.600443+01	bleepingcomputer/Hundreds-of-thousands-of-MikroTik-devices-still-vulnerable-to-botnets
 268	Windows 'InstallerFileTakeOver' zero-day bug gets free micropatch	An unofficial patch is available for a zero-day vulnerability that is actively exploited in the wild to gain administrator privileges.	https://www.bleepingcomputer.com/news/security/windows-installerfiletakeover-zero-day-bug-gets-free-micropatch/	https://www.bleepstatic.com/content/hl-images/2021/09/20/Windows.jpg	Ionut Ilascu	2021-12-09 09:22:11+01	bleepingcomputer	t	2021-12-09 14:00:27.600443+01	bleepingcomputer/Windows-InstallerFileTakeOver-zero-day-bug-gets-free-micropatch
+269	Cox discloses data breach after hacker impersonates support agent	Cox Communications has disclosed a data breach after a hacker impersonated a support agent to gain access to customers' personal information.	https://www.bleepingcomputer.com/news/security/cox-discloses-data-breach-after-hacker-impersonates-support-agent/	https://www.bleepstatic.com/content/hl-images/2021/12/09/cox-header.jpg	Lawrence Abrams	2021-12-09 14:58:50+01	bleepingcomputer	t	2021-12-09 15:00:27.087957+01	bleepingcomputer/Cox-discloses-data-breach-after-hacker-impersonates-support-agent
+270	SanDisk SecureAccess bug allows brute forcing vault passwords	Western Digital has fixed a security vulnerability that enabled attackers to brute force SanDisk SecureAccess passwords and access the users' protected files.	https://www.bleepingcomputer.com/news/security/sandisk-secureaccess-bug-allows-brute-forcing-vault-passwords/	https://www.bleepstatic.com/content/hl-images/2021/12/09/Western_Digital.jpg	Sergiu Gatlan	2021-12-09 14:40:09+01	bleepingcomputer	t	2021-12-09 15:00:27.087957+01	bleepingcomputer/SanDisk-SecureAccess-bug-allows-brute-forcing-vault-passwords
 \.
 
 
@@ -272,7 +274,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 268, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 270, true);
 
 
 --
