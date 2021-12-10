@@ -309,6 +309,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 310	Volvo Cars discloses security breach leading to R&D data theft	Swedish carmaker Volvo Cars has disclosed that unknown attackers have stolen research and development information after hacking some of its servers.	https://www.bleepingcomputer.com/news/security/volvo-cars-discloses-security-breach-leading-to-randd-data-theft/	https://www.bleepstatic.com/content/hl-images/2021/12/10/Volvo_headpic.jpg	Sergiu Gatlan	2021-12-10 19:07:13+01	bleepingcomputer	t	2021-12-10 20:00:26.260995+01	bleepingcomputer/Volvo-Cars-discloses-security-breach-leading-to-RD-data-theft
 311	‘Appalling’ Riot Games Job Fraud Takes Aim at Wallets	Scammers are using fake job listings to empty the wallets of young, hopeful victims looking to break into the gaming industry.	https://kasperskycontenthub.com/threatpost-global/?p=176950	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/10135935/league-of-legends-e1639162789678.jpg	Becky Bracken	2021-12-10 20:00:36+01	threatpost	t	2021-12-10 20:00:26.260995+01	threatpost/Appalling-Riot-Games-Job-Fraud-Takes-Aim-at-Wallets
 312	Next-Gen Maldocs & How to Solve the Human Vulnerability	Malicious email attachments with macros are one of the most common ways hackers get in through the door. Huntress security researcher John Hammond discusses how threat hunters can fight back.	https://kasperskycontenthub.com/threatpost-global/?p=176916	https://s3-eu-west-1.amazonaws.com/khub-media/wp-content/uploads/sites/103/2020/09/11154917/office-365.jpg	John Hammond	2021-12-10 20:29:27+01	threatpost	t	2021-12-10 21:00:54.585082+01	threatpost/Next-Gen-Maldocs--How-to-Solve-the-Human-Vulnerability
+313	CISA Director tells new Advisory Committee she wants more than just talk	First meeting focused on building functional cooperation between the public and private sectors to defend America's networks.	https://therecord.media/cisa-director-tells-new-advisory-committee-she-wants-more-than-just-talk/	https://therecord.media/wp-content/uploads/2021/08/CISA_Logo.jpg	Andrea Peterson	2021-12-10 21:41:38+01	therecord	t	2021-12-10 22:00:26.844821+01	therecord/CISA-Director-tells-new-Advisory-Committee-she-wants-more-than-just-talk
 \.
 
 
@@ -316,7 +317,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 312, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 313, true);
 
 
 --
