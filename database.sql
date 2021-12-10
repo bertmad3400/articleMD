@@ -292,6 +292,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 293	Social media platforms being regulated as telcos under discussion in Australia | ZDNet	A parliamentary inquiry into law enforcement's capability to stop online child exploitation is currently analysing the merits of more regulation for social media platforms.	https://www.zdnet.com/article/social-media-platforms-being-regulated-as-telcos-under-discussion-in-australia/	https://www.zdnet.com/a/img/resize/0304d35d66468a1490c9e3cec1264ca4dad4b100/2021/10/01/163b59f3-acce-4d41-817b-08cc5ee734de/facebook-instagram.png?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2021-12-10 04:42:31+01	zdnet	t	2021-12-10 06:00:34.242281+01	zdnet/Social-media-platforms-being-regulated-as-telcos-under-discussion-in-Australia--ZDNet
 294	Singapore-UK digital economy pact to focus on cybersecurity, trade | ZDNet	Singapore and the UK have wrapped up negotiations on a digital economy agreement that encompasses various initiatives that include establishing interoperable systems for digital payments, trusted data flows, digital identities, and cybersecurity.	https://www.zdnet.com/article/singapore-uk-digital-economy-pact-to-focus-on-cybersecurity-trade/	https://www.zdnet.com/a/img/resize/28f1d0bc50ce83fc61b024853799e20faec68905/2016/02/23/1cd8c1e6-f054-49b2-ba07-b7e8c67eeb2c/blockchain-digital-handshake.jpg?width=770&height=578&fit=crop&auto=webp	Eileen Yu	2021-12-10 08:32:00+01	zdnet	t	2021-12-10 10:00:35.020294+01	zdnet/Singapore-UK-digital-economy-pact-to-focus-on-cybersecurity-trade--ZDNet
 295	Massive attack against 1.6 million WordPress sites underway	Wordfence analysts report having detected a massive wave of attacks in the last couple of days, originating from 16,000 IPs and targeting over 1.6 million WordPress sites.	https://www.bleepingcomputer.com/news/security/massive-attack-against-16-million-wordpress-sites-underway/	https://www.bleepstatic.com/content/hl-images/2021/02/11/WordPress-headpic.jpg	Bill Toulas	2021-12-10 09:29:43+01	bleepingcomputer	t	2021-12-10 10:00:35.020294+01	bleepingcomputer/Massive-attack-against-16-million-WordPress-sites-underway
+296	New zero-day exploit for Log4j Java library is an enterprise nightmare	Proof-of-concept exploits for a critical zero-day vulnerability in the ubiquitous Apache Log4j Java-based logging library are currently being shared online, exposing home users and enterprises alike to remote code execution attacks.	https://www.bleepingcomputer.com/news/security/new-zero-day-exploit-for-log4j-java-library-is-an-enterprise-nightmare/	https://www.bleepstatic.com/content/hl-images/2021/12/10/Zero-day.jpg	Sergiu Gatlan	2021-12-10 10:59:23+01	bleepingcomputer	t	2021-12-10 11:00:46.297066+01	bleepingcomputer/New-zero-day-exploit-for-Log4j-Java-library-is-an-enterprise-nightmare
 \.
 
 
@@ -299,7 +300,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 295, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 296, true);
 
 
 --
