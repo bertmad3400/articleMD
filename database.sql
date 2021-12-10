@@ -298,6 +298,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 299	Security warning: New zero-day in the Log4j Java library is already being exploited | ZDNet	Severe vulnerability in Java logging libraries allows unauthenticated remote code execution and access to servers, warn researchers.	https://www.zdnet.com/article/security-warning-new-zero-day-in-the-log4j-java-library-is-already-being-exploited/	https://www.zdnet.com/a/img/resize/065d07c4077f40f136b8819a9f03df4a39538d34/2021/08/06/c55fade0-6def-4c6d-b0b7-d501337b05d8/hands-on-a-keyboard-in-the-dark.jpg?width=770&height=578&fit=crop&auto=webp	Danny Palmer	2021-12-10 11:06:11+01	zdnet	t	2021-12-10 13:00:34.855847+01	zdnet/Security-warning-New-zero-day-in-the-Log4j-Java-library-is-already-being-exploited--ZDNet
 300	Log4j zero-day gets security fix just as scans for vulnerable systems ramp up	The Apache Software Foundation has released an emergency security update today to patch a zero-day vulnerability in Log4j, a Java library that provides logging capabilities.	https://therecord.media/log4j-zero-day-gets-security-fix-just-as-scans-for-vulnerable-systems-ramp-up/	https://therecord.media/wp-content/uploads/2021/12/Apache-Log4J.jpg	Catalin Cimpanu	2021-12-10 12:58:42+01	therecord	t	2021-12-10 13:00:34.855847+01	therecord/Log4j-zero-day-gets-security-fix-just-as-scans-for-vulnerable-systems-ramp-up
 301	New 'Karakurt' hacking group focuses on data theft and extortion	A sophisticated cybercrime group known as 'Karakurt' who has been quietly working from the shadows has had its tactics and procedures exposed by researchers who tracked recent cyberattacks conducted by the hackers.	https://www.bleepingcomputer.com/news/security/new-karakurt-hacking-group-focuses-on-data-theft-and-extortion/	https://www.bleepstatic.com/content/hl-images/2021/12/09/cobweb.jpg	Bill Toulas	2021-12-10 12:00:00+01	bleepingcomputer	t	2021-12-10 13:00:34.855847+01	bleepingcomputer/New-Karakurt-hacking-group-focuses-on-data-theft-and-extortion
+302	Brazilian Ministry of Health suffers cyberattack and COVID-19 vaccination data vanishes | ZDNet	Hackers claimed to have copied and deleted 50TB worth of data from internal systems.	https://www.zdnet.com/article/brazilian-ministry-of-health-suffers-cyberattack-and-covid-19-vaccination-data-vanishes/	https://www.zdnet.com/a/img/resize/b149f391746a3a8280f3536b733ed4eca2a81af5/2021/09/29/1900e4c7-5110-4b73-a556-0123cdf71305/cyberattack.jpg?width=770&height=578&fit=crop&auto=webp	Angelica Mari	2021-12-10 13:27:36+01	zdnet	t	2021-12-10 15:00:26.130025+01	zdnet/Brazilian-Ministry-of-Health-suffers-cyberattack-and-COVID-19-vaccination-data-vanishes--ZDNet
+303	'Karakurt' Extortion Threat Emerges, But Says No to Ransomware	The threat group, first identified in June, focuses solely on data exfiltration and subsequent extortion, and has already targeted 40 victims since September.	https://kasperskycontenthub.com/threatpost-global/?p=176911	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/10081343/Karakurt-e1639142036611.jpeg	Elizabeth Montalbano	2021-12-10 14:16:43+01	threatpost	t	2021-12-10 15:00:26.130025+01	threatpost/Karakurt-Extortion-Threat-Emerges-But-Says-No-to-Ransomware
 \.
 
 
@@ -305,7 +307,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 301, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 303, true);
 
 
 --
