@@ -300,6 +300,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 301	New 'Karakurt' hacking group focuses on data theft and extortion	A sophisticated cybercrime group known as 'Karakurt' who has been quietly working from the shadows has had its tactics and procedures exposed by researchers who tracked recent cyberattacks conducted by the hackers.	https://www.bleepingcomputer.com/news/security/new-karakurt-hacking-group-focuses-on-data-theft-and-extortion/	https://www.bleepstatic.com/content/hl-images/2021/12/09/cobweb.jpg	Bill Toulas	2021-12-10 12:00:00+01	bleepingcomputer	t	2021-12-10 13:00:34.855847+01	bleepingcomputer/New-Karakurt-hacking-group-focuses-on-data-theft-and-extortion
 302	Brazilian Ministry of Health suffers cyberattack and COVID-19 vaccination data vanishes | ZDNet	Hackers claimed to have copied and deleted 50TB worth of data from internal systems.	https://www.zdnet.com/article/brazilian-ministry-of-health-suffers-cyberattack-and-covid-19-vaccination-data-vanishes/	https://www.zdnet.com/a/img/resize/b149f391746a3a8280f3536b733ed4eca2a81af5/2021/09/29/1900e4c7-5110-4b73-a556-0123cdf71305/cyberattack.jpg?width=770&height=578&fit=crop&auto=webp	Angelica Mari	2021-12-10 13:27:36+01	zdnet	t	2021-12-10 15:00:26.130025+01	zdnet/Brazilian-Ministry-of-Health-suffers-cyberattack-and-COVID-19-vaccination-data-vanishes--ZDNet
 303	'Karakurt' Extortion Threat Emerges, But Says No to Ransomware	The threat group, first identified in June, focuses solely on data exfiltration and subsequent extortion, and has already targeted 40 victims since September.	https://kasperskycontenthub.com/threatpost-global/?p=176911	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/10081343/Karakurt-e1639142036611.jpeg	Elizabeth Montalbano	2021-12-10 14:16:43+01	threatpost	t	2021-12-10 15:00:26.130025+01	threatpost/Karakurt-Extortion-Threat-Emerges-But-Says-No-to-Ransomware
+304	Australian govt raises alarm over Conti ransomware attacks	The Australian Cyber Security Centre (ACSC) says Conti ransomware attacks have targeted multiple Australian organizations from various industry verticals since November.	https://www.bleepingcomputer.com/news/security/australian-govt-raises-alarm-over-conti-ransomware-attacks/	https://www.bleepstatic.com/content/hl-images/2021/12/10/Ransomware_Australia.jpg	Sergiu Gatlan	2021-12-10 15:12:25+01	bleepingcomputer	t	2021-12-10 16:00:45.51622+01	bleepingcomputer/Australian-govt-raises-alarm-over-Conti-ransomware-attacks
 \.
 
 
@@ -307,7 +308,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 303, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 304, true);
 
 
 --
