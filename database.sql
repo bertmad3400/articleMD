@@ -288,6 +288,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 289	CISA releases advisory on five Apache HTTP server vulnerabilities affecting Cisco products | ZDNet	The government agency urged administrators to review Cisco's advisory and apply the necessary updates.	https://www.zdnet.com/article/cisa-releases-advisory-on-five-apache-http-server-vulnerabilities/	https://www.zdnet.com/a/img/resize/6d0113523f5cf320ef44b5d02b5d4fc9a283df8c/2021/06/09/cf344a38-83a8-4965-a89d-e2ab3e7db290/cisco-sign.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-09 22:59:14+01	zdnet	t	2021-12-10 00:01:39.840126+01	zdnet/CISA-releases-advisory-on-five-Apache-HTTP-server-vulnerabilities-affecting-Cisco-products--ZDNet
 290	Fujitsu to discontinue ProjectWEB tool after Japanese govt data breaches | ZDNet	Fujitsu said it is discontinuing the ProjectWEB tool after several types of vulnerabilities were discovered.	https://www.zdnet.com/article/fujitsu-attributes-data-breaches-to-projectweb-vulnerabilities/	https://www.zdnet.com/a/img/resize/c4ed72ffbfa0a1a5de98a920b4f74d788247330b/2021/09/01/b8095882-3818-489f-83ed-1d2389a94dfb/fujitsu.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-09 22:30:24+01	zdnet	t	2021-12-10 00:01:39.840126+01	zdnet/Fujitsu-to-discontinue-ProjectWEB-tool-after-Japanese-govt-data-breaches--ZDNet
 291	DOJ gives Russian national two-year sentence for work shielding Kelihos malware and other ransomware | ZDNet	Oleg Koshkin allegedly operated the websites crypt4u.com, fud.bz, and others that helped hackers render malicious software fully undetectable by nearly every major provider of antivirus software.	https://www.zdnet.com/article/doj-gives-russian-national-two-year-sentence-for-work-shielding-kelihos-malware-and-other-ransomware/	https://www.zdnet.com/a/img/resize/be3b2fc7073cfdc11a21e781b040cc1983281bad/2021/09/15/335ee904-8b68-42c9-8b3a-7ad442794760/doj.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-10 00:25:18+01	zdnet	t	2021-12-10 02:00:27.647921+01	zdnet/DOJ-gives-Russian-national-two-year-sentence-for-work-shielding-Kelihos-malware-and-other-ransomware--ZDNet
+292	South Australian government employee data taken in Frontier Software ransomware attack | ZDNet	At least 38,000 and up to 80,000 SA government employees may have had their data accessed, the South Australian Treasurer has said.	https://www.zdnet.com/article/south-australian-government-employee-data-taken-in-frontier-software-ransomware-attack/	https://www.zdnet.com/a/img/resize/51cef110795c4a7618387e54683e272d8bf7d0b4/2021/10/19/bb09ae72-176f-49df-b73d-e6f64fc795ea/ransomware.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2021-12-10 03:38:44+01	zdnet	t	2021-12-10 05:00:26.569819+01	zdnet/South-Australian-government-employee-data-taken-in-Frontier-Software-ransomware-attack--ZDNet
 \.
 
 
@@ -295,7 +296,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 291, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 292, true);
 
 
 --
