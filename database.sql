@@ -289,6 +289,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 290	Fujitsu to discontinue ProjectWEB tool after Japanese govt data breaches | ZDNet	Fujitsu said it is discontinuing the ProjectWEB tool after several types of vulnerabilities were discovered.	https://www.zdnet.com/article/fujitsu-attributes-data-breaches-to-projectweb-vulnerabilities/	https://www.zdnet.com/a/img/resize/c4ed72ffbfa0a1a5de98a920b4f74d788247330b/2021/09/01/b8095882-3818-489f-83ed-1d2389a94dfb/fujitsu.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-09 22:30:24+01	zdnet	t	2021-12-10 00:01:39.840126+01	zdnet/Fujitsu-to-discontinue-ProjectWEB-tool-after-Japanese-govt-data-breaches--ZDNet
 291	DOJ gives Russian national two-year sentence for work shielding Kelihos malware and other ransomware | ZDNet	Oleg Koshkin allegedly operated the websites crypt4u.com, fud.bz, and others that helped hackers render malicious software fully undetectable by nearly every major provider of antivirus software.	https://www.zdnet.com/article/doj-gives-russian-national-two-year-sentence-for-work-shielding-kelihos-malware-and-other-ransomware/	https://www.zdnet.com/a/img/resize/be3b2fc7073cfdc11a21e781b040cc1983281bad/2021/09/15/335ee904-8b68-42c9-8b3a-7ad442794760/doj.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-10 00:25:18+01	zdnet	t	2021-12-10 02:00:27.647921+01	zdnet/DOJ-gives-Russian-national-two-year-sentence-for-work-shielding-Kelihos-malware-and-other-ransomware--ZDNet
 292	South Australian government employee data taken in Frontier Software ransomware attack | ZDNet	At least 38,000 and up to 80,000 SA government employees may have had their data accessed, the South Australian Treasurer has said.	https://www.zdnet.com/article/south-australian-government-employee-data-taken-in-frontier-software-ransomware-attack/	https://www.zdnet.com/a/img/resize/51cef110795c4a7618387e54683e272d8bf7d0b4/2021/10/19/bb09ae72-176f-49df-b73d-e6f64fc795ea/ransomware.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2021-12-10 03:38:44+01	zdnet	t	2021-12-10 05:00:26.569819+01	zdnet/South-Australian-government-employee-data-taken-in-Frontier-Software-ransomware-attack--ZDNet
+293	Social media platforms being regulated as telcos under discussion in Australia | ZDNet	A parliamentary inquiry into law enforcement's capability to stop online child exploitation is currently analysing the merits of more regulation for social media platforms.	https://www.zdnet.com/article/social-media-platforms-being-regulated-as-telcos-under-discussion-in-australia/	https://www.zdnet.com/a/img/resize/0304d35d66468a1490c9e3cec1264ca4dad4b100/2021/10/01/163b59f3-acce-4d41-817b-08cc5ee734de/facebook-instagram.png?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2021-12-10 04:42:31+01	zdnet	t	2021-12-10 06:00:34.242281+01	zdnet/Social-media-platforms-being-regulated-as-telcos-under-discussion-in-Australia--ZDNet
 \.
 
 
@@ -296,7 +297,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 292, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 293, true);
 
 
 --
