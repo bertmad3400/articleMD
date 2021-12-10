@@ -306,6 +306,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 307	Sprawling Active Attack Aims to Take Over 1.6M WordPress Sites	Cyberattackers are targeting security vulnerabilities in four plugins plus Epsilon themes, to assign themselves administrative accounts.	https://kasperskycontenthub.com/threatpost-global/?p=176933	https://media.threatpost.com/wp-content/uploads/sites/103/2019/01/28092447/wordpress_plugin_vuln.jpg	Tara Seals	2021-12-10 17:19:44+01	threatpost	t	2021-12-10 18:00:27.67845+01	threatpost/Sprawling-Active-Attack-Aims-to-Take-Over-16M-WordPress-Sites
 308	UK High Court approves Julian Assange's extradition to US | ZDNet	This reverses an earlier denial that cited the WikiLeaks founder's mental health as too great a risk for extradition.	https://www.zdnet.com/article/uk-high-court-approves-julian-assanges-extradition-to-us/	https://www.zdnet.com/a/img/resize/ba30076b95fa77d0e6c1207bfb6f2be778160e5b/2014/10/04/6297ebad-4bb1-11e4-b6a0-d4ae52e95e57/julian-assange-norfolk-btl-zaw2.png?width=770&height=578&fit=crop&auto=webp	Michael Gariffo	2021-12-10 17:58:05+01	zdnet	t	2021-12-10 19:00:43.06889+01	zdnet/UK-High-Court-approves-Julian-Assanges-extradition-to-US--ZDNet
 309	Zero Day in Ubiquitous Apache Log4j Tool Under Active Attack	The Log4Shell vulnerability critically threatens anybody using the popular open-source Apache Struts framework and could lead to a “Mini internet meltdown soonish.”	https://kasperskycontenthub.com/threatpost-global/?p=176937	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/05155430/apache.png	Lisa Vaas	2021-12-10 18:58:04+01	threatpost	t	2021-12-10 19:00:43.06889+01	threatpost/Zero-Day-in-Ubiquitous-Apache-Log4j-Tool-Under-Active-Attack
+310	Volvo Cars discloses security breach leading to R&D data theft	Swedish carmaker Volvo Cars has disclosed that unknown attackers have stolen research and development information after hacking some of its servers.	https://www.bleepingcomputer.com/news/security/volvo-cars-discloses-security-breach-leading-to-randd-data-theft/	https://www.bleepstatic.com/content/hl-images/2021/12/10/Volvo_headpic.jpg	Sergiu Gatlan	2021-12-10 19:07:13+01	bleepingcomputer	t	2021-12-10 20:00:26.260995+01	bleepingcomputer/Volvo-Cars-discloses-security-breach-leading-to-RD-data-theft
+311	‘Appalling’ Riot Games Job Fraud Takes Aim at Wallets	Scammers are using fake job listings to empty the wallets of young, hopeful victims looking to break into the gaming industry.	https://kasperskycontenthub.com/threatpost-global/?p=176950	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/10135935/league-of-legends-e1639162789678.jpg	Becky Bracken	2021-12-10 20:00:36+01	threatpost	t	2021-12-10 20:00:26.260995+01	threatpost/Appalling-Riot-Games-Job-Fraud-Takes-Aim-at-Wallets
 \.
 
 
@@ -313,7 +315,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 309, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 311, true);
 
 
 --
