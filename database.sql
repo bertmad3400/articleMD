@@ -316,6 +316,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 317	Phishing attacks use QR codes to steal banking credentials	A new phishing campaign that targets German e-banking users has been underway in the last couple of weeks, involving QR codes in the credential-snatching process.	https://www.bleepingcomputer.com/news/security/phishing-attacks-use-qr-codes-to-steal-banking-credentials/	https://www.bleepstatic.com/content/hl-images/2021/12/10/german_flag.jpg	Bill Toulas	2021-12-10 20:10:05+01	bleepingcomputer	t	2021-12-11 01:00:27.657046+01	bleepingcomputer/Phishing-attacks-use-QR-codes-to-steal-banking-credentials
 318	The Week in Ransomware - December 10th 2021 - Project CODA	This week has quite a bit of ransomware news, including arrests, a new and sophisticated ransomware, and an attack bringing down 300 supermarkets in England.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-december-10th-2021-project-coda/	https://www.bleepstatic.com/content/hl-images/2020/09/24/padlock.jpg	Lawrence Abrams	2021-12-11 01:37:35+01	bleepingcomputer	t	2021-12-11 02:00:42.813023+01	bleepingcomputer/The-Week-in-Ransomware---December-10th-2021---Project-CODA
 319	Researchers release 'vaccine' for critical Log4Shell vulnerability	Researchers from cybersecurity firm Cybereason has released a vaccine that can be used to remotely mitigate the critical 'Log4Shell' Apache Log4j code execution vulnerability running rampant through the Internet.	https://www.bleepingcomputer.com/news/security/researchers-release-vaccine-for-critical-log4shell-vulnerability/	https://www.bleepstatic.com/content/hl-images/2021/12/10/log4shell-header.jpg	Lawrence Abrams	2021-12-11 02:58:47+01	bleepingcomputer	t	2021-12-11 03:00:45.139515+01	bleepingcomputer/Researchers-release-vaccine-for-critical-Log4Shell-vulnerability
+320	Amazon explains the cause behind Tuesday’s massive AWS outage	Amazon has published a post-event summary to shed some light on the root cause behind this week's massive AWS outage that took down a long list of high-profile sites and online services, including Ring, Netflix, Amazon Prime Video, and Roku.	https://www.bleepingcomputer.com/news/technology/amazon-explains-the-cause-behind-tuesday-s-massive-aws-outage/	https://www.bleepstatic.com/content/hl-images/2021/04/09/AWS.jpg	Sergiu Gatlan	2021-12-11 16:00:00+01	bleepingcomputer	t	2021-12-11 18:00:27.049939+01	bleepingcomputer/Amazon-explains-the-cause-behind-Tuesdays-massive-AWS-outage
 \.
 
 
@@ -323,7 +324,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 319, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 320, true);
 
 
 --
