@@ -313,6 +313,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 313	CISA Director tells new Advisory Committee she wants more than just talk	First meeting focused on building functional cooperation between the public and private sectors to defend America's networks.	https://therecord.media/cisa-director-tells-new-advisory-committee-she-wants-more-than-just-talk/	https://therecord.media/wp-content/uploads/2021/08/CISA_Logo.jpg	Andrea Peterson	2021-12-10 21:41:38+01	therecord	t	2021-12-10 22:00:26.844821+01	therecord/CISA-Director-tells-new-Advisory-Committee-she-wants-more-than-just-talk
 315	Mozilla rolls out GPC for all Firefox users, but enforcement limited to two states | ZDNet	While all Firefox users will have access to Mozilla's implementation of Global Privacy Control, only users in California and Colorado can hope for enforcement.	https://www.zdnet.com/article/mozilla-rolls-out-gpc-for-all-firefox-users-but-enforcement-limited-to-two-states/	https://www.zdnet.com/a/img/resize/86c094dbfef75b8275ffeac971425a4d14ae6b85/2021/11/01/c240c8fa-eb6d-401d-816d-c8706d9a27ad/mozilla.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-10 22:49:01+01	zdnet	t	2021-12-11 00:00:48.74064+01	zdnet/Mozilla-rolls-out-GPC-for-all-Firefox-users-but-enforcement-limited-to-two-states--ZDNet
 316	Volvo announces some R&D files stolen during cyberattack | ZDNet	The company did not confirm whether it was a ransomware attack.	https://www.zdnet.com/article/volvo-announces-some-r-d-files-stolen-during-cyberattack/	https://www.zdnet.com/a/img/resize/40d0205c455e5f909707b1099475342ac12f0cce/2021/12/10/f51f9371-75c9-4c47-8557-99fd4932ecdf/shutterstock-1751628242.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-10 22:21:00+01	zdnet	t	2021-12-11 00:00:48.74064+01	zdnet/Volvo-announces-some-RD-files-stolen-during-cyberattack--ZDNet
+317	Phishing attacks use QR codes to steal banking credentials	A new phishing campaign that targets German e-banking users has been underway in the last couple of weeks, involving QR codes in the credential-snatching process.	https://www.bleepingcomputer.com/news/security/phishing-attacks-use-qr-codes-to-steal-banking-credentials/	https://www.bleepstatic.com/content/hl-images/2021/12/10/german_flag.jpg	Bill Toulas	2021-12-10 20:10:05+01	bleepingcomputer	t	2021-12-11 01:00:27.657046+01	bleepingcomputer/Phishing-attacks-use-QR-codes-to-steal-banking-credentials
 \.
 
 
@@ -320,7 +321,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 316, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 317, true);
 
 
 --
