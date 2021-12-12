@@ -317,6 +317,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 318	The Week in Ransomware - December 10th 2021 - Project CODA	This week has quite a bit of ransomware news, including arrests, a new and sophisticated ransomware, and an attack bringing down 300 supermarkets in England.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-december-10th-2021-project-coda/	https://www.bleepstatic.com/content/hl-images/2020/09/24/padlock.jpg	Lawrence Abrams	2021-12-11 01:37:35+01	bleepingcomputer	t	2021-12-11 02:00:42.813023+01	bleepingcomputer/The-Week-in-Ransomware---December-10th-2021---Project-CODA
 319	Researchers release 'vaccine' for critical Log4Shell vulnerability	Researchers from cybersecurity firm Cybereason has released a vaccine that can be used to remotely mitigate the critical 'Log4Shell' Apache Log4j code execution vulnerability running rampant through the Internet.	https://www.bleepingcomputer.com/news/security/researchers-release-vaccine-for-critical-log4shell-vulnerability/	https://www.bleepstatic.com/content/hl-images/2021/12/10/log4shell-header.jpg	Lawrence Abrams	2021-12-11 02:58:47+01	bleepingcomputer	t	2021-12-11 03:00:45.139515+01	bleepingcomputer/Researchers-release-vaccine-for-critical-Log4Shell-vulnerability
 320	Amazon explains the cause behind Tuesday’s massive AWS outage	Amazon has published a post-event summary to shed some light on the root cause behind this week's massive AWS outage that took down a long list of high-profile sites and online services, including Ring, Netflix, Amazon Prime Video, and Roku.	https://www.bleepingcomputer.com/news/technology/amazon-explains-the-cause-behind-tuesday-s-massive-aws-outage/	https://www.bleepstatic.com/content/hl-images/2021/04/09/AWS.jpg	Sergiu Gatlan	2021-12-11 16:00:00+01	bleepingcomputer	t	2021-12-11 18:00:27.049939+01	bleepingcomputer/Amazon-explains-the-cause-behind-Tuesdays-massive-AWS-outage
+321	FTC: Americans lost $148 million to gift card scams this year	The US Federal Trade Commission (FTC) said Americans reported losing $148 million to gift card scams during the first nine months of 2021 following a major increase compared to last year.	https://www.bleepingcomputer.com/news/security/ftc-americans-lost-148-million-to-gift-card-scams-this-year/	https://www.bleepstatic.com/content/hl-images/2021/10/22/FTC.jpg	Sergiu Gatlan	2021-12-12 16:00:00+01	bleepingcomputer	t	2021-12-12 18:00:26.054326+01	bleepingcomputer/FTC-Americans-lost-148-million-to-gift-card-scams-this-year
+322	Microsoft: These are the building blocks of QBot malware attacks	As QBot campaigns increase in size and frequency, researchers are looking into ways to break the trojan's distribution chain and tackle the threat.	https://www.bleepingcomputer.com/news/security/microsoft-these-are-the-building-blocks-of-qbot-malware-attacks/	https://www.bleepstatic.com/content/hl-images/2021/12/10/lego-businessman.jpg	Bill Toulas	2021-12-11 17:12:06+01	bleepingcomputer	t	2021-12-12 18:00:26.054326+01	bleepingcomputer/Microsoft-These-are-the-building-blocks-of-QBot-malware-attacks
 \.
 
 
@@ -324,7 +326,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 320, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 322, true);
 
 
 --
