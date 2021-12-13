@@ -322,6 +322,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 323	Critical ‘Log4Shell’ Zero-Day Vulnerability Wreaks Havoc Online	The critical RCE vulnerability 'Log4Shell' affects multiple services using Apache Log4j, like MineCraft, Twitter, Google, Steam, and more.	https://latesthackingnews.com/2021/12/12/critical-log4shell-zero-day-vulnerability-wreaks-havoc-online/	https://latesthackingnews.com/wp-content/uploads/2020/07/VPN-vulnerability.jpg	Abeerah Hashim	2021-12-12 00:00:00+01	latesthackingnews	t	2021-12-12 20:01:00.719276+01	latesthackingnews/Critical-Log4Shell-Zero-Day-Vulnerability-Wreaks-Havoc-Online
 324	Hackers start pushing malware in worldwide Log4Shell attacks	Threat actors and researchers are scanning for and exploiting the Log4j Log4Shell vulnerability to deploy malware or find vulnerable servers. In this article we compiled the known payloads, scans, and attacks using the Log4j vulnerability.	https://www.bleepingcomputer.com/news/security/hackers-start-pushing-malware-in-worldwide-log4shell-attacks/	https://www.bleepstatic.com/content/hl-images/2021/12/12/log4shell-flames-header.jpg	Lawrence Abrams	2021-12-13 00:07:20+01	bleepingcomputer	t	2021-12-13 01:00:27.30045+01	bleepingcomputer/Hackers-start-pushing-malware-in-worldwide-Log4Shell-attacks
 325	US, Australia and Japan stump up for subsea cable between Nauru, Kiribati and Federated States of Micronesia | ZDNet	Move comes as the United States has been reportedly warning Pacific nations about using Chinese equipment.	https://www.zdnet.com/article/us-australia-and-japan-stump-up-for-subsea-cable-between-nauru-kiribati-and-federated-states-of-micronesia/	https://www.zdnet.com/a/img/resize/39d3dafd0a71ac6e7e344f1967fcfb0769b8ab6d/2021/12/12/e980dc8b-9265-4827-a57b-d83ea2296601/kiribati-gettyimages.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2021-12-12 23:58:33+01	zdnet	t	2021-12-13 02:00:27.91996+01	zdnet/US-Australia-and-Japan-stump-up-for-subsea-cable-between-Nauru-Kiribati-and-Federated-States-of-Micronesia--ZDNet
+326	Diavol Ransomware	In this report, we observed threat actors deploy multiple Cobalt Strike DLL beacons, perform internal discovery using Windows utilities, execute lateral movement using AnyDesk and RDP, dump credentials multiple ways, exfiltrate data and deploy domain wide ransomware in as little as 42 hours from initial access.	https://thedfirreport.com/2021/12/13/diavol-ransomware/	https://thedfirreport.com/wp-content/uploads/2021/12/3.png	editor	2021-12-13 03:13:31+01	dfirreport	t	2021-12-13 04:00:26.383489+01	dfirreport/Diavol-Ransomware
 \.
 
 
@@ -329,7 +330,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 325, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 326, true);
 
 
 --
