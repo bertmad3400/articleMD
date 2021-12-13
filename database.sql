@@ -320,6 +320,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 321	FTC: Americans lost $148 million to gift card scams this year	The US Federal Trade Commission (FTC) said Americans reported losing $148 million to gift card scams during the first nine months of 2021 following a major increase compared to last year.	https://www.bleepingcomputer.com/news/security/ftc-americans-lost-148-million-to-gift-card-scams-this-year/	https://www.bleepstatic.com/content/hl-images/2021/10/22/FTC.jpg	Sergiu Gatlan	2021-12-12 16:00:00+01	bleepingcomputer	t	2021-12-12 18:00:26.054326+01	bleepingcomputer/FTC-Americans-lost-148-million-to-gift-card-scams-this-year
 322	Microsoft: These are the building blocks of QBot malware attacks	As QBot campaigns increase in size and frequency, researchers are looking into ways to break the trojan's distribution chain and tackle the threat.	https://www.bleepingcomputer.com/news/security/microsoft-these-are-the-building-blocks-of-qbot-malware-attacks/	https://www.bleepstatic.com/content/hl-images/2021/12/10/lego-businessman.jpg	Bill Toulas	2021-12-11 17:12:06+01	bleepingcomputer	t	2021-12-12 18:00:26.054326+01	bleepingcomputer/Microsoft-These-are-the-building-blocks-of-QBot-malware-attacks
 323	Critical ‘Log4Shell’ Zero-Day Vulnerability Wreaks Havoc Online	The critical RCE vulnerability 'Log4Shell' affects multiple services using Apache Log4j, like MineCraft, Twitter, Google, Steam, and more.	https://latesthackingnews.com/2021/12/12/critical-log4shell-zero-day-vulnerability-wreaks-havoc-online/	https://latesthackingnews.com/wp-content/uploads/2020/07/VPN-vulnerability.jpg	Abeerah Hashim	2021-12-12 00:00:00+01	latesthackingnews	t	2021-12-12 20:01:00.719276+01	latesthackingnews/Critical-Log4Shell-Zero-Day-Vulnerability-Wreaks-Havoc-Online
+324	Hackers start pushing malware in worldwide Log4Shell attacks	Threat actors and researchers are scanning for and exploiting the Log4j Log4Shell vulnerability to deploy malware or find vulnerable servers. In this article we compiled the known payloads, scans, and attacks using the Log4j vulnerability.	https://www.bleepingcomputer.com/news/security/hackers-start-pushing-malware-in-worldwide-log4shell-attacks/	https://www.bleepstatic.com/content/hl-images/2021/12/12/log4shell-flames-header.jpg	Lawrence Abrams	2021-12-13 00:07:20+01	bleepingcomputer	t	2021-12-13 01:00:27.30045+01	bleepingcomputer/Hackers-start-pushing-malware-in-worldwide-Log4Shell-attacks
 \.
 
 
@@ -327,7 +328,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: osinter_admin
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 323, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 324, true);
 
 
 --
