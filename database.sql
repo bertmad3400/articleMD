@@ -388,6 +388,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 383	Spider-Man Movie Release Frenzy Bites Fans with Credit-Card Harvesting	Attackers are using the excitement over the new Spider-Man movie to steal bank information and spread malware.  	https://kasperskycontenthub.com/threatpost-global/?p=177146	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/17144459/spider-e1639770316563.jpg	Becky Bracken	2021-12-17 20:49:15+01	threatpost	t	2021-12-18 12:03:05.281013+01	threatpost/Spider-Man-Movie-Release-Frenzy-Bites-Fans-with-Credit-Card-Harvesting
 384	Malicious Joker App Scores Half-Million Downloads on Google Play	Joker malware was found lurking in the Color Message app, ready to fleece unsuspecting users with premium SMS charges.	https://kasperskycontenthub.com/threatpost-global/?p=177139	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/17141527/joker3-e1639768541455.jpg	Tara Seals	2021-12-17 20:23:09+01	threatpost	t	2021-12-18 12:03:05.281013+01	threatpost/Malicious-Joker-App-Scores-Half-Million-Downloads-on-Google-Play
 385	Brand-New Log4Shell Attack Vector Threatens Local Hosts	The discovery, which affects services running as localhost that aren't exposed to any network or the internet, vastly widens the scope of attack possibilities.	https://kasperskycontenthub.com/threatpost-global/?p=177128	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/17121542/beaver-on-a-dam-a8b6a12-e1639761431383.jpg	Tara Seals	2021-12-17 18:43:43+01	threatpost	t	2021-12-18 12:03:05.281013+01	threatpost/Brand-New-Log4Shell-Attack-Vector-Threatens-Local-Hosts
+392	Did Apple send its controversial CSAM scanning back to the lab?	Apple seems to have stepped back on its least popular innovation since the Butterfly Keyboard, deleting mentions of its CSAM scanning/surveillance tech from its site following universal criticism.	https://www.computerworld.com/article/3644970/did-apple-send-its-controversial-csam-scanning-back-to-the-lab.html	https://images.idgesg.net/images/idge/imported/imageapi/2021/09/03/14/apple-csam-messages-100901413-large.jpg?auto=webp&quality=85,70	Jonny Evans	2021-12-15 16:03:00+01	computerworld	t	2021-12-18 20:00:02.730774+01	computerworld/Did-Apple-send-its-controversial-CSAM-scanning-back-to-the-lab
+393	Apache releases new 2.17.0 patch for Log4j to solve denial of service vulnerability | ZDNet	The Apache Software Foundation published a new Log4j patch late on Friday after discovering issues with 2.16.	https://www.zdnet.com/article/apache-releases-new-2-17-0-patch-for-log4j-to-solve-denial-of-service-vulnerability/	https://www.zdnet.com/a/img/resize/af9fc0b60835177ae407badfc974c9c9fb7d3022/2019/04/03/9b318728-bf96-4c85-9130-0655cc6a31f9/apache-web-server-logo.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-18 18:05:07+01	zdnet	t	2021-12-18 20:00:02.730774+01	zdnet/Apache-releases-new-2170-patch-for-Log4j-to-solve-denial-of-service-vulnerability--ZDNet
 \.
 
 
@@ -395,7 +397,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 391, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 393, true);
 
 
 --
