@@ -391,6 +391,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 392	Did Apple send its controversial CSAM scanning back to the lab?	Apple seems to have stepped back on its least popular innovation since the Butterfly Keyboard, deleting mentions of its CSAM scanning/surveillance tech from its site following universal criticism.	https://www.computerworld.com/article/3644970/did-apple-send-its-controversial-csam-scanning-back-to-the-lab.html	https://images.idgesg.net/images/idge/imported/imageapi/2021/09/03/14/apple-csam-messages-100901413-large.jpg?auto=webp&quality=85,70	Jonny Evans	2021-12-15 16:03:00+01	computerworld	t	2021-12-18 20:00:02.730774+01	computerworld/Did-Apple-send-its-controversial-CSAM-scanning-back-to-the-lab
 393	Apache releases new 2.17.0 patch for Log4j to solve denial of service vulnerability | ZDNet	The Apache Software Foundation published a new Log4j patch late on Friday after discovering issues with 2.16.	https://www.zdnet.com/article/apache-releases-new-2-17-0-patch-for-log4j-to-solve-denial-of-service-vulnerability/	https://www.zdnet.com/a/img/resize/af9fc0b60835177ae407badfc974c9c9fb7d3022/2019/04/03/9b318728-bf96-4c85-9130-0655cc6a31f9/apache-web-server-logo.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-18 18:05:07+01	zdnet	t	2021-12-18 20:00:02.730774+01	zdnet/Apache-releases-new-2170-patch-for-Log4j-to-solve-denial-of-service-vulnerability--ZDNet
 394	Singapore holds emergency meetings with CII sectors over Log4j | ZDNet	Country's cybersecurity agency gathers representatives from critical information infrastructure sectors for two emergency meetings, during which instructions and technical information were provided to help these companies deal with potential threats from Log4j.	https://www.zdnet.com/article/singapore-holds-emergency-meetings-with-cii-sectors-over-log4j/	https://www.zdnet.com/a/img/resize/543dd166dec47c0bb513672cec190ddca90e5a4b/2018/08/15/3865d5a7-ceeb-4bd0-b6bf-f531d5aa6638/iotsecurity.jpg?width=770&height=578&fit=crop&auto=webp	Eileen Yu	2021-12-19 09:34:00+01	zdnet	t	2021-12-19 11:00:02.579481+01	zdnet/Singapore-holds-emergency-meetings-with-CII-sectors-over-Log4j--ZDNet
+395	Western Digital warns customers to update their My Cloud devices	Western Digital is urging customers to update their WD My Cloud devices to the latest available firmware to keep receiving security updates on My Cloud OS firmware reaching the end of support.	https://www.bleepingcomputer.com/news/security/western-digital-warns-customers-to-update-their-my-cloud-devices/	https://www.bleepstatic.com/content/hl-images/2021/08/26/Western-Digital.jpg	Sergiu Gatlan	2021-12-18 16:36:18+01	bleepingcomputer	t	2021-12-19 17:00:02.622751+01	bleepingcomputer/Western-Digital-warns-customers-to-update-their-My-Cloud-devices
 \.
 
 
@@ -398,7 +399,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 394, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 395, true);
 
 
 --
