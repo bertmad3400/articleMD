@@ -397,6 +397,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 398	US orders federal govt agencies to patch critical Log4j bug	US Federal Civilian Executive Branch agencies have been ordered to patch the critical and actively exploited Log4Shell security vulnerability in the Apache Log4j library within the next six days.	https://www.bleepingcomputer.com/news/security/us-orders-federal-govt-agencies-to-patch-critical-log4j-bug/	https://www.bleepstatic.com/content/hl-images/2021/12/13/Log4j___logo.jpg	Sergiu Gatlan	2021-12-17 18:35:43+01	bleepingcomputer	t	2021-12-20 01:00:02.080157+01	bleepingcomputer/US-orders-federal-govt-agencies-to-patch-critical-Log4j-bug
 399	The NCA shares 585 million passwords with Have I Been Pwned	The UK National Crime Agency has shared a collection of more than 585 million compromised passwords it found during an investigation with Have I Been Pwned, a website that indexes data from security breaches.	https://therecord.media/the-nca-shares-585-million-passwords-with-have-i-been-pwned/	https://therecord.media/wp-content/uploads/2021/06/HIBP.jpg	Catalin Cimpanu	2021-12-20 11:50:33+01	therecord	t	2021-12-20 12:00:02.778066+01	therecord/The-NCA-shares-585-million-passwords-with-Have-I-Been-Pwned
 400	Wireless Coexistence Attacks Exploit SoCs To Steal Data Via Data Packets	Wireless coexistence attacks allow stealing data across Bluetooth and WiFi by exploiting SoCs. Partial fixes released via firmware updates.	https://latesthackingnews.com/2021/12/20/wireless-coexistence-attacks-exploit-systems-on-a-chip-socs/	https://latesthackingnews.com/wp-content/uploads/2019/10/wireless-signal-1119306_640.png	Abeerah Hashim	2021-12-20 00:00:00+01	latesthackingnews	t	2021-12-20 13:00:02.301974+01	latesthackingnews/Wireless-Coexistence-Attacks-Exploit-SoCs-To-Steal-Data-Via-Data-Packets
+401	Scammers grabbed $7.7 billion worth of cryptocurrency in 2021, say researchers | ZDNet	The most important takeaway is to avoid new tokens that haven't undergone a code audit, said Chainalysis.	https://www.zdnet.com/article/scammers-grabbed-7-7-billion-worth-of-cryptocurrency-in-2021-say-researchers/	https://www.zdnet.com/a/img/resize/c46186e5ea2ef1651c7ad218d89b762571422198/2021/10/15/ebba8479-c60e-4724-8f98-4647217826af/shutterstock-1253457799.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2021-12-20 12:39:58+01	zdnet	t	2021-12-20 14:00:02.198082+01	zdnet/Scammers-grabbed-77-billion-worth-of-cryptocurrency-in-2021-say-researchers--ZDNet
 \.
 
 
@@ -404,7 +405,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 400, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 401, true);
 
 
 --

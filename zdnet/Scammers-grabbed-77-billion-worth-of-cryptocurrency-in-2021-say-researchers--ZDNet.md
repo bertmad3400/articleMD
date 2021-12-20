@@ -1,0 +1,60 @@
+# Scammers grabbed $7.7 billion worth of cryptocurrency in 2021, say researchers | ZDNet
+### The most important takeaway is to avoid new tokens that haven't undergone a code audit, said Chainalysis.
+
+## Information:
++ Source: ZDNet
++ Link: https://www.zdnet.com/article/scammers-grabbed-7-7-billion-worth-of-cryptocurrency-in-2021-say-researchers/
++ Date: 2021-12-20 12:39:58
++ Author: Liam Tung
+
+
+## Article:
+![Article Image](https://www.zdnet.com/a/img/resize/c46186e5ea2ef1651c7ad218d89b762571422198/2021/10/15/ebba8479-c60e-4724-8f98-4647217826af/shutterstock-1253457799.jpg?width=770&height=578&fit=crop&auto=webp)
+
+Cryptocurrency-based scammers and cyber criminals netted a whopping $7.7 billion worth of cryptocurrency from victims in 2021, marking an 81% rise in losses compared to 2020, according to blockchain analysis firm, Chainalysis.  
+
+Some $1.1 billion of the $7.7 billion in losses were attributed to a single scheme which allegedly targeted Russia and Ukraine, it said. 
+
+
+"As the largest form of cryptocurrency-based crime and one uniquely targeted toward new users, scamming poses one of the biggest threats to cryptocurrency's continued adoption," said Chainalysis.
+
+**SEE:** [**Hackers are turning to this simple technique to install their malware on PCs**](https://www.zdnet.com/article/hackers-are-turning-to-this-simple-technique-to-install-their-malware-on-pcs/#link=%7B%22linkText%22:%22Hackers%20are%20turning%20to%20this%20simple%20technique%20to%20install%20their%20malware%20on%20PCs%22,%22target%22:%22_blank%22,%22href%22:%22https://www.zdnet.com/article/hackers-are-turning-to-this-simple-technique-to-install-their-malware-on-pcs/%22,%22role%22:%22standard%22,%22absolute%22:%22%22%7D)
+
+At the same time though, the number of deposits to scam addresses fell from just under 10.7 million to 4.1 million, which it said could mean there were fewer individual scam victims – but they are losing more.
+
+A major source of rising cryptocurrency losses in 2021 were so-called "rug pulls", where the developers of a new cryptocurrency vanish and take supporters' funds with them. Rug pulls accounted for 37% of all cryptocurrency scam revenue in 2021, totaling $2.8 billion – up from just 1% in 2020. 
+
+"Rug pulls are prevalent in DeFi because with the right technical know-how, it's cheap and easy to create new tokens on the Ethereum blockchain or others and get them listed on decentralized exchanges (DEXes) without a code audit," it warned. 
+
+
+
+
+
+
+The characteristics of the investment scam networks are changing. Chainaylsis found that the number of active financial scams rose from 2,052 in 2020 to 3,300, while their individual lifespan has decreased from over 500 days in 2016 to 291 days in 2020 and just 70 days in 2021.     
+
+"Previously, these scams may have been able to continue operating for longer. As scammers become aware of these actions, they may feel more pressure to close up shop before drawing the attention of regulators and law enforcement," it said.
+
+**SEE:** [**Dark web crooks are now teaching courses on how to build botnets**](https://www.zdnet.com/article/college-for-cyber-criminals-dark-web-crooks-are-teaching-courses-on-how-to-build-botnets/#link=%7B%22role%22:%22standard%22,%22href%22:%22https://www.zdnet.com/article/college-for-cyber-criminals-dark-web-crooks-are-teaching-courses-on-how-to-build-botnets/%22,%22target%22:%22_blank%22,%22absolute%22:%22%22,%22linkText%22:%22Dark%20web%20crooks%20are%20now%20teaching%20courses%20on%20how%20to%20build%20botnets%22%7D)
+
+Unsurprisingly, scams also increase in line with the rise in value of popular cryptocurrencies such as Ethereum and Bitcoin, although that link may have been broken in the last year. 
+
+Chainalysis notes: "The most important takeaway is to avoid new tokens that haven't undergone a code audit. Code audits are a process through which a third-party firm analyzes the code of the smart contract behind a new token or other DeFi project, and publicly confirms that the contract's governance rules are iron clad and contain no mechanisms that would allow for the developers to make off with investors' funds."
+
+It added: "Investors may also want to be wary of tokens that lack the public-facing materials one would expect from a legitimate project, such as a website or white paper, as well as tokens created by individuals not using their real names."
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Conti]] [[action.malware.name=Net]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=Reg]] [[action.malware.name=Rising Sun]] [[action.malware.name=Tor]]
+
+#### Location:
+[[victim.country.name=Russia]] [[victim.continent.name=Asia]] [[victim.country.name=Russia]] [[victim.continent.name=Europe]] [[victim.country.name=Ukraine]] [[victim.continent.name=Europe]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[]] [[ZDNet]]
+
