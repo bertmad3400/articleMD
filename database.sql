@@ -417,6 +417,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 418	Robocalls More Than Doubled in 2021, Cost Victims $30B	T-Mobile reported blocking 21 billion scam calls during a record-smashing year for robocalls.	https://kasperskycontenthub.com/threatpost-global/?p=177165	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/20144548/robot-e1640029561789.jpeg	Becky Bracken	2021-12-20 20:48:25+01	threatpost	t	2021-12-20 21:00:02.383873+01	threatpost/Robocalls-More-Than-Doubled-in-2021-Cost-Victims-30B
 419	Cybersecurity company ZeroFox acquires IDX, merges with L&F to create $1.4 billion entity | ZDNet	Several venture capital firms are also investing $170 million into the merger.	https://www.zdnet.com/article/cybersecurity-company-zerofox-acquires-idx-merges-with-l-f-to-create-1-4-billion-entity/	https://www.zdnet.com/a/img/resize/3cc5745e17f045ec8d44a10256a86068788e3b1e/2021/09/14/501d34df-90d3-4830-a6e0-a9e590bd4370/cybersecurity-1.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-20 20:39:00+01	zdnet	t	2021-12-20 22:00:01.794829+01	zdnet/Cybersecurity-company-ZeroFox-acquires-IDX-merges-with-LF-to-create-14-billion-entity--ZDNet
 420	Belgian Defense Ministry confirms cyberattack through Log4j exploitation | ZDNet	The Defense Ministry said it first discovered the attack on Thursday.	https://www.zdnet.com/article/belgian-defense-ministry-confirms-cyberattack-through-log4j-exploitation/	https://www.zdnet.com/a/img/resize/63bc03dc9746b72d22e82458c12b85abc63fcca6/2019/06/24/8979a44d-c4ff-4b71-98c9-47077920c3d0/istock-958122884.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-20 21:42:25+01	zdnet	t	2021-12-20 23:00:02.095712+01	zdnet/Belgian-Defense-Ministry-confirms-cyberattack-through-Log4j-exploitation--ZDNet
+421	Cybersecurity company identifies months-long attack on US federal commission | ZDNet	Both CISA and USCIRF refused to engage with the company after being notified repeatedly of the attack.	https://www.zdnet.com/article/cybersecurity-company-identifies-months-long-attack-on-us-federal-commission/	https://www.zdnet.com/a/img/resize/82d9abb615de6907df8a17068ce70fef5e7a834c/2016/06/16/5e4ae78b-ea6b-44af-8e19-387dbb78655c/congress-capitol-hill-flag-thumb.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-20 22:37:07+01	zdnet	t	2021-12-21 00:00:02.300424+01	zdnet/Cybersecurity-company-identifies-months-long-attack-on-US-federal-commission--ZDNet
+422	Conti Ransomware Gang Has Full Log4Shell Attack Chain	Conti has become the first professional-grade, sophisticated ransomware group to weaponize Log4j2, now with a full attack chain.	https://kasperskycontenthub.com/threatpost-global/?p=177173	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/20170634/attack-chain-e1640038007418.jpeg	Lisa Vaas	2021-12-20 23:11:30+01	threatpost	t	2021-12-21 00:00:02.300424+01	threatpost/Conti-Ransomware-Gang-Has-Full-Log4Shell-Attack-Chain
 \.
 
 
@@ -424,7 +426,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 420, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 422, true);
 
 
 --
