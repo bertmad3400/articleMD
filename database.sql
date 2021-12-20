@@ -403,6 +403,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 404	Apache Releases Third Major Log4j Update To Fix A DoS Flaw	Apache has fixed the DoS bug with Log4j 2.17.0, the third major update since the Log4Shell vulnerability surfaced online. Update now.	https://latesthackingnews.com/2021/12/20/apache-releases-third-major-log4j-update-to-fix-a-dos-flaw/	https://latesthackingnews.com/wp-content/uploads/2021/09/vulnerability-alert.jpg	Abeerah Hashim	2021-12-20 00:00:00+01	latesthackingnews	t	2021-12-20 17:00:01.850782+01	latesthackingnews/Apache-Releases-Third-Major-Log4j-Update-To-Fix-A-DoS-Flaw
 405	Google’s OSS-Fuzz Tool Now Detects Log4Shell Log4j Bug Via Jazzer	Google's OSS-Fuzz integrates Code Intelligence's Jazzer to detect Log4Shell Log4j bug and similar RCE vulnerabilities.	https://latesthackingnews.com/2021/12/20/googles-oss-fuzz-tool-now-detects-log4shell-via-jazzer/	https://latesthackingnews.com/wp-content/uploads/2021/11/bug.jpg	Abeerah Hashim	2021-12-20 00:00:00+01	latesthackingnews	t	2021-12-20 17:00:01.850782+01	latesthackingnews/Googles-OSS-Fuzz-Tool-Now-Detects-Log4Shell-Log4j-Bug-Via-Jazzer
 406	T-Mobile says it blocked 21 billion scam calls this year	T-Mobile says it blocked 21 billion scam, spam, and unwanted robocalls this year through its free Scam Shield robocall and scam protection service, amounting to an average of 1.8 billion scam calls identified or blocked every month.	https://www.bleepingcomputer.com/news/security/t-mobile-says-it-blocked-21-billion-scam-calls-this-year/	https://www.bleepstatic.com/content/hl-images/2021/08/23/tmobile-header-glitch.jpg	Sergiu Gatlan	2021-12-20 16:46:02+01	bleepingcomputer	t	2021-12-20 17:00:01.850782+01	bleepingcomputer/T-Mobile-says-it-blocked-21-billion-scam-calls-this-year
+408	Third Log4J Bug Can Trigger DoS; Apache Issues Patch	The new Log4j vulnerability is similar to Log4Shell in that it also affects the logging library, but this DoS flaw has to do with Context Map lookups, not JNDI.	https://kasperskycontenthub.com/threatpost-global/?p=177159	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/20105658/bug-trio.jpg	Lisa Vaas	2021-12-20 17:01:57+01	threatpost	t	2021-12-20 18:00:02.363842+01	threatpost/Third-Log4J-Bug-Can-Trigger-DoS-Apache-Issues-Patch
+407	Log4j vulnerability now used to install Dridex banking malware	Threat actors now exploit the critical Apache Log4j vulnerability named Log4Shell to infect vulnerable devices with the notorious Dridex banking trojan or Meterpreter.	https://www.bleepingcomputer.com/news/security/log4j-vulnerability-now-used-to-install-dridex-banking-malware/	https://www.bleepstatic.com/content/hl-images/2021/12/13/Log4j_headpic.jpg	Lawrence Abrams	2021-12-20 17:33:11+01	bleepingcomputer	t	2021-12-20 18:00:02.363842+01	bleepingcomputer/Log4j-vulnerability-now-used-to-install-Dridex-banking-malware
 \.
 
 
@@ -410,7 +412,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 406, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 408, true);
 
 
 --
