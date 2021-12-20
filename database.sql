@@ -405,6 +405,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 406	T-Mobile says it blocked 21 billion scam calls this year	T-Mobile says it blocked 21 billion scam, spam, and unwanted robocalls this year through its free Scam Shield robocall and scam protection service, amounting to an average of 1.8 billion scam calls identified or blocked every month.	https://www.bleepingcomputer.com/news/security/t-mobile-says-it-blocked-21-billion-scam-calls-this-year/	https://www.bleepstatic.com/content/hl-images/2021/08/23/tmobile-header-glitch.jpg	Sergiu Gatlan	2021-12-20 16:46:02+01	bleepingcomputer	t	2021-12-20 17:00:01.850782+01	bleepingcomputer/T-Mobile-says-it-blocked-21-billion-scam-calls-this-year
 408	Third Log4J Bug Can Trigger DoS; Apache Issues Patch	The new Log4j vulnerability is similar to Log4Shell in that it also affects the logging library, but this DoS flaw has to do with Context Map lookups, not JNDI.	https://kasperskycontenthub.com/threatpost-global/?p=177159	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/20105658/bug-trio.jpg	Lisa Vaas	2021-12-20 17:01:57+01	threatpost	t	2021-12-20 18:00:02.363842+01	threatpost/Third-Log4J-Bug-Can-Trigger-DoS-Apache-Issues-Patch
 407	Log4j vulnerability now used to install Dridex banking malware	Threat actors now exploit the critical Apache Log4j vulnerability named Log4Shell to infect vulnerable devices with the notorious Dridex banking trojan or Meterpreter.	https://www.bleepingcomputer.com/news/security/log4j-vulnerability-now-used-to-install-dridex-banking-malware/	https://www.bleepstatic.com/content/hl-images/2021/12/13/Log4j_headpic.jpg	Lawrence Abrams	2021-12-20 17:33:11+01	bleepingcomputer	t	2021-12-20 18:00:02.363842+01	bleepingcomputer/Log4j-vulnerability-now-used-to-install-Dridex-banking-malware
+409	$30 million stolen from DeFi protocol Grim Finance, audit firm apologizes for missing vulnerability | ZDNet	DeFi audit firm Solidity Finance said their CTO was on vacation when a new analyst missed a crucial vulnerability during an audit of Grim Finance four months ago.	https://www.zdnet.com/article/30-million-stolen-from-defi-protocol-grim-finance-audit-firm-apologizes-for-missing-vulnerability/	https://www.zdnet.com/a/img/resize/c46186e5ea2ef1651c7ad218d89b762571422198/2021/10/15/ebba8479-c60e-4724-8f98-4647217826af/shutterstock-1253457799.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-20 17:13:08+01	zdnet	t	2021-12-20 19:00:02.294093+01	zdnet/30-million-stolen-from-DeFi-protocol-Grim-Finance-audit-firm-apologizes-for-missing-vulnerability--ZDNet
+410	UK govt shares 585 million passwords with Have I Been Pwned	The United Kingdom's National Crime Agency has contributed more than 585 million passwords to the Have I Been Pwned service that lets users check if their login information has leaked online.	https://www.bleepingcomputer.com/news/security/uk-govt-shares-585-million-passwords-with-have-i-been-pwned/	https://www.bleepstatic.com/content/hl-images/2021/04/23/Password.jpg	Ionut Ilascu	2021-12-20 18:49:11+01	bleepingcomputer	t	2021-12-20 19:00:02.294093+01	bleepingcomputer/UK-govt-shares-585-million-passwords-with-Have-I-Been-Pwned
 \.
 
 
@@ -412,7 +414,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 408, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 410, true);
 
 
 --
