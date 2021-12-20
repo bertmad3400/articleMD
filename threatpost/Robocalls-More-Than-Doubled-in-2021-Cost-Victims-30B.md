@@ -1,0 +1,79 @@
+# Robocalls More Than Doubled in 2021, Cost Victims $30B
+### T-Mobile reported blocking 21 billion scam calls during a record-smashing year for robocalls.
+
+## Information:
++ Source: ThreatPost
++ Link: https://kasperskycontenthub.com/threatpost-global/?p=177165
++ Date: 2021-12-20T19:48:25+00:00
++ Author: Becky Bracken
+
+
+## Article:
+![Article Image](https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/20144548/robot-e1640029561789.jpeg)
+
+No surprise to anyone with a phone: Robocalls are rampant. In fact, the number of scam calls more than doubled over the past year, successfully bilking wireless phone customers out of $29.8 billion in 2021 alone.
+
+
+Wireless carrier T-Mobile just released its [Scam and Robocall year-end report](https://www.t-mobile.com/news/devices/t-mobile-releases-2021-scam-and-robocall-report), and the numbers tell the story: Scam call traffic is up 116 percent over 2020; averaging about 425 million calls every week. According to T-Mobile, it cost [wireless customers](https://threatpost.com/verizon-visible-wireless-credential-stuffing/175483/) a projected $29.8 billion in 2021.
+
+
+T-Mobile offers its customers a Scam Shield service, which, the company added, had blocked more than 21 billion junk calls in 2021 as of earlier this month.
+
+
+[![Infosec Insiders Newsletter](https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/10165815/infosec_insiders_in_article_promo.png)](https://threatpost.com/infosec-insider-subscription-page/?utm_source=ART&utm_medium=ART&utm_campaign=InfosecInsiders_Newsletter_Promo/)
+
+
+“Attempted scam calls hit record highs in 2021, but with Scam Shield we are identifying or blocking an average 1.8 billion calls each month – or 700 calls per second! – for our T-Mobile and Metro by T-Mobile customers,” Jon Freier, president of T-Mobile’s Consumer Group, said about the report’s findings.
+
+
+“We know that scammers won’t stop as long as they continue to be successful, so we are doing everything we can to make their job as hard as possible,” Freier added.
+
+
+The data collected on scam calls by T-Mobile showed that these robocalls are largely being made during standard business hours. The data showed an 80 percent drop in calls during weekdays compared with Saturday and Sunday.
+
+
+The timing makes sense. Overwhelmingly, fraudsters are making [scam calls disguised as businesses](https://threatpost.com/double-extortion-ransomware-data-leaks/176723/).
+
+
+T-Mobile found 51 percent of fraud calls were scam vehicle warranty offers, followed by fake Social Security office calls, malicious wireless service provider messages, dodgy car insurance offers, pernicious package delivery details, hoax healthcare inquiries and more.
+
+
+In keeping with their professional front, the phone fraudsters likewise take it easy on holidays. T-Mobile found the lowest volume of scam calls on April 4, Easter Sunday, with another steep drop off on Dec. 23 and through Christmas.
+
+
+**FCC Goes After Nuisance Calls**
+---------------------------------
+
+
+T-Mobile pointed out that nuisance calls are the number one complaint received by the Federal Communications Commission (FCC).
+
+
+Last March, FCC Acting Chairwoman Jessica Rosenworcel announced [hefty fines against scam telemarketers](https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts) in Texas that were offering fake health insurance plans by phone. Rosenworcel demanded voice communications service providers to clamp down on rampant fraud, along with other new rules intended to cut down on the overwhelming volume of scam calls.
+
+
+Phone companies are required by the FCC to implement caller ID to reduce spoofing, to make consumer complaints public and to allow users to block calls that aren’t in their contact list.
+
+
+“Unwanted robocalls are not only a nuisance, but they also pose a serious risk to consumers who can inadvertently share sensitive, personal information in response to bad actors’ malicious schemes,” Rosenworcel said during the announcement last March. “Also, today’s cease and desist letters should serve as a warning sign to other entities that believe the FCC has turned a blind eye to this issue. We certainly haven’t and we’re coming for you.”
+
+
+***Check out our free*** [***upcoming live and on-demand online town halls***](https://threatpost.com/category/webinars/) ***– unique, dynamic discussions with cybersecurity experts and the Threatpost community.***
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Conti]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=Tor]]
+
+#### Industry:
+[[victim.industry.name=Healthcare]]
+
+#### Location:
+[[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.country.name=Oman]] [[victim.continent.name=Asia]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[T-mobile]] [[Fcc]] [[Rosenworcel]] [[ThreatPost]]
+
