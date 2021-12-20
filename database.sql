@@ -396,6 +396,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 397	New stealthy DarkWatchman malware hides in the Windows Registry	A new malware named 'DarkWatchman' has emerged in the cybercrime underground, and it's a lightweight and highly-capable JavaScript RAT (Remote Access Trojan) paired with a C# keylogger.	https://www.bleepingcomputer.com/news/security/new-stealthy-darkwatchman-malware-hides-in-the-windows-registry/	https://www.bleepstatic.com/content/hl-images/2021/12/09/dark_hoodie.jpg	Bill Toulas	2021-12-19 17:02:01+01	bleepingcomputer	t	2021-12-20 01:00:02.080157+01	bleepingcomputer/New-stealthy-DarkWatchman-malware-hides-in-the-Windows-Registry
 398	US orders federal govt agencies to patch critical Log4j bug	US Federal Civilian Executive Branch agencies have been ordered to patch the critical and actively exploited Log4Shell security vulnerability in the Apache Log4j library within the next six days.	https://www.bleepingcomputer.com/news/security/us-orders-federal-govt-agencies-to-patch-critical-log4j-bug/	https://www.bleepstatic.com/content/hl-images/2021/12/13/Log4j___logo.jpg	Sergiu Gatlan	2021-12-17 18:35:43+01	bleepingcomputer	t	2021-12-20 01:00:02.080157+01	bleepingcomputer/US-orders-federal-govt-agencies-to-patch-critical-Log4j-bug
 399	The NCA shares 585 million passwords with Have I Been Pwned	The UK National Crime Agency has shared a collection of more than 585 million compromised passwords it found during an investigation with Have I Been Pwned, a website that indexes data from security breaches.	https://therecord.media/the-nca-shares-585-million-passwords-with-have-i-been-pwned/	https://therecord.media/wp-content/uploads/2021/06/HIBP.jpg	Catalin Cimpanu	2021-12-20 11:50:33+01	therecord	t	2021-12-20 12:00:02.778066+01	therecord/The-NCA-shares-585-million-passwords-with-Have-I-Been-Pwned
+400	Wireless Coexistence Attacks Exploit SoCs To Steal Data Via Data Packets	Wireless coexistence attacks allow stealing data across Bluetooth and WiFi by exploiting SoCs. Partial fixes released via firmware updates.	https://latesthackingnews.com/2021/12/20/wireless-coexistence-attacks-exploit-systems-on-a-chip-socs/	https://latesthackingnews.com/wp-content/uploads/2019/10/wireless-signal-1119306_640.png	Abeerah Hashim	2021-12-20 00:00:00+01	latesthackingnews	t	2021-12-20 13:00:02.301974+01	latesthackingnews/Wireless-Coexistence-Attacks-Exploit-SoCs-To-Steal-Data-Via-Data-Packets
 \.
 
 
@@ -403,7 +404,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 399, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 400, true);
 
 
 --
