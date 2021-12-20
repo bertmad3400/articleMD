@@ -415,6 +415,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 416	Microsoft warns of easy Windows domain takeover via Active Directory bugs	Microsoft warned customers today to patch two Active Directory domain service privilege escalation security flaws that, when combined, allow attackers to easily takeover Windows domains.	https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-easy-windows-domain-takeover-via-active-directory-bugs/	https://www.bleepstatic.com/content/hl-images/2021/07/09/Windows.jpg	Sergiu Gatlan	2021-12-20 20:51:43+01	bleepingcomputer	t	2021-12-20 21:00:02.383873+01	bleepingcomputer/Microsoft-warns-of-easy-Windows-domain-takeover-via-Active-Directory-bugs
 417	Study finds “serious security risks” in K-12 school apps	Many apps used by schools contain features that can lead to the “unregulated and out of control” sharing of student data to advertising companies and other security issues, according to a report published Monday by the nonprofit Me2B Alliance.	https://therecord.media/study-finds-serious-security-risks-in-k-12-school-apps/	https://therecord.media/wp-content/uploads/2021/12/bima-rahmanda-4mPo9OVEg7g-unsplash-1.jpg	Adam Janofsky	2021-12-20 21:00:05+01	therecord	t	2021-12-20 21:00:02.383873+01	therecord/Study-finds-serious-security-risks-in-K-12-school-apps
 418	Robocalls More Than Doubled in 2021, Cost Victims $30B	T-Mobile reported blocking 21 billion scam calls during a record-smashing year for robocalls.	https://kasperskycontenthub.com/threatpost-global/?p=177165	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/20144548/robot-e1640029561789.jpeg	Becky Bracken	2021-12-20 20:48:25+01	threatpost	t	2021-12-20 21:00:02.383873+01	threatpost/Robocalls-More-Than-Doubled-in-2021-Cost-Victims-30B
+419	Cybersecurity company ZeroFox acquires IDX, merges with L&F to create $1.4 billion entity | ZDNet	Several venture capital firms are also investing $170 million into the merger.	https://www.zdnet.com/article/cybersecurity-company-zerofox-acquires-idx-merges-with-l-f-to-create-1-4-billion-entity/	https://www.zdnet.com/a/img/resize/3cc5745e17f045ec8d44a10256a86068788e3b1e/2021/09/14/501d34df-90d3-4830-a6e0-a9e590bd4370/cybersecurity-1.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-20 20:39:00+01	zdnet	t	2021-12-20 22:00:01.794829+01	zdnet/Cybersecurity-company-ZeroFox-acquires-IDX-merges-with-LF-to-create-14-billion-entity--ZDNet
 \.
 
 
@@ -422,7 +423,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 418, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 419, true);
 
 
 --
