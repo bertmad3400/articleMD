@@ -433,6 +433,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 434	Threat actors steal $80 million per month with fake giveaways, surveys	Scammers are estimated to have made $80 million per month by impersonating popular brands asking people to participate in fake surveys or giveaways.	https://www.bleepingcomputer.com/news/security/threat-actors-steal-80-million-per-month-with-fake-giveaways-surveys/	https://www.bleepstatic.com/content/hl-images/2021/12/21/giveaway-gift.jpg	Bill Toulas	2021-12-21 18:51:27+01	bleepingcomputer	t	2021-12-21 19:00:01.817383+01	bleepingcomputer/Threat-actors-steal-80-million-per-month-with-fake-giveaways-surveys
 435	Russian hackers made millions by stealing SEC earning reports	A Russian national working for a cybersecurity company has been extradited to the U.S. where he is being charged for hacking into computer networks of two U.S.-based filing agents used by multiple companies to file quarterly and annual earnings through the Securities and Exchange Commissions (SEC) system.	https://www.bleepingcomputer.com/news/security/russian-hackers-made-millions-by-stealing-sec-earning-reports/	https://www.bleepstatic.com/content/hl-images/2021/04/01/US-DOJ-Justice.jpg	Ionut Ilascu	2021-12-21 18:18:07+01	bleepingcomputer	t	2021-12-21 19:00:01.817383+01	bleepingcomputer/Russian-hackers-made-millions-by-stealing-SEC-earning-reports
 436	US returns $154 Million in bitcoins stolen by Sony employee	The United States has taken legal action to seize and return over $154 million purportedly stolen from Sony Life Insurance Company Ltd, a SONY subsidiary, by an employee in a textbook business email compromise (BEC) attack.	https://www.bleepingcomputer.com/news/security/us-returns-154-million-in-bitcoins-stolen-by-sony-employee/	https://www.bleepstatic.com/content/hl-images/2021/12/21/SONY_headpic.jpg	Sergiu Gatlan	2021-12-21 18:03:15+01	bleepingcomputer	t	2021-12-21 19:00:01.817383+01	bleepingcomputer/US-returns-154-Million-in-bitcoins-stolen-by-Sony-employee
+437	800K WordPress sites still impacted by critical SEO plugin flaw	Two critical and high severity security vulnerabilities in the highly popular All in One SEO WordPress plugin exposed over 3 million websites to takeover attacks.	https://www.bleepingcomputer.com/news/security/800k-wordpress-sites-still-impacted-by-critical-seo-plugin-flaw/	https://www.bleepstatic.com/content/hl-images/2020/09/10/WordPress.jpg	Sergiu Gatlan	2021-12-21 20:25:26+01	bleepingcomputer	t	2021-12-21 21:00:01.835757+01	bleepingcomputer/800K-WordPress-sites-still-impacted-by-critical-SEO-plugin-flaw
 \.
 
 
@@ -440,7 +441,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 436, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 437, true);
 
 
 --
