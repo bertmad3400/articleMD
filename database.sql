@@ -420,6 +420,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 421	Cybersecurity company identifies months-long attack on US federal commission | ZDNet	Both CISA and USCIRF refused to engage with the company after being notified repeatedly of the attack.	https://www.zdnet.com/article/cybersecurity-company-identifies-months-long-attack-on-us-federal-commission/	https://www.zdnet.com/a/img/resize/82d9abb615de6907df8a17068ce70fef5e7a834c/2016/06/16/5e4ae78b-ea6b-44af-8e19-387dbb78655c/congress-capitol-hill-flag-thumb.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-20 22:37:07+01	zdnet	t	2021-12-21 00:00:02.300424+01	zdnet/Cybersecurity-company-identifies-months-long-attack-on-US-federal-commission--ZDNet
 422	Conti Ransomware Gang Has Full Log4Shell Attack Chain	Conti has become the first professional-grade, sophisticated ransomware group to weaponize Log4j2, now with a full attack chain.	https://kasperskycontenthub.com/threatpost-global/?p=177173	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/20170634/attack-chain-e1640038007418.jpeg	Lisa Vaas	2021-12-20 23:11:30+01	threatpost	t	2021-12-21 00:00:02.300424+01	threatpost/Conti-Ransomware-Gang-Has-Full-Log4Shell-Attack-Chain
 423	Meta (Facebook) sues operators of 39,000 phishing sites	Meta, the parent company for Facebook, Instagram, and WhatsApp, has filed a lawsuit today in a California court against the operators of more than 39,000 phishing sites that have been hosted through the Ngrok service.	https://therecord.media/meta-facebook-sues-operators-of-39000-phishing-sites/	https://therecord.media/wp-content/uploads/2021/12/meta-logo.jpg	Catalin Cimpanu	2021-12-21 02:35:32+01	therecord	t	2021-12-21 03:00:02.142634+01	therecord/Meta-Facebook-sues-operators-of-39000-phishing-sites
+424	Police found 225 million stolen passwords hidden on a hacked cloud server. Is yours one of them? | ZDNet	Compromised credentials have been 'donated' to HaveIBeenPwned to make breaches harder.	https://www.zdnet.com/article/police-found-225-million-stolen-passwords-hidden-on-a-hacked-cloud-server-is-yours-one-of-them/	https://www.zdnet.com/a/img/resize/f39099afe20cd7496f64fa09fb59ed39f0ad859c/2021/04/09/7adf05da-57d7-4674-ba30-798c2d5d7e58/istock-1270379991.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2021-12-21 10:41:53+01	zdnet	t	2021-12-21 12:00:02.600664+01	zdnet/Police-found-225-million-stolen-passwords-hidden-on-a-hacked-cloud-server-Is-yours-one-of-them--ZDNet
 \.
 
 
@@ -427,7 +428,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 423, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 424, true);
 
 
 --
