@@ -424,6 +424,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 425	An IDOR Bug In Facebook Android Could Expose Page Admins	Meta confirmed patching the Facebook Android app bug revealing Page admins, while rewarding the researcher with a $4500 bounty.	https://latesthackingnews.com/2021/12/21/an-idor-bug-in-facebook-android-could-expose-page-admins-patch-deployed/	https://latesthackingnews.com/wp-content/uploads/2021/12/facebook-app.jpg	Abeerah Hashim	2021-12-21 00:00:00+01	latesthackingnews	t	2021-12-21 14:00:02.075786+01	latesthackingnews/An-IDOR-Bug-In-Facebook-Android-Could-Expose-Page-Admins
 426	FBI: Hackers are actively exploiting this flaw on ManageEngine Desktop Central servers | ZDNet	Zoho released a patch in December, but attackers are still trying to use the flaw.	https://www.zdnet.com/article/fbi-hackers-are-actively-exploiting-this-flaw-on-manageengine-desktop-central-servers/	https://www.zdnet.com/a/img/resize/4d6efe55c71ac9e4a8a686519ae71817dfddff45/2021/11/16/7c0cdc25-9d34-4c8b-958a-14ae16877a83/the-hands-of-a-computer-hacker-over-a-keyboard.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2021-12-21 12:35:40+01	zdnet	t	2021-12-21 14:00:02.075786+01	zdnet/FBI-Hackers-are-actively-exploiting-this-flaw-on-ManageEngine-Desktop-Central-servers--ZDNet
 427	Log4j flaw: 10 questions you need to be asking | ZDNet	NSCS warns that the Log4j flaw won't be fixed overnight and that defenders could suffer burnout during the process.	https://www.zdnet.com/article/log4j-flaw-10-questions-you-should-be-asking/	https://www.zdnet.com/a/img/resize/32d5e4606a71596e1ea97276ba10aea050ad4cda/2021/03/19/6c4e4301-f8e2-4321-8518-ecf035f74ec4/istock-992574526-2.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2021-12-21 12:08:08+01	zdnet	t	2021-12-21 14:00:02.075786+01	zdnet/Log4j-flaw-10-questions-you-need-to-be-asking--ZDNet
+428	Windows 10 21H2 adds ransomware protection to security baseline	Microsoft has released the final version of security configuration baseline settings for Windows 10, version 21H2, available today from the Microsoft Security Compliance Toolkit.	https://www.bleepingcomputer.com/news/microsoft/windows-10-21h2-adds-ransomware-protection-to-security-baseline/	https://www.bleepstatic.com/content/hl-images/2021/04/17/windows-10-sapphire.jpg	Sergiu Gatlan	2021-12-21 14:06:10+01	bleepingcomputer	t	2021-12-21 15:00:02.143316+01	bleepingcomputer/Windows-10-21H2-adds-ransomware-protection-to-security-baseline
+429	New Abcbot botnet goes after Chinese cloud providers	Security researchers have spotted a new malware botnet that, over the past few months, has specifically targeted the infrastructure of Chinese cloud hosting providers.	https://therecord.media/new-abcbot-botnet-goes-after-chinese-cloud-providers/	https://therecord.media/wp-content/uploads/2021/08/HolesWarm-botnet.png	Catalin Cimpanu	2021-12-21 15:00:06+01	therecord	t	2021-12-21 15:00:02.143316+01	therecord/New-Abcbot-botnet-goes-after-Chinese-cloud-providers
 \.
 
 
@@ -431,7 +433,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 427, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 429, true);
 
 
 --
