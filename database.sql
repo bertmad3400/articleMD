@@ -428,6 +428,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 429	New Abcbot botnet goes after Chinese cloud providers	Security researchers have spotted a new malware botnet that, over the past few months, has specifically targeted the infrastructure of Chinese cloud hosting providers.	https://therecord.media/new-abcbot-botnet-goes-after-chinese-cloud-providers/	https://therecord.media/wp-content/uploads/2021/08/HolesWarm-botnet.png	Catalin Cimpanu	2021-12-21 15:00:06+01	therecord	t	2021-12-21 15:00:02.143316+01	therecord/New-Abcbot-botnet-goes-after-Chinese-cloud-providers
 431	FBI: Another Zoho ManageEngine Zero-Day Under Active Attack	APT attackers are using a security vulnerability in ManageEngine Desktop Central to take over servers, deliver malware and establish network persistence.	https://kasperskycontenthub.com/threatpost-global/?p=177178	https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/27112232/zero-day.jpeg	Elizabeth Montalbano	2021-12-21 15:42:02+01	threatpost	t	2021-12-21 16:00:02.20284+01	threatpost/FBI-Another-Zoho-ManageEngine-Zero-Day-Under-Active-Attack
 430	Report: Beijing unleashed a massive propaganda campaign to redefine democracy	China has unleashed a massive propaganda campaign aimed at redefining democracy in its own image. The effort, detailed in a new report, includes flooding social media outlets with thousands of posts, cartoons and memes, questioning age-old assumptions about democracy.	https://therecord.media/report-beijing-unleashed-a-massive-propaganda-campaign-to-redefine-democracy/	https://therecord.media/wp-content/uploads/2021/12/slack-imgs-e1640098891375.jpg	Dina Temple-Raston	2021-12-21 16:00:19+01	therecord	t	2021-12-21 16:00:02.20284+01	therecord/Report-Beijing-unleashed-a-massive-propaganda-campaign-to-redefine-democracy
+432	Garrett walk-through metal detectors can be remotely manipulated	Two widely used walk-through metal detectors made by Garrett are vulnerable to many remotely exploitable flaws that could severely impair their functionality, thus rendering security checkpoints deficient.	https://www.bleepingcomputer.com/news/security/garrett-walk-through-metal-detectors-can-be-remotely-manipulated/	https://www.bleepstatic.com/content/hl-images/2021/12/21/garret-metal-detectors.jpg	Bill Toulas	2021-12-21 16:23:54+01	bleepingcomputer	t	2021-12-21 17:00:02.374204+01	bleepingcomputer/Garrett-walk-through-metal-detectors-can-be-remotely-manipulated
 \.
 
 
@@ -435,7 +436,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 431, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 432, true);
 
 
 --
