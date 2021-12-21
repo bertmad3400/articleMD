@@ -437,6 +437,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 438	2easy now a significant dark web marketplace for stolen data	A dark web marketplace named '2easy' is becoming a significant player in the sale of stolen data Logs harvested from roughly 600,000 devices infected with information-stealing malware.	https://www.bleepingcomputer.com/news/security/2easy-now-a-significant-dark-web-marketplace-for-stolen-data/	https://www.bleepstatic.com/content/hl-images/2021/12/21/data-theft-header.jpg	Bill Toulas	2021-12-21 21:02:41+01	bleepingcomputer	t	2021-12-21 22:00:02.228576+01	bleepingcomputer/2easy-now-a-significant-dark-web-marketplace-for-stolen-data
 439	Java Code Repository Riddled with Hidden Log4j Bugs; Here's Where to Look	There are 17,000npatched Log4j packages in the Maven Central ecosystem, leaving massive supply-chain risk on the table from Log4Shell exploits.	https://kasperskycontenthub.com/threatpost-global/?p=177211	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/21151757/Logs-e1640117899602.png	Tara Seals	2021-12-21 21:46:35+01	threatpost	t	2021-12-21 22:00:02.228576+01	threatpost/Java-Code-Repository-Riddled-with-Hidden-Log4j-Bugs-Heres-Where-to-Look
 440	Half-Billion Compromised Credentials Lurking on Open Cloud Server	A quarter-billion of those passwords were not seen in previous breaches that have been added to Have I Been Pwned.	https://kasperskycontenthub.com/threatpost-global/?p=177202	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/30082831/Password-Username.jpg	Tara Seals	2021-12-21 21:08:42+01	threatpost	t	2021-12-21 22:00:02.228576+01	threatpost/Half-Billion-Compromised-Credentials-Lurking-on-Open-Cloud-Server
+441	Ubisoft confirms Just Dance data breach amid developer exodus | ZDNet	Ubisoft said there was an intrusion into the company's IT infrastructure targeting Just Dance.	https://www.zdnet.com/article/ubisoft-confirms-just-dance-data-breach-amid-developer-exodus/	https://www.zdnet.com/a/img/resize/acb81e72b26b14b2545f194975e6b571659f46f7/2019/09/19/63ac0ec3-7744-4b0d-b332-cf07b0953794/ubisoft.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-21 21:35:46+01	zdnet	t	2021-12-21 23:00:02.573165+01	zdnet/Ubisoft-confirms-Just-Dance-data-breach-amid-developer-exodus--ZDNet
 \.
 
 
@@ -444,7 +445,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 440, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 441, true);
 
 
 --
