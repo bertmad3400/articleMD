@@ -444,6 +444,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 445	This ransomware strain just started targeting lots more businesses | ZDNet	Gang typically targets finance, government and healthcare organisations.	https://www.zdnet.com/article/this-ransomware-strain-just-started-targeting-lots-more-businesses/	https://www.zdnet.com/a/img/resize/4d6efe55c71ac9e4a8a686519ae71817dfddff45/2021/11/16/7c0cdc25-9d34-4c8b-958a-14ae16877a83/the-hands-of-a-computer-hacker-over-a-keyboard.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2021-12-22 10:28:38+01	zdnet	t	2021-12-22 12:00:02.307237+01	zdnet/This-ransomware-strain-just-started-targeting-lots-more-businesses--ZDNet
 446	New Log4j Attack Vector Exploits WebSocket To Trigger RCE	Researchers recommend updating to Log4j version 2.17.0 to mitigate this attack vector that exploits WebSocket connections.	https://latesthackingnews.com/2021/12/22/new-log4j-attack-vector-exploits-websocket-to-trigger-rce-update-to-log4j-2-17-0/	https://latesthackingnews.com/wp-content/uploads/2019/11/HackerOne-vulnerabilities.jpg	Abeerah Hashim	2021-12-22 00:00:00+01	latesthackingnews	t	2021-12-22 15:00:02.718295+01	latesthackingnews/New-Log4j-Attack-Vector-Exploits-WebSocket-To-Trigger-RCE
 447	Major services including Slack, AWS, Hulu, Imgur facing outages	Major services across the internet are currently facing ongoing networking outages.	https://www.bleepingcomputer.com/news/technology/major-services-including-slack-aws-hulu-imgur-facing-outages/	https://www.bleepstatic.com/content/hl-images/2020/08/30/network-routing.jpg	Ax Sharma	2021-12-22 14:24:22+01	bleepingcomputer	t	2021-12-22 15:00:02.718295+01	bleepingcomputer/Major-services-including-Slack-AWS-Hulu-Imgur-facing-outages
+448	Four Bugs in Microsoft Teams Left Platform Vulnerable Since March	Attackers exploiting bugs in the “link preview” feature in Microsoft Teams could abuse the flaws to spoof links, leak an Android user’s IP address and launch a DoS attack.	https://kasperskycontenthub.com/threatpost-global/?p=177225	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/22085506/microsoft-teams-mobile.jpg	Elizabeth Montalbano	2021-12-22 15:03:05+01	threatpost	t	2021-12-22 16:00:02.59374+01	threatpost/Four-Bugs-in-Microsoft-Teams-Left-Platform-Vulnerable-Since-March
 \.
 
 
@@ -451,7 +452,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 447, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 448, true);
 
 
 --
