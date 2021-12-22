@@ -461,6 +461,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 462	Rideshare account hacker faces up to 22 years in prison	A man pleaded guilty to fraudulently opening rideshare and delivery service accounts using stolen identity information sold on dark web marketplaces.	https://www.bleepingcomputer.com/news/legal/rideshare-account-hacker-faces-up-to-22-years-in-prison/	https://www.bleepstatic.com/content/hl-images/2021/12/22/uber.jpg	Bill Toulas	2021-12-22 20:51:13+01	bleepingcomputer	t	2021-12-22 21:00:01.846431+01	bleepingcomputer/Rideshare-account-hacker-faces-up-to-22-years-in-prison
 463	Microsoft Azure App Service flaw exposed customer source code	A security flaw found in Azure App Service, a Microsoft-managed platform for building and hosting web apps, led to the exposure of PHP, Node, Python, Ruby, or Java customer source code deployed on Microsoft's cloud infrastructure.	https://www.bleepingcomputer.com/news/security/microsoft-azure-app-service-flaw-exposed-customer-source-code/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Microsoft.jpg	Sergiu Gatlan	2021-12-22 20:15:54+01	bleepingcomputer	t	2021-12-22 21:00:01.846431+01	bleepingcomputer/Microsoft-Azure-App-Service-flaw-exposed-customer-source-code
 464	‘Hack DHS’ bug bounty program expands to Log4j security flaws	The Department of Homeland Security (DHS) has announced that the 'Hack DHS' program is now also open to bug bounty hunters willing to track down DHS systems impacted by Log4j vulnerabilities.	https://www.bleepingcomputer.com/news/security/hack-dhs-bug-bounty-program-expands-to-log4j-security-flaws/	https://www.bleepstatic.com/content/hl-images/2021/12/22/Hack_DHS.jpg	Sergiu Gatlan	2021-12-22 21:30:00+01	bleepingcomputer	t	2021-12-22 22:00:02.677276+01	bleepingcomputer/Hack-DHS-bug-bounty-program-expands-to-Log4j-security-flaws
+465	Honeypot experiment reveals what hackers want from IoT devices	​A three-year-long honeypot experiment featuring simulated low-interaction IoT devices of various types and locations gives a clear idea of why actors target specific devices.	https://www.bleepingcomputer.com/news/security/honeypot-experiment-reveals-what-hackers-want-from-iot-devices/	https://www.bleepstatic.com/content/hl-images/2021/12/22/bees.jpg	Bill Toulas	2021-12-22 22:46:05+01	bleepingcomputer	t	2021-12-22 23:00:02.668604+01	bleepingcomputer/Honeypot-experiment-reveals-what-hackers-want-from-IoT-devices
 \.
 
 
@@ -468,7 +469,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 464, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 465, true);
 
 
 --
