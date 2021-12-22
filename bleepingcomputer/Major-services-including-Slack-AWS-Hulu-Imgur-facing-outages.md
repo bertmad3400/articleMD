@@ -1,0 +1,91 @@
+# Major services including Slack, AWS, Hulu, Imgur facing outages
+### Major services across the internet are currently facing ongoing networking outages.
+
+## Information:
++ Source: Bleeping Computer
++ Link: https://www.bleepingcomputer.com/news/technology/major-services-including-slack-aws-hulu-imgur-facing-outages/
++ Date: 2021-12-22T08:24:22-05:00
++ Author: Ax Sharma
+
+
+## Article:
+![Article Image](https://www.bleepstatic.com/content/hl-images/2020/08/30/network-routing.jpg)
+
+![network](https://www.bleepstatic.com/content/hl-images/2020/08/30/network-routing.jpg)
+
+
+Major services across the internet are currently facing ongoing networking outages.
+
+
+Popular sites and apps can't be reached
+---------------------------------------
+
+
+These services include Amazon, AWS, Hulu, Slack, Imgur, Asana, Grindr, [Scruff](http://web.archive.org/web/20211222135054/https://status.scruff.com/), HubSpot, among other popular sites and services.
+
+
+
+![outage impacts major services](https://www.bleepstatic.com/images/news/u/1164866/2021/Dec-2021/dec-outage/services-down.jpg)**Today's outage has hit major online services and apps**(DownDetector)
+Tests by BleepingComputer confirmed that IMs and file uploads have been failing on Slack, and connectivity is also impacted.
+
+
+Users are receiving errors when sending or editing messages on Slack, such as: 
+
+
+"Couldn’t send message. Your message, along with any files and attachments, has been saved to your drafts," or "Sorry, something went wrong with editing your message. Try again in a moment."
+
+
+
+![slack down](https://www.bleepstatic.com/images/news/u/1164866/2021/Dec-2021/dec-outage/slack-down.jpg)**Starting the Slack app crashes on some attempts, requiring a restart**(BleepingComputer)
+"We are experiencing issues with file uploads, message editing, and other services. We're currently investigating the issue and will provide a status update once we have more information," Slack has [confirmed](https://status.slack.com/2021-12/a17eae991fdc437d), with its status [page](https://status.slack.com/) continuing to show further disruptions. 
+
+
+Likewise, image hosting service Imgur isn't loading content and throws the error message:
+
+
+"Sorry! We're encountering some technical difficulties. Refresh or check back in a few!"
+
+
+
+![Imgur down](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)**Imgur not loading** (BleepingComputer)
+Like Scruff and some others, HubSpot has [pinned](http://status.hubspot.com/incidents/2y0cclvtbw53) the issue on an ongoing AWS outage:
+
+
+
+![HubSpot down](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)**HubSpot users experiencing issues** (BleepingComputer)
+We are yet to find out if the widespread outage is caused by a DNS, [BGP routing](https://www.bleepingcomputer.com/news/security/major-bgp-leak-disrupts-thousands-of-networks-globally/), or an unrelated issue altogether.
+
+
+Power cut at AWS data center?
+-----------------------------
+
+
+Amazon has [confirmed](https://status.aws.amazon.com/rss/ec2-us-east-1.rss) a power cut at its US-EAST-1 data center is impacting services that rely on the particular 'Availability Zone.'
+
+
+"We can confirm a loss of power within a single data center within a single Availability Zone (USE1-AZ4) in the US-EAST-1 Region. This is affecting availability and connectivity to EC2 instances that are part of the affected data center within the affected Availability Zone. We are also experiencing elevated RunInstance API error rates for launches within the affected Availability Zone. Connectivity and power to other data centers within the affected Availability Zone, or other Availability Zones within the US-EAST-1 Region are not affected by this issue, but we would recommend failing away from the affected Availability Zone (USE1-AZ4) if you are able to do so. We continue to work to address the issue and restore power within the affected data center."
+
+
+Today's outage and connectivity problems follow two recent events from last week including [Cloudflare networking issues](https://www.bleepingcomputer.com/news/technology/cloudflare-is-experiencing-widespread-latency-and-timeouts/), and a previous AWS outage that had caused [disruptions to Twitch, Zoom, PSN, Hulu](https://www.bleepingcomputer.com/news/technology/aws-down-again-outage-impacts-twitch-zoom-psn-hulu-others/), among other services.
+
+
+*Update 8:50 AM ET: AWS has now restored power to all instances and network devices at the affected data center. Connectivity is expected to return to normal levels shortly.*
+
+
+*This is a developing story.*
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Conti]] [[action.malware.name=Elise]] [[action.malware.name=Net]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=Reg]] [[action.malware.name=Tor]]
+
+#### Location:
+[[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Aws]] [[Imgur]] [[Hubspot]] [[(bleepingcomputer)]] [[Us-east-1]] [[Bleeping Computer]]
+
