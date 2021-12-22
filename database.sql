@@ -441,6 +441,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 442	What to Do About Log4j	Learn more about some tactical measures people are already taking, and some strategic guidance for what to do after the immediate crisis abates.	https://www.trendmicro.com/en_us/research/21/l/log4j.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/what-to-do-about-log4j/log4j-rnp.jpg	\N	2021-12-21 00:00:00+01	trendmicro	t	2021-12-22 00:00:02.15574+01	trendmicro/What-to-Do-About-Log4j
 443	PYSA ransomware behind most double extortion attacks in November	Security analysts from NCC Group report that ransomware attacks in November 2021 increased over the past month, with double-extortion continuing to be a powerful tool in threat actors' arsenal.	https://www.bleepingcomputer.com/news/security/pysa-ransomware-behind-most-double-extortion-attacks-in-november/	https://www.bleepstatic.com/content/hl-images/2021/10/11/padlock.jpg	Bill Toulas	2021-12-21 23:37:20+01	bleepingcomputer	t	2021-12-22 00:00:02.15574+01	bleepingcomputer/PYSA-ransomware-behind-most-double-extortion-attacks-in-November
 444	New Dell BIOS updates cause laptops and desktops not to boot	Recently released Dell BIOS updates are reportedly causing serious boot problems on multiple laptops and desktop models.	https://www.bleepingcomputer.com/news/technology/new-dell-bios-updates-cause-laptops-and-desktops-not-to-boot/	https://www.bleepstatic.com/content/hl-images/2021/06/18/Dell.jpg	Sergiu Gatlan	2021-12-21 23:07:32+01	bleepingcomputer	t	2021-12-22 00:00:02.15574+01	bleepingcomputer/New-Dell-BIOS-updates-cause-laptops-and-desktops-not-to-boot
+445	This ransomware strain just started targeting lots more businesses | ZDNet	Gang typically targets finance, government and healthcare organisations.	https://www.zdnet.com/article/this-ransomware-strain-just-started-targeting-lots-more-businesses/	https://www.zdnet.com/a/img/resize/4d6efe55c71ac9e4a8a686519ae71817dfddff45/2021/11/16/7c0cdc25-9d34-4c8b-958a-14ae16877a83/the-hands-of-a-computer-hacker-over-a-keyboard.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2021-12-22 10:28:38+01	zdnet	t	2021-12-22 12:00:02.307237+01	zdnet/This-ransomware-strain-just-started-targeting-lots-more-businesses--ZDNet
 \.
 
 
@@ -448,7 +449,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 444, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 445, true);
 
 
 --
