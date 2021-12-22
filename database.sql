@@ -445,6 +445,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 446	New Log4j Attack Vector Exploits WebSocket To Trigger RCE	Researchers recommend updating to Log4j version 2.17.0 to mitigate this attack vector that exploits WebSocket connections.	https://latesthackingnews.com/2021/12/22/new-log4j-attack-vector-exploits-websocket-to-trigger-rce-update-to-log4j-2-17-0/	https://latesthackingnews.com/wp-content/uploads/2019/11/HackerOne-vulnerabilities.jpg	Abeerah Hashim	2021-12-22 00:00:00+01	latesthackingnews	t	2021-12-22 15:00:02.718295+01	latesthackingnews/New-Log4j-Attack-Vector-Exploits-WebSocket-To-Trigger-RCE
 447	Major services including Slack, AWS, Hulu, Imgur facing outages	Major services across the internet are currently facing ongoing networking outages.	https://www.bleepingcomputer.com/news/technology/major-services-including-slack-aws-hulu-imgur-facing-outages/	https://www.bleepstatic.com/content/hl-images/2020/08/30/network-routing.jpg	Ax Sharma	2021-12-22 14:24:22+01	bleepingcomputer	t	2021-12-22 15:00:02.718295+01	bleepingcomputer/Major-services-including-Slack-AWS-Hulu-Imgur-facing-outages
 448	Four Bugs in Microsoft Teams Left Platform Vulnerable Since March	Attackers exploiting bugs in the “link preview” feature in Microsoft Teams could abuse the flaws to spoof links, leak an Android user’s IP address and launch a DoS attack.	https://kasperskycontenthub.com/threatpost-global/?p=177225	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/22085506/microsoft-teams-mobile.jpg	Elizabeth Montalbano	2021-12-22 15:03:05+01	threatpost	t	2021-12-22 16:00:02.59374+01	threatpost/Four-Bugs-in-Microsoft-Teams-Left-Platform-Vulnerable-Since-March
+449	NVIDIA discloses applications impacted by Log4j vulnerability	NVIDIA has released a security advisory detailing what products are affected by the Log4Shell vulnerability that is currently exploited in a wide range of attacks worldwide.	https://www.bleepingcomputer.com/news/security/nvidia-discloses-applications-impacted-by-log4j-vulnerability/	https://www.bleepstatic.com/content/hl-images/2020/10/01/NVIDIA--headpic.jpg	Bill Toulas	2021-12-22 16:42:21+01	bleepingcomputer	t	2021-12-22 17:00:01.923949+01	bleepingcomputer/NVIDIA-discloses-applications-impacted-by-Log4j-vulnerability
+450	CISA releases Apache Log4j scanner to find vulnerable apps	The Cybersecurity and Infrastructure Security Agency (CISA) has announced the release of a scanner for identifying web services impacted by& two Apache Log4j remote code execution vulnerabilities, tracked as CVE-2021-44228 and CVE-2021-45046.	https://www.bleepingcomputer.com/news/security/cisa-releases-apache-log4j-scanner-to-find-vulnerable-apps/	https://www.bleepstatic.com/content/hl-images/2021/04/08/CISA.jpg	Sergiu Gatlan	2021-12-22 16:23:40+01	bleepingcomputer	t	2021-12-22 17:00:01.923949+01	bleepingcomputer/CISA-releases-Apache-Log4j-scanner-to-find-vulnerable-apps
 \.
 
 
@@ -452,7 +454,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 448, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 450, true);
 
 
 --
