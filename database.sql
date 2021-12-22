@@ -462,6 +462,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 463	Microsoft Azure App Service flaw exposed customer source code	A security flaw found in Azure App Service, a Microsoft-managed platform for building and hosting web apps, led to the exposure of PHP, Node, Python, Ruby, or Java customer source code deployed on Microsoft's cloud infrastructure.	https://www.bleepingcomputer.com/news/security/microsoft-azure-app-service-flaw-exposed-customer-source-code/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Microsoft.jpg	Sergiu Gatlan	2021-12-22 20:15:54+01	bleepingcomputer	t	2021-12-22 21:00:01.846431+01	bleepingcomputer/Microsoft-Azure-App-Service-flaw-exposed-customer-source-code
 464	‘Hack DHS’ bug bounty program expands to Log4j security flaws	The Department of Homeland Security (DHS) has announced that the 'Hack DHS' program is now also open to bug bounty hunters willing to track down DHS systems impacted by Log4j vulnerabilities.	https://www.bleepingcomputer.com/news/security/hack-dhs-bug-bounty-program-expands-to-log4j-security-flaws/	https://www.bleepstatic.com/content/hl-images/2021/12/22/Hack_DHS.jpg	Sergiu Gatlan	2021-12-22 21:30:00+01	bleepingcomputer	t	2021-12-22 22:00:02.677276+01	bleepingcomputer/Hack-DHS-bug-bounty-program-expands-to-Log4j-security-flaws
 465	Honeypot experiment reveals what hackers want from IoT devices	​A three-year-long honeypot experiment featuring simulated low-interaction IoT devices of various types and locations gives a clear idea of why actors target specific devices.	https://www.bleepingcomputer.com/news/security/honeypot-experiment-reveals-what-hackers-want-from-iot-devices/	https://www.bleepstatic.com/content/hl-images/2021/12/22/bees.jpg	Bill Toulas	2021-12-22 22:46:05+01	bleepingcomputer	t	2021-12-22 23:00:02.668604+01	bleepingcomputer/Honeypot-experiment-reveals-what-hackers-want-from-IoT-devices
+466	Chinese regulators suspend Alibaba Cloud over failure to report Log4j vulnerability | ZDNet	Alibaba Cloud has been suspended from their information-sharing partnership with the Ministry of Industry and Information Technology for six months.	https://www.zdnet.com/article/log4j-chinese-regulators-suspend-alibaba-partnership-over-failure-to-report-vulnerability/	https://www.zdnet.com/a/img/resize/002dc85ffb529c3e2edc11a89237214c56a92e2c/2020/09/28/db110d71-2156-4be1-988e-21ef784cd4d4/alibaba-unveils-cloud-20-5f712a890a148930ff8e036a-1-sep-28-2020-2-04-08-poster.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-22 22:21:00+01	zdnet	t	2021-12-23 00:00:02.627424+01	zdnet/Chinese-regulators-suspend-Alibaba-Cloud-over-failure-to-report-Log4j-vulnerability--ZDNet
 \.
 
 
@@ -469,7 +470,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 465, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 466, true);
 
 
 --
