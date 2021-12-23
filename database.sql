@@ -481,6 +481,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 482	Phishing campaign targets CoinSpot cryptoexchange 2FA codes	A new phishing campaign that targets users of the CoinSpot cryptocurrency exchange employs a new theme that revolves around withdrawal confirmations.	https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-coinspot-cryptoexchange-2fa-codes/	https://www.bleepstatic.com/content/hl-images/2021/03/05/cryptocurrency-assorted.jpg	Bill Toulas	2021-12-23 19:31:49+01	bleepingcomputer	t	2021-12-23 20:00:01.956019+01	bleepingcomputer/Phishing-campaign-targets-CoinSpot-cryptoexchange-2FA-codes
 483	4-Year-Old Microsoft Azure Zero-Day Exposes Web App Source Code	The security vulnerability could expose passwords and access tokens, along with blueprints for internal infrastructure and finding software vulnerabilities.	https://kasperskycontenthub.com/threatpost-global/?p=177270	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/23140337/cloud.jpg	Tara Seals	2021-12-23 20:04:13+01	threatpost	t	2021-12-23 21:00:02.784111+01	threatpost/4-Year-Old-Microsoft-Azure-Zero-Day-Exposes-Web-App-Source-Code
 484	Microsoft informs customers of 'NotLegit' Azure bug | ZDNet	The issue affects some Azure App Service Linux customers.	https://www.zdnet.com/article/notlegit-azure-bug-addressed-by-microsoft/	https://www.zdnet.com/a/img/resize/ae2b6c6c16c9f0b2730ed4ce9da332f831f78976/2021/10/14/345a9c26-72e2-46a1-b1cd-789556569f1a/microsoft.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-23 20:40:57+01	zdnet	t	2021-12-23 22:00:02.76559+01	zdnet/Microsoft-informs-customers-of-NotLegit-Azure-bug--ZDNet
+485	Multiple Log4j scanners released by CISA, Crowdstrike | ZDNet	Many Log4J scanners are available but researchers say a number of them have blindspots.	https://www.zdnet.com/article/multiple-log4j-scanners-released-by-cisa-crowdstrike-more/	https://www.zdnet.com/a/img/resize/a535398e0d27d917f14d8d322a691a8a3996e4b7/2021/09/02/f9723f89-2e71-4a46-a59f-f6838771f2ed/python-code-magnifying-glass-programming-language.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-23 21:29:13+01	zdnet	t	2021-12-23 23:00:02.302723+01	zdnet/Multiple-Log4j-scanners-released-by-CISA-Crowdstrike--ZDNet
 \.
 
 
@@ -488,7 +489,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 484, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 485, true);
 
 
 --
