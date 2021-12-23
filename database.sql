@@ -464,6 +464,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 465	Honeypot experiment reveals what hackers want from IoT devices	​A three-year-long honeypot experiment featuring simulated low-interaction IoT devices of various types and locations gives a clear idea of why actors target specific devices.	https://www.bleepingcomputer.com/news/security/honeypot-experiment-reveals-what-hackers-want-from-iot-devices/	https://www.bleepstatic.com/content/hl-images/2021/12/22/bees.jpg	Bill Toulas	2021-12-22 22:46:05+01	bleepingcomputer	t	2021-12-22 23:00:02.668604+01	bleepingcomputer/Honeypot-experiment-reveals-what-hackers-want-from-IoT-devices
 466	Chinese regulators suspend Alibaba Cloud over failure to report Log4j vulnerability | ZDNet	Alibaba Cloud has been suspended from their information-sharing partnership with the Ministry of Industry and Information Technology for six months.	https://www.zdnet.com/article/log4j-chinese-regulators-suspend-alibaba-partnership-over-failure-to-report-vulnerability/	https://www.zdnet.com/a/img/resize/002dc85ffb529c3e2edc11a89237214c56a92e2c/2020/09/28/db110d71-2156-4be1-988e-21ef784cd4d4/alibaba-unveils-cloud-20-5f712a890a148930ff8e036a-1-sep-28-2020-2-04-08-poster.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-22 22:21:00+01	zdnet	t	2021-12-23 00:00:02.627424+01	zdnet/Chinese-regulators-suspend-Alibaba-Cloud-over-failure-to-report-Log4j-vulnerability--ZDNet
 467	Multiple Vulnerabilities Found In Microsoft Teams – Only One Fixed Yet	The vulnerabilities affected Microsoft Teams link preview feature. Microsoft only patched an Android app flaw, denying fixes for the rest.	https://latesthackingnews.com/2021/12/23/multiple-vulnerabilities-found-in-microsoft-teams-only-one-fixed-so-far/	https://latesthackingnews.com/wp-content/uploads/2020/04/Microsoft-Teams-scaled.jpg	Abeerah Hashim	2021-12-23 00:00:00+01	latesthackingnews	t	2021-12-23 11:00:02.659139+01	latesthackingnews/Multiple-Vulnerabilities-Found-In-Microsoft-Teams--Only-One-Fixed-Yet
+468	This new ransomware has simple but very clever tricks to evade PC defenses | ZDNet	'Up-and-coming' ransomware strain is ramping up attacks.	https://www.zdnet.com/article/this-new-ransomware-has-simple-but-very-clever-tricks-to-evade-pc-defenses/	https://www.zdnet.com/a/img/resize/f06cee73e7dec3048bb3073f4f25cb600225502a/2020/10/30/388263c2-6ef9-4278-ada2-3bd0a5d26e0d/istock-11296385861.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2021-12-23 11:28:47+01	zdnet	t	2021-12-23 13:00:02.140726+01	zdnet/This-new-ransomware-has-simple-but-very-clever-tricks-to-evade-PC-defenses--ZDNet
 \.
 
 
@@ -471,7 +472,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 467, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 468, true);
 
 
 --
