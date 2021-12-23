@@ -475,6 +475,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 476	Beware of cryptominers when torrenting 'Spider-Man: No Way Home' | ZDNet	A cybersecurity company found a Monero miner attached to a torrent of the popular Marvel film.	https://www.zdnet.com/article/beware-of-cryptominers-when-downloading-spider-man-no-way-home-torrents/	https://www.zdnet.com/a/img/resize/3c323966e832ebd47773236ac50608975f112bf9/2021/12/23/41a432ad-fb8b-474b-ae62-e6b5086f57ef/shutterstock-1171760575.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-23 15:15:23+01	zdnet	t	2021-12-23 17:00:02.483148+01	zdnet/Beware-of-cryptominers-when-torrenting-Spider-Man-No-Way-Home--ZDNet
 477	Pro Wrestling Tees discloses data breach after credit cards stolen	Popular wrestling t-shirt site Pro Wrestling Tees has disclosed a data breach incident that has resulted in the compromise of the financial details of tens of thousands of its customers.	https://www.bleepingcomputer.com/news/security/pro-wrestling-tees-discloses-data-breach-after-credit-cards-stolen/	https://www.bleepstatic.com/content/hl-images/2021/12/23/pro-wrestling-tees.jpg	Bill Toulas	2021-12-23 16:49:36+01	bleepingcomputer	t	2021-12-23 17:00:02.483148+01	bleepingcomputer/Pro-Wrestling-Tees-discloses-data-breach-after-credit-cards-stolen
 478	Telegram Abused to Steal Crypto-Wallet Credentials	Attackers use the Telegram handle “Smokes Night” to spread the malicious Echelon infostealer, which steals credentials for cryptocurrency and other user accounts, researchers said.	https://kasperskycontenthub.com/threatpost-global/?p=177266	https://media.threatpost.com/wp-content/uploads/sites/103/2018/03/20144222/Telegram_Messagees.jpg	Elizabeth Montalbano	2021-12-23 17:00:22+01	threatpost	t	2021-12-23 17:00:02.483148+01	threatpost/Telegram-Abused-to-Steal-Crypto-Wallet-Credentials
+479	Personal and salary data for 637,138 Albanian citizens leaks online	The Albanian government has confirmed and apologized on Thursday for a data leak that exposed the personal and salary-related information for 637,138 citizens, more than 22% of the country's entire population.	https://therecord.media/personal-and-salary-data-for-637138-albanian-citizens-leaks-online/	https://therecord.media/wp-content/uploads/2021/12/tirana-albania.jpg	Catalin Cimpanu	2021-12-23 18:06:37+01	therecord	t	2021-12-23 19:00:02.663728+01	therecord/Personal-and-salary-data-for-637138-Albanian-citizens-leaks-online
+480	AvosLocker ransomware reboots in Safe Mode to bypass security tools	Recent AvosLocker ransomware attacks are characterized by a focus on disabling endpoint security solutions that stand in the way of threat actors.	https://www.bleepingcomputer.com/news/security/avoslocker-ransomware-reboots-in-safe-mode-to-bypass-security-tools/	https://www.bleepstatic.com/content/hl-images/2021/12/23/AvosLocker_ransomware.jpg	Bill Toulas	2021-12-23 18:47:14+01	bleepingcomputer	t	2021-12-23 19:00:02.663728+01	bleepingcomputer/AvosLocker-ransomware-reboots-in-Safe-Mode-to-bypass-security-tools
 \.
 
 
@@ -482,7 +484,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 478, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 480, true);
 
 
 --
