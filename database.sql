@@ -470,6 +470,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 471	Train at your own pace to become an expert ethical hacker for only $43 | ZDNet	You don't need any kind of tech background to start training for coveted cybersecurity positions.	https://www.zdnet.com/article/train-at-your-own-pace-to-become-an-expert-ethical-hacker-for-only-43/	https://www.zdnet.com/a/img/resize/7e5905398e35f5762250bdf0590717dff7d750d2/2021/04/01/b097668b-2ee1-4950-8acf-ef338e1ea1fb/woman-at-computer-diversity.jpg?width=770&height=578&fit=crop&auto=webp	ZDNet Academy	2021-12-23 13:00:05+01	zdnet	t	2021-12-23 15:00:02.772437+01	zdnet/Train-at-your-own-pace-to-become-an-expert-ethical-hacker-for-only-43--ZDNet
 472	What’s all the fuss with Log4j2?	As companies scramble to determine whether they're vulnerable to the Log4j2 flaw, SMBs may not have the resources to do so themselves. Here's what you can do.	https://www.computerworld.com/article/3645430/whats-all-the-fuss-with-log4j2.html	https://images.idgesg.net/images/article/2019/11/microsoft_windows_security_binary_lock_by_gerd_altmann_cc0_via_pixabay_1800x1200-100817345-large.jpg?auto=webp&quality=85,70	Susan Bradley	2021-12-20 16:16:00+01	computerworld	t	2021-12-23 15:00:02.772437+01	computerworld/Whats-all-the-fuss-with-Log4j2
 473	Patching isn't enough for December's Patch Tuesday	With 67 flaws addressed, six publicly-reported issues and one vulnerability already exploited, this month's updates pale in comparison to the challenges addressing the Log4j issue. 	https://www.computerworld.com/article/3645134/patching-isnt-enough-for-decembers-patch-tuesday.html	https://images.idgesg.net/images/article/2020/08/hand_reaches_to_activate_controls_with_gear_icons_process_development_update_fix_automate_by_putilich_gettyimages-1220461550_2400x1600-100854509-large.jpg?auto=webp&quality=85,70	Greg Lambert	2021-12-18 16:51:00+01	computerworld	t	2021-12-23 15:00:02.772437+01	computerworld/Patching-isnt-enough-for-Decembers-Patch-Tuesday
+474	VK introduces 2FA and plans to make it mandatory in 2022	VK, Russia's most popular social media platform with 650 million users, is finally introducing two-factor authentication on all its services and plans to make it mandatory in February 2022 for administrators of large communities.	https://www.bleepingcomputer.com/news/security/vk-introduces-2fa-and-plans-to-make-it-mandatory-in-2022/	https://www.bleepstatic.com/content/hl-images/2021/12/23/vk.jpg	Bill Toulas	2021-12-23 16:01:23+01	bleepingcomputer	t	2021-12-23 16:00:02.010979+01	bleepingcomputer/VK-introduces-2FA-and-plans-to-make-it-mandatory-in-2022
+475	‘Spider-Man: No Way Home’ Download Installs Cryptominer	The origin of the Monero cryptominer file has been traced to a Russian torrent website, researchers report.	https://kasperskycontenthub.com/threatpost-global/?p=177254	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/22155445/spiderman.jpeg	Becky Bracken	2021-12-23 16:00:19+01	threatpost	t	2021-12-23 16:00:02.010979+01	threatpost/Spider-Man-No-Way-Home-Download-Installs-Cryptominer
 \.
 
 
@@ -477,7 +479,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 473, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 475, true);
 
 
 --
