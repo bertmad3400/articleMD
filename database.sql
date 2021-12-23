@@ -480,6 +480,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 481	NSO spyware used to hack Polish politicians, wife of Khashoggi, UN war crimes investigator and more | ZDNet	NSO Group is facing a massive lawsuit from Apple and a potential default on more than $300 million in loans.	https://www.zdnet.com/article/nso-spyware-used-to-hack-polish-politicians-wife-of-khashoggi-un-war-crimes-investigator-and-more/	https://www.zdnet.com/a/img/resize/deedf28be02f5d029f3fbfc2b12e7fef354e14c1/2020/12/21/4865e211-37a1-4556-83f9-86f3e885a96f/nso-group.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-23 18:38:22+01	zdnet	t	2021-12-23 20:00:01.956019+01	zdnet/NSO-spyware-used-to-hack-Polish-politicians-wife-of-Khashoggi-UN-war-crimes-investigator-and-more--ZDNet
 482	Phishing campaign targets CoinSpot cryptoexchange 2FA codes	A new phishing campaign that targets users of the CoinSpot cryptocurrency exchange employs a new theme that revolves around withdrawal confirmations.	https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-coinspot-cryptoexchange-2fa-codes/	https://www.bleepstatic.com/content/hl-images/2021/03/05/cryptocurrency-assorted.jpg	Bill Toulas	2021-12-23 19:31:49+01	bleepingcomputer	t	2021-12-23 20:00:01.956019+01	bleepingcomputer/Phishing-campaign-targets-CoinSpot-cryptoexchange-2FA-codes
 483	4-Year-Old Microsoft Azure Zero-Day Exposes Web App Source Code	The security vulnerability could expose passwords and access tokens, along with blueprints for internal infrastructure and finding software vulnerabilities.	https://kasperskycontenthub.com/threatpost-global/?p=177270	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/23140337/cloud.jpg	Tara Seals	2021-12-23 20:04:13+01	threatpost	t	2021-12-23 21:00:02.784111+01	threatpost/4-Year-Old-Microsoft-Azure-Zero-Day-Exposes-Web-App-Source-Code
+484	Microsoft informs customers of 'NotLegit' Azure bug | ZDNet	The issue affects some Azure App Service Linux customers.	https://www.zdnet.com/article/notlegit-azure-bug-addressed-by-microsoft/	https://www.zdnet.com/a/img/resize/ae2b6c6c16c9f0b2730ed4ce9da332f831f78976/2021/10/14/345a9c26-72e2-46a1-b1cd-789556569f1a/microsoft.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-23 20:40:57+01	zdnet	t	2021-12-23 22:00:02.76559+01	zdnet/Microsoft-informs-customers-of-NotLegit-Azure-bug--ZDNet
 \.
 
 
@@ -487,7 +488,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 483, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 484, true);
 
 
 --
