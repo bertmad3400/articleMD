@@ -485,6 +485,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 486	Stealthy BLISTER malware slips in unnoticed on Windows systems	Security researchers have uncovered a malicious campaign that relies on a valid code-signing certificate to disguise malicious code as legitimate executables.	https://www.bleepingcomputer.com/news/security/stealthy-blister-malware-slips-in-unnoticed-on-windows-systems/	https://www.bleepstatic.com/content/hl-images/2021/05/06/Malware-headpic.jpg	Ionut Ilascu	2021-12-23 23:33:01+01	bleepingcomputer	t	2021-12-24 00:00:01.836559+01	bleepingcomputer/Stealthy-BLISTER-malware-slips-in-unnoticed-on-Windows-systems
 487	Apple fixes macOS security flaw behind Gatekeeper bypass	Apple has addressed a macOS vulnerability that unsigned and unnotarized script-based apps could exploit to bypass all macOS security protection mechanisms even on fully patched systems.	https://www.bleepingcomputer.com/news/apple/apple-fixes-macos-security-flaw-behind-gatekeeper-bypass/	https://www.bleepstatic.com/content/hl-images/2021/02/10/Apple_red.jpg	Sergiu Gatlan	2021-12-23 23:09:32+01	bleepingcomputer	t	2021-12-24 00:00:01.836559+01	bleepingcomputer/Apple-fixes-macOS-security-flaw-behind-Gatekeeper-bypass
 488	The Log4j story, and how it has impacted our customers	Read about the Log4j story, an analysis of the impact and what to do next.	https://www.trendmicro.com/en_us/research/21/l/the-log4j-story-and-how-it-has-impacted-our-customers.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/the-log4j-story-and-how-it-has-impacted-our-customers/microsoftteams-image.png	\N	2021-12-22 00:00:00+01	trendmicro	t	2021-12-24 03:00:02.681205+01	trendmicro/The-Log4j-story-and-how-it-has-impacted-our-customers
+489	Dridex Omicron phishing taunts with funeral helpline number 	A malware distributor for the Dridex banking malware has been toying with victims and researchers over the last few weeks. The latest example is a phishing campaign that taunts victims with a COVID-19 funeral assistance helpline number.	https://www.bleepingcomputer.com/news/security/dridex-omicron-phishing-taunts-with-funeral-helpline-number/	https://www.bleepstatic.com/content/hl-images/2021/04/16/malware-phishing-header.jpg	Lawrence Abrams	2021-12-24 14:11:22+01	bleepingcomputer	t	2021-12-24 16:00:02.240055+01	bleepingcomputer/Dridex-Omicron-phishing-taunts-with-funeral-helpline-number
 \.
 
 
@@ -492,7 +493,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 488, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 489, true);
 
 
 --
