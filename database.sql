@@ -490,6 +490,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 490	Global IT services provider Inetum hit by ransomware attack	Less than a week before the Christmas holiday, French IT services company Inetum Group was hit by a ransomware attack that had a limited impact on the business and its customers.	https://www.bleepingcomputer.com/news/security/global-it-services-provider-inetum-hit-by-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/08/06/data-lock.jpg	Ionut Ilascu	2021-12-24 17:00:32+01	bleepingcomputer	t	2021-12-24 17:00:02.154442+01	bleepingcomputer/Global-IT-services-provider-Inetum-hit-by-ransomware-attack
 492	Blackmagic fixes critical DaVinci Resolve code execution flaws	Blackmagic Software has recently addressed two security vulnerabilities in the highly popular DaVinci Resolve software that would allow attackers to gain code execution on unpatched systems.	https://www.bleepingcomputer.com/news/security/blackmagic-fixes-critical-davinci-resolve-code-execution-flaws/	https://www.bleepstatic.com/content/hl-images/2021/12/23/Blackmagic_Design_DaVinci_Resolve.jpg	Sergiu Gatlan	2021-12-24 16:00:00+01	bleepingcomputer	t	2021-12-24 17:00:02.154442+01	bleepingcomputer/Blackmagic-fixes-critical-DaVinci-Resolve-code-execution-flaws
 493	Rook ransomware is yet another spawn of the leaked Babuk code	A new ransomware operation named Rook has appeared recently on the cyber-crime space, declaring a desperate need to make a lot of money by breaching corporate networks and encrypting devices.	https://www.bleepingcomputer.com/news/security/rook-ransomware-is-yet-another-spawn-of-the-leaked-babuk-code/	https://www.bleepstatic.com/content/hl-images/2021/12/24/rook.jpg	Bill Toulas	2021-12-24 17:26:18+01	bleepingcomputer	t	2021-12-24 18:00:02.445448+01	bleepingcomputer/Rook-ransomware-is-yet-another-spawn-of-the-leaked-Babuk-code
+494	The Week in Ransomware - December 24th 2021 - No rest for the weary	The holiday season is here, but there is no rest for our weary admins as ransomware gangs are still conducting attacks over the Christmas and New Years breaks.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-december-24th-2021-no-rest-for-the-weary/	https://www.bleepstatic.com/content/hl-images/2021/12/22/hacker-reaching.jpg	Lawrence Abrams	2021-12-24 22:34:18+01	bleepingcomputer	t	2021-12-24 23:00:02.007647+01	bleepingcomputer/The-Week-in-Ransomware---December-24th-2021---No-rest-for-the-weary
 \.
 
 
@@ -497,7 +498,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 493, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 494, true);
 
 
 --
