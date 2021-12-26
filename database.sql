@@ -492,6 +492,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 493	Rook ransomware is yet another spawn of the leaked Babuk code	A new ransomware operation named Rook has appeared recently on the cyber-crime space, declaring a desperate need to make a lot of money by breaching corporate networks and encrypting devices.	https://www.bleepingcomputer.com/news/security/rook-ransomware-is-yet-another-spawn-of-the-leaked-babuk-code/	https://www.bleepstatic.com/content/hl-images/2021/12/24/rook.jpg	Bill Toulas	2021-12-24 17:26:18+01	bleepingcomputer	t	2021-12-24 18:00:02.445448+01	bleepingcomputer/Rook-ransomware-is-yet-another-spawn-of-the-leaked-Babuk-code
 494	The Week in Ransomware - December 24th 2021 - No rest for the weary	The holiday season is here, but there is no rest for our weary admins as ransomware gangs are still conducting attacks over the Christmas and New Years breaks.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-december-24th-2021-no-rest-for-the-weary/	https://www.bleepstatic.com/content/hl-images/2021/12/22/hacker-reaching.jpg	Lawrence Abrams	2021-12-24 22:34:18+01	bleepingcomputer	t	2021-12-24 23:00:02.007647+01	bleepingcomputer/The-Week-in-Ransomware---December-24th-2021---No-rest-for-the-weary
 495	Data assessment, user consent key to compliance with China law | ZDNet	International businesses that process data from China should obtain user consent and establish a data map, specifically looking at cross-border flow and residency, to ensure compliance even as more clarity is needed on China's Personal Information Protection Law.	https://www.zdnet.com/article/data-assessment-user-consent-key-to-compliance-with-china-law/	https://www.zdnet.com/a/img/resize/91c8765ce79a117d48a5e0a765dba844d47cc2de/2014/10/20/e7c1ef6c-5829-11e4-b6a0-d4ae52e95e57/instagram-blocked-in-china-reports.jpg?width=770&height=578&fit=crop&auto=webp	Eileen Yu	2021-12-25 09:52:00+01	zdnet	t	2021-12-25 11:00:02.377843+01	zdnet/Data-assessment-user-consent-key-to-compliance-with-China-law--ZDNet
+496	An inside look at how CISA is building an agency for elite cybersecurity talent	An interview with Kiersten Todt, Chief of Staff at the Cybersecurity and Infrastructure Security Agency.	https://therecord.media/an-inside-look-at-how-cisa-is-building-an-agency-for-elite-cybersecurity-talent/	https://therecord.media/wp-content/uploads/2021/08/CISA_Logo.jpg	Adam Janofsky	2021-12-26 13:45:58+01	therecord	t	2021-12-26 14:00:01.943263+01	therecord/An-inside-look-at-how-CISA-is-building-an-agency-for-elite-cybersecurity-talent
 \.
 
 
@@ -499,7 +500,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 495, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 496, true);
 
 
 --
