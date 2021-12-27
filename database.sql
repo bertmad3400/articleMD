@@ -501,6 +501,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 500	In 2022, security will be Linux and open-source developers job number one | ZDNet	Linux and open-source software will be hotter than ever, but the real changes will be in how they're secured.	https://www.zdnet.com/article/in-2022-security-will-be-linux-and-open-source-developers-job-number-one/	https://www.zdnet.com/a/img/resize/02a36bda191409e58cc3d9aefc81fd694a36f3e5/2020/08/17/abe5a63a-ed4e-4836-be49-48ebf7d409f2/istock-5429285961.jpg?width=770&height=578&fit=crop&auto=webp	Steven Vaughan-Nichols	2021-12-27 14:40:09+01	zdnet	t	2021-12-27 16:00:01.790722+01	zdnet/In-2022-security-will-be-Linux-and-open-source-developers-job-number-one--ZDNet
 501	More than 1,200 phishing toolkits capable of intercepting 2FA detected in the wild	A team of academics said it found more than 1,200 phishing toolkits deployed in the wild that are capable of intercepting and allowing cybercriminals to bypass two-factor authentication (2FA) security codes.	https://therecord.media/more-than-1200-phishing-toolkits-capable-of-intercepting-2fa-detected-in-the-wild/	https://therecord.media/wp-content/uploads/2021/12/2FA.png	Catalin Cimpanu	2021-12-27 16:29:00+01	therecord	t	2021-12-27 17:00:02.013669+01	therecord/More-than-1200-phishing-toolkits-capable-of-intercepting-2FA-detected-in-the-wild
 502	QNAP NAS devices hit in surge of ech0raix ransomware attacks	Users of QNAP network-attached storage (NAS) devices are reporting attacks on their systems with the eCh0raix ransomware, also known as QNAPCrypt.	https://www.bleepingcomputer.com/news/security/qnap-nas-devices-hit-in-surge-of-ech0raix-ransomware-attacks/	https://www.bleepstatic.com/content/hl-images/2021/08/10/ech0raix.jpg	Ionut Ilascu	2021-12-27 17:19:45+01	bleepingcomputer	t	2021-12-27 18:00:02.209576+01	bleepingcomputer/QNAP-NAS-devices-hit-in-surge-of-ech0raix-ransomware-attacks
+505	Global Cyberattacks from Nation-State Actors Posing Greater Threats	Casey Ellis, CTO at Bugcrowd, outlines how international relations have deteriorated into a new sort of Cold War, with espionage playing out in the cyber-domain. 	https://kasperskycontenthub.com/threatpost-global/?p=177253	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/27143308/cold-war-e1640633610845.jpg	Casey Ellis	2021-12-27 20:34:19+01	threatpost	t	2021-12-27 21:00:02.685067+01	threatpost/Global-Cyberattacks-from-Nation-State-Actors-Posing-Greater-Threats
 \.
 
 
@@ -508,7 +509,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 504, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 505, true);
 
 
 --
