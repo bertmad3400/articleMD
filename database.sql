@@ -495,6 +495,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 496	An inside look at how CISA is building an agency for elite cybersecurity talent	An interview with Kiersten Todt, Chief of Staff at the Cybersecurity and Infrastructure Security Agency.	https://therecord.media/an-inside-look-at-how-cisa-is-building-an-agency-for-elite-cybersecurity-talent/	https://therecord.media/wp-content/uploads/2021/08/CISA_Logo.jpg	Adam Janofsky	2021-12-26 13:45:58+01	therecord	t	2021-12-26 14:00:01.943263+01	therecord/An-inside-look-at-how-CISA-is-building-an-agency-for-elite-cybersecurity-talent
 497	Privacy-focused search engine DuckDuckGo grew by 46% in 2021	The privacy-focused search engine DuckDuckGo continues to grow rapidly, with the company now averaging over 100 million daily search queries and growing by almost 47% in 2021.	https://www.bleepingcomputer.com/news/technology/privacy-focused-search-engine-duckduckgo-grew-by-46-percent-in-2021/	https://www.bleepstatic.com/content/hl-images/2021/01/16/duckduckgo.jpg	Lawrence Abrams	2021-12-26 19:41:42+01	bleepingcomputer	t	2021-12-26 20:00:02.661012+01	bleepingcomputer/Privacy-focused-search-engine-DuckDuckGo-grew-by-46-in-2021
 498	Shutterfly services disrupted by Conti ransomware attack	Photography and personalized photo giant Shutterfly has suffered a Conti ransomware attack that allegedly encrypted thousands of devices and stole corporate data.	https://www.bleepingcomputer.com/news/security/shutterfly-services-disrupted-by-conti-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/12/27/shutterfly-header.jpg	Lawrence Abrams	2021-12-27 08:56:34+01	bleepingcomputer	t	2021-12-27 09:00:02.560029+01	bleepingcomputer/Shutterfly-services-disrupted-by-Conti-ransomware-attack
+499	Windows 11 bug causes color rendering issues on HDR displays	Microsoft has confirmed a new issue impacting devices running Windows 11, version 21H2, where apps using Win32 APIs to render colors on some high dynamic range (HDR) displays may not work as expected.	https://www.bleepingcomputer.com/news/microsoft/windows-11-bug-causes-color-rendering-issues-on-hdr-displays/	https://www.bleepstatic.com/content/hl-images/2021/12/27/windows-11-colors_broken.jpg	Sergiu Gatlan	2021-12-27 13:56:23+01	bleepingcomputer	t	2021-12-27 14:00:02.485662+01	bleepingcomputer/Windows-11-bug-causes-color-rendering-issues-on-HDR-displays
 \.
 
 
@@ -502,7 +503,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 498, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 499, true);
 
 
 --
