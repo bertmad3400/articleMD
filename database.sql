@@ -494,6 +494,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 495	Data assessment, user consent key to compliance with China law | ZDNet	International businesses that process data from China should obtain user consent and establish a data map, specifically looking at cross-border flow and residency, to ensure compliance even as more clarity is needed on China's Personal Information Protection Law.	https://www.zdnet.com/article/data-assessment-user-consent-key-to-compliance-with-china-law/	https://www.zdnet.com/a/img/resize/91c8765ce79a117d48a5e0a765dba844d47cc2de/2014/10/20/e7c1ef6c-5829-11e4-b6a0-d4ae52e95e57/instagram-blocked-in-china-reports.jpg?width=770&height=578&fit=crop&auto=webp	Eileen Yu	2021-12-25 09:52:00+01	zdnet	t	2021-12-25 11:00:02.377843+01	zdnet/Data-assessment-user-consent-key-to-compliance-with-China-law--ZDNet
 496	An inside look at how CISA is building an agency for elite cybersecurity talent	An interview with Kiersten Todt, Chief of Staff at the Cybersecurity and Infrastructure Security Agency.	https://therecord.media/an-inside-look-at-how-cisa-is-building-an-agency-for-elite-cybersecurity-talent/	https://therecord.media/wp-content/uploads/2021/08/CISA_Logo.jpg	Adam Janofsky	2021-12-26 13:45:58+01	therecord	t	2021-12-26 14:00:01.943263+01	therecord/An-inside-look-at-how-CISA-is-building-an-agency-for-elite-cybersecurity-talent
 497	Privacy-focused search engine DuckDuckGo grew by 46% in 2021	The privacy-focused search engine DuckDuckGo continues to grow rapidly, with the company now averaging over 100 million daily search queries and growing by almost 47% in 2021.	https://www.bleepingcomputer.com/news/technology/privacy-focused-search-engine-duckduckgo-grew-by-46-percent-in-2021/	https://www.bleepstatic.com/content/hl-images/2021/01/16/duckduckgo.jpg	Lawrence Abrams	2021-12-26 19:41:42+01	bleepingcomputer	t	2021-12-26 20:00:02.661012+01	bleepingcomputer/Privacy-focused-search-engine-DuckDuckGo-grew-by-46-in-2021
+498	Shutterfly services disrupted by Conti ransomware attack	Photography and personalized photo giant Shutterfly has suffered a Conti ransomware attack that allegedly encrypted thousands of devices and stole corporate data.	https://www.bleepingcomputer.com/news/security/shutterfly-services-disrupted-by-conti-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/12/27/shutterfly-header.jpg	Lawrence Abrams	2021-12-27 08:56:34+01	bleepingcomputer	t	2021-12-27 09:00:02.560029+01	bleepingcomputer/Shutterfly-services-disrupted-by-Conti-ransomware-attack
 \.
 
 
@@ -501,7 +502,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 497, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 498, true);
 
 
 --
