@@ -496,6 +496,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 497	Privacy-focused search engine DuckDuckGo grew by 46% in 2021	The privacy-focused search engine DuckDuckGo continues to grow rapidly, with the company now averaging over 100 million daily search queries and growing by almost 47% in 2021.	https://www.bleepingcomputer.com/news/technology/privacy-focused-search-engine-duckduckgo-grew-by-46-percent-in-2021/	https://www.bleepstatic.com/content/hl-images/2021/01/16/duckduckgo.jpg	Lawrence Abrams	2021-12-26 19:41:42+01	bleepingcomputer	t	2021-12-26 20:00:02.661012+01	bleepingcomputer/Privacy-focused-search-engine-DuckDuckGo-grew-by-46-in-2021
 498	Shutterfly services disrupted by Conti ransomware attack	Photography and personalized photo giant Shutterfly has suffered a Conti ransomware attack that allegedly encrypted thousands of devices and stole corporate data.	https://www.bleepingcomputer.com/news/security/shutterfly-services-disrupted-by-conti-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2021/12/27/shutterfly-header.jpg	Lawrence Abrams	2021-12-27 08:56:34+01	bleepingcomputer	t	2021-12-27 09:00:02.560029+01	bleepingcomputer/Shutterfly-services-disrupted-by-Conti-ransomware-attack
 499	Windows 11 bug causes color rendering issues on HDR displays	Microsoft has confirmed a new issue impacting devices running Windows 11, version 21H2, where apps using Win32 APIs to render colors on some high dynamic range (HDR) displays may not work as expected.	https://www.bleepingcomputer.com/news/microsoft/windows-11-bug-causes-color-rendering-issues-on-hdr-displays/	https://www.bleepstatic.com/content/hl-images/2021/12/27/windows-11-colors_broken.jpg	Sergiu Gatlan	2021-12-27 13:56:23+01	bleepingcomputer	t	2021-12-27 14:00:02.485662+01	bleepingcomputer/Windows-11-bug-causes-color-rendering-issues-on-HDR-displays
+500	In 2022, security will be Linux and open-source developers job number one | ZDNet	Linux and open-source software will be hotter than ever, but the real changes will be in how they're secured.	https://www.zdnet.com/article/in-2022-security-will-be-linux-and-open-source-developers-job-number-one/	https://www.zdnet.com/a/img/resize/02a36bda191409e58cc3d9aefc81fd694a36f3e5/2020/08/17/abe5a63a-ed4e-4836-be49-48ebf7d409f2/istock-5429285961.jpg?width=770&height=578&fit=crop&auto=webp	Steven Vaughan-Nichols	2021-12-27 14:40:09+01	zdnet	t	2021-12-27 16:00:01.790722+01	zdnet/In-2022-security-will-be-Linux-and-open-source-developers-job-number-one--ZDNet
 \.
 
 
@@ -503,7 +504,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 499, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 500, true);
 
 
 --
