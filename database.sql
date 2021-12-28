@@ -508,6 +508,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 509	Subdomain Takeover Flaw Affected Flywheel WordPress Hosting Platform	The researchers recommends removing unused subdomains from DNS entry to prevent such subdomain takeover flaws as in Flywheel.	https://latesthackingnews.com/2021/12/28/subdomain-takeover-flaw-affected-flywheel-wordpress-hosting-platform/	https://latesthackingnews.com/wp-content/uploads/2021/09/vulnerability-alert.jpg	Abeerah Hashim	2021-12-28 00:00:00+01	latesthackingnews	t	2021-12-28 04:00:02.101278+01	latesthackingnews/Subdomain-Takeover-Flaw-Affected-Flywheel-WordPress-Hosting-Platform
 510	Researcher Discovered Site Isolation Bypass In Google Chrome	Google fixed the site isolation bypass vulnerability with Chrome browser version 96 released in November 2021. Update your systems now.	https://latesthackingnews.com/2021/12/28/researcher-discovered-site-isolation-bypass-in-google-chrome-bug-fixed/	https://latesthackingnews.com/wp-content/uploads/2019/06/Chrome.jpg	Abeerah Hashim	2021-12-28 00:00:00+01	latesthackingnews	t	2021-12-28 04:00:02.101278+01	latesthackingnews/Researcher-Discovered-Site-Isolation-Bypass-In-Google-Chrome
 511	Amazon Alexa slammed for giving lethal challenge to 10-year-old girl	An Amazon Echo owner was left shocked after Alexa proposed a dangerous challenge to her 10-year old child. AI-powered virtual assistants like Alexa that power smart devices and speakers such as Echo, Echo Dot, and Amazon Tap, come with a plethora of capabilities, including playing verbal games.	https://www.bleepingcomputer.com/news/technology/amazon-alexa-slammed-for-giving-lethal-challenge-to-10-year-old-girl/	https://www.bleepstatic.com/content/hl-images/2020/12/24/amazon-header.jpg	Ax Sharma	2021-12-28 10:14:45+01	bleepingcomputer	t	2021-12-28 11:00:02.643066+01	bleepingcomputer/Amazon-Alexa-slammed-for-giving-lethal-challenge-to-10-year-old-girl
+512	2021 Wants Another Chance (A Lighter-Side Year in Review)	The year wasn't ALL bad news. These sometimes cringe-worthy/sometimes laughable cybersecurity and other technology stories offer schadenfreude and WTF opportunities, and some giggles.	https://kasperskycontenthub.com/threatpost-global/?p=177215	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/21210607/apology.jpeg	Lisa Vaas	2021-12-28 12:00:24+01	threatpost	t	2021-12-28 12:00:02.45344+01	threatpost/2021-Wants-Another-Chance-A-Lighter-Side-Year-in-Review
 \.
 
 
@@ -515,7 +516,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 511, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 512, true);
 
 
 --
