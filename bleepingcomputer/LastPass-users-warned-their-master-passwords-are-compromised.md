@@ -1,0 +1,80 @@
+# LastPass users warned their master passwords are compromised
+### Many LastPass users report that their master passwords have been compromised after receiving email warnings that someone tried to use it to log into their accounts from unknown locations.
+
+## Information:
++ Source: Bleeping Computer
++ Link: https://www.bleepingcomputer.com/news/security/lastpass-users-warned-their-master-passwords-are-compromised/
++ Date: 2021-12-28T12:27:44-05:00
++ Author: Sergiu Gatlan
+
+
+## Article:
+![Article Image](https://www.bleepstatic.com/content/hl-images/2017/03/22/LastPass.png)
+
+![LastPass users warned their master passwords are compromised](https://www.bleepstatic.com/content/hl-images/2017/03/22/LastPass.png)
+
+
+Many LastPass users report that their master passwords have been compromised after receiving email warnings that someone tried to use it to log into their accounts from unknown locations.
+
+
+The email notifications also mention that the login attempts have been blocked because they were made from unfamiliar locations worldwide.
+
+
+"Someone just used your master password to try to log in to your account from a device or location we didn't recognize," the login alerts warn.
+
+
+"LastPass blocked this attempt, but you should take a closer look. Was this you?"
+
+
+Reports of compromised [LastPass master passwords](https://support.logmeininc.com/lastpass) are streaming in via multiple social media sites and online platforms, including [Twitter](https://twitter.com/search?q=LastPass%20master%20password&src=typed_query&f=top), [Reddit](https://www.reddit.com/r/Lastpass/comments/rpy0uq/recent_successful_login_attempts_from_odd_ips/), and [Hacker News](https://news.ycombinator.com/item?id=29705957).
+
+
+
+![LastPass_login_attempts_notification](https://www.bleepstatic.com/images/news/u/1109292/2021/LastPass_notification.png)*Image: [Valcrist](https://twitter.com/Valcristerra)*
+LastPass says it's credential stuffing
+--------------------------------------
+
+
+Nikolett Bacso-Albaum Senior Director, Global PR/AR told BleepingComputer that "LastPass investigated recent reports of blocked login attempts and determined the activity is related to fairly common bot-related activity, in which a malicious or bad actor attempts to access user accounts (in this case, LastPass) using email addresses and passwords obtained from third-party breaches related to other unaffiliated services."
+
+
+"It’s important to note that we do not have any indication that accounts were successfully accessed or that the LastPass service was otherwise compromised by an unauthorized party. We regularly monitor for this type of activity and will continue to take steps designed to ensure that LastPass, its users, and their data remain protected and secure," Bacso-Albaum added.
+
+
+However, users receiving these warnings have stated that their passwords are unique to LastPass and not used elsewhere. BleepingComputer has asked LastPass about these concerns but has not received a reply as of yet.
+
+
+Some customers have also reported changing their master passwords since they received the login warning, [only to receive another alert](https://twitter.com/Valcristerra/status/1475734357805572098) after the password was changed.
+
+
+
+> 
+> Someone tried my [@LastPass](https://twitter.com/LastPass?ref_src=twsrc%5Etfw) master password earlier yesterday and then someone just tried it again a few hours ago after I changed it. What the hell is going on?
+> 
+> 
+> — Valcrist (@Valcristerra) [December 28, 2021](https://twitter.com/Valcristerra/status/1475734357805572098?ref_src=twsrc%5Etfw)
+
+
+To make things even worse, customers who tried disabling and deleting their LastPass accounts after receiving these warnings also report [[1](https://twitter.com/safe_secs/status/1475832773973843969), [2](https://twitter.com/uxian/status/1475775696262012930)] receiving "Something went wrong: A" errors after clicking the "Delete" button.
+
+
+Two years ago, in September 2019, [LastPass fixed a security vulnerability](https://www.bleepingcomputer.com/news/security/password-revealing-bug-quickly-fixed-in-lastpass-extensions/) in the password manager's Chrome extension that could have allowed threat actors to steal the credentials last used for logging into a site.
+
+
+LastPass users are advised to [enable multifactor authentication](https://support.logmeininc.com/lastpass/help/enable-multifactor-authentication-lp010002) to protect their accounts even if their master password was compromised.
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Conti]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=Reg]] [[action.malware.name=S-Type]] [[action.malware.name=Tor]]
+
+#### Location:
+[[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.city.name=Rome]] [[victim.country.name=Italy]] [[victim.continent.name=Europe]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Lastpass]] [[Bleeping Computer]]
+
