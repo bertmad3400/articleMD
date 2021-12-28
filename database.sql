@@ -517,6 +517,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 518	LastPass users warned their master passwords are compromised	Many LastPass users report that their master passwords have been compromised after receiving email warnings that someone tried to use it to log into their accounts from unknown locations.	https://www.bleepingcomputer.com/news/security/lastpass-users-warned-their-master-passwords-are-compromised/	https://www.bleepstatic.com/content/hl-images/2017/03/22/LastPass.png	Sergiu Gatlan	2021-12-28 18:27:44+01	bleepingcomputer	t	2021-12-28 19:00:02.136502+01	bleepingcomputer/LastPass-users-warned-their-master-passwords-are-compromised
 519	Cyberattack on one of Norway’s largest media companies shuts down presses	Amedia, the largest local news publisher in Norway, announced on Tuesday that several of its central computer systems were shut down in what it is calling an apparent “serious” cyberattack.	https://therecord.media/cyberattack-on-one-of-norways-largest-media-companies-shuts-down-presses/	https://therecord.media/wp-content/uploads/2021/12/moshed-12-28-12-49-29.png	Adam Janofsky	2021-12-28 18:53:34+01	therecord	t	2021-12-28 19:00:02.136502+01	therecord/Cyberattack-on-one-of-Norways-largest-media-companies-shuts-down-presses
 520	LastPass confirms credential stuffing attack against some of its users	Password manager app LastPass said today that a threat actor has launched a credential stuffing attack against its users in an attempt to gain access to their cloud-hosted password vaults.	https://therecord.media/lastpass-confirms-credential-stuffing-attack-against-some-of-its-users/	https://therecord.media/wp-content/uploads/2021/12/lastpass.png	Catalin Cimpanu	2021-12-28 18:52:26+01	therecord	t	2021-12-28 19:00:02.136502+01	therecord/LastPass-confirms-credential-stuffing-attack-against-some-of-its-users
+521	RedLine malware shows why passwords shouldn't be saved in browsers	The RedLine information-stealing malware targets popular web browsers such as Chrome, Edge, and Opera, demonstrating why storing your passwords in browsers is a bad idea.	https://www.bleepingcomputer.com/news/security/redline-malware-shows-why-passwords-shouldnt-be-saved-in-browsers/	https://www.bleepstatic.com/content/hl-images/2021/12/28/open-vaults.jpg	Bill Toulas	2021-12-28 19:07:19+01	bleepingcomputer	t	2021-12-28 20:00:02.420951+01	bleepingcomputer/RedLine-malware-shows-why-passwords-shouldnt-be-saved-in-browsers
 \.
 
 
@@ -524,7 +525,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 520, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 521, true);
 
 
 --
