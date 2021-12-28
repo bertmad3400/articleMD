@@ -511,6 +511,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 512	2021 Wants Another Chance (A Lighter-Side Year in Review)	The year wasn't ALL bad news. These sometimes cringe-worthy/sometimes laughable cybersecurity and other technology stories offer schadenfreude and WTF opportunities, and some giggles.	https://kasperskycontenthub.com/threatpost-global/?p=177215	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/21210607/apology.jpeg	Lisa Vaas	2021-12-28 12:00:24+01	threatpost	t	2021-12-28 12:00:02.45344+01	threatpost/2021-Wants-Another-Chance-A-Lighter-Side-Year-in-Review
 513	Code Execution Vulnerabilities Fixed In DaVinci Resolve Video Editor	Blackmagic fixed the two vulnerabilities with DaVinci Resolve version 17.4.3. Users should upgrade now to receive the patches.	https://latesthackingnews.com/2021/12/28/code-execution-vulnerabilities-fixed-in-davinci-resolve-video-editor/	https://latesthackingnews.com/wp-content/uploads/2021/12/DaVinci-Resolve.jpg	Abeerah Hashim	2021-12-28 00:00:00+01	latesthackingnews	t	2021-12-28 14:00:02.644789+01	latesthackingnews/Code-Execution-Vulnerabilities-Fixed-In-DaVinci-Resolve-Video-Editor
 514	Apple Patched a macOS Gatekeeper Bypass Vulnerability	Exploiting the Gatekeeper bypass flaw could allow malicious apps to execute on macOS. Apple fixed the bug with macOS Big Sur 11.6.	https://latesthackingnews.com/2021/12/28/apple-patched-a-macos-gatekeeper-bypass-vulnerability/	https://latesthackingnews.com/wp-content/uploads/2018/11/Apple-patched-multiple-XNU-kernel-vulnerabilities.jpg	Abeerah Hashim	2021-12-28 00:00:00+01	latesthackingnews	t	2021-12-28 14:00:02.644789+01	latesthackingnews/Apple-Patched-a-macOS-Gatekeeper-Bypass-Vulnerability
+515	Microsoft: Windows 11 bug causes HDR color rendering issues	Microsoft has confirmed a new issue impacting devices running Windows 11, version 21H2, where apps using Win32 APIs to render colors on some high dynamic range (HDR) displays may not work as expected.	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-bug-causes-hdr-color-rendering-issues/	https://www.bleepstatic.com/content/hl-images/2021/12/27/windows-11-colors_broken.jpg	Sergiu Gatlan	2021-12-27 13:56:23+01	bleepingcomputer	t	2021-12-28 15:00:02.740865+01	bleepingcomputer/Microsoft-Windows-11-bug-causes-HDR-color-rendering-issues
 \.
 
 
@@ -518,7 +519,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 514, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 515, true);
 
 
 --
