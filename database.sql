@@ -512,6 +512,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 513	Code Execution Vulnerabilities Fixed In DaVinci Resolve Video Editor	Blackmagic fixed the two vulnerabilities with DaVinci Resolve version 17.4.3. Users should upgrade now to receive the patches.	https://latesthackingnews.com/2021/12/28/code-execution-vulnerabilities-fixed-in-davinci-resolve-video-editor/	https://latesthackingnews.com/wp-content/uploads/2021/12/DaVinci-Resolve.jpg	Abeerah Hashim	2021-12-28 00:00:00+01	latesthackingnews	t	2021-12-28 14:00:02.644789+01	latesthackingnews/Code-Execution-Vulnerabilities-Fixed-In-DaVinci-Resolve-Video-Editor
 514	Apple Patched a macOS Gatekeeper Bypass Vulnerability	Exploiting the Gatekeeper bypass flaw could allow malicious apps to execute on macOS. Apple fixed the bug with macOS Big Sur 11.6.	https://latesthackingnews.com/2021/12/28/apple-patched-a-macos-gatekeeper-bypass-vulnerability/	https://latesthackingnews.com/wp-content/uploads/2018/11/Apple-patched-multiple-XNU-kernel-vulnerabilities.jpg	Abeerah Hashim	2021-12-28 00:00:00+01	latesthackingnews	t	2021-12-28 14:00:02.644789+01	latesthackingnews/Apple-Patched-a-macOS-Gatekeeper-Bypass-Vulnerability
 515	Microsoft: Windows 11 bug causes HDR color rendering issues	Microsoft has confirmed a new issue impacting devices running Windows 11, version 21H2, where apps using Win32 APIs to render colors on some high dynamic range (HDR) displays may not work as expected.	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-bug-causes-hdr-color-rendering-issues/	https://www.bleepstatic.com/content/hl-images/2021/12/27/windows-11-colors_broken.jpg	Sergiu Gatlan	2021-12-27 13:56:23+01	bleepingcomputer	t	2021-12-28 15:00:02.740865+01	bleepingcomputer/Microsoft-Windows-11-bug-causes-HDR-color-rendering-issues
+516	Riskware Android streaming apps found on Samsung's Galaxy store	Samsung's official Android app store, called the Galaxy Store, has had an infiltration of riskware apps that triggered multiple Play Protect warnings on people's devices.	https://www.bleepingcomputer.com/news/security/riskware-android-streaming-apps-found-on-samsungs-galaxy-store/	https://www.bleepstatic.com/content/hl-images/2021/12/28/samsung-galaxy-store.jpg	Bill Toulas	2021-12-28 17:38:39+01	bleepingcomputer	t	2021-12-28 18:00:02.572989+01	bleepingcomputer/Riskware-Android-streaming-apps-found-on-Samsungs-Galaxy-store
+517	That Toy You Got for Christmas Could Be Spying on You	Security flaws in the recently released Fisher-Price Chatter Bluetooth telephone can allow nearby attackers to spy on calls or communicate with children using the device.	https://kasperskycontenthub.com/threatpost-global/?p=177288	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/28111824/chatter-e1640708531855.jpeg	Elizabeth Montalbano	2021-12-28 17:31:41+01	threatpost	t	2021-12-28 18:00:02.572989+01	threatpost/That-Toy-You-Got-for-Christmas-Could-Be-Spying-on-You
 \.
 
 
@@ -519,7 +521,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 515, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 517, true);
 
 
 --
