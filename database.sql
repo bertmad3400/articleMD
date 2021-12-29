@@ -525,6 +525,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 525	Privacy-centric DuckDuckGo to release Mac desktop browser	DuckDuckGo said its new desktop browser app will act much like its mobile app, allowing users to perform internet searches without tracking or installing cookies on Apple devices. The company claimed the browser is cleaner, more private, and faster than Chrome.	https://www.computerworld.com/article/3645668/privacy-centric-duckduckgo-to-release-mac-desktop-browser.html	https://images.idgesg.net/images/idge/imported/imageapi/2021/12/21/21/duckduckgo-browser-100914544-large.jpg?auto=webp&quality=85,70	Lucas Mearian	2021-12-23 10:11:00+01	computerworld	t	2021-12-29 13:00:02.65707+01	computerworld/Privacy-centric-DuckDuckGo-to-release-Mac-desktop-browser
 526	Threat actor uses HP iLO rootkit to wipe servers	An Iranian cyber-security firm said it discovered a first-of-its-kind rootkit that hides inside the firmware of HP iLO devices and which has been used in real-world attacks to wipe servers of Iranian organizations.	https://therecord.media/threat-actor-uses-hp-ilo-rootkit-to-wipe-servers/	https://therecord.media/wp-content/uploads/2021/12/HP-iLO.png	Catalin Cimpanu	2021-12-29 13:01:11+01	therecord	t	2021-12-29 13:00:02.65707+01	therecord/Threat-actor-uses-HP-iLO-rootkit-to-wipe-servers
 527	Fintech firm hit by log4j hack refuses to pay $5 million ransom	One of the largest Vietnamese crypto trading platforms, ONUS, recently suffered a cyber attack on its payment system running a vulnerable Log4j version. Soon enough, threat actors approached ONUS to extort $5 million and threatened to publish the customer data should ONUS refuse to comply.	https://www.bleepingcomputer.com/news/security/fintech-firm-hit-by-log4j-hack-refuses-to-pay-5-million-ransom/	https://www.bleepstatic.com/content/hl-images/2021/12/13/Log4j.jpg	Ax Sharma	2021-12-29 13:07:07+01	bleepingcomputer	t	2021-12-29 14:00:02.642582+01	bleepingcomputer/Fintech-firm-hit-by-log4j-hack-refuses-to-pay-5-million-ransom
+529	Microsoft Defender Log4j scanner triggers false positive alerts	Microsoft Defender for Endpoint is currently showing sensor tampering alerts linked to the company's newly deployed Microsoft 365 Defender scanner for Log4j processes.	https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-log4j-scanner-triggers-false-positive-alerts/	https://www.bleepstatic.com/content/hl-images/2021/02/11/Microsoft-Defender.jpg	Sergiu Gatlan	2021-12-29 15:15:08+01	bleepingcomputer	t	2021-12-29 16:00:02.355412+01	bleepingcomputer/Microsoft-Defender-Log4j-scanner-triggers-false-positive-alerts
+530	Cryptomining Attack Exploits Docker API Misconfiguration Since 2019	Campaign exploits misconfigured Docker APIs to gain network entry and ultimately sets up a backdoor on compromised hosts to mine cryptocurrency.	https://kasperskycontenthub.com/threatpost-global/?p=177299	https://media.threatpost.com/wp-content/uploads/sites/103/2018/12/21144301/Crypto6.jpg	Elizabeth Montalbano	2021-12-29 15:26:18+01	threatpost	t	2021-12-29 16:00:02.355412+01	threatpost/Cryptomining-Attack-Exploits-Docker-API-Misconfiguration-Since-2019
 \.
 
 
@@ -532,7 +534,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 528, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 530, true);
 
 
 --
