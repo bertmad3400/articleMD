@@ -521,6 +521,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 522	New Flagpro malware linked to Chinese state-backed hackers	The cyber-espionage APT (advanced persistent threat) group tracked as 'BlackTech' was spotted using a novel malware called 'Flagpro' in attacks against Japanese firms.	https://www.bleepingcomputer.com/news/security/new-flagpro-malware-linked-to-chinese-state-backed-hackers/	https://www.bleepstatic.com/content/hl-images/2021/12/28/hacker.jpg	Bill Toulas	2021-12-28 20:23:39+01	bleepingcomputer	t	2021-12-28 21:00:02.690013+01	bleepingcomputer/New-Flagpro-malware-linked-to-Chinese-state-backed-hackers
 523	Log4j 2.17.1 out now, fixes new remote code execution bug	Apache has released another Log4j version, 2.17.1 fixing a newly discovered remote code execution (RCE) vulnerability in 2.17.0, tracked as CVE-2021-44832. Prior to today, 2.17.0 was the most recent version of Log4j and deemed the safest release to upgrade to, but that advice has now evolved.	https://www.bleepingcomputer.com/news/security/log4j-2171-out-now-fixes-new-remote-code-execution-bug/	https://www.bleepstatic.com/content/hl-images/2021/12/13/Log4j___logo.jpg	Ax Sharma	2021-12-28 21:12:01+01	bleepingcomputer	t	2021-12-28 22:00:02.134136+01	bleepingcomputer/Log4j-2171-out-now-fixes-new-remote-code-execution-bug
 524	Iranian hackers behind Cox Media Group ransomware attack	The ransomware attack that crippled the IT systems and live streams of Cox radio and TV stations earlier this year was the work of Iranian hackers, The Record has learned.	https://therecord.media/iranian-hackers-behind-cox-media-group-ransomware-attack/	https://therecord.media/wp-content/uploads/2021/10/tv-radio-broadcast.jpg	Catalin Cimpanu	2021-12-29 03:26:06+01	therecord	t	2021-12-29 04:00:02.618987+01	therecord/Iranian-hackers-behind-Cox-Media-Group-ransomware-attack
+525	Privacy-centric DuckDuckGo to release Mac desktop browser	DuckDuckGo said its new desktop browser app will act much like its mobile app, allowing users to perform internet searches without tracking or installing cookies on Apple devices. The company claimed the browser is cleaner, more private, and faster than Chrome.	https://www.computerworld.com/article/3645668/privacy-centric-duckduckgo-to-release-mac-desktop-browser.html	https://images.idgesg.net/images/idge/imported/imageapi/2021/12/21/21/duckduckgo-browser-100914544-large.jpg?auto=webp&quality=85,70	Lucas Mearian	2021-12-23 10:11:00+01	computerworld	t	2021-12-29 13:00:02.65707+01	computerworld/Privacy-centric-DuckDuckGo-to-release-Mac-desktop-browser
+526	Threat actor uses HP iLO rootkit to wipe servers	An Iranian cyber-security firm said it discovered a first-of-its-kind rootkit that hides inside the firmware of HP iLO devices and which has been used in real-world attacks to wipe servers of Iranian organizations.	https://therecord.media/threat-actor-uses-hp-ilo-rootkit-to-wipe-servers/	https://therecord.media/wp-content/uploads/2021/12/HP-iLO.png	Catalin Cimpanu	2021-12-29 13:01:11+01	therecord	t	2021-12-29 13:00:02.65707+01	therecord/Threat-actor-uses-HP-iLO-rootkit-to-wipe-servers
 \.
 
 
@@ -528,7 +530,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 524, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 526, true);
 
 
 --
