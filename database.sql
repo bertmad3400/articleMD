@@ -533,6 +533,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 534	AvosLocker ransomware gives free decryptor to US police dept	The AvosLocker ransomware operation provided a free decryptor after learning they encrypted a US government agency.	https://www.bleepingcomputer.com/news/security/avoslocker-ransomware-gives-free-decryptor-to-us-police-dept/	https://www.bleepstatic.com/content/hl-images/2021/02/07/brighter-key.jpg	Lawrence Abrams	2021-12-29 20:01:07+01	bleepingcomputer	t	2021-12-29 20:00:02.537231+01	bleepingcomputer/AvosLocker-ransomware-gives-free-decryptor-to-US-police-dept
 535	Ransomware gang coughs up decryptor after realizing they hit the police	The AvosLocker ransomware operation provided a free decryptor after learning they encrypted a US government agency.	https://www.bleepingcomputer.com/news/security/ransomware-gang-coughs-up-decryptor-after-realizing-they-hit-the-police/	https://www.bleepstatic.com/content/hl-images/2021/02/07/brighter-key.jpg	Lawrence Abrams	2021-12-29 20:01:07+01	bleepingcomputer	t	2021-12-29 21:00:02.54792+01	bleepingcomputer/Ransomware-gang-coughs-up-decryptor-after-realizing-they-hit-the-police
 536	Threat Advisory: E-commerce Bots Use Domain Registration Services for Mass Account Fraud	Jason Kent, hacker-in-residence at Cequence Security, discusses sneaky shopping bot tactics (i.e., domain parking) seen in a mass campaign, and what retail security teams can do about them.	https://kasperskycontenthub.com/threatpost-global/?p=177305	https://media.threatpost.com/wp-content/uploads/sites/103/2021/05/19122836/Botnet2-e1621441729944.jpg	Jason Kent	2021-12-29 20:13:45+01	threatpost	t	2021-12-29 21:00:02.54792+01	threatpost/Threat-Advisory-E-commerce-Bots-Use-Domain-Registration-Services-for-Mass-Account-Fraud
+537	LastPass VPs confirm 'no indication' of compromised accounts after security alerts | ZDNet	LastPass VP Gabor Angyal said some of the security alerts that initially caused concern were likely triggered in error.	https://www.zdnet.com/article/lastpass-vp-says-no-indication-that-accounts-compromised-or-credentials-harvested-after-reports/	https://www.zdnet.com/a/img/resize/d178df15fc3ec23a5110476d5ccdb001a345cb45/2021/10/06/d637fa38-32ac-41fe-9ae5-d0a76a785711/tax-security-lock.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-29 20:14:00+01	zdnet	t	2021-12-29 22:00:02.16207+01	zdnet/LastPass-VPs-confirm-no-indication-of-compromised-accounts-after-security-alerts--ZDNet
+538	Silent danger: One in five aged domains is malicious, risky, or unsafe	The number of malicious dormant domains is on the rise, and as researchers warn, roughly 22.3% of strategically aged domains pose some form of danger.	https://www.bleepingcomputer.com/news/security/silent-danger-one-in-five-aged-domains-is-malicious-risky-or-unsafe/	https://www.bleepstatic.com/content/hl-images/2021/12/29/Internet_domain.jpg	Bill Toulas	2021-12-29 21:42:14+01	bleepingcomputer	t	2021-12-29 22:00:02.16207+01	bleepingcomputer/Silent-danger-One-in-five-aged-domains-is-malicious-risky-or-unsafe
 \.
 
 
@@ -540,7 +542,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 536, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 538, true);
 
 
 --
