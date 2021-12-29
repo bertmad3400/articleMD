@@ -531,6 +531,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 532	T-Mobile says new data breach caused by SIM swap attacks	T-Mobile confirmed that recent reports of a new data breach are linked to notifications sent to a very small number of customers that they fell victim to SIM swap attacks.	https://www.bleepingcomputer.com/news/security/t-mobile-says-new-data-breach-caused-by-sim-swap-attacks/	https://www.bleepstatic.com/content/hl-images/2021/02/26/T-Mobile-headpic.jpg	Sergiu Gatlan	2021-12-29 18:03:42+01	bleepingcomputer	t	2021-12-29 19:00:01.876769+01	bleepingcomputer/T-Mobile-says-new-data-breach-caused-by-SIM-swap-attacks
 533	Vulnerabilities In Garrett Metal Detectors Allowed Remote Attacks	The vulnerabilities affected the Garrett iC module empowering walk-through metal detectors with network connectivity. Bugs fixed now.	https://latesthackingnews.com/2021/12/29/vulnerabilities-in-garrett-walk-through-metal-detectors-allow-remote-attacks/	https://latesthackingnews.com/wp-content/uploads/2021/12/walk-through-metal-detector.jpg	Abeerah Hashim	2021-12-29 00:00:00+01	latesthackingnews	t	2021-12-29 19:00:01.876769+01	latesthackingnews/Vulnerabilities-In-Garrett-Metal-Detectors-Allowed-Remote-Attacks
 534	AvosLocker ransomware gives free decryptor to US police dept	The AvosLocker ransomware operation provided a free decryptor after learning they encrypted a US government agency.	https://www.bleepingcomputer.com/news/security/avoslocker-ransomware-gives-free-decryptor-to-us-police-dept/	https://www.bleepstatic.com/content/hl-images/2021/02/07/brighter-key.jpg	Lawrence Abrams	2021-12-29 20:01:07+01	bleepingcomputer	t	2021-12-29 20:00:02.537231+01	bleepingcomputer/AvosLocker-ransomware-gives-free-decryptor-to-US-police-dept
+535	Ransomware gang coughs up decryptor after realizing they hit the police	The AvosLocker ransomware operation provided a free decryptor after learning they encrypted a US government agency.	https://www.bleepingcomputer.com/news/security/ransomware-gang-coughs-up-decryptor-after-realizing-they-hit-the-police/	https://www.bleepstatic.com/content/hl-images/2021/02/07/brighter-key.jpg	Lawrence Abrams	2021-12-29 20:01:07+01	bleepingcomputer	t	2021-12-29 21:00:02.54792+01	bleepingcomputer/Ransomware-gang-coughs-up-decryptor-after-realizing-they-hit-the-police
+536	Threat Advisory: E-commerce Bots Use Domain Registration Services for Mass Account Fraud	Jason Kent, hacker-in-residence at Cequence Security, discusses sneaky shopping bot tactics (i.e., domain parking) seen in a mass campaign, and what retail security teams can do about them.	https://kasperskycontenthub.com/threatpost-global/?p=177305	https://media.threatpost.com/wp-content/uploads/sites/103/2021/05/19122836/Botnet2-e1621441729944.jpg	Jason Kent	2021-12-29 20:13:45+01	threatpost	t	2021-12-29 21:00:02.54792+01	threatpost/Threat-Advisory-E-commerce-Bots-Use-Domain-Registration-Services-for-Mass-Account-Fraud
 \.
 
 
@@ -538,7 +540,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 534, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 536, true);
 
 
 --
