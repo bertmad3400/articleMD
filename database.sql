@@ -543,6 +543,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 544	Apache Releases Log4j 2.17.1 Fixing Another Code Execution Flaw	The arbitrary code execution vulnerability affected Log4j version 2.17.0, which Apache fixed with version 2.17.1. Users should update now.	https://latesthackingnews.com/2021/12/30/apache-releases-log4j-2-17-1-fixing-another-code-execution-flaw/	https://latesthackingnews.com/wp-content/uploads/2019/05/vulnerability.jpeg	Abeerah Hashim	2021-12-30 00:00:00+01	latesthackingnews	t	2021-12-30 17:00:01.998043+01	latesthackingnews/Apache-Releases-Log4j-2171-Fixing-Another-Code-Execution-Flaw
 545	Multiple Riskware Apps Flood Samsung “Galaxy Store” App Store	The riskware apps may trigger warnings on Google Play Store when downloading, but not on Samsung Galaxy Store.	https://latesthackingnews.com/2021/12/30/multiple-riskware-apps-flood-samsungs-galaxy-store-app-store/	https://latesthackingnews.com/wp-content/uploads/2018/08/Pre-installed-apps-in-Android-devices.jpg	Abeerah Hashim	2021-12-30 00:00:00+01	latesthackingnews	t	2021-12-30 17:00:01.998043+01	latesthackingnews/Multiple-Riskware-Apps-Flood-Samsung-Galaxy-Store-App-Store
 546	LastPass Master Passwords Are Possible Leaked – Users Report	LastPass denied any cyberattack and deemed the exposure of master passwords a result of possible credential stuffing attack.	https://latesthackingnews.com/2021/12/30/lastpass-master-passwords-seemingly-hacked-through-credential-stuffing/	https://latesthackingnews.com/wp-content/uploads/2019/09/LastPass.jpg	Abeerah Hashim	2021-12-30 00:00:00+01	latesthackingnews	t	2021-12-30 17:00:01.998043+01	latesthackingnews/LastPass-Master-Passwords-Are-Possible-Leaked--Users-Report
+547	University loses 77TB of research data due to backup error	The Kyoto University in Japan has lost about 77TB of research data due to an error in the backup system of its Hewlett-Packard supercomputer.	https://www.bleepingcomputer.com/news/security/university-loses-77tb-of-research-data-due-to-backup-error/	https://www.bleepstatic.com/content/hl-images/2021/05/19/storage.jpg	Bill Toulas	2021-12-30 17:02:00+01	bleepingcomputer	t	2021-12-30 18:00:02.44056+01	bleepingcomputer/University-loses-77TB-of-research-data-due-to-backup-error
+548	APT ‘Aquatic Panda’ Targets Universities with Log4Shell Exploit Tools	Researchers from CrowdStrike disrupted an attempt by the threat group to steal industrial intelligence and military secrets from an academic institution.	https://kasperskycontenthub.com/threatpost-global/?p=177312	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/30110920/Log4J_shell_thrpst.jpg	Elizabeth Montalbano	2021-12-30 17:16:23+01	threatpost	t	2021-12-30 18:00:02.44056+01	threatpost/APT-Aquatic-Panda-Targets-Universities-with-Log4Shell-Exploit-Tools
 \.
 
 
@@ -550,7 +552,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 546, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 548, true);
 
 
 --
