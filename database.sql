@@ -545,6 +545,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 546	LastPass Master Passwords Are Possible Leaked – Users Report	LastPass denied any cyberattack and deemed the exposure of master passwords a result of possible credential stuffing attack.	https://latesthackingnews.com/2021/12/30/lastpass-master-passwords-seemingly-hacked-through-credential-stuffing/	https://latesthackingnews.com/wp-content/uploads/2019/09/LastPass.jpg	Abeerah Hashim	2021-12-30 00:00:00+01	latesthackingnews	t	2021-12-30 17:00:01.998043+01	latesthackingnews/LastPass-Master-Passwords-Are-Possible-Leaked--Users-Report
 547	University loses 77TB of research data due to backup error	The Kyoto University in Japan has lost about 77TB of research data due to an error in the backup system of its Hewlett-Packard supercomputer.	https://www.bleepingcomputer.com/news/security/university-loses-77tb-of-research-data-due-to-backup-error/	https://www.bleepstatic.com/content/hl-images/2021/05/19/storage.jpg	Bill Toulas	2021-12-30 17:02:00+01	bleepingcomputer	t	2021-12-30 18:00:02.44056+01	bleepingcomputer/University-loses-77TB-of-research-data-due-to-backup-error
 548	APT ‘Aquatic Panda’ Targets Universities with Log4Shell Exploit Tools	Researchers from CrowdStrike disrupted an attempt by the threat group to steal industrial intelligence and military secrets from an academic institution.	https://kasperskycontenthub.com/threatpost-global/?p=177312	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/30110920/Log4J_shell_thrpst.jpg	Elizabeth Montalbano	2021-12-30 17:16:23+01	threatpost	t	2021-12-30 18:00:02.44056+01	threatpost/APT-Aquatic-Panda-Targets-Universities-with-Log4Shell-Exploit-Tools
+549	What the Rise in Cyber-Recon Means for Your Security Strategy	Expect many more zero-day exploits in 2022, and cyberattacks using them being launched at a significantly higher rate, warns Aamir Lakhani, researcher at FortiGuard Labs.	https://kasperskycontenthub.com/threatpost-global/?p=177317	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/30124538/recon.jpg	Aamir Lakhani	2021-12-30 19:01:59+01	threatpost	t	2021-12-30 20:00:01.921618+01	threatpost/What-the-Rise-in-Cyber-Recon-Means-for-Your-Security-Strategy
 \.
 
 
@@ -552,7 +553,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 548, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 549, true);
 
 
 --
