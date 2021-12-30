@@ -546,6 +546,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 547	University loses 77TB of research data due to backup error	The Kyoto University in Japan has lost about 77TB of research data due to an error in the backup system of its Hewlett-Packard supercomputer.	https://www.bleepingcomputer.com/news/security/university-loses-77tb-of-research-data-due-to-backup-error/	https://www.bleepstatic.com/content/hl-images/2021/05/19/storage.jpg	Bill Toulas	2021-12-30 17:02:00+01	bleepingcomputer	t	2021-12-30 18:00:02.44056+01	bleepingcomputer/University-loses-77TB-of-research-data-due-to-backup-error
 548	APT ‘Aquatic Panda’ Targets Universities with Log4Shell Exploit Tools	Researchers from CrowdStrike disrupted an attempt by the threat group to steal industrial intelligence and military secrets from an academic institution.	https://kasperskycontenthub.com/threatpost-global/?p=177312	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/30110920/Log4J_shell_thrpst.jpg	Elizabeth Montalbano	2021-12-30 17:16:23+01	threatpost	t	2021-12-30 18:00:02.44056+01	threatpost/APT-Aquatic-Panda-Targets-Universities-with-Log4Shell-Exploit-Tools
 549	What the Rise in Cyber-Recon Means for Your Security Strategy	Expect many more zero-day exploits in 2022, and cyberattacks using them being launched at a significantly higher rate, warns Aamir Lakhani, researcher at FortiGuard Labs.	https://kasperskycontenthub.com/threatpost-global/?p=177317	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/30124538/recon.jpg	Aamir Lakhani	2021-12-30 19:01:59+01	threatpost	t	2021-12-30 20:00:01.921618+01	threatpost/What-the-Rise-in-Cyber-Recon-Means-for-Your-Security-Strategy
+550	T-Mobile confirms SIM swapping attacks led to breach | ZDNet	This caps a rough year for the carrier after multiple data breaches.	https://www.zdnet.com/article/t-mobile-confirms-sim-swapping-attacks-led-to-breach/	https://www.zdnet.com/a/img/resize/6b6d805fb31de297ddeb0b3aa33888e348455c7d/2021/08/04/6512a1b1-ed35-4aae-a36c-841f83c85a76/t-mobile.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-30 19:16:57+01	zdnet	t	2021-12-30 21:00:01.803809+01	zdnet/T-Mobile-confirms-SIM-swapping-attacks-led-to-breach--ZDNet
 \.
 
 
@@ -553,7 +554,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 549, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 550, true);
 
 
 --
