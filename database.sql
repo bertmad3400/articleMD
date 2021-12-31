@@ -555,6 +555,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 554	Copycat and fad hackers will be the bane of supply chain security in 2022 | ZDNet	Experts explain why the supply chain is now a top target for cybercriminals -- and what we should expect to see in 2022.	https://www.zdnet.com/article/copycat-and-fad-hackers-will-be-the-bane-of-supply-chain-security-in-2022/	https://www.zdnet.com/a/img/resize/362e641923fc6b5d2a7feb96f641e818353c959a/2021/07/20/c83eff73-ab3f-44f2-8b9c-960dd8494b3c/shutterstock-1838345821.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2021-12-31 13:53:18+01	zdnet	t	2021-12-31 15:00:02.148482+01	zdnet/Copycat-and-fad-hackers-will-be-the-bane-of-supply-chain-security-in-2022--ZDNet
 556	Researchers Demonstrate Malware Attacks On Hidden (OP) SSD Area	The researchers explain how an adversary can use firmware attacks to access data or hide malware to the variable OP (hidden) SSD area.	https://latesthackingnews.com/2021/12/31/researchers-demonstrate-malware-attacks-on-hidden-op-ssd-area/	https://latesthackingnews.com/wp-content/uploads/2021/12/SSD.jpg	Abeerah Hashim	2021-12-31 00:00:00+01	latesthackingnews	t	2021-12-31 16:00:02.209691+01	latesthackingnews/Researchers-Demonstrate-Malware-Attacks-On-Hidden-OP-SSD-Area
 557	The biggest data breaches, hacks of 2021 | ZDNet	As COVID-19 continues to cause disruption, cyberattacks haven't let up, either.	https://www.zdnet.com/article/the-biggest-data-breaches-of-2021/	https://www.zdnet.com/a/img/resize/5d5a434b760ab9217c36f2071645d7bdbb6c5bd1/2019/03/01/817912d7-4468-491c-a4b8-4809761588e3/istock-488253356.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2021-12-31 14:02:50+01	zdnet	t	2021-12-31 16:00:02.209691+01	zdnet/The-biggest-data-breaches-hacks-of-2021--ZDNet
+559	PulseTV discloses potential compromise of 200,000 credit cards	PulseTV (pulsetv.com), an American e-store that uses TV as a medium to reach customers, has disclosed a large-scale customer credit card compromise.	https://www.bleepingcomputer.com/news/security/pulsetv-discloses-potential-compromise-of-200-000-credit-cards/	https://www.bleepstatic.com/content/hl-images/2021/02/02/Online-shopping.jpg	Bill Toulas	2021-12-31 18:35:50+01	bleepingcomputer	t	2021-12-31 19:00:01.927242+01	bleepingcomputer/PulseTV-discloses-potential-compromise-of-200000-credit-cards
 \.
 
 
@@ -562,7 +563,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 558, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 559, true);
 
 
 --
