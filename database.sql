@@ -549,6 +549,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 550	T-Mobile confirms SIM swapping attacks led to breach | ZDNet	This caps a rough year for the carrier after multiple data breaches.	https://www.zdnet.com/article/t-mobile-confirms-sim-swapping-attacks-led-to-breach/	https://www.zdnet.com/a/img/resize/6b6d805fb31de297ddeb0b3aa33888e348455c7d/2021/08/04/6512a1b1-ed35-4aae-a36c-841f83c85a76/t-mobile.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-30 19:16:57+01	zdnet	t	2021-12-30 21:00:01.803809+01	zdnet/T-Mobile-confirms-SIM-swapping-attacks-led-to-breach--ZDNet
 551	Rhode Island AG opens investigation into transit authority data breach after ACLU letter | ZDNet	The ACLU questioned why the healthcare information of thousands of individuals with no relationship with RIPTA at all was leaked in the breach.	https://www.zdnet.com/article/rhode-island-attorney-general-opening-investigation-into-transit-authority-after-data-breach/	https://www.zdnet.com/a/img/resize/2a1e1a56f7f397e141a7865a0ca46fa6cc692458/2019/01/14/825b8587-f067-4e05-ab87-9549a743ba58/screenshot-2019-01-14-at-10-59-58.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2021-12-30 20:23:42+01	zdnet	t	2021-12-30 22:00:01.848599+01	zdnet/Rhode-Island-AG-opens-investigation-into-transit-authority-data-breach-after-ACLU-letter--ZDNet
 552	Have I Been Pwned adds 441K accounts stolen by RedLine malware	The Have I Been Pwned data breach notification service now lets you check if your email and password are one of 441,000 accounts stolen in an information-stealing campaign using RedLine malware.	https://www.bleepingcomputer.com/news/security/have-i-been-pwned-adds-441k-accounts-stolen-by-redline-malware/	https://www.bleepstatic.com/content/hl-images/2021/12/30/evil-creepy-red-thing.jpg	Lawrence Abrams	2021-12-30 21:17:31+01	bleepingcomputer	t	2021-12-30 22:00:01.848599+01	bleepingcomputer/Have-I-Been-Pwned-adds-441K-accounts-stolen-by-RedLine-malware
+553	Netgear leaves vulnerabilities unpatched in Nighthawk router	Researchers have found half a dozen high-risk vulnerabilities in the latest firmware version for the Netgear Nighthawk R6700v3 router. At publishing time the flaws remain unpatched.	https://www.bleepingcomputer.com/news/security/netgear-leaves-vulnerabilities-unpatched-in-nighthawk-router/	https://www.bleepstatic.com/content/hl-images/2021/12/31/netgear-modem.jpg	Bill Toulas	2021-12-31 13:15:22+01	bleepingcomputer	t	2021-12-31 14:00:02.118473+01	bleepingcomputer/Netgear-leaves-vulnerabilities-unpatched-in-Nighthawk-router
 \.
 
 
@@ -556,7 +557,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 552, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 553, true);
 
 
 --
