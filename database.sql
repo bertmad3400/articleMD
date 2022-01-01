@@ -556,6 +556,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 556	Researchers Demonstrate Malware Attacks On Hidden (OP) SSD Area	The researchers explain how an adversary can use firmware attacks to access data or hide malware to the variable OP (hidden) SSD area.	https://latesthackingnews.com/2021/12/31/researchers-demonstrate-malware-attacks-on-hidden-op-ssd-area/	https://latesthackingnews.com/wp-content/uploads/2021/12/SSD.jpg	Abeerah Hashim	2021-12-31 00:00:00+01	latesthackingnews	t	2021-12-31 16:00:02.209691+01	latesthackingnews/Researchers-Demonstrate-Malware-Attacks-On-Hidden-OP-SSD-Area
 557	The biggest data breaches, hacks of 2021 | ZDNet	As COVID-19 continues to cause disruption, cyberattacks haven't let up, either.	https://www.zdnet.com/article/the-biggest-data-breaches-of-2021/	https://www.zdnet.com/a/img/resize/5d5a434b760ab9217c36f2071645d7bdbb6c5bd1/2019/03/01/817912d7-4468-491c-a4b8-4809761588e3/istock-488253356.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2021-12-31 14:02:50+01	zdnet	t	2021-12-31 16:00:02.209691+01	zdnet/The-biggest-data-breaches-hacks-of-2021--ZDNet
 559	PulseTV discloses potential compromise of 200,000 credit cards	PulseTV (pulsetv.com), an American e-store that uses TV as a medium to reach customers, has disclosed a large-scale customer credit card compromise.	https://www.bleepingcomputer.com/news/security/pulsetv-discloses-potential-compromise-of-200-000-credit-cards/	https://www.bleepstatic.com/content/hl-images/2021/02/02/Online-shopping.jpg	Bill Toulas	2021-12-31 18:35:50+01	bleepingcomputer	t	2021-12-31 19:00:01.927242+01	bleepingcomputer/PulseTV-discloses-potential-compromise-of-200000-credit-cards
+560	Popular Q&A app Curious Cat loses domain, posts bizarre tweets	Popular social networking and anonymous Q&A app, Curious Cat has lost control of its domain. Soon after the platform announced losing control of their domain, a series of bizarre events and support responses have confused the app users who are now unable to trust Curious Cat.	https://www.bleepingcomputer.com/news/security/popular-qanda-app-curious-cat-loses-domain-posts-bizarre-tweets/	https://www.bleepstatic.com/content/hl-images/2021/08/05/angry-cat.jpg	Ax Sharma	2022-01-01 13:46:26+01	bleepingcomputer	t	2022-01-01 14:00:02.710369+01	bleepingcomputer/Popular-QA-app-Curious-Cat-loses-domain-posts-bizarre-tweets
 \.
 
 
@@ -563,7 +564,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 559, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 560, true);
 
 
 --
