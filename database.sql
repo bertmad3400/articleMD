@@ -563,6 +563,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 564	Uber dismisses vulnerability that lets you email anyone as Uber!	A vulnerability in Uber's email system allows just about anyone to send emails on behalf of Uber.  Uber is aware of the flaw but has decided not to fix it.	https://www.bleepingcomputer.com/news/security/uber-dismisses-vulnerability-that-lets-you-email-anyone-as-uber/	https://www.bleepstatic.com/content/hl-images/2021/12/22/uber.jpg	Ax Sharma	2022-01-02 15:48:35+01	bleepingcomputer	t	2022-01-02 16:00:02.359364+01	bleepingcomputer/Uber-dismisses-vulnerability-that-lets-you-email-anyone-as-Uber
 565	Uber ignores vulnerability that lets you send any email from Uber.com	A vulnerability in Uber's email system allows just about anyone to send emails on behalf of Uber.  Uber is aware of the flaw but has decided not to fix it for now.	https://www.bleepingcomputer.com/news/security/uber-ignores-vulnerability-that-lets-you-send-any-email-from-ubercom/	https://www.bleepstatic.com/content/hl-images/2021/12/22/uber.jpg	Ax Sharma	2022-01-02 15:48:35+01	bleepingcomputer	t	2022-01-02 18:00:02.086692+01	bleepingcomputer/Uber-ignores-vulnerability-that-lets-you-send-any-email-from-Ubercom
 566	BleepingComputer's most popular cybersecurity and tech stories of 2021	​2021 is over, and we can look forward to a hopefully healthier, safer, and more normal 2022. However, it was a big year for technology and cybersecurity with massive cyberattacks and data breaches, innovative phishing attacks, privacy concerns, and of course, zero-day vulnerabilities.	https://www.bleepingcomputer.com/news/technology/bleepingcomputers-most-popular-cybersecurity-and-tech-stories-of-2021/	https://www.bleepstatic.com/content/hl-images/2021/12/31/year-2021.jpg	Lawrence Abrams	2022-01-02 18:50:01+01	bleepingcomputer	t	2022-01-02 19:00:01.798796+01	bleepingcomputer/BleepingComputers-most-popular-cybersecurity-and-tech-stories-of-2021
+567	Microsoft releases emergency fix for Exchange year 2022 bug	Microsoft has released an emergency fix for a year 2022 bug that is breaking email delivery on on-premise Microsoft Exchange servers.	https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-fix-for-exchange-year-2022-bug/	https://www.bleepstatic.com/content/hl-images/2021/09/28/Exchange_headpic.jpg	Lawrence Abrams	2022-01-02 20:06:31+01	bleepingcomputer	t	2022-01-02 21:00:02.230084+01	bleepingcomputer/Microsoft-releases-emergency-fix-for-Exchange-year-2022-bug
 \.
 
 
@@ -570,7 +571,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 566, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 567, true);
 
 
 --
