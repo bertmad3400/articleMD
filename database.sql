@@ -561,6 +561,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 562	New iLOBleed Rootkit Targets HP Integrated Lights-Out	iLOBleed rootkit is active since 2020, targeting servers with sneaky and persistent attacks that evade detection, resist firmware upgrades.	https://latesthackingnews.com/2022/01/02/new-ilobleed-rootkit-targets-hp-integrated-lights-out/	https://latesthackingnews.com/wp-content/uploads/2021/12/chip-processor.jpg	Abeerah Hashim	2022-01-02 00:00:00+01	latesthackingnews	t	2022-01-02 16:00:02.359364+01	latesthackingnews/New-iLOBleed-Rootkit-Targets-HP-Integrated-Lights-Out
 563	Lapsus$ ransomware gang hits SIC, Portugal's largest TV channel	The Lapsus$ ransomware gang has hacked and is currently extorting Impresa, the largest media conglomerate in Portugal and the owner of SIC and Expresso, the country's largest TV channel and weekly newspaper, respectively.	https://therecord.media/lapsus-ransomware-gang-hits-sic-portugals-largest-tv-channel/	https://therecord.media/wp-content/uploads/2022/01/Impresa-ransom.jpg	Catalin Cimpanu	2022-01-02 15:50:14+01	therecord	t	2022-01-02 16:00:02.359364+01	therecord/Lapsus-ransomware-gang-hits-SIC-Portugals-largest-TV-channel
 564	Uber dismisses vulnerability that lets you email anyone as Uber!	A vulnerability in Uber's email system allows just about anyone to send emails on behalf of Uber.  Uber is aware of the flaw but has decided not to fix it.	https://www.bleepingcomputer.com/news/security/uber-dismisses-vulnerability-that-lets-you-email-anyone-as-uber/	https://www.bleepstatic.com/content/hl-images/2021/12/22/uber.jpg	Ax Sharma	2022-01-02 15:48:35+01	bleepingcomputer	t	2022-01-02 16:00:02.359364+01	bleepingcomputer/Uber-dismisses-vulnerability-that-lets-you-email-anyone-as-Uber
+565	Uber ignores vulnerability that lets you send any email from Uber.com	A vulnerability in Uber's email system allows just about anyone to send emails on behalf of Uber.  Uber is aware of the flaw but has decided not to fix it for now.	https://www.bleepingcomputer.com/news/security/uber-ignores-vulnerability-that-lets-you-send-any-email-from-ubercom/	https://www.bleepstatic.com/content/hl-images/2021/12/22/uber.jpg	Ax Sharma	2022-01-02 15:48:35+01	bleepingcomputer	t	2022-01-02 18:00:02.086692+01	bleepingcomputer/Uber-ignores-vulnerability-that-lets-you-send-any-email-from-Ubercom
 \.
 
 
@@ -568,7 +569,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 564, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 565, true);
 
 
 --
