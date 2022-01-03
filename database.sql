@@ -565,6 +565,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 566	BleepingComputer's most popular cybersecurity and tech stories of 2021	​2021 is over, and we can look forward to a hopefully healthier, safer, and more normal 2022. However, it was a big year for technology and cybersecurity with massive cyberattacks and data breaches, innovative phishing attacks, privacy concerns, and of course, zero-day vulnerabilities.	https://www.bleepingcomputer.com/news/technology/bleepingcomputers-most-popular-cybersecurity-and-tech-stories-of-2021/	https://www.bleepstatic.com/content/hl-images/2021/12/31/year-2021.jpg	Lawrence Abrams	2022-01-02 18:50:01+01	bleepingcomputer	t	2022-01-02 19:00:01.798796+01	bleepingcomputer/BleepingComputers-most-popular-cybersecurity-and-tech-stories-of-2021
 567	Microsoft releases emergency fix for Exchange year 2022 bug	Microsoft has released an emergency fix for a year 2022 bug that is breaking email delivery on on-premise Microsoft Exchange servers.	https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-fix-for-exchange-year-2022-bug/	https://www.bleepstatic.com/content/hl-images/2021/09/28/Exchange_headpic.jpg	Lawrence Abrams	2022-01-02 20:06:31+01	bleepingcomputer	t	2022-01-02 21:00:02.230084+01	bleepingcomputer/Microsoft-releases-emergency-fix-for-Exchange-year-2022-bug
 568	Vulnerabilities In Encryption Software Impact Multiple Storage Devices	Exploiting the vulnerabilities in ENC DataVault encryption software allowed brute-force attacks. Patched version released for all users.	https://latesthackingnews.com/2022/01/03/vulnerabilities-in-enc-datavault-software-impact-multiple-storage-devices/	https://latesthackingnews.com/wp-content/uploads/2021/12/Technology-Cybersecurity.jpg	Abeerah Hashim	2022-01-03 00:00:00+01	latesthackingnews	t	2022-01-03 15:00:02.287519+01	latesthackingnews/Vulnerabilities-In-Encryption-Software-Impact-Multiple-Storage-Devices
+569	Apple iOS vulnerable to HomeKit 'doorLock' denial of service bug	A novel persistent denial of service vulnerability named 'doorLock' was discovered in Apple HomeKit, affecting iOS 14.7 through 15.2.	https://www.bleepingcomputer.com/news/security/apple-ios-vulnerable-to-homekit-doorlock-denial-of-service-bug/	https://www.bleepstatic.com/content/hl-images/2021/02/10/Apple_red.jpg	Bill Toulas	2022-01-03 16:39:58+01	bleepingcomputer	t	2022-01-03 17:00:02.688427+01	bleepingcomputer/Apple-iOS-vulnerable-to-HomeKit-doorLock-denial-of-service-bug
+570	Don't copy-paste commands from webpages — you can get hacked	Programmers, sysadmins, security researchers, and tech hobbyists copying-pasting commands from web pages into a console or terminal risk having their system compromised. Wizer's Gabriel Friedlander demonstrates an obvious, simple yet stunning trick that'll make you think twice before copying-pasting text from web pages.	https://www.bleepingcomputer.com/news/security/dont-copy-paste-commands-from-webpages-you-can-get-hacked/	https://www.bleepstatic.com/content/hl-images/2021/11/01/source-code.jpg	Ax Sharma	2022-01-03 14:00:00+01	bleepingcomputer	t	2022-01-03 17:00:02.688427+01	bleepingcomputer/Dont-copy-paste-commands-from-webpages--you-can-get-hacked
 \.
 
 
@@ -572,7 +574,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 568, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 570, true);
 
 
 --
