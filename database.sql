@@ -569,6 +569,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 570	Don't copy-paste commands from webpages — you can get hacked	Programmers, sysadmins, security researchers, and tech hobbyists copying-pasting commands from web pages into a console or terminal risk having their system compromised. Wizer's Gabriel Friedlander demonstrates an obvious, simple yet stunning trick that'll make you think twice before copying-pasting text from web pages.	https://www.bleepingcomputer.com/news/security/dont-copy-paste-commands-from-webpages-you-can-get-hacked/	https://www.bleepstatic.com/content/hl-images/2021/11/01/source-code.jpg	Ax Sharma	2022-01-03 14:00:00+01	bleepingcomputer	t	2022-01-03 17:00:02.688427+01	bleepingcomputer/Dont-copy-paste-commands-from-webpages--you-can-get-hacked
 571	How Apple's iCloud Private Relay supports enterprise VPN	Apple's iCloud Private Relay is compatible with enterprise security policies, including VPN and proxy server prohibition.	https://www.computerworld.com/article/3645848/how-apples-icloud-private-relay-supports-enterprise-vpn.html	https://images.idgesg.net/images/article/2017/08/10_encrypt-for-security-100732873-large.jpg?auto=webp&quality=85,70	Jonny Evans	2021-12-23 11:22:00+01	computerworld	t	2022-01-03 18:00:02.635407+01	computerworld/How-Apples-iCloud-Private-Relay-supports-enterprise-VPN
 572	Broward Health discloses data breach affecting 1.3 million people	Florida's Broward Health healthcare system has disclosed a large-scale data breach incident impacting 1,357,879 individuals.	https://www.bleepingcomputer.com/news/security/broward-health-discloses-data-breach-affecting-13-million-people/	https://www.bleepstatic.com/content/hl-images/2022/01/03/broward-health.jpg	Bill Toulas	2022-01-03 17:50:42+01	bleepingcomputer	t	2022-01-03 18:00:02.635407+01	bleepingcomputer/Broward-Health-discloses-data-breach-affecting-13-million-people
+573	Data breach: Broward Health warns 1.3 million patients, staff of 'medical identity theft' | ZDNet	The hospital system says they waited months to notify victims of the breach because the Justice Department asked them to.	https://www.zdnet.com/article/broward-health-warns-1-3-million-patients-staff-of-medical-identity-theft-after-data-breach/	https://www.zdnet.com/a/img/resize/da72a723903a92e766fa49e2809c4ddc5148bd35/2020/09/17/c2347b8b-a37f-46f1-b8e9-dee91dba3ccc/ambulance-hospital.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-03 18:04:00+01	zdnet	t	2022-01-03 20:00:02.272618+01	zdnet/Data-breach-Broward-Health-warns-13-million-patients-staff-of-medical-identity-theft--ZDNet
 \.
 
 
@@ -576,7 +577,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 572, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 573, true);
 
 
 --
