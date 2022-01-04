@@ -579,6 +579,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 580	Cyberattack against UK Ministry of Defence training academy revealed | ZDNet	The attack had a significant impact on operations last year.	https://www.zdnet.com/article/ex-officer-reveals-cyberattack-against-uk-ministry-of-defence-training-academy/	https://www.zdnet.com/a/img/resize/be961fb6b8ef03aa44fbb1cb49704d314befd492/2021/07/19/0874b07d-266e-47ee-ac1a-88867d2f8b02/uk-blame-china-for-microsoft-exchange-server-hack.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-04 10:30:03+01	zdnet	t	2022-01-04 12:00:02.750024+01	zdnet/Cyberattack-against-UK-Ministry-of-Defence-training-academy-revealed--ZDNet
 581	Why are your IT people so miserable? Log4j2itis	The biggest security problem of your life is happening right under your nose. Even if you don't know about it, your IT admins do.	https://www.computerworld.com/article/3645709/why-are-your-it-people-so-miserable-log4j2itis.html	https://images.idgesg.net/images/idge/imported/imageapi/2021/12/19/20/cso_nw_cloud_security_data_protection_encryption_movement_transition_by_metamorworks_gettyimages-1132912672_2400x1600-100826674-large-100914319-large.jpg?auto=webp&quality=85,70	Steven J. Vaughan-Nichols	2021-12-29 09:40:00+01	computerworld	t	2022-01-04 12:00:02.750024+01	computerworld/Why-are-your-IT-people-so-miserable-Log4j2itis
 582	State-of-the-art EDRs are not perfect, fail to detect common attacks	A team of Greek academics has tested endpoint detection & response (EDR) software from 11 of today's top cybersecurity firms and found that many fail to detect some of the most common attack techniques used by advanced persistent threat actors, such as state-sponsored espionage groups and ransomware gangs.	https://therecord.media/state-of-the-art-edrs-are-not-perfect-fail-to-detect-common-attacks/	https://therecord.media/wp-content/uploads/2022/01/antivirus-EDR-robot-machine-learning-AI.jpg	Catalin Cimpanu	2022-01-04 11:41:43+01	therecord	t	2022-01-04 12:00:02.750024+01	therecord/State-of-the-art-EDRs-are-not-perfect-fail-to-detect-common-attacks
+583	Serious Vulnerability Allows Phishing Emails to Be Sent From Uber.com Domain	Uber refused to acknowledge the vulnerability considering it a social engineering attack, whereas it actually affects Uber domain.	https://latesthackingnews.com/2022/01/04/serious-vulnerability-allows-phishing-emails-to-be-sent-from-uber-com-domain/	https://latesthackingnews.com/wp-content/uploads/2019/09/Uber-vulnerability.jpeg	Abeerah Hashim	2022-01-04 00:00:00+01	latesthackingnews	t	2022-01-04 13:00:02.289722+01	latesthackingnews/Serious-Vulnerability-Allows-Phishing-Emails-to-Be-Sent-From-Ubercom-Domain
 \.
 
 
@@ -586,7 +587,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 582, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 583, true);
 
 
 --
