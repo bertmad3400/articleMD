@@ -1,0 +1,71 @@
+# Data Skimmer Hits 100+ Sotheby’s Real-Estate Websites
+### The campaign was an opportunistic supply-chain attack abusing a weaponized cloud video player.
+
+## Information:
++ Source: ThreatPost
++ Link: https://kasperskycontenthub.com/threatpost-global/?p=177347
++ Date: 2022-01-04T20:33:40+00:00
++ Author: Tara Seals
+
+
+## Article:
+![Article Image](https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/04152547/Sothebys-e1641327966230.png)
+
+A supply-chain campaign infecting Sotheby’s real-estate websites with data-stealing skimmers was recently observed being distributed via a cloud-video platform.
+
+
+According to Palo Alto Networks’ Unit 42 division, researchers noticed that most of the activity affected real-estate-related sites. At least 100 of them were successfully infected (the full list of affected websites [can be found here](https://github.com/pan-unit42/iocs/blob/master/Skimmer_IOC.txt)). Upon closer inspection, all of the compromised sites belonged to one parent company (Sotheby’s), which imported the same video player, infested with malicious scripts, from the cloud video platform.
+
+
+Many of the compromised sites (all of which were cleaned) were for specific properties for sale and are now defunct, but [a look at](https://105fairwaycourt.com/#property-info) some of the [still-running sites](https://45greenwelllane.com/) show heavy use of the Brightcove video player to showcase properties. However, the abused player in the campaign is unnamed in the post; Threatpost has reached out to Unit 42 for details.
+
+
+[![Infosec Insiders Newsletter](https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/10165815/infosec_insiders_in_article_promo.png)](https://threatpost.com/infosec-insider-subscription-page/?utm_source=ART&utm_medium=ART&utm_campaign=InfosecInsiders_Newsletter_Promo/)
+
+
+“In skimmer attacks, cybercriminals inject malicious JavaScript code to hack a website and take over the functionality of the site’s HTML form page to collect sensitive user information,” researchers explained in a [Monday posting](https://unit42.paloaltonetworks.com/web-skimmer-video-distribution/). “In the case of the attacks described here, the attacker injected the skimmer JavaScript codes into video, so whenever others import the video, their websites get embedded with skimmer codes as well.”
+
+
+An analysis of the skimmer code showed that it harvests information that victims load into contact pages requesting a home showing, including names, emails and phone numbers. It then sends them to a malicious collection server (https://cdn-imgcloud[.]com/img), hosted on a [content delivery network](https://blog.malwarebytes.com/threat-analysis/2019/06/magecart-skimmers-found-on-amazon-cloudfront-cdn/). The information could be used for convincing follow-on phishing and other social-engineering attacks.
+
+
+“The skimmer itself is highly polymorphic, elusive and continuously evolving,” researchers warned. “When combined with cloud distribution platforms, the impact of a skimmer of this type could be very large. For these reasons, attacks like this raise the stakes for security researchers to untangle their sophisticated strategies and trace them to the root cause. We have to invent more sophisticated strategies to detect skimmer campaigns of this type, since merely blocking domain names or URLs used by skimmers is ineffective.”
+
+
+Abusing the cloud platform is not difficult, researchers noted. After signing up to use the video creator, any user can add JavaScript customizations by uploading a JavaScript file to be included in the player.
+
+
+“In this specific instance, the user uploaded a script that could be modified upstream to include malicious content,” according to Unit 42. “We infer that the attacker altered the static script at its hosted location by attaching skimmer code. Upon the next player update, the video platform re-ingested the compromised file and served it along with the impacted player.”
+
+
+To protect their websites, website administrators can take steps such as conducting web content integrity checks on a regular basis, to detect and prevent injection of malicious code into the website content, researchers said.
+
+
+***Check out our free***[***upcoming live and on-demand online town halls***](https://threatpost.com/category/webinars/) ***– unique, dynamic discussions with cybersecurity experts and the Threatpost community.***
+
+
+ 
+
+
+ 
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Conti]] [[action.malware.name=Elise]] [[action.malware.name=Net]] [[action.malware.name=njRAT]] [[action.malware.name=Reg]] [[action.malware.name=S-Type]] [[action.malware.name=Tor]]
+
+#### Industry:
+[[victim.industry.name=Real Estate]]
+
+#### Location:
+[[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Websites]] [[Javascript]] [[Cloud]] [[“in]] [[Website]] [[ThreatPost]]
+#### urls
+https://cdn-imgcloud.com/img),
+
