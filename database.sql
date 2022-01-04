@@ -575,6 +575,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 576	Senate committee wants foreign interference social media reporting rules by next Australian election | ZDNet	A Senate Select Committee received testimony prior to the new year that both government and social media platforms are unsure of how to go about reporting foreign interference on social media platforms.	https://www.zdnet.com/article/senate-committee-wants-foreign-interference-social-media-reporting-rules-by-next-australian-election/	https://www.zdnet.com/a/img/resize/e998ba55eeee27964e4c4fccf0da96a09b116e82/2021/05/03/411c2a4b-f919-4ee9-a1cb-b996314d4ae1/social-media-up-close-apps.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-04 03:46:27+01	zdnet	t	2022-01-04 05:00:02.625381+01	zdnet/Senate-committee-wants-foreign-interference-social-media-reporting-rules-by-next-Australian-election--ZDNet
 577	Parliamentary security committee review backs the operation of controversial TOLA Act | ZDNet	PJCIS chair James Paterson said law enforcement agencies have made the case that encryption busting powers are necessary for fighting national security threats.	https://www.zdnet.com/article/parliamentary-security-committee-review-backs-the-use-of-controversial-tola-act/	https://www.zdnet.com/a/img/resize/40b8979533fd8cf2169789b2e45c5796f05e76fc/2019/07/02/4f57beb5-3ede-40ff-abb6-b3f00de648e1/canberra-parliament-house-zoomed.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-04 06:22:35+01	zdnet	t	2022-01-04 08:00:02.371953+01	zdnet/Parliamentary-security-committee-review-backs-the-operation-of-controversial-TOLA-Act--ZDNet
 578	Purple Fox malware distributed via malicious Telegram installers	A laced Telegram for desktop installer was spotted distributing the Purple Fox malware while disabling the UAC on the infected systems.	https://www.bleepingcomputer.com/news/security/purple-fox-malware-distributed-via-malicious-telegram-installers/	https://www.bleepstatic.com/content/hl-images/2021/10/20/purplefox.png	Bill Toulas	2022-01-03 21:45:11+01	bleepingcomputer	t	2022-01-04 08:00:02.371953+01	bleepingcomputer/Purple-Fox-malware-distributed-via-malicious-Telegram-installers
+579	Microsoft Skype challenge: Can you solve this puzzle 10 times?	New Skype users report frustration after being presented with a captcha that requires them to solve a complex puzzle ten times before signing up for the service.	https://www.bleepingcomputer.com/news/security/microsoft-skype-challenge-can-you-solve-this-puzzle-10-times/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Microsoft.jpg	Ax Sharma	2022-01-03 20:57:48+01	bleepingcomputer	t	2022-01-04 09:00:02.731313+01	bleepingcomputer/Microsoft-Skype-challenge-Can-you-solve-this-puzzle-10-times
 \.
 
 
@@ -582,7 +583,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 578, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 579, true);
 
 
 --
