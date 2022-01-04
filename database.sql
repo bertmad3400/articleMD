@@ -589,6 +589,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 590	UScellular discloses data breach after billing system hack	UScellular, self-described as the fourth-largest wireless carrier in the US, has disclosed a data breach after the company's billing system was hacked in December 2021.	https://www.bleepingcomputer.com/news/security/uscellular-discloses-data-breach-after-billing-system-hack/	https://www.bleepstatic.com/content/posts/2022/01/04/USCellular.jpg	Sergiu Gatlan	2022-01-04 18:07:08+01	bleepingcomputer	t	2022-01-04 19:00:02.480798+01	bleepingcomputer/UScellular-discloses-data-breach-after-billing-system-hack
 591	Google acquires Israeli cybersecurity company Siemplify for $500 million | ZDNet	Google will be integrating Siemplify's security orchestration, automation and response (SOAR) platform into their cloud systems.	https://www.zdnet.com/article/google-acquires-israeli-cybersecurity-company-siemplify-for-500-million/	https://www.zdnet.com/a/img/resize/5d7b1149556f41fd034c915e3c8c269527c491b0/2021/11/03/d65649b1-fb33-483c-aae1-3d33a843a3e7/google-cloud.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-04 18:23:00+01	zdnet	t	2022-01-04 20:00:02.194086+01	zdnet/Google-acquires-Israeli-cybersecurity-company-Siemplify-for-500-million--ZDNet
 592	First Microsoft Pluton-powered Windows 11 PCs to start rolling out this year | ZDNet	The first PCs to incorporate Microsoft's Pluton security chip will be available from Lenovo this May.	https://www.zdnet.com/article/first-microsoft-pluton-powered-windows-11-pcs-start-rolling-out-this-year/	https://www.zdnet.com/a/img/resize/193214dfa33048a3b034d716c93b54543787cd15/2022/01/04/aacb7e07-b692-4127-9bf6-ff1ec7a7a827/plutonprocessorlenovoamd.jpg?width=770&height=578&fit=crop&auto=webp	Mary Jo Foley	2022-01-04 18:07:00+01	zdnet	t	2022-01-04 20:00:02.194086+01	zdnet/First-Microsoft-Pluton-powered-Windows-11-PCs-to-start-rolling-out-this-year--ZDNet
+593	First Microsoft Pluton-powered Windows 11 PCs unveiled at CES	Lenovo unveiled today at CES 2022 the first Microsoft Pluton-powered Windows 11 PCs, the ThinkPad Z13 and Z16, with AMD Ryzen 6000 Series processors.	https://www.bleepingcomputer.com/news/microsoft/first-microsoft-pluton-powered-windows-11-pcs-unveiled-at-ces/	https://www.bleepstatic.com/content/hl-images/2022/01/04/Microsoft_Pluton.jpg	Sergiu Gatlan	2022-01-04 20:28:42+01	bleepingcomputer	t	2022-01-04 21:00:02.724556+01	bleepingcomputer/First-Microsoft-Pluton-powered-Windows-11-PCs-unveiled-at-CES
 \.
 
 
@@ -596,7 +597,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 592, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 593, true);
 
 
 --
