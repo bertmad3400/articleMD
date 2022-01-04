@@ -1,0 +1,101 @@
+# Hackers use video player to steal credit cards from over 100 sites
+### Hackers used a cloud video hosting service to perform a supply chain attack on over one hundred real estate sites that injected malicious scripts to steal information inputted in website forms.
+
+## Information:
++ Source: Bleeping Computer
++ Link: https://www.bleepingcomputer.com/news/security/hackers-use-video-player-to-steal-credit-cards-from-over-100-sites/
++ Date: 2022-01-04T12:52:01-05:00
++ Author: Bill Toulas
+
+
+## Article:
+![Article Image](https://www.bleepstatic.com/content/hl-images/2021/12/21/data-theft-header.jpg)
+
+![Hacker](https://www.bleepstatic.com/content/hl-images/2021/12/21/data-theft-header.jpg)
+
+
+Hackers used a cloud video hosting service to perform a supply chain attack on over one hundred real estate sites that injected malicious scripts to steal information inputted in website forms.
+
+
+These scripts are known as skimmers or formjackers and are commonly injected into hacked websites to steal sensitive information entered into forms. Skimmers are commonly used on checkout pages for online stores to steal payment information.
+
+
+In a new supply chain attack discovered by Palo Alto Networks Unit42, threat actors abused a cloud video hosting feature to inject skimmer code into a video player. When a website embeds that player, it embeds the malicious script, causing the site to become infected.
+
+
+In total, Unit42 found over 100 real estate sites compromised by this campaign, showing a very successful supply chain attack.
+
+
+The researchers notified the cloud video platform and helped the infected sites clear their pages, but this campaign is an example of the ingenuity and determination of adversaries.
+
+
+Hacking once, infecting hundreds
+--------------------------------
+
+
+The cloud video platform involved in the attack allows users to create video players that include custom JavaScript scripts to customize the player.
+
+
+One such customized video player that is commonly embedded in real estate sites used a static JavaScript file hosted at a remote server.
+
+
+Unit42 researchers believe those threat actors gained access to the upstream JavaScript file and modified it to include a malicious skimmer script.
+
+
+On the next player update, the video player began serving the malicious script to all real estate sites that already had the player embedded, allowing the script to steal sensitive information inputted into website forms.
+
+
+
+![Skimmer code seen in an infected webpage](https://www.bleepstatic.com/images/news/u/1220909/Code%20and%20Details/skimmer-injection.png)**Skimmer code seen in an infected webpage**  
+*Source: Palo Alto Networks*
+The code itself is highly obfuscated, so it's unlikely to raise any suspicions at first glance or to be caught by unsophisticated security products.
+
+
+Upon deeper analysis, [Unit42 found](https://unit42.paloaltonetworks.com/web-skimmer-video-distribution/) that the skimmer steals victim names, email addresses, phone numbers, and credit card information. This stolen information is then sent back to an attacker-controlled server, where the threat actors can collect it for further attacks.
+
+
+Its operational process can be summed up in the following three steps:
+
+
+* Check whether the webpage load is done and call the next function.
+* Read customer input information from the HTML document and call a data-validating function before saving it.
+* Send the collected data to the C2 (https://cdn-imgcloud[.]com/img) by creating an HTML tag and filling the image source with the server URL.
+
+
+![Skimmer functions and execution order](https://www.bleepstatic.com/images/news/u/1220909/Code%20and%20Details/functions.jpg)**Skimmer functions from saving data to exfiltrating**  
+*Source: Palo Alto Networks*
+Palo Alto Networks has published a complete list of the IoCs (indicators of compromise) on [this GitHub repository](https://github.com/pan-unit42/iocs/blob/master/Skimmer_IOC.txt).
+
+
+An elusive threat
+-----------------
+
+
+This campaign deploys a polymorphic and continuously evolving skimmer that can't be stopped using conventional domain name and URL blocking methods.
+
+
+Website administrators who embed JavaScript scripts on their sites should not trust them blindly, even if the source has been proven to be trustworthy.
+
+
+Instead, admins are advised to conduct regular web content integrity checks and use form-jacking detection solutions.
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Conti]] [[action.malware.name=Elise]] [[action.malware.name=Net]] [[action.malware.name=njRAT]] [[action.malware.name=Reg]] [[action.malware.name=Tor]]
+
+#### Industry:
+[[victim.industry.name=Real Estate]]
+
+#### Location:
+[[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Cloud]] [[Palo]] [[Unit42]] [[Javascript]] [[Website]] [[Bleeping Computer]]
+#### urls
+https://cdn-imgcloud.com/img)
+
