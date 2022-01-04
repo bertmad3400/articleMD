@@ -596,6 +596,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 597	SEGA's Sloppy Security Confession: Exposed AWS S3 Bucket Offers Up Steam API Access & More	SEGA's disclosure underscores a common, potentially catastrophic, flub — misconfigured Amazon Web Services (AWS) S3 buckets.	https://kasperskycontenthub.com/threatpost-global/?p=177352	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/04154548/Sega.jpg	Becky Bracken	2022-01-04 21:49:39+01	threatpost	t	2022-01-04 22:00:02.062274+01	threatpost/SEGAs-Sloppy-Security-Confession-Exposed-AWS-S3-Bucket-Offers-Up-Steam-API-Access--More
 598	Data Skimmer Hits 100+ Sotheby’s Real-Estate Websites	The campaign was an opportunistic supply-chain attack abusing a weaponized cloud video player.	https://kasperskycontenthub.com/threatpost-global/?p=177347	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/04152547/Sothebys-e1641327966230.png	Tara Seals	2022-01-04 21:33:40+01	threatpost	t	2022-01-04 22:00:02.062274+01	threatpost/Data-Skimmer-Hits-100-Sothebys-Real-Estate-Websites
 599	Google acquires Israeli cybersecurity company Siemplify | ZDNet	Google will be integrating Siemplify's security orchestration, automation and response (SOAR) platform into their cloud systems.	https://www.zdnet.com/article/google-acquires-israeli-cybersecurity-company-siemplify/	https://www.zdnet.com/a/img/resize/5d7b1149556f41fd034c915e3c8c269527c491b0/2021/11/03/d65649b1-fb33-483c-aae1-3d33a843a3e7/google-cloud.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-04 18:23:00+01	zdnet	t	2022-01-04 23:00:02.791844+01	zdnet/Google-acquires-Israeli-cybersecurity-company-Siemplify--ZDNet
+600	Microsoft Sees Rampant Log4j Exploit Attempts, Testing	Microsoft says it's only going to get worse: It's seen state-sponsored and cyber-criminal attackers probing systems for the Log4Shell flaw through the end of December.	https://kasperskycontenthub.com/threatpost-global/?p=177358	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/13082913/log4shell-logo-e1639402166277.jpg	Lisa Vaas	2022-01-04 23:49:54+01	threatpost	t	2022-01-05 00:00:02.681951+01	threatpost/Microsoft-Sees-Rampant-Log4j-Exploit-Attempts-Testing
 \.
 
 
@@ -603,7 +604,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 599, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 600, true);
 
 
 --
