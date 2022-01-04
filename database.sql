@@ -571,6 +571,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 572	Broward Health discloses data breach affecting 1.3 million people	Florida's Broward Health healthcare system has disclosed a large-scale data breach incident impacting 1,357,879 individuals.	https://www.bleepingcomputer.com/news/security/broward-health-discloses-data-breach-affecting-13-million-people/	https://www.bleepstatic.com/content/hl-images/2022/01/03/broward-health.jpg	Bill Toulas	2022-01-03 17:50:42+01	bleepingcomputer	t	2022-01-03 18:00:02.635407+01	bleepingcomputer/Broward-Health-discloses-data-breach-affecting-13-million-people
 573	Data breach: Broward Health warns 1.3 million patients, staff of 'medical identity theft' | ZDNet	The hospital system says they waited months to notify victims of the breach because the Justice Department asked them to.	https://www.zdnet.com/article/broward-health-warns-1-3-million-patients-staff-of-medical-identity-theft-after-data-breach/	https://www.zdnet.com/a/img/resize/da72a723903a92e766fa49e2809c4ddc5148bd35/2020/09/17/c2347b8b-a37f-46f1-b8e9-dee91dba3ccc/ambulance-hospital.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-03 18:04:00+01	zdnet	t	2022-01-03 20:00:02.272618+01	zdnet/Data-breach-Broward-Health-warns-13-million-patients-staff-of-medical-identity-theft--ZDNet
 574	Microsoft Skype makes you solve a complex captcha 10 times to sign up	New Skype users report frustration after being presented with a captcha that requires them to solve a complex puzzle ten times before signing up for the service.	https://www.bleepingcomputer.com/news/security/microsoft-skype-makes-you-solve-a-complex-captcha-10-times-to-sign-up/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Microsoft.jpg	Ax Sharma	2022-01-03 20:57:48+01	bleepingcomputer	t	2022-01-03 21:00:02.167074+01	bleepingcomputer/Microsoft-Skype-makes-you-solve-a-complex-captcha-10-times-to-sign-up
+575	NSWEC finds iVote system failure may have impacted three local election outcomes | ZDNet	Some people in NSW were unable to cast their local election vote due to the iVote system not issuing them with the necessary security credential before the close of voting on election day.	https://www.zdnet.com/article/nswec-finds-ivote-system-failure-may-have-impacted-three-local-election-outcomes/	https://www.zdnet.com/a/img/resize/7e7d8f9a61272e0ec87d9c8fd6e5273977309609/2021/05/12/2db1a99a-b95f-4f4e-b41e-f0dc6337440a/voting-australia.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-03 23:54:20+01	zdnet	t	2022-01-04 01:00:02.76483+01	zdnet/NSWEC-finds-iVote-system-failure-may-have-impacted-three-local-election-outcomes--ZDNet
 \.
 
 
@@ -578,7 +579,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 574, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 575, true);
 
 
 --
