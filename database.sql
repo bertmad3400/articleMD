@@ -582,6 +582,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 583	Serious Vulnerability Allows Phishing Emails to Be Sent From Uber.com Domain	Uber refused to acknowledge the vulnerability considering it a social engineering attack, whereas it actually affects Uber domain.	https://latesthackingnews.com/2022/01/04/serious-vulnerability-allows-phishing-emails-to-be-sent-from-uber-com-domain/	https://latesthackingnews.com/wp-content/uploads/2019/09/Uber-vulnerability.jpeg	Abeerah Hashim	2022-01-04 00:00:00+01	latesthackingnews	t	2022-01-04 13:00:02.289722+01	latesthackingnews/Serious-Vulnerability-Allows-Phishing-Emails-to-Be-Sent-From-Ubercom-Domain
 584	Log4j flaw attack levels remain high, Microsoft warns | ZDNet	Organizations mights not realize their environments are already compromised.	https://www.zdnet.com/article/log4j-flaw-attacks-are-causing-lots-of-problems-microsoft-warns/	https://www.zdnet.com/a/img/resize/95e4cf0375e6c5fb91e40046308b24c0f58c39ee/2020/01/23/5110af54-6fb2-4fc6-8d90-843d67aef1e0/businessman-annoyed-with-phone-call.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2022-01-04 13:11:00+01	zdnet	t	2022-01-04 15:00:01.924733+01	zdnet/Log4j-flaw-attack-levels-remain-high-Microsoft-warns--ZDNet
 585	Portugal Media Giant Impresa Crippled by Ransomware AttackMedia Giant Impresa Crippled by Ransomware Attack	The websites of the company and the Expresso newspaper, as well as all of its SIC TV channels remained offline Tuesday after the New Year’s weekend attack.	https://kasperskycontenthub.com/threatpost-global/?p=177323	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/08094345/ransomware-e1638974638687.jpg	Elizabeth Montalbano	2022-01-04 14:16:55+01	threatpost	t	2022-01-04 15:00:01.924733+01	threatpost/Portugal-Media-Giant-Impresa-Crippled-by-Ransomware-AttackMedia-Giant-Impresa-Crippled-by-Ransomware-Attack
+586	Have I Been Pwned warns of DatPiff data breach impacting millions	The cracked passwords for almost 7.5 million DatPiff members are being sold online, and users can check if they are part of the data breach through the Have I Been Pwned notification service.	https://www.bleepingcomputer.com/news/security/have-i-been-pwned-warns-of-datpiff-data-breach-impacting-millions/	https://www.bleepstatic.com/content/hl-images/2022/01/04/hip-hop.jpg	Bill Toulas	2022-01-04 17:22:55+01	bleepingcomputer	t	2022-01-04 18:00:02.405671+01	bleepingcomputer/Have-I-Been-Pwned-warns-of-DatPiff-data-breach-impacting-millions
+587	McMenamins Data Breach Affects 12 Years of Employee Info	The Pacific Northwest hospitality stalwart is also still operationally crippled by a Dec. 12 ransomware attack.	https://kasperskycontenthub.com/threatpost-global/?p=177336	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/04113115/mcmenamins-e1641313890507.jpg	Tara Seals	2022-01-04 17:43:57+01	threatpost	t	2022-01-04 18:00:02.405671+01	threatpost/McMenamins-Data-Breach-Affects-12-Years-of-Employee-Info
 \.
 
 
@@ -589,7 +591,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 585, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 587, true);
 
 
 --
