@@ -599,6 +599,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 600	Microsoft Sees Rampant Log4j Exploit Attempts, Testing	Microsoft says it's only going to get worse: It's seen state-sponsored and cyber-criminal attackers probing systems for the Log4Shell flaw through the end of December.	https://kasperskycontenthub.com/threatpost-global/?p=177358	https://media.threatpost.com/wp-content/uploads/sites/103/2021/12/13082913/log4shell-logo-e1639402166277.jpg	Lisa Vaas	2022-01-04 23:49:54+01	threatpost	t	2022-01-05 00:00:02.681951+01	threatpost/Microsoft-Sees-Rampant-Log4j-Exploit-Attempts-Testing
 601	FTC to pursue companies that expose customer data due to not patching Log4j | ZDNet	Agency warns it will use its full legal authority against companies that fail to take reasonable steps against the Log4j vulnerability.	https://www.zdnet.com/article/ftc-to-pursue-companies-that-expose-customer-data-due-to-not-patching-log4j/	https://www.zdnet.com/a/img/resize/a5bd7529b863d8da105f131de3576f24fd53ae5c/2022/01/04/5979e293-db40-4196-86c8-4d6632cbb0dc/ransomware-cyberattack-security-encrypted.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2022-01-04 23:33:58+01	zdnet	t	2022-01-05 01:00:02.671745+01	zdnet/FTC-to-pursue-companies-that-expose-customer-data-due-to-not-patching-Log4j--ZDNet
 602	Emergency Windows Server update fixes Remote Desktop issues	Microsoft has released an emergency out-of-band update to address a Windows Server bug leading to Remote Desktop connection and performance issues.	https://www.bleepingcomputer.com/news/microsoft/emergency-windows-server-update-fixes-remote-desktop-issues/	https://www.bleepstatic.com/content/hl-images/2021/07/23/Windows-attack.jpg	Sergiu Gatlan	2022-01-05 00:51:25+01	bleepingcomputer	t	2022-01-05 01:00:02.671745+01	bleepingcomputer/Emergency-Windows-Server-update-fixes-Remote-Desktop-issues
+603	Chinese tech companies must undergo government cyber review to list overseas | ZDNet	A pair of new rules on cybersecurity and algorithmic recommendations continue China's crackdown on tech.	https://www.zdnet.com/article/chinese-tech-companies-must-undergo-government-cybersecurity-review-to-list-overseas/	https://www.zdnet.com/a/img/resize/e12068dfb3a4d97d9c4d3adc219a2f059e90bc31/2022/01/04/c0809985-3e2e-4b7b-864a-d3c01e631b27/gettyimages-1355369183-1.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-05 00:23:05+01	zdnet	t	2022-01-05 02:00:02.744366+01	zdnet/Chinese-tech-companies-must-undergo-government-cyber-review-to-list-overseas--ZDNet
 \.
 
 
@@ -606,7 +607,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 602, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 603, true);
 
 
 --
