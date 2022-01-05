@@ -621,6 +621,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 622	NY AG notifies 17 companies of breaches, says 1.1 million accounts compromised in attacks | ZDNet	New York Attorney General Letitia James released the findings of an investigation into credential stuffing.	https://www.zdnet.com/article/ny-ag-notifies-17-companies-of-breaches-says-1-1-million-accounts-compromised-in-attacks/	https://www.zdnet.com/a/img/resize/e62b63b10d99c4f78dd75316c66cb082c7b59943/2022/01/05/c0d72702-8f81-4a65-b439-3708de14aa60/data-breach.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-05 18:15:00+01	zdnet	t	2022-01-05 20:00:02.334501+01	zdnet/NY-AG-notifies-17-companies-of-breaches-says-11-million-accounts-compromised-in-attacks--ZDNet
 623	FTC to Go After Companies that Ignore Log4j	Companies that fail to protect secure consumer data from Log4J attacks are at risk of facing Equifax-esque legal action and fines, the FTC warned.	https://kasperskycontenthub.com/threatpost-global/?p=177368	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/05121242/gavel-scaled-e1641402780877.jpg	Lisa Vaas	2022-01-05 20:00:03+01	threatpost	t	2022-01-05 20:00:02.334501+01	threatpost/FTC-to-Go-After-Companies-that-Ignore-Log4j
 624	Kazakhstan leaders shut down internet amid gas price protests | ZDNet	Internet activity in the country ground to a halt this week as protests erupted over a rise in gas prices.	https://www.zdnet.com/article/kazakhstan-leaders-shut-down-internet-amid-energy-price-protests/	https://www.zdnet.com/a/img/resize/7f83b3c4ca82f71401a5138c1b82308b29cfb1e1/2019/06/10/b4309776-970f-4160-88f4-cc684a514fec/istock-506589528.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-05 19:53:00+01	zdnet	t	2022-01-05 21:00:02.750427+01	zdnet/Kazakhstan-leaders-shut-down-internet-amid-gas-price-protests--ZDNet
+625	Microsoft Defender for Endpoint adds zero-touch iOS onboarding	Microsoft says zero-touch onboarding for Microsoft Defender for Endpoint (MDE) on iOS is now available in public preview, allowing enterprise admins to silently install Defender for Endpoint automatically on enrolled devices.	https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-for-endpoint-adds-zero-touch-ios-onboarding/	https://www.bleepstatic.com/content/hl-images/2022/01/05/Microsoft-Defender.jpg	Sergiu Gatlan	2022-01-05 21:51:24+01	bleepingcomputer	t	2022-01-05 22:00:02.680528+01	bleepingcomputer/Microsoft-Defender-for-Endpoint-adds-zero-touch-iOS-onboarding
 \.
 
 
@@ -628,7 +629,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 624, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 625, true);
 
 
 --
