@@ -601,6 +601,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 602	Emergency Windows Server update fixes Remote Desktop issues	Microsoft has released an emergency out-of-band update to address a Windows Server bug leading to Remote Desktop connection and performance issues.	https://www.bleepingcomputer.com/news/microsoft/emergency-windows-server-update-fixes-remote-desktop-issues/	https://www.bleepstatic.com/content/hl-images/2021/07/23/Windows-attack.jpg	Sergiu Gatlan	2022-01-05 00:51:25+01	bleepingcomputer	t	2022-01-05 01:00:02.671745+01	bleepingcomputer/Emergency-Windows-Server-update-fixes-Remote-Desktop-issues
 603	Chinese tech companies must undergo government cyber review to list overseas | ZDNet	A pair of new rules on cybersecurity and algorithmic recommendations continue China's crackdown on tech.	https://www.zdnet.com/article/chinese-tech-companies-must-undergo-government-cybersecurity-review-to-list-overseas/	https://www.zdnet.com/a/img/resize/e12068dfb3a4d97d9c4d3adc219a2f059e90bc31/2022/01/04/c0809985-3e2e-4b7b-864a-d3c01e631b27/gettyimages-1355369183-1.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-05 00:23:05+01	zdnet	t	2022-01-05 02:00:02.744366+01	zdnet/Chinese-tech-companies-must-undergo-government-cyber-review-to-list-overseas--ZDNet
 604	Card-stealing code found on more than 100 Sotheby's luxury real estate sites	Threat actors have breached the Brightcove account of Sotheby's and deployed code capable of stealing and collecting payment card details on more than 100 websites operated by Sotheby's real estate division.	https://therecord.media/card-stealing-code-found-on-more-than-100-sothebys-luxury-real-estate-sites/	https://therecord.media/wp-content/uploads/2022/01/real-estate.jpg	Catalin Cimpanu	2022-01-05 02:38:40+01	therecord	t	2022-01-05 03:00:02.313685+01	therecord/Card-stealing-code-found-on-more-than-100-Sothebys-luxury-real-estate-sites
+605	Services Australia brushes off vulnerability concerns in COVID-19 digital certificates | ZDNet	There are no vulnerability disclosure programs in place nor any future plans to implement such a thing for Australia's COVID-19 digital certificate.	https://www.zdnet.com/article/services-australia-brushes-off-vulnerability-concerns-in-covid-19-digital-certificates/	https://www.zdnet.com/a/img/resize/32e81b3b9ac5b700e4a3e235c0bb225a77fac6c5/2022/01/05/e002f1d5-fc31-45a2-a97c-48e73c47bb76/gettyimages-1346438735.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-05 05:30:05+01	zdnet	t	2022-01-05 07:00:02.759932+01	zdnet/Services-Australia-brushes-off-vulnerability-concerns-in-COVID-19-digital-certificates--ZDNet
 \.
 
 
@@ -608,7 +609,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 604, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 605, true);
 
 
 --
