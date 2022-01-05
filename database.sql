@@ -600,6 +600,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 601	FTC to pursue companies that expose customer data due to not patching Log4j | ZDNet	Agency warns it will use its full legal authority against companies that fail to take reasonable steps against the Log4j vulnerability.	https://www.zdnet.com/article/ftc-to-pursue-companies-that-expose-customer-data-due-to-not-patching-log4j/	https://www.zdnet.com/a/img/resize/a5bd7529b863d8da105f131de3576f24fd53ae5c/2022/01/04/5979e293-db40-4196-86c8-4d6632cbb0dc/ransomware-cyberattack-security-encrypted.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2022-01-04 23:33:58+01	zdnet	t	2022-01-05 01:00:02.671745+01	zdnet/FTC-to-pursue-companies-that-expose-customer-data-due-to-not-patching-Log4j--ZDNet
 602	Emergency Windows Server update fixes Remote Desktop issues	Microsoft has released an emergency out-of-band update to address a Windows Server bug leading to Remote Desktop connection and performance issues.	https://www.bleepingcomputer.com/news/microsoft/emergency-windows-server-update-fixes-remote-desktop-issues/	https://www.bleepstatic.com/content/hl-images/2021/07/23/Windows-attack.jpg	Sergiu Gatlan	2022-01-05 00:51:25+01	bleepingcomputer	t	2022-01-05 01:00:02.671745+01	bleepingcomputer/Emergency-Windows-Server-update-fixes-Remote-Desktop-issues
 603	Chinese tech companies must undergo government cyber review to list overseas | ZDNet	A pair of new rules on cybersecurity and algorithmic recommendations continue China's crackdown on tech.	https://www.zdnet.com/article/chinese-tech-companies-must-undergo-government-cybersecurity-review-to-list-overseas/	https://www.zdnet.com/a/img/resize/e12068dfb3a4d97d9c4d3adc219a2f059e90bc31/2022/01/04/c0809985-3e2e-4b7b-864a-d3c01e631b27/gettyimages-1355369183-1.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-05 00:23:05+01	zdnet	t	2022-01-05 02:00:02.744366+01	zdnet/Chinese-tech-companies-must-undergo-government-cyber-review-to-list-overseas--ZDNet
+604	Card-stealing code found on more than 100 Sotheby's luxury real estate sites	Threat actors have breached the Brightcove account of Sotheby's and deployed code capable of stealing and collecting payment card details on more than 100 websites operated by Sotheby's real estate division.	https://therecord.media/card-stealing-code-found-on-more-than-100-sothebys-luxury-real-estate-sites/	https://therecord.media/wp-content/uploads/2022/01/real-estate.jpg	Catalin Cimpanu	2022-01-05 02:38:40+01	therecord	t	2022-01-05 03:00:02.313685+01	therecord/Card-stealing-code-found-on-more-than-100-Sothebys-luxury-real-estate-sites
 \.
 
 
@@ -607,7 +608,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 603, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 604, true);
 
 
 --
