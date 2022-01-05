@@ -608,6 +608,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 609	Morgan Stanley agrees to $60 million settlement in data breach lawsuit | ZDNet	Customer data was held on legacy equipment that was later sold on without being wiped.	https://www.zdnet.com/article/morgan-stanley-agrees-to-60-million-settlement-in-data-breach-lawsuit/	https://www.zdnet.com/a/img/resize/6e0534a0f626aeac15fb927a9746ae91f46f4aaa/2021/11/29/4c27368b-f84b-429c-9c33-36f42d991a12/data.png?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-05 11:19:41+01	zdnet	t	2022-01-05 13:00:02.365013+01	zdnet/Morgan-Stanley-agrees-to-60-million-settlement-in-data-breach-lawsuit--ZDNet
 610	Malsmoke hackers abuse Microsoft signature verification in ZLoader cyberattacks | ZDNet	Malware exploits the system to steal credentials and other data.	https://www.zdnet.com/article/malsmoke-hackers-now-abuse-microsoft-e-signature-verification-tool-in-cyberattacks/	https://www.zdnet.com/a/img/resize/0a23fd3fd1977148ea7e0c43698e65290bb65d8b/2021/11/02/0c449f08-f978-48e5-b0c2-6d0f588ad91e/sale-305237-article-image.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-05 11:03:43+01	zdnet	t	2022-01-05 13:00:02.365013+01	zdnet/Malsmoke-hackers-abuse-Microsoft-signature-verification-in-ZLoader-cyberattacks--ZDNet
 611	Microsoft code-sign check bypassed to drop Zloader malware	A new Zloader campaign exploits Microsoft's e-signature code verification to steal user credentials from over two thousand victims in 111 countries.	https://www.bleepingcomputer.com/news/security/microsoft-code-sign-check-bypassed-to-drop-zloader-malware/	https://www.bleepstatic.com/content/hl-images/2021/05/06/Malware-headpic.jpg	Bill Toulas	2022-01-05 12:00:00+01	bleepingcomputer	t	2022-01-05 13:00:02.365013+01	bleepingcomputer/Microsoft-code-sign-check-bypassed-to-drop-Zloader-malware
+612	Purple Fox rootkit discovered in malicious Telegram installers | ZDNet	Slicing up files allows the malware to stay under the radar.	https://www.zdnet.com/article/purple-fox-rootkit-discovered-in-malicious-telegram-installers/	https://www.zdnet.com/a/img/resize/ac23f5475eb67f67e44c9bb5e0b41e3d9a8919da/2021/12/15/5d6836ac-a637-410c-9381-0ff8754dd00f/shutterstock-2023392170.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-05 12:16:00+01	zdnet	t	2022-01-05 14:00:02.159572+01	zdnet/Purple-Fox-rootkit-discovered-in-malicious-Telegram-installers--ZDNet
 \.
 
 
@@ -615,7 +616,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 611, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 612, true);
 
 
 --
