@@ -624,6 +624,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 624	Kazakhstan leaders shut down internet amid gas price protests | ZDNet	Internet activity in the country ground to a halt this week as protests erupted over a rise in gas prices.	https://www.zdnet.com/article/kazakhstan-leaders-shut-down-internet-amid-energy-price-protests/	https://www.zdnet.com/a/img/resize/7f83b3c4ca82f71401a5138c1b82308b29cfb1e1/2019/06/10/b4309776-970f-4160-88f4-cc684a514fec/istock-506589528.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-05 19:53:00+01	zdnet	t	2022-01-05 21:00:02.750427+01	zdnet/Kazakhstan-leaders-shut-down-internet-amid-gas-price-protests--ZDNet
 627	Uber Bug, Ignored for Years, Casts Doubt on Official Uber Emails	A simple-to-exploit bug that allows bad actors to send emails from Uber's official system — skating past email security — went unaddressed despite multiple flagging by researchers.	https://kasperskycontenthub.com/threatpost-global/?p=177395	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/05154612/uber.jpg	Tara Seals	2022-01-05 21:49:37+01	threatpost	t	2022-01-05 23:00:01.815982+01	threatpost/Uber-Bug-Ignored-for-Years-Casts-Doubt-on-Official-Uber-Emails
 625	Microsoft Defender for Endpoint adds zero-touch iOS onboarding	Microsoft says zero-touch onboarding for Microsoft Defender for Endpoint (MDE) on iOS is now available in public preview, allowing enterprise admins to silently install Defender for Endpoint automatically on enrolled devices.	https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-for-endpoint-adds-zero-touch-ios-onboarding/	https://www.bleepstatic.com/content/hl-images/2022/01/05/Microsoft-Defender.jpg	Sergiu Gatlan	2022-01-05 21:51:24+01	bleepingcomputer	t	2022-01-05 22:00:02.680528+01	bleepingcomputer/Microsoft-Defender-for-Endpoint-adds-zero-touch-iOS-onboarding
+628	70 investors lose $50 million to fraudsters posing as broker-dealers	A California man confirmed his role in a large-scale and long-running Internet-based fraud scheme that allowed him and other fraudsters to siphon roughly $50 million from dozens of investors over eight years, between 2012 to October 2020.	https://www.bleepingcomputer.com/news/security/70-investors-lose-50-million-to-fraudsters-posing-as-broker-dealers/	https://www.bleepstatic.com/content/hl-images/2021/06/08/Stock_market_broker_FINRA.jpg	Sergiu Gatlan	2022-01-05 23:42:25+01	bleepingcomputer	t	2022-01-06 00:00:01.914962+01	bleepingcomputer/70-investors-lose-50-million-to-fraudsters-posing-as-broker-dealers
+629	‘Elephant Beetle’ Lurks for Months in Networks	The group blends into an environment before loading up trivial, thickly stacked, fraudulent financial transactions too tiny to be noticed but adding up to millions of dollars.	https://kasperskycontenthub.com/threatpost-global/?p=177393	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/05145410/elephant-beetle-e1641412467995.jpg	Lisa Vaas	2022-01-05 23:18:28+01	threatpost	t	2022-01-06 00:00:01.914962+01	threatpost/Elephant-Beetle-Lurks-for-Months-in-Networks
 \.
 
 
@@ -631,7 +633,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 627, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 629, true);
 
 
 --
