@@ -617,6 +617,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 618	Pentagon keep pace in tech competition, official says	The Defense Department is thus far managing to keep pace with peer competitors like China for dominance in cutting-edge technology areas such as cybersecurity, artificial intelligence and data, a senior Pentagon official said on Wednesday.	https://therecord.media/pentagon-keep-pace-in-tech-competition-official-says/	https://therecord.media/wp-content/uploads/2021/03/bigstock-Us-Pentagon-In-Washington-Dc-B-264708484-scaled.jpg	Martin Matishak	2022-01-05 16:54:53+01	therecord	t	2022-01-05 17:00:02.084497+01	therecord/Pentagon-keep-pace-in-tech-competition-official-says
 619	New York OAG monitors hacking forums, notifies 17 companies of security breaches	The New York Office of the Attorney General said today that it notified 17 well-known online retailers, restaurant chains, and food delivery services that have been the victims of credential stuffing attacks.	https://therecord.media/new-york-oag-monitors-hacking-forums-notifies-17-companies-of-security-breaches/	https://therecord.media/wp-content/uploads/2022/01/NY-OAG.png	Catalin Cimpanu	2022-01-05 16:46:18+01	therecord	t	2022-01-05 17:00:02.084497+01	therecord/New-York-OAG-monitors-hacking-forums-notifies-17-companies-of-security-breaches
 620	Crypto platform ARBIX flagged as a rugpull, transfers $10 million	Arbix Finance, an audited and supposedly trustworthy yield farming platform, has been flagged as a 'rugpull,' deleting its site, Twitter, and Telegram channel and transferring $10 million worth of deposited cryptocurrency.	https://www.bleepingcomputer.com/news/security/crypto-platform-arbix-flagged-as-a-rugpull-transfers-10-million/	https://www.bleepstatic.com/content/hl-images/2021/03/05/cryptocurrency-assorted.jpg	Bill Toulas	2022-01-05 17:55:16+01	bleepingcomputer	t	2022-01-05 18:00:02.061458+01	bleepingcomputer/Crypto-platform-ARBIX-flagged-as-a-rugpull-transfers-10-million
+621	NY OAG: Hackers stole 1.1 million customer accounts from 17 companies	The New York State Office of the Attorney General (NY OAG) has warned 17 well-known companies that roughly 1.1 million of their customers have had their user accounts compromised in credential stuffing attacks.	https://www.bleepingcomputer.com/news/security/ny-oag-hackers-stole-11-million-customer-accounts-from-17-companies/	https://www.bleepstatic.com/content/hl-images/2022/01/05/New_York_Attorney_General.jpg	Sergiu Gatlan	2022-01-05 18:42:27+01	bleepingcomputer	t	2022-01-05 19:00:01.820428+01	bleepingcomputer/NY-OAG-Hackers-stole-11-million-customer-accounts-from-17-companies
 \.
 
 
@@ -624,7 +625,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 620, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 621, true);
 
 
 --
