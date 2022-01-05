@@ -612,6 +612,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 614	‘Elephant Beetle’ spends months in victim networks to divert transactions	A financially-motivated actor dubbed 'Elephant Beetle' is stealing millions of dollars from organizations worldwide using an arsenal of over 80 unique tools and scripts.	https://www.bleepingcomputer.com/news/security/elephant-beetle-spends-months-in-victim-networks-to-divert-transactions/	https://www.bleepstatic.com/content/hl-images/2022/01/04/elephant.jpg	Bill Toulas	2022-01-05 14:00:00+01	bleepingcomputer	t	2022-01-05 15:00:02.158682+01	bleepingcomputer/Elephant-Beetle-spends-months-in-victim-networks-to-divert-transactions
 613	Threat actors can simulate iPhone reboots and keep iOS malware on a device	In a piece of groundbreaking research published on Tuesday night, security firm ZecOps said that it found a way to block and then simulate an iOS restart operation, a technique that they believe could be extremely useful to attackers who may want to trick users into thinking they rebooted their device and as a result, maintain access for their malw	https://therecord.media/threat-actors-can-simulate-iphone-reboots-and-keep-ios-malware-on-a-device/	https://therecord.media/wp-content/uploads/2022/01/iPhone-iOS.jpg	Catalin Cimpanu	2022-01-05 14:14:10+01	therecord	t	2022-01-05 15:00:02.158682+01	therecord/Threat-actors-can-simulate-iPhone-reboots-and-keep-iOS-malware-on-a-device
 615	‘Malsmoke’ Exploits Microsoft’s E-Signature Verification	The info-stealing campaign using ZLoader malware – previously used to deliver Ryuk and Conti ransomware – already has claimed more than 2,000 victims across 111 countries.	https://kasperskycontenthub.com/threatpost-global/?p=177363	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/05081431/smoke-e1641388485376.jpg	Elizabeth Montalbano	2022-01-05 14:00:55+01	threatpost	t	2022-01-05 15:00:02.158682+01	threatpost/Malsmoke-Exploits-Microsofts-E-Signature-Verification
+616	iOS malware can fake iPhone shut downs to snoop on camera, microphone	Researchers have developed a new technique that fakes a shutdown or reboot of iPhones, preventing malware from being removed and allowing hackers to secretly snoop on microphones and receive sensitive data via a live network connection.	https://www.bleepingcomputer.com/news/security/ios-malware-can-fake-iphone-shut-downs-to-snoop-on-camera-microphone/	https://www.bleepstatic.com/content/hl-images/2021/06/15/Apple-iPhone.jpg	Bill Toulas	2022-01-05 15:54:34+01	bleepingcomputer	t	2022-01-05 16:00:02.466662+01	bleepingcomputer/iOS-malware-can-fake-iPhone-shut-downs-to-snoop-on-camera-microphone
 \.
 
 
@@ -619,7 +620,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 615, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 616, true);
 
 
 --
