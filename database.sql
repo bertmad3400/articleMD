@@ -616,6 +616,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 617	This iOS 15 bug could crash your iPhone permanently | ZDNet	This unpatched HomeKit bug could brick your iPhone, and a restore won't fix it.	https://www.zdnet.com/article/this-ios-15-bug-could-crash-your-iphone-permanently/	https://www.zdnet.com/a/img/resize/890bc42e6aa0037a863a608694db0532428e7146/2021/01/04/248b823d-3dbe-4deb-9f44-5ce64a1a7992/iphone-secure.jpg?width=770&height=578&fit=crop&auto=webp	Adrian Kingsley-Hughes	2022-01-05 15:35:57+01	zdnet	t	2022-01-05 17:00:02.084497+01	zdnet/This-iOS-15-bug-could-crash-your-iPhone-permanently--ZDNet
 618	Pentagon keep pace in tech competition, official says	The Defense Department is thus far managing to keep pace with peer competitors like China for dominance in cutting-edge technology areas such as cybersecurity, artificial intelligence and data, a senior Pentagon official said on Wednesday.	https://therecord.media/pentagon-keep-pace-in-tech-competition-official-says/	https://therecord.media/wp-content/uploads/2021/03/bigstock-Us-Pentagon-In-Washington-Dc-B-264708484-scaled.jpg	Martin Matishak	2022-01-05 16:54:53+01	therecord	t	2022-01-05 17:00:02.084497+01	therecord/Pentagon-keep-pace-in-tech-competition-official-says
 619	New York OAG monitors hacking forums, notifies 17 companies of security breaches	The New York Office of the Attorney General said today that it notified 17 well-known online retailers, restaurant chains, and food delivery services that have been the victims of credential stuffing attacks.	https://therecord.media/new-york-oag-monitors-hacking-forums-notifies-17-companies-of-security-breaches/	https://therecord.media/wp-content/uploads/2022/01/NY-OAG.png	Catalin Cimpanu	2022-01-05 16:46:18+01	therecord	t	2022-01-05 17:00:02.084497+01	therecord/New-York-OAG-monitors-hacking-forums-notifies-17-companies-of-security-breaches
+620	Crypto platform ARBIX flagged as a rugpull, transfers $10 million	Arbix Finance, an audited and supposedly trustworthy yield farming platform, has been flagged as a 'rugpull,' deleting its site, Twitter, and Telegram channel and transferring $10 million worth of deposited cryptocurrency.	https://www.bleepingcomputer.com/news/security/crypto-platform-arbix-flagged-as-a-rugpull-transfers-10-million/	https://www.bleepstatic.com/content/hl-images/2021/03/05/cryptocurrency-assorted.jpg	Bill Toulas	2022-01-05 17:55:16+01	bleepingcomputer	t	2022-01-05 18:00:02.061458+01	bleepingcomputer/Crypto-platform-ARBIX-flagged-as-a-rugpull-transfers-10-million
 \.
 
 
@@ -623,7 +624,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 619, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 620, true);
 
 
 --
