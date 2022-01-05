@@ -618,6 +618,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 619	New York OAG monitors hacking forums, notifies 17 companies of security breaches	The New York Office of the Attorney General said today that it notified 17 well-known online retailers, restaurant chains, and food delivery services that have been the victims of credential stuffing attacks.	https://therecord.media/new-york-oag-monitors-hacking-forums-notifies-17-companies-of-security-breaches/	https://therecord.media/wp-content/uploads/2022/01/NY-OAG.png	Catalin Cimpanu	2022-01-05 16:46:18+01	therecord	t	2022-01-05 17:00:02.084497+01	therecord/New-York-OAG-monitors-hacking-forums-notifies-17-companies-of-security-breaches
 620	Crypto platform ARBIX flagged as a rugpull, transfers $10 million	Arbix Finance, an audited and supposedly trustworthy yield farming platform, has been flagged as a 'rugpull,' deleting its site, Twitter, and Telegram channel and transferring $10 million worth of deposited cryptocurrency.	https://www.bleepingcomputer.com/news/security/crypto-platform-arbix-flagged-as-a-rugpull-transfers-10-million/	https://www.bleepstatic.com/content/hl-images/2021/03/05/cryptocurrency-assorted.jpg	Bill Toulas	2022-01-05 17:55:16+01	bleepingcomputer	t	2022-01-05 18:00:02.061458+01	bleepingcomputer/Crypto-platform-ARBIX-flagged-as-a-rugpull-transfers-10-million
 621	NY OAG: Hackers stole 1.1 million customer accounts from 17 companies	The New York State Office of the Attorney General (NY OAG) has warned 17 well-known companies that roughly 1.1 million of their customers have had their user accounts compromised in credential stuffing attacks.	https://www.bleepingcomputer.com/news/security/ny-oag-hackers-stole-11-million-customer-accounts-from-17-companies/	https://www.bleepstatic.com/content/hl-images/2022/01/05/New_York_Attorney_General.jpg	Sergiu Gatlan	2022-01-05 18:42:27+01	bleepingcomputer	t	2022-01-05 19:00:01.820428+01	bleepingcomputer/NY-OAG-Hackers-stole-11-million-customer-accounts-from-17-companies
+622	NY AG notifies 17 companies of breaches, says 1.1 million accounts compromised in attacks | ZDNet	New York Attorney General Letitia James released the findings of an investigation into credential stuffing.	https://www.zdnet.com/article/ny-ag-notifies-17-companies-of-breaches-says-1-1-million-accounts-compromised-in-attacks/	https://www.zdnet.com/a/img/resize/e62b63b10d99c4f78dd75316c66cb082c7b59943/2022/01/05/c0d72702-8f81-4a65-b439-3708de14aa60/data-breach.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-05 18:15:00+01	zdnet	t	2022-01-05 20:00:02.334501+01	zdnet/NY-AG-notifies-17-companies-of-breaches-says-11-million-accounts-compromised-in-attacks--ZDNet
+623	FTC to Go After Companies that Ignore Log4j	Companies that fail to protect secure consumer data from Log4J attacks are at risk of facing Equifax-esque legal action and fines, the FTC warned.	https://kasperskycontenthub.com/threatpost-global/?p=177368	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/05121242/gavel-scaled-e1641402780877.jpg	Lisa Vaas	2022-01-05 20:00:03+01	threatpost	t	2022-01-05 20:00:02.334501+01	threatpost/FTC-to-Go-After-Companies-that-Ignore-Log4j
 \.
 
 
@@ -625,7 +627,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 621, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 623, true);
 
 
 --
