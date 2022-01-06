@@ -629,6 +629,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 630	Google Chrome update includes 37 security fixes | ZDNet	One of them was rated critical and 10 had a high severity rating.	https://www.zdnet.com/article/google-chrome-update-includes-37-security-fixes/	https://www.zdnet.com/a/img/resize/c3c08fbd9429cc41301000c7aee623a9823bed57/2022/01/05/0375e036-9b3b-4819-8835-7d8fbf52c38d/google-chrome.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-05 23:11:22+01	zdnet	t	2022-01-06 01:00:02.272895+01	zdnet/Google-Chrome-update-includes-37-security-fixes--ZDNet
 631	Honda, Acura cars hit by Y2K22 bug that rolls back clocks to 2002	Honda and Acura cars have been hit with a Year 2022 bug, aka Y2K22, that resets the navigation system's clock to January 1st, 2002, with no way to change it.	https://www.bleepingcomputer.com/news/technology/honda-acura-cars-hit-by-y2k22-bug-that-rolls-back-clocks-to-2002/	https://www.bleepstatic.com/content/hl-images/2022/01/05/honda-logo.jpg	Lawrence Abrams	2022-01-06 00:01:02+01	bleepingcomputer	t	2022-01-06 01:00:02.272895+01	bleepingcomputer/Honda-Acura-cars-hit-by-Y2K22-bug-that-rolls-back-clocks-to-2002
 632	1.1M Compromised Accounts Found at 17 Major Companies	The accounts fell victim to credential-stuffing attacks, according to the New York State AG.	https://kasperskycontenthub.com/threatpost-global/?p=177417	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/05181255/stuffing.jpg	Tara Seals	2022-01-06 00:13:43+01	threatpost	t	2022-01-06 01:00:02.272895+01	threatpost/11M-Compromised-Accounts-Found-at-17-Major-Companies
+633	Your cybersecurity training needs improvement because hacking attacks are only getting worse | ZDNet	As the internet becomes an increasingly vital part of our lives, more needs to be done to prevent vital services from being disrupted.	https://www.zdnet.com/article/your-cybersecurity-training-needs-improvement-because-hacking-attacks-are-only-getting-worse/	https://www.zdnet.com/a/img/resize/9262cdf38ba735d6492821e0f4d1eaeae34d55fd/2021/09/22/62d5cc21-588a-46e9-9539-98ab0fc95e50/shutterstock-323595944.jpg?width=770&height=578&fit=crop&auto=webp	Danny Palmer	2022-01-06 10:27:17+01	zdnet	t	2022-01-06 12:00:02.238605+01	zdnet/Your-cybersecurity-training-needs-improvement-because-hacking-attacks-are-only-getting-worse--ZDNet
 \.
 
 
@@ -636,7 +637,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 632, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 633, true);
 
 
 --
