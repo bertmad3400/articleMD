@@ -655,6 +655,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 656	Counties in New Mexico, Arkansas begin 2022 with ransomware attacks | ZDNet	The Arkansas government attack began on December 27, and New Mexico announced a ransomware incident on January 5.	https://www.zdnet.com/article/counties-in-new-mexico-arkansas-dealing-with-ransomware-attacks/	https://www.zdnet.com/a/img/resize/30a810c5d20280c848d8276b9cf36cbaecfac838/2022/01/06/67d8d051-0b17-4222-ab3a-e04a185729cd/shutterstock-1451602793.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-06 20:00:00+01	zdnet	t	2022-01-06 22:00:01.927332+01	zdnet/Counties-in-New-Mexico-Arkansas-begin-2022-with-ransomware-attacks--ZDNet
 657	FlexBooker discloses data breach, over 3.7 million accounts impacted	Accounts of more than three million users of the U.S.-based FlexBooker appointment scheduling service have been stolen in an attack before the holidays and are now being traded on hacker forums.	https://www.bleepingcomputer.com/news/security/flexbooker-discloses-data-breach-over-37-million-accounts-impacted/	https://www.bleepstatic.com/content/posts/2022/01/06/FlexBooker.jpg	Ionut Ilascu	2022-01-06 21:53:02+01	bleepingcomputer	t	2022-01-06 22:00:01.927332+01	bleepingcomputer/FlexBooker-discloses-data-breach-over-37-million-accounts-impacted
 658	Hackers are sending malicious links through Google Doc comment emails | ZDNet	A new report from Avanan has found that cybercriminals are attempting to exploit Google Docs through its comment feature.	https://www.zdnet.com/article/hackers-exploiting-google-docs-through-comment-features/	https://www.zdnet.com/a/img/resize/339be932d842f5fe1c51d87fee130370a62e7fbe/2020/12/01/5b9a4526-789e-4f67-ae4b-068f5f573585/005.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-06 21:09:00+01	zdnet	t	2022-01-06 23:00:02.25191+01	zdnet/Hackers-are-sending-malicious-links-through-Google-Doc-comment-emails--ZDNet
+659	Night Sky is the latest ransomware targeting corporate networks	It's a new year, and with it comes a new ransomware to keep an eye on called 'Night Sky' that targets corporate networks and steals data in double-extortion attacks.	https://www.bleepingcomputer.com/news/security/night-sky-is-the-latest-ransomware-targeting-corporate-networks/	https://www.bleepstatic.com/content/hl-images/2020/09/24/padlock.jpg	Lawrence Abrams	2022-01-06 23:09:12+01	bleepingcomputer	t	2022-01-07 00:00:02.087841+01	bleepingcomputer/Night-Sky-is-the-latest-ransomware-targeting-corporate-networks
+660	Massive internet outages continue to sow confusion amid Kazakhstan protests	Nation-level internet traffic was cut off in Kazakhstan this week in the latest example of a petrostate trying to use shut downs to quell protests and sow confusion. 	https://therecord.media/massive-internet-outages-continue-to-sow-confusion-amid-kazakhstan-protests/	https://therecord.media/wp-content/uploads/2022/01/bigstock-Kazakhstan-Flag-Painted-Over-C-444850631-1.jpg	Andrea Peterson	2022-01-06 23:51:42+01	therecord	t	2022-01-07 00:00:02.087841+01	therecord/Massive-internet-outages-continue-to-sow-confusion-amid-Kazakhstan-protests
 \.
 
 
@@ -662,7 +664,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 658, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 660, true);
 
 
 --
