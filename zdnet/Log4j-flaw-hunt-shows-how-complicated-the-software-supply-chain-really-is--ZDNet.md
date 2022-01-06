@@ -1,0 +1,57 @@
+# Log4j flaw hunt shows how complicated the software supply chain really is | ZDNet
+### A new analysis shows why the Log4j flaw for Java web applications will haunt tech people for years.
+
+## Information:
++ Source: ZDNet
++ Link: https://www.zdnet.com/article/log4j-flaw-hunt-shows-how-complicated-the-software-supply-chain-really-is/
++ Date: 2022-01-06 15:32:50
++ Author: Liam Tung
+
+
+## Article:
+![Article Image](https://www.zdnet.com/a/img/resize/9eedd3470e60297fb3ecf81990aeecc33d06ec71/2021/11/02/8743055d-79ce-47a3-a7fd-2d829b9c76ad/shutterstock-1024665187.jpg?width=770&height=578&fit=crop&auto=webp)
+
+Open source software is everywhere now, but the Log4j flaw that affects Java enterprise applications is a reminder of what can go wrong in the complicated modern software supply chain.
+
+The challenge with the Log4j flaw (also known as Log4Shell) is not only that admins need to patch the flaw — which got a 'critical' rating of 10 out of 10 — but that IT folk can't easily discover whether a product or system is affected by the vulnerability in the component. 
+
+Google has calculated [that approximately 17,000 Java packages](https://security.googleblog.com/2021/12/understanding-impact-of-apache-log4j.html) in the Maven Central repository - the most significant Java package repository - were found to contain the vulnerable log4j-core library as a direct or transitive dependency. 
+
+And now security firm JFrog has found more by identifying additional packages containing the Log4j vulnerability that would not be detected through dependency scanning – that is, packages containing vulnerable Log4j code within the artifact itself.
+
+It found that overall, direct inclusion of Log4j code in artifacts is not as common as the use of Log4j through dependencies. However, it still adds up to hundreds of packages - around 400 - which directly include Log4j code, opening these packages to Log4j vulnerabilities. 
+
+"In more than half of all cases (~65%), Log4j code is included as classes directly (i.e. direct inclusion / shading), in contrast to including complete Log4j .jar files (i.e. fat jar), which is typically how it is presented in the remainder of cases. These numbers indicate that tools looking for complete .jar files only will miss most of the cases where Log4j is included directly," it said.
+
+The bug is a reminder [why Microsoft](https://www.zdnet.com/article/google-aws-rackspace-affected-by-heartbleed-openssl-flaw-but-azure-escapes/) and Google are [ploughing dollars](https://www.zdnet.com/article/google-is-backing-security-reviews-of-these-key-open-source-projects/) into projects that bolster the security of open source software projects, which are the backbone today's internet infrastructure. Previous research shows that the [vast majority of software flaws are found in software libraries or dependencies](https://www.zdnet.com/article/more-than-75-of-all-vulnerabilities-reside-in-indirect-dependencies/).  
+
+
+
+
+
+
+The severity of the bug means admins could be well-served by investigating all Java applications that may include Log4j code. Microsoft has [released scanning tools to detect vulnerable WIndows and Linux systems](https://www.zdnet.com/article/log4j-flaw-attacks-are-causing-lots-of-problems-microsoft-warns/), applications and devices, and JFrog offers one more option.  
+
+JFrog emphasizes its scanning reaches the add-on code rather than just the fact a version of the software library is present. 
+
+"The reason that scanning the full dependencies list may miss instances of included Log4j code is because dependencies only specify external packages needed to build or run the current artifact. If the vulnerable code is inserted directly into the codebase, it is not a dependency. Therefore, for more precise detection of vulnerable Log4j code, we need to inspect the code itself," [the company notes in a blogpost](https://jfrog.com/blog/log4j-vulnerability-alert-100s-of-exposed-packages-uncovered-in-maven-central/). 
+
+The research highlights how vulnerable today's IT systems are to attacks on the software supply chain.
+
+The importance of the [Java programming language can't be underestimated](https://www.zdnet.com/article/programming-languages-java-founder-james-gosling-reveals-more-on-java-and-android/). It remains one the world's most widely-used languages and is the go-to language for enterprise, and includes in its ecosystem projects like [Microsoft's implementation of OpenJDK](https://www.zdnet.com/article/java-developers-microsofts-openjdk-build-is-now-generally-available/). Microsoft [uses Java](https://www.zdnet.com/article/java-developers-microsofts-openjdk-build-is-now-generally-available/) in Azure, SQL Server, Yammer, Minecraft, and LinkedIn.
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Net]] [[action.malware.name=Tor]]
+
+#### Location:
+[[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Log4j]] [[Microsoft]] [[Jfrog]] [[ZDNet]]
+
