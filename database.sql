@@ -632,6 +632,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 633	Your cybersecurity training needs improvement because hacking attacks are only getting worse | ZDNet	As the internet becomes an increasingly vital part of our lives, more needs to be done to prevent vital services from being disrupted.	https://www.zdnet.com/article/your-cybersecurity-training-needs-improvement-because-hacking-attacks-are-only-getting-worse/	https://www.zdnet.com/a/img/resize/9262cdf38ba735d6492821e0f4d1eaeae34d55fd/2021/09/22/62d5cc21-588a-46e9-9539-98ab0fc95e50/shutterstock-323595944.jpg?width=770&height=578&fit=crop&auto=webp	Danny Palmer	2022-01-06 10:27:17+01	zdnet	t	2022-01-06 12:00:02.238605+01	zdnet/Your-cybersecurity-training-needs-improvement-because-hacking-attacks-are-only-getting-worse--ZDNet
 634	Google Chrome rival Brave reports another big jump in users | ZDNet	Privacy-focused browser company says users want the tools to be independent from Big Tech.	https://www.zdnet.com/article/google-chrome-rival-brave-reports-another-big-jump-in-users/	https://www.zdnet.com/a/img/resize/8908a541b9ff638bc9f9233c1fe1042151ce6fba/2021/08/06/491ed0f0-57c1-4b9b-b77a-6cbfe3180c12/shutterstock-1368791165.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2022-01-06 11:48:16+01	zdnet	t	2022-01-06 13:00:02.300845+01	zdnet/Google-Chrome-rival-Brave-reports-another-big-jump-in-users--ZDNet
 635	Albuquerque impacted by ransomware attack on Bernalillo County government	County government buildings and public offices were closed on Wednesday across the cities of Albuquerque, Los Ranchos, and Tijeras after a ransomware attack crippled the IT network of the Bernalillo County government.	https://therecord.media/albuquerque-impacted-by-ransomware-attack-on-bernalillo-county-government/	https://therecord.media/wp-content/uploads/2022/01/Albuquerque.jpg	Catalin Cimpanu	2022-01-06 12:19:13+01	therecord	t	2022-01-06 13:00:02.300845+01	therecord/Albuquerque-impacted-by-ransomware-attack-on-Bernalillo-County-government
+636	Researcher Found ‘doorLock’ DoS Bug In Apple HomeKit	Apple acknowledged the DoS bug, but hasn't released a fix yet, hence requiring Apple HomeKit users to stay vigilant about potential exploits.	https://latesthackingnews.com/2022/01/06/researcher-found-doorlock-dos-bug-in-apple-homekit/	https://latesthackingnews.com/wp-content/uploads/2022/01/iPhone-passcode.jpg	Abeerah Hashim	2022-01-06 00:00:00+01	latesthackingnews	t	2022-01-06 14:00:02.722325+01	latesthackingnews/Researcher-Found-doorLock-DoS-Bug-In-Apple-HomeKit
+637	Privacy-focused Brave browser records massive growth in 2021	The privacy-focused web browser Brave continues to grow rapidly as the company reached 50 million monthly active users for the first time in 2021.	https://www.bleepingcomputer.com/news/technology/privacy-focused-brave-browser-records-massive-growth-in-2021/	https://www.bleepstatic.com/content/hl-images/2020/11/02/brave-glowing.jpg	Mayank Parmar	2022-01-06 00:32:16+01	bleepingcomputer	t	2022-01-06 14:00:02.722325+01	bleepingcomputer/Privacy-focused-Brave-browser-records-massive-growth-in-2021
 \.
 
 
@@ -639,7 +641,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 635, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 637, true);
 
 
 --
