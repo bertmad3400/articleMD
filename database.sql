@@ -652,6 +652,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 653	Broker-dealers impersonators stole $50 million using spoofed sites	A California man confirmed his role in a large-scale and long-running Internet-based fraud scheme that allowed him and other fraudsters to siphon roughly $50 million from dozens of investors over eight years, between 2012 to October 2020.	https://www.bleepingcomputer.com/news/security/broker-dealers-impersonators-stole-50-million-using-spoofed-sites/	https://www.bleepstatic.com/content/hl-images/2021/06/08/Stock_market_broker_FINRA.jpg	Sergiu Gatlan	2022-01-05 23:42:25+01	bleepingcomputer	t	2022-01-06 19:00:02.277158+01	bleepingcomputer/Broker-dealers-impersonators-stole-50-million-using-spoofed-sites
 654	Microsoft: KB5008212 Windows security update breaks Outlook search	Microsoft has acknowledged an issue triggered by a Windows 10, version 21H2 security update released during the December 2021 Patch Tuesday that causes search issues in Outlook for Microsoft 365.	https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5008212-windows-security-update-breaks-outlook-search/	https://www.bleepstatic.com/content/hl-images/2021/01/21/Student-laptop.jpg	Sergiu Gatlan	2022-01-06 19:51:59+01	bleepingcomputer	t	2022-01-06 20:00:02.505954+01	bleepingcomputer/Microsoft-KB5008212-Windows-security-update-breaks-Outlook-search
 655	Activision Files Unusual Lawsuit over Call of Duty Cheat Codes	Activision is suing to shut down the EngineOwning cheat-code site and hold individual developers and coders liable for damages.	https://kasperskycontenthub.com/threatpost-global/?p=177443	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/06142853/Call-of-duty-2-e1641497350332.jpg	Becky Bracken	2022-01-06 20:48:04+01	threatpost	t	2022-01-06 21:00:02.565333+01	threatpost/Activision-Files-Unusual-Lawsuit-over-Call-of-Duty-Cheat-Codes
+656	Counties in New Mexico, Arkansas begin 2022 with ransomware attacks | ZDNet	The Arkansas government attack began on December 27, and New Mexico announced a ransomware incident on January 5.	https://www.zdnet.com/article/counties-in-new-mexico-arkansas-dealing-with-ransomware-attacks/	https://www.zdnet.com/a/img/resize/30a810c5d20280c848d8276b9cf36cbaecfac838/2022/01/06/67d8d051-0b17-4222-ab3a-e04a185729cd/shutterstock-1451602793.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-06 20:00:00+01	zdnet	t	2022-01-06 22:00:01.927332+01	zdnet/Counties-in-New-Mexico-Arkansas-begin-2022-with-ransomware-attacks--ZDNet
+657	FlexBooker discloses data breach, over 3.7 million accounts impacted	Accounts of more than three million users of the U.S.-based FlexBooker appointment scheduling service have been stolen in an attack before the holidays and are now being traded on hacker forums.	https://www.bleepingcomputer.com/news/security/flexbooker-discloses-data-breach-over-37-million-accounts-impacted/	https://www.bleepstatic.com/content/posts/2022/01/06/FlexBooker.jpg	Ionut Ilascu	2022-01-06 21:53:02+01	bleepingcomputer	t	2022-01-06 22:00:01.927332+01	bleepingcomputer/FlexBooker-discloses-data-breach-over-37-million-accounts-impacted
 \.
 
 
@@ -659,7 +661,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 655, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 657, true);
 
 
 --
