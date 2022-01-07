@@ -662,6 +662,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 662	Illinois fertility clinic, online pharmacy giant Ravkoo report data breaches | ZDNet	Troves of sensitive information were leaked from both healthcare companies, which reported the breaches to state authorities.	https://www.zdnet.com/article/illinois-fertility-clinic-online-pharmacy-giant-ravkoo-report-breaches/	https://www.zdnet.com/a/img/resize/a0a5f38d804ab275b466f9ccd61570d0d1915ea2/2022/01/06/19b6694e-45f3-4931-a85e-e89b7d083d51/shutterstock-1068375200.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-06 23:58:00+01	zdnet	t	2022-01-07 02:00:02.674039+01	zdnet/Illinois-fertility-clinic-online-pharmacy-giant-Ravkoo-report-data-breaches--ZDNet
 664	FinalSite discloses ransomware attack that crippled websites for 8,000 schools	A ransomware attack on FinalSite, a cloud-based web hosting provider specialized in school and educational websites, has crippled the school portals and web services of more than 8,000 schools across more than 110 countries.	https://therecord.media/finalsite-discloses-ransomware-attack-that-crippled-websites-for-8000-schools/	https://therecord.media/wp-content/uploads/2021/08/moshed-08-26-15-30-30.png	Catalin Cimpanu	2022-01-07 10:04:10+01	therecord	t	2022-01-07 11:00:02.223957+01	therecord/FinalSite-discloses-ransomware-attack-that-crippled-websites-for-8000-schools
 665	Chinese scientist pleads guilty to stealing US agricultural tech | ZDNet	US prosecutors have labeled his actions as economic espionage.	https://www.zdnet.com/article/chinese-scientist-pleads-guilty-to-stealing-us-agricultural-tech/	https://www.zdnet.com/a/img/resize/a4f4744a83738cf713b62703471ae42984902c33/2020/09/16/1820f8a7-82a0-419e-967f-f89506886748/istock-701249404.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-07 10:04:58+01	zdnet	t	2022-01-07 12:00:01.930284+01	zdnet/Chinese-scientist-pleads-guilty-to-stealing-US-agricultural-tech--ZDNet
+666	NoReboot attack fakes iOS phone shutdown to spy on you | ZDNet	The PoC malware can be used to hijack microphone and camera functions.	https://www.zdnet.com/article/noreboot-attack-fakes-ios-phone-shutdown-to-spy-on-you/	https://www.zdnet.com/a/img/resize/45d40582c44c17f70397ab585cadce33093fbb5b/2021/11/30/47400657-5820-4d86-a41e-a4f47687d4f6/stolen-iphone.png?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-07 11:08:48+01	zdnet	t	2022-01-07 13:00:02.221785+01	zdnet/NoReboot-attack-fakes-iOS-phone-shutdown-to-spy-on-you--ZDNet
+667	UK NHS: Threat actor targets VMware Horizon servers using Log4Shell exploits	The security team of the UK National Health Service (NHS) said that it detected an unknown threat actor using the Log4Shell vulnerability to hack VMWare Horizon servers and plant web shells for future attacks.	https://therecord.media/uk-nhs-threat-actor-targets-vmware-horizon-servers-using-log4shell-exploits/	https://therecord.media/wp-content/uploads/2022/01/NHS-ambulance.jpg	Catalin Cimpanu	2022-01-07 12:06:54+01	therecord	t	2022-01-07 13:00:02.221785+01	therecord/UK-NHS-Threat-actor-targets-VMware-Horizon-servers-using-Log4Shell-exploits
 \.
 
 
@@ -669,7 +671,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 665, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 667, true);
 
 
 --
