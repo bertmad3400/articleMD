@@ -657,6 +657,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 658	Hackers are sending malicious links through Google Doc comment emails | ZDNet	A new report from Avanan has found that cybercriminals are attempting to exploit Google Docs through its comment feature.	https://www.zdnet.com/article/hackers-exploiting-google-docs-through-comment-features/	https://www.zdnet.com/a/img/resize/339be932d842f5fe1c51d87fee130370a62e7fbe/2020/12/01/5b9a4526-789e-4f67-ae4b-068f5f573585/005.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-06 21:09:00+01	zdnet	t	2022-01-06 23:00:02.25191+01	zdnet/Hackers-are-sending-malicious-links-through-Google-Doc-comment-emails--ZDNet
 659	Night Sky is the latest ransomware targeting corporate networks	It's a new year, and with it comes a new ransomware to keep an eye on called 'Night Sky' that targets corporate networks and steals data in double-extortion attacks.	https://www.bleepingcomputer.com/news/security/night-sky-is-the-latest-ransomware-targeting-corporate-networks/	https://www.bleepstatic.com/content/hl-images/2020/09/24/padlock.jpg	Lawrence Abrams	2022-01-06 23:09:12+01	bleepingcomputer	t	2022-01-07 00:00:02.087841+01	bleepingcomputer/Night-Sky-is-the-latest-ransomware-targeting-corporate-networks
 660	Massive internet outages continue to sow confusion amid Kazakhstan protests	Nation-level internet traffic was cut off in Kazakhstan this week in the latest example of a petrostate trying to use shut downs to quell protests and sow confusion. 	https://therecord.media/massive-internet-outages-continue-to-sow-confusion-amid-kazakhstan-protests/	https://therecord.media/wp-content/uploads/2022/01/bigstock-Kazakhstan-Flag-Painted-Over-C-444850631-1.jpg	Andrea Peterson	2022-01-06 23:51:42+01	therecord	t	2022-01-07 00:00:02.087841+01	therecord/Massive-internet-outages-continue-to-sow-confusion-amid-Kazakhstan-protests
+661	JFrog researchers find JNDI vulnerability in H2 database consoles similar to log4shell | ZDNet	JFrog's senior director of security research said the vulnerability has a root cause similar to Log4Shell​.	https://www.zdnet.com/article/jfrog-researchers-find-jndi-vulnerability-in-h2-database-consoles-similar-to-log4shell/	https://www.zdnet.com/a/img/resize/7967c35572c0e3c8ae19ffdfcbbe691e4d648170/2022/01/06/303cf815-4713-44b1-a898-31b9630d1d75/shutterstock-2091644743.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-06 23:00:13+01	zdnet	t	2022-01-07 01:00:02.525211+01	zdnet/JFrog-researchers-find-JNDI-vulnerability-in-H2-database-consoles-similar-to-log4shell--ZDNet
 \.
 
 
@@ -664,7 +665,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 660, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 661, true);
 
 
 --
