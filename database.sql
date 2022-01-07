@@ -673,6 +673,9 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 675	Diversity job board Canvas.com ordered to stop using domain name	Diversity recruiting site Canvas.com has been ordered by a U.S. District judge to drop the use of the domain name over a trademark dispute.	https://www.bleepingcomputer.com/news/legal/diversity-job-board-canvascom-ordered-to-stop-using-domain-name/	https://www.bleepstatic.com/content/hl-images/2017/10/02/Domain-Names.jpg	Ax Sharma	2022-01-07 17:52:11+01	bleepingcomputer	t	2022-01-07 18:00:02.194096+01	bleepingcomputer/Diversity-job-board-Canvascom-ordered-to-stop-using-domain-name
 674	QNAP: Get NAS Devices Off the Internet Now	There are active ransomware and brute-force attacks being launched against  internet-exposed, network-attached storage devices, the device maker warned.	https://kasperskycontenthub.com/threatpost-global/?p=177452	https://media.threatpost.com/wp-content/uploads/sites/103/2020/12/07104403/QNAP-NAS.jpg	Lisa Vaas	2022-01-07 17:14:21+01	threatpost	t	2022-01-07 18:00:02.194096+01	threatpost/QNAP-Get-NAS-Devices-Off-the-Internet-Now
 676	US counterintelligence shares tips to block spyware attacks	The US National Counterintelligence and Security Center (NCSC) and the Department of State have jointly published guidance on defending against attacks using commercial surveillance tools.	https://www.bleepingcomputer.com/news/security/us-counterintelligence-shares-tips-to-block-spyware-attacks/	https://www.bleepstatic.com/content/hl-images/2022/01/07/US_NCSC_headpic.jpg	Sergiu Gatlan	2022-01-07 17:22:48+01	bleepingcomputer	t	2022-01-07 18:00:02.194096+01	bleepingcomputer/US-counterintelligence-shares-tips-to-block-spyware-attacks
+677	This Week in Security News - January 7, 2022	This week, read about Log4j vulnerabilities in connected cars and charging stations and how iOS malware can fake iPhone shutdowns to snoop on cameras and microphones.	https://www.trendmicro.com/en_us/research/22/a/this-week-in-security-news-january-7th-2022.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news.jpg	\N	2022-01-07 00:00:00+01	trendmicro	t	2022-01-07 19:00:02.120718+01	trendmicro/This-Week-in-Security-News---January-7-2022
+678	Codex Exposed Exploring the Capabilities and Risks of OpenAIs Code Generator	The first of a series of blog posts examines the security risks of Codex, a code generator powered by the GPT-3 engine.	https://www.trendmicro.com/en_us/research/22/a/codex-exposed--exploring-the-capabilities-and-risks-of-openai-s-.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/gpt-3-part-1/gpt-part1-cover.png	\N	2022-01-07 00:00:00+01	trendmicro	t	2022-01-07 19:00:02.120718+01	trendmicro/Codex-Exposed-Exploring-the-Capabilities-and-Risks-of-OpenAIs-Code-Generator
+679	FluBot malware now targets Europe posing as Flash Player app	The widely distributed FluBot malware continues to evolve, with new campaigns distributing the malware as Flash Player and the developers adding new features.	https://www.bleepingcomputer.com/news/security/flubot-malware-now-targets-europe-posing-as-flash-player-app/	https://www.bleepstatic.com/content/hl-images/2021/10/01/Android__malware.jpg	Bill Toulas	2022-01-07 18:37:12+01	bleepingcomputer	t	2022-01-07 19:00:02.120718+01	bleepingcomputer/FluBot-malware-now-targets-Europe-posing-as-Flash-Player-app
 \.
 
 
@@ -680,7 +683,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 676, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 679, true);
 
 
 --
