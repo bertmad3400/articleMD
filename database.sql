@@ -666,6 +666,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 667	UK NHS: Threat actor targets VMware Horizon servers using Log4Shell exploits	The security team of the UK National Health Service (NHS) said that it detected an unknown threat actor using the Log4Shell vulnerability to hack VMWare Horizon servers and plant web shells for future attacks.	https://therecord.media/uk-nhs-threat-actor-targets-vmware-horizon-servers-using-log4shell-exploits/	https://therecord.media/wp-content/uploads/2022/01/NHS-ambulance.jpg	Catalin Cimpanu	2022-01-07 12:06:54+01	therecord	t	2022-01-07 13:00:02.221785+01	therecord/UK-NHS-Threat-actor-targets-VMware-Horizon-servers-using-Log4Shell-exploits
 668	7 smart steps to get your Android phone in tip-top shape for 2022	These simple bits of maintenance will clean up your Android companion and give you a maximally efficient foundation for the new year.	https://www.computerworld.com/article/3602552/android-phone-2022.html	https://images.idgesg.net/images/article/2021/01/android-maintenance-100872266-large.jpg?auto=webp&quality=85,70	JR Raphael	2022-01-05 09:00:00+01	computerworld	t	2022-01-07 14:00:02.60543+01	computerworld/7-smart-steps-to-get-your-Android-phone-in-tip-top-shape-for-2022
 669	QNAP warns of ransomware targeting Internet-exposed NAS devices	QNAP has warned customers today to secure Internet-exposed network-attached storage (NAS) devices immediately from ongoing ransomware and brute-force attacks.	https://www.bleepingcomputer.com/news/security/qnap-warns-of-ransomware-targeting-internet-exposed-nas-devices/	https://www.bleepstatic.com/content/hl-images/2021/04/29/QNAP-headpic.jpg	Sergiu Gatlan	2022-01-07 14:20:29+01	bleepingcomputer	t	2022-01-07 15:00:02.135414+01	bleepingcomputer/QNAP-warns-of-ransomware-targeting-Internet-exposed-NAS-devices
+670	Google acquisition of Siemplify is a knockout punch for standalone SOAR | ZDNet	Google Cloud's acquisition of a SOAR tool in and of itself is not surprising — this has been a missing piece for its Chronicle offering that other security analytics platforms have built in for the past several years.	https://www.zdnet.com/article/google-acquisition-of-siemplify-is-a-knockout-punch-for-standalone-soar/	https://www.zdnet.com/a/img/resize/4344fe99adcf37ee8484d55dc550bcc21b444f53/2018/05/24/9025d206-8b2f-403b-9c62-fd64a9a04faf/google-2015-logo-9.jpg?width=770&height=578&fit=crop&auto=webp	Forrester Research	2022-01-07 14:02:16+01	zdnet	t	2022-01-07 16:00:02.410573+01	zdnet/Google-acquisition-of-Siemplify-is-a-knockout-punch-for-standalone-SOAR--ZDNet
+671	NHS warns of hackers exploiting Log4Shell in VMware Horizon	UK's National Health Service (NHS) has published a cyber alert warning of an unknown threat group targeting VMware Horizon deployments with Log4Shell exploits.	https://www.bleepingcomputer.com/news/security/nhs-warns-of-hackers-exploiting-log4shell-in-vmware-horizon/	https://www.bleepstatic.com/content/hl-images/2021/12/13/Log4Shell.jpg	Bill Toulas	2022-01-07 15:29:26+01	bleepingcomputer	t	2022-01-07 16:00:02.410573+01	bleepingcomputer/NHS-warns-of-hackers-exploiting-Log4Shell-in-VMware-Horizon
 \.
 
 
@@ -673,7 +675,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 669, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 671, true);
 
 
 --
