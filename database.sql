@@ -683,6 +683,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 684	FlexBooker apologizes for breach of 3.7 million user records, partial credit card information | ZDNet	The scheduling platform said its AWS servers were compromised in December.	https://www.zdnet.com/article/flexbooker-apologizes-for-breach-of-3-7-million-user-records-credit-card-information/	https://www.zdnet.com/a/img/resize/3ee8fc6b7bbeb64052de803cfdf568492eb0e045/2020/02/28/9d07c878-7f1a-4287-997c-1e8c522a108f/istock-1159096313.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-07 21:34:00+01	zdnet	t	2022-01-07 23:00:02.002479+01	zdnet/FlexBooker-apologizes-for-breach-of-37-million-user-records-partial-credit-card-information--ZDNet
 685	SonicWall: Y2K22 bug hits Email Security, firewall products	SonicWall has confirmed today that some of its Email Security and firewall products have been hit by the Y2K22 bug, causing message log updates and junk box failures starting with January 1, 2022.	https://www.bleepingcomputer.com/news/security/sonicwall-y2k22-bug-hits-email-security-firewall-products/	https://www.bleepstatic.com/content/hl-images/2021/05/28/SonicWall.jpg	Sergiu Gatlan	2022-01-07 22:56:32+01	bleepingcomputer	t	2022-01-07 23:00:02.002479+01	bleepingcomputer/SonicWall-Y2K22-bug-hits-Email-Security-firewall-products
 686	Cyberattackers Hit Data of 80K Fertility Patients	FCI's security measures protected its electronic medical record system, but the attackers still got at extremely intimate data found in administrative files.	https://kasperskycontenthub.com/threatpost-global/?p=177467	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/07161555/cropped-PIXNIO-2488683-1200x800-1-e1641589983726.jpeg	Lisa Vaas	2022-01-07 22:14:35+01	threatpost	t	2022-01-07 23:00:02.002479+01	threatpost/Cyberattackers-Hit-Data-of-80K-Fertility-Patients
+687	The Week in Ransomware - January 7th 2022 - Watch out for USB drives	With the holidays these past two weeks, there have been only a few known ransomware attacks and little research released. Here is what we know.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-january-7th-2022-watch-out-for-usb-drives/	https://www.bleepstatic.com/content/hl-images/2020/11/06/Ransomware-headpic.jpg	Lawrence Abrams	2022-01-07 23:50:34+01	bleepingcomputer	t	2022-01-08 00:00:02.547747+01	bleepingcomputer/The-Week-in-Ransomware---January-7th-2022---Watch-out-for-USB-drives
+688	EoL Systems Stonewalling Log4j Fixes for Fed Agencies	End of life, end of support, pandemic-induced shipping delays and remote work, scanning failures: It’s a recipe for a patching nightmare, federal cyberserurity CTO Matt Keller says.	https://kasperskycontenthub.com/threatpost-global/?p=177475	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/07171457/lizard-stone-wall-e1641593709939.jpeg	Lisa Vaas	2022-01-07 23:16:03+01	threatpost	t	2022-01-08 00:00:02.547747+01	threatpost/EoL-Systems-Stonewalling-Log4j-Fixes-for-Fed-Agencies
 \.
 
 
@@ -690,7 +692,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 686, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 688, true);
 
 
 --
