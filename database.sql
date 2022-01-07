@@ -665,6 +665,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 666	NoReboot attack fakes iOS phone shutdown to spy on you | ZDNet	The PoC malware can be used to hijack microphone and camera functions.	https://www.zdnet.com/article/noreboot-attack-fakes-ios-phone-shutdown-to-spy-on-you/	https://www.zdnet.com/a/img/resize/45d40582c44c17f70397ab585cadce33093fbb5b/2021/11/30/47400657-5820-4d86-a41e-a4f47687d4f6/stolen-iphone.png?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-07 11:08:48+01	zdnet	t	2022-01-07 13:00:02.221785+01	zdnet/NoReboot-attack-fakes-iOS-phone-shutdown-to-spy-on-you--ZDNet
 667	UK NHS: Threat actor targets VMware Horizon servers using Log4Shell exploits	The security team of the UK National Health Service (NHS) said that it detected an unknown threat actor using the Log4Shell vulnerability to hack VMWare Horizon servers and plant web shells for future attacks.	https://therecord.media/uk-nhs-threat-actor-targets-vmware-horizon-servers-using-log4shell-exploits/	https://therecord.media/wp-content/uploads/2022/01/NHS-ambulance.jpg	Catalin Cimpanu	2022-01-07 12:06:54+01	therecord	t	2022-01-07 13:00:02.221785+01	therecord/UK-NHS-Threat-actor-targets-VMware-Horizon-servers-using-Log4Shell-exploits
 668	7 smart steps to get your Android phone in tip-top shape for 2022	These simple bits of maintenance will clean up your Android companion and give you a maximally efficient foundation for the new year.	https://www.computerworld.com/article/3602552/android-phone-2022.html	https://images.idgesg.net/images/article/2021/01/android-maintenance-100872266-large.jpg?auto=webp&quality=85,70	JR Raphael	2022-01-05 09:00:00+01	computerworld	t	2022-01-07 14:00:02.60543+01	computerworld/7-smart-steps-to-get-your-Android-phone-in-tip-top-shape-for-2022
+669	QNAP warns of ransomware targeting Internet-exposed NAS devices	QNAP has warned customers today to secure Internet-exposed network-attached storage (NAS) devices immediately from ongoing ransomware and brute-force attacks.	https://www.bleepingcomputer.com/news/security/qnap-warns-of-ransomware-targeting-internet-exposed-nas-devices/	https://www.bleepstatic.com/content/hl-images/2021/04/29/QNAP-headpic.jpg	Sergiu Gatlan	2022-01-07 14:20:29+01	bleepingcomputer	t	2022-01-07 15:00:02.135414+01	bleepingcomputer/QNAP-warns-of-ransomware-targeting-Internet-exposed-NAS-devices
 \.
 
 
@@ -672,7 +673,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 668, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 669, true);
 
 
 --
