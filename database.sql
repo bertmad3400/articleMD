@@ -679,6 +679,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 680	FBI: Hackers target US defense firms with malicious USB packages	The Federal Bureau of Investigation (FBI) warned US companies in a recently updated flash alert that the financially motivated FIN7 cybercriminals group is targeting the US defense industry with packages containing malicious USB devices.	https://www.bleepingcomputer.com/news/security/fbi-hackers-target-us-defense-firms-with-malicious-usb-packages/	https://www.bleepstatic.com/content/hl-images/2022/01/07/FIN7.jpg	Sergiu Gatlan	2022-01-07 19:14:19+01	bleepingcomputer	t	2022-01-07 20:00:02.710961+01	bleepingcomputer/FBI-Hackers-target-US-defense-firms-with-malicious-USB-packages
 681	Ransomware attack on FinalSite still disrupting email services at thousands of schools | ZDNet	The company recommended that customers limit software usage to critical information updates on Friday morning as schools sought to message parents about COVID and snow-related closures.	https://www.zdnet.com/article/ransomware-attack-on-finalsite-disrupting-email-services-at-thousands-of-schools/	https://www.zdnet.com/a/img/resize/b400151886b6e3600958ceecfec70ef3c5f1a3b4/2020/01/05/4a35672a-6f06-4a73-9790-6e2271875e7a/classroom-school.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-07 18:56:00+01	zdnet	t	2022-01-07 21:00:02.006399+01	zdnet/Ransomware-attack-on-FinalSite-still-disrupting-email-services-at-thousands-of-schools--ZDNet
 682	3.7M FlexBooker Records Dumped on Hacker Forum	Attackers are trading millions of records  from a trio of pre-holiday breaches on an online forum.	https://kasperskycontenthub.com/threatpost-global/?p=177460	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/07140631/hacked-database-e1641582403159.jpeg	Becky Bracken	2022-01-07 20:12:20+01	threatpost	t	2022-01-07 21:00:02.006399+01	threatpost/37M-FlexBooker-Records-Dumped-on-Hacker-Forum
+683	FBI: FIN7 hackers target US companies with BadUSB devices to install ransomware	The US Federal Bureau of Investigation says that FIN7, an infamous cybercrime group that is behind the Darkside and BlackMatter ransomware operations, has sent malicious USB devices to US companies over the past few months in the hopes of infecting their systems with malware and carrying out future attacks.	https://therecord.media/fbi-fin7-hackers-target-us-companies-with-badusb-devices-to-install-ransomware/	https://therecord.media/wp-content/uploads/2022/01/LilyGO-glitch.png	Catalin Cimpanu	2022-01-07 21:31:12+01	therecord	t	2022-01-07 22:00:02.787362+01	therecord/FBI-FIN7-hackers-target-US-companies-with-BadUSB-devices-to-install-ransomware
 \.
 
 
@@ -686,7 +687,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 682, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 683, true);
 
 
 --
