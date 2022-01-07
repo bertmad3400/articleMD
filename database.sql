@@ -676,6 +676,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 677	This Week in Security News - January 7, 2022	This week, read about Log4j vulnerabilities in connected cars and charging stations and how iOS malware can fake iPhone shutdowns to snoop on cameras and microphones.	https://www.trendmicro.com/en_us/research/22/a/this-week-in-security-news-january-7th-2022.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news.jpg	\N	2022-01-07 00:00:00+01	trendmicro	t	2022-01-07 19:00:02.120718+01	trendmicro/This-Week-in-Security-News---January-7-2022
 678	Codex Exposed Exploring the Capabilities and Risks of OpenAIs Code Generator	The first of a series of blog posts examines the security risks of Codex, a code generator powered by the GPT-3 engine.	https://www.trendmicro.com/en_us/research/22/a/codex-exposed--exploring-the-capabilities-and-risks-of-openai-s-.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/gpt-3-part-1/gpt-part1-cover.png	\N	2022-01-07 00:00:00+01	trendmicro	t	2022-01-07 19:00:02.120718+01	trendmicro/Codex-Exposed-Exploring-the-Capabilities-and-Risks-of-OpenAIs-Code-Generator
 679	FluBot malware now targets Europe posing as Flash Player app	The widely distributed FluBot malware continues to evolve, with new campaigns distributing the malware as Flash Player and the developers adding new features.	https://www.bleepingcomputer.com/news/security/flubot-malware-now-targets-europe-posing-as-flash-player-app/	https://www.bleepstatic.com/content/hl-images/2021/10/01/Android__malware.jpg	Bill Toulas	2022-01-07 18:37:12+01	bleepingcomputer	t	2022-01-07 19:00:02.120718+01	bleepingcomputer/FluBot-malware-now-targets-Europe-posing-as-Flash-Player-app
+680	FBI: Hackers target US defense firms with malicious USB packages	The Federal Bureau of Investigation (FBI) warned US companies in a recently updated flash alert that the financially motivated FIN7 cybercriminals group is targeting the US defense industry with packages containing malicious USB devices.	https://www.bleepingcomputer.com/news/security/fbi-hackers-target-us-defense-firms-with-malicious-usb-packages/	https://www.bleepstatic.com/content/hl-images/2022/01/07/FIN7.jpg	Sergiu Gatlan	2022-01-07 19:14:19+01	bleepingcomputer	t	2022-01-07 20:00:02.710961+01	bleepingcomputer/FBI-Hackers-target-US-defense-firms-with-malicious-USB-packages
 \.
 
 
@@ -683,7 +684,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 679, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 680, true);
 
 
 --
