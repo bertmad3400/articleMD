@@ -668,6 +668,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 669	QNAP warns of ransomware targeting Internet-exposed NAS devices	QNAP has warned customers today to secure Internet-exposed network-attached storage (NAS) devices immediately from ongoing ransomware and brute-force attacks.	https://www.bleepingcomputer.com/news/security/qnap-warns-of-ransomware-targeting-internet-exposed-nas-devices/	https://www.bleepstatic.com/content/hl-images/2021/04/29/QNAP-headpic.jpg	Sergiu Gatlan	2022-01-07 14:20:29+01	bleepingcomputer	t	2022-01-07 15:00:02.135414+01	bleepingcomputer/QNAP-warns-of-ransomware-targeting-Internet-exposed-NAS-devices
 670	Google acquisition of Siemplify is a knockout punch for standalone SOAR | ZDNet	Google Cloud's acquisition of a SOAR tool in and of itself is not surprising — this has been a missing piece for its Chronicle offering that other security analytics platforms have built in for the past several years.	https://www.zdnet.com/article/google-acquisition-of-siemplify-is-a-knockout-punch-for-standalone-soar/	https://www.zdnet.com/a/img/resize/4344fe99adcf37ee8484d55dc550bcc21b444f53/2018/05/24/9025d206-8b2f-403b-9c62-fd64a9a04faf/google-2015-logo-9.jpg?width=770&height=578&fit=crop&auto=webp	Forrester Research	2022-01-07 14:02:16+01	zdnet	t	2022-01-07 16:00:02.410573+01	zdnet/Google-acquisition-of-Siemplify-is-a-knockout-punch-for-standalone-SOAR--ZDNet
 671	NHS warns of hackers exploiting Log4Shell in VMware Horizon	UK's National Health Service (NHS) has published a cyber alert warning of an unknown threat group targeting VMware Horizon deployments with Log4Shell exploits.	https://www.bleepingcomputer.com/news/security/nhs-warns-of-hackers-exploiting-log4shell-in-vmware-horizon/	https://www.bleepstatic.com/content/hl-images/2021/12/13/Log4Shell.jpg	Bill Toulas	2022-01-07 15:29:26+01	bleepingcomputer	t	2022-01-07 16:00:02.410573+01	bleepingcomputer/NHS-warns-of-hackers-exploiting-Log4Shell-in-VMware-Horizon
+672	Log4j flaw: Attackers are targeting Log4Shell vulnerabilities in VMware Horizon servers, says NHS | ZDNet	NHS Digital issues an advisory urging organisations to take action to protect themselves.	https://www.zdnet.com/article/log4j-flaw-attackers-are-targeting-log4shell-vulnerabilities-in-vmware-horizon-servers-says-nhs/	https://www.zdnet.com/a/img/resize/7d1c3f8fa1c4d1b23d8c8758d2f7573d3a5e4293/2022/01/07/941f9075-33c1-45f0-9d21-7d4d1067f421/getty-medical-professionals-at-a-computer.jpg?width=770&height=578&fit=crop&auto=webp	Danny Palmer	2022-01-07 15:48:14+01	zdnet	t	2022-01-07 17:00:01.90079+01	zdnet/Log4j-flaw-Attackers-are-targeting-Log4Shell-vulnerabilities-in-VMware-Horizon-servers-says-NHS--ZDNet
+673	Log4J-Related RCE Flaw in H2 Database Earns Critical Rating	Critical flaw in the H2 open-source Java SQL database are similar to the Log4J vulnerability, but do not pose a widespread threat.	https://kasperskycontenthub.com/threatpost-global/?p=177448	https://media.threatpost.com/wp-content/uploads/sites/103/2021/05/19095410/red-bug-1200-e1621432463155.jpeg	Elizabeth Montalbano	2022-01-07 16:12:26+01	threatpost	t	2022-01-07 17:00:01.90079+01	threatpost/Log4J-Related-RCE-Flaw-in-H2-Database-Earns-Critical-Rating
 \.
 
 
@@ -675,7 +677,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 671, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 673, true);
 
 
 --
