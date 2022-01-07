@@ -660,6 +660,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 661	JFrog researchers find JNDI vulnerability in H2 database consoles similar to log4shell | ZDNet	JFrog's senior director of security research said the vulnerability has a root cause similar to Log4Shell​.	https://www.zdnet.com/article/jfrog-researchers-find-jndi-vulnerability-in-h2-database-consoles-similar-to-log4shell/	https://www.zdnet.com/a/img/resize/7967c35572c0e3c8ae19ffdfcbbe691e4d648170/2022/01/06/303cf815-4713-44b1-a898-31b9630d1d75/shutterstock-2091644743.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-06 23:00:13+01	zdnet	t	2022-01-07 01:00:02.525211+01	zdnet/JFrog-researchers-find-JNDI-vulnerability-in-H2-database-consoles-similar-to-log4shell--ZDNet
 663	FinalSite ransomware attack shuts down thousands of school websites	FinalSite, a leading school website services provider, has suffered a ransomware attack disrupting access to websites for thousands of schools worldwide.	https://www.bleepingcomputer.com/news/security/finalsite-ransomware-attack-shuts-down-thousands-of-school-websites/	https://www.bleepstatic.com/content/hl-images/2022/01/06/school-ransomware-chalkboard.jpg	Lawrence Abrams	2022-01-07 01:34:06+01	bleepingcomputer	t	2022-01-07 02:00:02.674039+01	bleepingcomputer/FinalSite-ransomware-attack-shuts-down-thousands-of-school-websites
 662	Illinois fertility clinic, online pharmacy giant Ravkoo report data breaches | ZDNet	Troves of sensitive information were leaked from both healthcare companies, which reported the breaches to state authorities.	https://www.zdnet.com/article/illinois-fertility-clinic-online-pharmacy-giant-ravkoo-report-breaches/	https://www.zdnet.com/a/img/resize/a0a5f38d804ab275b466f9ccd61570d0d1915ea2/2022/01/06/19b6694e-45f3-4931-a85e-e89b7d083d51/shutterstock-1068375200.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-06 23:58:00+01	zdnet	t	2022-01-07 02:00:02.674039+01	zdnet/Illinois-fertility-clinic-online-pharmacy-giant-Ravkoo-report-data-breaches--ZDNet
+664	FinalSite discloses ransomware attack that crippled websites for 8,000 schools	A ransomware attack on FinalSite, a cloud-based web hosting provider specialized in school and educational websites, has crippled the school portals and web services of more than 8,000 schools across more than 110 countries.	https://therecord.media/finalsite-discloses-ransomware-attack-that-crippled-websites-for-8000-schools/	https://therecord.media/wp-content/uploads/2021/08/moshed-08-26-15-30-30.png	Catalin Cimpanu	2022-01-07 10:04:10+01	therecord	t	2022-01-07 11:00:02.223957+01	therecord/FinalSite-discloses-ransomware-attack-that-crippled-websites-for-8000-schools
 \.
 
 
@@ -667,7 +668,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 663, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 664, true);
 
 
 --
