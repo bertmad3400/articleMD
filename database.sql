@@ -686,6 +686,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 687	The Week in Ransomware - January 7th 2022 - Watch out for USB drives	With the holidays these past two weeks, there have been only a few known ransomware attacks and little research released. Here is what we know.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-january-7th-2022-watch-out-for-usb-drives/	https://www.bleepstatic.com/content/hl-images/2020/11/06/Ransomware-headpic.jpg	Lawrence Abrams	2022-01-07 23:50:34+01	bleepingcomputer	t	2022-01-08 00:00:02.547747+01	bleepingcomputer/The-Week-in-Ransomware---January-7th-2022---Watch-out-for-USB-drives
 688	EoL Systems Stonewalling Log4j Fixes for Fed Agencies	End of life, end of support, pandemic-induced shipping delays and remote work, scanning failures: It’s a recipe for a patching nightmare, federal cyberserurity CTO Matt Keller says.	https://kasperskycontenthub.com/threatpost-global/?p=177475	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/07171457/lizard-stone-wall-e1641593709939.jpeg	Lisa Vaas	2022-01-07 23:16:03+01	threatpost	t	2022-01-08 00:00:02.547747+01	threatpost/EoL-Systems-Stonewalling-Log4j-Fixes-for-Fed-Agencies
 689	FBI: Hackers use BadUSB to target defense firms with ransomware	The Federal Bureau of Investigation (FBI) warned US companies in a recently updated flash alert that the financially motivated FIN7 cybercriminal group targeted the US defense industry with packages containing malicious USB devices to deploy ransomware.	https://www.bleepingcomputer.com/news/security/fbi-hackers-use-badusb-to-target-defense-firms-with-ransomware/	https://www.bleepstatic.com/content/hl-images/2022/01/07/FIN7.jpg	Sergiu Gatlan	2022-01-07 19:14:19+01	bleepingcomputer	t	2022-01-08 01:00:02.529263+01	bleepingcomputer/FBI-Hackers-use-BadUSB-to-target-defense-firms-with-ransomware
+690	Trojanized dnSpy app drops malware cocktail on researchers, devs	Hackers targeted cybersecurity researchers and developers this week in a sophisticated malware campaign distributing a malicious version of the dnSpy .NET application to install cryptocurrency stealers, remote access trojans, and miners.	https://www.bleepingcomputer.com/news/security/trojanized-dnspy-app-drops-malware-cocktail-on-researchers-devs/	https://www.bleepstatic.com/content/hl-images/2021/12/28/hacker.jpg	Lawrence Abrams	2022-01-08 20:35:42+01	bleepingcomputer	t	2022-01-08 21:00:02.150535+01	bleepingcomputer/Trojanized-dnSpy-app-drops-malware-cocktail-on-researchers-devs
+691	Rapid window title changes cause ‘white screen of death’	Experimentation with ANSI escape characters on terminal emulators has led to the discovery of multiple high-severity DoS (denial of service) vulnerabilities on Windows terminals and Chrome-based web browsers.	https://www.bleepingcomputer.com/news/security/rapid-window-title-changes-cause-white-screen-of-death-/	https://www.bleepstatic.com/content/hl-images/2022/01/07/freeze.jpg	Bill Toulas	2022-01-08 16:16:32+01	bleepingcomputer	t	2022-01-08 21:00:02.150535+01	bleepingcomputer/Rapid-window-title-changes-cause-white-screen-of-death
 \.
 
 
@@ -693,7 +695,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 689, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 691, true);
 
 
 --
