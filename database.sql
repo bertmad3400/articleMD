@@ -685,6 +685,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 686	Cyberattackers Hit Data of 80K Fertility Patients	FCI's security measures protected its electronic medical record system, but the attackers still got at extremely intimate data found in administrative files.	https://kasperskycontenthub.com/threatpost-global/?p=177467	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/07161555/cropped-PIXNIO-2488683-1200x800-1-e1641589983726.jpeg	Lisa Vaas	2022-01-07 22:14:35+01	threatpost	t	2022-01-07 23:00:02.002479+01	threatpost/Cyberattackers-Hit-Data-of-80K-Fertility-Patients
 687	The Week in Ransomware - January 7th 2022 - Watch out for USB drives	With the holidays these past two weeks, there have been only a few known ransomware attacks and little research released. Here is what we know.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-january-7th-2022-watch-out-for-usb-drives/	https://www.bleepstatic.com/content/hl-images/2020/11/06/Ransomware-headpic.jpg	Lawrence Abrams	2022-01-07 23:50:34+01	bleepingcomputer	t	2022-01-08 00:00:02.547747+01	bleepingcomputer/The-Week-in-Ransomware---January-7th-2022---Watch-out-for-USB-drives
 688	EoL Systems Stonewalling Log4j Fixes for Fed Agencies	End of life, end of support, pandemic-induced shipping delays and remote work, scanning failures: It’s a recipe for a patching nightmare, federal cyberserurity CTO Matt Keller says.	https://kasperskycontenthub.com/threatpost-global/?p=177475	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/07171457/lizard-stone-wall-e1641593709939.jpeg	Lisa Vaas	2022-01-07 23:16:03+01	threatpost	t	2022-01-08 00:00:02.547747+01	threatpost/EoL-Systems-Stonewalling-Log4j-Fixes-for-Fed-Agencies
+689	FBI: Hackers use BadUSB to target defense firms with ransomware	The Federal Bureau of Investigation (FBI) warned US companies in a recently updated flash alert that the financially motivated FIN7 cybercriminal group targeted the US defense industry with packages containing malicious USB devices to deploy ransomware.	https://www.bleepingcomputer.com/news/security/fbi-hackers-use-badusb-to-target-defense-firms-with-ransomware/	https://www.bleepstatic.com/content/hl-images/2022/01/07/FIN7.jpg	Sergiu Gatlan	2022-01-07 19:14:19+01	bleepingcomputer	t	2022-01-08 01:00:02.529263+01	bleepingcomputer/FBI-Hackers-use-BadUSB-to-target-defense-firms-with-ransomware
 \.
 
 
@@ -692,7 +693,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 688, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 689, true);
 
 
 --
