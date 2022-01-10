@@ -689,6 +689,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 690	Trojanized dnSpy app drops malware cocktail on researchers, devs	Hackers targeted cybersecurity researchers and developers this week in a sophisticated malware campaign distributing a malicious version of the dnSpy .NET application to install cryptocurrency stealers, remote access trojans, and miners.	https://www.bleepingcomputer.com/news/security/trojanized-dnspy-app-drops-malware-cocktail-on-researchers-devs/	https://www.bleepstatic.com/content/hl-images/2021/12/28/hacker.jpg	Lawrence Abrams	2022-01-08 20:35:42+01	bleepingcomputer	t	2022-01-08 21:00:02.150535+01	bleepingcomputer/Trojanized-dnSpy-app-drops-malware-cocktail-on-researchers-devs
 691	Rapid window title changes cause ‘white screen of death’	Experimentation with ANSI escape characters on terminal emulators has led to the discovery of multiple high-severity DoS (denial of service) vulnerabilities on Windows terminals and Chrome-based web browsers.	https://www.bleepingcomputer.com/news/security/rapid-window-title-changes-cause-white-screen-of-death-/	https://www.bleepstatic.com/content/hl-images/2022/01/07/freeze.jpg	Bill Toulas	2022-01-08 16:16:32+01	bleepingcomputer	t	2022-01-08 21:00:02.150535+01	bleepingcomputer/Rapid-window-title-changes-cause-white-screen-of-death
 692	Dev corrupts NPM libs 'colors' and 'faker' breaking thousands of apps	Users of popular open-source libraries 'colors' and 'faker' were left stunned after they saw their applications, using these libraries, printing gibberish data and breaking. Some surmised if the NPM libraries had been compromised, but it turns out there's more to the story.	https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/	https://www.bleepstatic.com/content/hl-images/2021/10/23/npm-supply-chain-attack.jpg	Ax Sharma	2022-01-09 15:17:39+01	bleepingcomputer	t	2022-01-09 16:00:02.488137+01	bleepingcomputer/Dev-corrupts-NPM-libs-colors-and-faker-breaking-thousands-of-apps
+693	Microsoft Defender for Endpoint brings remote deployment to iOS	Microsoft has taken another step toward making life considerably easier for enterprise admins seeking to secure fleets of remote iOS devices at the endpoint.	https://www.computerworld.com/article/3646508/microsoft-defender-for-endpoint-brings-remote-deployment-to-ios.html	https://images.techhive.com/images/article/2017/05/thinkstock_guy_checking_iphone_email-100721741-large.jpg?auto=webp&quality=85,70	Jonny Evans	2022-01-06 13:45:00+01	computerworld	t	2022-01-10 12:00:02.041731+01	computerworld/Microsoft-Defender-for-Endpoint-brings-remote-deployment-to-iOS
 \.
 
 
@@ -696,7 +697,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 692, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 693, true);
 
 
 --
