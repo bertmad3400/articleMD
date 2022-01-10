@@ -702,6 +702,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 703	Cyber-Spike: Orgs Suffer 925 Attacks per Week, an All-Time High	Cyberattacks increased 50 percent YoY in 2021 and peaked in December due to a frenzy of Log4j exploits, researchers found.	https://kasperskycontenthub.com/threatpost-global/?p=177481	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/10111423/cyberattacks-e1641831276509.jpeg	Lisa Vaas	2022-01-10 17:29:55+01	threatpost	t	2022-01-10 18:00:02.474151+01	threatpost/Cyber-Spike-Orgs-Suffer-925-Attacks-per-Week-an-All-Time-High
 704	Linux Mint 20.3 released promising security updates until 2025	Linux Mint has released version 20.3, codenamed 'Una,' as a long-term support version that will receive security updates until 2025.	https://www.bleepingcomputer.com/news/linux/linux-mint-203-released-promising-security-updates-until-2025/	https://www.bleepstatic.com/content/hl-images/2022/01/10/linux-mint-logo.jpg	Bill Toulas	2022-01-10 17:43:41+01	bleepingcomputer	t	2022-01-10 18:00:02.474151+01	bleepingcomputer/Linux-Mint-203-released-promising-security-updates-until-2025
 705	Europol ordered to erase data on those not linked to crime	The European Data Protection Supervisor (EDPS), an EU privacy and data protection independent supervisory authority, has ordered Europol to erase personal data on individuals that haven't been linked to criminal activity.	https://www.bleepingcomputer.com/news/security/europol-ordered-to-erase-data-on-those-not-linked-to-crime/	https://www.bleepstatic.com/content/hl-images/2022/01/10/Europol.jpg	Sergiu Gatlan	2022-01-10 17:13:59+01	bleepingcomputer	t	2022-01-10 18:00:02.474151+01	bleepingcomputer/Europol-ordered-to-erase-data-on-those-not-linked-to-crime
+706	Microsoft: powerdir bug gives access to protected macOS user data	Microsoft says threat actors could use a macOS vulnerability to bypass Transparency, Consent, and Control (TCC) technology to access users' protected data.	https://www.bleepingcomputer.com/news/microsoft/microsoft-powerdir-bug-gives-access-to-protected-macos-user-data/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Microsoft.jpg	Sergiu Gatlan	2022-01-10 18:39:58+01	bleepingcomputer	t	2022-01-10 19:00:02.424287+01	bleepingcomputer/Microsoft-powerdir-bug-gives-access-to-protected-macOS-user-data
+707	URL Parsing-Library Bugs Allow DoS, RCE, Spoofing & More	Dangerous security bugs stemming from widespread inconsistencies among 16 popular third-party URL-parsing libraries could affect a wide swath of web applications.	https://kasperskycontenthub.com/threatpost-global/?p=177493	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/10123612/library2-e1641836188118.jpg	Tara Seals	2022-01-10 18:55:00+01	threatpost	t	2022-01-10 19:00:02.424287+01	threatpost/URL-Parsing-Library-Bugs-Allow-DoS-RCE-Spoofing--More
 \.
 
 
@@ -709,7 +711,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 705, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 707, true);
 
 
 --
