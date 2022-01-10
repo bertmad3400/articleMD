@@ -704,6 +704,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 705	Europol ordered to erase data on those not linked to crime	The European Data Protection Supervisor (EDPS), an EU privacy and data protection independent supervisory authority, has ordered Europol to erase personal data on individuals that haven't been linked to criminal activity.	https://www.bleepingcomputer.com/news/security/europol-ordered-to-erase-data-on-those-not-linked-to-crime/	https://www.bleepstatic.com/content/hl-images/2022/01/10/Europol.jpg	Sergiu Gatlan	2022-01-10 17:13:59+01	bleepingcomputer	t	2022-01-10 18:00:02.474151+01	bleepingcomputer/Europol-ordered-to-erase-data-on-those-not-linked-to-crime
 706	Microsoft: powerdir bug gives access to protected macOS user data	Microsoft says threat actors could use a macOS vulnerability to bypass Transparency, Consent, and Control (TCC) technology to access users' protected data.	https://www.bleepingcomputer.com/news/microsoft/microsoft-powerdir-bug-gives-access-to-protected-macos-user-data/	https://www.bleepstatic.com/content/hl-images/2021/09/05/Microsoft.jpg	Sergiu Gatlan	2022-01-10 18:39:58+01	bleepingcomputer	t	2022-01-10 19:00:02.424287+01	bleepingcomputer/Microsoft-powerdir-bug-gives-access-to-protected-macOS-user-data
 707	URL Parsing-Library Bugs Allow DoS, RCE, Spoofing & More	Dangerous security bugs stemming from widespread inconsistencies among 16 popular third-party URL-parsing libraries could affect a wide swath of web applications.	https://kasperskycontenthub.com/threatpost-global/?p=177493	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/10123612/library2-e1641836188118.jpg	Tara Seals	2022-01-10 18:55:00+01	threatpost	t	2022-01-10 19:00:02.424287+01	threatpost/URL-Parsing-Library-Bugs-Allow-DoS-RCE-Spoofing--More
+708	Hackers Exploit Cloud Video Platform To Target Real Estate Websites	The attackers exploited the video platform to deploy web skimmers on real estate websites waging a supply-chain attack.	https://latesthackingnews.com/2022/01/10/hackers-exploit-cloud-video-platform-to-target-real-estate-websites/	https://latesthackingnews.com/wp-content/uploads/2018/08/Credit-Card-Online-Hack.jpg	Abeerah Hashim	2022-01-10 00:00:00+01	latesthackingnews	t	2022-01-10 20:00:02.447433+01	latesthackingnews/Hackers-Exploit-Cloud-Video-Platform-To-Target-Real-Estate-Websites
+709	Oops: Cyberspies infect themselves with their own malware	After infecting themselves with their own custom remote access trojan (RAT), an Indian-linked cyber-espionage group has accidentally exposed its operations to security researchers.	https://www.bleepingcomputer.com/news/security/oops-cyberspies-infect-themselves-with-their-own-malware/	https://www.bleepstatic.com/content/hl-images/2021/07/15/Lights-Man-Action.jpg	Sergiu Gatlan	2022-01-10 19:43:47+01	bleepingcomputer	t	2022-01-10 20:00:02.447433+01	bleepingcomputer/Oops-Cyberspies-infect-themselves-with-their-own-malware
 \.
 
 
@@ -711,7 +713,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 707, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 709, true);
 
 
 --
