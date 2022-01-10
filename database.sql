@@ -706,6 +706,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 707	URL Parsing-Library Bugs Allow DoS, RCE, Spoofing & More	Dangerous security bugs stemming from widespread inconsistencies among 16 popular third-party URL-parsing libraries could affect a wide swath of web applications.	https://kasperskycontenthub.com/threatpost-global/?p=177493	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/10123612/library2-e1641836188118.jpg	Tara Seals	2022-01-10 18:55:00+01	threatpost	t	2022-01-10 19:00:02.424287+01	threatpost/URL-Parsing-Library-Bugs-Allow-DoS-RCE-Spoofing--More
 708	Hackers Exploit Cloud Video Platform To Target Real Estate Websites	The attackers exploited the video platform to deploy web skimmers on real estate websites waging a supply-chain attack.	https://latesthackingnews.com/2022/01/10/hackers-exploit-cloud-video-platform-to-target-real-estate-websites/	https://latesthackingnews.com/wp-content/uploads/2018/08/Credit-Card-Online-Hack.jpg	Abeerah Hashim	2022-01-10 00:00:00+01	latesthackingnews	t	2022-01-10 20:00:02.447433+01	latesthackingnews/Hackers-Exploit-Cloud-Video-Platform-To-Target-Real-Estate-Websites
 709	Oops: Cyberspies infect themselves with their own malware	After infecting themselves with their own custom remote access trojan (RAT), an Indian-linked cyber-espionage group has accidentally exposed its operations to security researchers.	https://www.bleepingcomputer.com/news/security/oops-cyberspies-infect-themselves-with-their-own-malware/	https://www.bleepstatic.com/content/hl-images/2021/07/15/Lights-Man-Action.jpg	Sergiu Gatlan	2022-01-10 19:43:47+01	bleepingcomputer	t	2022-01-10 20:00:02.447433+01	bleepingcomputer/Oops-Cyberspies-infect-themselves-with-their-own-malware
+710	CISA director: 'We have not seen significant intrusions' from Log4j -- yet | ZDNet	CISA officials wondered if quick Log4j mitigations helped protect most organizations -- or if attackers are waiting to leverage their new access.	https://www.zdnet.com/article/cisa-director-we-have-not-seen-significant-intrusions-from-log4j/	https://www.zdnet.com/a/img/resize/ae87ac070a5b3d088fcafae17c131be3067edb71/2022/01/10/d0db5c59-423a-428b-a098-a043e397f51b/shutterstock-2090832775.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-10 19:03:00+01	zdnet	t	2022-01-10 21:00:02.549164+01	zdnet/CISA-director-We-have-not-seen-significant-intrusions-from-Log4j----yet--ZDNet
 \.
 
 
@@ -713,7 +714,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 709, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 710, true);
 
 
 --
