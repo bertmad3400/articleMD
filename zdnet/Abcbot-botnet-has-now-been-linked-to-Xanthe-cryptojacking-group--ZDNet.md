@@ -1,0 +1,77 @@
+# Abcbot botnet has now been linked to Xanthe cryptojacking group | ZDNet
+### Researchers believe the focus is moving from cryptocurrency to traditional botnet attacks.
+
+## Information:
++ Source: ZDNet
++ Link: https://www.zdnet.com/article/abcbot-botnet-has-now-been-linked-to-xanthe-cryptojacking-group/
++ Date: 2022-01-10 13:00:02
++ Author: Charlie Osborne
+
+
+## Article:
+![Article Image](https://www.zdnet.com/a/img/resize/ec6509023d76acaef0248cc12a9f1478a2c2e1ba/2016/10/04/dcbb73c7-fbb8-4544-a39f-248fe29e908b/global-network-istock.jpg?width=770&height=578&fit=crop&auto=webp)
+
+Researchers have forged a "clear" link between the Abcbot botnet and a well-established cryptojacking cybercriminal group.
+
+
+First discovered In July 2021 by [Netlab 360](https://blog.netlab.360.com/abcbot_an_evolving_botnet_en/), the Abcbot botnet began as a simple scanner that used basic credential stuffing attacks and known vulnerability exploits to compromise vulnerable Linux systems. 
+
+However, the developers quickly updated their creation to include self-update mechanisms, exploit kits, worm functionality, and a total of nine distributed denial-of-service (DDoS) attack functions. 
+
+These findings were a starting point for [Cado Security](https://www.cadosecurity.com/the-continued-evolution-of-abcbot/), which published a further analysis of the botnet in December. By this stage, Abcbot botnet was also able to detect and kill Docker image-based cryptocurrency miners and malware already present on a target server, as well as disable cloud monitors including Aliyun Alibaba Cloud Assistant and Tencent monitoring components. 
+
+[Trend Micro](https://www.trendmicro.com/zh_hk/research/21/j/actors-target-huawei-cloud-using-upgraded-linux-malware-.html) said that once a deep clean of compromised servers has taken place, new, malicious user profiles are added with high levels of privilege, and failsafes were deployed to stop them from being modified or removed.  
+
+While past examples of the botnet's activity revealed a clean-up before it deployed its own cryptocurrency mining malware, on Monday, a new analysis published by Cado Security suggests the malware may be shifting back to more traditional routes: namely, a return to DDoS attacks as a focus.  
+
+According to the cybersecurity researchers, there is now an established link between the botnet and Xanthe, a cryptojacking campaign documented by [Cisco Talos](https://blog.talosintelligence.com/2020/12/xanthe-docker-aware-miner.html) in December 2020. 
+
+
+
+
+
+
+Talos uncovered Xanthe after the group targeted a Docker-based honeypot with a Monero cryptocurrency miner, XMRig. At the time, Xanthe focused on hijacking computational resources of vulnerable servers to generate cryptocurrency and would use bash scripts to eradicate competitor malware, as well as to maintain persistence.  
+
+After comparing samples of the Abcbot botnet and Xanthe, [Cado Security found](https://www.cadosecurity.com/abcbot-an-evolution-of-xanthe/) code and feature similarities.  
+
+A VirusTotal graph based on known Indicators of Compromise (IoCs), stylistic choices, and unique strings then revealed four hosts that overlapped in infrastructure and delivered both Abcbot botnet and Xanthe malware campaigns.  
+
+However, the samples also revealed recent changes in functionality, including commented-out mining components, that suggest mining may "no longer [be] an objective" of Abcbot. 
+
+"Based on this analysis, we believe that the same threat actor is responsible for both Xanthe and Abcbot and is shifting its objective from mining cryptocurrency on compromised hosts to activities more traditionally associated with botnets, such as DDoS attacks," the researchers said. "We suspect this won't be the last malware campaign we analyze from this actor."
+
+###  Previous and related coverage
+
+* [Google announces lawsuit, technical action against blockchain botnet Glupteba](https://www.zdnet.com/article/google-announces-lawsuit-and-action-against-blockchain-botnet-glupteba/)
+* [This ransomware-spreading malware botnet just won't go away](https://www.zdnet.com/article/this-ransomware-spreading-malware-botnet-just-wont-go-away/)
+* [Malsmoke hackers abuse Microsoft signature verification in ZLoader cyberattacks](https://www.zdnet.com/article/malsmoke-hackers-now-abuse-microsoft-e-signature-verification-tool-in-cyberattacks/)
+
+
+
+---
+
+**Have a tip?** Get in touch securely via WhatsApp | Signal at +447713 025 499, or over at Keybase: charlie0 
+
+
+
+---
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Miner-C]] [[action.malware.name=Miner-C]] [[action.malware.name=Net]] [[action.malware.name=route]] [[action.malware.name=Tor]]
+
+#### Industry:
+[[victim.industry.name=Mining]]
+
+#### Location:
+[[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Botnet]] [[Abcbot]] [[Malware]] [[Xanthe]] [[Cado]] [[ZDNet]]
+
