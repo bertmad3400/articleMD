@@ -740,6 +740,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 741	CISA adds 15 exploited vulnerabilities from Google, IBM, Microsoft, Oracle and more to catalog | ZDNet	Three of the vulnerabilities must be remediated by January 24 for federal civilian agencies.	https://www.zdnet.com/article/cisa-adds-15-exploited-vulnerabilities-from-google-ibm-microsoft-oracle-and-more-to-catalog/	https://www.zdnet.com/a/img/resize/0d8afb02ad14070f3546d9d260adab2cc0b69498/2021/12/06/e458798d-bb26-421f-8bcd-10b37bc4793d/train-cyber-security.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-11 17:58:09+01	zdnet	t	2022-01-11 19:00:02.653758+01	zdnet/CISA-adds-15-exploited-vulnerabilities-from-Google-IBM-Microsoft-Oracle-and-more-to-catalog--ZDNet
 742	New RedLine malware version spread as fake Omicron stat counter	A new variant of the RedLine info-stealer is distributed via emails using a fake COVID-19 Omicron stat counter app as a lure.	https://www.bleepingcomputer.com/news/security/new-redline-malware-version-spread-as-fake-omicron-stat-counter/	https://www.bleepstatic.com/content/hl-images/2021/12/30/RedLine.jpg	Bill Toulas	2022-01-11 18:39:53+01	bleepingcomputer	t	2022-01-11 19:00:02.653758+01	bleepingcomputer/New-RedLine-malware-version-spread-as-fake-Omicron-stat-counter
 743	FIN7 Mailing Malicious USB Sticks to Drop Ransomware	The FBI warned that attackers are impersonating Health & Human Services and/or Amazon to mail BadUSB-poisoned USB devices to targets in transportation, insurance & defense.	https://kasperskycontenthub.com/threatpost-global/?p=177541	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/11114826/usb-santa-e1641919763991.jpeg	Lisa Vaas	2022-01-11 18:06:11+01	threatpost	t	2022-01-11 19:00:02.653758+01	threatpost/FIN7-Mailing-Malicious-USB-Sticks-to-Drop-Ransomware
+744	Microsoft January 2022 Patch Tuesday: Six zero-days, over 90 vulnerabilities fixed | ZDNet	This month's round of security fixes includes patches for publicly-known remote code execution bugs.	https://www.zdnet.com/article/microsoft-january-2022-patch-tuesday-six-zero-days-over-90-vulnerabilities-fixed/	https://www.zdnet.com/a/img/resize/3ff3335b978d72fb2616739fd4a86d1b93a3bd8d/2015/11/11/941fbd1f-57d2-4e52-959f-7e3f05dce1f7/340966-microsoft-patch-tuesday.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-11 18:55:20+01	zdnet	t	2022-01-11 20:00:02.412453+01	zdnet/Microsoft-January-2022-Patch-Tuesday-Six-zero-days-over-90-vulnerabilities-fixed--ZDNet
+745	Microsoft January 2022 Patch Tuesday fixes 6 zero-days, 97 flaws	Today is Microsoft's January 2022 Patch Tuesday, and with it comes fixes for six zero-day vulnerabilities and a total of 97 flaws.	https://www.bleepingcomputer.com/news/microsoft/microsoft-january-2022-patch-tuesday-fixes-6-zero-days-97-flaws/	https://www.bleepstatic.com/content/hl-images/2020/06/09/patch-tuesday-header.jpg	Lawrence Abrams	2022-01-11 19:31:10+01	bleepingcomputer	t	2022-01-11 20:00:02.412453+01	bleepingcomputer/Microsoft-January-2022-Patch-Tuesday-fixes-6-zero-days-97-flaws
 \.
 
 
@@ -747,7 +749,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 743, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 745, true);
 
 
 --
