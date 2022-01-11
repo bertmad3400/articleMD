@@ -733,6 +733,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 734	Hotel chain switches to Chrome OS to recover from ransomware attack	A Scandinavian hotel chain that fell victim to a ransomware attack last month said it took a novel approach to recover from the incident by switching all affected systems to Chrome OS.	https://therecord.media/hotel-chain-switches-to-chrome-os-to-recover-from-ransomware-attack/	https://therecord.media/wp-content/uploads/2022/01/nordic-choice-hotels.jpg	Catalin Cimpanu	2022-01-11 15:45:45+01	therecord	t	2022-01-11 16:00:02.19932+01	therecord/Hotel-chain-switches-to-Chrome-OS-to-recover-from-ransomware-attack
 735	‘Fully Undetected’ SysJoker Backdoor Malware Targets Windows, Linux & macOS	The malware establishes initial access on targeted machines, then waits for additional code to execute.	https://kasperskycontenthub.com/threatpost-global/?p=177532	https://media.threatpost.com/wp-content/uploads/sites/103/2020/07/09112156/Joker-malware.jpg	Tara Seals	2022-01-11 16:00:15+01	threatpost	t	2022-01-11 16:00:02.19932+01	threatpost/Fully-Undetected-SysJoker-Backdoor-Malware-Targets-Windows-Linux--macOS
 736	Critical SonicWall NAC Vulnerability Stems from Apache Mods	Researchers offer more detail on the bug, which can allow attackers to completely take over targets.	https://kasperskycontenthub.com/threatpost-global/?p=177529	https://media.threatpost.com/wp-content/uploads/sites/103/2019/09/03102603/Software-Patch.jpg	Elizabeth Montalbano	2022-01-11 15:09:21+01	threatpost	t	2022-01-11 16:00:02.19932+01	threatpost/Critical-SonicWall-NAC-Vulnerability-Stems-from-Apache-Mods
+737	Microsoft: This macOS bug could bypass controls and access private user data | ZDNet	A Microsoft researcher found a new way to bypass Apple's macOS system for protecting app access to user data.	https://www.zdnet.com/article/microsoft-this-macos-bug-could-bypass-controls-and-access-private-user-data/	https://www.zdnet.com/a/img/resize/c3965a5c519ab39c06baf67724d35f4e52a5263f/2021/12/15/b6821fa2-f1a5-4e6d-a839-63172b59646d/shutterstock-1122656969.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2022-01-11 15:24:00+01	zdnet	t	2022-01-11 17:00:01.996828+01	zdnet/Microsoft-This-macOS-bug-could-bypass-controls-and-access-private-user-data--ZDNet
+738	New SysJocker backdoor targets Windows, macOS, and Linux	A new multi-platform backdoor malware named 'SysJocker' has emerged in the wild, targeting Windows, Linux, and macOS with the ability to evade detection on all three operating systems.	https://www.bleepingcomputer.com/news/security/new-sysjocker-backdoor-targets-windows-macos-and-linux/	https://www.bleepstatic.com/content/hl-images/2022/01/11/joker.jpg	Bill Toulas	2022-01-11 16:04:33+01	bleepingcomputer	t	2022-01-11 17:00:01.996828+01	bleepingcomputer/New-SysJocker-backdoor-targets-Windows-macOS-and-Linux
 \.
 
 
@@ -740,7 +742,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 736, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 738, true);
 
 
 --
