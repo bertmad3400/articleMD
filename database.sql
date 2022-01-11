@@ -728,6 +728,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 729	KCodes NetUSB kernel remote code execution flaw impacts millions of devices | ZDNet	The vulnerability is present in software licensed to multiple router vendors.	https://www.zdnet.com/article/kcodes-netusb-kernel-remote-code-execution-flaw-impacts-millions-of-devices/	https://www.zdnet.com/a/img/resize/354250448adc2f06108e660f623f31797e217cd3/2021/05/27/ae72ce5c-0ff6-4c6a-8949-a3ca9192c76f/shutterstock-361393196.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-11 12:00:08+01	zdnet	t	2022-01-11 14:00:01.816995+01	zdnet/KCodes-NetUSB-kernel-remote-code-execution-flaw-impacts-millions-of-devices--ZDNet
 730	KCodes NetUSB bug exposes millions of routers to RCE attacks	A high-severity remote code execution flaw tracked as CVE-2021-45388 has been discovered in the KCodes NetUSB kernel module, used by millions of router devices from various vendors.	https://www.bleepingcomputer.com/news/security/kcodes-netusb-bug-exposes-millions-of-routers-to-rce-attacks/	https://www.bleepstatic.com/content/hl-images/2022/01/10/netgear-nighthawk.jpg	Bill Toulas	2022-01-11 13:00:00+01	bleepingcomputer	t	2022-01-11 14:00:01.816995+01	bleepingcomputer/KCodes-NetUSB-bug-exposes-millions-of-routers-to-RCE-attacks
 731	Millions of Routers Exposed to RCE by USB Kernel Bug	The high-severity RCE flaw is in the KCodes NetUSB kernel module, used by popular routers from Netgear, TP-Link, DLink, Western Digital, et al.	https://kasperskycontenthub.com/threatpost-global/?p=177506	https://media.threatpost.com/wp-content/uploads/sites/103/2021/04/01165141/Kernel-e1617310316383.jpg	Lisa Vaas	2022-01-11 13:00:04+01	threatpost	t	2022-01-11 14:00:01.816995+01	threatpost/Millions-of-Routers-Exposed-to-RCE-by-USB-Kernel-Bug
+732	How the Pentagon enlisted ethical hackers amid the Log4j crisis	The Pentagon last month pivoted an ongoing bug bounty program to track down Log4j vulnerabilities on potentially thousands of public-facing military websites, the first time the Defense Department marshaled the ethical hacker community to tackle an emerging digital crisis.	https://therecord.media/how-the-pentagon-enlisted-ethical-hackers-amid-the-log4j-crisis/	https://therecord.media/wp-content/uploads/2022/01/pentagon2.jpg	Martin Matishak	2022-01-11 14:57:27+01	therecord	t	2022-01-11 15:00:02.552953+01	therecord/How-the-Pentagon-enlisted-ethical-hackers-amid-the-Log4j-crisis
 \.
 
 
@@ -735,7 +736,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 731, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 732, true);
 
 
 --
