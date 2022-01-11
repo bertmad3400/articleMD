@@ -718,6 +718,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 720	Panasonic giving employees the option of a four-day work week | ZDNet	Striving to help employees strike a balance between work and home life.	https://www.zdnet.com/article/panasonic-giving-employees-the-option-of-a-four-day-work-week/	https://www.zdnet.com/a/img/resize/77faab3f60da4b65e29b2189e54542d6c28ba703/2021/11/30/9c20e502-958e-447b-8d55-edfd27d2ced7/panasonic.png?width=770&height=578&fit=crop&auto=webp	Aimee Chanthadavong	2022-01-11 00:15:43+01	zdnet	t	2022-01-11 02:00:01.946906+01	zdnet/Panasonic-giving-employees-the-option-of-a-four-day-work-week--ZDNet
 721	Report: Increased Log4J exploit attempts leads to all-time peak in weekly cyberattacks per org | ZDNet	Check Point Research said that among its customers, there was a 50% increase in overall attacks per week on corporate networks compared to 2020.	https://www.zdnet.com/article/report-increased-log4j-exploit-attempts-leads-to-all-time-peak-in-weekly-cyberattacks-per-org/	https://www.zdnet.com/a/img/resize/455b3941853bbe92a3a8d933b4baf915227ffdac/2021/07/23/07367b4b-a168-423d-9a55-9e041eb2f38c/researchers-find-new-attack-vector-cybersecurity.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-11 00:14:11+01	zdnet	t	2022-01-11 02:00:01.946906+01	zdnet/Report-Increased-Log4J-exploit-attempts-leads-to-all-time-peak-in-weekly-cyberattacks-per-org--ZDNet
 719	Firms need better breach response, clear regulatory guidelines | ZDNet	With most companies today still lacking a proper framework to help them navigate and respond quickly when a cybersecurity breach occurs, governments can help by providing clear guidelines and protocols.	https://www.zdnet.com/article/firms-need-better-breach-response-clear-regulatory-guidelines/	https://www.zdnet.com/a/img/resize/42128f44a0124d436bbca3a9377087a9fe4b6a30/2019/11/01/5b4d0413-dafd-44fd-849a-1934fd689c14/istock-938732700.jpg?width=770&height=578&fit=crop&auto=webp	Eileen Yu	2022-01-11 00:48:02+01	zdnet	t	2022-01-11 02:00:01.946906+01	zdnet/Firms-need-better-breach-response-clear-regulatory-guidelines--ZDNet
+722	Researcher Explains How SSRF Vulnerabilities Risk Java RMI Services	Mitigating SSRF vulnerabilities merely requires paying attention to securing Java RMI services, which admins often miss to employ.	https://latesthackingnews.com/2022/01/10/researchers-explain-how-ssrf-vulnerabilities-risk-java-rmi-services/	https://latesthackingnews.com/wp-content/uploads/2019/10/vulnerability.jpg	Abeerah Hashim	2022-01-10 00:00:00+01	latesthackingnews	t	2022-01-11 03:00:01.821944+01	latesthackingnews/Researcher-Explains-How-SSRF-Vulnerabilities-Risk-Java-RMI-Services
 \.
 
 
@@ -725,7 +726,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 721, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 722, true);
 
 
 --
