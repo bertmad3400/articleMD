@@ -713,6 +713,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 714	Finalsite says no data stolen during ransomware attack affecting 3,000 US public schools | ZDNet	The education technology company would not say which ransomware was involved in the attack that started on January 4.	https://www.zdnet.com/article/finalsite-says-no-data-stolen-during-ransomware-attack-affecting-3000-us-public-schools/	https://www.zdnet.com/a/img/resize/d817aaa31e93ca05e0483cdaf80221550f8089e1/2021/03/23/d1aa4334-cf84-4af9-8189-7586ee521574/school-classroom.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-10 21:01:00+01	zdnet	t	2022-01-10 23:00:01.873024+01	zdnet/Finalsite-says-no-data-stolen-during-ransomware-attack-affecting-3000-US-public-schools--ZDNet
 715	Extortion DDoS attacks grow stronger and more common	The end of 2021 saw a rise in the number of distributed denial-of-service incidents that came with a ransom demand from the attackers to stop the assault.	https://www.bleepingcomputer.com/news/security/extortion-ddos-attacks-grow-stronger-and-more-common/	https://www.bleepstatic.com/content/hl-images/2021/01/21/DDoS.jpg	Ionut Ilascu	2022-01-10 22:53:29+01	bleepingcomputer	t	2022-01-10 23:00:01.873024+01	bleepingcomputer/Extortion-DDoS-attacks-grow-stronger-and-more-common
 716	Linux version of AvosLocker ransomware targets VMware ESXi servers	AvosLocker is the latest ransomware gang that has added support for encrypting Linux systems to its recent malware variants, specifically targeting VMware ESXi virtual machines.	https://www.bleepingcomputer.com/news/security/linux-version-of-avoslocker-ransomware-targets-vmware-esxi-servers/	https://www.bleepstatic.com/content/hl-images/2021/12/23/AvosLocker_ransomware.jpg	Sergiu Gatlan	2022-01-10 22:09:01+01	bleepingcomputer	t	2022-01-10 23:00:01.873024+01	bleepingcomputer/Linux-version-of-AvosLocker-ransomware-targets-VMware-ESXi-servers
+717	Signal founder and CEO Moxie Marlinspike announces resignation | ZDNet	Moxie Marlinspike has signaled that he feels like the company is in a good place to turn it over to someone else.	https://www.zdnet.com/article/signal-founder-and-ceo-moxie-marlinspike-announces-resignation/	https://www.zdnet.com/a/img/resize/b7b15a78ec8c9620294fdec9deb3d0913491bce7/2022/01/10/074e2701-a9b3-4b2d-836c-1c9f8ad427a4/shutterstock-1890286651.jpg?width=770&height=578&fit=crop&auto=webp	Allison Murray	2022-01-10 23:34:00+01	zdnet	t	2022-01-11 01:00:02.186232+01	zdnet/Signal-founder-and-CEO-Moxie-Marlinspike-announces-resignation--ZDNet
+718	FinalSite: No school data stolen in ransomware attack behind site outages	FinalSite announced today the findings of a six-day investigation into last week's ransomware attack, stating it found no evidence schools' data accessed or stolen by hackers.	https://www.bleepingcomputer.com/news/security/finalsite-no-school-data-stolen-in-ransomware-attack-behind-site-outages/	https://www.bleepstatic.com/content/hl-images/2020/12/01/empty-classroom-chemistry.jpg	Lawrence Abrams	2022-01-11 00:32:32+01	bleepingcomputer	t	2022-01-11 01:00:02.186232+01	bleepingcomputer/FinalSite-No-school-data-stolen-in-ransomware-attack-behind-site-outages
 \.
 
 
@@ -720,7 +722,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 716, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 718, true);
 
 
 --
