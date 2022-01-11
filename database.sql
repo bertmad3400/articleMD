@@ -750,6 +750,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 751	MacOS Bug Could Let Creeps Snoop On You	The flaw could allow attackers to bypass Privacy preferences, giving  apps with no right to access files, microphones or cameras the ability to  record you or grab screenshots.	https://kasperskycontenthub.com/threatpost-global/?p=177551	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/11152615/spying-ga59576ef6_1280-e1641932787367.jpeg	Lisa Vaas	2022-01-11 21:35:47+01	threatpost	t	2022-01-11 22:00:02.109867+01	threatpost/MacOS-Bug-Could-Let-Creeps-Snoop-On-You
 752	Firefox Focus now blocks cross-site tracking on Android devices	Mozilla's Firefox Focus web browser can now protect Android users against cross-site tracking while browsing the Internet by preventing cookies from being used for advertising and monitoring your activity.	https://www.bleepingcomputer.com/news/security/firefox-focus-now-blocks-cross-site-tracking-on-android-devices/	https://www.bleepstatic.com/content/hl-images/2022/01/11/Firefox_Focus.jpg	Sergiu Gatlan	2022-01-11 21:42:37+01	bleepingcomputer	t	2022-01-11 22:00:02.109867+01	bleepingcomputer/Firefox-Focus-now-blocks-cross-site-tracking-on-Android-devices
 753	CISA alerts federal agencies of ancient bugs still being exploited	The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has updated its list of known exploited vulnerabilities with 15 new security issues that serve as a frequent attack vector against federal enterprises.	https://www.bleepingcomputer.com/news/security/cisa-alerts-federal-agencies-of-ancient-bugs-still-being-exploited/	https://www.bleepstatic.com/content/hl-images/2021/07/01/CISA.jpg	Ionut Ilascu	2022-01-11 21:05:22+01	bleepingcomputer	t	2022-01-11 22:00:02.109867+01	bleepingcomputer/CISA-alerts-federal-agencies-of-ancient-bugs-still-being-exploited
+754	CISA: Russian state-sponsored groups exploited vulnerabilities in Microsoft, Cisco, Oracle tools | ZDNet	The US cybersecurity agency said Russian APT actors targeted state, local, tribal, and territorial governments from September 2020 to at least December 2020.	https://www.zdnet.com/article/cisa-russian-state-sponsored-groups-exploited-vulnerabilities-in-microsoft-cisco-oracle-vmware/	https://www.zdnet.com/a/img/resize/3e9a6eca18bbbab3b21f1952aa1a5f24d4f407c3/2021/08/02/9500e900-070f-49e2-b214-e088fa9e3f9b/global-cybersecurity-cyberattack-network-gps.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-11 20:09:00+01	zdnet	t	2022-01-11 23:00:02.355203+01	zdnet/CISA-Russian-state-sponsored-groups-exploited-vulnerabilities-in-Microsoft-Cisco-Oracle-tools--ZDNet
+755	Microsoft Faces Wormable, Critical RCE Bug & 6 Zero-Days	The large January 2022 Patch Tuesday update covers nine critical CVEs, including a self-propagator with a 9.8 CVSS score.	https://kasperskycontenthub.com/threatpost-global/?p=177564	https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/26141726/Windows-Abstract.jpg	Tara Seals	2022-01-11 22:54:57+01	threatpost	t	2022-01-11 23:00:02.355203+01	threatpost/Microsoft-Faces-Wormable-Critical-RCE-Bug--6-Zero-Days
 \.
 
 
@@ -757,7 +759,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 753, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 755, true);
 
 
 --
