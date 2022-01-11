@@ -1,0 +1,67 @@
+# CISA warns local, tribal governments about Russian state-sponsored cyberattacks | ZDNet
+### The US cybersecurity agency said Russian APT actors targeted state, local, tribal, and territorial governments from September 2020 to at least December 2020.
+
+## Information:
++ Source: ZDNet
++ Link: https://www.zdnet.com/article/cisa-russian-state-sponsored-groups-exploiting-vulnerabilities-in-microsoft-cisco-oracle-vmware/
++ Date: 2022-01-11 20:09:00
++ Author: Jonathan Greig
+
+
+## Article:
+![Article Image](https://www.zdnet.com/a/img/resize/3e9a6eca18bbbab3b21f1952aa1a5f24d4f407c3/2021/08/02/9500e900-070f-49e2-b214-e088fa9e3f9b/global-cybersecurity-cyberattack-network-gps.jpg?width=770&height=578&fit=crop&auto=webp)
+
+The Cybersecurity and Infrastructure Security Agency (CISA) [released](https://www.cisa.gov/uscert/ncas/alerts/aa22-011a) an alert on Tuesday detailing a variety of tactics used by Russian state-sponsored groups to attack local and tribal governments across the US between September 2020 and December 2020. 
+
+When pressed on why the guide was being released now and which local governments were attacked in 2020, CISA said it was part of their "continuing cybersecurity mission" with "interagency partners to warn organizations of potential criminal or nation state cyber threats." 
+
+
+"As described in the advisory, Russian state-sponsored actors have targeted a variety of US and international critical infrastructure organizations over the years. This guidance is being released to broadly share known tactics, techniques, and procedures, and encourage network defenders to take recommended actions," a CISA spokesperson said. 
+
+The alert said Russian state-sponsored advanced persistent threat (APT) actors have generally targeted US and international critical infrastructure organizations, but it also said the "high-profile cyber activity" revolved around the attacks on state, local, tribal, and territorial (SLTT) governments and aviation networks in the fall of 2020. 
+
+CISA said the groups "targeted dozens of SLTT government and aviation networks" and were able to successfully compromise networks before exfiltrating data from an unknown number of victims.
+
+The US cybersecurity agency also said APT groups conducted "multi-stage intrusion" campaigns across multiple companies in the energy sector, deploying ICS-focused malware and collecting enterprise and ICS-related data from 2011 to 2018. 
+
+![screen-shot-2022-01-11-at-2-38-23-pm.png]()![screen-shot-2022-01-11-at-2-38-23-pm.png](https://www.zdnet.com/a/img/resize/f39bcfb8b6384780ff9f33f8d63bab5151e06fd4/2022/01/11/c25d10fb-9c40-42a9-8782-39d3e470fd28/screen-shot-2022-01-11-at-2-38-23-pm.png?fit=bounds&auto=webp)
+ CISA
+ The notice includes a range of advice for organizations as they try to protect themselves and their systems. CISA, the FBI, and the NSA also released a full list of vulnerabilities that Russian state-sponsored groups typically use to gain initial access to target networks.
+
+
+
+
+
+
+The US is still in the process of recovering from the [SolarWinds scandal](https://www.zdnet.com/article/solarwinds-attack-hit-100-companies-and-took-months-of-planning-says-white-house/), which saw Russian government groups [gain widespread access](https://www.zdnet.com/article/solarwinds-the-more-we-learn-the-worse-it-looks/) to [100 government contractors](https://www.whitehouse.gov/briefing-room/press-briefings/2021/02/17/press-briefing-by-press-secretary-jen-psaki-and-deputy-national-security-advisor-for-cyber-and-emerging-technology-anne-neuberger-february-17-2021/) and [multiple agencies](https://www.businessinsider.com/list-of-the-agencies-companies-hacked-in-solarwinds-russian-cyberattack-2020-12) including the State Department, Department of Homeland Security, National Institutes of Health, the Pentagon, the Treasury Department, the Department of Commerce, the Department of Energy and the National Nuclear Security Administration.
+
+Rep. Carolyn Maloney, chairwoman of the House Committee on Oversight and Reform, [held a hearing on Tuesday](https://www.youtube.com/watch?v=1YW57d3js6U) about efforts to strengthen the Federal Information Security Management Act (FISMA), which would force federal agencies to improve their cybersecurity standards.  
+
+Maloney noted that FISMA hasn't been updated since 2014 and that federal agencies reported [30,819 cybersecurity incidents](https://www.whitehouse.gov/wp-content/uploads/2021/05/FY-2020-FISMA-Report-to-Congress.pdf) in 2020 alone.
+
+The CISA release also comes as the US and Russia [spar](https://apnews.com/article/joe-biden-europe-russia-ukraine-geneva-090d1bd24f7ced8ab84907a9ed031878) over multiple issues in [Ukraine](https://www.nytimes.com/2022/01/10/world/europe/russia-us-ukraine-talks.html) and [Kazakhstan](https://www.reuters.com/world/russia-reacts-furiously-blinken-jibe-over-troops-kazakhstan-2022-01-08/). The alert cites [previously reported](https://www.zdnet.com/article/us-report-confirms-ukraine-power-outage-caused-by-cyberattack/) attacks by Russian groups on critical infrastructure in Ukraine. A [US Homeland Security report](https://ics-cert.us-cert.gov/alerts/IR-ALERT-H-16-056-01) from 2016 said 225,000 customers were left without power two days before Christmas because of the Russian attack on three regional electric power distribution companies. 
+
+CISA explained on Tuesday that the Russian groups involved in the attack used the [BlackEnergy](https://attack.mitre.org/versions/v10/software/S0089) malware to steal user credentials, and then they used its malware component KillDisk to make infected computers inoperable. 
+
+"In 2016, these actors conducted a cyber-intrusion campaign against a Ukrainian electrical transmission company and deployed [CrashOverride](https://attack.mitre.org/versions/v10/software/S0604) malware specifically designed to attack power grids," the CISA alert said. 
+
+Chris Krebs, the former director of CISA, [tweeted about the alert, saying](https://twitter.com/C_C_Krebs/status/1480967928862412800), "State and NSC are in Geneva right now trying to keep the Russians out of Ukraine, but in case that doesn't work, you might want to prepare for badness..."
+
+
+
+
+
+## Tags:
+
+#### Threatactor:
+[[threatactor.name=RTM]]
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=BlackEnergy]] [[action.malware.name=BlackEnergy]] [[action.malware.name=Conti]] [[action.malware.name=Industroyer]] [[action.malware.name=KillDisk]] [[action.malware.name=Net]] [[action.malware.name=njRAT]] [[action.malware.name=Reg]] [[action.malware.name=RTM]] [[action.malware.name=Tor]] [[action.malware.name=Zen]]
+
+#### Location:
+[[victim.country.name=Kazakhstan]] [[victim.continent.name=Asia]] [[victim.country.name=Oman]] [[victim.continent.name=Asia]] [[victim.country.name=Russia]] [[victim.continent.name=Asia]] [[victim.country.name=Russia]] [[victim.continent.name=Europe]] [[victim.country.name=Ukraine]] [[victim.continent.name=Europe]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Cisa]] [[State-sponsored]] [[Cybersecurity]] [[Malware]] [[ZDNet]]
+
