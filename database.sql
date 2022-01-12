@@ -761,6 +761,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 762	EA: 50 high-profile FIFA 22 accounts taken over by phishing actors	Electronic Arts (EA) has published an official response to numerous reports about hacked player accounts, confirming the problem and attributing it to phishing actors.	https://www.bleepingcomputer.com/news/security/ea-50-high-profile-fifa-22-accounts-taken-over-by-phishing-actors/	https://www.bleepstatic.com/content/hl-images/2022/01/12/football.jpg	Bill Toulas	2022-01-12 10:43:13+01	bleepingcomputer	t	2022-01-12 11:00:02.053359+01	bleepingcomputer/EA-50-high-profile-FIFA-22-accounts-taken-over-by-phishing-actors
 763	Windows security in ’22 — you need more than just antivirus software	Antivirus software is useful, but sometimes can cause more trouble than it's worth. To be really secure, Windows users have to do more.	https://www.computerworld.com/article/3646552/windows-security-in-22-you-need-more-than-just-antivirus-software.html	https://images.idgesg.net/images/article/2021/03/maze-1-100880563-large.jpg?auto=webp&quality=85,70	Susan Bradley	2022-01-10 12:10:00+01	computerworld	t	2022-01-12 12:00:02.787759+01	computerworld/Windows-security-in-22--you-need-more-than-just-antivirus-software
 764	Hackers are using the Log4j flaw to deliver this new 'modular' backdoor | ZDNet	Some state-backed hackers go to great lengths to cover their tracks. This Iran-backed group does not, according to Check Point.	https://www.zdnet.com/article/hackers-are-using-the-log4j-flaw-to-deliver-this-new-modular-backdoor/	https://www.zdnet.com/a/img/resize/511e16eb270cba9e871a84a749767bc7c7ebc7ec/2022/01/12/a4fcadd3-6a9e-4b2e-b942-e7b7704ca490/shutterstock-1408496261.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2022-01-12 10:54:20+01	zdnet	t	2022-01-12 12:00:02.787759+01	zdnet/Hackers-are-using-the-Log4j-flaw-to-deliver-this-new-modular-backdoor--ZDNet
+765	Remote Access Trojans spread through Microsoft Azure, AWS cloud service abuse | ZDNet	It seems that one or two Trojans aren't enough for your average cyberattacker.	https://www.zdnet.com/article/remote-access-trojans-spread-through-microsoft-azure-aws-cloud-service-abuse/	https://www.zdnet.com/a/img/resize/11f9ff4eb7423fd5c17d394ddbe157bee742a6e3/2017/10/20/539fdef4-aaf3-407b-a820-252eaca5d4ab/istock-trojan-horse.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-12 13:03:00+01	zdnet	t	2022-01-12 15:00:02.06043+01	zdnet/Remote-Access-Trojans-spread-through-Microsoft-Azure-AWS-cloud-service-abuse--ZDNet
+766	Phishers Rip Off High-Profile EA Gamers	Electronic Arts blamed “human error” after attackers compromised customer support and took over and drained some of the top FIFA Ultimate Team player accounts.	https://kasperskycontenthub.com/threatpost-global/?p=177575	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/12081750/fifa-g8763a41ec_1280-e1641993482784.jpeg	Elizabeth Montalbano	2022-01-12 14:21:33+01	threatpost	t	2022-01-12 15:00:02.06043+01	threatpost/Phishers-Rip-Off-High-Profile-EA-Gamers
 \.
 
 
@@ -768,7 +770,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 764, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 766, true);
 
 
 --
