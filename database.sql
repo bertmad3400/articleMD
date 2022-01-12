@@ -758,6 +758,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 759	State hackers use new PowerShell backdoor in Log4j attacks	Hackers believed to be part of the Iranian APT35 state-backed group (aka 'Charming Kitten' or 'Phosphorus') has been observed leveraging Log4Shell attacks to drop a new PowerShell backdoor.	https://www.bleepingcomputer.com/news/security/state-hackers-use-new-powershell-backdoor-in-log4j-attacks/	https://www.bleepstatic.com/content/hl-images/2021/12/13/Log4j___logo.jpg	Bill Toulas	2022-01-12 00:17:45+01	bleepingcomputer	t	2022-01-12 01:00:01.794246+01	bleepingcomputer/State-hackers-use-new-PowerShell-backdoor-in-Log4j-attacks
 760	Check your SPF records: Wide IP ranges undo email security and make for tasty phishes | ZDNet	With parts of the Australian private sector, governments at all levels, and a university falling foul of wide IP ranges in a SPF record, it might be time to check yours.	https://www.zdnet.com/article/check-your-spf-records-wide-ip-ranges-undo-email-security-and-make-for-tasty-phishes/	https://www.zdnet.com/a/img/resize/41799707304f849480013ab997333c9e2a19e0b4/2020/09/30/6daed060-c32f-4f90-9f2e-9cb28719ecd5/istock-1201020974.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2022-01-12 03:19:09+01	zdnet	t	2022-01-12 05:00:02.5933+01	zdnet/Check-your-SPF-records-Wide-IP-ranges-undo-email-security-and-make-for-tasty-phishes--ZDNet
 761	Hackers take over diplomat's email, target Russian deputy minister	Hackers believed to work for the North Korean government have compromised the email account of a staff member of Russia's Ministry of Foreign Affairs (MID) and deployed spear-phishing attacks against the country's diplomats in other regions.	https://www.bleepingcomputer.com/news/security/hackers-take-over-diplomats-email-target-russian-deputy-minister/	https://www.bleepstatic.com/content/posts/2022/01/11/Figure7_HNYScreenSaver.jpg	Ionut Ilascu	2022-01-12 09:35:06+01	bleepingcomputer	t	2022-01-12 10:00:02.632836+01	bleepingcomputer/Hackers-take-over-diplomats-email-target-Russian-deputy-minister
+762	EA: 50 high-profile FIFA 22 accounts taken over by phishing actors	Electronic Arts (EA) has published an official response to numerous reports about hacked player accounts, confirming the problem and attributing it to phishing actors.	https://www.bleepingcomputer.com/news/security/ea-50-high-profile-fifa-22-accounts-taken-over-by-phishing-actors/	https://www.bleepstatic.com/content/hl-images/2022/01/12/football.jpg	Bill Toulas	2022-01-12 10:43:13+01	bleepingcomputer	t	2022-01-12 11:00:02.053359+01	bleepingcomputer/EA-50-high-profile-FIFA-22-accounts-taken-over-by-phishing-actors
 \.
 
 
@@ -765,7 +766,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 761, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 762, true);
 
 
 --
