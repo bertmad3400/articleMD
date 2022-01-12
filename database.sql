@@ -755,6 +755,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 756	Here's REALLY How to Do Zero-Trust Security	It's not about buying security products! Joseph Carson, chief security scientist from ThycoticCentrify, offers practical steps to start the zero-trust journey.	https://kasperskycontenthub.com/threatpost-global/?p=177502	https://media.threatpost.com/wp-content/uploads/sites/103/2021/06/11165310/zero-trust-e1623444802560.jpeg	Joseph Carson	2022-01-11 23:13:19+01	threatpost	t	2022-01-12 00:00:02.207622+01	threatpost/Heres-REALLY-How-to-Do-Zero-Trust-Security
 757	Microsoft: New critical Windows HTTP vulnerability is wormable	Microsoft has patched a critical flaw tagged as wormable and found to impact the latest desktop and server Windows versions, including Windows 11 and Windows Server 2022.	https://www.bleepingcomputer.com/news/microsoft/microsoft-new-critical-windows-http-vulnerability-is-wormable/	https://www.bleepstatic.com/content/hl-images/2021/07/09/Windows_headpic.jpg	Sergiu Gatlan	2022-01-11 23:02:44+01	bleepingcomputer	t	2022-01-12 00:00:02.207622+01	bleepingcomputer/Microsoft-New-critical-Windows-HTTP-vulnerability-is-wormable
 758	New SysJoker backdoor targets Windows, macOS, and Linux	A new multi-platform backdoor malware named 'SysJoker' has emerged in the wild, targeting Windows, Linux, and macOS with the ability to evade detection on all three operating systems.	https://www.bleepingcomputer.com/news/security/new-sysjoker-backdoor-targets-windows-macos-and-linux/	https://www.bleepstatic.com/content/hl-images/2022/01/11/joker.jpg	Bill Toulas	2022-01-11 16:04:33+01	bleepingcomputer	t	2022-01-12 00:00:02.207622+01	bleepingcomputer/New-SysJoker-backdoor-targets-Windows-macOS-and-Linux
+759	State hackers use new PowerShell backdoor in Log4j attacks	Hackers believed to be part of the Iranian APT35 state-backed group (aka 'Charming Kitten' or 'Phosphorus') has been observed leveraging Log4Shell attacks to drop a new PowerShell backdoor.	https://www.bleepingcomputer.com/news/security/state-hackers-use-new-powershell-backdoor-in-log4j-attacks/	https://www.bleepstatic.com/content/hl-images/2021/12/13/Log4j___logo.jpg	Bill Toulas	2022-01-12 00:17:45+01	bleepingcomputer	t	2022-01-12 01:00:01.794246+01	bleepingcomputer/State-hackers-use-new-PowerShell-backdoor-in-Log4j-attacks
 \.
 
 
@@ -762,7 +763,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 758, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 759, true);
 
 
 --
