@@ -765,6 +765,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 766	Phishers Rip Off High-Profile EA Gamers	Electronic Arts blamed “human error” after attackers compromised customer support and took over and drained some of the top FIFA Ultimate Team player accounts.	https://kasperskycontenthub.com/threatpost-global/?p=177575	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/12081750/fifa-g8763a41ec_1280-e1641993482784.jpeg	Elizabeth Montalbano	2022-01-12 14:21:33+01	threatpost	t	2022-01-12 15:00:02.06043+01	threatpost/Phishers-Rip-Off-High-Profile-EA-Gamers
 768	Chrome will limit access to private networks, citing security reasons	Google says that its Chrome browser will soon block internet websites from querying and interacting with devices and servers located inside local private networks, citing security reasons and past abuse from malware operations.	https://therecord.media/chrome-will-limit-access-to-private-networks-citing-security-reasons/	https://therecord.media/wp-content/uploads/2021/06/Chrome.png	Catalin Cimpanu	2022-01-12 15:49:23+01	therecord	t	2022-01-12 16:00:02.638281+01	therecord/Chrome-will-limit-access-to-private-networks-citing-security-reasons
 767	This new malware wants to create backdoors and targets Windows, Linux and macOS | ZDNet	Researchers uncovered SysJoker when investigating another cyberattack - and warn that it's likely the work of an advanced hacking operation with the aim of espionage.	https://www.zdnet.com/article/this-new-malware-wants-to-create-backdoors-into-systems-targets-windows-linux-and-macos/	https://www.zdnet.com/a/img/resize/2190eef37fbf130e3f021f93175d8e9aeeb34407/2021/12/13/6af65f57-2326-4a2f-9f6f-035fd5fbd2db/gettyimages-close-up-of-fingers-typing-on-glowing-red-backlight-keys-on-a-computer-keyboard.jpg?width=770&height=578&fit=crop&auto=webp	Danny Palmer	2022-01-12 14:13:00+01	zdnet	t	2022-01-12 16:00:02.638281+01	zdnet/This-new-malware-wants-to-create-backdoors-and-targets-Windows-Linux-and-macOS--ZDNet
+769	New Windows KB5009543, KB5009566 updates break L2TP VPN connections	Windows 10 users and administrators report problems making L2TP VPN connections after installing the recent Windows 10 KB5009543 and Windows 11 KB5009566 cumulative updates.	https://www.bleepingcomputer.com/news/microsoft/new-windows-kb5009543-kb5009566-updates-break-l2tp-vpn-connections/	https://www.bleepstatic.com/content/hl-images/2021/01/13/windows-10-glass-broken.jpg	Lawrence Abrams	2022-01-12 16:40:38+01	bleepingcomputer	t	2022-01-12 17:00:02.035605+01	bleepingcomputer/New-Windows-KB5009543-KB5009566-updates-break-L2TP-VPN-connections
+770	OceanLotus hackers turn to web archive files to deploy backdoors	Vietnamese hackers of the APT32 group (Ocean Lotus) are now using Web Archive files (.mht and .mhtml) to deploy backdoors on their targets.	https://www.bleepingcomputer.com/news/security/oceanlotus-hackers-turn-to-web-archive-files-to-deploy-backdoors/	https://www.bleepstatic.com/content/hl-images/2021/03/25/Hacker.jpg	Bill Toulas	2022-01-12 16:20:43+01	bleepingcomputer	t	2022-01-12 17:00:02.035605+01	bleepingcomputer/OceanLotus-hackers-turn-to-web-archive-files-to-deploy-backdoors
 \.
 
 
@@ -772,7 +774,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 768, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 770, true);
 
 
 --
