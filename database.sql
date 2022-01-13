@@ -796,6 +796,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 797	El Salvador journalists hacked with NSO's Pegasus spyware	The smartphones of dozens of journalists and activists from El Salvador have been hacked with a version of the Pegasus spyware.	https://therecord.media/el-salvador-journalists-hacked-with-nsos-pegasus-spyware/	https://therecord.media/wp-content/uploads/2022/01/El-Salvador.jpg	Catalin Cimpanu	2022-01-13 13:02:39+01	therecord	t	2022-01-13 14:00:02.570863+01	therecord/El-Salvador-journalists-hacked-with-NSOs-Pegasus-spyware
 798	When open-source developers go bad | ZDNet	JavaScript developer Marak Squires wasn't happy about not making money from his open-source libraries, so he deliberately corrupted them, leaving programmers and end-users with dead-in-the-water programs.	https://www.zdnet.com/article/when-open-source-developers-go-bad/	https://www.zdnet.com/a/img/resize/0817cd2ff2c7b4654cfb1aff8e0043653d240f9d/2014/08/18/afdcd90a-26bf-11e4-8c7f-00505685119a/securitys-future-belongs-to-open-source.jpg?width=770&height=578&fit=crop&auto=webp	Steven Vaughan-Nichols	2022-01-13 13:38:00+01	zdnet	t	2022-01-13 15:00:02.358184+01	zdnet/When-open-source-developers-go-bad--ZDNet
 799	Norton's cynical crypto ploy: A dark harbinger of crapware to come? | ZDNet	Anti-malware vendors are taking a page from the malware makers they're supposed to be policing. What if all software vendors decide to embed crypto-miners and skim the profits?	https://www.zdnet.com/article/nortons-cynical-crypto-ploy-a-dark-harbinger-of-crapware-to-come/	https://www.zdnet.com/a/img/resize/39e3d3faaf7b7176d2446c9a63c23b4d20d6def8/2022/01/13/9eafb7e5-f1f9-4369-a375-256b197f5a21/shutterstock-1732038682.jpg?width=770&height=578&fit=crop&auto=webp	David Gewirtz	2022-01-13 13:18:12+01	zdnet	t	2022-01-13 15:00:02.358184+01	zdnet/Nortons-cynical-crypto-ploy-A-dark-harbinger-of-crapware-to-come--ZDNet
+800	What would Russia’s big attack on Ukraine look like?	A Ukrainian defense reporter based in Kyiv shares his thoughts on what an attack from Russia would likely look like on the ground.	https://therecord.media/what-would-russias-big-attack-on-ukraine-look-like/	https://therecord.media/wp-content/uploads/2022/01/Ukraine-kyiv-soldiers-military.jpg	Illia Ponomarenko	2022-01-13 15:50:05+01	therecord	t	2022-01-13 16:00:02.13054+01	therecord/What-would-Russias-big-attack-on-Ukraine-look-like
+801	Adobe Cloud Abused to Steal Office 365, Gmail Credentials	Threat actors are creating accounts within the Adobe Cloud suite and sending images and PDFs that appear legitimate to target Office 365 and Gmail users, researchers from Avanan discovered.	https://kasperskycontenthub.com/threatpost-global/?p=177625	https://media.threatpost.com/wp-content/uploads/sites/103/2021/06/29072304/Adobe-Logo.jpg	Elizabeth Montalbano	2022-01-13 15:00:54+01	threatpost	t	2022-01-13 16:00:02.13054+01	threatpost/Adobe-Cloud-Abused-to-Steal-Office-365-Gmail-Credentials
 \.
 
 
@@ -803,7 +805,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 799, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 801, true);
 
 
 --
