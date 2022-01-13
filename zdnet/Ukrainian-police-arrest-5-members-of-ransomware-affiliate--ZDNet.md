@@ -1,0 +1,66 @@
+# Ukrainian police arrest 5 members of ransomware affiliate | ZDNet
+### This is the latest arrest by Ukrainian officials after multiple raids on ransomware affiliates in 2021.
+
+## Information:
++ Source: ZDNet
++ Link: https://www.zdnet.com/article/ukrainian-police-arrest-members-of-ransomware-affiliate/
++ Date: 2022-01-13 21:30:00
++ Author: Jonathan Greig
+
+
+## Article:
+![Article Image](https://www.zdnet.com/a/img/resize/402495754994a27d82602bba96cfa00d182f9eab/2022/01/13/6a39ffb5-7fca-47fd-ae84-53e61048951d/screen-shot-2022-01-13-at-4-09-35-pm.png?width=770&height=578&fit=crop&auto=webp)
+
+Ukrainian police [announced](https://cyberpolice.gov.ua/news/kiberpolicziya-vykryla-xakerske-ugrupovannya-na-atakax-inozemnyx-kompanij-virusom-shyfruvalnykom-4133/) the arrest of five members of a ransomware affiliate on Thursday, noting that the group was behind attacks on more than 50 companies across Europe and the US. 
+
+In a [statement](https://ssu.gov.ua/novyny/sbu-vykryla-ukraintsiv-yaki-stvoryly-servis-dlia-khakeriv-i-obikraly-50-inozemnykh-kompanii-na-milion-dolariv), both the the Ukrainian Security Service and Ukrainian Cyber Police said the group made at least $1 million through their attacks on the companies.
+
+
+US and UK law enforcement officials worked with Ukrainian officials on the operation. 
+
+Officials said the leader of the group was a 36-year-old who worked with his wife and three other people out of Kyiv. The five are facing a variety of charges in Ukraine related to money laundering, hacking and selling malware. 
+
+One of the people charged is wanted by law enforcement agencies in UK after "using a virus to obtain bank card details of the customers of British banks," according to the police statement. 
+
+The bank card details were used to buy things online that were then resold. 
+
+"Police officers together with law enforcement officers from Great Britain and the United States of America conducted 9 searches in the homes of the suspects and in their cars. Computer equipment, mobile phones, bank cards, flash drives and three cars were seized. Employees of the TOR unit of the Patrol Police Department were also involved in the searches," police officials said. 
+
+![screen-shot-2022-01-13-at-4-09-35-pm.png]()![screen-shot-2022-01-13-at-4-09-35-pm.png](https://www.zdnet.com/a/img/resize/18ecc2228844199cbe127a9ec5681c1b88894340/2022/01/13/bffaee4b-32d0-44b9-9595-6870778c565c/screen-shot-2022-01-13-at-4-09-35-pm.png?width=470&fit=bounds&auto=webp)
+ Ukrainian Security Service
+ 
+
+
+
+
+The Ukrainian Security Service provided more details about the group's activity, explaining that on top of their work with ransomware, they also operated a "VPN-like" service that "allowed you to download computer viruses, spyware and other malicious software through the platform." 
+
+The service was then used by other hackers to break into government systems and companies, spread ransomware and launch DDoS attacks. 
+
+"In order to legalize the funds received from such 'activities' the attackers conducted complex financial transactions using a number of online services, including those banned in Ukraine. At the last stage of cash transfer, they were transferred to the payment cards of an extensive network of fictitious persons," the Ukrainian Security Service said. 
+
+"During the searches carried out at the place of actual residence and stay of the perpetrators and in their cars, mobile phones, computer equipment and other material evidence of illegal activity were found and seized."
+
+This is the latest in [a series of raids and arrests](https://www.zdnet.com/article/egregor-ransomware-operators-arrested-in-ukraine/) by Ukrainian police over the past few years. There were [several announced raids](https://www.zdnet.com/article/ukranian-police-partner-with-us-south-korea-for-raid-on-clop-ransomware-members/) [throughout 2021](https://www.zdnet.com/article/ransomware-police-sting-targets-suspects-behind-1800-attacks-that-wreaked-havoc-across-the-world/) including ones involving the arrest of [Clop ransomware](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/clop-ransomware/) operators and others. 
+
+
+
+
+
+## Tags:
+
+#### Threatactor:
+[[threatactor.name=RTM]]
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Clop]] [[action.malware.name=Net]] [[action.malware.name=njRAT]] [[action.malware.name=RTM]] [[action.malware.name=Tor]]
+
+#### Industry:
+[[victim.industry.name=Finance]]
+
+#### Location:
+[[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.continent.name=Europe]] [[victim.country.name=Ukraine]] [[victim.continent.name=Europe]] [[victim.city.name=Kyiv]] [[victim.country.name=Ukraine]] [[victim.continent.name=Europe]] [[victim.country.name=United States of America]] [[victim.continent.name=North and Central America]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Ransomware]] [[ZDNet]]
+
