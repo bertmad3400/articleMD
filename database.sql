@@ -801,6 +801,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 803	Cyber incident reporting backers pledge to resume push	Proponents of legislation that would mandate certain companies report major cyberattacks vowed on Thursday that they would try to again this year, though they were short on specifics about how such a measure would ultimately be enacted into law.	https://therecord.media/cyber-incident-reporting-backers-pledge-to-resume-push-for-passage/	https://therecord.media/wp-content/uploads/2021/10/Inside-the-Capitol.jpg	Martin Matishak	2022-01-13 16:53:06+01	therecord	t	2022-01-13 17:00:02.725941+01	therecord/Cyber-incident-reporting-backers-pledge-to-resume-push
 804	New GootLoader Campaign Targets Accounting, Law Firms	GootLoader hijacks WordPress sites to lure professionals to download malicious sample contract templates.	https://kasperskycontenthub.com/threatpost-global/?p=177629	https://media.threatpost.com/wp-content/uploads/sites/103/2018/12/14125143/WordPress-5.0-Patch.jpg	Becky Bracken	2022-01-13 16:04:01+01	threatpost	t	2022-01-13 17:00:02.725941+01	threatpost/New-GootLoader-Campaign-Targets-Accounting-Law-Firms
 802	Windows 11 setup: Which user account type should you choose? | ZDNet	When you set up a new PC running Windows 10 or Windows 11, you have a choice of four types of user accounts, from the old-school local account to the newest, Azure Active Directory. Here's how to make the right choice.	https://www.zdnet.com/article/windows-10-which-user-account-type-should-you-choose/	https://www.zdnet.com/a/img/resize/72a7646df0ee7447997ed7fbe666470068e0d5f5/2019/07/22/938be27d-d095-40ab-b007-26979ee3c075/which-windows-account.jpg?width=770&height=578&fit=crop&auto=webp	Ed Bott	2022-01-13 14:49:00+01	zdnet	t	2022-01-13 17:00:02.725941+01	zdnet/Windows-11-setup-Which-user-account-type-should-you-choose--ZDNet
+805	Carding site UniCC retires after generating $358 million in sales	​UniCC, the largest carding site operating on the dark web at the moment, has announced its retirement, claiming reasons of tiredness.	https://www.bleepingcomputer.com/news/security/carding-site-unicc-retires-after-generating-358-million-in-sales/	https://www.bleepstatic.com/content/hl-images/2021/08/09/credit-cards.jpg	Bill Toulas	2022-01-13 17:21:53+01	bleepingcomputer	t	2022-01-13 18:00:02.60154+01	bleepingcomputer/Carding-site-UniCC-retires-after-generating-358-million-in-sales
 \.
 
 
@@ -808,7 +809,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 804, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 805, true);
 
 
 --
