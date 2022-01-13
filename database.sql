@@ -807,6 +807,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 808	After Log4J, White House worries about the next big open source flaw | ZDNet	The White House is holding a meeting today with tech leaders to discuss Log4J and other potential flaws.	https://www.zdnet.com/article/after-log4j-white-house-worries-about-the-next-big-open-source-flaw/	https://www.zdnet.com/a/img/resize/3251b64805aeed4353455ef0824fba6825101b64/2021/11/01/fd27d12f-c8be-4fb5-ba0f-d339b783c136/gettyimages-1236202461.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-13 17:32:51+01	zdnet	t	2022-01-13 19:00:02.176805+01	zdnet/After-Log4J-White-House-worries-about-the-next-big-open-source-flaw--ZDNet
 809	Wireshark creator joins Sysdig to extend it to cloud security | ZDNet	Wireshark, the pro's pro network traffic analysis tool, will soon be extended to cover cloud computing security.	https://www.zdnet.com/article/wireshark-creator-joins-sysdig-to-extend-it-to-cloud-security/	https://www.zdnet.com/a/img/resize/eeec58ff97c52e9bb4364769de319bb4af3d8c9e/2022/01/13/cfe0e377-c34a-486e-acf0-e8a6ba294773/wireshark.jpg?width=770&height=578&fit=crop&auto=webp	Steven Vaughan-Nichols	2022-01-13 17:20:21+01	zdnet	t	2022-01-13 19:00:02.176805+01	zdnet/Wireshark-creator-joins-Sysdig-to-extend-it-to-cloud-security--ZDNet
 810	US Military Ties Prolific MuddyWater Cyberespionage APT to Iran	US Cyber Command linked the group to Iranian intelligence and detailed its multi-pronged, increasingly sophisticated suite of malware tools.	https://kasperskycontenthub.com/threatpost-global/?p=177633	https://media.threatpost.com/wp-content/uploads/sites/103/2019/02/01142104/iran-apt.jpg	Lisa Vaas	2022-01-13 18:35:34+01	threatpost	t	2022-01-13 19:00:02.176805+01	threatpost/US-Military-Ties-Prolific-MuddyWater-Cyberespionage-APT-to-Iran
+811	Microsoft pulls new Windows Server updates due to critical bugs	Microsoft has pulled the January Windows Server cumulative updates after critical bugs caused domain controllers to reboot, Hyper-V to not work, and ReFS volume systems to become unavailable.	https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-new-windows-server-updates-due-to-critical-bugs/	https://www.bleepstatic.com/content/hl-images/2022/01/13/windows-server-on-fire.jpg	Lawrence Abrams	2022-01-13 19:35:33+01	bleepingcomputer	t	2022-01-13 20:00:01.971385+01	bleepingcomputer/Microsoft-pulls-new-Windows-Server-updates-due-to-critical-bugs
+812	Microsoft Defender weakness lets hackers bypass malware detection	Threat actors can take advantage of a weakness that affects Microsoft Defender antivirus on Windows to learn locations excluded from scanning and plant malware there.	https://www.bleepingcomputer.com/news/security/microsoft-defender-weakness-lets-hackers-bypass-malware-detection/	https://www.bleepstatic.com/content/hl-images/2021/09/12/Microsoft-Defender.jpg	Ionut Ilascu	2022-01-13 19:08:36+01	bleepingcomputer	t	2022-01-13 20:00:01.971385+01	bleepingcomputer/Microsoft-Defender-weakness-lets-hackers-bypass-malware-detection
 \.
 
 
@@ -814,7 +816,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 810, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 812, true);
 
 
 --
