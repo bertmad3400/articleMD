@@ -789,6 +789,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 786	Widespread, Easily Exploitable Windows RDP Bug Opens Users to Data Theft	Most Windows versions are at risk of remote, unprivileged attackers abusing RDP from the inside to hijack smart cards and get unauthorized file system access.	https://kasperskycontenthub.com/threatpost-global/?p=177599	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/12153436/pipes.jpg	Lisa Vaas	2022-01-12 22:05:26+01	threatpost	t	2022-01-12 23:00:02.416034+01	threatpost/Widespread-Easily-Exploitable-Windows-RDP-Bug-Opens-Users-to-Data-Theft
 787	Amazon, Azure Clouds Host RAT-ty Trio in Infostealing Campaign	A cloudy campaign delivers commodity remote-access trojans to steal information and execute code.	https://kasperskycontenthub.com/threatpost-global/?p=177606	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/12150239/RATs2-e1642017822522.jpg	Tara Seals	2022-01-12 22:04:58+01	threatpost	t	2022-01-12 23:00:02.416034+01	threatpost/Amazon-Azure-Clouds-Host-RAT-ty-Trio-in-Infostealing-Campaign
 792	Fingers point to Lazarus, Cobalt, FIN7 as key hacking groups attacking finance industry | ZDNet	A deep dive into threats against this sector reveals the top threats organizations should keep in mind.	https://www.zdnet.com/article/fingers-point-to-lazarus-cobalt-fin7-as-key-hacking-groups-focused-on-finance-industry/	https://www.zdnet.com/a/img/resize/99df4069332d26c3cc3ba182e7d8bbd1ad9038c2/2019/02/07/ef896b70-85b9-4651-9ef8-5c9db809517b/istock-1019607698.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-13 08:00:02+01	zdnet	t	2022-01-13 09:00:02.437976+01	zdnet/Fingers-point-to-Lazarus-Cobalt-FIN7-as-key-hacking-groups-attacking-finance-industry--ZDNet
+793	UK jails man for spying on kids, adults with Remote Access Trojans | ZDNet	Malware was used to take explicit photos and videos.	https://www.zdnet.com/article/uk-jails-man-for-spying-on-kids-adults-with-remote-access-trojans/	https://www.zdnet.com/a/img/resize/abf582069e7a0281714d354bce152f508a91f597/2017/01/03/d67aca9f-c583-464d-af92-27a662723d20/istock-mobile-malware.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-13 11:49:44+01	zdnet	t	2022-01-13 13:00:02.470916+01	zdnet/UK-jails-man-for-spying-on-kids-adults-with-Remote-Access-Trojans--ZDNet
 \.
 
 
@@ -796,7 +797,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 792, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 793, true);
 
 
 --
