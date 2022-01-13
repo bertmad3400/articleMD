@@ -809,6 +809,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 810	US Military Ties Prolific MuddyWater Cyberespionage APT to Iran	US Cyber Command linked the group to Iranian intelligence and detailed its multi-pronged, increasingly sophisticated suite of malware tools.	https://kasperskycontenthub.com/threatpost-global/?p=177633	https://media.threatpost.com/wp-content/uploads/sites/103/2019/02/01142104/iran-apt.jpg	Lisa Vaas	2022-01-13 18:35:34+01	threatpost	t	2022-01-13 19:00:02.176805+01	threatpost/US-Military-Ties-Prolific-MuddyWater-Cyberespionage-APT-to-Iran
 811	Microsoft pulls new Windows Server updates due to critical bugs	Microsoft has pulled the January Windows Server cumulative updates after critical bugs caused domain controllers to reboot, Hyper-V to not work, and ReFS volume systems to become unavailable.	https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-new-windows-server-updates-due-to-critical-bugs/	https://www.bleepstatic.com/content/hl-images/2022/01/13/windows-server-on-fire.jpg	Lawrence Abrams	2022-01-13 19:35:33+01	bleepingcomputer	t	2022-01-13 20:00:01.971385+01	bleepingcomputer/Microsoft-pulls-new-Windows-Server-updates-due-to-critical-bugs
 812	Microsoft Defender weakness lets hackers bypass malware detection	Threat actors can take advantage of a weakness that affects Microsoft Defender antivirus on Windows to learn locations excluded from scanning and plant malware there.	https://www.bleepingcomputer.com/news/security/microsoft-defender-weakness-lets-hackers-bypass-malware-detection/	https://www.bleepstatic.com/content/hl-images/2021/09/12/Microsoft-Defender.jpg	Ionut Ilascu	2022-01-13 19:08:36+01	bleepingcomputer	t	2022-01-13 20:00:01.971385+01	bleepingcomputer/Microsoft-Defender-weakness-lets-hackers-bypass-malware-detection
+813	Albuquerque schools are having a cybersecurity snow day—and they aren't alone	Schools are increasingly having to take days off for cyberattacks like they have to take off for extreme weather.	https://therecord.media/albuquerque-schools-are-having-a-cybersecurity-snow-day-and-they-arent-alone/	https://therecord.media/wp-content/uploads/2022/01/ant-rozetsky-H9m6mfeeakU-unsplash-scaled-e1642101395343.jpg	Andrea Peterson	2022-01-13 20:10:13+01	therecord	t	2022-01-13 21:00:02.429335+01	therecord/Albuquerque-schools-are-having-a-cybersecurity-snow-dayand-they-arent-alone
 \.
 
 
@@ -816,7 +817,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 812, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 813, true);
 
 
 --
