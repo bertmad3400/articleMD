@@ -818,6 +818,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 819	North Korean APTs Stole ~$400M in Crypto in 2021	Meanwhile, EtherumMax got sued over an alleged pump-and-dump scam after using celebs like Floyd Mayweather Jr. & Kim Kardashian to promote   EMAX Tokens.	https://kasperskycontenthub.com/threatpost-global/?p=177638	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/13155456/Mayweather-1.jpeg	Becky Bracken	2022-01-13 22:03:09+01	threatpost	t	2022-01-13 23:00:02.201128+01	threatpost/North-Korean-APTs-Stole-400M-in-Crypto-in-2021
 820	Android users can now disable 2G to block Stingray attacks	Google has finally rolled out an option on Android allowing users to disable 2G connections, which come with a host of privacy and security problems exploited by cell-site simulators.	https://www.bleepingcomputer.com/news/security/android-users-can-now-disable-2g-to-block-stingray-attacks/	https://www.bleepstatic.com/content/hl-images/2021/08/23/Cell-towers.jpg	Bill Toulas	2022-01-13 22:56:28+01	bleepingcomputer	t	2022-01-13 23:00:02.201128+01	bleepingcomputer/Android-users-can-now-disable-2G-to-block-Stingray-attacks
 821	FCC wants new data breach reporting rules for telecom carriers	The Federal Communications Commission (FCC) has proposed more rigorous data breach reporting requirements for telecom carriers in response to breaches that recently hit the telecommunications industry.	https://www.bleepingcomputer.com/news/security/fcc-wants-new-data-breach-reporting-rules-for-telecom-carriers/	https://www.bleepstatic.com/content/hl-images/2022/01/13/FCC.jpg	Sergiu Gatlan	2022-01-13 22:39:48+01	bleepingcomputer	t	2022-01-13 23:00:02.201128+01	bleepingcomputer/FCC-wants-new-data-breach-reporting-rules-for-telecom-carriers
+822	New York Power Authority to beef up cybersecurity with new IronNet, AWS deal | ZDNet	New York Power Authority is the nation's largest state public power organization.	https://www.zdnet.com/article/new-york-power-authority-to-beef-up-cybersecurity-with-new-ironnet-aws-deal/	https://www.zdnet.com/a/img/resize/9dbbc66e54cde31abf040372ca909cb79f61ff41/2020/05/14/70bb0273-7de4-4942-9e42-fe761279e0af/power-line-grid-electricity.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-13 22:56:23+01	zdnet	t	2022-01-14 00:00:02.779061+01	zdnet/New-York-Power-Authority-to-beef-up-cybersecurity-with-new-IronNet-AWS-deal--ZDNet
+823	Cyberattack shuts down Albuquerque schools; county copes with ransomware incident | ZDNet	The FBI claimed the cyberattack on the public school system is not connected to the ransomware attack affecting Bernalillo County.	https://www.zdnet.com/article/albuquerque-public-schools-shut-down-by-ransomware-incident/	https://www.zdnet.com/a/img/resize/fc536fc691774fd579af174069459699a0109325/2021/09/01/ef898b12-5580-4808-bd61-46e405610d2f/daycare-school-room.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-13 22:21:00+01	zdnet	t	2022-01-14 00:00:02.779061+01	zdnet/Cyberattack-shuts-down-Albuquerque-schools-county-copes-with-ransomware-incident--ZDNet
 \.
 
 
@@ -825,7 +827,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 821, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 823, true);
 
 
 --
