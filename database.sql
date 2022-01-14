@@ -823,6 +823,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 824	Microsoft Yanks Buggy Windows Server Updates	Since their release on Patch Tuesday, the updates have been breaking Windows, causing spontaneous boot loops on Windows domain controller servers, breaking Hyper-V and making ReFS volume systems unavailable.	https://kasperskycontenthub.com/threatpost-global/?p=177648	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/13180340/broken_windows-e1642115033472.jpg	Lisa Vaas	2022-01-14 00:08:53+01	threatpost	t	2022-01-14 01:00:02.27409+01	threatpost/Microsoft-Yanks-Buggy-Windows-Server-Updates
 825	January 6 House Committee subpoenas Google, Facebook, Twitter and Reddit | ZDNet	The Select Committee issued the subpoenas as part of their investigation into the January 6th attack on the US Capitol.	https://www.zdnet.com/article/january-6-committee-subpoenas-google-facebook-twitter-and-reddit/	https://www.zdnet.com/a/img/resize/73536dcf25ac22b8a7bf496ef128a7a28eb5a2f9/2020/03/06/9d917be8-bcbf-4f4e-bc9c-69755c1c13a6/congress-capitol-hill.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-13 23:56:21+01	zdnet	t	2022-01-14 02:00:02.755474+01	zdnet/January-6-House-Committee-subpoenas-Google-Facebook-Twitter-and-Reddit--ZDNet
 826	Singapore busts network hawking contraband e-vaporisers via Telegram | ZDNet	Health Sciences Authority says smugglers and peddlers have tapped messaging apps, such as Telegram and WeChat, to advertise and sell e-vaporisers, which are prohibited in the country.	https://www.zdnet.com/article/singapore-busts-network-hawking-contraband-e-vaporisers-via-telegram/	https://www.zdnet.com/a/img/resize/62f1d11caa1b5d6f6796785d909c044871e63671/2018/04/13/ea263f81-1835-44d2-b109-924a14ae744c/telegram.jpg?width=770&height=578&fit=crop&auto=webp	Eileen Yu	2022-01-14 06:42:42+01	zdnet	t	2022-01-14 08:00:02.73186+01	zdnet/Singapore-busts-network-hawking-contraband-e-vaporisers-via-Telegram--ZDNet
+827	Analyzing an Old Bug and Discovering CVE-2021-30995	A vulnerability found in 2021 has been patched and re-patched in the months since it was reported. We analyze the bug and outline the process that led to the discovery of CVE-2021-30995. 	https://www.trendmicro.com/en_us/research/22/a/analyzing-an-old-bug-and-discovering-cve-2021-30995-.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/analyzing-an-old-bug-and-discovering-cve-2021-30995-/Old%20Bug%20CVE%20banner.png	\N	2022-01-14 00:00:00+01	trendmicro	t	2022-01-14 12:00:02.491573+01	trendmicro/Analyzing-an-Old-Bug-and-Discovering-CVE-2021-30995
 \.
 
 
@@ -830,7 +831,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 826, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 827, true);
 
 
 --
