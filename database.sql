@@ -842,6 +842,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 843	Real Big Phish: Mobile Phishing & Managing User Fallibility	Phishing is more successful than ever. Daniel Spicer, CSO of Ivanti, discusses emerging trends in phishing, and using zero-trust security to patch the human vulnerabilities underpinning the spike.	https://kasperskycontenthub.com/threatpost-global/?p=177594	https://media.threatpost.com/wp-content/uploads/sites/103/2020/03/17141301/031920-phishing-article-800x550-1.jpg	Daniel Spicer	2022-01-14 17:43:43+01	threatpost	t	2022-01-14 18:00:02.210438+01	threatpost/Real-Big-Phish-Mobile-Phishing--Managing-User-Fallibility
 844	Critical Cisco Contact Center Bug Threatens Customer-Service Havoc	Attackers could access and modify agent resources, telephone queues and other customer-service systems – and access personal information on companies’ customers.	https://kasperskycontenthub.com/threatpost-global/?p=177681	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/14112707/customer-service-e1642177641219.jpg	Tara Seals	2022-01-14 17:37:13+01	threatpost	t	2022-01-14 18:00:02.210438+01	threatpost/Critical-Cisco-Contact-Center-Bug-Threatens-Customer-Service-Havoc
 845	‘Be Afraid:’ Massive Cyberattack Downs Ukrainian Gov’t Sites	As Moscow moves troops and threatens military action, about 70 Ukrainian government sites were hit. “Be afraid” was scrawled on the Foreign Ministry site.	https://kasperskycontenthub.com/threatpost-global/?p=177659	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/14105143/1024px-Ukraine_EU.svg_-e1642175515727.png	Lisa Vaas	2022-01-14 17:06:49+01	threatpost	t	2022-01-14 18:00:02.210438+01	threatpost/Be-Afraid-Massive-Cyberattack-Downs-Ukrainian-Govt-Sites
+846	Defense contractor Hensoldt confirms Lorenz ransomware attack	Hensoldt, a multinational defense contractor headquartered in Germany, has confirmed that some of its UK subsidiary's systems were compromised in a ransomware attack.	https://www.bleepingcomputer.com/news/security/defense-contractor-hensoldt-confirms-lorenz-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2022/01/14/HENSOLDT.jpg	Sergiu Gatlan	2022-01-14 18:33:39+01	bleepingcomputer	t	2022-01-14 19:00:01.885509+01	bleepingcomputer/Defense-contractor-Hensoldt-confirms-Lorenz-ransomware-attack
+847	Top Illicit Carding Marketplace UniCC Abruptly Shuts Down  	UniCC controlled 30 percent of the stolen payment-card data market; leaving analysts eyeing what’s next.	https://kasperskycontenthub.com/threatpost-global/?p=177688	https://media.threatpost.com/wp-content/uploads/sites/103/2014/09/07015031/shutterstock_29251765.jpg	Becky Bracken	2022-01-14 18:31:04+01	threatpost	t	2022-01-14 19:00:01.885509+01	threatpost/Top-Illicit-Carding-Marketplace-UniCC-Abruptly-Shuts-Down
 \.
 
 
@@ -849,7 +851,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 845, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 847, true);
 
 
 --
