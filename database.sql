@@ -872,6 +872,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 873	eNom data center migration knocks hundreds of sites offline	A data center migration from eNom web hosting provider caused unexpected domain resolution problems that are expected to last for a few hours.	https://www.bleepingcomputer.com/news/security/enom-data-center-migration-knocks-hundreds-of-sites-offline/	https://www.bleepstatic.com/content/hl-images/2021/05/04/dns-header.jpg	Ionut Ilascu	2022-01-16 20:42:46+01	bleepingcomputer	t	2022-01-16 21:00:02.119751+01	bleepingcomputer/eNom-data-center-migration-knocks-hundreds-of-sites-offline
 874	eNom data center migration mistakenly knocks sites offline	A data center migration from eNom web hosting provider caused unexpected domain resolution problems that are expected to last for a few hours.	https://www.bleepingcomputer.com/news/security/enom-data-center-migration-mistakenly-knocks-sites-offline/	https://www.bleepstatic.com/content/hl-images/2021/05/04/dns-header.jpg	Ionut Ilascu	2022-01-16 20:42:46+01	bleepingcomputer	t	2022-01-16 22:00:02.192163+01	bleepingcomputer/eNom-data-center-migration-mistakenly-knocks-sites-offline
 875	Microsoft says 'destructive malware' being used against Ukrainian organizations | ZDNet	Security teams at Microsoft said the malware first appeared on victim systems in Ukraine on January 13.	https://www.zdnet.com/article/microsoft-says-destructive-malware-being-used-against-ukrainian-organizations/	https://www.zdnet.com/a/img/resize/5559fe3e87e037f59bf125ad7ee1cd202fc6f3b6/2022/01/14/25e40215-9c9d-4891-8382-e1bb39123b47/ukranian-flag-waving-over-parliament-in-kyiv.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-16 21:33:19+01	zdnet	t	2022-01-16 23:00:02.264995+01	zdnet/Microsoft-says-destructive-malware-being-used-against-Ukrainian-organizations--ZDNet
+876	For security alone, we could try paying open source projects properly | ZDNet	Instead of running around like headless chooks because a widely used piece of open source software is maintained by volunteers and has a massive hole in it, imagine paying someone to look after such software properly.	https://www.zdnet.com/article/for-security-alone-we-could-try-paying-open-source-projects-properly/	https://www.zdnet.com/a/img/resize/1e045a0082791f03dbde28c1e9ea3b048ab98ad6/2022/01/14/048e6c79-393d-46b6-b50f-9bce0aafe6c3/log4j-gettyimages.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2022-01-16 22:00:06+01	zdnet	t	2022-01-17 00:00:02.601228+01	zdnet/For-security-alone-we-could-try-paying-open-source-projects-properly--ZDNet
 \.
 
 
@@ -879,7 +880,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 875, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 876, true);
 
 
 --
