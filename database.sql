@@ -866,6 +866,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 867	Qlocker ransomware returns to target QNAP NAS devices worldwide	Threat actors behind the Qlocker ransomware are once again targeting Internet-exposed QNAP Network Attached Storage (NAS) devices worldwide.	https://www.bleepingcomputer.com/news/security/qlocker-ransomware-returns-to-target-qnap-nas-devices-worldwide/	https://www.bleepstatic.com/content/hl-images/2021/09/30/QNAP.jpg	Sergiu Gatlan	2022-01-15 17:20:00+01	bleepingcomputer	t	2022-01-15 19:00:02.513976+01	bleepingcomputer/Qlocker-ransomware-returns-to-target-QNAP-NAS-devices-worldwide
 868	Linux malware sees 35% growth during 2021	The number of malware infections on Linux-based IoT (internet of things) devices rose by 35% in 2021 compared to the previous year's numbers. The principal goal was recruiting devices to be part of DDoS (distributed denial of service) attacks.	https://www.bleepingcomputer.com/news/security/linux-malware-sees-35-percent-growth-during-2021/	https://www.bleepstatic.com/content/hl-images/2022/01/14/linux-security-headpic.jpg	Bill Toulas	2022-01-15 16:12:24+01	bleepingcomputer	t	2022-01-15 19:00:02.513976+01	bleepingcomputer/Linux-malware-sees-35-growth-during-2021
 869	npm dependency is breaking some React apps today — here's the fix	Tons of users are reporting their Facebook Create React App builds are failing since yesterday. The cause has been traced down to a dependency used by create-react-app, the latest version of which is breaking developers' apps.	https://www.bleepingcomputer.com/news/security/npm-dependency-is-breaking-some-react-apps-today-heres-the-fix/	https://www.bleepstatic.com/content/hl-images/2019/08/21/NPM.jpg	Ax Sharma	2022-01-15 18:35:00+01	bleepingcomputer	t	2022-01-15 21:00:01.951075+01	bleepingcomputer/npm-dependency-is-breaking-some-React-apps-today--heres-the-fix
+870	Moscow court charges 8 alleged REvil ransomware hackers | ZDNet	Russian law enforcement officials said they initially detained 14 people during a series of raids across the country this week.	https://www.zdnet.com/article/moscow-court-charges-8-revil-ransomware-hackers/	https://www.zdnet.com/a/img/resize/ddedba05f7852676963eaff57fec96b84c36c5b3/2018/06/15/b669af59-ed33-4265-9463-71d8853564ef/russianflagheroarticleistock470782316adrianhancu-1.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-15 23:38:48+01	zdnet	t	2022-01-16 01:00:02.146972+01	zdnet/Moscow-court-charges-8-alleged-REvil-ransomware-hackers--ZDNet
 \.
 
 
@@ -873,7 +874,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 869, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 870, true);
 
 
 --
