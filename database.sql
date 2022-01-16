@@ -871,6 +871,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 872	Microsoft: Fake ransomware targets Ukraine in data-wiping attacks	Microsoft is warning of destructive data-wiping malware disguised as ransomware being used in attacks against multiple organizations in Ukraine.	https://www.bleepingcomputer.com/news/security/microsoft-fake-ransomware-targets-ukraine-in-data-wiping-attacks/	https://www.bleepstatic.com/content/hl-images/2022/01/16/ukraine-flag-storm-clouds.jpg	Lawrence Abrams	2022-01-16 19:32:35+01	bleepingcomputer	t	2022-01-16 20:00:02.439885+01	bleepingcomputer/Microsoft-Fake-ransomware-targets-Ukraine-in-data-wiping-attacks
 873	eNom data center migration knocks hundreds of sites offline	A data center migration from eNom web hosting provider caused unexpected domain resolution problems that are expected to last for a few hours.	https://www.bleepingcomputer.com/news/security/enom-data-center-migration-knocks-hundreds-of-sites-offline/	https://www.bleepstatic.com/content/hl-images/2021/05/04/dns-header.jpg	Ionut Ilascu	2022-01-16 20:42:46+01	bleepingcomputer	t	2022-01-16 21:00:02.119751+01	bleepingcomputer/eNom-data-center-migration-knocks-hundreds-of-sites-offline
 874	eNom data center migration mistakenly knocks sites offline	A data center migration from eNom web hosting provider caused unexpected domain resolution problems that are expected to last for a few hours.	https://www.bleepingcomputer.com/news/security/enom-data-center-migration-mistakenly-knocks-sites-offline/	https://www.bleepstatic.com/content/hl-images/2021/05/04/dns-header.jpg	Ionut Ilascu	2022-01-16 20:42:46+01	bleepingcomputer	t	2022-01-16 22:00:02.192163+01	bleepingcomputer/eNom-data-center-migration-mistakenly-knocks-sites-offline
+875	Microsoft says 'destructive malware' being used against Ukrainian organizations | ZDNet	Security teams at Microsoft said the malware first appeared on victim systems in Ukraine on January 13.	https://www.zdnet.com/article/microsoft-says-destructive-malware-being-used-against-ukrainian-organizations/	https://www.zdnet.com/a/img/resize/5559fe3e87e037f59bf125ad7ee1cd202fc6f3b6/2022/01/14/25e40215-9c9d-4891-8382-e1bb39123b47/ukranian-flag-waving-over-parliament-in-kyiv.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-16 21:33:19+01	zdnet	t	2022-01-16 23:00:02.264995+01	zdnet/Microsoft-says-destructive-malware-being-used-against-Ukrainian-organizations--ZDNet
 \.
 
 
@@ -878,7 +879,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 874, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 875, true);
 
 
 --
