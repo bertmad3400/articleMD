@@ -877,6 +877,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 878	Cellular networks revolt against Apple privacy moves	Every time Apple tries to bolster user privacy into the digital world — whether it's Do Not Track or iCloud Private Relay —  it gets pushback.	https://www.computerworld.com/article/3646617/cellular-networks-revolt-against-apple-privacy-moves.html	https://images.idgesg.net/images/article/2021/03/apple-privacy-100879405-large.jpg?auto=webp&quality=85,70	Jonny Evans	2022-01-12 15:43:00+01	computerworld	t	2022-01-17 13:00:02.079846+01	computerworld/Cellular-networks-revolt-against-Apple-privacy-moves
 879	2G's security weaknesses are still a problem, even for modern phones | ZDNet	EFF urges Apple to follow Google and give smartphone users the option to dodge 2G.	https://www.zdnet.com/article/2gs-security-weaknesses-are-still-a-problem-even-for-modern-phones/	https://www.zdnet.com/a/img/resize/2b7cef157d5879210d71e1b73b799895d1086dc6/2021/09/21/9ace91bb-15e2-4b5f-90dc-a721785f2af9/shutterstock-129038348.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2022-01-17 11:10:32+01	zdnet	t	2022-01-17 13:00:02.079846+01	zdnet/2Gs-security-weaknesses-are-still-a-problem-even-for-modern-phones--ZDNet
 880	DHL, Microsoft, WhatsApp top phishing list of most imitated brands | ZDNet	Google, LinkedIn and Amazon also ranked highly on Check Point Research's list.	https://www.zdnet.com/article/dhl-microsoft-whatsapp-top-phishing-list-of-most-imitated-brands/	https://www.zdnet.com/a/img/resize/daac892a2ede4ddc4d5179edd2d777e7c555a89d/2022/01/17/03654187-b354-423f-8619-ea98ce3fe98c/image007.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-17 11:00:01+01	zdnet	t	2022-01-17 13:00:02.079846+01	zdnet/DHL-Microsoft-WhatsApp-top-phishing-list-of-most-imitated-brands--ZDNet
+881	Earth Lusca Employs Sophisticated Infrastructure, Varied Tools and Techniques	Our technical brief provides an in-depth look at Earth Lusca’s activities, the tools it employs in attacks, and the infrastructure it uses.	https://www.trendmicro.com/en_us/research/22/a/earth-lusca-sophisticated-infrastructure-varied-tools-and-techni.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/earth-lusca-641.png	\N	2022-01-17 00:00:00+01	trendmicro	t	2022-01-17 14:00:01.967287+01	trendmicro/Earth-Lusca-Employs-Sophisticated-Infrastructure-Varied-Tools-and-Techniques
 \.
 
 
@@ -884,7 +885,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 880, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 881, true);
 
 
 --
