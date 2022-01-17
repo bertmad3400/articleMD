@@ -887,6 +887,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 887	NoReboot iOS Attack Prevents Your iPhone From Turning Off Or Reboot	The NoReboot attack manipulates the iOS daemons into making the phone unresponsive, hence simulating false reboots.	https://latesthackingnews.com/2022/01/17/noreboot-ios-attack-prevents-your-iphone-from-turning-off-or-reboot/	https://latesthackingnews.com/wp-content/uploads/2018/09/CSS-based-web-attack-crashing-iPhone.jpg	Abeerah Hashim	2022-01-17 00:00:00+01	latesthackingnews	t	2022-01-17 16:00:02.358379+01	latesthackingnews/NoReboot-iOS-Attack-Prevents-Your-iPhone-From-Turning-Off-Or-Reboot
 888	SysJoker Backdoor Arrives As A Potent Multi-Platform Espionage Threat	SysJoker backdoor malware targets Linux, macOS, and Windows systems alike with specially-crafted versions. The malware is active in the wild.	https://latesthackingnews.com/2022/01/17/sysjoker-backdoor-arrives-as-a-potent-multi-platform-espionage-threat/	https://latesthackingnews.com/wp-content/uploads/2020/06/malware-attack.jpg	Abeerah Hashim	2022-01-17 00:00:00+01	latesthackingnews	t	2022-01-17 17:00:02.725539+01	latesthackingnews/SysJoker-Backdoor-Arrives-As-A-Potent-Multi-Platform-Espionage-Threat
 889	It's not just you: Telegram is down for many users	Telegram users are currently experiencing issues around the world, with users unable to use the desktop and mobile apps.	https://www.bleepingcomputer.com/news/technology/its-not-just-you-telegram-is-down-for-many-users/	https://www.bleepstatic.com/content/hl-images/2021/12/08/Telegram_headpic.jpg	Mayank Parmar	2022-01-17 16:01:23+01	bleepingcomputer	t	2022-01-17 17:00:02.725539+01	bleepingcomputer/Its-not-just-you-Telegram-is-down-for-many-users
+891	Cyber espionage campaign targets renewable energy companies	A large-scale cyber-espionage campaign targeting primarily renewable energy and industrial technology organizations have been discovered to be active since at least 2019, targeting over fifteen entities worldwide.	https://www.bleepingcomputer.com/news/security/cyber-espionage-campaign-targets-renewable-energy-companies/	https://www.bleepstatic.com/content/hl-images/2022/01/17/windmills.jpg	Bill Toulas	2022-01-17 17:38:01+01	bleepingcomputer	t	2022-01-17 18:00:02.630114+01	bleepingcomputer/Cyber-espionage-campaign-targets-renewable-energy-companies
 \.
 
 
@@ -894,7 +895,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 890, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 891, true);
 
 
 --
