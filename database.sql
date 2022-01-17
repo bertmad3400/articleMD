@@ -896,6 +896,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 897	Zoho patches new critical authentication bypass in Desktop Central	Zoho has addressed a new critical severity vulnerability found to affect the company's Desktop Central and Desktop Central MSP  unified endpoint management (UEM) solutions.	https://www.bleepingcomputer.com/news/security/zoho-patches-new-critical-authentication-bypass-in-desktop-central/	https://www.bleepstatic.com/content/hl-images/2022/01/17/Zoho.jpg	Sergiu Gatlan	2022-01-17 19:04:18+01	bleepingcomputer	t	2022-01-17 20:00:02.748162+01	bleepingcomputer/Zoho-patches-new-critical-authentication-bypass-in-Desktop-Central
 898	Microsoft: Edge will mitigate 'unforeseen active' zero day bugs	Microsoft Edge has added a new feature to the Beta channel that will be able to mitigate future in-the-wild exploitation of unknown zero-day vulnerabilities.	https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-will-mitigate-unforeseen-active-zero-day-bugs/	https://www.bleepstatic.com/content/hl-images/2021/06/01/Microsoft-Edge.jpg	Sergiu Gatlan	2022-01-17 20:51:50+01	bleepingcomputer	t	2022-01-17 21:00:01.818609+01	bleepingcomputer/Microsoft-Edge-will-mitigate-unforeseen-active-zero-day-bugs
 899	Firefox Relay's addition to disposable email blocklist upsets users	The maintainers of a disposable email service blocklist have decided to add Firefox Relay to the list, leaving many users of the service upset. Firefox Relay is a privacy-centric email service that enables users to protect their real email addresses and hence limit spam.	https://www.bleepingcomputer.com/news/security/firefox-relays-addition-to-disposable-email-blocklist-upsets-users/	https://www.bleepstatic.com/content/hl-images/2021/04/26/guitar-on-fire.jpg	Ax Sharma	2022-01-17 20:33:56+01	bleepingcomputer	t	2022-01-17 21:00:01.818609+01	bleepingcomputer/Firefox-Relays-addition-to-disposable-email-blocklist-upsets-users
+900	Microsoft releases OOB updates for January Windows update issues	Microsoft has released emergency out-of-band (OOB) updates to address multiple issues caused by Windows Updates issued during the January 2021 Patch Tuesday.	https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-oob-updates-for-january-windows-update-issues/	https://www.bleepstatic.com/content/hl-images/2021/09/20/Windows.jpg	Sergiu Gatlan	2022-01-17 23:46:17+01	bleepingcomputer	t	2022-01-18 00:00:02.20012+01	bleepingcomputer/Microsoft-releases-OOB-updates-for-January-Windows-update-issues
 \.
 
 
@@ -903,7 +904,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 899, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 900, true);
 
 
 --
