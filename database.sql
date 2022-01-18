@@ -912,6 +912,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 913	Microsoft: This new browser feature is 'huge step forward' against zero-day threats | ZDNet	Microsoft brings out its Windows exploit mitigation technologies to protect surfers from zero-day exploits on the web.	https://www.zdnet.com/article/microsoft-says-its-new-browser-feature-is-huge-step-forward-against-zero-day-threats/	https://www.zdnet.com/a/img/resize/11e6b44ed58323dd4ca2edad367cc9df74cf77d7/2022/01/18/f6f5b7c0-e9f4-4336-be01-9c5233689785/shutterstock-608208689.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2022-01-18 11:56:12+01	zdnet	t	2022-01-18 13:00:02.750723+01	zdnet/Microsoft-This-new-browser-feature-is-huge-step-forward-against-zero-day-threats--ZDNet
 914	UK government announces crackdown on cryptocurrency adverts | ZDNet	Officials want to ensure ads are fair and clear.	https://www.zdnet.com/article/uk-government-announces-crackdown-on-cryptocurrency-adverts/	https://www.zdnet.com/a/img/resize/c9e90b3dd5f9bdb9a5f2ce2f7345eae3540e6edd/2021/07/08/171c5205-7081-4092-accf-78fcc659aa0c/cryptocurrency-scam-apps.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-18 11:19:02+01	zdnet	t	2022-01-18 13:00:02.750723+01	zdnet/UK-government-announces-crackdown-on-cryptocurrency-adverts--ZDNet
 915	This VPN service used by cyber criminals to deliver ransomware has just been taken down by police | ZDNet	Joint action supported by Europol has seized servers used by criminals and identified more than 100 businesses that have fallen victim to attacks.	https://www.zdnet.com/article/this-vpn-service-used-by-cyber-criminals-to-deliver-ransomware-has-just-been-taken-down-by-police/	https://www.zdnet.com/a/img/resize/6b8298b39e249a643d299a12a90c869ec3826b40/2022/01/18/b2616ef5-f0cb-4128-9440-28475f48087c/vpn-lab-takedown-crop.png?width=770&height=578&fit=crop&auto=webp	Danny Palmer	2022-01-18 11:04:29+01	zdnet	t	2022-01-18 13:00:02.750723+01	zdnet/This-VPN-service-used-by-cyber-criminals-to-deliver-ransomware-has-just-been-taken-down-by-police--ZDNet
+916	Brazilian Ministry of Health recovers systems over a month after cyberattack | ZDNet	Attackers had access credentials, according to the department; minister rules out internal sabotage	https://www.zdnet.com/article/brazilian-ministry-of-health-recovers-systems-over-a-month-after-cyberattack/	https://www.zdnet.com/a/img/resize/d540b54670fe461cbed0e1ac364d01d156f8a607/2014/09/18/629b63fd-3f11-11e4-b6a0-d4ae52e95e57/g-20-encouraged-to-consider-cyberattacks-global-economic-threat.jpg?width=770&height=578&fit=crop&auto=webp	Angelica Mari	2022-01-18 12:07:00+01	zdnet	t	2022-01-18 14:00:02.709703+01	zdnet/Brazilian-Ministry-of-Health-recovers-systems-over-a-month-after-cyberattack--ZDNet
 \.
 
 
@@ -919,7 +920,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 915, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 916, true);
 
 
 --
