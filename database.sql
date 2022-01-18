@@ -902,6 +902,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 903	Zoho plugs another critical security hole in Desktop Central	Zoho has addressed a new critical severity vulnerability found to affect the company's Desktop Central and Desktop Central MSP  unified endpoint management (UEM) solutions.	https://www.bleepingcomputer.com/news/security/zoho-plugs-another-critical-security-hole-in-desktop-central/	https://www.bleepstatic.com/content/hl-images/2022/01/17/Zoho.jpg	Sergiu Gatlan	2022-01-17 19:04:18+01	bleepingcomputer	t	2022-01-18 01:00:02.08288+01	bleepingcomputer/Zoho-plugs-another-critical-security-hole-in-Desktop-Central
 904	Report: Going to the Beijing Olympics? Leave anything with an electron home	According to a new report, visitors to China during the Olympics who use local VPN software could unwittingly hand their user data over to the authorities.	https://therecord.media/report-going-to-the-beijing-olympics-leave-your-cellphone-home/	https://therecord.media/wp-content/uploads/2022/01/bryan-turner-mF9m6BRHCtg-unsplash-1.jpg	Dina Temple-Raston	2022-01-18 01:52:23+01	therecord	t	2022-01-18 02:00:01.858101+01	therecord/Report-Going-to-the-Beijing-Olympics-Leave-anything-with-an-electron-home
 905	Microsoft releases emergency fixes for Windows Server, VPN bugs	Microsoft has released emergency out-of-band (OOB) updates to address multiple issues caused by Windows Updates issued during the January 2021 Patch Tuesday.	https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-fixes-for-windows-server-vpn-bugs/	https://www.bleepstatic.com/content/hl-images/2021/09/20/Windows.jpg	Sergiu Gatlan	2022-01-17 23:46:17+01	bleepingcomputer	t	2022-01-18 05:00:02.197169+01	bleepingcomputer/Microsoft-releases-emergency-fixes-for-Windows-Server-VPN-bugs
+906	OAIC wants stronger accountability measures in upcoming revised Privacy Act | ZDNet	Australia's Information Commissioner has called for a positive duty on organisations to handle personal information fairly and reasonably in light of the federal government considering amendments to the Privacy Act.	https://www.zdnet.com/article/oaic-wants-stronger-accountability-measures-in-upcoming-revised-privacy-act/	https://www.zdnet.com/a/img/resize/42128f44a0124d436bbca3a9377087a9fe4b6a30/2019/11/01/5b4d0413-dafd-44fd-849a-1934fd689c14/istock-938732700.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-18 04:59:39+01	zdnet	t	2022-01-18 06:00:02.158535+01	zdnet/OAIC-wants-stronger-accountability-measures-in-upcoming-revised-Privacy-Act--ZDNet
 \.
 
 
@@ -909,7 +910,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 905, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 906, true);
 
 
 --
