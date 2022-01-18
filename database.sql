@@ -925,6 +925,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 926	Ransomware: 2,300+ local governments, schools, healthcare providers impacted in 2021 | ZDNet	An Emsisoft report found that more than 1,000 schools alone were disrupted by ransomware incidents.	https://www.zdnet.com/article/2300-local-governments-schools-healthcare-providers-impacted-by-ransomware-in-2021/	https://www.zdnet.com/a/img/resize/4a06d1168f3d7d2de8b19b89aac91b5769f6dc16/2022/01/18/3f0faa93-f8cb-4509-b6d8-fc5216afde09/shutterstock-611317976.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-18 20:09:00+01	zdnet	t	2022-01-18 22:00:02.397364+01	zdnet/Ransomware-2300-local-governments-schools-healthcare-providers-impacted-in-2021--ZDNet
 927	Microsoft leak: Third-party widgets coming soon to Windows 11	A Microsoft developer document has leaked the company's plans for third-party widgets coming soon to the Windows 11 Widgets feature.	https://www.bleepingcomputer.com/news/microsoft/microsoft-leak-third-party-widgets-coming-soon-to-windows-11/	https://www.bleepstatic.com/content/hl-images/2021/06/15/Win--11-flare.jpg	Lawrence Abrams	2022-01-18 21:50:41+01	bleepingcomputer	t	2022-01-18 22:00:02.397364+01	bleepingcomputer/Microsoft-leak-Third-party-widgets-coming-soon-to-Windows-11
 928	The Log4j Vulnerability Puts Pressure on the Security World	It's time to sound the alarm for Log4Shell. Saryu Nayyar, CEO at Gurucul, discusses what actions you should be taking.	https://kasperskycontenthub.com/threatpost-global/?p=177721	https://media.threatpost.com/wp-content/uploads/sites/103/2019/07/31143348/honda-data-leak.jpeg	Saryu Nayyar	2022-01-18 21:21:04+01	threatpost	t	2022-01-18 22:00:02.397364+01	threatpost/The-Log4j-Vulnerability-Puts-Pressure-on-the-Security-World
+929	A top Ukrainian security official on defending the nation against cyber attacks	In the wake of an escalating crisis between Ukraine and Russia, Serhii Demediuk agreed to a follow-up interview in which he discussed issues including the recent defacement of Ukrainian websites, the security of the country’s critical infrastructure, and Russia’s motivations.	https://therecord.media/a-top-ukrainian-security-official-on-defending-the-nation-against-cyber-attacks/	https://therecord.media/wp-content/uploads/2022/01/serheii-demediuk-russia-ukraine-1.jpg	Dmitry Smilyanets	2022-01-18 22:54:05+01	therecord	t	2022-01-18 23:00:02.415182+01	therecord/A-top-Ukrainian-security-official-on-defending-the-nation-against-cyber-attacks
+930	Telegram is a hotspot for the sale of stolen financial accounts	Telegram is increasingly abused by cybercriminals to set up underground channels to sell stolen financial details to pseudonymous users.	https://www.bleepingcomputer.com/news/security/telegram-is-a-hotspot-for-the-sale-of-stolen-financial-accounts/	https://www.bleepstatic.com/content/hl-images/2021/12/08/Telegram.jpg	Bill Toulas	2022-01-18 22:39:50+01	bleepingcomputer	t	2022-01-18 23:00:02.415182+01	bleepingcomputer/Telegram-is-a-hotspot-for-the-sale-of-stolen-financial-accounts
 \.
 
 
@@ -932,7 +934,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 928, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 930, true);
 
 
 --
