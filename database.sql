@@ -913,6 +913,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 914	UK government announces crackdown on cryptocurrency adverts | ZDNet	Officials want to ensure ads are fair and clear.	https://www.zdnet.com/article/uk-government-announces-crackdown-on-cryptocurrency-adverts/	https://www.zdnet.com/a/img/resize/c9e90b3dd5f9bdb9a5f2ce2f7345eae3540e6edd/2021/07/08/171c5205-7081-4092-accf-78fcc659aa0c/cryptocurrency-scam-apps.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-18 11:19:02+01	zdnet	t	2022-01-18 13:00:02.750723+01	zdnet/UK-government-announces-crackdown-on-cryptocurrency-adverts--ZDNet
 915	This VPN service used by cyber criminals to deliver ransomware has just been taken down by police | ZDNet	Joint action supported by Europol has seized servers used by criminals and identified more than 100 businesses that have fallen victim to attacks.	https://www.zdnet.com/article/this-vpn-service-used-by-cyber-criminals-to-deliver-ransomware-has-just-been-taken-down-by-police/	https://www.zdnet.com/a/img/resize/6b8298b39e249a643d299a12a90c869ec3826b40/2022/01/18/b2616ef5-f0cb-4128-9440-28475f48087c/vpn-lab-takedown-crop.png?width=770&height=578&fit=crop&auto=webp	Danny Palmer	2022-01-18 11:04:29+01	zdnet	t	2022-01-18 13:00:02.750723+01	zdnet/This-VPN-service-used-by-cyber-criminals-to-deliver-ransomware-has-just-been-taken-down-by-police--ZDNet
 916	Brazilian Ministry of Health recovers systems over a month after cyberattack | ZDNet	Attackers had access credentials, according to the department; minister rules out internal sabotage	https://www.zdnet.com/article/brazilian-ministry-of-health-recovers-systems-over-a-month-after-cyberattack/	https://www.zdnet.com/a/img/resize/d540b54670fe461cbed0e1ac364d01d156f8a607/2014/09/18/629b63fd-3f11-11e4-b6a0-d4ae52e95e57/g-20-encouraged-to-consider-cyberattacks-global-economic-threat.jpg?width=770&height=578&fit=crop&auto=webp	Angelica Mari	2022-01-18 12:07:00+01	zdnet	t	2022-01-18 14:00:02.709703+01	zdnet/Brazilian-Ministry-of-Health-recovers-systems-over-a-month-after-cyberattack--ZDNet
+917	Beijing 2022 Winter Olympics app bursting with privacy risks	The official app for Beijing 2022 Winter Olympics, 'My 2022,' was found to be insecure when it comes to protecting the sensitive data of its users.	https://www.bleepingcomputer.com/news/security/beijing-2022-winter-olympics-app-bursting-with-privacy-risks/	https://www.bleepstatic.com/content/hl-images/2022/01/18/winter-olympics.jpg	Bill Toulas	2022-01-18 15:50:46+01	bleepingcomputer	t	2022-01-18 16:00:02.684741+01	bleepingcomputer/Beijing-2022-Winter-Olympics-app-bursting-with-privacy-risks
+918	Organizations Face a ‘Losing Battle’ Against Vulnerabilities	Companies must take more ‘innovative and proactive’ approaches to security in 2022 to combat threats that emerged last year, researchers said.	https://kasperskycontenthub.com/threatpost-global/?p=177696	https://media.threatpost.com/wp-content/uploads/sites/103/2021/05/03113716/bug-malware.jpg	Elizabeth Montalbano	2022-01-18 15:03:08+01	threatpost	t	2022-01-18 16:00:02.684741+01	threatpost/Organizations-Face-a-Losing-Battle-Against-Vulnerabilities
 \.
 
 
@@ -920,7 +922,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 916, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 918, true);
 
 
 --
