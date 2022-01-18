@@ -917,6 +917,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 918	Organizations Face a ‘Losing Battle’ Against Vulnerabilities	Companies must take more ‘innovative and proactive’ approaches to security in 2022 to combat threats that emerged last year, researchers said.	https://kasperskycontenthub.com/threatpost-global/?p=177696	https://media.threatpost.com/wp-content/uploads/sites/103/2021/05/03113716/bug-malware.jpg	Elizabeth Montalbano	2022-01-18 15:03:08+01	threatpost	t	2022-01-18 16:00:02.684741+01	threatpost/Organizations-Face-a-Losing-Battle-Against-Vulnerabilities
 919	Critical ManageEngine Desktop Server Bug Opens Orgs to Malware	Zoho's comprehensive endpoint-management platform suffers from an authentication-bypass bug (CVE-2021-44757) that could lead to remote code execution.	https://kasperskycontenthub.com/threatpost-global/?p=177705	https://media.threatpost.com/wp-content/uploads/sites/103/2019/12/10155925/patches-700-e1620143205600.jpg	Tara Seals	2022-01-18 16:44:21+01	threatpost	t	2022-01-18 17:00:02.753171+01	threatpost/Critical-ManageEngine-Desktop-Server-Bug-Opens-Orgs-to-Malware
 920	New White Rabbit ransomware linked to FIN8 hacking group	A new ransomware family called 'White Rabbit' appeared in the wild recently, and according to recent research findings, could be a side-operation of the FIN8 hacking group.	https://www.bleepingcomputer.com/news/security/new-white-rabbit-ransomware-linked-to-fin8-hacking-group/	https://www.bleepstatic.com/content/hl-images/2022/01/18/white-rabbit-header-larger.jpg	Bill Toulas	2022-01-18 17:56:00+01	bleepingcomputer	t	2022-01-18 18:00:02.720825+01	bleepingcomputer/New-White-Rabbit-ransomware-linked-to-FIN8-hacking-group
+921	How tech is a weapon in modern domestic abuse -- and how to protect yourself | ZDNet	From Apple AirTags to stalkerware, everyday tech can be used against you.	https://www.zdnet.com/article/how-todays-technologies-become-weapons-in-modern-domestic-abuse/	https://www.zdnet.com/a/img/resize/cf87f2af779b6fd791d7500044064b7afaa16833/2022/01/18/90b0bc44-9fe0-4058-b283-19a2a81cd9b7/screenshot-2022-01-18-at-15-40-39.png?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-18 17:35:44+01	zdnet	t	2022-01-18 19:00:01.899963+01	zdnet/How-tech-is-a-weapon-in-modern-domestic-abuse----and-how-to-protect-yourself--ZDNet
+922	New ‘White Rabbit’ Ransomware May Be New FIN8 Tool	It's a double-extortion play that uses the command-line password ‘KissMe’ to hide its nasty acts and adorns its ransom note with cutesy ASCII bunny art.	https://kasperskycontenthub.com/threatpost-global/?p=177703	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/18120214/white-bunny.jpg	Lisa Vaas	2022-01-18 18:23:12+01	threatpost	t	2022-01-18 19:00:01.899963+01	threatpost/New-White-Rabbit-Ransomware-May-Be-New-FIN8-Tool
 \.
 
 
@@ -924,7 +926,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 920, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 922, true);
 
 
 --
