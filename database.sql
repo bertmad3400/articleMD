@@ -915,6 +915,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 916	Brazilian Ministry of Health recovers systems over a month after cyberattack | ZDNet	Attackers had access credentials, according to the department; minister rules out internal sabotage	https://www.zdnet.com/article/brazilian-ministry-of-health-recovers-systems-over-a-month-after-cyberattack/	https://www.zdnet.com/a/img/resize/d540b54670fe461cbed0e1ac364d01d156f8a607/2014/09/18/629b63fd-3f11-11e4-b6a0-d4ae52e95e57/g-20-encouraged-to-consider-cyberattacks-global-economic-threat.jpg?width=770&height=578&fit=crop&auto=webp	Angelica Mari	2022-01-18 12:07:00+01	zdnet	t	2022-01-18 14:00:02.709703+01	zdnet/Brazilian-Ministry-of-Health-recovers-systems-over-a-month-after-cyberattack--ZDNet
 917	Beijing 2022 Winter Olympics app bursting with privacy risks	The official app for Beijing 2022 Winter Olympics, 'My 2022,' was found to be insecure when it comes to protecting the sensitive data of its users.	https://www.bleepingcomputer.com/news/security/beijing-2022-winter-olympics-app-bursting-with-privacy-risks/	https://www.bleepstatic.com/content/hl-images/2022/01/18/winter-olympics.jpg	Bill Toulas	2022-01-18 15:50:46+01	bleepingcomputer	t	2022-01-18 16:00:02.684741+01	bleepingcomputer/Beijing-2022-Winter-Olympics-app-bursting-with-privacy-risks
 918	Organizations Face a ‘Losing Battle’ Against Vulnerabilities	Companies must take more ‘innovative and proactive’ approaches to security in 2022 to combat threats that emerged last year, researchers said.	https://kasperskycontenthub.com/threatpost-global/?p=177696	https://media.threatpost.com/wp-content/uploads/sites/103/2021/05/03113716/bug-malware.jpg	Elizabeth Montalbano	2022-01-18 15:03:08+01	threatpost	t	2022-01-18 16:00:02.684741+01	threatpost/Organizations-Face-a-Losing-Battle-Against-Vulnerabilities
+919	Critical ManageEngine Desktop Server Bug Opens Orgs to Malware	Zoho's comprehensive endpoint-management platform suffers from an authentication-bypass bug (CVE-2021-44757) that could lead to remote code execution.	https://kasperskycontenthub.com/threatpost-global/?p=177705	https://media.threatpost.com/wp-content/uploads/sites/103/2019/12/10155925/patches-700-e1620143205600.jpg	Tara Seals	2022-01-18 16:44:21+01	threatpost	t	2022-01-18 17:00:02.753171+01	threatpost/Critical-ManageEngine-Desktop-Server-Bug-Opens-Orgs-to-Malware
 \.
 
 
@@ -922,7 +923,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 918, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 919, true);
 
 
 --
