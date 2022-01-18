@@ -927,6 +927,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 928	The Log4j Vulnerability Puts Pressure on the Security World	It's time to sound the alarm for Log4Shell. Saryu Nayyar, CEO at Gurucul, discusses what actions you should be taking.	https://kasperskycontenthub.com/threatpost-global/?p=177721	https://media.threatpost.com/wp-content/uploads/sites/103/2019/07/31143348/honda-data-leak.jpeg	Saryu Nayyar	2022-01-18 21:21:04+01	threatpost	t	2022-01-18 22:00:02.397364+01	threatpost/The-Log4j-Vulnerability-Puts-Pressure-on-the-Security-World
 929	A top Ukrainian security official on defending the nation against cyber attacks	In the wake of an escalating crisis between Ukraine and Russia, Serhii Demediuk agreed to a follow-up interview in which he discussed issues including the recent defacement of Ukrainian websites, the security of the country’s critical infrastructure, and Russia’s motivations.	https://therecord.media/a-top-ukrainian-security-official-on-defending-the-nation-against-cyber-attacks/	https://therecord.media/wp-content/uploads/2022/01/serheii-demediuk-russia-ukraine-1.jpg	Dmitry Smilyanets	2022-01-18 22:54:05+01	therecord	t	2022-01-18 23:00:02.415182+01	therecord/A-top-Ukrainian-security-official-on-defending-the-nation-against-cyber-attacks
 930	Telegram is a hotspot for the sale of stolen financial accounts	Telegram is increasingly abused by cybercriminals to set up underground channels to sell stolen financial details to pseudonymous users.	https://www.bleepingcomputer.com/news/security/telegram-is-a-hotspot-for-the-sale-of-stolen-financial-accounts/	https://www.bleepstatic.com/content/hl-images/2021/12/08/Telegram.jpg	Bill Toulas	2022-01-18 22:39:50+01	bleepingcomputer	t	2022-01-18 23:00:02.415182+01	bleepingcomputer/Telegram-is-a-hotspot-for-the-sale-of-stolen-financial-accounts
+931	IOC disputes Citizen Lab's security concerns about Chinese Olympics app | ZDNet	Controversy has swirled around China's MY2022 Olympics app due to privacy and security vulnerabilities.	https://www.zdnet.com/article/ioc-disputes-citizen-lab-assessment-of-security-concerns-around-chinese-olympics-app/	https://www.zdnet.com/a/img/resize/9f0f3b9a5b822a26984c87dccc00170b4103ad97/2019/10/28/5129f6ac-8208-4c9b-a06b-9bc69a64b5a9/olympics.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-18 22:10:00+01	zdnet	t	2022-01-19 00:00:02.621448+01	zdnet/IOC-disputes-Citizen-Labs-security-concerns-about-Chinese-Olympics-app--ZDNet
+932	Will 2022 Be the Year of the Software Bill of Materials?	Praise be & pass the recipe for the software soup: There's too much  scrambling to untangle vulnerabilities and dependencies, say a security experts roundtable.	https://kasperskycontenthub.com/threatpost-global/?p=177736	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/18171555/tomato-g328abb3d4_1280-e1642544168213.jpeg	Lisa Vaas	2022-01-18 23:33:43+01	threatpost	t	2022-01-19 00:00:02.621448+01	threatpost/Will-2022-Be-the-Year-of-the-Software-Bill-of-Materials
 \.
 
 
@@ -934,7 +936,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 930, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 932, true);
 
 
 --
