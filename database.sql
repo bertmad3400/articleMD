@@ -900,6 +900,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 901	Crypto.com pauses withdrawals and resets 2FA following suspicious activity | ZDNet	12-hour pause after users complained their accounts were being drained.	https://www.zdnet.com/article/crypto-com-pauses-withdrawals-and-resets-2fa-following-suspicious-activity/	https://www.zdnet.com/a/img/resize/00d69e85bff004871464a75966f79462fbcc3d69/2022/01/17/927a41e1-986e-48b9-b94b-0e112735aaa7/gettyimages-1237559132.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2022-01-17 23:53:14+01	zdnet	t	2022-01-18 01:00:02.08288+01	zdnet/Cryptocom-pauses-withdrawals-and-resets-2FA-following-suspicious-activity--ZDNet
 902	Firefox Relay gets added to disposable email blocklist, angers users	The maintainers of a disposable email service blocklist have decided to add Firefox Relay to the list, leaving many users of the service upset. Firefox Relay is a privacy-centric email service that enables users to protect their real email addresses and hence limit spam.	https://www.bleepingcomputer.com/news/security/firefox-relay-gets-added-to-disposable-email-blocklist-angers-users/	https://www.bleepstatic.com/content/hl-images/2021/04/26/guitar-on-fire.jpg	Ax Sharma	2022-01-17 20:33:56+01	bleepingcomputer	t	2022-01-18 01:00:02.08288+01	bleepingcomputer/Firefox-Relay-gets-added-to-disposable-email-blocklist-angers-users
 903	Zoho plugs another critical security hole in Desktop Central	Zoho has addressed a new critical severity vulnerability found to affect the company's Desktop Central and Desktop Central MSP  unified endpoint management (UEM) solutions.	https://www.bleepingcomputer.com/news/security/zoho-plugs-another-critical-security-hole-in-desktop-central/	https://www.bleepstatic.com/content/hl-images/2022/01/17/Zoho.jpg	Sergiu Gatlan	2022-01-17 19:04:18+01	bleepingcomputer	t	2022-01-18 01:00:02.08288+01	bleepingcomputer/Zoho-plugs-another-critical-security-hole-in-Desktop-Central
+904	Report: Going to the Beijing Olympics? Leave anything with an electron home	According to a new report, visitors to China during the Olympics who use local VPN software could unwittingly hand their user data over to the authorities.	https://therecord.media/report-going-to-the-beijing-olympics-leave-your-cellphone-home/	https://therecord.media/wp-content/uploads/2022/01/bryan-turner-mF9m6BRHCtg-unsplash-1.jpg	Dina Temple-Raston	2022-01-18 01:52:23+01	therecord	t	2022-01-18 02:00:01.858101+01	therecord/Report-Going-to-the-Beijing-Olympics-Leave-anything-with-an-electron-home
 \.
 
 
@@ -907,7 +908,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 903, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 904, true);
 
 
 --
