@@ -903,6 +903,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 904	Report: Going to the Beijing Olympics? Leave anything with an electron home	According to a new report, visitors to China during the Olympics who use local VPN software could unwittingly hand their user data over to the authorities.	https://therecord.media/report-going-to-the-beijing-olympics-leave-your-cellphone-home/	https://therecord.media/wp-content/uploads/2022/01/bryan-turner-mF9m6BRHCtg-unsplash-1.jpg	Dina Temple-Raston	2022-01-18 01:52:23+01	therecord	t	2022-01-18 02:00:01.858101+01	therecord/Report-Going-to-the-Beijing-Olympics-Leave-anything-with-an-electron-home
 905	Microsoft releases emergency fixes for Windows Server, VPN bugs	Microsoft has released emergency out-of-band (OOB) updates to address multiple issues caused by Windows Updates issued during the January 2021 Patch Tuesday.	https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-fixes-for-windows-server-vpn-bugs/	https://www.bleepstatic.com/content/hl-images/2021/09/20/Windows.jpg	Sergiu Gatlan	2022-01-17 23:46:17+01	bleepingcomputer	t	2022-01-18 05:00:02.197169+01	bleepingcomputer/Microsoft-releases-emergency-fixes-for-Windows-Server-VPN-bugs
 906	OAIC wants stronger accountability measures in upcoming revised Privacy Act | ZDNet	Australia's Information Commissioner has called for a positive duty on organisations to handle personal information fairly and reasonably in light of the federal government considering amendments to the Privacy Act.	https://www.zdnet.com/article/oaic-wants-stronger-accountability-measures-in-upcoming-revised-privacy-act/	https://www.zdnet.com/a/img/resize/42128f44a0124d436bbca3a9377087a9fe4b6a30/2019/11/01/5b4d0413-dafd-44fd-849a-1934fd689c14/istock-938732700.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-18 04:59:39+01	zdnet	t	2022-01-18 06:00:02.158535+01	zdnet/OAIC-wants-stronger-accountability-measures-in-upcoming-revised-Privacy-Act--ZDNet
+907	NSW will not use iVote again for elections until 'extensive reconfiguration' is made | ZDNet	The NSWEC has sent iVote to the bench as it works to rectify the system's issues by next year's state general election.	https://www.zdnet.com/article/nsw-will-not-use-ivote-system-for-elections-until-extensive-reconfiguration-is-made/	https://www.zdnet.com/a/img/resize/7e7d8f9a61272e0ec87d9c8fd6e5273977309609/2021/05/12/2db1a99a-b95f-4f4e-b41e-f0dc6337440a/voting-australia.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-18 05:34:49+01	zdnet	t	2022-01-18 07:00:02.454828+01	zdnet/NSW-will-not-use-iVote-again-for-elections-until-extensive-reconfiguration-is-made--ZDNet
 \.
 
 
@@ -910,7 +911,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 906, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 907, true);
 
 
 --
