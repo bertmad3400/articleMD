@@ -929,6 +929,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 930	Telegram is a hotspot for the sale of stolen financial accounts	Telegram is increasingly abused by cybercriminals to set up underground channels to sell stolen financial details to pseudonymous users.	https://www.bleepingcomputer.com/news/security/telegram-is-a-hotspot-for-the-sale-of-stolen-financial-accounts/	https://www.bleepstatic.com/content/hl-images/2021/12/08/Telegram.jpg	Bill Toulas	2022-01-18 22:39:50+01	bleepingcomputer	t	2022-01-18 23:00:02.415182+01	bleepingcomputer/Telegram-is-a-hotspot-for-the-sale-of-stolen-financial-accounts
 931	IOC disputes Citizen Lab's security concerns about Chinese Olympics app | ZDNet	Controversy has swirled around China's MY2022 Olympics app due to privacy and security vulnerabilities.	https://www.zdnet.com/article/ioc-disputes-citizen-lab-assessment-of-security-concerns-around-chinese-olympics-app/	https://www.zdnet.com/a/img/resize/9f0f3b9a5b822a26984c87dccc00170b4103ad97/2019/10/28/5129f6ac-8208-4c9b-a06b-9bc69a64b5a9/olympics.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-18 22:10:00+01	zdnet	t	2022-01-19 00:00:02.621448+01	zdnet/IOC-disputes-Citizen-Labs-security-concerns-about-Chinese-Olympics-app--ZDNet
 932	Will 2022 Be the Year of the Software Bill of Materials?	Praise be & pass the recipe for the software soup: There's too much  scrambling to untangle vulnerabilities and dependencies, say a security experts roundtable.	https://kasperskycontenthub.com/threatpost-global/?p=177736	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/18171555/tomato-g328abb3d4_1280-e1642544168213.jpeg	Lisa Vaas	2022-01-18 23:33:43+01	threatpost	t	2022-01-19 00:00:02.621448+01	threatpost/Will-2022-Be-the-Year-of-the-Software-Bill-of-Materials
+933	Meta and Twitter want a review of Australian government's social media laws next year | ZDNet	All testimonies before the Select Committee on Social Media and Online Safety on Tuesday called for social media companies to be held more responsible for the trolling that resides on their platforms.	https://www.zdnet.com/article/meta-and-twitter-want-a-review-of-australian-governments-social-media-laws-next-year/	https://www.zdnet.com/a/img/resize/e998ba55eeee27964e4c4fccf0da96a09b116e82/2021/05/03/411c2a4b-f919-4ee9-a1cb-b996314d4ae1/social-media-up-close-apps.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-18 23:02:18+01	zdnet	t	2022-01-19 01:00:02.455019+01	zdnet/Meta-and-Twitter-want-a-review-of-Australian-governments-social-media-laws-next-year--ZDNet
+934	Windows Server 2019 OOB update fixes reboots, Hyper-V, ReFS bugs	Microsoft has released an emergency out-of-band (OOB) update for Windows Server 2019 that fixes numerous critical bugs introduced during the January 2022 Patch Tuesday.	https://www.bleepingcomputer.com/news/microsoft/windows-server-2019-oob-update-fixes-reboots-hyper-v-refs-bugs/	https://www.bleepstatic.com/content/hl-images/2022/01/13/windows-server-on-fire.jpg	Lawrence Abrams	2022-01-19 00:14:38+01	bleepingcomputer	t	2022-01-19 01:00:02.455019+01	bleepingcomputer/Windows-Server-2019-OOB-update-fixes-reboots-Hyper-V-ReFS-bugs
 \.
 
 
@@ -936,7 +938,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 932, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 934, true);
 
 
 --
