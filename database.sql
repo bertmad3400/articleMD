@@ -957,6 +957,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 958	Biden signs cybersecurity memorandum for Defense Department, intelligence agencies | ZDNet	The memorandum comes as CISA released multiple warnings about potential intrusions by other governments.	https://www.zdnet.com/article/biden-signs-cybersecurity-memorandum-for-defense-department-intelligence-agencies/	https://www.zdnet.com/a/img/resize/43d4a6d7f82b56fad883d4a4760a4671b9dbfa9a/2021/05/13/309a65cc-fa87-4458-85a5-e37ca4272a31/president-biden-gettyimages.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-19 18:58:00+01	zdnet	t	2022-01-19 21:00:02.02048+01	zdnet/Biden-signs-cybersecurity-memorandum-for-Defense-Department-intelligence-agencies--ZDNet
 959	1Password raises $620 million in latest funding round | ZDNet	The funding round raised the company's valuation to $6.8 billion.	https://www.zdnet.com/article/1password-raises-620-million-in-latest-funding-round/	https://www.zdnet.com/a/img/resize/2453f478bd73eec40c77126e1e270df7cfbd21d3/2021/10/12/1d850aaa-6371-48ff-97ac-59fcdb63ee53/1password.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-19 20:28:55+01	zdnet	t	2022-01-19 22:00:02.008308+01	zdnet/1Password-raises-620-million-in-latest-funding-round--ZDNet
 960	Destructive Wiper Targeting Ukraine Aimed at Eroding Trust, Experts Say	Disruptive malware attacks on Ukrainian organizations (posing as ransomware attacks) are very likely part of Russia’s wider effort to undermine Ukraine’s sovereignty, according to analysts.	https://kasperskycontenthub.com/threatpost-global/?p=177768	https://media.threatpost.com/wp-content/uploads/sites/103/2018/05/10063440/Wiper_Fire_Destruction.jpg	Becky Bracken	2022-01-19 21:55:28+01	threatpost	t	2022-01-19 22:00:02.008308+01	threatpost/Destructive-Wiper-Targeting-Ukraine-Aimed-at-Eroding-Trust-Experts-Say
+961	Google announces Scorecard V4 in partnership with GitHub and OpenSSF | ZDNet	The Scorecards Action is available from GitHub's Marketplace and is free to use.	https://www.zdnet.com/article/google-announces-scorecard-v4-in-partnership-with-github-and-openssf/	https://www.zdnet.com/a/img/resize/8405403f361da6d51b4ba2addb94a080c709aaa7/2022/01/07/ac46ff8c-2643-4d90-9b70-b947152e848b/google.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-19 21:10:00+01	zdnet	t	2022-01-19 23:00:02.065316+01	zdnet/Google-announces-Scorecard-V4-in-partnership-with-GitHub-and-OpenSSF--ZDNet
+962	Marketing giant RRD confirms data theft in Conti ransomware attack	RR Donnelly has confirmed that threat actors stole data in a December cyberattack, confirmed by BleepingComputer to be a Conti ransomware attack.	https://www.bleepingcomputer.com/news/security/marketing-giant-rrd-confirms-data-theft-in-conti-ransomware-attack/	https://www.bleepstatic.com/content/hl-images/2022/01/19/rrd-header.jpg	Lawrence Abrams	2022-01-19 22:25:11+01	bleepingcomputer	t	2022-01-19 23:00:02.065316+01	bleepingcomputer/Marketing-giant-RRD-confirms-data-theft-in-Conti-ransomware-attack
 \.
 
 
@@ -964,7 +966,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 960, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 962, true);
 
 
 --
