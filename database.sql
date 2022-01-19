@@ -951,6 +951,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 952	UK’s Cyber Security Center publishes new guidance to fight smishing	UK's National Cyber Security Center (NCSC) has published new guidance for organizations to follow when communicating with customers via SMS or phone calls.	https://www.bleepingcomputer.com/news/security/uk-s-cyber-security-center-publishes-new-guidance-to-fight-smishing/	https://www.bleepstatic.com/content/hl-images/2022/01/19/phone-scam-header.jpg	Bill Toulas	2022-01-19 17:44:32+01	bleepingcomputer	t	2022-01-19 18:00:01.959169+01	bleepingcomputer/UKs-Cyber-Security-Center-publishes-new-guidance-to-fight-smishing
 953	Deloitte launches new SaaS cyber threat detection and response platform | ZDNet	AWS, CrowdStrike, Exabeam, and Google Cloud Chronicle are operationalizing the new platform.	https://www.zdnet.com/article/deloitte-launches-new-saas-cyber-threat-detection-and-response-platform/	https://www.zdnet.com/a/img/resize/74cda0cf81afeb660da7bc7a43c0cc96be178072/2021/12/21/76a4658e-4ec0-4414-be1c-5392105d5c41/zdnet-a-z-cybersecurity.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-19 17:00:02+01	zdnet	t	2022-01-19 19:00:02.244909+01	zdnet/Deloitte-launches-new-SaaS-cyber-threat-detection-and-response-platform--ZDNet
 954	Interpol and Nigerian police bust cybercrime BEC ring | ZDNet	Palo Alto Networks Unit 42 and Group-IB helped law enforcement officials disrupt the ring, which was in possession of more than 800,000 potential victim domain credentials.	https://www.zdnet.com/article/interpol-nigerian-police-bust-cybercrime-fraud-ring/	https://www.zdnet.com/a/img/resize/a79a8d5c655486a6443afe280bd8e3158a7b55bc/2022/01/19/34a2e87c-4a17-454f-b09a-46191356ab78/interpol.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-19 16:56:00+01	zdnet	t	2022-01-19 19:00:02.244909+01	zdnet/Interpol-and-Nigerian-police-bust-cybercrime-BEC-ring--ZDNet
+955	CISA urges US orgs to prepare for data-wiping cyberattacks	The Cybersecurity and Infrastructure Security Agency (CISA) urges U.S. organizations to strengthen their cybersecurity defenses against data-wiping attacks recently seen targeting Ukrainian government agencies and businesses.	https://www.bleepingcomputer.com/news/security/cisa-urges-us-orgs-to-prepare-for-data-wiping-cyberattacks/	https://www.bleepstatic.com/content/hl-images/2021/04/08/CISA.jpg	Lawrence Abrams	2022-01-19 19:33:32+01	bleepingcomputer	t	2022-01-19 20:00:02.554561+01	bleepingcomputer/CISA-urges-US-orgs-to-prepare-for-data-wiping-cyberattacks
+956	Box 2FA Bypass Opens User Accounts to Attack	A security bug in the file-sharing cloud app could have allowed attackers using stolen credentials to skate by one-time SMS code verification requirements.	https://kasperskycontenthub.com/threatpost-global/?p=177760	https://media.threatpost.com/wp-content/uploads/sites/103/2019/01/11104331/2FA_two-factor-authentication.jpg	Tara Seals	2022-01-19 19:30:44+01	threatpost	t	2022-01-19 20:00:02.554561+01	threatpost/Box-2FA-Bypass-Opens-User-Accounts-to-Attack
 \.
 
 
@@ -958,7 +960,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 954, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 956, true);
 
 
 --
