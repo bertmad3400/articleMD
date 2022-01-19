@@ -953,6 +953,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 954	Interpol and Nigerian police bust cybercrime BEC ring | ZDNet	Palo Alto Networks Unit 42 and Group-IB helped law enforcement officials disrupt the ring, which was in possession of more than 800,000 potential victim domain credentials.	https://www.zdnet.com/article/interpol-nigerian-police-bust-cybercrime-fraud-ring/	https://www.zdnet.com/a/img/resize/a79a8d5c655486a6443afe280bd8e3158a7b55bc/2022/01/19/34a2e87c-4a17-454f-b09a-46191356ab78/interpol.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-19 16:56:00+01	zdnet	t	2022-01-19 19:00:02.244909+01	zdnet/Interpol-and-Nigerian-police-bust-cybercrime-BEC-ring--ZDNet
 955	CISA urges US orgs to prepare for data-wiping cyberattacks	The Cybersecurity and Infrastructure Security Agency (CISA) urges U.S. organizations to strengthen their cybersecurity defenses against data-wiping attacks recently seen targeting Ukrainian government agencies and businesses.	https://www.bleepingcomputer.com/news/security/cisa-urges-us-orgs-to-prepare-for-data-wiping-cyberattacks/	https://www.bleepstatic.com/content/hl-images/2021/04/08/CISA.jpg	Lawrence Abrams	2022-01-19 19:33:32+01	bleepingcomputer	t	2022-01-19 20:00:02.554561+01	bleepingcomputer/CISA-urges-US-orgs-to-prepare-for-data-wiping-cyberattacks
 956	Box 2FA Bypass Opens User Accounts to Attack	A security bug in the file-sharing cloud app could have allowed attackers using stolen credentials to skate by one-time SMS code verification requirements.	https://kasperskycontenthub.com/threatpost-global/?p=177760	https://media.threatpost.com/wp-content/uploads/sites/103/2019/01/11104331/2FA_two-factor-authentication.jpg	Tara Seals	2022-01-19 19:30:44+01	threatpost	t	2022-01-19 20:00:02.554561+01	threatpost/Box-2FA-Bypass-Opens-User-Accounts-to-Attack
+957	Bugcrowd reports increase in critical vulnerabilities found in 2021 | ZDNet	Bugcrowd saw a 185% increase in the last 12 months for critical vulnerability submissions with financial services companies.	https://www.zdnet.com/article/bugcrowd-reports-increase-in-critical-vulnerabilities-found-in-financial-sector-for-2021/	https://www.zdnet.com/a/img/resize/0d8afb02ad14070f3546d9d260adab2cc0b69498/2021/12/06/e458798d-bb26-421f-8bcd-10b37bc4793d/train-cyber-security.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-19 19:38:00+01	zdnet	t	2022-01-19 21:00:02.02048+01	zdnet/Bugcrowd-reports-increase-in-critical-vulnerabilities-found-in-2021--ZDNet
+958	Biden signs cybersecurity memorandum for Defense Department, intelligence agencies | ZDNet	The memorandum comes as CISA released multiple warnings about potential intrusions by other governments.	https://www.zdnet.com/article/biden-signs-cybersecurity-memorandum-for-defense-department-intelligence-agencies/	https://www.zdnet.com/a/img/resize/43d4a6d7f82b56fad883d4a4760a4671b9dbfa9a/2021/05/13/309a65cc-fa87-4458-85a5-e37ca4272a31/president-biden-gettyimages.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-19 18:58:00+01	zdnet	t	2022-01-19 21:00:02.02048+01	zdnet/Biden-signs-cybersecurity-memorandum-for-Defense-Department-intelligence-agencies--ZDNet
 \.
 
 
@@ -960,7 +962,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 956, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 958, true);
 
 
 --
