@@ -931,6 +931,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 932	Will 2022 Be the Year of the Software Bill of Materials?	Praise be & pass the recipe for the software soup: There's too much  scrambling to untangle vulnerabilities and dependencies, say a security experts roundtable.	https://kasperskycontenthub.com/threatpost-global/?p=177736	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/18171555/tomato-g328abb3d4_1280-e1642544168213.jpeg	Lisa Vaas	2022-01-18 23:33:43+01	threatpost	t	2022-01-19 00:00:02.621448+01	threatpost/Will-2022-Be-the-Year-of-the-Software-Bill-of-Materials
 933	Meta and Twitter want a review of Australian government's social media laws next year | ZDNet	All testimonies before the Select Committee on Social Media and Online Safety on Tuesday called for social media companies to be held more responsible for the trolling that resides on their platforms.	https://www.zdnet.com/article/meta-and-twitter-want-a-review-of-australian-governments-social-media-laws-next-year/	https://www.zdnet.com/a/img/resize/e998ba55eeee27964e4c4fccf0da96a09b116e82/2021/05/03/411c2a4b-f919-4ee9-a1cb-b996314d4ae1/social-media-up-close-apps.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-18 23:02:18+01	zdnet	t	2022-01-19 01:00:02.455019+01	zdnet/Meta-and-Twitter-want-a-review-of-Australian-governments-social-media-laws-next-year--ZDNet
 934	Windows Server 2019 OOB update fixes reboots, Hyper-V, ReFS bugs	Microsoft has released an emergency out-of-band (OOB) update for Windows Server 2019 that fixes numerous critical bugs introduced during the January 2022 Patch Tuesday.	https://www.bleepingcomputer.com/news/microsoft/windows-server-2019-oob-update-fixes-reboots-hyper-v-refs-bugs/	https://www.bleepstatic.com/content/hl-images/2022/01/13/windows-server-on-fire.jpg	Lawrence Abrams	2022-01-19 00:14:38+01	bleepingcomputer	t	2022-01-19 01:00:02.455019+01	bleepingcomputer/Windows-Server-2019-OOB-update-fixes-reboots-Hyper-V-ReFS-bugs
+935	McAfee Enterprise and FireEye are now called Trellix | ZDNet	Symphony Technology Group companies gain a new name after merger.	https://www.zdnet.com/article/mcafee-enterprise-and-fireeye-are-now-called-trellix/	https://www.zdnet.com/a/img/resize/4fda7d1fc8881a284d3554efebb99f12baccb5ad/2020/12/09/0f33931b-b3e8-42a3-a8ed-3d1048d3d20e/fireeye-hq.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2022-01-19 05:01:01+01	zdnet	t	2022-01-19 07:00:02.691942+01	zdnet/McAfee-Enterprise-and-FireEye-are-now-called-Trellix--ZDNet
 \.
 
 
@@ -938,7 +939,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 934, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 935, true);
 
 
 --
