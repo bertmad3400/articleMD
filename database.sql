@@ -955,6 +955,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 956	Box 2FA Bypass Opens User Accounts to Attack	A security bug in the file-sharing cloud app could have allowed attackers using stolen credentials to skate by one-time SMS code verification requirements.	https://kasperskycontenthub.com/threatpost-global/?p=177760	https://media.threatpost.com/wp-content/uploads/sites/103/2019/01/11104331/2FA_two-factor-authentication.jpg	Tara Seals	2022-01-19 19:30:44+01	threatpost	t	2022-01-19 20:00:02.554561+01	threatpost/Box-2FA-Bypass-Opens-User-Accounts-to-Attack
 957	Bugcrowd reports increase in critical vulnerabilities found in 2021 | ZDNet	Bugcrowd saw a 185% increase in the last 12 months for critical vulnerability submissions with financial services companies.	https://www.zdnet.com/article/bugcrowd-reports-increase-in-critical-vulnerabilities-found-in-financial-sector-for-2021/	https://www.zdnet.com/a/img/resize/0d8afb02ad14070f3546d9d260adab2cc0b69498/2021/12/06/e458798d-bb26-421f-8bcd-10b37bc4793d/train-cyber-security.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-19 19:38:00+01	zdnet	t	2022-01-19 21:00:02.02048+01	zdnet/Bugcrowd-reports-increase-in-critical-vulnerabilities-found-in-2021--ZDNet
 958	Biden signs cybersecurity memorandum for Defense Department, intelligence agencies | ZDNet	The memorandum comes as CISA released multiple warnings about potential intrusions by other governments.	https://www.zdnet.com/article/biden-signs-cybersecurity-memorandum-for-defense-department-intelligence-agencies/	https://www.zdnet.com/a/img/resize/43d4a6d7f82b56fad883d4a4760a4671b9dbfa9a/2021/05/13/309a65cc-fa87-4458-85a5-e37ca4272a31/president-biden-gettyimages.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-19 18:58:00+01	zdnet	t	2022-01-19 21:00:02.02048+01	zdnet/Biden-signs-cybersecurity-memorandum-for-Defense-Department-intelligence-agencies--ZDNet
+959	1Password raises $620 million in latest funding round | ZDNet	The funding round raised the company's valuation to $6.8 billion.	https://www.zdnet.com/article/1password-raises-620-million-in-latest-funding-round/	https://www.zdnet.com/a/img/resize/2453f478bd73eec40c77126e1e270df7cfbd21d3/2021/10/12/1d850aaa-6371-48ff-97ac-59fcdb63ee53/1password.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-19 20:28:55+01	zdnet	t	2022-01-19 22:00:02.008308+01	zdnet/1Password-raises-620-million-in-latest-funding-round--ZDNet
+960	Destructive Wiper Targeting Ukraine Aimed at Eroding Trust, Experts Say	Disruptive malware attacks on Ukrainian organizations (posing as ransomware attacks) are very likely part of Russia’s wider effort to undermine Ukraine’s sovereignty, according to analysts.	https://kasperskycontenthub.com/threatpost-global/?p=177768	https://media.threatpost.com/wp-content/uploads/sites/103/2018/05/10063440/Wiper_Fire_Destruction.jpg	Becky Bracken	2022-01-19 21:55:28+01	threatpost	t	2022-01-19 22:00:02.008308+01	threatpost/Destructive-Wiper-Targeting-Ukraine-Aimed-at-Eroding-Trust-Experts-Say
 \.
 
 
@@ -962,7 +964,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 958, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 960, true);
 
 
 --
