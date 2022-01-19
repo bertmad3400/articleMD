@@ -945,6 +945,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 946	Microsoft releases fix for patch that broke VPNs, Hyper-V virtual machines and more | ZDNet	Microsoft's first Patch Tuesday for 2022 was a rocky start to the year, giving admins and users numerous headaches to deal with.	https://www.zdnet.com/article/microsoft-releases-fix-for-patch-that-broke-vpns-hyper-v-virtual-machines-and-more/	https://www.zdnet.com/a/img/resize/32d5e4606a71596e1ea97276ba10aea050ad4cda/2021/03/19/6c4e4301-f8e2-4321-8518-ecf035f74ec4/istock-992574526-2.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2022-01-19 13:01:46+01	zdnet	t	2022-01-19 15:00:02.720915+01	zdnet/Microsoft-releases-fix-for-patch-that-broke-VPNs-Hyper-V-virtual-machines-and-more--ZDNet
 947	Beijing Olympics App Flaws Allow Man-in-the-Middle Attacks	Attackers can access audio and files uploaded to the MY2022 mobile app required for use by all winter games attendees – including personal health details.	https://kasperskycontenthub.com/threatpost-global/?p=177748	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/19082649/winter-olympics.jpeg	Elizabeth Montalbano	2022-01-19 14:36:34+01	threatpost	t	2022-01-19 15:00:02.720915+01	threatpost/Beijing-Olympics-App-Flaws-Allow-Man-in-the-Middle-Attacks
 948	Biden directs national security agencies to strengthen their digital defenses	President Joe Biden on Wednesday signed a national security memorandum aimed at strengthening the security of networks used in the country’s national defense, as the administration issues warnings of potential digital strikes by Russian hackers over the escalating crisis in Ukraine.	https://therecord.media/biden-directs-national-security-agencies-to-strengthen-their-digital-defenses/	https://therecord.media/wp-content/uploads/2022/01/joe-biden-flag-US.jpg	Martin Matishak	2022-01-19 16:00:02+01	therecord	t	2022-01-19 16:00:02.672342+01	therecord/Biden-directs-national-security-agencies-to-strengthen-their-digital-defenses
+949	New BHUNT malware targets your crypto wallets and passwords	A novel modular crypto-wallet stealing malware dubbed 'BHUNT' has been spotted targeting cryptocurrency wallet contents, passwords, and security phrases.	https://www.bleepingcomputer.com/news/security/new-bhunt-malware-targets-your-crypto-wallets-and-passwords/	https://www.bleepstatic.com/content/hl-images/2022/01/19/ethereum-wallet.jpg	Bill Toulas	2022-01-19 16:15:45+01	bleepingcomputer	t	2022-01-19 17:00:02.521959+01	bleepingcomputer/New-BHUNT-malware-targets-your-crypto-wallets-and-passwords
 \.
 
 
@@ -952,7 +953,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 948, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 949, true);
 
 
 --
