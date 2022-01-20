@@ -965,6 +965,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 966	ProtonMail to block tracking pixels, hide IP addresses | ZDNet	The feature is enabled by default on ProtonMail's web app.	https://www.zdnet.com/article/protonmail-to-block-tracking-pixels-hide-ip-addresses/	https://www.zdnet.com/a/img/resize/850fd839233515675ad26e664cf359117a447fd5/2021/09/07/e938a7d9-8cbd-4b0e-98e2-0c29befbe608/protonmail-shot-decrypt.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-19 23:38:50+01	zdnet	t	2022-01-20 01:00:02.425075+01	zdnet/ProtonMail-to-block-tracking-pixels-hide-IP-addresses--ZDNet
 967	Red Cross cyberattack exposes data of 515,000 people seeking missing family	A cyberattack on a Red Cross contactor has led to the theft of personal data for more than 515,000 people in 'Restoring Family Links,' a program that helps reunite families separated by war, disaster, and migration.	https://www.bleepingcomputer.com/news/security/red-cross-cyberattack-exposes-data-of-515-000-people-seeking-missing-family/	https://www.bleepstatic.com/content/posts/2022/01/19/restoring-family-links-header.jpg	Lawrence Abrams	2022-01-20 00:26:50+01	bleepingcomputer	t	2022-01-20 01:00:02.425075+01	bleepingcomputer/Red-Cross-cyberattack-exposes-data-of-515000-people-seeking-missing-family
 968	Biden threatens 'cyber' response after Ukraine says computers wiped during attack | ZDNet	Two Ukrainian agencies said their computers were wiped as part of a larger attack on government systems.	https://www.zdnet.com/article/biden-threatens-cyber-response-after-ukraine-says-computers-wiped-during-attack/	https://www.zdnet.com/a/img/resize/36019314313686ed7432415f9fa2743fc8c918af/2022/01/20/946eb0d2-6435-4e83-997a-b6940a9f722c/screen-shot-2022-01-19-at-6-47-27-pm.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-20 00:36:20+01	zdnet	t	2022-01-20 02:00:02.489708+01	zdnet/Biden-threatens-cyber-response-after-Ukraine-says-computers-wiped-during-attack--ZDNet
+969	Singapore must clamp down on security inertia before digital banking era can take off | ZDNet	With Singapore's digital bank licensees expected to begin operations this year, a spate of online scams wiping victims of their life savings serves as yet another wakeup call and demonstrates regulations sometimes are the only way to shake organisations out of complacency.	https://www.zdnet.com/article/singapore-must-clamp-down-on-security-inertia-before-digital-banking-era-can-take-off/	https://www.zdnet.com/a/img/resize/324d25415f6f29ae7e5c90769eedfe064869aed3/2019/02/11/1697151f-389b-479a-ad56-3d1f465a831a/istock-473158924.jpg?width=770&height=578&fit=crop&auto=webp	Eileen Yu	2022-01-20 01:18:02+01	zdnet	t	2022-01-20 03:00:02.220735+01	zdnet/Singapore-must-clamp-down-on-security-inertia-before-digital-banking-era-can-take-off--ZDNet
 \.
 
 
@@ -972,7 +973,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 968, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 969, true);
 
 
 --
