@@ -992,6 +992,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 992	Crypto.com confirms 483 accounts hacked, $34 million withdrawn	Crypto.com has confirmed that a multi-million dollar cyberattack led to the compromise of 483 of its customer accounts. Although, the company's CEO stresses that customer funds are not at risk. Crypto.com is reportedly the world's third-largest cryptocurrency trading platform.	https://www.bleepingcomputer.com/news/security/cryptocom-confirms-483-accounts-hacked-34-million-withdrawn/	https://www.bleepstatic.com/content/hl-images/2022/01/20/crypto-com-bleeping.png	Ax Sharma	2022-01-20 10:10:00+01	bleepingcomputer	t	2022-01-20 19:00:02.716375+01	bleepingcomputer/Cryptocom-confirms-483-accounts-hacked-34-million-withdrawn
 994	FBI links Diavol ransomware to the TrickBot cybercrime group	The FBI has formally linked the Diavol ransomware operation to the TrickBot Group, the malware developers behind the notorious TrickBot banking trojan.	https://www.bleepingcomputer.com/news/security/fbi-links-diavol-ransomware-to-the-trickbot-cybercrime-group/	https://www.bleepstatic.com/content/hl-images/2021/08/18/DiavolRansomware.jpg	Lawrence Abrams	2022-01-20 19:37:25+01	bleepingcomputer	t	2022-01-20 20:00:01.879164+01	bleepingcomputer/FBI-links-Diavol-ransomware-to-the-TrickBot-cybercrime-group
 993	More than half of medical devices found to have critical vulnerabilities | ZDNet	A new report reveals what kind of medical devices are at most risk of security threats.	https://www.zdnet.com/article/more-than-half-of-medical-devices-have-critical-vulnerabilities/	https://www.zdnet.com/a/img/resize/c3c43f354e354b9ea7232f316b91bff24f8d49fd/2022/01/20/40842b6a-143d-4a85-90ed-6f6d1fa5c815/medical-device.jpg?width=770&height=578&fit=crop&auto=webp	Allison Murray	2022-01-20 18:13:00+01	zdnet	t	2022-01-20 20:00:01.879164+01	zdnet/More-than-half-of-medical-devices-found-to-have-critical-vulnerabilities--ZDNet
+996	Cybersecurity for Industrial Control Systems: Part 2	Part 2 of this cybersecurity for industrial control systems series discusses malware detection and distribution to help strengthen ICS cybersecurity.	https://www.trendmicro.com/en_us/research/22/a/cybersecurity-for-industrial-control-systems-part-2.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/cybersecurity-for-industrial-control-systems-part-1/Threats-Affecting-ICS-Endpoints.jpg	\N	2022-01-20 00:00:00+01	trendmicro	t	2022-01-20 21:00:02.441242+01	trendmicro/Cybersecurity-for-Industrial-Control-Systems-Part-2
+997	Critical Cisco StarOS Bug Grants Root Access via Debug Mode	Cisco issued a critical fix for a flaw in its Cisco RCM for Cisco StarOS Software that could give attackers RCE on the application with root-level privileges.	https://kasperskycontenthub.com/threatpost-global/?p=177832	https://media.threatpost.com/wp-content/uploads/sites/103/2020/08/27153752/cisco.jpg	Becky Bracken	2022-01-20 20:35:29+01	threatpost	t	2022-01-20 21:00:02.441242+01	threatpost/Critical-Cisco-StarOS-Bug-Grants-Root-Access-via-Debug-Mode
 \.
 
 
@@ -999,7 +1001,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 995, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 997, true);
 
 
 --
