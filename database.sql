@@ -964,6 +964,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 965	Red Cross hit with cyberattack that compromised data of 515,000 'highly vulnerable people' | ZDNet	The International Committee of the Red Cross said it detected the attack this week and confirmed that it was not a ransomware attack.	https://www.zdnet.com/article/red-cross-hit-with-cyberattack-that-compromised-data-of-515000-highly-vulnerable-people/	https://www.zdnet.com/a/img/resize/cb53247a9435bc04ff901452a0ca13b95fb67756/2022/01/19/41cb04ff-003e-4861-9103-ba72ad6d5fb5/shutterstock-633978146.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-19 22:46:00+01	zdnet	t	2022-01-20 00:00:02.183779+01	zdnet/Red-Cross-hit-with-cyberattack-that-compromised-data-of-515000-highly-vulnerable-people--ZDNet
 966	ProtonMail to block tracking pixels, hide IP addresses | ZDNet	The feature is enabled by default on ProtonMail's web app.	https://www.zdnet.com/article/protonmail-to-block-tracking-pixels-hide-ip-addresses/	https://www.zdnet.com/a/img/resize/850fd839233515675ad26e664cf359117a447fd5/2021/09/07/e938a7d9-8cbd-4b0e-98e2-0c29befbe608/protonmail-shot-decrypt.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-19 23:38:50+01	zdnet	t	2022-01-20 01:00:02.425075+01	zdnet/ProtonMail-to-block-tracking-pixels-hide-IP-addresses--ZDNet
 967	Red Cross cyberattack exposes data of 515,000 people seeking missing family	A cyberattack on a Red Cross contactor has led to the theft of personal data for more than 515,000 people in 'Restoring Family Links,' a program that helps reunite families separated by war, disaster, and migration.	https://www.bleepingcomputer.com/news/security/red-cross-cyberattack-exposes-data-of-515-000-people-seeking-missing-family/	https://www.bleepstatic.com/content/posts/2022/01/19/restoring-family-links-header.jpg	Lawrence Abrams	2022-01-20 00:26:50+01	bleepingcomputer	t	2022-01-20 01:00:02.425075+01	bleepingcomputer/Red-Cross-cyberattack-exposes-data-of-515000-people-seeking-missing-family
+968	Biden threatens 'cyber' response after Ukraine says computers wiped during attack | ZDNet	Two Ukrainian agencies said their computers were wiped as part of a larger attack on government systems.	https://www.zdnet.com/article/biden-threatens-cyber-response-after-ukraine-says-computers-wiped-during-attack/	https://www.zdnet.com/a/img/resize/36019314313686ed7432415f9fa2743fc8c918af/2022/01/20/946eb0d2-6435-4e83-997a-b6940a9f722c/screen-shot-2022-01-19-at-6-47-27-pm.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-20 00:36:20+01	zdnet	t	2022-01-20 02:00:02.489708+01	zdnet/Biden-threatens-cyber-response-after-Ukraine-says-computers-wiped-during-attack--ZDNet
 \.
 
 
@@ -971,7 +972,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 967, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 968, true);
 
 
 --
