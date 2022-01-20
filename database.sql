@@ -997,6 +997,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 998	Treasury Department sanctions four Ukrainians allegedly involved in Russian influence attempts | ZDNet	The US said the four are involved in and effort to recruit Ukrainian citizens to create instability in advance of a potential Russian invasion.	https://www.zdnet.com/article/treasury-department-sanctions-four-ukrainians-allegedly-involved-in-russian-influence-attempts/	https://www.zdnet.com/a/img/resize/d11ed17ce8c5e89ef5745a536291f58a1d108a85/2017/02/02/1f90ad67-8f8c-408d-8de0-e466ad7ae789/treasury.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-20 20:32:58+01	zdnet	t	2022-01-20 22:00:02.095084+01	zdnet/Treasury-Department-sanctions-four-Ukrainians-allegedly-involved-in-Russian-influence-attempts--ZDNet
 999	FAQ: What's happening with 5G and airport safety? | ZDNet	There are legitimate concerns about the use of C-Band 5G near certain kinds of airplanes. Here's what we know so far.	https://www.zdnet.com/article/whats-what-with-5g-and-airport-safety-faq/	https://www.zdnet.com/a/img/resize/01b89ac29f22ee6cdc4faf22fb68842e779de774/2022/01/10/fe85b09f-3988-4826-b730-1d2488f90fd0/planes-and-5g.jpg?width=770&height=578&fit=crop&auto=webp	Steven Vaughan-Nichols	2022-01-20 21:38:12+01	zdnet	t	2022-01-20 23:00:02.161208+01	zdnet/FAQ-Whats-happening-with-5G-and-airport-safety--ZDNet
 1000	‘Anomalous’ spyware stealing credentials in industrial firms	Researchers have uncovered several spyware campaigns that target industrial enterprises, aiming to steal email account credentials and conduct financial fraud or resell them to other actors.	https://www.bleepingcomputer.com/news/security/anomalous-spyware-stealing-credentials-in-industrial-firms/	https://www.bleepstatic.com/content/hl-images/2021/11/03/energy_industry.jpg	Bill Toulas	2022-01-20 22:29:45+01	bleepingcomputer	t	2022-01-20 23:00:02.161208+01	bleepingcomputer/Anomalous-spyware-stealing-credentials-in-industrial-firms
+1001	Google calls for a secure 'data transfer framework' between the US and EU | ZDNet	The tech giant wants government agencies to establish new rules for data transfers between nations.	https://www.zdnet.com/article/google-urges-for-new-data-rules-between-the-us-and-eu/	https://www.zdnet.com/a/img/resize/d3d975aa359edcfe51e0d631cc0941c2d7a45f25/2022/01/13/6fba24bf-2fd4-4038-a9b1-b9cee9a4c9e2/data-center.jpg?width=770&height=578&fit=crop&auto=webp	Allison Murray	2022-01-20 21:56:37+01	zdnet	t	2022-01-21 00:00:02.306858+01	zdnet/Google-calls-for-a-secure-data-transfer-framework-between-the-US-and-EU--ZDNet
+1002	Microsoft lists the Windows 10 group policies to avoid	Microsoft released a list of twenty-five group policies that admins should not use in Windows 10 and Windows 11 as they do not provide optimal behavior or cause unexpected results.	https://www.bleepingcomputer.com/news/microsoft/microsoft-lists-the-windows-10-group-policies-to-avoid/	https://www.bleepstatic.com/content/hl-images/2021/01/25/Windows-10.jpg	Lawrence Abrams	2022-01-20 23:53:34+01	bleepingcomputer	t	2022-01-21 00:00:02.306858+01	bleepingcomputer/Microsoft-lists-the-Windows-10-group-policies-to-avoid
 \.
 
 
@@ -1004,7 +1006,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1000, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1002, true);
 
 
 --
