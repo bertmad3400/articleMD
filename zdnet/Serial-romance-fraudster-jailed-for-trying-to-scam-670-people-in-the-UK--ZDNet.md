@@ -1,0 +1,77 @@
+# 'Serial' romance fraudster jailed for trying to scam 670 people in the UK | ZDNet
+### Victims were conned out of thousands of pounds, including one woman who was terminally ill.
+
+## Information:
++ Source: ZDNet
++ Link: https://www.zdnet.com/article/romance-fraudster-jailed-for-trying-to-scam-670-people-in-the-uk/
++ Date: 2022-01-20 08:15:07
++ Author: Charlie Osborne
+
+
+## Article:
+![Article Image](https://www.zdnet.com/a/img/resize/06b4d08d839220c51aec67963f8698175044d678/2021/09/20/661ec493-76d3-49b3-9ccd-e52e44947136/romance-scam.jpg?width=770&height=578&fit=crop&auto=webp)
+
+A romance scammer in the United Kingdom has been jailed after trying to con 670 people. 
+
+
+According to the UK's [National Crime Agency](https://www.nationalcrimeagency.gov.uk/news/serial-romance-fraudster-jailed-after-conning-women-out-of-nearly-20-000) (NCA), Osagie Aigbonohan, originally from Lagos, Nigeria, used a range of fake names, dating apps, and social media networks to find and connect with potential victims who were looking for a relationship. 
+
+The 41-year-old's aliases included "Tony Eden." While masquerading as Tony, Aigbonohan targeted a woman and built up a relationship over a period of ten months before begging her for money to help him with an incident relating to an overseas business.  
+
+The woman was told that a machinery accident at work – and the subsequent need to pay for worker funerals – had rinsed his bank account, and he needed to hire drill equipment to resume operations. This led to fraudulent transfers of £9,500 ($13,000) to various accounts held under fake identities, which eventually made their way into Aigbonohan's personal account.  
+
+In another case, a woman who was terminally ill became a victim. 
+
+"Aigbonohan continued to pursue her even after she had passed away," the NCA says.  
+
+The crime agency estimates that at least 670 people were targeted by the romance scammer, at least eight people sent him money, and in total, approximately £20,000 ($27,200) was fraudulently obtained.  
+
+
+
+
+
+
+Following an NCA investigation, Aigbonohan was arrested in July last year and was charged with fraud and money laundering. It was also discovered that Aigbonohan had overstayed his visa, was staying in the UK illegally, and was using a counterfeit driver's license.  
+
+Southwark Crown Court has now sentenced Aigbonohan to 28 months behind bars.  
+
+"Romance fraud is a particularly callous offense, involving exploitation of an individual's emotional needs and caring qualities, to extract money from them," commented James Lewis of the Crown Prosecution Service (CPS). "People should be particularly vigilant over the coming month as we head towards Valentine's Day and more people seek a partner." 
+
+[UK Finance](https://www.ukfinance.org.uk/press/press-releases/romance-scams-during-lockdown) estimates that between January and November 2021, UK residents lost £18.5 million ($25.2 million) to romance scams, an increase of 12% year-over-year. In the same year, the [FBI estimates](https://www.zdnet.com/article/133-million-lost-in-online-romance-scams-in-2021-fbi/) that $133 million has been fraudulently taken from victims in the United States.  
+
+In other NCA news, a 32-year-old man from Nottingham was jailed [earlier this month](https://www.zdnet.com/article/uk-jails-man-for-spying-on-kids-adults-with-remote-access-trojans/) after admitting to the use of Remote Access Trojans (RATs) to spy on both children and adults. Sensitive and explicit material was also stolen from handsets infected by the malware.  
+
+###  Previous and related coverage
+
+* [South African police arrest eight men suspected of targeting widows in romance scams](https://www.zdnet.com/article/south-african-police-arrest-eight-men-suspected-of-romance-scams/)
+* [$133 million lost in online romance scams in 2021: FBI](https://www.zdnet.com/article/133-million-lost-in-online-romance-scams-in-2021-fbi/)
+* [Texas resident jailed for role in $2.2 million romance, business email scams](https://www.zdnet.com/article/texas-resident-jailed-for-2-2-million-romance-business-email-scams/)
+
+
+
+---
+
+**Have a tip?** Get in touch securely via WhatsApp | Signal at +447713 025 499, or over at Keybase: charlie0
+
+
+
+---
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Conti]] [[action.malware.name=Net]] [[action.malware.name=njRAT]]
+
+#### Industry:
+[[victim.industry.name=Accomodation]] [[victim.industry.name=Finance]] [[victim.industry.name=Finance]]
+
+#### Location:
+[[victim.continent.name=Africa]] [[victim.country.name=Niger]] [[victim.continent.name=Africa]] [[victim.country.name=Nigeria]] [[victim.continent.name=Africa]] [[victim.country.name=South Africa]] [[victim.continent.name=Africa]] [[victim.country.name=Oman]] [[victim.continent.name=Asia]] [[victim.country.name=United Kingdom]] [[victim.continent.name=Europe]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Aigbonohan]] [[Uk]] [[Nca]] [[ZDNet]]
+
