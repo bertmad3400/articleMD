@@ -977,6 +977,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 978	Cheap malware is behind a rise in attacks on cryptocurrency wallets | ZDNet	There's been a growth in cheap, easy-to-use malware available to hackers who want to steal cryptocurrency from users.	https://www.zdnet.com/article/cheap-malware-is-behind-a-rise-in-attacks-on-cryptocurrency-wallets/	https://www.zdnet.com/a/img/resize/af335d11c7b8ccf820cf743627c401128481da67/2022/01/11/398505aa-78e1-497c-8c7a-6905705604a3/shutterstock-1854624547.jpg?width=770&height=578&fit=crop&auto=webp	Danny Palmer	2022-01-20 13:09:29+01	zdnet	t	2022-01-20 15:00:01.824861+01	zdnet/Cheap-malware-is-behind-a-rise-in-attacks-on-cryptocurrency-wallets--ZDNet
 979	Biden signs memo to boost US national security systems’ defenses	President Joe Biden signed a national security memorandum (NSM) on Wednesday to increase the security of national security systems part of critical US government networks used in military and intelligence activities when storing or transferring classified info.	https://www.bleepingcomputer.com/news/security/biden-signs-memo-to-boost-us-national-security-systems-defenses/	https://www.bleepstatic.com/content/hl-images/2021/10/01/Biden__headpic.jpg	Sergiu Gatlan	2022-01-20 14:57:00+01	bleepingcomputer	t	2022-01-20 15:00:01.824861+01	bleepingcomputer/Biden-signs-memo-to-boost-US-national-security-systems-defenses
 980	Cisco bug gives remote attackers root privileges via debug mode	Cisco has fixed a critical security flaw discovered in the Cisco Redundancy Configuration Manager (RCM) for Cisco StarOS Software during internal security testing.	https://www.bleepingcomputer.com/news/security/cisco-bug-gives-remote-attackers-root-privileges-via-debug-mode/	https://www.bleepstatic.com/content/hl-images/2022/01/20/Cisco.jpg	Sergiu Gatlan	2022-01-20 14:15:00+01	bleepingcomputer	t	2022-01-20 15:00:01.824861+01	bleepingcomputer/Cisco-bug-gives-remote-attackers-root-privileges-via-debug-mode
+982	SEC Filing Reveals Fortune 500 Firm Targeted in Ransomware Attack	R.R. Donnelly, the integrated services company, confirmed a ‘systems intrusion’ that occurred in late December and is still under investigation.	https://kasperskycontenthub.com/threatpost-global/?p=177787	https://media.threatpost.com/wp-content/uploads/sites/103/2019/06/20122305/Ransomware.jpg	Elizabeth Montalbano	2022-01-20 15:27:48+01	threatpost	t	2022-01-20 16:00:02.59934+01	threatpost/SEC-Filing-Reveals-Fortune-500-Firm-Targeted-in-Ransomware-Attack
+981	Microsoft fixes Outlook search issues for Windows 10 users	Microsoft has fixed a known issue causing search issues for Outlook users after installing Windows 10 security updates released since November 2021.	https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-search-issues-for-windows-10-users/	https://www.bleepstatic.com/content/hl-images/2021/05/11/Outlook_headpic.jpg	Sergiu Gatlan	2022-01-20 11:08:45+01	bleepingcomputer	t	2022-01-20 16:00:02.59934+01	bleepingcomputer/Microsoft-fixes-Outlook-search-issues-for-Windows-10-users
 \.
 
 
@@ -984,7 +986,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 980, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 982, true);
 
 
 --
