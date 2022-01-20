@@ -971,6 +971,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 972	'Serial' romance fraudster jailed for trying to scam 670 people in the UK | ZDNet	Victims were conned out of thousands of pounds, including one woman who was terminally ill.	https://www.zdnet.com/article/romance-fraudster-jailed-for-trying-to-scam-670-people-in-the-uk/	https://www.zdnet.com/a/img/resize/06b4d08d839220c51aec67963f8698175044d678/2021/09/20/661ec493-76d3-49b3-9ccd-e52e44947136/romance-scam.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-20 08:15:07+01	zdnet	t	2022-01-20 10:00:02.179949+01	zdnet/Serial-romance-fraudster-jailed-for-trying-to-scam-670-people-in-the-UK--ZDNet
 973	483 Crypto.com accounts compromised in $34 million hack	Crypto.com has confirmed that a multi-million dollar cyberattack led to the compromise of 483 of its customer accounts. Although, the company's CEO stresses that customer funds are not at risk. Crypto.com is reportedly the world's third-largest cryptocurrency trading platform.	https://www.bleepingcomputer.com/news/security/483-cryptocom-accounts-compromised-in-34-million-hack/	https://www.bleepstatic.com/content/hl-images/2022/01/20/crypto-com-bleeping.png	Ax Sharma	2022-01-20 10:10:00+01	bleepingcomputer	t	2022-01-20 11:00:02.139603+01	bleepingcomputer/483-Cryptocom-accounts-compromised-in-34-million-hack
 974	Multichain token hack losses reach $3 million: report | ZDNet	Multichain messaging seems confusing, at best.	https://www.zdnet.com/article/multichain-token-hack-losses-reach-3-million-report/	https://www.zdnet.com/a/img/resize/8b497cff5a0028d77450ec08e8318cacba872b9e/2021/08/12/880e080a-7301-4a4b-a4e7-def615879cd5/cryptocurrency-hackers.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-20 09:56:17+01	zdnet	t	2022-01-20 11:00:02.139603+01	zdnet/Multichain-token-hack-losses-reach-3-million-report--ZDNet
+975	Microsoft fixes Windows 10 search issues in Outlook desktop app	Microsoft has fixed a known issue causing search issues for Outlook users after installing Windows 10 security updates released since November 2021.	https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-10-search-issues-in-outlook-desktop-app/	https://www.bleepstatic.com/content/hl-images/2021/05/11/Outlook_headpic.jpg	Sergiu Gatlan	2022-01-20 11:08:45+01	bleepingcomputer	t	2022-01-20 12:00:01.863307+01	bleepingcomputer/Microsoft-fixes-Windows-10-search-issues-in-Outlook-desktop-app
 \.
 
 
@@ -978,7 +979,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 974, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 975, true);
 
 
 --
