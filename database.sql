@@ -973,6 +973,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 974	Multichain token hack losses reach $3 million: report | ZDNet	Multichain messaging seems confusing, at best.	https://www.zdnet.com/article/multichain-token-hack-losses-reach-3-million-report/	https://www.zdnet.com/a/img/resize/8b497cff5a0028d77450ec08e8318cacba872b9e/2021/08/12/880e080a-7301-4a4b-a4e7-def615879cd5/cryptocurrency-hackers.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-20 09:56:17+01	zdnet	t	2022-01-20 11:00:02.139603+01	zdnet/Multichain-token-hack-losses-reach-3-million-report--ZDNet
 975	Microsoft fixes Windows 10 search issues in Outlook desktop app	Microsoft has fixed a known issue causing search issues for Outlook users after installing Windows 10 security updates released since November 2021.	https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-10-search-issues-in-outlook-desktop-app/	https://www.bleepstatic.com/content/hl-images/2021/05/11/Outlook_headpic.jpg	Sergiu Gatlan	2022-01-20 11:08:45+01	bleepingcomputer	t	2022-01-20 12:00:01.863307+01	bleepingcomputer/Microsoft-fixes-Windows-10-search-issues-in-Outlook-desktop-app
 976	Defending Users’ NAS Devices From Evolving Threats	In our latest research, we analyze the threats targeting well-known brands of network-attached storage (NAS) devices. 	https://www.trendmicro.com/en_us/research/22/a/defending-users-NAS-devices-from-evolving-threats.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/defending-users-nas-devices-from-evolving-threats/cover-defending-users-nas-from-evolving-threats.jpg	\N	2022-01-20 00:00:00+01	trendmicro	t	2022-01-20 13:00:02.395688+01	trendmicro/Defending-Users-NAS-Devices-From-Evolving-Threats
+977	New MoonBounce UEFI malware used by APT41 in targeted attacks	Security analysts have discovered and linked MoonBounce, the most advanced UEFI firmware implant found so far in the wild, to the Chinese-speaking APT41 hacker group (also known as Winnti).	https://www.bleepingcomputer.com/news/security/new-moonbounce-uefi-malware-used-by-apt41-in-targeted-attacks/	https://www.bleepstatic.com/content/hl-images/2022/01/20/motherboard.jpg	Bill Toulas	2022-01-20 13:55:29+01	bleepingcomputer	t	2022-01-20 14:00:01.919593+01	bleepingcomputer/New-MoonBounce-UEFI-malware-used-by-APT41-in-targeted-attacks
 \.
 
 
@@ -980,7 +981,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 976, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 977, true);
 
 
 --
