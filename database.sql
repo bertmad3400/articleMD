@@ -994,6 +994,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 993	More than half of medical devices found to have critical vulnerabilities | ZDNet	A new report reveals what kind of medical devices are at most risk of security threats.	https://www.zdnet.com/article/more-than-half-of-medical-devices-have-critical-vulnerabilities/	https://www.zdnet.com/a/img/resize/c3c43f354e354b9ea7232f316b91bff24f8d49fd/2022/01/20/40842b6a-143d-4a85-90ed-6f6d1fa5c815/medical-device.jpg?width=770&height=578&fit=crop&auto=webp	Allison Murray	2022-01-20 18:13:00+01	zdnet	t	2022-01-20 20:00:01.879164+01	zdnet/More-than-half-of-medical-devices-found-to-have-critical-vulnerabilities--ZDNet
 996	Cybersecurity for Industrial Control Systems: Part 2	Part 2 of this cybersecurity for industrial control systems series discusses malware detection and distribution to help strengthen ICS cybersecurity.	https://www.trendmicro.com/en_us/research/22/a/cybersecurity-for-industrial-control-systems-part-2.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/cybersecurity-for-industrial-control-systems-part-1/Threats-Affecting-ICS-Endpoints.jpg	\N	2022-01-20 00:00:00+01	trendmicro	t	2022-01-20 21:00:02.441242+01	trendmicro/Cybersecurity-for-Industrial-Control-Systems-Part-2
 997	Critical Cisco StarOS Bug Grants Root Access via Debug Mode	Cisco issued a critical fix for a flaw in its Cisco RCM for Cisco StarOS Software that could give attackers RCE on the application with root-level privileges.	https://kasperskycontenthub.com/threatpost-global/?p=177832	https://media.threatpost.com/wp-content/uploads/sites/103/2020/08/27153752/cisco.jpg	Becky Bracken	2022-01-20 20:35:29+01	threatpost	t	2022-01-20 21:00:02.441242+01	threatpost/Critical-Cisco-StarOS-Bug-Grants-Root-Access-via-Debug-Mode
+998	Treasury Department sanctions four Ukrainians allegedly involved in Russian influence attempts | ZDNet	The US said the four are involved in and effort to recruit Ukrainian citizens to create instability in advance of a potential Russian invasion.	https://www.zdnet.com/article/treasury-department-sanctions-four-ukrainians-allegedly-involved-in-russian-influence-attempts/	https://www.zdnet.com/a/img/resize/d11ed17ce8c5e89ef5745a536291f58a1d108a85/2017/02/02/1f90ad67-8f8c-408d-8de0-e466ad7ae789/treasury.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-20 20:32:58+01	zdnet	t	2022-01-20 22:00:02.095084+01	zdnet/Treasury-Department-sanctions-four-Ukrainians-allegedly-involved-in-Russian-influence-attempts--ZDNet
 \.
 
 
@@ -1001,7 +1002,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 997, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 998, true);
 
 
 --
