@@ -1,0 +1,76 @@
+# Biden signs memo to boost US national security systems’ defenses
+### President Joe Biden signed a national security memorandum (NSM) on Wednesday to increase the security of national security systems part of critical US government networks used in military and intelligence activities when storing or transferring classified info.
+
+## Information:
++ Source: Bleeping Computer
++ Link: https://www.bleepingcomputer.com/news/security/biden-signs-memo-to-boost-us-national-security-systems-defenses/
++ Date: 2022-01-20T08:57:00-05:00
++ Author: Sergiu Gatlan
+
+
+## Article:
+![Article Image](https://www.bleepstatic.com/content/hl-images/2021/10/01/Biden__headpic.jpg)
+
+![Biden signs memo to boost US national security systems’ defenses](https://www.bleepstatic.com/content/hl-images/2021/10/01/Biden__headpic.jpg)
+
+
+President Joe Biden signed a national security memorandum (NSM) on Wednesday to increase the security of national security systems part of critical US government networks used in military and intelligence activities when storing or transferring classified info.
+
+
+"Modernizing our cybersecurity defenses and protecting all federal networks is a priority for the Biden Administration, and this National Security Memorandum raises the bar for the cybersecurity of our most sensitive systems," the White House [said](https://www.whitehouse.gov/briefing-room/statements-releases/2022/01/19/fact-sheet-president-biden-signs-national-security-memorandum-to-improve-the-cybersecurity-of-national-security-department-of-defense-and-intelligence-community-systems/).
+
+
+Biden's memo requires federal agencies to report breaches on national security systems to the National Security Agency (NSA), the "National Manager" for US government classified systems.
+
+
+"All departments and agencies operating NSS will now report to the National Manager on both the status of mitigation actions taken in response to a specific cyber incident as well as provide assessments of the overall impact to their systems," the NSA [added](https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/2904637/president-biden-signs-cybersecurity-national-security-memorandum/).
+
+
+"Departments and agencies are also required to notify the National Manager of known or suspected incidents or compromises of NSS."
+
+
+The NSA is also tasked with issuing Binding Operational Directives needed to guide departments and agencies into taking measures against cybersecurity threats, mirroring the Department of Homeland Security's role in issuing binding directives for civilian government networks.
+
+
+This memo also requires agencies to implement cybersecurity practices such as encryption, multifactor authentication, and cloud technologies and endpoint detection services defense, as required by [Biden's 'Executive Order on Improving the Nation's Cybersecurity'](https://www.bleepingcomputer.com/news/security/biden-issues-executive-order-to-increase-us-cybersecurity-defenses/) issued in May.
+
+
+An ongoing effort to defend the US against cyberattacks
+-------------------------------------------------------
+
+
+The President's memo builds on the Biden Admin's work to defend the US from malicious cyber activity linked to both nation-state actors and cybercriminals, including [another national security memorandum from July](https://www.bleepingcomputer.com/news/security/new-us-security-memorandum-bolsters-critical-infrastructure-cybersecurity/).
+
+
+That was issued in response to ransomware attacks on [Colonial Pipeline](https://www.bleepingcomputer.com/tag/colonial-pipeline/) and [JBS Foods](https://www.bleepingcomputer.com/news/security/food-giant-jbs-foods-shuts-down-production-after-cyberattack/) in the US and other orgs worldwide, revealing significant vulnerabilities across US infrastructure, primarily owned and operated by private sector companies.
+
+
+Through that memo, the Biden administration directed CISA and the Department of Commerce's NIST to develop cybersecurity performance goals and guidance for critical infrastructure orgs in collaboration with other US federal agencies.
+
+
+"The new authorities will provide us with the necessary cybersecurity visibility into our most important systems," said Rob Joyce, NSA Director of Cybersecurity and Deputy National Manager for national security systems, regarding Wednesday's memorandum.
+
+
+"This new insight will allow us to identify vulnerabilities, detect malicious threat activity and drive mitigations to better secure all national security systems."
+
+
+
+
+
+## Tags:
+
+#### Threatactor:
+[[threatactor.name=RTM]]
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Net]] [[action.malware.name=Reg]] [[action.malware.name=RTM]] [[action.malware.name=Tor]]
+
+#### Industry:
+[[victim.industry.name=Accomodation]]
+
+#### Location:
+[[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Biden]] [[Cybersecurity]] [[Nsa]] [[Bleeping Computer]]
+
