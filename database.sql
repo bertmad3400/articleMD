@@ -995,6 +995,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 996	Cybersecurity for Industrial Control Systems: Part 2	Part 2 of this cybersecurity for industrial control systems series discusses malware detection and distribution to help strengthen ICS cybersecurity.	https://www.trendmicro.com/en_us/research/22/a/cybersecurity-for-industrial-control-systems-part-2.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/cybersecurity-for-industrial-control-systems-part-1/Threats-Affecting-ICS-Endpoints.jpg	\N	2022-01-20 00:00:00+01	trendmicro	t	2022-01-20 21:00:02.441242+01	trendmicro/Cybersecurity-for-Industrial-Control-Systems-Part-2
 997	Critical Cisco StarOS Bug Grants Root Access via Debug Mode	Cisco issued a critical fix for a flaw in its Cisco RCM for Cisco StarOS Software that could give attackers RCE on the application with root-level privileges.	https://kasperskycontenthub.com/threatpost-global/?p=177832	https://media.threatpost.com/wp-content/uploads/sites/103/2020/08/27153752/cisco.jpg	Becky Bracken	2022-01-20 20:35:29+01	threatpost	t	2022-01-20 21:00:02.441242+01	threatpost/Critical-Cisco-StarOS-Bug-Grants-Root-Access-via-Debug-Mode
 998	Treasury Department sanctions four Ukrainians allegedly involved in Russian influence attempts | ZDNet	The US said the four are involved in and effort to recruit Ukrainian citizens to create instability in advance of a potential Russian invasion.	https://www.zdnet.com/article/treasury-department-sanctions-four-ukrainians-allegedly-involved-in-russian-influence-attempts/	https://www.zdnet.com/a/img/resize/d11ed17ce8c5e89ef5745a536291f58a1d108a85/2017/02/02/1f90ad67-8f8c-408d-8de0-e466ad7ae789/treasury.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-20 20:32:58+01	zdnet	t	2022-01-20 22:00:02.095084+01	zdnet/Treasury-Department-sanctions-four-Ukrainians-allegedly-involved-in-Russian-influence-attempts--ZDNet
+999	FAQ: What's happening with 5G and airport safety? | ZDNet	There are legitimate concerns about the use of C-Band 5G near certain kinds of airplanes. Here's what we know so far.	https://www.zdnet.com/article/whats-what-with-5g-and-airport-safety-faq/	https://www.zdnet.com/a/img/resize/01b89ac29f22ee6cdc4faf22fb68842e779de774/2022/01/10/fe85b09f-3988-4826-b730-1d2488f90fd0/planes-and-5g.jpg?width=770&height=578&fit=crop&auto=webp	Steven Vaughan-Nichols	2022-01-20 21:38:12+01	zdnet	t	2022-01-20 23:00:02.161208+01	zdnet/FAQ-Whats-happening-with-5G-and-airport-safety--ZDNet
+1000	‘Anomalous’ spyware stealing credentials in industrial firms	Researchers have uncovered several spyware campaigns that target industrial enterprises, aiming to steal email account credentials and conduct financial fraud or resell them to other actors.	https://www.bleepingcomputer.com/news/security/anomalous-spyware-stealing-credentials-in-industrial-firms/	https://www.bleepstatic.com/content/hl-images/2021/11/03/energy_industry.jpg	Bill Toulas	2022-01-20 22:29:45+01	bleepingcomputer	t	2022-01-20 23:00:02.161208+01	bleepingcomputer/Anomalous-spyware-stealing-credentials-in-industrial-firms
 \.
 
 
@@ -1002,7 +1004,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 998, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1000, true);
 
 
 --
