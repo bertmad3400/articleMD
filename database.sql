@@ -1018,6 +1018,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1019	Merck wins cyber-insurance lawsuit related to NotPetya attack	A New Jersey court has ruled in favor of Merck in a lawsuit the pharmaceutical company filed against its insurer, Ace American, which declined to cover the losses caused by the NotPetya ransomware attack.	https://therecord.media/merck-wins-cyber-insurance-lawsuit-related-to-notpetya-attack/	https://therecord.media/wp-content/uploads/2022/01/columns-court.jpg	Catalin Cimpanu	2022-01-21 16:22:01+01	therecord	t	2022-01-21 17:00:01.909151+01	therecord/Merck-wins-cyber-insurance-lawsuit-related-to-NotPetya-attack
 1020	Microsoft disables Excel 4.0 macros by default to block malware	​Microsoft has announced that Excel 4.0 (XLM) macros will now be disabled by default to protect customers from malicious documents.	https://www.bleepingcomputer.com/news/microsoft/microsoft-disables-excel-40-macros-by-default-to-block-malware/	https://www.bleepstatic.com/content/hl-images/2022/01/21/Excel.jpg	Sergiu Gatlan	2022-01-21 16:56:21+01	bleepingcomputer	t	2022-01-21 17:00:01.909151+01	bleepingcomputer/Microsoft-disables-Excel-40-macros-by-default-to-block-malware
 1021	Over 90 WordPress themes, plugins backdoored in supply chain attack	A massive supply chain attack compromised 93 WordPress themes and plugins to contain a backdoor, giving threat-actors full access to websites.	https://www.bleepingcomputer.com/news/security/over-90-wordpress-themes-plugins-backdoored-in-supply-chain-attack/	https://www.bleepstatic.com/content/hl-images/2021/02/08/supply-chain.jpg	Bill Toulas	2022-01-21 16:34:01+01	bleepingcomputer	t	2022-01-21 17:00:01.909151+01	bleepingcomputer/Over-90-WordPress-themes-plugins-backdoored-in-supply-chain-attack
+1022	Log4J: Attackers continue targeting VMware Horizon servers | ZDNet	VMware has urged customers to apply the latest guidance as a way to resolve vulnerabilities CVE-2021-44228 and CVE-2021-4504.	https://www.zdnet.com/article/log4j-attackers-continue-targeting-vmware-horizon-servers/	https://www.zdnet.com/a/img/resize/648d544e04767b8c71653463ec50b9f8977ed6bd/2022/01/11/6005ba87-2a82-4d5d-a352-f25e33a510c0/vmware.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-21 16:58:00+01	zdnet	t	2022-01-21 18:00:02.184903+01	zdnet/Log4J-Attackers-continue-targeting-VMware-Horizon-servers--ZDNet
 \.
 
 
@@ -1025,7 +1026,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1021, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1022, true);
 
 
 --
