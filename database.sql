@@ -1013,6 +1013,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1014	Codex Exposed Task Automation and Response Consistency	Being able to automate tasks or programmatically execute them unsupervised is an essential part of both regular and malicious computer usage, so we wondered if a tool like Codex was reliable enough to be scripted and left to run unsupervised, generating the required code.	https://www.trendmicro.com/en_us/research/22/a/codex-exposed-task-automation-and-response-consistency.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/gpt-part-3/gpt-part3-cover.png	\N	2022-01-21 00:00:00+01	trendmicro	t	2022-01-21 15:00:01.855286+01	trendmicro/Codex-Exposed-Task-Automation-and-Response-Consistency
 1015	After ransomware arrests, some dark web criminals are getting worried | ZDNet	Analysis of dark web chatter suggests that some ransomware affiliates worry law enforcement might come for them next.	https://www.zdnet.com/article/after-ransomware-arrests-some-dark-web-criminals-are-getting-worried/	https://www.zdnet.com/a/img/resize/36eacd57be8cf45d5617f398302d88af4e47917b/2021/12/06/65e99cdf-bb9a-43e6-b9f2-7bbcfab2c195/hacker-hands-typing-on-a-keyboard.jpg?width=770&height=578&fit=crop&auto=webp	Danny Palmer	2022-01-21 13:00:02+01	zdnet	t	2022-01-21 15:00:01.855286+01	zdnet/After-ransomware-arrests-some-dark-web-criminals-are-getting-worried--ZDNet
 1016	McAfee Agent bug lets hackers run code with Windows SYSTEM privileges	McAfee has patched a security vulnerability discovered in the company's McAfee Agent software for Windows enabling attackers to escalate privileges and execute arbitrary code with SYSTEM privileges.	https://www.bleepingcomputer.com/news/security/mcafee-agent-bug-lets-hackers-run-code-with-windows-system-privileges/	https://www.bleepstatic.com/content/hl-images/2022/01/21/McAfee.jpg	Sergiu Gatlan	2022-01-21 14:22:24+01	bleepingcomputer	t	2022-01-21 15:00:01.855286+01	bleepingcomputer/McAfee-Agent-bug-lets-hackers-run-code-with-Windows-SYSTEM-privileges
+1017	A Microsoft Defender Glitch Allowed Hackers Evade AV Detections	Microsoft has now fixed the Defender glitch that even existed in the Windows 10 21H1 and 21H2. Windows 11 remained unaffected by this glitch.	https://latesthackingnews.com/2022/01/21/microsoft-defender-glitch-allowed-hackers-to-evade-av-detection/	https://latesthackingnews.com/wp-content/uploads/2020/09/Microsoft-Windows-Defender.jpeg	Abeerah Hashim	2022-01-21 00:00:00+01	latesthackingnews	t	2022-01-21 16:00:02.160283+01	latesthackingnews/A-Microsoft-Defender-Glitch-Allowed-Hackers-Evade-AV-Detections
+1018	Spyware Blitzes Compromise, Cannibalize ICS Networks	The brief spearphishing campaigns spread malware and use compromised networks to steal credentials that can be sold or used to commit financial fraud.	https://kasperskycontenthub.com/threatpost-global/?p=177851	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/21090821/cannibal-burger.jpeg	Elizabeth Montalbano	2022-01-21 15:10:07+01	threatpost	t	2022-01-21 16:00:02.160283+01	threatpost/Spyware-Blitzes-Compromise-Cannibalize-ICS-Networks
 \.
 
 
@@ -1020,7 +1022,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1016, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1018, true);
 
 
 --
