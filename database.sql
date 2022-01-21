@@ -1000,6 +1000,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1000	‘Anomalous’ spyware stealing credentials in industrial firms	Researchers have uncovered several spyware campaigns that target industrial enterprises, aiming to steal email account credentials and conduct financial fraud or resell them to other actors.	https://www.bleepingcomputer.com/news/security/anomalous-spyware-stealing-credentials-in-industrial-firms/	https://www.bleepstatic.com/content/hl-images/2021/11/03/energy_industry.jpg	Bill Toulas	2022-01-20 22:29:45+01	bleepingcomputer	t	2022-01-20 23:00:02.161208+01	bleepingcomputer/Anomalous-spyware-stealing-credentials-in-industrial-firms
 1001	Google calls for a secure 'data transfer framework' between the US and EU | ZDNet	The tech giant wants government agencies to establish new rules for data transfers between nations.	https://www.zdnet.com/article/google-urges-for-new-data-rules-between-the-us-and-eu/	https://www.zdnet.com/a/img/resize/d3d975aa359edcfe51e0d631cc0941c2d7a45f25/2022/01/13/6fba24bf-2fd4-4038-a9b1-b9cee9a4c9e2/data-center.jpg?width=770&height=578&fit=crop&auto=webp	Allison Murray	2022-01-20 21:56:37+01	zdnet	t	2022-01-21 00:00:02.306858+01	zdnet/Google-calls-for-a-secure-data-transfer-framework-between-the-US-and-EU--ZDNet
 1002	Microsoft lists the Windows 10 group policies to avoid	Microsoft released a list of twenty-five group policies that admins should not use in Windows 10 and Windows 11 as they do not provide optimal behavior or cause unexpected results.	https://www.bleepingcomputer.com/news/microsoft/microsoft-lists-the-windows-10-group-policies-to-avoid/	https://www.bleepstatic.com/content/hl-images/2021/01/25/Windows-10.jpg	Lawrence Abrams	2022-01-20 23:53:34+01	bleepingcomputer	t	2022-01-21 00:00:02.306858+01	bleepingcomputer/Microsoft-lists-the-Windows-10-group-policies-to-avoid
+1004	OpenSea confirms outage after platforms report issues with displaying NFTs | ZDNet	OpenSea said programmatic access to the API was fully restored within hours.	https://www.zdnet.com/article/opensea-confirms-outage-after-platforms-report-issues-with-displaying-nfts/	https://www.zdnet.com/a/img/resize/427c0eff98d32c43ad864e59ac7a22b6fa2e015f/2022/01/11/b3aa1846-40ee-4a67-94bb-0e0ca90af1b1/nft.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-21 00:28:12+01	zdnet	t	2022-01-21 02:00:02.580426+01	zdnet/OpenSea-confirms-outage-after-platforms-report-issues-with-displaying-NFTs--ZDNet
 \.
 
 
@@ -1007,7 +1008,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1003, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1004, true);
 
 
 --
