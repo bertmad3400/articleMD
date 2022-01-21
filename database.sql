@@ -1004,6 +1004,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1005	Crypto.com confirms 483 users hit in attack that saw over $31m in coins withdrawn | ZDNet	Around $14 million in ether, just over $17 million in bitcoin, and $66,200 in other cryptocurrencies withdrawn during the incident.	https://www.zdnet.com/article/crypto-com-confirms-483-users-hit-in-attack-that-saw-over-31m-in-coins-withdrawn/	https://www.zdnet.com/a/img/resize/78bf8a6490c6aea8ad705c4f346c126843e512d6/2022/01/21/6b2b94e5-6f85-4d78-a66c-0d52651d1728/matt-damon.png?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2022-01-21 05:50:00+01	zdnet	t	2022-01-21 07:00:01.829286+01	zdnet/Cryptocom-confirms-483-users-hit-in-attack-that-saw-over-31m-in-coins-withdrawn--ZDNet
 1006	Commercial surveillance the more immediate problem for citizens: Home Affairs chief | ZDNet	Mike Pezzullo says Australia needs a broad societal discussion about privacy, but government spying will always be more restricted. Meanwhile, our surveillance laws need bulldozing and a complete rebuild.	https://www.zdnet.com/article/commercial-surveillance-the-more-immediate-pressing-problem-for-citizens-home-affairs-chief/	https://www.zdnet.com/a/img/resize/643b2af1d04815b9e703c7534fd25133eb75af8d/2021/10/26/4e176b83-28a8-491d-a7bb-45bc341a65e3/gettyimages-1130417448.jpg?width=770&height=578&fit=crop&auto=webp	Stilgherrian 	2022-01-21 05:17:12+01	zdnet	t	2022-01-21 07:00:01.829286+01	zdnet/Commercial-surveillance-the-more-immediate-problem-for-citizens-Home-Affairs-chief--ZDNet
 1007	Emotet Spam Abuses Unconventional IP Address Formats to Spread Malware	We found waves of Emotet spam campaigns using unconventional IP addresses to evade detection.	https://www.trendmicro.com/en_us/research/22/a/emotet-spam-abuses-unconventional-ip-address-formats-spread-malware.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/emotet-spam-abuses-unconventional-ip-address-formats-to-spread-malware/cover-emotet-using-unconventional-octal-hexadecimal-IP-addresses-spam-campaign-evasion-technique.jpg	\N	2022-01-21 00:00:00+01	trendmicro	t	2022-01-21 08:00:02.431901+01	trendmicro/Emotet-Spam-Abuses-Unconventional-IP-Address-Formats-to-Spread-Malware
+1008	Amazon fake crypto token investment scam steals Bitcoin from victims | ZDNet	Criminals are peddling the idea of a new Amazon cryptocurrency token to swindle victims.	https://www.zdnet.com/article/amazon-fake-crypto-token-investment-scam-steals-bitcoin-from-victims/	https://www.zdnet.com/a/img/resize/dbe0aceb9cff19570bdb8aa4254a222a4e5f4453/2022/01/21/5744a6be-1707-46de-abf0-57be2ee74092/screenshot-2022-01-21-at-08-14-51.png?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-21 09:03:34+01	zdnet	t	2022-01-21 11:00:02.359165+01	zdnet/Amazon-fake-crypto-token-investment-scam-steals-Bitcoin-from-victims--ZDNet
 \.
 
 
@@ -1011,7 +1012,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1007, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1008, true);
 
 
 --
