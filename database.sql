@@ -1025,6 +1025,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1026	CISA adds 13 exploited vulnerabilities to list, 9 with Feb. 1 remediation date | ZDNet	CISA urged federal civilian agencies to address 9 vulnerabilities within the next two weeks.	https://www.zdnet.com/article/cisa-adds-13-exploited-vulnerabilities-to-list-9-with-feb-1-remediation-date/	https://www.zdnet.com/a/img/resize/d36837c0121054df591deffdd69082f264f64d9d/2021/12/22/d7c578df-6cb8-4225-8b9c-8e866a430e15/shutterstock-2010923726.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-21 18:37:14+01	zdnet	t	2022-01-21 20:00:02.199799+01	zdnet/CISA-adds-13-exploited-vulnerabilities-to-list-9-with-Feb-1-remediation-date--ZDNet
 1027	New MoonBounce UEFI bootkit can't be removed by replacing the hard drive	Security researchers from Kaspersky said on Thursday that they had discovered a novel bootkit that can infect a computer's UEFI firmware.	https://therecord.media/new-moonbounce-uefi-bootkit-cant-be-removed-by-replacing-the-hard-drive/	https://therecord.media/wp-content/uploads/2022/01/moon-night-sky-cloud.jpg	Catalin Cimpanu	2022-01-21 19:47:08+01	therecord	t	2022-01-21 20:00:02.199799+01	therecord/New-MoonBounce-UEFI-bootkit-cant-be-removed-by-replacing-the-hard-drive
 1028	20K WordPress Sites Exposed by Insecure Plugin REST-API	The WordPress WP HTML Mail plugin for personalized emails is vulnerable to code injection and phishing due to XSS.	https://kasperskycontenthub.com/threatpost-global/?p=177866	https://media.threatpost.com/wp-content/uploads/sites/103/2019/04/23131246/WordPress-plugin-exploit.jpg	Becky Bracken	2022-01-21 19:19:37+01	threatpost	t	2022-01-21 20:00:02.199799+01	threatpost/20K-WordPress-Sites-Exposed-by-Insecure-Plugin-REST-API
+1029	Microsoft backpedals on Windows 11 NCPA control panel removal	Microsoft has backpedaled its decision to forcefully redirect users from the Network Connections (ncpa.cpl) control panel to the Advanced Network Settings screen.	https://www.bleepingcomputer.com/news/microsoft/microsoft-backpedals-on-windows-11-ncpa-control-panel-removal/	https://www.bleepstatic.com/content/hl-images/2022/01/21/windows-11-control-panel.jpg	Lawrence Abrams	2022-01-21 20:49:50+01	bleepingcomputer	t	2022-01-21 21:00:02.563481+01	bleepingcomputer/Microsoft-backpedals-on-Windows-11-NCPA-control-panel-removal
 \.
 
 
@@ -1032,7 +1033,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1028, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1029, true);
 
 
 --
