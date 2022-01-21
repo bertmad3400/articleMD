@@ -1008,6 +1008,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1009	Chinese APT deploys MoonBounce implant in UEFI firmware | ZDNet	The highly targeted attack reveals a new level of sophistication in attacks against UEFI firmware.	https://www.zdnet.com/article/chinese-apt-deploy-moonbounce-malware-in-uefi-firmware/	https://www.zdnet.com/a/img/resize/a5423c1a8b673ba79d137e9d683b3b9bcc81fb6a/2021/06/29/1b445116-bb3a-42ac-a646-e43829d1a46d/extracting-water-from-the-moon.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-21 10:18:00+01	zdnet	t	2022-01-21 12:00:02.168217+01	zdnet/Chinese-APT-deploys-MoonBounce-implant-in-UEFI-firmware--ZDNet
 1010	Microsoft starts force installing Windows 10 21H2 on more devices	Microsoft has started the forced rollout of Windows 10, version 21H2 to more devices approaching the end of service (EOS) as part of a first machine learning (ML) training phase.	https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-force-installing-windows-10-21h2-on-more-devices/	https://www.bleepstatic.com/content/hl-images/2021/04/17/windows-10-sapphire.jpg	Sergiu Gatlan	2022-01-21 11:58:22+01	bleepingcomputer	t	2022-01-21 12:00:02.168217+01	bleepingcomputer/Microsoft-starts-force-installing-Windows-10-21H2-on-more-devices
 1011	SonicWall shares temp fix for firewalls stuck in reboot loop	Following a stream of customer reports that started yesterday evening, security hardware manufacturer SonicWall has provided a temporary workaround for reviving next-gen firewalls running SonicOS 7.0 stuck in a reboot loop.	https://www.bleepingcomputer.com/news/technology/sonicwall-shares-temp-fix-for-firewalls-stuck-in-reboot-loop/	https://www.bleepstatic.com/content/hl-images/2021/04/29/Sonicwall.jpg	Sergiu Gatlan	2022-01-21 12:36:25+01	bleepingcomputer	t	2022-01-21 13:00:02.522794+01	bleepingcomputer/SonicWall-shares-temp-fix-for-firewalls-stuck-in-reboot-loop
+1012	Nasty Linux kernel bug found and fixed | ZDNet	A heap overflow bug was recently discovered in the Linux kernel. The patch is available now in most major Linux distributions.	https://www.zdnet.com/article/nasty-linux-kernel-bug-found-and-fixed/	https://www.zdnet.com/a/img/resize/05ce9e2c4d28b1c4b3e0c154d2bbb2e1e2b84d79/2022/01/21/521374b7-5ef6-415f-883f-e322108a1f5b/linux-security.jpg?width=770&height=578&fit=crop&auto=webp	Steven Vaughan-Nichols	2022-01-21 12:23:32+01	zdnet	t	2022-01-21 14:00:02.619158+01	zdnet/Nasty-Linux-kernel-bug-found-and-fixed--ZDNet
+1013	FBI warning: This new ransomware makes demands of up to $500,000 | ZDNet	FBI finds Diavol ransomware uses the same method to fingerprint victim machines as Trickbot and Trickbot-related Anchor DNS malware.	https://www.zdnet.com/article/fbi-warning-this-new-ransomware-makes-demands-of-up-to-500000/	https://www.zdnet.com/a/img/resize/7351a4d62e302e3e026b8e9d2efdafd1c53b0fa6/2021/12/09/8afcec0f-e4c5-49cd-8c26-9b06dd6b370e/shutterstock-2056455242.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2022-01-21 12:07:52+01	zdnet	t	2022-01-21 14:00:02.619158+01	zdnet/FBI-warning-This-new-ransomware-makes-demands-of-up-to-500000--ZDNet
 \.
 
 
@@ -1015,7 +1017,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1011, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1013, true);
 
 
 --
