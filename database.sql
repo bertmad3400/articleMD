@@ -1032,6 +1032,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1033	Log4J: Microsoft discovers attackers targeting undisclosed SolarWinds vulnerability | ZDNet	Microsoft said it discovered previously undisclosed issues with the SolarWinds Serv-U software while looking for Log4J vulnerabilities.	https://www.zdnet.com/article/log4j-microsoft-discovers-attackers-targeting-solarwinds-vulnerability/	https://www.zdnet.com/a/img/resize/e8386e7589069ca850ebc20cd3b1461a05918c2f/2021/07/13/12de2331-93a4-4ee4-89c7-03a97e82d350/solarwinds-releases-security-advisory.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-21 22:24:00+01	zdnet	t	2022-01-22 00:00:02.497269+01	zdnet/Log4J-Microsoft-discovers-attackers-targeting-undisclosed-SolarWinds-vulnerability--ZDNet
 1034	Enjoy a lifetime of skills training, ad-free documentaries and VPN protection for $199 | ZDNet	Leverage your increased time at home into better entertainment, skills training for a better future, and the peace of mind a powerful VPN can bring.	https://www.zdnet.com/article/enjoy-a-lifetime-of-skills-training-ad-free-documentaries-and-vpn-protection-for-199/	https://www.zdnet.com/a/img/resize/0b9fb4e14202fdf1dc61d3b21c8965c0b0ff4f0a/2021/11/16/842d934b-9a95-4969-a982-3eecc2b72b06/vpn.jpg?width=770&height=578&fit=crop&auto=webp	ZDNet Academy	2022-01-22 14:00:02+01	zdnet	t	2022-01-22 16:00:02.587577+01	zdnet/Enjoy-a-lifetime-of-skills-training-ad-free-documentaries-and-VPN-protection-for-199--ZDNet
 1035	Why this threat intelligence expert believes cyberattacks aren’t Ukraine’s biggest concern	Dmitri Alperovitch, the former chief technology officer of CrowdStrike who co-founded the now $38 billion cybersecurity giant in 2011, says that while a Russian attack on Ukraine is almost certain, cyber will only play a supporting role.	https://therecord.media/why-this-threat-intelligence-expert-believes-cyberattacks-arent-ukraines-biggest-concern/	https://therecord.media/wp-content/uploads/2022/01/ukraine-soldiers-ministry-of-defense.jpg	Adam Janofsky	2022-01-22 15:06:35+01	therecord	t	2022-01-22 16:00:02.587577+01	therecord/Why-this-threat-intelligence-expert-believes-cyberattacks-arent-Ukraines-biggest-concern
+1036	Crypto.com CEO responds to complaints of login issues after $31 million hack | ZDNet	Thousands of Crypto.com users complained that they were unable to get back into their accounts after the hack last week.	https://www.zdnet.com/article/crypto-com-ceo-responds-to-complaints-of-login-issues-after-hack/	https://www.zdnet.com/a/img/resize/3d0224d9761f48df85973ee255cc044d657b69a8/2022/01/20/b1883da7-bdec-4115-a358-a0886a38037d/crypto-com-matt-damon.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-22 16:37:49+01	zdnet	t	2022-01-22 18:00:02.069084+01	zdnet/Cryptocom-CEO-responds-to-complaints-of-login-issues-after-31-million-hack--ZDNet
 \.
 
 
@@ -1039,7 +1040,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1035, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1036, true);
 
 
 --
