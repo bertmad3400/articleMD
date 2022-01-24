@@ -1059,6 +1059,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1060	Malicious PowerPoint files used to push remote access trojans	Since December 2021, a growing trend in phishing campaigns has emerged that uses malicious PowerPoint documents to distribute various types of malware, including remote access and information-stealing trojans.	https://www.bleepingcomputer.com/news/security/malicious-powerpoint-files-used-to-push-remote-access-trojans/	https://www.bleepstatic.com/content/hl-images/2021/04/16/malware-phishing-header.jpg	Bill Toulas	2022-01-24 15:37:15+01	bleepingcomputer	t	2022-01-24 16:00:01.834631+01	bleepingcomputer/Malicious-PowerPoint-files-used-to-push-remote-access-trojans
 1061	Dark Souls servers taken down to prevent hacks using critical bug	Bandai Namco has deactivated the online PvP mode for the Dark Souls role-playing game, taking its servers offline to investigate reports about a severe security issue that may pose a risk to players.	https://www.bleepingcomputer.com/news/security/dark-souls-servers-taken-down-to-prevent-hacks-using-critical-bug/	https://www.bleepstatic.com/content/hl-images/2022/01/24/dark-souls.jpg	Bill Toulas	2022-01-24 12:58:22+01	bleepingcomputer	t	2022-01-24 16:00:01.834631+01	bleepingcomputer/Dark-Souls-servers-taken-down-to-prevent-hacks-using-critical-bug
 1062	SonicWall explains why firewalls were caught in reboot loops	In a weekend update, SonicWall said the widespread reboot loops that impacted next-gen firewalls worldwide were caused by signature updates published on Thursday evening not being correctly processed.	https://www.bleepingcomputer.com/news/technology/sonicwall-explains-why-firewalls-were-caught-in-reboot-loops/	https://www.bleepstatic.com/content/hl-images/2021/05/28/SonicWall.jpg	Sergiu Gatlan	2022-01-24 16:07:38+01	bleepingcomputer	t	2022-01-24 17:00:02.428574+01	bleepingcomputer/SonicWall-explains-why-firewalls-were-caught-in-reboot-loops
+1063	Ransomware gangs increase efforts to enlist insiders for attacks	A recent survey of 100 large (over 5,000 employees) North American IT firms shows that ransomware actors are making greater effort to recruit insiders in targeted firms to aid in attacks.	https://www.bleepingcomputer.com/news/security/ransomware-gangs-increase-efforts-to-enlist-insiders-for-attacks/	https://www.bleepstatic.com/content/hl-images/2022/01/24/office.jpg	Bill Toulas	2022-01-24 17:40:20+01	bleepingcomputer	t	2022-01-24 18:00:02.54521+01	bleepingcomputer/Ransomware-gangs-increase-efforts-to-enlist-insiders-for-attacks
 \.
 
 
@@ -1066,7 +1067,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1062, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1063, true);
 
 
 --
