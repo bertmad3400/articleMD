@@ -1064,6 +1064,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1065	Hackers say they encrypted Belarusian Railway servers in protest	A group of hackers (self-dubbed Belarusian Cyber-Partisans) claim they breached and encrypted servers belonging to the Belarusian Railway, Belarus's national state-owned railway company.	https://www.bleepingcomputer.com/news/security/hackers-say-they-encrypted-belarusian-railway-servers-in-protest/	https://www.bleepstatic.com/content/hl-images/2021/12/21/data-theft-header.jpg	Sergiu Gatlan	2022-01-24 18:34:14+01	bleepingcomputer	t	2022-01-24 19:00:02.66866+01	bleepingcomputer/Hackers-say-they-encrypted-Belarusian-Railway-servers-in-protest
 1066	Log4j: Mirai botnet found targeting ZyXEL networking devices | ZDNet	A report explained that the Log4j vulnerability is being used to infect and assist in the proliferation of malware used by the Mirai botnet.	https://www.zdnet.com/article/log4j-mirai-ddos-botnet-targeting-zyxel-networking-devices/	https://www.zdnet.com/a/img/resize/ae87ac070a5b3d088fcafae17c131be3067edb71/2022/01/10/d0db5c59-423a-428b-a098-a043e397f51b/shutterstock-2090832775.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-24 18:26:00+01	zdnet	t	2022-01-24 20:00:02.660732+01	zdnet/Log4j-Mirai-botnet-found-targeting-ZyXEL-networking-devices--ZDNet
 1067	Android malware BRATA wipes your device after stealing data	The Android malware known as BRATA has added new and dangerous features to its latest version, including GPS tracking, the capacity to use multiple communication channels, and a function that performs a factory reset on the device to wipe all traces of malicious activity.	https://www.bleepingcomputer.com/news/security/android-malware-brata-wipes-your-device-after-stealing-data/	https://www.bleepstatic.com/content/hl-images/2021/09/29/Android.jpg	Bill Toulas	2022-01-24 18:55:28+01	bleepingcomputer	t	2022-01-24 20:00:02.660732+01	bleepingcomputer/Android-malware-BRATA-wipes-your-device-after-stealing-data
+1068	Code Injection Vulnerability Found In HTML Mail WordPress Plugin	Exploiting the vulnerability in HTML Mail plugin could allow phishing attacks as well as infecting websites with malicious codes.	https://latesthackingnews.com/2022/01/24/code-injection-vulnerability-found-in-html-mail-wordpress-plugin/	https://latesthackingnews.com/wp-content/uploads/2020/07/Wordpress-plugin.png	Abeerah Hashim	2022-01-24 00:00:00+01	latesthackingnews	t	2022-01-24 21:00:02.378109+01	latesthackingnews/Code-Injection-Vulnerability-Found-In-HTML-Mail-WordPress-Plugin
+1069	CWP bugs allow code execution as root on Linux servers, patch now	Two security vulnerabilities that impact the Control Web Panel (CWP) software can be chained by unauthenticated attackers to gain remote code execution (RCE) as root on vulnerable Linux servers.	https://www.bleepingcomputer.com/news/security/cwp-bugs-allow-code-execution-as-root-on-linux-servers-patch-now/	https://www.bleepstatic.com/content/hl-images/2021/11/19/Linux_backdoor.jpg	Sergiu Gatlan	2022-01-24 20:34:39+01	bleepingcomputer	t	2022-01-24 21:00:02.378109+01	bleepingcomputer/CWP-bugs-allow-code-execution-as-root-on-Linux-servers-patch-now
 \.
 
 
@@ -1071,7 +1073,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1067, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1069, true);
 
 
 --
