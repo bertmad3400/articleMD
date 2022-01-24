@@ -1045,6 +1045,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1046	Safari 15 Browser Vulnerability Potentially Exposes User Data – Apple Yet to Fix	Safari 15 browser bug exposes users' browsing activities and identity to websites due to the violation of SOP. Apple working on a fix.	https://latesthackingnews.com/2022/01/24/safari-15-browser-vulnerability-potentially-exposes-user-data-apple-yet-to-fix/	https://latesthackingnews.com/wp-content/uploads/2018/06/Apple-Safari.jpg	Abeerah Hashim	2022-01-24 00:00:00+01	latesthackingnews	t	2022-01-24 05:00:01.942649+01	latesthackingnews/Safari-15-Browser-Vulnerability-Potentially-Exposes-User-Data--Apple-Yet-to-Fix
 1047	MFA Bypass Vulnerability Found In Box CMS And File Sharing Software	Box patched the MFA bypass vulnerability following the bug report. The flaw existed in SMS-based OTP authentication mechanism.	https://latesthackingnews.com/2022/01/24/mfa-bypass-vulnerability-found-in-box-cms-and-file-sharing-software/	https://latesthackingnews.com/wp-content/uploads/2022/01/Box-software.png	Abeerah Hashim	2022-01-24 00:00:00+01	latesthackingnews	t	2022-01-24 07:00:02.515214+01	latesthackingnews/MFA-Bypass-Vulnerability-Found-In-Box-CMS-And-File-Sharing-Software
 1048	China accused of hijacking Australia Prime Minister Scott Morrison's WeChat account | ZDNet	The Australian Prime Minister is still yet to retrieve access to his WeChat despite making contact with the 'Chinese community' hours ago.	https://www.zdnet.com/article/china-accused-of-hijacking-australia-prime-minister-scott-morrisons-wechat-account/	https://www.zdnet.com/a/img/resize/4c40cd1d0b48aa8f651a830b15738f836fc7005f/2022/01/24/7544de6a-ad38-49b6-aa07-3ffc0702df69/gettyimages-1237514722.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-24 05:05:58+01	zdnet	t	2022-01-24 07:00:02.515214+01	zdnet/China-accused-of-hijacking-Australia-Prime-Minister-Scott-Morrisons-WeChat-account--ZDNet
+1049	Hackers hijack smart contracts in cryptocurrency token 'rug pull' exit scams | ZDNet	Misconfiguration provides the perfect opportunity for token-based theft.	https://www.zdnet.com/article/hackers-hijack-smart-contracts-in-new-cryptocurrency-token-rug-pull-scams/	https://www.zdnet.com/a/img/resize/2271ef902266baeee69e832e2e10f13be07ab0bb/2019/01/23/ea1e5dd9-47ff-4ef1-bdc1-4cc05b9b1126/istock-cryptocurrency-coins.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-24 09:06:37+01	zdnet	t	2022-01-24 11:00:02.147411+01	zdnet/Hackers-hijack-smart-contracts-in-cryptocurrency-token-rug-pull-exit-scams--ZDNet
 \.
 
 
@@ -1052,7 +1053,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1048, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1049, true);
 
 
 --
