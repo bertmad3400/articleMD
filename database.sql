@@ -1043,6 +1043,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1044	Cobalt Strike, a Defender’s Guide - Part 2	In this post, we will focus on the network traffic it produced, and provide some easy wins defenders can be on the look out for to detect beaconing activity. We cover topics such as Domain Fronting, SOCKS proxy, C2 traffic, Sigma rules, JARM, JA3/s, RITA and more.	https://thedfirreport.com/2022/01/24/cobalt-strike-a-defenders-guide-part-2/	https://thedfirreport.com/wp-content/uploads/2022/01/Cobalt-Strike.jpg	editor	2022-01-24 04:03:49+01	dfirreport	t	2022-01-24 05:00:01.942649+01	dfirreport/Cobalt-Strike-a-Defenders-Guide---Part-2
 1045	This Linux Kernel Bug Affects Numerous Distros – Patch Now!	A heap overflow bug existed in Linux Kernel since February 2019, affecting all distros. Since a fix is available, update your systems now.	https://latesthackingnews.com/2022/01/24/this-linux-kernel-bug-affects-numerous-distros-patch-now/	https://latesthackingnews.com/wp-content/uploads/2018/08/TCP-vulnerability-in-Linux.jpg	Abeerah Hashim	2022-01-24 00:00:00+01	latesthackingnews	t	2022-01-24 05:00:01.942649+01	latesthackingnews/This-Linux-Kernel-Bug-Affects-Numerous-Distros--Patch-Now
 1046	Safari 15 Browser Vulnerability Potentially Exposes User Data – Apple Yet to Fix	Safari 15 browser bug exposes users' browsing activities and identity to websites due to the violation of SOP. Apple working on a fix.	https://latesthackingnews.com/2022/01/24/safari-15-browser-vulnerability-potentially-exposes-user-data-apple-yet-to-fix/	https://latesthackingnews.com/wp-content/uploads/2018/06/Apple-Safari.jpg	Abeerah Hashim	2022-01-24 00:00:00+01	latesthackingnews	t	2022-01-24 05:00:01.942649+01	latesthackingnews/Safari-15-Browser-Vulnerability-Potentially-Exposes-User-Data--Apple-Yet-to-Fix
+1047	MFA Bypass Vulnerability Found In Box CMS And File Sharing Software	Box patched the MFA bypass vulnerability following the bug report. The flaw existed in SMS-based OTP authentication mechanism.	https://latesthackingnews.com/2022/01/24/mfa-bypass-vulnerability-found-in-box-cms-and-file-sharing-software/	https://latesthackingnews.com/wp-content/uploads/2022/01/Box-software.png	Abeerah Hashim	2022-01-24 00:00:00+01	latesthackingnews	t	2022-01-24 07:00:02.515214+01	latesthackingnews/MFA-Bypass-Vulnerability-Found-In-Box-CMS-And-File-Sharing-Software
+1048	China accused of hijacking Australia Prime Minister Scott Morrison's WeChat account | ZDNet	The Australian Prime Minister is still yet to retrieve access to his WeChat despite making contact with the 'Chinese community' hours ago.	https://www.zdnet.com/article/china-accused-of-hijacking-australia-prime-minister-scott-morrisons-wechat-account/	https://www.zdnet.com/a/img/resize/4c40cd1d0b48aa8f651a830b15738f836fc7005f/2022/01/24/7544de6a-ad38-49b6-aa07-3ffc0702df69/gettyimages-1237514722.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-24 05:05:58+01	zdnet	t	2022-01-24 07:00:02.515214+01	zdnet/China-accused-of-hijacking-Australia-Prime-Minister-Scott-Morrisons-WeChat-account--ZDNet
 \.
 
 
@@ -1050,7 +1052,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1046, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1048, true);
 
 
 --
