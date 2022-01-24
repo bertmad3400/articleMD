@@ -1058,6 +1058,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1059	Analysis and Impact of LockBit Ransomware’s First Linux and VMware ESXi Variant	LockBit ransomware's operators announced the release of its first Linux and ESXi variant in October. With samples also spotted in the wild, we discuss the impact and analysis of this variant.	https://www.trendmicro.com/en_us/research/22/a/analysis-and-Impact-of-lockbit-ransomwares-first-linux-and-vmware-esxi-variant.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/analysis-and-impact-of-lockbit-ransomwares-first-linux-and-vmware-esxi-variant/analysis_and%20mpact_of_lockbit_ransomwares_first_linux_and_vmware_esxi_variant.jpg	\N	2022-01-24 00:00:00+01	trendmicro	t	2022-01-24 15:00:02.056592+01	trendmicro/Analysis-and-Impact-of-LockBit-Ransomwares-First-Linux-and-VMware-ESXi-Variant
 1060	Malicious PowerPoint files used to push remote access trojans	Since December 2021, a growing trend in phishing campaigns has emerged that uses malicious PowerPoint documents to distribute various types of malware, including remote access and information-stealing trojans.	https://www.bleepingcomputer.com/news/security/malicious-powerpoint-files-used-to-push-remote-access-trojans/	https://www.bleepstatic.com/content/hl-images/2021/04/16/malware-phishing-header.jpg	Bill Toulas	2022-01-24 15:37:15+01	bleepingcomputer	t	2022-01-24 16:00:01.834631+01	bleepingcomputer/Malicious-PowerPoint-files-used-to-push-remote-access-trojans
 1061	Dark Souls servers taken down to prevent hacks using critical bug	Bandai Namco has deactivated the online PvP mode for the Dark Souls role-playing game, taking its servers offline to investigate reports about a severe security issue that may pose a risk to players.	https://www.bleepingcomputer.com/news/security/dark-souls-servers-taken-down-to-prevent-hacks-using-critical-bug/	https://www.bleepstatic.com/content/hl-images/2022/01/24/dark-souls.jpg	Bill Toulas	2022-01-24 12:58:22+01	bleepingcomputer	t	2022-01-24 16:00:01.834631+01	bleepingcomputer/Dark-Souls-servers-taken-down-to-prevent-hacks-using-critical-bug
+1062	SonicWall explains why firewalls were caught in reboot loops	In a weekend update, SonicWall said the widespread reboot loops that impacted next-gen firewalls worldwide were caused by signature updates published on Thursday evening not being correctly processed.	https://www.bleepingcomputer.com/news/technology/sonicwall-explains-why-firewalls-were-caught-in-reboot-loops/	https://www.bleepstatic.com/content/hl-images/2021/05/28/SonicWall.jpg	Sergiu Gatlan	2022-01-24 16:07:38+01	bleepingcomputer	t	2022-01-24 17:00:02.428574+01	bleepingcomputer/SonicWall-explains-why-firewalls-were-caught-in-reboot-loops
 \.
 
 
@@ -1065,7 +1066,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1061, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1062, true);
 
 
 --
