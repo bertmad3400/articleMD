@@ -1066,6 +1066,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1067	Android malware BRATA wipes your device after stealing data	The Android malware known as BRATA has added new and dangerous features to its latest version, including GPS tracking, the capacity to use multiple communication channels, and a function that performs a factory reset on the device to wipe all traces of malicious activity.	https://www.bleepingcomputer.com/news/security/android-malware-brata-wipes-your-device-after-stealing-data/	https://www.bleepstatic.com/content/hl-images/2021/09/29/Android.jpg	Bill Toulas	2022-01-24 18:55:28+01	bleepingcomputer	t	2022-01-24 20:00:02.660732+01	bleepingcomputer/Android-malware-BRATA-wipes-your-device-after-stealing-data
 1068	Code Injection Vulnerability Found In HTML Mail WordPress Plugin	Exploiting the vulnerability in HTML Mail plugin could allow phishing attacks as well as infecting websites with malicious codes.	https://latesthackingnews.com/2022/01/24/code-injection-vulnerability-found-in-html-mail-wordpress-plugin/	https://latesthackingnews.com/wp-content/uploads/2020/07/Wordpress-plugin.png	Abeerah Hashim	2022-01-24 00:00:00+01	latesthackingnews	t	2022-01-24 21:00:02.378109+01	latesthackingnews/Code-Injection-Vulnerability-Found-In-HTML-Mail-WordPress-Plugin
 1069	CWP bugs allow code execution as root on Linux servers, patch now	Two security vulnerabilities that impact the Control Web Panel (CWP) software can be chained by unauthenticated attackers to gain remote code execution (RCE) as root on vulnerable Linux servers.	https://www.bleepingcomputer.com/news/security/cwp-bugs-allow-code-execution-as-root-on-linux-servers-patch-now/	https://www.bleepstatic.com/content/hl-images/2021/11/19/Linux_backdoor.jpg	Sergiu Gatlan	2022-01-24 20:34:39+01	bleepingcomputer	t	2022-01-24 21:00:02.378109+01	bleepingcomputer/CWP-bugs-allow-code-execution-as-root-on-Linux-servers-patch-now
+1070	Tor Project appeals Russian court's decision to block access to Tor	US-based Tor Project and Russian digital-rights protection org RosKomSvoboda are appealing a Russian court's decision to block access to public Tor nodes and the project's website.	https://www.bleepingcomputer.com/news/security/tor-project-appeals-russian-courts-decision-to-block-access-to-tor/	https://www.bleepstatic.com/content/hl-images/2020/08/19/Tor-headpic.jpg	Lawrence Abrams	2022-01-24 21:39:03+01	bleepingcomputer	t	2022-01-24 22:00:02.769604+01	bleepingcomputer/Tor-Project-appeals-Russian-courts-decision-to-block-access-to-Tor
+1071	Dark Souls 3 Servers Shut Down Due to Critical RCE Bug	The bug can allow attackers to remotely execute code on gamers’ computers. The devs temporarily deactivated PvP servers across multiple affected versions.	https://kasperskycontenthub.com/threatpost-global/?p=177896	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/24124837/AdobeStock_314561521-1-1-scaled-e1643046545478.jpeg	Lisa Vaas	2022-01-24 21:26:32+01	threatpost	t	2022-01-24 22:00:02.769604+01	threatpost/Dark-Souls-3-Servers-Shut-Down-Due-to-Critical-RCE-Bug
 \.
 
 
@@ -1073,7 +1075,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1069, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1071, true);
 
 
 --
