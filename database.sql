@@ -1039,6 +1039,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1040	She didn't trust her movers. A single Apple AirTag proved she was right | ZDNet	AirTags are being used for all sorts of evil purposes. They're also proving to be very useful for many people.	https://www.zdnet.com/article/she-didnt-trust-her-movers-a-single-apple-airtag-showed-she-was-right/	https://www.zdnet.com/a/img/resize/cf87f2af779b6fd791d7500044064b7afaa16833/2022/01/18/90b0bc44-9fe0-4058-b283-19a2a81cd9b7/screenshot-2022-01-18-at-15-40-39.png?width=770&height=578&fit=crop&auto=webp	Chris Matyszczyk	2022-01-23 13:00:02+01	zdnet	t	2022-01-23 15:00:01.998399+01	zdnet/She-didnt-trust-her-movers-A-single-Apple-AirTag-proved-she-was-right--ZDNet
 1041	Microsoft tests a new Rejuvenated Windows 11 Task Manager, how to enable	Microsoft is testing a new hidden feature in the latest Windows 11 preview build that rejuvenates the user interface for Task Manager with a new design and modern appearance.	https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-a-new-rejuvenated-windows-11-task-manager-how-to-enable/	https://www.bleepstatic.com/content/posts/2022/01/rejuvenated-task-manager-header.jpg	Lawrence Abrams	2022-01-23 18:31:55+01	bleepingcomputer	t	2022-01-23 19:00:02.179408+01	bleepingcomputer/Microsoft-tests-a-new-Rejuvenated-Windows-11-Task-Manager-how-to-enable
 1042	FBI warns of malicious QR codes used to steal your money	The Federal Bureau of Investigation (FBI) warned Americans this week that cybercriminals are using maliciously crafted Quick Response (QR) codes to steal their credentials and financial info.	https://www.bleepingcomputer.com/news/security/fbi-warns-of-malicious-qr-codes-used-to-steal-your-money/	https://www.bleepstatic.com/content/hl-images/2022/01/21/FBI_QR_Code.jpg	Sergiu Gatlan	2022-01-23 16:00:00+01	bleepingcomputer	t	2022-01-23 19:00:02.179408+01	bleepingcomputer/FBI-warns-of-malicious-QR-codes-used-to-steal-your-money
+1043	Inman Grant's reappointment as eSafety commissioner comes with new powers | ZDNet	With the Online Safety Act now in effect, the eSafety commissioner can order social media platforms to more expeditiously take down cyberbullying content.	https://www.zdnet.com/article/inman-grants-reappointment-as-australian-esafety-commissioner-comes-with-new-powers/	https://www.zdnet.com/a/img/resize/e998ba55eeee27964e4c4fccf0da96a09b116e82/2021/05/03/411c2a4b-f919-4ee9-a1cb-b996314d4ae1/social-media-up-close-apps.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-23 23:11:00+01	zdnet	t	2022-01-24 01:00:01.913854+01	zdnet/Inman-Grants-reappointment-as-eSafety-commissioner-comes-with-new-powers--ZDNet
 \.
 
 
@@ -1046,7 +1047,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1042, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1043, true);
 
 
 --
