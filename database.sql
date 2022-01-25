@@ -1085,6 +1085,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1086	Google Drive flags nearly empty files for 'copyright infringement'	Users were left startled as Google Drive's automated detection systems flagged a nearly empty file for copyright infringement. The file, according to one Drive user, contained nothing other than just the digit 1 within.	https://www.bleepingcomputer.com/news/security/google-drive-flags-nearly-empty-files-for-copyright-infringement/	https://www.bleepstatic.com/content/hl-images/2021/05/06/Google.jpg	Ax Sharma	2022-01-25 09:08:02+01	bleepingcomputer	t	2022-01-25 10:00:08.29858+01	bleepingcomputer/Google-Drive-flags-nearly-empty-files-for-copyright-infringement
 1087	Software is crammed full of bugs. This exciting project could banish most of them | ZDNet	Can a new initiative eradicate some of the most common software flaws?	https://www.zdnet.com/article/software-is-crammed-full-of-bugs-this-exciting-project-could-banish-most-of-them/	https://www.zdnet.com/a/img/resize/ef2b875fe7bdc3c1fc0437ae25fd54c80be936b0/2021/10/08/6043c4ed-b75a-4557-8b06-c68866d1f7a3/developers-coding-team-programming.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2022-01-25 10:53:41+01	zdnet	t	2022-01-25 12:00:01.843522+01	zdnet/Software-is-crammed-full-of-bugs-This-exciting-project-could-banish-most-of-them--ZDNet
 1088	Mirai splinter botnets dominate IoT attack scene | ZDNet	One of the most well-known botnets ever to exist continues to plague PCs and connected devices.	https://www.zdnet.com/article/mirai-splinter-botnets-dominate-iot-attack-scene/	https://www.zdnet.com/a/img/resize/3baf63934d07053e3a567ded514a74c3c7953f95/2021/04/28/d4420046-cf40-4d22-9bd7-84724cb541c4/botnet-bug.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-25 10:00:01+01	zdnet	t	2022-01-25 12:00:01.843522+01	zdnet/Mirai-splinter-botnets-dominate-IoT-attack-scene--ZDNet
+1089	Microsoft beefs up Edge's security against zero-day attacks	In the latest beta release of its Edge browser, Microsoft introduced a new feature for IT admins to better secure the Chromium-based app against web-based attacks on desktop systems.	https://www.computerworld.com/article/3648068/microsoft-beefs-up-edges-security-against-zero-day-attacks.html	https://images.idgesg.net/images/idge/imported/imageapi/2021/11/26/20/keyboard_laptop_microsoft-edge-logo_web-browser_by-urupong-getty-images-1200x800-100816809-large-100912436-large.jpg?auto=webp&quality=85,70	Lucas Mearian	2022-01-20 19:16:00+01	computerworld	t	2022-01-25 13:00:02.225628+01	computerworld/Microsoft-beefs-up-Edges-security-against-zero-day-attacks
 \.
 
 
@@ -1092,7 +1093,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1088, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1089, true);
 
 
 --
