@@ -1081,6 +1081,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1082	Internet service returns to Burkina Faso and Yemen after coup, bombings | ZDNet	People in both Yemen and Burkina Faso were without internet for days due to outbreaks of violence in the past week.	https://www.zdnet.com/article/internet-service-returns-to-burkina-faso-and-yemen-after-coup-bombings/	https://www.zdnet.com/a/img/resize/369ab64511d55736810c4253876f4add37872ccb/2016/08/19/f4b1a1d2-4942-4458-b4c8-8105c4d3e540/wi-fi.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-25 00:06:04+01	zdnet	t	2022-01-25 02:00:02.345823+01	zdnet/Internet-service-returns-to-Burkina-Faso-and-Yemen-after-coup-bombings--ZDNet
 1083	OpenSea to reimburse people affected by loophole used to purchase NFTs below market value | ZDNet	Elliptic said it has identified at least three people making more than $1 million off of NFTs being sold for a fraction of what they're worth.	https://www.zdnet.com/article/opensea-reimbursing-people-affected-by-bug-used-to-purchase-nfts-below-market-value/	https://www.zdnet.com/a/img/resize/01c58e0ad04e30160eeb407218f71408632ef5fe/2022/01/21/968b39f9-3c62-49f2-b739-ff3567d9c131/nft-1.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-25 01:41:11+01	zdnet	t	2022-01-25 03:00:02.082217+01	zdnet/OpenSea-to-reimburse-people-affected-by-loophole-used-to-purchase-NFTs-below-market-value--ZDNet
 1084	Belarusian activists launch ransomware attack against railway in protest of dictatorship, Russian troop surge | ZDNet	The Belarusian Cyber-Partisans demanded the release of 50 political prisoners and the removal of all Russian troops from the country.	https://www.zdnet.com/article/belarusian-activists-launch-cyberattack-against-railway-in-protest-of-dictatorship-russian-troop-surge/	https://www.zdnet.com/a/img/resize/9735c91dd1eab373240849bfaf1dd5a721ce1870/2020/09/20/7c31ea14-2046-4522-a267-607e581c82a1/belarus-protests.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-25 03:14:31+01	zdnet	t	2022-01-25 05:00:01.882848+01	zdnet/Belarusian-activists-launch-ransomware-attack-against-railway-in-protest-of-dictatorship-Russian-troop-surge--ZDNet
+1085	Canada's foreign affairs ministry hacked, some services down	The Canadian government department for foreign and consular relations, Global Affairs Canada was hit by a cyberattack last week. While critical services remain accessible, access to some online services is currently not available, as government systems continue to recover from the attack.	https://www.bleepingcomputer.com/news/security/canadas-foreign-affairs-ministry-hacked-some-services-down/	https://www.bleepstatic.com/content/hl-images/2021/11/01/canada_flag_blurry.jpg	Ax Sharma	2022-01-25 07:38:13+01	bleepingcomputer	t	2022-01-25 08:00:01.949504+01	bleepingcomputer/Canadas-foreign-affairs-ministry-hacked-some-services-down
 \.
 
 
@@ -1088,7 +1089,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1084, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1085, true);
 
 
 --
