@@ -1,0 +1,73 @@
+# Staff negligence is now a major reason for insider security incidents | ZDNet
+### Negligence and malicious insider activities are common security challenges in the enterprise today.
+
+## Information:
++ Source: ZDNet
++ Link: https://www.zdnet.com/article/employee-contractor-negligence-is-now-a-major-reason-for-insider-security-incidents/
++ Date: 2022-01-25 12:22:05
++ Author: Charlie Osborne
+
+
+## Article:
+![Article Image](https://www.zdnet.com/a/img/resize/1c07981d8bc1063438b95ecb5db88f2c8136ab9f/2021/12/14/735329c9-a5c4-4568-8a7b-a3207ae36cc7/gettyimages-portait-of-young-hacker-with-computer-screen-reflecting-in-the-mans-glasses-stock-photo.jpg?width=770&height=578&fit=crop&auto=webp)
+
+Insider threats cost organizations approximately $15.4 million every year with negligence a common reason for security incidents, new research suggests. 
+
+
+Enterprise players today are facing cybersecurity challenges from every angle. Weak endpoint security, unsecured cloud systems, vulnerabilities – whether unpatched or zero-days – the introduction of unregulated internet of things (IoT) devices to corporate networks, and remote work systems can all become conduits for a cyberattack to take place. 
+
+When it comes to the human element of security, a lack of training or cybersecurity awareness, mistakes, or deliberate, malicious actions also need to be acknowledged in managing threat detection and response.  
+
+According to Proofpoint's 2022 [Cost of Insider Threats Global](https://www.proofpoint.com/us/resources/threat-reports/cost-of-insider-threats) report, published on Tuesday, insider threats now cost organizations $15.4 million annually, an increase of 34% in comparison to 2020 estimates.  
+
+The report, conducted by the Ponemon Institute, includes survey responses from over 1,000 IT professionals worldwide, all of which have experienced a recent cybersecurity incident due to an insider threat. 
+
+Over the past two years, insider threats have increased "dramatically," the report says, with 56% of insider-related incidents caused by a negligent employee. In total, 26% of incidents were linked to criminal inside activities, whereas 18% of threats were caused by the theft of employee credentials, potentially made possible through failures to manage personal device security or weak password use.  
+
+Staff or contractor negligence has cost the organizations included in the research roughly $6.6 million; criminal activity – which could include insider damage, data theft, or the deliberate deployment of malware – accounted for $4.1 million, and attacks made possible by credential theft cost $4.6 million.  
+
+
+
+
+
+
+When a cybersecurity incident was detected, it took impacted organizations an average of 85 days to resolve the situation – an increase from 77 days in Proofpoint's previous report. Only 12% of reported incidents were contained within 30 days.  
+
+The average cost to contain an insider-related cybersecurity incident was reported as $184,548, but this amount can be far higher depending on the size of the firm impacted. Annually, US companies spent $17.53 million to resolve insider incidents, whereas European organizations spent roughly $15.44 million. 
+
+"Months of sustained remote and hybrid working leading up to "The Great Resignation" has resulted in an increased risk around insider threat incidents, as people leave organizations and take data with them," commented Ryan Kalember, executive VP of cybersecurity strategy at Proofpoint. "In addition, organizational insiders, including employees, contractors, and third-party vendors, are an attractive attack vector for cybercriminals due to their far-reaching access to critical systems, data, and infrastructure." 
+
+###  Previous and related coverage
+
+* ['Flight risk' employees involved in 60% of insider cybersecurity incidents](https://www.zdnet.com/article/flight-risk-employees-involved-in-60-of-insider-cybersecurity-incidents/)
+* [No honor among thieves: One in five targets of FIN12 hacking group is in healthcare](https://www.zdnet.com/article/no-honor-among-thieves-one-in-five-targets-of-fin12-hacking-group-is-involved-in-healthcare/)
+* [Half of businesses can't spot these signs of insider cybersecurity threats](https://www.zdnet.com/article/half-of-businesses-cant-spot-these-signs-of-insider-cybersecurity-threats/)
+
+
+
+---
+
+**Have a tip?** Get in touch securely via WhatsApp | Signal at +447713 025 499, or over at Keybase: charlie0 
+
+
+
+---
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Net]] [[action.malware.name=njRAT]] [[action.malware.name=Reg]] [[action.malware.name=Tor]]
+
+#### Industry:
+[[victim.industry.name=Healthcare]]
+
+#### Location:
+[[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.continent.name=Europe]] [[victim.city.name=Paris]] [[victim.country.name=France]] [[victim.continent.name=Europe]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Cybersecurity]] [[Proofpoint]] [[ZDNet]]
+
