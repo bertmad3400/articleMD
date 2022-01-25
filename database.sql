@@ -1099,6 +1099,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1100	Russia arrests leader of “Infraud Organization” hacker group	The Russian Federal Security Service (FSB) and law enforcement have arrested Andrey Sergeevich Novak, the alleged leader of the Infraud Organization, a hacker group that caused losses of more than $560 million in seven years of activity.	https://www.bleepingcomputer.com/news/security/russia-arrests-leader-of-infraud-organization-hacker-group/	https://www.bleepstatic.com/content/hl-images/2021/12/08/credit_card.jpg	Ionut Ilascu	2022-01-25 15:00:55+01	bleepingcomputer	t	2022-01-25 16:00:02.252981+01	bleepingcomputer/Russia-arrests-leader-of-Infraud-Organization-hacker-group
 1101	Hackers hijacking Instagram accounts of companies and influencers, demanding ransom | ZDNet	Access to the accounts is being sold for up to $40,000.	https://www.zdnet.com/article/hackers-hijacking-instagram-accounts-of-companies-and-influencers-demanding-ransom/	https://www.zdnet.com/a/img/resize/5618f4d4599c45053ab29d1e7ab36788a5f4871b/2021/04/23/082f0657-50f2-4c6a-bf41-ad5d10232d23/social-media.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-25 15:03:00+01	zdnet	t	2022-01-25 17:00:02.256462+01	zdnet/Hackers-hijacking-Instagram-accounts-of-companies-and-influencers-demanding-ransom--ZDNet
 1102	UK government plans to release Nmap scripts for finding vulnerabilities	The UK government's cyber-security agency plans to release Nmap scripts in order to help system administrators in scanning their networks for unpatched or vulnerable devices.	https://therecord.media/uk-government-plans-to-release-nmap-scripts-for-finding-vulnerabilities/	https://therecord.media/wp-content/uploads/2022/01/nmap.jpg	Catalin Cimpanu	2022-01-25 13:41:12+01	therecord	t	2022-01-25 17:00:02.256462+01	therecord/UK-government-plans-to-release-Nmap-scripts-for-finding-vulnerabilities
+1103	Google Drive now warns you of suspicious phishing, malware docs	Google is rolling out new warning banners in Google Drive to alert users of potentially suspicious files that threat actors could use for malware delivery and in phishing attacks.	https://www.bleepingcomputer.com/news/google/google-drive-now-warns-you-of-suspicious-phishing-malware-docs/	https://www.bleepstatic.com/content/hl-images/2022/01/25/Google__Drive__headpic.jpg	Sergiu Gatlan	2022-01-25 17:31:34+01	bleepingcomputer	t	2022-01-25 18:00:02.716234+01	bleepingcomputer/Google-Drive-now-warns-you-of-suspicious-phishing-malware-docs
+1104	AdSanity, AccessPress Plugins Open Scads of WordPress Sites to Takeover	A critical security bug and a months-long, ongoing supply-chain attack spell trouble for WordPress users.	https://kasperskycontenthub.com/threatpost-global/?p=177932	https://media.threatpost.com/wp-content/uploads/sites/103/2019/04/12095249/WordPress-patch-dlya-XSS-700x412.jpg	Tara Seals	2022-01-25 17:22:49+01	threatpost	t	2022-01-25 18:00:02.716234+01	threatpost/AdSanity-AccessPress-Plugins-Open-Scads-of-WordPress-Sites-to-Takeover
 \.
 
 
@@ -1106,7 +1108,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1102, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1104, true);
 
 
 --
