@@ -1097,6 +1097,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1098	Segway store hacked to steal customers' credit cards	Segway's online store was compromised to include a malicious Magecart script that potentially allowed threat actors to steal credit cards and customer information during checkout.	https://www.bleepingcomputer.com/news/security/segway-store-hacked-to-steal-customers-credit-cards/	https://www.bleepstatic.com/content/hl-images/2022/01/25/segway.jpg	Bill Toulas	2022-01-25 15:59:33+01	bleepingcomputer	t	2022-01-25 16:00:02.252981+01	bleepingcomputer/Segway-store-hacked-to-steal-customers-credit-cards
 1099	Missing Microsoft Intune certs break email, VPN on Samsung devices	Microsoft says Samsung devices enrolled in Microsoft Intune using a work profile will experience email and VPN connectivity issues due to missing certificates after upgrading to Android 12.	https://www.bleepingcomputer.com/news/microsoft/missing-microsoft-intune-certs-break-email-vpn-on-samsung-devices/	https://www.bleepstatic.com/content/hl-images/2021/11/12/Microsoft_Intune_headpic.jpg	Sergiu Gatlan	2022-01-25 15:15:00+01	bleepingcomputer	t	2022-01-25 16:00:02.252981+01	bleepingcomputer/Missing-Microsoft-Intune-certs-break-email-VPN-on-Samsung-devices
 1100	Russia arrests leader of “Infraud Organization” hacker group	The Russian Federal Security Service (FSB) and law enforcement have arrested Andrey Sergeevich Novak, the alleged leader of the Infraud Organization, a hacker group that caused losses of more than $560 million in seven years of activity.	https://www.bleepingcomputer.com/news/security/russia-arrests-leader-of-infraud-organization-hacker-group/	https://www.bleepstatic.com/content/hl-images/2021/12/08/credit_card.jpg	Ionut Ilascu	2022-01-25 15:00:55+01	bleepingcomputer	t	2022-01-25 16:00:02.252981+01	bleepingcomputer/Russia-arrests-leader-of-Infraud-Organization-hacker-group
+1101	Hackers hijacking Instagram accounts of companies and influencers, demanding ransom | ZDNet	Access to the accounts is being sold for up to $40,000.	https://www.zdnet.com/article/hackers-hijacking-instagram-accounts-of-companies-and-influencers-demanding-ransom/	https://www.zdnet.com/a/img/resize/5618f4d4599c45053ab29d1e7ab36788a5f4871b/2021/04/23/082f0657-50f2-4c6a-bf41-ad5d10232d23/social-media.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-25 15:03:00+01	zdnet	t	2022-01-25 17:00:02.256462+01	zdnet/Hackers-hijacking-Instagram-accounts-of-companies-and-influencers-demanding-ransom--ZDNet
+1102	UK government plans to release Nmap scripts for finding vulnerabilities	The UK government's cyber-security agency plans to release Nmap scripts in order to help system administrators in scanning their networks for unpatched or vulnerable devices.	https://therecord.media/uk-government-plans-to-release-nmap-scripts-for-finding-vulnerabilities/	https://therecord.media/wp-content/uploads/2022/01/nmap.jpg	Catalin Cimpanu	2022-01-25 13:41:12+01	therecord	t	2022-01-25 17:00:02.256462+01	therecord/UK-government-plans-to-release-Nmap-scripts-for-finding-vulnerabilities
 \.
 
 
@@ -1104,7 +1106,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1100, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1102, true);
 
 
 --
