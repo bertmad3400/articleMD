@@ -1079,6 +1079,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1080	DDoS attacks on Andorra's internet linked to Squid Game Minecraft tournament	A high-stakes Minecraft tournament is believed to be the cause of a series of DDoS attacks that have hit Andorra's only internet provider for the last four days in what experts believe has been an attempt to prevent local gamers from participating.	https://therecord.media/ddos-attacks-on-andorras-internet-linked-to-squid-game-minecraft-tournament/	https://therecord.media/wp-content/uploads/2022/01/Twitch-tournament-Minecraft.jpg	Catalin Cimpanu	2022-01-25 00:31:14+01	therecord	t	2022-01-25 01:00:02.124849+01	therecord/DDoS-attacks-on-Andorras-internet-linked-to-Squid-Game-Minecraft-tournament
 1081	EU to fund bug bounty programs for LibreOffice, Mastodon, three others	The EU will fund a bug bounty program for five open source projects used by public services across the EU, such as LibreOffice and Mastodon.	https://therecord.media/eu-to-fund-bug-bounty-programs-for-libreoffice-mastodon-three-others/	https://therecord.media/wp-content/uploads/2022/01/LibreOffice.jpg	Catalin Cimpanu	2022-01-24 17:48:19+01	therecord	t	2022-01-25 01:00:02.124849+01	therecord/EU-to-fund-bug-bounty-programs-for-LibreOffice-Mastodon-three-others
 1082	Internet service returns to Burkina Faso and Yemen after coup, bombings | ZDNet	People in both Yemen and Burkina Faso were without internet for days due to outbreaks of violence in the past week.	https://www.zdnet.com/article/internet-service-returns-to-burkina-faso-and-yemen-after-coup-bombings/	https://www.zdnet.com/a/img/resize/369ab64511d55736810c4253876f4add37872ccb/2016/08/19/f4b1a1d2-4942-4458-b4c8-8105c4d3e540/wi-fi.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-25 00:06:04+01	zdnet	t	2022-01-25 02:00:02.345823+01	zdnet/Internet-service-returns-to-Burkina-Faso-and-Yemen-after-coup-bombings--ZDNet
+1083	OpenSea to reimburse people affected by loophole used to purchase NFTs below market value | ZDNet	Elliptic said it has identified at least three people making more than $1 million off of NFTs being sold for a fraction of what they're worth.	https://www.zdnet.com/article/opensea-reimbursing-people-affected-by-bug-used-to-purchase-nfts-below-market-value/	https://www.zdnet.com/a/img/resize/01c58e0ad04e30160eeb407218f71408632ef5fe/2022/01/21/968b39f9-3c62-49f2-b739-ff3567d9c131/nft-1.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-25 01:41:11+01	zdnet	t	2022-01-25 03:00:02.082217+01	zdnet/OpenSea-to-reimburse-people-affected-by-loophole-used-to-purchase-NFTs-below-market-value--ZDNet
 \.
 
 
@@ -1086,7 +1087,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1082, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1083, true);
 
 
 --
