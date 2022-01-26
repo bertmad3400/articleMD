@@ -1150,6 +1150,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1151	Update your iPhone and iPad right now. Apple just released a bunch of security fixes | ZDNet	Apple released security updates for all of its hardware products, including the Apple TV, Apple Watch, and Mac.	https://www.zdnet.com/article/update-your-iphone-and-ipad-right-now-apple-just-released-a-bunch-of-security-fixes/	https://www.zdnet.com/a/img/resize/6898378b2d482d27f272b15cf160374e234d675d/2021/09/22/e6bab155-38f4-4a70-a8e3-9ce0b7394159/ios-15-iphone-13-pro-max-safari.jpg?width=770&height=578&fit=crop&auto=webp	Jason Cipriani	2022-01-26 19:27:18+01	zdnet	t	2022-01-26 21:00:02.728926+01	zdnet/Update-your-iPhone-and-iPad-right-now-Apple-just-released-a-bunch-of-security-fixes--ZDNet
 1152	Loki, Godzilla, WandaVision, Justice League top list of most pirated content in 2021 | ZDNet	At just over 67 billion total visits, television is the top pirated industry according to data from MUSO.	https://www.zdnet.com/article/loki-godzilla-wandavision-justice-league-top-list-of-most-pirated-content-in-2021/	https://www.zdnet.com/a/img/resize/11a20027dedd8a4dd4abed3a97d3f34979e809df/2016/06/24/2c54c155-dfd8-42ae-9b86-9b10241cc582/censorship-creep-pirate-bay-block-will-affect-one-third-of-uk.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-26 19:10:00+01	zdnet	t	2022-01-26 21:00:02.728926+01	zdnet/Loki-Godzilla-WandaVision-Justice-League-top-list-of-most-pirated-content-in-2021--ZDNet
 1153	Cybercriminals Love Supply-Chain Chaos: Here's How to Protect Your Inbox	Threat actors use bogus 'shipping delays' to deceive customers and businesses. Troy Gill, senior manager of threat intelligence at Zix, discusses how spoofing is evolving and what to do.	https://kasperskycontenthub.com/threatpost-global/?p=178002	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/25144231/supply-chain-e1635187371700.png	Troy Gill	2022-01-26 20:37:12+01	threatpost	t	2022-01-26 21:00:02.728926+01	threatpost/Cybercriminals-Love-Supply-Chain-Chaos-Heres-How-to-Protect-Your-Inbox
+1154	Major Discord API outage prevents logins and voice chats	Discord is suffering a 'massive outage' preventing users from logging in to the service or using voice chats.	https://www.bleepingcomputer.com/news/technology/major-discord-api-outage-prevents-logins-and-voice-chats/	https://www.bleepstatic.com/content/hl-images/2020/11/13/Discord.jpg	Lawrence Abrams	2022-01-26 21:27:37+01	bleepingcomputer	t	2022-01-26 22:00:02.009804+01	bleepingcomputer/Major-Discord-API-outage-prevents-logins-and-voice-chats
+1155	New Year, New Threats: 4 Tips to Activate Your Best Cyber-Defense	Need a blueprint for architecting a formidable cyber-defense? Kerry Kerry Matre, senior director at Mandiant, shares hers in this detailed breakdown.	https://kasperskycontenthub.com/threatpost-global/?p=177955	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/26151713/knight-cyber-defense-scaled-e1643228405151.jpeg	Kerry Matre	2022-01-26 21:23:24+01	threatpost	t	2022-01-26 22:00:02.009804+01	threatpost/New-Year-New-Threats-4-Tips-to-Activate-Your-Best-Cyber-Defense
 \.
 
 
@@ -1157,7 +1159,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1153, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1155, true);
 
 
 --
