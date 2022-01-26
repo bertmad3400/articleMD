@@ -1119,6 +1119,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1120	Microsoft Restricts Excel 4.0 Macros By Default To Contain Malware	Initially an optional setting, Microsoft has now disabled Excel 4.0 (XLM) macros by default in Excel build 16.0.14427.10000 and later.	https://latesthackingnews.com/2022/01/25/microsoft-restricts-excel-4-0-macros-by-default-to-contain-malware-attacks-via-malicious-documents/	https://latesthackingnews.com/wp-content/uploads/2019/06/Microsoft-Excel-Power-Query.png	Abeerah Hashim	2022-01-25 00:00:00+01	latesthackingnews	t	2022-01-25 23:00:02.186069+01	latesthackingnews/Microsoft-Restricts-Excel-40-Macros-By-Default-To-Contain-Malware
 1121	ProtonMail Launches Email Tracking Protection For Web-Based Systems	ProtonMail users can prevent any email tracking via newsletters etc. as the services has rolled out the new features as active by default.	https://latesthackingnews.com/2022/01/25/protonmail-launches-email-tracking-protection-for-web-based-systems/	https://latesthackingnews.com/wp-content/uploads/2021/12/Technology-Cybersecurity.jpg	Abeerah Hashim	2022-01-25 00:00:00+01	latesthackingnews	t	2022-01-25 23:00:02.186069+01	latesthackingnews/ProtonMail-Launches-Email-Tracking-Protection-For-Web-Based-Systems
 1122	VMware: Patch Horizon servers against ongoing Log4j attacks!	VMware is urging customers to patch critical Log4j security vulnerabilities impacting Internet-exposed VMware Horizon servers targeted in ongoing attacks.	https://www.bleepingcomputer.com/news/security/vmware-patch-horizon-servers-against-ongoing-log4j-attacks/	https://www.bleepstatic.com/content/hl-images/2021/09/22/VMware-headpic.jpg	Sergiu Gatlan	2022-01-25 22:19:36+01	bleepingcomputer	t	2022-01-25 23:00:02.186069+01	bleepingcomputer/VMware-Patch-Horizon-servers-against-ongoing-Log4j-attacks
+1123	Linux system service bug gives root on all major distros, exploit released	A vulnerability in Polkit's pkexec component identified as CVE-2021-4034 (PwnKit) is present in the default configuration of all major Linux distributions and can be exploited to gain full root privileges on the system, researchers warn today.	https://www.bleepingcomputer.com/news/security/linux-system-service-bug-gives-root-on-all-major-distros-exploit-released/	https://www.bleepstatic.com/content/hl-images/2022/01/14/linux-security-headpic.jpg	Ionut Ilascu	2022-01-25 21:44:06+01	bleepingcomputer	t	2022-01-26 01:00:02.507175+01	bleepingcomputer/Linux-system-service-bug-gives-root-on-all-major-distros-exploit-released
 \.
 
 
@@ -1126,7 +1127,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1122, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1123, true);
 
 
 --
