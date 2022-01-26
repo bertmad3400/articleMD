@@ -1125,6 +1125,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1126	Android malware will factory-reset a phone after stealing a user's funds	An Android banking malware strain has recently received a new feature that allows its operators to reset a device to factory settings after they have stolen money from a victim's bank account as a way to distract the owner from the recent theft and prevent them from taking any preventive measures.	https://therecord.media/android-malware-will-factory-reset-a-phone-after-stealing-a-users-funds/	https://therecord.media/wp-content/uploads/2021/04/Android-apps.jpg	Catalin Cimpanu	2022-01-26 01:53:43+01	therecord	t	2022-01-26 02:00:02.380958+01	therecord/Android-malware-will-factory-reset-a-phone-after-stealing-a-users-funds
 1127	Windows 10 KB5009596 update released with bug fixes, improvements	Microsoft has released the optional KB5009596 Preview cumulative update for Windows 10 20H2, Windows 10 21H1, and Windows 10 21H2.	https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5009596-update-released-with-bug-fixes-improvements/	https://www.bleepstatic.com/content/hl-images/2021/01/25/Windows-10.jpg	Lawrence Abrams	2022-01-26 02:47:06+01	bleepingcomputer	t	2022-01-26 03:00:02.171153+01	bleepingcomputer/Windows-10-KB5009596-update-released-with-bug-fixes-improvements
 1128	Windows 11 KB5008353 Cumulative Update Preview Released	Microsoft has released the optional KB5008353 Preview cumulative update for Windows 11 with 39 fixes or improvements.	https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5008353-cumulative-update-preview-released/	https://www.bleepstatic.com/content/hl-images/2021/08/31/windows-11-header-light.jpg	Lawrence Abrams	2022-01-26 05:08:35+01	bleepingcomputer	t	2022-01-26 06:00:01.925895+01	bleepingcomputer/Windows-11-KB5008353-Cumulative-Update-Preview-Released
+1129	UK government security center, i100 publish NMAP scripts for vulnerability scanning | ZDNet	The SME project aims to streamline the detection and remediation of specific bugs.	https://www.zdnet.com/article/uk-government-security-center-i100-publish-nmap-scripts-for-vulnerability-scanning/	https://www.zdnet.com/a/img/resize/c306b25153d560703fd89a8cc42340402f6a9cef/2021/12/23/36dc2f59-d2d5-462b-91a8-59c2e4ab979a/zdnet-learn-to-code.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-26 08:20:19+01	zdnet	t	2022-01-26 10:00:02.252153+01	zdnet/UK-government-security-center-i100-publish-NMAP-scripts-for-vulnerability-scanning--ZDNet
 \.
 
 
@@ -1132,7 +1133,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1128, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1129, true);
 
 
 --
