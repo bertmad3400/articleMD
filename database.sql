@@ -1123,6 +1123,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1125	New DeadBolt ransomware targets QNAP devices, asks 50 BTC for master key	A new DeadBolt ransomware group is encrypting QNAP NAS devices worldwide using what they claim is a zero-day vulnerability in the device's software.	https://www.bleepingcomputer.com/news/security/new-deadbolt-ransomware-targets-qnap-devices-asks-50-btc-for-master-key/	https://www.bleepstatic.com/content/hl-images/2022/01/25/Deadbolt_ransomware.jpg	Lawrence Abrams	2022-01-26 01:28:37+01	bleepingcomputer	t	2022-01-26 02:00:02.380958+01	bleepingcomputer/New-DeadBolt-ransomware-targets-QNAP-devices-asks-50-BTC-for-master-key
 1124	GitHub enables two-factor authentication mechanism through iOS, Android app | ZDNet	GitHub Mobile 2FA will be available to all GitHub users in the App Store and Play Store this week.	https://www.zdnet.com/article/github-enables-two-factor-authentication-mechanism-through-ios-android-app/	https://www.zdnet.com/a/img/resize/609021b5a331bfde8595e3eab0cb987b390c11d0/2022/01/26/41a01cc8-fc0b-4fef-b589-1c38365e7407/screen-shot-2022-01-25-at-7-01-59-pm.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-26 00:05:25+01	zdnet	t	2022-01-26 02:00:02.380958+01	zdnet/GitHub-enables-two-factor-authentication-mechanism-through-iOS-Android-app--ZDNet
 1126	Android malware will factory-reset a phone after stealing a user's funds	An Android banking malware strain has recently received a new feature that allows its operators to reset a device to factory settings after they have stolen money from a victim's bank account as a way to distract the owner from the recent theft and prevent them from taking any preventive measures.	https://therecord.media/android-malware-will-factory-reset-a-phone-after-stealing-a-users-funds/	https://therecord.media/wp-content/uploads/2021/04/Android-apps.jpg	Catalin Cimpanu	2022-01-26 01:53:43+01	therecord	t	2022-01-26 02:00:02.380958+01	therecord/Android-malware-will-factory-reset-a-phone-after-stealing-a-users-funds
+1127	Windows 10 KB5009596 update released with bug fixes, improvements	Microsoft has released the optional KB5009596 Preview cumulative update for Windows 10 20H2, Windows 10 21H1, and Windows 10 21H2.	https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5009596-update-released-with-bug-fixes-improvements/	https://www.bleepstatic.com/content/hl-images/2021/01/25/Windows-10.jpg	Lawrence Abrams	2022-01-26 02:47:06+01	bleepingcomputer	t	2022-01-26 03:00:02.171153+01	bleepingcomputer/Windows-10-KB5009596-update-released-with-bug-fixes-improvements
 \.
 
 
@@ -1130,7 +1131,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1126, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1127, true);
 
 
 --
