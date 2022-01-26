@@ -1,0 +1,76 @@
+# German government warns of APT27 activity targeting local companies
+### The German government said on Tuesday that a Chinese cyberespionage group known as APT27 has repeatedly attacked German companies over the past few months using vulnerabilities in software like Microsoft Exchange and Zoho SelfService.
+
+## Information:
++ Source: The Record
++ Link: https://therecord.media/german-government-warns-of-apt27-activity-targeting-local-companies/
++ Date: 2022-01-26T15:00:22+00:00
++ Author: Catalin Cimpanu
+
+
+## Article:
+![Article Image](https://therecord.media/wp-content/uploads/2021/07/threat-actor-china.jpg)
+
+The German government said on Tuesday that a Chinese cyberespionage group known as APT27 has repeatedly attacked German companies over the past few months using vulnerabilities in software like Microsoft Exchange and Zoho SelfService.
+
+
+The attacks, which have been taking place since at least March 2021, have aimed to install a version of the HyperBro malware inside corporate networks for the purpose of intelligence collection from infected hosts, the Federal Office for the Protection of the Constitution (BfV) said in a [press release](https://www.verfassungsschutz.de/SharedDocs/kurzmeldungen/DE/2022/2022-01-26-cyberbrief.html).
+
+
+“It cannot be ruled out that the actors, in addition to stealing business secrets and intellectual property, are also trying to infiltrate the networks of (corporate) customers or service providers (supply chain attack),” the BfV added.
+
+
+#### APT27 leveraged Microsoft Exchange and Zoho bugs
+
+
+According to the agency, [APT27](https://attack.mitre.org/groups/G0027/), also known as Emissary Panda, has used the following exploits as a way to get a foothold inside companies that failed to patch their internet-exposed servers:
+
+
+* [**CVE-2021-40539**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-40539) – Zoho Manage Engine ADSelfService Plus
+* [**CVE-2021-26855**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26855) – Microsoft Exchange
+* [**CVE-2021-26857**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26857) – Microsoft Exchange
+* [**CVE-2021-26858**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26858) – Microsoft Exchange
+* [**CVE-2021-27065**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-27065) – Microsoft Exchange
+
+
+All of the above are well-known vulnerabilities previously exploited by other Chinese hacking groups. For example, the four Exchange bugs, also known as ProxyLogon, were also used by a group known as Hafnium, [according to Microsoft](https://therecord.media/chinese-apt-targeted-exchange-servers-with-four-zero-days-microsoft-says/).
+
+
+The Zoho vulnerability is also the exact same one that was used to breach the [Port of Houston authority last year](https://therecord.media/state-sponsored-hacking-group-targets-port-of-houston-using-zoho-zero-day/) and which was also heavily abused through the fall and winter, [according to CISA](https://therecord.media/cisa-warns-of-zoho-server-zero-day-exploited-in-the-wild/).
+
+
+In the case of the attacks against German companies, the BfV said that the final payload was [HyperBro](https://attack.mitre.org/software/S0398/), a malware strain seen in attacks as far back as 2018, typically used by APT27, and which can grant the group full control over infected systems.
+
+
+![HyperBro](https://therecord.media/wp-content/uploads/2022/01/HyperBro.png)Image: BfV
+The BfV reports [[PDF](https://www.verfassungsschutz.de/SharedDocs/publikationen/DE/cyberabwehr/2022-01-bfv-cyber-brief.pdf?__blob=publicationFile&v=10), [TXT](https://www.verfassungsschutz.de/SharedDocs/Downloads/DE/cyberabwehr/cyber-brief-01-22-anlage.asc?__blob=publicationFile&v=3)] contains indicators of compromise that both German and non-German organizations and their security teams could use to set up protective measures.
+
+
+The recent report fits in a general trend that has been shaping up in recent years, where Chinese hackers have often targeted large German companies, from where they are believed to have stolen intellectual property and other business information.
+
+
+Past victims include software company TeamViewer, steel producer ThyssenKrupp, pharmaceutical giant Bayer, and many others.
+
+
+German authorities have warned the local business sector about Chinese cyber-espionage [since at least 2018](https://www.reuters.com/article/us-germany-security-idUSKBN1OI0HV).
+
+
+
+
+
+## Tags:
+
+#### Threatactor:
+[[threatactor.name=HAFNIUM]] [[threatactor.name=Putter Panda]] [[threatactor.name=Threat Group-3390]] [[threatactor.name=Threat Group-3390]]
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Emissary]] [[action.malware.name=HyperBro]] [[action.malware.name=Net]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=Tor]]
+
+#### Location:
+[[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Microsoft]] [[Apt27]] [[Zoho]] [[Bfv]] [[The Record]]
+#### CVE's
+[[CVE-2021-40539]] [[CVE-2021-26855]] [[CVE-2021-26857]] [[CVE-2021-26858]] [[CVE-2021-27065]]
+
