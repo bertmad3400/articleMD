@@ -1145,6 +1145,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1147	Chaes banking trojan hijacks Chrome with malicious extensions	A large-scale campaign involving over 800 compromised WordPress websites is spreading banking trojans that target the credentials of Brazilian e-banking users.	https://www.bleepingcomputer.com/news/security/chaes-banking-trojan-hijacks-chrome-with-malicious-extensions/	https://www.bleepstatic.com/content/hl-images/2021/09/23/Chrome.jpg	Bill Toulas	2022-01-26 17:39:18+01	bleepingcomputer	t	2022-01-26 18:00:02.430542+01	bleepingcomputer/Chaes-banking-trojan-hijacks-Chrome-with-malicious-extensions
 1148	White House wants US govt to use a Zero Trust security model	A newly released Federal strategy wants the US government to adopt a zero trust security model within the next two years to defend against current threats and boost cybersecurity defenses across federal agencies.	https://www.bleepingcomputer.com/news/security/white-house-wants-us-govt-to-use-a-zero-trust-security-model/	https://www.bleepstatic.com/content/hl-images/2021/05/01/hacking.jpg	Sergiu Gatlan	2022-01-26 17:00:00+01	bleepingcomputer	t	2022-01-26 18:00:02.430542+01	bleepingcomputer/White-House-wants-US-govt-to-use-a-Zero-Trust-security-model
 1145	Ransomware is still the biggest security worry for business, but it's not the only headache | ZDNet	Ransomware is the biggest threat security chiefs are facing in 2022 - but other issues aren't far behind.	https://www.zdnet.com/article/ransomware-is-still-the-biggest-security-worry-for-business-but-its-not-the-only-headache/	https://www.zdnet.com/a/img/resize/3a4b202def696065146816df3025449a05bd7294/2022/01/26/03715b66-d038-4722-be0a-47aec2492627/getty-worried-businessman-with-head-in-hand-during-meeting-stock-photo.jpg?width=770&height=578&fit=crop&auto=webp	Danny Palmer	2022-01-26 16:19:53+01	zdnet	t	2022-01-26 18:00:02.430542+01	zdnet/Ransomware-is-still-the-biggest-security-worry-for-business-but-its-not-the-only-headache--ZDNet
+1149	Linux Bug in All Major Distros: ‘An Attacker’s Dream Come True’	Every major Linux distribution has an easily exploited memory-corruption bug that’s been lurking for 12 years – a stunning revelation that’s likely to be followed soon by in-the-wild exploits.  Found in polkit’s pkexec – a tool for controlling system-wide privileges in Unix-like operating systems that allows a user to execute commands as another us	https://kasperskycontenthub.com/threatpost-global/?p=177996	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/26113325/DreamDoorClouds-scaled-e1643214849877.jpg	Lisa Vaas	2022-01-26 18:52:49+01	threatpost	t	2022-01-26 19:00:02.658603+01	threatpost/Linux-Bug-in-All-Major-Distros-An-Attackers-Dream-Come-True
 \.
 
 
@@ -1152,7 +1153,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1148, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1149, true);
 
 
 --
