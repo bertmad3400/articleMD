@@ -1,0 +1,57 @@
+# GitHub enables two-factor authentication mechanism through iOS, Android app | ZDNet
+### GitHub Mobile 2FA will be available to all GitHub users in the App Store and Play Store this week.
+
+## Information:
++ Source: ZDNet
++ Link: https://www.zdnet.com/article/github-enables-two-factor-authentication-mechanism-through-ios-android-app/
++ Date: 2022-01-26 00:05:25
++ Author: Jonathan Greig
+
+
+## Article:
+![Article Image](https://www.zdnet.com/a/img/resize/609021b5a331bfde8595e3eab0cb987b390c11d0/2022/01/26/41a01cc8-fc0b-4fef-b589-1c38365e7407/screen-shot-2022-01-25-at-7-01-59-pm.png?width=770&height=578&fit=crop&auto=webp)
+
+GitHub announced that two-factor authentication will be available to all users through GitHub Mobile this week. In a [blog post](https://github.blog/2022-01-25-secure-your-github-account-github-mobile-2fa/), GitHub's Berk Veral said GitHub Mobile 2FA will be available to all users in the App Store and Play Store. 
+
+The feature is another way GitHub users can enable two-factor authentication alongside security keys and WebAuthn, one-time passcodes, and SMS.
+
+"GitHub Mobile provides a strong alternative to existing one-time passcode options offered by third-party applications and via SMS, with an experience that is fully baked into the GitHub services you already use," Veral said. 
+
+"GitHub is committed to keeping our platform secure and enabling developers to secure their accounts. One way we're doing that is by helping more developers adopt two-factor authentication (2FA) for their accounts. Over the past year, we've led the way in improving developer account security with the introduction of support for [security keys as an authentication mechanism for git operations](https://github.blog/2021-05-10-security-keys-supported-ssh-git-operations/#what-are-security-keys-and-how-do-they-work) and [enforcing two factor authentication for all npm publishers](https://github.blog/2021-12-07-enrolling-npm-publishers-enhanced-login-verification-two-factor-authentication-enforcement/)."
+
+Veral noted that the GitHub Mobile 2FA app was a "strong" alternative experience that is "fully baked into the GitHub services you already use."
+
+For those who already have two-factor authentication enabled on their GitHub accounts and have the mobile app installed, all you have to to is update the app to start using the Mobile 2FA feature. 
+
+![screen-shot-2022-01-25-at-7-01-59-pm.png]()![screen-shot-2022-01-25-at-7-01-59-pm.png](https://www.zdnet.com/a/img/resize/26ccaf7545418a15228a6a89573e8b0362edf6c4/2022/01/26/41a01cc8-fc0b-4fef-b589-1c38365e7407/screen-shot-2022-01-25-at-7-01-59-pm.png?width=470&fit=bounds&auto=webp)
+ GitHub
+ GitHub also [provides links](http://github.com/mobile) to help those looking to install it and urged anyone who hasn't already enabled two-factor authentication to do so through the [account settings platform](https://github.com/settings/security). Those who haven't already set it up will need to use SMS or another time-based one-time password to set it up for the first time before they can use Mobile 2FA. 
+
+
+
+
+
+
+"Once set up, you'll receive a push notification to your mobile device when you sign in to your GitHub.com account on any browser. You can approve or reject the sign in- attempt. If you approve it, you'll be logged into GitHub.com immediately," Veral explained. 
+
+"If you already set up 2FA with a security key, GitHub will use that as the primary two factor authentication channel. Security keys provide the strongest available protection of your account credentials. [Read more about how GitHub is integrating authentication with security keys](https://github.blog/2021-05-10-security-keys-supported-ssh-git-operations/#what-are-security-keys-and-how-do-they-work)."
+
+GitHub [repeatedly pushed](https://www.zdnet.com/article/github-shifts-away-from-passwords-with-security-key-support-for-ssh-git-operations/) its users to enable two-factor authentication last year and in August, [announced](https://www.zdnet.com/article/github-pushes-users-to-enable-2fa-following-end-of-password-authentication-for-git-operations/) that they would stop accepting account passwords when authenticating Git operations. The platform began requiring people to use stronger authentication factors like personal access tokens, SSH keys, or OAuth or GitHub App installation tokens for all authenticated Git operations on GitHub.com. 
+
+"If you have not done so already, please take this moment to enable 2FA for your GitHub account. The benefits of multifactor authentication are widely documented and protect against a wide range of attacks, such as phishing," Github's Mike Hanley explained last year. 
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=Tor]]
+
+#### Location:
+[[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Github]] [[Two-factor]] [[2fa]] [[Veral]] [[One-time]] [[Github.com]] [[ZDNet]]
+
