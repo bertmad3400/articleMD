@@ -1185,6 +1185,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1186	Microsoft warns of multi-stage phishing campaign leveraging Azure AD	Microsoft's threat analysts have uncovered a large-scale, multi-phase phishing campaign that uses stolen credentials to register devices onto the target's network and use them to distribute phishing emails.	https://www.bleepingcomputer.com/news/security/microsoft-warns-of-multi-stage-phishing-campaign-leveraging-azure-ad/	https://www.bleepstatic.com/content/hl-images/2021/10/20/Microsoft_365_red.jpg	Bill Toulas	2022-01-27 19:11:58+01	bleepingcomputer	t	2022-01-27 20:00:02.489349+01	bleepingcomputer/Microsoft-warns-of-multi-stage-phishing-campaign-leveraging-Azure-AD
 1187	Taiwanese Apple and Tesla contractor hit by Conti ransomware	Delta Electronics, a Taiwanese electronics company and a provider for Apple, Tesla, HP, and Dell, disclosed that it was the victim of a cyberattack discovered on Friday morning.	https://www.bleepingcomputer.com/news/security/taiwanese-apple-and-tesla-contractor-hit-by-conti-ransomware/	https://www.bleepstatic.com/content/posts/2022/01/27/Delta_Electronics_logo.jpg	Sergiu Gatlan	2022-01-27 20:28:27+01	bleepingcomputer	t	2022-01-27 21:00:02.224453+01	bleepingcomputer/Taiwanese-Apple-and-Tesla-contractor-hit-by-Conti-ransomware
 1188	2FA App Loaded with Banking Trojan Infests 10K Victims via Google Play	The Vultur trojan steals bank credentials but asks for permissions to do far more damage down the line.	https://kasperskycontenthub.com/threatpost-global/?p=178077	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/27155626/turkey-vulture-scaled-e1643317009313.jpeg	Becky Bracken	2022-01-27 21:59:53+01	threatpost	t	2022-01-27 22:00:02.05958+01	threatpost/2FA-App-Loaded-with-Banking-Trojan-Infests-10K-Victims-via-Google-Play
+1189	DeepDotWeb admin imprisoned for advertising illegal dark web markets	An Israeli citizen who operated DeepDotWeb (DDW), a news site and review site for dark web sites, has received a sentence of 97 months in prison for money laundering and was ordered to forfeit $8,414,173.	https://www.bleepingcomputer.com/news/security/deepdotweb-admin-imprisoned-for-advertising-illegal-dark-web-markets/	https://www.bleepstatic.com/content/hl-images/2021/11/11/prison.jpg	Bill Toulas	2022-01-27 22:13:13+01	bleepingcomputer	t	2022-01-27 23:00:01.869402+01	bleepingcomputer/DeepDotWeb-admin-imprisoned-for-advertising-illegal-dark-web-markets
 \.
 
 
@@ -1192,7 +1193,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1188, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1189, true);
 
 
 --
