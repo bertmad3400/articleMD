@@ -1183,6 +1183,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1184	BotenaGo botnet source code has been leaked to GitHub.	The BotenaGo botnet source code has been leaked to GitHub.  In a Wednesday report, AT&T Alien Labs – which first discovered the difficult-to-detect malware in November 2021 – said it expects that the ready availability of the source code to malware authors puts millions of routers and internet-of-things (IoT) devices at risk.  Uploading of the	https://kasperskycontenthub.com/threatpost-global/?p=178059	https://media.threatpost.com/wp-content/uploads/sites/103/2020/11/13123912/iot-botnet.jpg	Lisa Vaas	2022-01-27 18:19:49+01	threatpost	t	2022-01-27 19:00:02.321853+01	threatpost/BotenaGo-botnet-source-code-has-been-leaked-to-GitHub
 1185	Lazarus hackers use Windows Update to deploy malware	North Korean-backed hacking group Lazarus has added the Windows Update client to its list of living-off-the-land binaries (LoLBins) and is now actively using it to execute malicious code on Windows systems.	https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-windows-update-to-deploy-malware/	https://www.bleepstatic.com/content/hl-images/2021/07/09/Windows_headpic.jpg	Sergiu Gatlan	2022-01-27 19:31:40+01	bleepingcomputer	t	2022-01-27 20:00:02.489349+01	bleepingcomputer/Lazarus-hackers-use-Windows-Update-to-deploy-malware
 1186	Microsoft warns of multi-stage phishing campaign leveraging Azure AD	Microsoft's threat analysts have uncovered a large-scale, multi-phase phishing campaign that uses stolen credentials to register devices onto the target's network and use them to distribute phishing emails.	https://www.bleepingcomputer.com/news/security/microsoft-warns-of-multi-stage-phishing-campaign-leveraging-azure-ad/	https://www.bleepstatic.com/content/hl-images/2021/10/20/Microsoft_365_red.jpg	Bill Toulas	2022-01-27 19:11:58+01	bleepingcomputer	t	2022-01-27 20:00:02.489349+01	bleepingcomputer/Microsoft-warns-of-multi-stage-phishing-campaign-leveraging-Azure-AD
+1187	Taiwanese Apple and Tesla contractor hit by Conti ransomware	Delta Electronics, a Taiwanese electronics company and a provider for Apple, Tesla, HP, and Dell, disclosed that it was the victim of a cyberattack discovered on Friday morning.	https://www.bleepingcomputer.com/news/security/taiwanese-apple-and-tesla-contractor-hit-by-conti-ransomware/	https://www.bleepstatic.com/content/posts/2022/01/27/Delta_Electronics_logo.jpg	Sergiu Gatlan	2022-01-27 20:28:27+01	bleepingcomputer	t	2022-01-27 21:00:02.224453+01	bleepingcomputer/Taiwanese-Apple-and-Tesla-contractor-hit-by-Conti-ransomware
 \.
 
 
@@ -1190,7 +1191,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1186, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1187, true);
 
 
 --
