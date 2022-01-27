@@ -1161,6 +1161,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1162	Apple Fixes Zero Day Exploited in the Wild, Nasty Safari Bug	iOS 15.3 & iPadOS 15.3 fix the Safari browser flaw that could have spilled users’ browsing data, plus a zero day IOMobileFrameBuffer bug exploited in the wild.	https://kasperskycontenthub.com/threatpost-global/?p=178040	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/27115334/apple-with-bandaid-e1635350026287.jpeg	Lisa Vaas	2022-01-26 23:19:57+01	threatpost	t	2022-01-27 00:00:02.248624+01	threatpost/Apple-Fixes-Zero-Day-Exploited-in-the-Wild-Nasty-Safari-Bug
 1163	Linux version of LockBit ransomware targets VMware ESXi servers	LockBit is the latest ransomware gang whose Linux encryptor has been discovered to be focusing on the encryption of VMware ESXi virtual machines.	https://www.bleepingcomputer.com/news/security/linux-version-of-lockbit-ransomware-targets-vmware-esxi-servers/	https://www.bleepstatic.com/content/hl-images/2021/07/27/Lockbit-logo.jpg	Lawrence Abrams	2022-01-27 00:40:10+01	bleepingcomputer	t	2022-01-27 01:00:02.458793+01	bleepingcomputer/Linux-version-of-LockBit-ransomware-targets-VMware-ESXi-servers
 1164	Canadian officials take down dark web marketplace, issue $300,000 in fines | ZDNet	Officials said they shut down CanadianHQ, which they claimed was one of the largest Dark Web marketplaces in the world.	https://www.zdnet.com/article/canadian-officials-take-down-dark-web-marketplace-issue-300000-in-fines/	https://www.zdnet.com/a/img/resize/8c602cef45186d70741818ee4c65761080944075/2022/01/26/a34abcb0-eae5-45b7-9cba-bec88e0aafe3/canada-cybersecurity.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-27 00:20:55+01	zdnet	t	2022-01-27 02:00:02.665909+01	zdnet/Canadian-officials-take-down-dark-web-marketplace-issue-300000-in-fines--ZDNet
+1165	Konni remote access Trojan receives 'significant' upgrades | ZDNet	Researchers say the security community should keep a close eye on this malware strain.	https://www.zdnet.com/article/konni-remote-access-trojan-receives-significant-upgrades/	https://www.zdnet.com/a/img/resize/96e6ad20d1153431ee5ab02f0a455df0f5c94e32/2020/12/02/d91169f7-50ff-46fd-8f40-fb36d4d1f8e5/istock-5193359161.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-27 10:17:15+01	zdnet	t	2022-01-27 12:00:01.835882+01	zdnet/Konni-remote-access-Trojan-receives-significant-upgrades--ZDNet
 \.
 
 
@@ -1168,7 +1169,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1164, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1165, true);
 
 
 --
