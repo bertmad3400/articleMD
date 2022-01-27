@@ -1159,6 +1159,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1160	Ukrainian government calls out false flag operation in recent data wiping attack	The Ukrainian government said today that it found evidence meant to connect the data wiping attack that hit its own systems two weeks ago to a pro-Ukrainian hacking group in what security researchers typically describe as a false flag meant to distract investigators from the real culprits of the attack.	https://therecord.media/ukrainian-government-calls-out-false-flag-operation-in-recent-data-wiping-attack/	https://therecord.media/wp-content/uploads/2022/01/Ukraine-glitch.png	Catalin Cimpanu	2022-01-26 23:01:48+01	therecord	t	2022-01-27 00:00:02.248624+01	therecord/Ukrainian-government-calls-out-false-flag-operation-in-recent-data-wiping-attack
 1161	TrickBot Crashes Security Researchers' Browsers in Latest Upgrade	The malware has added an anti-debugging tool that crashes browser tabs when researchers use code beautifying for analysis.	https://kasperskycontenthub.com/threatpost-global/?p=178046	https://media.threatpost.com/wp-content/uploads/sites/103/2021/02/17094252/masslogger.jpg	Becky Bracken	2022-01-26 23:39:34+01	threatpost	t	2022-01-27 00:00:02.248624+01	threatpost/TrickBot-Crashes-Security-Researchers-Browsers-in-Latest-Upgrade
 1162	Apple Fixes Zero Day Exploited in the Wild, Nasty Safari Bug	iOS 15.3 & iPadOS 15.3 fix the Safari browser flaw that could have spilled users’ browsing data, plus a zero day IOMobileFrameBuffer bug exploited in the wild.	https://kasperskycontenthub.com/threatpost-global/?p=178040	https://media.threatpost.com/wp-content/uploads/sites/103/2021/10/27115334/apple-with-bandaid-e1635350026287.jpeg	Lisa Vaas	2022-01-26 23:19:57+01	threatpost	t	2022-01-27 00:00:02.248624+01	threatpost/Apple-Fixes-Zero-Day-Exploited-in-the-Wild-Nasty-Safari-Bug
+1163	Linux version of LockBit ransomware targets VMware ESXi servers	LockBit is the latest ransomware gang whose Linux encryptor has been discovered to be focusing on the encryption of VMware ESXi virtual machines.	https://www.bleepingcomputer.com/news/security/linux-version-of-lockbit-ransomware-targets-vmware-esxi-servers/	https://www.bleepstatic.com/content/hl-images/2021/07/27/Lockbit-logo.jpg	Lawrence Abrams	2022-01-27 00:40:10+01	bleepingcomputer	t	2022-01-27 01:00:02.458793+01	bleepingcomputer/Linux-version-of-LockBit-ransomware-targets-VMware-ESXi-servers
 \.
 
 
@@ -1166,7 +1167,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1162, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1163, true);
 
 
 --
