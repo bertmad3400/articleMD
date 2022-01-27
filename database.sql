@@ -1162,6 +1162,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1163	Linux version of LockBit ransomware targets VMware ESXi servers	LockBit is the latest ransomware gang whose Linux encryptor has been discovered to be focusing on the encryption of VMware ESXi virtual machines.	https://www.bleepingcomputer.com/news/security/linux-version-of-lockbit-ransomware-targets-vmware-esxi-servers/	https://www.bleepstatic.com/content/hl-images/2021/07/27/Lockbit-logo.jpg	Lawrence Abrams	2022-01-27 00:40:10+01	bleepingcomputer	t	2022-01-27 01:00:02.458793+01	bleepingcomputer/Linux-version-of-LockBit-ransomware-targets-VMware-ESXi-servers
 1164	Canadian officials take down dark web marketplace, issue $300,000 in fines | ZDNet	Officials said they shut down CanadianHQ, which they claimed was one of the largest Dark Web marketplaces in the world.	https://www.zdnet.com/article/canadian-officials-take-down-dark-web-marketplace-issue-300000-in-fines/	https://www.zdnet.com/a/img/resize/8c602cef45186d70741818ee4c65761080944075/2022/01/26/a34abcb0-eae5-45b7-9cba-bec88e0aafe3/canada-cybersecurity.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-27 00:20:55+01	zdnet	t	2022-01-27 02:00:02.665909+01	zdnet/Canadian-officials-take-down-dark-web-marketplace-issue-300000-in-fines--ZDNet
 1165	Konni remote access Trojan receives 'significant' upgrades | ZDNet	Researchers say the security community should keep a close eye on this malware strain.	https://www.zdnet.com/article/konni-remote-access-trojan-receives-significant-upgrades/	https://www.zdnet.com/a/img/resize/96e6ad20d1153431ee5ab02f0a455df0f5c94e32/2020/12/02/d91169f7-50ff-46fd-8f40-fb36d4d1f8e5/istock-5193359161.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-27 10:17:15+01	zdnet	t	2022-01-27 12:00:01.835882+01	zdnet/Konni-remote-access-Trojan-receives-significant-upgrades--ZDNet
+1166	Attackers add rogue PC to victims' networks in this sneaky phishing campaign | ZDNet	Attackers enroll Outlook on BYO devices with Azure AD and then spread SharePoint PDF lures.	https://www.zdnet.com/article/attackers-add-rogue-pc-to-victims-networks-in-this-sneaky-phishing-campaign/	https://www.zdnet.com/a/img/resize/9436b7351af27e9f7e4b7092ebbcc008a01ac197/2022/01/27/cf77a5be-4a64-40b3-8f34-20346c4787ff/shutterstock-1613076505.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2022-01-27 11:00:09+01	zdnet	t	2022-01-27 13:00:02.67681+01	zdnet/Attackers-add-rogue-PC-to-victims-networks-in-this-sneaky-phishing-campaign--ZDNet
+1167	DeepDotWeb operator sentenced to eight years behind bars | ZDNet	The platform provided links to Dark Web marketplaces.	https://www.zdnet.com/article/deepdotweb-operator-sentenced-to-eight-years-behind-bars/	https://www.zdnet.com/a/img/resize/107c7731863e307fd44c2f6cbf99a68c1ee16f18/2022/01/27/1ed926ff-f9af-4c26-afe9-19ebf72d2f34/screenshot-2022-01-27-at-07-45-21.png?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-27 10:53:06+01	zdnet	t	2022-01-27 13:00:02.67681+01	zdnet/DeepDotWeb-operator-sentenced-to-eight-years-behind-bars--ZDNet
 \.
 
 
@@ -1169,7 +1171,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1165, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1167, true);
 
 
 --
