@@ -1184,6 +1184,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1185	Lazarus hackers use Windows Update to deploy malware	North Korean-backed hacking group Lazarus has added the Windows Update client to its list of living-off-the-land binaries (LoLBins) and is now actively using it to execute malicious code on Windows systems.	https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-windows-update-to-deploy-malware/	https://www.bleepstatic.com/content/hl-images/2021/07/09/Windows_headpic.jpg	Sergiu Gatlan	2022-01-27 19:31:40+01	bleepingcomputer	t	2022-01-27 20:00:02.489349+01	bleepingcomputer/Lazarus-hackers-use-Windows-Update-to-deploy-malware
 1186	Microsoft warns of multi-stage phishing campaign leveraging Azure AD	Microsoft's threat analysts have uncovered a large-scale, multi-phase phishing campaign that uses stolen credentials to register devices onto the target's network and use them to distribute phishing emails.	https://www.bleepingcomputer.com/news/security/microsoft-warns-of-multi-stage-phishing-campaign-leveraging-azure-ad/	https://www.bleepstatic.com/content/hl-images/2021/10/20/Microsoft_365_red.jpg	Bill Toulas	2022-01-27 19:11:58+01	bleepingcomputer	t	2022-01-27 20:00:02.489349+01	bleepingcomputer/Microsoft-warns-of-multi-stage-phishing-campaign-leveraging-Azure-AD
 1187	Taiwanese Apple and Tesla contractor hit by Conti ransomware	Delta Electronics, a Taiwanese electronics company and a provider for Apple, Tesla, HP, and Dell, disclosed that it was the victim of a cyberattack discovered on Friday morning.	https://www.bleepingcomputer.com/news/security/taiwanese-apple-and-tesla-contractor-hit-by-conti-ransomware/	https://www.bleepstatic.com/content/posts/2022/01/27/Delta_Electronics_logo.jpg	Sergiu Gatlan	2022-01-27 20:28:27+01	bleepingcomputer	t	2022-01-27 21:00:02.224453+01	bleepingcomputer/Taiwanese-Apple-and-Tesla-contractor-hit-by-Conti-ransomware
+1188	2FA App Loaded with Banking Trojan Infests 10K Victims via Google Play	The Vultur trojan steals bank credentials but asks for permissions to do far more damage down the line.	https://kasperskycontenthub.com/threatpost-global/?p=178077	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/27155626/turkey-vulture-scaled-e1643317009313.jpeg	Becky Bracken	2022-01-27 21:59:53+01	threatpost	t	2022-01-27 22:00:02.05958+01	threatpost/2FA-App-Loaded-with-Banking-Trojan-Infests-10K-Victims-via-Google-Play
 \.
 
 
@@ -1191,7 +1192,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1187, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1188, true);
 
 
 --
