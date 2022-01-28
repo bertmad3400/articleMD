@@ -1192,6 +1192,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1192	Home Affairs seeking support to build out Australia's identity-matching system | ZDNet	A government tender has been published seeking new components to build, deploy, and host the country's identity-matching services.	https://www.zdnet.com/article/home-affairs-seeking-support-to-build-out-australias-identity-matching-system/	https://www.zdnet.com/a/img/resize/640b9c994b261942902ac90672b2faffd3a78911/2021/06/25/f794d6d9-9bda-4807-b5e2-eb048305b26b/identity-access-management.jpg?width=770&height=578&fit=crop&auto=webp	Aimee Chanthadavong	2022-01-28 01:07:05+01	zdnet	t	2022-01-28 03:00:02.546757+01	zdnet/Home-Affairs-seeking-support-to-build-out-Australias-identity-matching-system--ZDNet
 1194	Deadbolt ransomware hits more than 3,600 QNAP NAS devices	More than 3,600 network-attached storage (NAS) devices from Taiwanese company QNAP have been infected and had their data encrypted by a new strain of ransomware named Deadbolt.	https://therecord.media/deadbolt-ransomware-hits-more-than-3600-qnap-nas-devices/	https://therecord.media/wp-content/uploads/2022/01/DeadBolt.jpg	Catalin Cimpanu	2022-01-28 05:27:28+01	therecord	t	2022-01-28 06:00:01.891559+01	therecord/Deadbolt-ransomware-hits-more-than-3600-QNAP-NAS-devices
 1195	This Week in Security News - January 28th, 2022	Welcome to our weekly roundup, where we share what you need to know about cybersecurity news and events that happened over the past few days. This week, read the third installment of Trend Micro’s Codex series. Also, read about the White House’s latest zero-trust approach to its cybersecurity strategy.	https://www.trendmicro.com/en_us/research/22/a/this-week-in-security-news-january-28th-2022.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news.jpg	\N	2022-01-28 00:00:00+01	trendmicro	t	2022-01-28 07:00:01.920436+01	trendmicro/This-Week-in-Security-News---January-28th-2022
+1196	Google Play app dropped Vultur banking Trojan on Android handsets | ZDNet	The app was installed thousands of times before it was removed.	https://www.zdnet.com/article/google-play-app-dropped-vultur-banking-trojan-on-android-handsets/	https://www.zdnet.com/a/img/resize/c453bc6faf80858af6fa9cd3c208c1baa47c6545/2021/05/20/632cb058-b115-4737-8be3-24a70059e7b6/android-mascot-in-cloud.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-28 09:46:43+01	zdnet	t	2022-01-28 11:00:02.206886+01	zdnet/Google-Play-app-dropped-Vultur-banking-Trojan-on-Android-handsets--ZDNet
 \.
 
 
@@ -1199,7 +1200,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1195, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1196, true);
 
 
 --
