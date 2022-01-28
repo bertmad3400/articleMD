@@ -1213,6 +1213,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1216	EU to create pan-European cyber incident coordination framework	The European Systemic Risk Board (ESRB) proposed a new systemic cyber incident coordination framework that would allow EU relevant authorities to better coordinate when having to respond to major cross-border cyber incidents impacting the Union's financial sector.	https://www.bleepingcomputer.com/news/security/eu-to-create-pan-european-cyber-incident-coordination-framework/	https://www.bleepstatic.com/content/hl-images/2022/01/28/EU_flag.jpg	Sergiu Gatlan	2022-01-28 16:00:00+01	bleepingcomputer	t	2022-01-28 18:00:02.450654+01	bleepingcomputer/EU-to-create-pan-European-cyber-incident-coordination-framework
 1212	Scammers target us on social media now more than ever | ZDNet	The FTC warns that social media-based money scams are on the rise.	https://www.zdnet.com/article/scammers-target-us-on-social-media-now-more-than-ever/	https://www.zdnet.com/a/img/resize/5618f4d4599c45053ab29d1e7ab36788a5f4871b/2021/04/23/082f0657-50f2-4c6a-bf41-ad5d10232d23/social-media.jpg?width=770&height=578&fit=crop&auto=webp	Allison Murray	2022-01-28 16:18:00+01	zdnet	t	2022-01-28 18:00:02.450654+01	zdnet/Scammers-target-us-on-social-media-now-more-than-ever--ZDNet
 1213	How to avoid an open source security nightmare | ZDNet	Just as it would be a mistake to say that all closed source projects are bug-free, it's a mistake to say that all open source projects are security risks. Different projects have different focuses; some of them are much more concerned with the security of their releases.	https://www.zdnet.com/article/how-to-avoid-an-open-source-security-nightmare/	https://www.zdnet.com/a/img/resize/4c41083a804455f9a13034d0dcdf4655d53d865f/2022/01/18/b0256ff2-881d-45cf-ba36-63708db9a6b1/open-source.jpg?width=770&height=578&fit=crop&auto=webp	Forrester Research	2022-01-28 16:06:00+01	zdnet	t	2022-01-28 18:00:02.450654+01	zdnet/How-to-avoid-an-open-source-security-nightmare--ZDNet
+1217	Google unveils new differential privacy tool for Python developers processing data | ZDNet	Google said it has been working with OpenMined for a year on the effort.	https://www.zdnet.com/article/google-unveils-new-differential-privacy-tool-for-python-developers-processing-data/	https://www.zdnet.com/a/img/resize/8405403f361da6d51b4ba2addb94a080c709aaa7/2022/01/07/ac46ff8c-2643-4d90-9b70-b947152e848b/google.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-28 17:18:41+01	zdnet	t	2022-01-28 19:00:02.037422+01	zdnet/Google-unveils-new-differential-privacy-tool-for-Python-developers-processing-data--ZDNet
 \.
 
 
@@ -1220,7 +1221,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1216, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1217, true);
 
 
 --
