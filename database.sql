@@ -1186,6 +1186,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1187	Taiwanese Apple and Tesla contractor hit by Conti ransomware	Delta Electronics, a Taiwanese electronics company and a provider for Apple, Tesla, HP, and Dell, disclosed that it was the victim of a cyberattack discovered on Friday morning.	https://www.bleepingcomputer.com/news/security/taiwanese-apple-and-tesla-contractor-hit-by-conti-ransomware/	https://www.bleepstatic.com/content/posts/2022/01/27/Delta_Electronics_logo.jpg	Sergiu Gatlan	2022-01-27 20:28:27+01	bleepingcomputer	t	2022-01-27 21:00:02.224453+01	bleepingcomputer/Taiwanese-Apple-and-Tesla-contractor-hit-by-Conti-ransomware
 1188	2FA App Loaded with Banking Trojan Infests 10K Victims via Google Play	The Vultur trojan steals bank credentials but asks for permissions to do far more damage down the line.	https://kasperskycontenthub.com/threatpost-global/?p=178077	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/27155626/turkey-vulture-scaled-e1643317009313.jpeg	Becky Bracken	2022-01-27 21:59:53+01	threatpost	t	2022-01-27 22:00:02.05958+01	threatpost/2FA-App-Loaded-with-Banking-Trojan-Infests-10K-Victims-via-Google-Play
 1189	DeepDotWeb admin imprisoned for advertising illegal dark web markets	An Israeli citizen who operated DeepDotWeb (DDW), a news site and review site for dark web sites, has received a sentence of 97 months in prison for money laundering and was ordered to forfeit $8,414,173.	https://www.bleepingcomputer.com/news/security/deepdotweb-admin-imprisoned-for-advertising-illegal-dark-web-markets/	https://www.bleepstatic.com/content/hl-images/2021/11/11/prison.jpg	Bill Toulas	2022-01-27 22:13:13+01	bleepingcomputer	t	2022-01-27 23:00:01.869402+01	bleepingcomputer/DeepDotWeb-admin-imprisoned-for-advertising-illegal-dark-web-markets
+1190	FCC tacks China Unicom onto list of Chinese telcos banned in the US | ZDNet	Two of China's state-owned telcos are now banned in the US, with China Mobile being the only one remaining.	https://www.zdnet.com/article/fcc-tacks-china-unicom-onto-list-of-chinese-telcos-banned-in-the-us/	https://www.zdnet.com/a/img/resize/0e36242074538d67a5164f45db264e70ca577835/2022/01/27/c52bf786-5c43-4c04-bfc1-f23b9fde9fce/gettyimages-1232587652.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-01-27 23:32:02+01	zdnet	t	2022-01-28 01:00:02.446594+01	zdnet/FCC-tacks-China-Unicom-onto-list-of-Chinese-telcos-banned-in-the-US--ZDNet
+1191	QNAP warns NAS users of DeadBolt ransomware, urges customers to update | ZDNet	QNAP released a warning this week about a ransomware strain targeting all NAS instances exposed to the internet.	https://www.zdnet.com/article/qnap-warns-nas-users-of-deadbolt-ransomware-urges-customers-to-update/	https://www.zdnet.com/a/img/resize/ef8e6f6aeacf39cd54e9bf9420044e300d46d280/2020/07/30/8b685d65-9d29-4c8b-80c1-6b75797773a3/cisa-says-62000-qnap-nas-devices-have-be-5f2171d1931ab320db2de039-1-jul-30-2020-14-50-40-poster.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-27 22:59:07+01	zdnet	t	2022-01-28 01:00:02.446594+01	zdnet/QNAP-warns-NAS-users-of-DeadBolt-ransomware-urges-customers-to-update--ZDNet
 \.
 
 
@@ -1193,7 +1195,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1189, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1191, true);
 
 
 --
