@@ -1200,6 +1200,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1201	Microsoft Outlook RCE zero-day exploits now selling for $400,000	Exploit broker Zerodium has announced a pay jump to 400,000 for zero-day vulnerabilities that allow remote code execution (RCE) in Microsoft Outlook email client.	https://www.bleepingcomputer.com/news/security/microsoft-outlook-rce-zero-day-exploits-now-selling-for-400-000/	https://www.bleepstatic.com/content/hl-images/2021/06/24/MoneyF.jpg	Ionut Ilascu	2022-01-28 13:05:25+01	bleepingcomputer	t	2022-01-28 14:00:02.387032+01	bleepingcomputer/Microsoft-Outlook-RCE-zero-day-exploits-now-selling-for-400000
 1202	The modern workplace: Will remote tech workers tolerate being monitored? | ZDNet	The same technologies that enable people to work from home can be used to watch them work. A survey finds widespread use of monitoring software and not everyone is told it is there.	https://www.zdnet.com/article/the-modern-workplace-will-remote-tech-workers-tolerate-being-monitored/	https://www.zdnet.com/a/img/resize/3c53b6fa8fdc931c445a66d820c346afe9dd7990/2020/10/27/55cb5229-0140-4217-9577-78cfd6f0e157/20170217-workplace-02444.jpg?width=770&height=578&fit=crop&auto=webp	Tom Foremski	2022-01-28 12:44:36+01	zdnet	t	2022-01-28 14:00:02.387032+01	zdnet/The-modern-workplace-Will-remote-tech-workers-tolerate-being-monitored--ZDNet
 1203	BlackCat ransomware targeting US, European retail, construction and transportation orgs | ZDNet	Palo Alto said that as of December 2021, BlackCat has the 7th largest number of victims listed on their leak site among ransomware groups that Unit 42 tracks.	https://www.zdnet.com/article/blackcat-ransomware-targeting-us-european-retail-construction-and-transportation-orgs/	https://www.zdnet.com/a/img/resize/ac23f5475eb67f67e44c9bb5e0b41e3d9a8919da/2021/12/15/5d6836ac-a637-410c-9381-0ff8754dd00f/shutterstock-2023392170.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-28 12:30:00+01	zdnet	t	2022-01-28 14:00:02.387032+01	zdnet/BlackCat-ransomware-targeting-US-European-retail-construction-and-transportation-orgs--ZDNet
+1204	Finnish diplomats’ phones infected with NSO Group Pegasus spyware	Finland's Ministry for Foreign Affairs says devices of Finnish diplomats have been hacked and infected with NSO Group's Pegasus spyware in a cyber-espionage campaign.	https://www.bleepingcomputer.com/news/security/finnish-diplomats-phones-infected-with-nso-group-pegasus-spyware/	https://www.bleepstatic.com/content/hl-images/2021/07/15/Lights-Man-Action.jpg	Sergiu Gatlan	2022-01-28 14:26:48+01	bleepingcomputer	t	2022-01-28 15:00:01.963682+01	bleepingcomputer/Finnish-diplomats-phones-infected-with-NSO-Group-Pegasus-spyware
 \.
 
 
@@ -1207,7 +1208,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1203, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1204, true);
 
 
 --
