@@ -1218,6 +1218,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1219	US bans major Chinese telecom over national security risks	The Federal Communications Commission (FCC) has revoked China Unicom Americas' license, one of the world's largest mobile service providers, over serious national security concerns.	https://www.bleepingcomputer.com/news/security/us-bans-major-chinese-telecom-over-national-security-risks/	https://www.bleepstatic.com/content/hl-images/2021/05/28/China-world-map.jpg	Sergiu Gatlan	2022-01-28 17:30:00+01	bleepingcomputer	t	2022-01-28 20:00:02.037861+01	bleepingcomputer/US-bans-major-Chinese-telecom-over-national-security-risks
 1220	QNAP users still struggling with Deadbolt ransomware after forced firmware updates | ZDNet	Censys said about 4,000 devices are still infected with Deadbolt ransomware.	https://www.zdnet.com/article/decryptor-released-for-deadbolt-ransomware-affecting-qnap-nas-devices/	https://www.zdnet.com/a/img/resize/db36dda02b827ca75e0bbc2dbaa81c4dcb37ab25/2020/04/30/a0f407e5-4a1f-46e3-886e-4811e3ab755e/ransomware.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-28 21:56:35+01	zdnet	t	2022-01-28 23:00:02.555632+01	zdnet/QNAP-users-still-struggling-with-Deadbolt-ransomware-after-forced-firmware-updates--ZDNet
 1221	Lazarus APT Uses Windows Update to Spew Malware	The group once again dangled fake job opportunities at engineers in a spear-phishing campaign that used Windows Update as a living-off-the-land technique and GitHub as a C2.	https://kasperskycontenthub.com/threatpost-global/?p=178096	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/28163041/JobOpportunity-scaled-e1643405458544.jpeg	Lisa Vaas	2022-01-28 22:47:21+01	threatpost	t	2022-01-28 23:00:02.555632+01	threatpost/Lazarus-APT-Uses-Windows-Update-to-Spew-Malware
+1222	Prepare for CompTIA exams and refresh your resume with this $30 training bundle | ZDNet	If you've got the tech skills and experience to qualify for better jobs but keep missing out, maybe you need some impressive certifications to make employers sit up and take notice.	https://www.zdnet.com/article/prepare-for-comptia-exams-and-refresh-your-resume-with-this-30-training-bundle/	https://www.zdnet.com/a/img/resize/09e331eaff73f14ca0c065ad08d2bd8f0f0f5e12/2022/01/26/452919d6-2bf6-4607-9159-f05027d11596/zd-2022-comptia.jpg?width=770&height=578&fit=crop&auto=webp	ZDNet Academy	2022-01-28 22:00:02+01	zdnet	t	2022-01-29 00:00:02.121105+01	zdnet/Prepare-for-CompTIA-exams-and-refresh-your-resume-with-this-30-training-bundle--ZDNet
 \.
 
 
@@ -1225,7 +1226,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1221, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1222, true);
 
 
 --
