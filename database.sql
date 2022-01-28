@@ -1190,6 +1190,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1191	QNAP warns NAS users of DeadBolt ransomware, urges customers to update | ZDNet	QNAP released a warning this week about a ransomware strain targeting all NAS instances exposed to the internet.	https://www.zdnet.com/article/qnap-warns-nas-users-of-deadbolt-ransomware-urges-customers-to-update/	https://www.zdnet.com/a/img/resize/ef8e6f6aeacf39cd54e9bf9420044e300d46d280/2020/07/30/8b685d65-9d29-4c8b-80c1-6b75797773a3/cisa-says-62000-qnap-nas-devices-have-be-5f2171d1931ab320db2de039-1-jul-30-2020-14-50-40-poster.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-27 22:59:07+01	zdnet	t	2022-01-28 01:00:02.446594+01	zdnet/QNAP-warns-NAS-users-of-DeadBolt-ransomware-urges-customers-to-update--ZDNet
 1193	Zerodium looks to buy zero-days in Outlook and Thunderbird email clients	US-based exploit broker Zerodium announced plans today to pay $200,000 and $400,000 for zero-day exploits in Mozilla Thunderbird and Microsoft Outlook, respectively, two of today's most popular and widely used desktop email clients.	https://therecord.media/zerodium-looks-to-buy-zero-days-in-outlook-and-thunderbird-email-clients/	https://therecord.media/wp-content/uploads/2022/01/Thunderbird.png	Catalin Cimpanu	2022-01-28 02:06:12+01	therecord	t	2022-01-28 03:00:02.546757+01	therecord/Zerodium-looks-to-buy-zero-days-in-Outlook-and-Thunderbird-email-clients
 1192	Home Affairs seeking support to build out Australia's identity-matching system | ZDNet	A government tender has been published seeking new components to build, deploy, and host the country's identity-matching services.	https://www.zdnet.com/article/home-affairs-seeking-support-to-build-out-australias-identity-matching-system/	https://www.zdnet.com/a/img/resize/640b9c994b261942902ac90672b2faffd3a78911/2021/06/25/f794d6d9-9bda-4807-b5e2-eb048305b26b/identity-access-management.jpg?width=770&height=578&fit=crop&auto=webp	Aimee Chanthadavong	2022-01-28 01:07:05+01	zdnet	t	2022-01-28 03:00:02.546757+01	zdnet/Home-Affairs-seeking-support-to-build-out-Australias-identity-matching-system--ZDNet
+1194	Deadbolt ransomware hits more than 3,600 QNAP NAS devices	More than 3,600 network-attached storage (NAS) devices from Taiwanese company QNAP have been infected and had their data encrypted by a new strain of ransomware named Deadbolt.	https://therecord.media/deadbolt-ransomware-hits-more-than-3600-qnap-nas-devices/	https://therecord.media/wp-content/uploads/2022/01/DeadBolt.jpg	Catalin Cimpanu	2022-01-28 05:27:28+01	therecord	t	2022-01-28 06:00:01.891559+01	therecord/Deadbolt-ransomware-hits-more-than-3600-QNAP-NAS-devices
 \.
 
 
@@ -1197,7 +1198,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1193, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1194, true);
 
 
 --
