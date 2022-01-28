@@ -1216,6 +1216,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1217	Google unveils new differential privacy tool for Python developers processing data | ZDNet	Google said it has been working with OpenMined for a year on the effort.	https://www.zdnet.com/article/google-unveils-new-differential-privacy-tool-for-python-developers-processing-data/	https://www.zdnet.com/a/img/resize/8405403f361da6d51b4ba2addb94a080c709aaa7/2022/01/07/ac46ff8c-2643-4d90-9b70-b947152e848b/google.png?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-28 17:18:41+01	zdnet	t	2022-01-28 19:00:02.037422+01	zdnet/Google-unveils-new-differential-privacy-tool-for-Python-developers-processing-data--ZDNet
 1218	French officials investigating LockBit claim of data theft | ZDNet	LockBit is threatening to leak documents stolen from the French Ministry of Justice.	https://www.zdnet.com/article/french-officials-investigating-lockbit-claim-of-ransomware-attack/	https://www.zdnet.com/a/img/resize/ddedba05f7852676963eaff57fec96b84c36c5b3/2018/06/15/b669af59-ed33-4265-9463-71d8853564ef/russianflagheroarticleistock470782316adrianhancu-1.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-28 18:34:02+01	zdnet	t	2022-01-28 20:00:02.037861+01	zdnet/French-officials-investigating-LockBit-claim-of-data-theft--ZDNet
 1219	US bans major Chinese telecom over national security risks	The Federal Communications Commission (FCC) has revoked China Unicom Americas' license, one of the world's largest mobile service providers, over serious national security concerns.	https://www.bleepingcomputer.com/news/security/us-bans-major-chinese-telecom-over-national-security-risks/	https://www.bleepstatic.com/content/hl-images/2021/05/28/China-world-map.jpg	Sergiu Gatlan	2022-01-28 17:30:00+01	bleepingcomputer	t	2022-01-28 20:00:02.037861+01	bleepingcomputer/US-bans-major-Chinese-telecom-over-national-security-risks
+1220	QNAP users still struggling with Deadbolt ransomware after forced firmware updates | ZDNet	Censys said about 4,000 devices are still infected with Deadbolt ransomware.	https://www.zdnet.com/article/decryptor-released-for-deadbolt-ransomware-affecting-qnap-nas-devices/	https://www.zdnet.com/a/img/resize/db36dda02b827ca75e0bbc2dbaa81c4dcb37ab25/2020/04/30/a0f407e5-4a1f-46e3-886e-4811e3ab755e/ransomware.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-28 21:56:35+01	zdnet	t	2022-01-28 23:00:02.555632+01	zdnet/QNAP-users-still-struggling-with-Deadbolt-ransomware-after-forced-firmware-updates--ZDNet
+1221	Lazarus APT Uses Windows Update to Spew Malware	The group once again dangled fake job opportunities at engineers in a spear-phishing campaign that used Windows Update as a living-off-the-land technique and GitHub as a C2.	https://kasperskycontenthub.com/threatpost-global/?p=178096	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/28163041/JobOpportunity-scaled-e1643405458544.jpeg	Lisa Vaas	2022-01-28 22:47:21+01	threatpost	t	2022-01-28 23:00:02.555632+01	threatpost/Lazarus-APT-Uses-Windows-Update-to-Spew-Malware
 \.
 
 
@@ -1223,7 +1225,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1219, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1221, true);
 
 
 --
