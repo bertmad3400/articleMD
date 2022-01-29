@@ -1221,6 +1221,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1222	Prepare for CompTIA exams and refresh your resume with this $30 training bundle | ZDNet	If you've got the tech skills and experience to qualify for better jobs but keep missing out, maybe you need some impressive certifications to make employers sit up and take notice.	https://www.zdnet.com/article/prepare-for-comptia-exams-and-refresh-your-resume-with-this-30-training-bundle/	https://www.zdnet.com/a/img/resize/09e331eaff73f14ca0c065ad08d2bd8f0f0f5e12/2022/01/26/452919d6-2bf6-4607-9159-f05027d11596/zd-2022-comptia.jpg?width=770&height=578&fit=crop&auto=webp	ZDNet Academy	2022-01-28 22:00:02+01	zdnet	t	2022-01-29 00:00:02.121105+01	zdnet/Prepare-for-CompTIA-exams-and-refresh-your-resume-with-this-30-training-bundle--ZDNet
 1223	The Week in Ransomware - January 28th 2022 - Get NAS devices off the Internet	It's been a busy week with ransomware attacks tied to political protests, new attacks on NAS devices, amazing research released about tactics, REvil's history, and more.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-january-28th-2022-get-nas-devices-off-the-internet/	https://www.bleepstatic.com/content/hl-images/2020/09/24/padlock.jpg	Lawrence Abrams	2022-01-28 22:57:32+01	bleepingcomputer	t	2022-01-29 01:00:02.329967+01	bleepingcomputer/The-Week-in-Ransomware---January-28th-2022---Get-NAS-devices-off-the-Internet
 1224	Ukrainian cyberdefense in need of upgrades as tensions rise	Ukraine's cyberdefenses leave systems vulnerable to known exploits already in use by cybercriminals, experts told The Record. 	https://therecord.media/ukrainian-cyberdefense-in-need-of-upgrades-as-tensions-rise/	https://therecord.media/wp-content/uploads/2021/11/Ukraine-Russia.jpg	Alexander Query	2022-01-29 14:23:10+01	therecord	t	2022-01-29 15:00:02.416446+01	therecord/Ukrainian-cyberdefense-in-need-of-upgrades-as-tensions-rise
+1225	Over 20,000 data center management systems exposed to hackers	Researchers have found over 20,000 instances of publicly exposed data center infrastructure management (DCIM) software that monitor devices, HVAC control systems, and power distribution units, which could be used for a range of catastrophic attacks.	https://www.bleepingcomputer.com/news/security/over-20-000-data-center-management-systems-exposed-to-hackers/	https://www.bleepstatic.com/content/hl-images/2021/04/01/datacenter-header-bright.jpg	Bill Toulas	2022-01-29 17:08:16+01	bleepingcomputer	t	2022-01-29 19:00:01.976433+01	bleepingcomputer/Over-20000-data-center-management-systems-exposed-to-hackers
+1226	Microsoft: Windows needs at least 8 hours online to update reliably	Microsoft says that Windows devices need to be online for at least eight hours to get the latest updates and have them correctly installed after they're released through Windows Update.	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-needs-at-least-8-hours-online-to-update-reliably/	https://www.bleepstatic.com/content/hl-images/2021/01/25/Windows-10.jpg	Sergiu Gatlan	2022-01-29 16:00:00+01	bleepingcomputer	t	2022-01-29 19:00:01.976433+01	bleepingcomputer/Microsoft-Windows-needs-at-least-8-hours-online-to-update-reliably
 \.
 
 
@@ -1228,7 +1230,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1224, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1226, true);
 
 
 --
