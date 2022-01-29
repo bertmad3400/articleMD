@@ -1223,6 +1223,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1224	Ukrainian cyberdefense in need of upgrades as tensions rise	Ukraine's cyberdefenses leave systems vulnerable to known exploits already in use by cybercriminals, experts told The Record. 	https://therecord.media/ukrainian-cyberdefense-in-need-of-upgrades-as-tensions-rise/	https://therecord.media/wp-content/uploads/2021/11/Ukraine-Russia.jpg	Alexander Query	2022-01-29 14:23:10+01	therecord	t	2022-01-29 15:00:02.416446+01	therecord/Ukrainian-cyberdefense-in-need-of-upgrades-as-tensions-rise
 1225	Over 20,000 data center management systems exposed to hackers	Researchers have found over 20,000 instances of publicly exposed data center infrastructure management (DCIM) software that monitor devices, HVAC control systems, and power distribution units, which could be used for a range of catastrophic attacks.	https://www.bleepingcomputer.com/news/security/over-20-000-data-center-management-systems-exposed-to-hackers/	https://www.bleepstatic.com/content/hl-images/2021/04/01/datacenter-header-bright.jpg	Bill Toulas	2022-01-29 17:08:16+01	bleepingcomputer	t	2022-01-29 19:00:01.976433+01	bleepingcomputer/Over-20000-data-center-management-systems-exposed-to-hackers
 1226	Microsoft: Windows needs at least 8 hours online to update reliably	Microsoft says that Windows devices need to be online for at least eight hours to get the latest updates and have them correctly installed after they're released through Windows Update.	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-needs-at-least-8-hours-online-to-update-reliably/	https://www.bleepstatic.com/content/hl-images/2021/01/25/Windows-10.jpg	Sergiu Gatlan	2022-01-29 16:00:00+01	bleepingcomputer	t	2022-01-29 19:00:01.976433+01	bleepingcomputer/Microsoft-Windows-needs-at-least-8-hours-online-to-update-reliably
+1227	Windows vulnerability with new public exploits lets you become admin	A security researcher has publicly disclosed an exploit for a Windows local privilege elevation vulnerability that allows anyone to gain admin privileges in Windows 10.	https://www.bleepingcomputer.com/news/microsoft/windows-vulnerability-with-new-public-exploits-lets-you-become-admin/	https://www.bleepstatic.com/content/hl-images/2021/07/23/Windows-attack.jpg	Lawrence Abrams	2022-01-29 20:06:50+01	bleepingcomputer	t	2022-01-29 21:00:02.242921+01	bleepingcomputer/Windows-vulnerability-with-new-public-exploits-lets-you-become-admin
 \.
 
 
@@ -1230,7 +1231,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1226, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1227, true);
 
 
 --
