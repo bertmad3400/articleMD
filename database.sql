@@ -1220,6 +1220,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1221	Lazarus APT Uses Windows Update to Spew Malware	The group once again dangled fake job opportunities at engineers in a spear-phishing campaign that used Windows Update as a living-off-the-land technique and GitHub as a C2.	https://kasperskycontenthub.com/threatpost-global/?p=178096	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/28163041/JobOpportunity-scaled-e1643405458544.jpeg	Lisa Vaas	2022-01-28 22:47:21+01	threatpost	t	2022-01-28 23:00:02.555632+01	threatpost/Lazarus-APT-Uses-Windows-Update-to-Spew-Malware
 1222	Prepare for CompTIA exams and refresh your resume with this $30 training bundle | ZDNet	If you've got the tech skills and experience to qualify for better jobs but keep missing out, maybe you need some impressive certifications to make employers sit up and take notice.	https://www.zdnet.com/article/prepare-for-comptia-exams-and-refresh-your-resume-with-this-30-training-bundle/	https://www.zdnet.com/a/img/resize/09e331eaff73f14ca0c065ad08d2bd8f0f0f5e12/2022/01/26/452919d6-2bf6-4607-9159-f05027d11596/zd-2022-comptia.jpg?width=770&height=578&fit=crop&auto=webp	ZDNet Academy	2022-01-28 22:00:02+01	zdnet	t	2022-01-29 00:00:02.121105+01	zdnet/Prepare-for-CompTIA-exams-and-refresh-your-resume-with-this-30-training-bundle--ZDNet
 1223	The Week in Ransomware - January 28th 2022 - Get NAS devices off the Internet	It's been a busy week with ransomware attacks tied to political protests, new attacks on NAS devices, amazing research released about tactics, REvil's history, and more.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-january-28th-2022-get-nas-devices-off-the-internet/	https://www.bleepstatic.com/content/hl-images/2020/09/24/padlock.jpg	Lawrence Abrams	2022-01-28 22:57:32+01	bleepingcomputer	t	2022-01-29 01:00:02.329967+01	bleepingcomputer/The-Week-in-Ransomware---January-28th-2022---Get-NAS-devices-off-the-Internet
+1224	Ukrainian cyberdefense in need of upgrades as tensions rise	Ukraine's cyberdefenses leave systems vulnerable to known exploits already in use by cybercriminals, experts told The Record. 	https://therecord.media/ukrainian-cyberdefense-in-need-of-upgrades-as-tensions-rise/	https://therecord.media/wp-content/uploads/2021/11/Ukraine-Russia.jpg	Alexander Query	2022-01-29 14:23:10+01	therecord	t	2022-01-29 15:00:02.416446+01	therecord/Ukrainian-cyberdefense-in-need-of-upgrades-as-tensions-rise
 \.
 
 
@@ -1227,7 +1228,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1223, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1224, true);
 
 
 --
