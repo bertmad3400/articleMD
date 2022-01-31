@@ -1243,6 +1243,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1244	Apple Patched Two Zero-Day Bugs And Other Flaws	Apple has patched one zero-day with iOS 15.3 and the other with Safari 15.3 alongside fixing other bugs. Update your systems now.	https://latesthackingnews.com/2022/01/31/apple-patched-two-zero-day-bugs-and-other-flaws-with-ios-15-3-safari-15-3/	https://latesthackingnews.com/wp-content/uploads/2018/11/Apple-patched-multiple-XNU-kernel-vulnerabilities.jpg	Abeerah Hashim	2022-01-31 00:00:00+01	latesthackingnews	t	2022-01-31 20:00:02.177992+01	latesthackingnews/Apple-Patched-Two-Zero-Day-Bugs-And-Other-Flaws
 1245	CISA adds 8 vulnerabilities to list of actively exploited bugs	The US Cybersecurity & Infrastructure Security Agency (CISA) has added eight more flaws to its catalog of exploited vulnerabilities that are known to be used in attacks, and they're a mix of old and new.	https://www.bleepingcomputer.com/news/security/cisa-adds-8-vulnerabilities-to-list-of-actively-exploited-bugs/	https://www.bleepstatic.com/content/hl-images/2021/12/14/CISA__headpic.jpg	Bill Toulas	2022-01-31 19:18:41+01	bleepingcomputer	t	2022-01-31 20:00:02.177992+01	bleepingcomputer/CISA-adds-8-vulnerabilities-to-list-of-actively-exploited-bugs
 1246	Apple Pays $100.5K Bug Bounty for Mac Webcam Hack	The researcher found that he could gain unauthorized camera access via a shared iCloud document that could also hack every website you've ever visited.	https://kasperskycontenthub.com/threatpost-global/?p=178114	https://media.threatpost.com/wp-content/uploads/sites/103/2020/04/06125323/webcam.jpeg	Lisa Vaas	2022-01-31 19:18:41+01	threatpost	t	2022-01-31 20:00:02.177992+01	threatpost/Apple-Pays-1005K-Bug-Bounty-for-Mac-Webcam-Hack
+1247	Threat actor target Ubiquiti network appliances using Log4Shell exploits	Threat actors are using a customized public exploit for the Log4Shell vulnerability to attack and take over Ubiquiti network appliances running the UniFi software, security firm Morphisec said in a report last week.	https://therecord.media/threat-actor-target-ubiquiti-network-appliances-using-log4shell-exploits/	https://therecord.media/wp-content/uploads/2022/01/UniFi.jpg	Catalin Cimpanu	2022-01-31 20:28:05+01	therecord	t	2022-01-31 21:00:02.782503+01	therecord/Threat-actor-target-Ubiquiti-network-appliances-using-Log4Shell-exploits
+1248	QNAP: DeadBolt ransomware exploits a bug patched in December	Taiwan-based network-attached storage (NAS) maker QNAP urges customers to enable firmware auto-updating on their devices to defend against active attacks.	https://www.bleepingcomputer.com/news/security/qnap-deadbolt-ransomware-exploits-a-bug-patched-in-december/	https://www.bleepstatic.com/content/hl-images/2021/04/29/QNAP-headpic.jpg	Sergiu Gatlan	2022-01-31 20:28:48+01	bleepingcomputer	t	2022-01-31 21:00:02.782503+01	bleepingcomputer/QNAP-DeadBolt-ransomware-exploits-a-bug-patched-in-December
 \.
 
 
@@ -1250,7 +1252,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1246, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1248, true);
 
 
 --
