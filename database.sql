@@ -1246,6 +1246,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1247	Threat actor target Ubiquiti network appliances using Log4Shell exploits	Threat actors are using a customized public exploit for the Log4Shell vulnerability to attack and take over Ubiquiti network appliances running the UniFi software, security firm Morphisec said in a report last week.	https://therecord.media/threat-actor-target-ubiquiti-network-appliances-using-log4shell-exploits/	https://therecord.media/wp-content/uploads/2022/01/UniFi.jpg	Catalin Cimpanu	2022-01-31 20:28:05+01	therecord	t	2022-01-31 21:00:02.782503+01	therecord/Threat-actor-target-Ubiquiti-network-appliances-using-Log4Shell-exploits
 1248	QNAP: DeadBolt ransomware exploits a bug patched in December	Taiwan-based network-attached storage (NAS) maker QNAP urges customers to enable firmware auto-updating on their devices to defend against active attacks.	https://www.bleepingcomputer.com/news/security/qnap-deadbolt-ransomware-exploits-a-bug-patched-in-december/	https://www.bleepstatic.com/content/hl-images/2021/04/29/QNAP-headpic.jpg	Sergiu Gatlan	2022-01-31 20:28:48+01	bleepingcomputer	t	2022-01-31 21:00:02.782503+01	bleepingcomputer/QNAP-DeadBolt-ransomware-exploits-a-bug-patched-in-December
 1249	 600K WordPress sites impacted by critical plugin RCE vulnerability	Essential Addons for Elementor, a popular WordPress plugin used in over a million sites, has been found to have a critical remote code execution (RCE) vulnerability in version 5.0.4 and older.	https://www.bleepingcomputer.com/news/security/600k-wordpress-sites-impacted-by-critical-plugin-rce-vulnerability/	https://www.bleepstatic.com/content/hl-images/2021/11/10/WordPress.jpg	Bill Toulas	2022-01-31 21:35:52+01	bleepingcomputer	t	2022-01-31 22:00:02.082514+01	bleepingcomputer/600K-WordPress-sites-impacted-by-critical-plugin-RCE-vulnerability
+1250	Samba bug can let remote attackers execute code as root	Samba has addressed a critical severity vulnerability that can let attackers gain remote code execution with root privileges on servers running vulnerable software.	https://www.bleepingcomputer.com/news/security/samba-bug-can-let-remote-attackers-execute-code-as-root/	https://www.bleepstatic.com/content/hl-images/2022/01/31/SAMBA.jpg	Sergiu Gatlan	2022-01-31 22:15:12+01	bleepingcomputer	t	2022-01-31 23:00:02.395989+01	bleepingcomputer/Samba-bug-can-let-remote-attackers-execute-code-as-root
+1251	Public Exploit Released for Windows 10 Bug	The vulnerability affects all unpatched Windows 10 versions following a messy Microsoft January update.	https://kasperskycontenthub.com/threatpost-global/?p=178135	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/17080004/Windows_tablet.jpg	Becky Bracken	2022-01-31 22:59:35+01	threatpost	t	2022-01-31 23:00:02.395989+01	threatpost/Public-Exploit-Released-for-Windows-10-Bug
 \.
 
 
@@ -1253,7 +1255,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1249, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1251, true);
 
 
 --
