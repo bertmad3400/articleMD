@@ -1228,6 +1228,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1229	Researchers use GPU fingerprinting to track users online	A team of researchers from French, Israeli, and Australian universities has explored the possibility of using people's GPUs to create unique fingerprints and use them for persistent web tracking.	https://www.bleepingcomputer.com/news/security/researchers-use-gpu-fingerprinting-to-track-users-online/	https://www.bleepstatic.com/content/hl-images/2022/01/26/gpu.jpg	Bill Toulas	2022-01-30 16:12:24+01	bleepingcomputer	t	2022-01-31 07:00:01.898208+01	bleepingcomputer/Researchers-use-GPU-fingerprinting-to-track-users-online
 1230	FTC: Americans lost $770 million from social media fraud surge	Americans are increasingly targeted by scammers on social media, according to tens of thousands of reports received by the US Federal Trade Commission (FTC) in 2021.	https://www.bleepingcomputer.com/news/security/ftc-americans-lost-770-million-from-social-media-fraud-surge/	https://www.bleepstatic.com/content/hl-images/2021/09/01/Stressed.jpg	Sergiu Gatlan	2022-01-30 16:00:00+01	bleepingcomputer	t	2022-01-31 07:00:01.898208+01	bleepingcomputer/FTC-Americans-lost-770-million-from-social-media-fraud-surge
 1231	Microsoft: Here's how we stopped the biggest ever DDoS attack | ZDNet	Microsoft details how Azure helped mitigate a 3.47 terabytes per second distributed denial of service (DDoS) attack.	https://www.zdnet.com/article/microsoft-heres-how-we-stopped-the-biggest-ever-ddos-attack/	https://www.zdnet.com/a/img/resize/76ecb1de544bfb69c0eed4f609957885cbbf20d7/2021/10/14/31150cff-22bb-4487-b7c2-004fb0db8459/shutterstock-574000213.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2022-01-31 12:12:22+01	zdnet	t	2022-01-31 14:00:02.489368+01	zdnet/Microsoft-Heres-how-we-stopped-the-biggest-ever-DDoS-attack--ZDNet
+1232	Unsecured AWS server exposed 3TB in airport employee records | ZDNet	The exposure impacted airport staff across Colombia and Peru.	https://www.zdnet.com/article/unsecured-aws-server-exposed-airport-employee-records-3tb-in-data/	https://www.zdnet.com/a/img/resize/1893bc0782df89e994f509e747a6f877b3d90212/2021/12/14/d488084b-7b98-48d6-8d4f-2b52db0678b6/shutterstock-1461611696.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-01-31 13:06:00+01	zdnet	t	2022-01-31 15:00:02.084533+01	zdnet/Unsecured-AWS-server-exposed-3TB-in-airport-employee-records--ZDNet
 \.
 
 
@@ -1235,7 +1236,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1231, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1232, true);
 
 
 --
