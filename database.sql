@@ -1225,6 +1225,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1226	Microsoft: Windows needs at least 8 hours online to update reliably	Microsoft says that Windows devices need to be online for at least eight hours to get the latest updates and have them correctly installed after they're released through Windows Update.	https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-needs-at-least-8-hours-online-to-update-reliably/	https://www.bleepstatic.com/content/hl-images/2021/01/25/Windows-10.jpg	Sergiu Gatlan	2022-01-29 16:00:00+01	bleepingcomputer	t	2022-01-29 19:00:01.976433+01	bleepingcomputer/Microsoft-Windows-needs-at-least-8-hours-online-to-update-reliably
 1227	Windows vulnerability with new public exploits lets you become admin	A security researcher has publicly disclosed an exploit for a Windows local privilege elevation vulnerability that allows anyone to gain admin privileges in Windows 10.	https://www.bleepingcomputer.com/news/microsoft/windows-vulnerability-with-new-public-exploits-lets-you-become-admin/	https://www.bleepstatic.com/content/hl-images/2021/07/23/Windows-attack.jpg	Lawrence Abrams	2022-01-29 20:06:50+01	bleepingcomputer	t	2022-01-29 21:00:02.242921+01	bleepingcomputer/Windows-vulnerability-with-new-public-exploits-lets-you-become-admin
 1228	Get lifetime subscriptions to two apps that will keep your data safe online for $30 | ZDNet	Your data isn't just vulnerable when you are online. Hackers who can crack your passwords using social engineering also pose a threat.	https://www.zdnet.com/article/get-lifetime-subscriptions-to-two-apps-that-will-keep-your-data-safe-online-for-30/	https://www.zdnet.com/a/img/resize/0321996b77edba273d59d478fee8aaed9dc0b725/2022/01/26/fcea35fd-2d24-4933-9460-3005f7028f3e/zd-lifetime-password-manager.jpg?width=770&height=578&fit=crop&auto=webp	ZDNet Academy	2022-01-29 22:00:02+01	zdnet	t	2022-01-30 00:00:02.501007+01	zdnet/Get-lifetime-subscriptions-to-two-apps-that-will-keep-your-data-safe-online-for-30--ZDNet
+1229	Researchers use GPU fingerprinting to track users online	A team of researchers from French, Israeli, and Australian universities has explored the possibility of using people's GPUs to create unique fingerprints and use them for persistent web tracking.	https://www.bleepingcomputer.com/news/security/researchers-use-gpu-fingerprinting-to-track-users-online/	https://www.bleepstatic.com/content/hl-images/2022/01/26/gpu.jpg	Bill Toulas	2022-01-30 16:12:24+01	bleepingcomputer	t	2022-01-31 07:00:01.898208+01	bleepingcomputer/Researchers-use-GPU-fingerprinting-to-track-users-online
+1230	FTC: Americans lost $770 million from social media fraud surge	Americans are increasingly targeted by scammers on social media, according to tens of thousands of reports received by the US Federal Trade Commission (FTC) in 2021.	https://www.bleepingcomputer.com/news/security/ftc-americans-lost-770-million-from-social-media-fraud-surge/	https://www.bleepstatic.com/content/hl-images/2021/09/01/Stressed.jpg	Sergiu Gatlan	2022-01-30 16:00:00+01	bleepingcomputer	t	2022-01-31 07:00:01.898208+01	bleepingcomputer/FTC-Americans-lost-770-million-from-social-media-fraud-surge
 \.
 
 
@@ -1232,7 +1234,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1228, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1230, true);
 
 
 --
