@@ -1234,6 +1234,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1235	PwnKit Linux Vulnerability Discovered And Fixed After 12 Years	PwnKit vulnerability exists in the Polkit Linux component, allowing an underprivileged attacker to run commands with elevated privileges.	https://latesthackingnews.com/2022/01/31/pwnkit-linux-vulnerability-discovered-and-fixed-after-12-years/	https://latesthackingnews.com/wp-content/uploads/2018/10/X.Org-server-vulnerability-in-Linux.jpg	Abeerah Hashim	2022-01-31 00:00:00+01	latesthackingnews	t	2022-01-31 17:00:02.480866+01	latesthackingnews/PwnKit-Linux-Vulnerability-Discovered-And-Fixed-After-12-Years
 1236	Top counterintel role remains unfilled by Biden	More than a year after taking office, President Joe Biden has yet to find a nominee to oversee the nation’s counterintelligence efforts and combat influence campaigns by foreign adversaries like Russia — and there’s no contender in sight.	https://therecord.media/top-counterintel-role-remains-unfilled-by-biden/	https://therecord.media/wp-content/uploads/2022/01/michael-dziedzic-0W4XLGITrHg-unsplash-1.jpg	Martin Matishak	2022-01-31 16:06:43+01	therecord	t	2022-01-31 17:00:02.480866+01	therecord/Top-counterintel-role-remains-unfilled-by-Biden
 1237	277,000 routers exposed to Eternal Silence attacks via UPnP	A malicious campaign known as 'Eternal Silence' is abusing Universal Plug and Play (UPnP) turns your router into a proxy server used to launch malicious attacks while hiding the location of the threat actors.	https://www.bleepingcomputer.com/news/security/277-000-routers-exposed-to-eternal-silence-attacks-via-upnp/	https://www.bleepstatic.com/content/hl-images/2021/08/06/Router.jpg	Bill Toulas	2022-01-31 16:40:46+01	bleepingcomputer	t	2022-01-31 17:00:02.480866+01	bleepingcomputer/277000-routers-exposed-to-Eternal-Silence-attacks-via-UPnP
+1238	Russian 'Gamaredon' hackers use 8 new malware payloads in attacks	The Russia-linked hackers known as 'Gamaredon' (aka Armageddon or Shuckworm) were spotted deploying eight custom binaries in cyber-espionage operations against Ukrainian entities.	https://www.bleepingcomputer.com/news/security/russian-gamaredon-hackers-use-8-new-malware-payloads-in-attacks/	https://www.bleepstatic.com/content/hl-images/2021/05/07/Russian-flag-headpic.jpg	Bill Toulas	2022-01-31 17:14:28+01	bleepingcomputer	t	2022-01-31 18:00:02.580866+01	bleepingcomputer/Russian-Gamaredon-hackers-use-8-new-malware-payloads-in-attacks
 \.
 
 
@@ -1241,7 +1242,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1237, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1238, true);
 
 
 --
