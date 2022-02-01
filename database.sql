@@ -1251,6 +1251,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1252	Updates released for multiple vulnerabilities found in 42 Gears' SureMDM products | ZDNet	42 Gears released an initial set of updates in November and then more earlier this month.	https://www.zdnet.com/article/multiple-vulnerabilities-found-in-42-gears-suremdm-products/	https://www.zdnet.com/a/img/resize/0d8afb02ad14070f3546d9d260adab2cc0b69498/2021/12/06/e458798d-bb26-421f-8bcd-10b37bc4793d/train-cyber-security.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-31 22:39:56+01	zdnet	t	2022-02-01 00:00:02.390071+01	zdnet/Updates-released-for-multiple-vulnerabilities-found-in-42-Gears-SureMDM-products--ZDNet
 1253	Microsoft PowerToys adds Mouse and File Explorer utilities	Microsoft has updated PowerToys with three new utilities, including a new mouse crosshair tool to quickly find the pointer on the screen and two new File Explorer add-ons.	https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-mouse-and-file-explorer-utilities/	https://www.bleepstatic.com/content/hl-images/2022/01/31/PowereToys_mouse_crosshair.jpg	Sergiu Gatlan	2022-01-31 23:49:42+01	bleepingcomputer	t	2022-02-01 00:00:02.390071+01	bleepingcomputer/Microsoft-PowerToys-adds-Mouse-and-File-Explorer-utilities
 1254	FBI warns of 2022 Beijing Olympics cyberattack, privacy risks	The Federal Bureau of Investigation (FBI) warned today that threat actors could potentially target the February 2022 Beijing Winter Olympics and March 2022 Paralympics. However, evidence of such attacks being planned is yet to be uncovered.	https://www.bleepingcomputer.com/news/security/fbi-warns-of-2022-beijing-olympics-cyberattack-privacy-risks/	https://www.bleepstatic.com/content/hl-images/2021/07/20/Olympics.jpg	Sergiu Gatlan	2022-02-01 00:27:27+01	bleepingcomputer	t	2022-02-01 01:00:02.788524+01	bleepingcomputer/FBI-warns-of-2022-Beijing-Olympics-cyberattack-privacy-risks
+1255	Apple, SonicWall, Internet Explorer vulnerabilities added to CISA list | ZDNet	CISA has added eight new vulnerabilities to its Known Exploited Vulnerabilities Catalog	https://www.zdnet.com/article/apple-internet-explorer-sonic-wall-vulnerabilities-added-to-cisa-list/	https://www.zdnet.com/a/img/resize/52e3f2e72bae0c6668ad15efdacedf52ed9ac8dc/2022/01/31/d2733fd0-3a2e-438e-8745-268bd8675c8f/xyw1ujya-400x400.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-01 00:08:25+01	zdnet	t	2022-02-01 02:00:02.754729+01	zdnet/Apple-SonicWall-Internet-Explorer-vulnerabilities-added-to-CISA-list--ZDNet
 \.
 
 
@@ -1258,7 +1259,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1254, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1255, true);
 
 
 --
