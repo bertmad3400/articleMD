@@ -1268,6 +1268,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1269	Forescout acquires healthcare cybersecurity provider CyberMDX | ZDNet	The terms of the deal were not disclosed.	https://www.zdnet.com/article/forescout-acquires-healthcare-cybersecurity-provider-cybermdx/	https://www.zdnet.com/a/img/resize/e2dacd2f38f85e452224cfa84bbb347be05796e3/2021/04/15/eec3dffa-92b5-433b-82ed-3203d20bf5f8/hospital-cyber.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-01 13:30:02+01	zdnet	t	2022-02-01 15:00:02.645701+01	zdnet/Forescout-acquires-healthcare-cybersecurity-provider-CyberMDX--ZDNet
 1270	These hackers are hitting victims with ransomware in an attempt to cover their tracks | ZDNet	Cyber-espionage campaigns linked to the Iranian government are using new malware to secretly snoop around networks, and then drop malware to hide any trace of activity.	https://www.zdnet.com/article/these-hackers-are-hitting-victims-with-ransomware-in-an-attempt-to-cover-their-tracks/	https://www.zdnet.com/a/img/resize/36eacd57be8cf45d5617f398302d88af4e47917b/2021/12/06/65e99cdf-bb9a-43e6-b9f2-7bbcfab2c195/hacker-hands-typing-on-a-keyboard.jpg?width=770&height=578&fit=crop&auto=webp	Danny Palmer	2022-02-01 13:00:15+01	zdnet	t	2022-02-01 15:00:02.645701+01	zdnet/These-hackers-are-hitting-victims-with-ransomware-in-an-attempt-to-cover-their-tracks--ZDNet
 1271	Living Off the Land: How to Defend Against Malicious Use of Legitimate Utilities	LOLBins help attackers become invisible to security platforms. Uptycs provides a rundown of the most commonly abused native utilities for Windows, Linux and macOS – and advice for protection.	https://kasperskycontenthub.com/threatpost-global/?p=177762	https://media.threatpost.com/wp-content/uploads/sites/103/2022/01/20170144/generic-hacker-laptop.jpg	Threatpost	2022-02-01 15:00:08+01	threatpost	t	2022-02-01 15:00:02.645701+01	threatpost/Living-Off-the-Land-How-to-Defend-Against-Malicious-Use-of-Legitimate-Utilities
+1272	Test your outrage over Google's new Topics advertising system	Is Google's latest plan for balancing privacy with advertising actually a problem? These four revealing questions will help you find out.	https://www.computerworld.com/article/3647763/google-topics-advertising.html	https://images.idgesg.net/images/article/2022/01/google-topics-advertising-100917297-large.jpg?auto=webp&quality=85,70	JR Raphael	2022-01-27 10:00:00+01	computerworld	t	2022-02-01 16:00:02.154889+01	computerworld/Test-your-outrage-over-Googles-new-Topics-advertising-system
 \.
 
 
@@ -1275,7 +1276,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1271, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1272, true);
 
 
 --
