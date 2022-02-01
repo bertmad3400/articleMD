@@ -1250,6 +1250,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1251	Public Exploit Released for Windows 10 Bug	The vulnerability affects all unpatched Windows 10 versions following a messy Microsoft January update.	https://kasperskycontenthub.com/threatpost-global/?p=178135	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/17080004/Windows_tablet.jpg	Becky Bracken	2022-01-31 22:59:35+01	threatpost	t	2022-01-31 23:00:02.395989+01	threatpost/Public-Exploit-Released-for-Windows-10-Bug
 1252	Updates released for multiple vulnerabilities found in 42 Gears' SureMDM products | ZDNet	42 Gears released an initial set of updates in November and then more earlier this month.	https://www.zdnet.com/article/multiple-vulnerabilities-found-in-42-gears-suremdm-products/	https://www.zdnet.com/a/img/resize/0d8afb02ad14070f3546d9d260adab2cc0b69498/2021/12/06/e458798d-bb26-421f-8bcd-10b37bc4793d/train-cyber-security.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-01-31 22:39:56+01	zdnet	t	2022-02-01 00:00:02.390071+01	zdnet/Updates-released-for-multiple-vulnerabilities-found-in-42-Gears-SureMDM-products--ZDNet
 1253	Microsoft PowerToys adds Mouse and File Explorer utilities	Microsoft has updated PowerToys with three new utilities, including a new mouse crosshair tool to quickly find the pointer on the screen and two new File Explorer add-ons.	https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-mouse-and-file-explorer-utilities/	https://www.bleepstatic.com/content/hl-images/2022/01/31/PowereToys_mouse_crosshair.jpg	Sergiu Gatlan	2022-01-31 23:49:42+01	bleepingcomputer	t	2022-02-01 00:00:02.390071+01	bleepingcomputer/Microsoft-PowerToys-adds-Mouse-and-File-Explorer-utilities
+1254	FBI warns of 2022 Beijing Olympics cyberattack, privacy risks	The Federal Bureau of Investigation (FBI) warned today that threat actors could potentially target the February 2022 Beijing Winter Olympics and March 2022 Paralympics. However, evidence of such attacks being planned is yet to be uncovered.	https://www.bleepingcomputer.com/news/security/fbi-warns-of-2022-beijing-olympics-cyberattack-privacy-risks/	https://www.bleepstatic.com/content/hl-images/2021/07/20/Olympics.jpg	Sergiu Gatlan	2022-02-01 00:27:27+01	bleepingcomputer	t	2022-02-01 01:00:02.788524+01	bleepingcomputer/FBI-warns-of-2022-Beijing-Olympics-cyberattack-privacy-risks
 \.
 
 
@@ -1257,7 +1258,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1253, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1254, true);
 
 
 --
