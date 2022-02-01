@@ -1263,6 +1263,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1264	Telco fined €9 million for hiding cyberattack impact to customers	The Greek data protection supervisory authority has imposed fines of 5,850,000 EUR ($6.55 million) to COSMOTE and 3,250,000 EUR ($3.65 million) to OTE, for leaking sensitive customer communication data due to insufficient security measures.	https://www.bleepingcomputer.com/news/security/telco-fined-9-million-for-hiding-cyberattack-impact-to-customers/	https://www.bleepstatic.com/content/hl-images/2021/10/28/5G_antenna.jpg	Bill Toulas	2022-02-01 11:27:49+01	bleepingcomputer	t	2022-02-01 12:00:02.116972+01	bleepingcomputer/Telco-fined-9-million-for-hiding-cyberattack-impact-to-customers
 1262	Ransomware: Is the party almost over for the cyber crooks? | ZDNet	A series of arrests have seemingly taken down some of the most notorious ransomware groups - is the party almost over, or will new operations just rise up where others have fallen?	https://www.zdnet.com/article/ransomware-is-the-party-almost-over-for-the-cyber-crooks/	https://www.zdnet.com/a/img/resize/65979db5a8d7afadbd719301d4644170cf4f7cea/2022/01/24/10ce8734-7001-46cc-94a5-5e402d550aef/getty-a-stressed-man-at-a-computer-in-a-dark-office.jpg?width=770&height=578&fit=crop&auto=webp	Danny Palmer	2022-02-01 10:56:21+01	zdnet	t	2022-02-01 12:00:02.116972+01	zdnet/Ransomware-Is-the-party-almost-over-for-the-cyber-crooks--ZDNet
 1266	One in seven ransomware extortion attempts leak key operational tech records | ZDNet	Researchers say that double-extortion ransomware attacks represent a severe risk to operational processes.	https://www.zdnet.com/article/one-in-seven-ransomware-extortion-attempts-leak-key-business-operation-data/	https://www.zdnet.com/a/img/resize/ac23f5475eb67f67e44c9bb5e0b41e3d9a8919da/2021/12/15/5d6836ac-a637-410c-9381-0ff8754dd00f/shutterstock-2023392170.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-02-01 11:35:13+01	zdnet	t	2022-02-01 13:00:01.854104+01	zdnet/One-in-seven-ransomware-extortion-attempts-leak-key-operational-tech-records--ZDNet
+1267	German petrol supply firm Oiltanking paralyzed by cyber attack	Oiltanking GmbH, a German petrol distributor who supplies Shell gas stations in the country, has fallen victim to a cyberattack that severely impacted its operations.	https://www.bleepingcomputer.com/news/security/german-petrol-supply-firm-oiltanking-paralyzed-by-cyber-attack/	https://www.bleepstatic.com/content/hl-images/2022/02/01/gas-station.jpg	Bill Toulas	2022-02-01 13:27:33+01	bleepingcomputer	t	2022-02-01 14:00:02.155529+01	bleepingcomputer/German-petrol-supply-firm-Oiltanking-paralyzed-by-cyber-attack
 \.
 
 
@@ -1270,7 +1271,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1266, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1267, true);
 
 
 --
