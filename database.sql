@@ -1272,6 +1272,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1273	Iranian state-sponsored group APT35 linked to Memento ransomware	Security researchers have found links between Iranian hacking group APT35 and the Memento ransomware strain.	https://therecord.media/iranian-state-sponsored-group-apt35-linked-to-memento-ransomware/	https://therecord.media/wp-content/uploads/2022/02/ransomware-hacker-threat-actor.jpg	Catalin Cimpanu	2022-02-01 17:01:18+01	therecord	t	2022-02-01 18:00:02.447433+01	therecord/Iranian-state-sponsored-group-APT35-linked-to-Memento-ransomware
 1274	Shell forced re-route supplies after cyberattack on two German oil companies | ZDNet	Two subsidiaries of German logistics firm Marquard & Bahls are struggling to respond to a cyberattack.	https://www.zdnet.com/article/shell-forced-re-route-oil-supplies-after-cyberattack-on-german-companies/	https://www.zdnet.com/a/img/resize/5947b981597fa3defa20a8878f933a9c2e0dd612/2022/01/21/c4947225-5d80-4d1b-817f-8f76c49eb5ee/gettyimages-149319688.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-01 16:40:31+01	zdnet	t	2022-02-01 18:00:02.447433+01	zdnet/Shell-forced-re-route-supplies-after-cyberattack-on-two-German-oil-companies--ZDNet
 1275	Firewalla launches Purple: Its must-have network security device | ZDNet	The $319 gadget will secure your network connections at home or on the road.	https://www.zdnet.com/article/firewalla-purple-gives-you-network-security-on-the-go-is-now-available-for-purchase/	https://www.zdnet.com/a/img/resize/d4b32dcd4fbe936996953ebc64b093f76434d6d1/2022/01/31/d1fe1fcf-c830-477a-9ae7-6afc8c09e38d/purple-front-laptop.png?width=770&height=578&fit=crop&auto=webp	Jason Cipriani	2022-02-01 16:00:00+01	zdnet	t	2022-02-01 18:00:02.447433+01	zdnet/Firewalla-launches-Purple-Its-must-have-network-security-device--ZDNet
+1276	Mozilla adding multi-account containers to VPN offering | ZDNet	Mozilla VPN 2.7 will bring into the platform one of Firefox's most popular add-ons.	https://www.zdnet.com/article/mozilla-adding-multi-account-containers-to-vpn-offering/	https://www.zdnet.com/a/img/resize/86c094dbfef75b8275ffeac971425a4d14ae6b85/2021/11/01/c240c8fa-eb6d-401d-816d-c8706d9a27ad/mozilla.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-01 18:03:00+01	zdnet	t	2022-02-01 20:00:01.934608+01	zdnet/Mozilla-adding-multi-account-containers-to-VPN-offering--ZDNet
+1277	Powerful new Oski variant ‘Mars Stealer’ grabbing 2FAs and crypto	A new and powerful malware named 'Mars Stealer' has appeared in the wild, and appears to be a redesign of the Oski malware that shut down development abruptly in the summer of 2020.	https://www.bleepingcomputer.com/news/security/powerful-new-oski-variant-mars-stealer-grabbing-2fas-and-crypto/	https://www.bleepstatic.com/content/hl-images/2022/02/01/mars.jpg	Bill Toulas	2022-02-01 19:41:04+01	bleepingcomputer	t	2022-02-01 20:00:01.934608+01	bleepingcomputer/Powerful-new-Oski-variant-Mars-Stealer-grabbing-2FAs-and-crypto
 \.
 
 
@@ -1279,7 +1281,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1275, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1277, true);
 
 
 --
