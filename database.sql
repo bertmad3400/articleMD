@@ -1257,6 +1257,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1258	Google Launched Differential Privacy Tool for Python Developers	Together with OpenMined, Google has launched its differential privacy tool in Python to help more developers use improved privacy technology.	https://latesthackingnews.com/2022/01/31/google-launched-differential-privacy-tool-for-python-developers/	https://latesthackingnews.com/wp-content/uploads/2022/01/cyber-security-gf1f4b9331_640.jpeg	Abeerah Hashim	2022-01-31 00:00:00+01	latesthackingnews	t	2022-02-01 03:00:02.111836+01	latesthackingnews/Google-Launched-Differential-Privacy-Tool-for-Python-Developers
 1259	New Phishing Campaign Delivers AsyncRAT Malware	The attackers run a sneaky phishing campaign delivering AsyncRAT malware to victim devices while escaping security checks.	https://latesthackingnews.com/2022/01/31/new-phishing-campaign-delivers-asyncrat-malware/	https://latesthackingnews.com/wp-content/uploads/2020/03/phishing-scaled.jpg	Abeerah Hashim	2022-01-31 00:00:00+01	latesthackingnews	t	2022-02-01 03:00:02.111836+01	latesthackingnews/New-Phishing-Campaign-Delivers-AsyncRAT-Malware
 1260	Google Removed Fake Authenticator App That Dropped Vultur Malware	The attackers used the legit open-source authenticator app code to create the fake app that infected users with Vultur malware.	https://latesthackingnews.com/2022/01/31/google-removed-fake-authenticator-app-from-play-store-that-dropped-vultur-malware/	https://latesthackingnews.com/wp-content/uploads/2020/05/Android-malware-scaled.jpg	Abeerah Hashim	2022-01-31 00:00:00+01	latesthackingnews	t	2022-02-01 03:00:02.111836+01	latesthackingnews/Google-Removed-Fake-Authenticator-App-That-Dropped-Vultur-Malware
+1261	Home Affairs singles out Meta as most reluctant to stop online abuse | ZDNet	The Department of Home Affairs has said major social media platforms put safety as an afterthought in their bid to roll out encryption quickly.	https://www.zdnet.com/article/home-affairs-singles-out-meta-as-most-reluctant-to-stop-online-abuse/	https://www.zdnet.com/a/img/resize/5618f4d4599c45053ab29d1e7ab36788a5f4871b/2021/04/23/082f0657-50f2-4c6a-bf41-ad5d10232d23/social-media.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-02-01 05:53:57+01	zdnet	t	2022-02-01 07:00:01.887345+01	zdnet/Home-Affairs-singles-out-Meta-as-most-reluctant-to-stop-online-abuse--ZDNet
 \.
 
 
@@ -1264,7 +1265,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1260, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1261, true);
 
 
 --
