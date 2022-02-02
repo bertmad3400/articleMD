@@ -1300,6 +1300,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1301	Arid Viper hackers strike Palestine with political lures - and Trojans | ZDNet	The threat group is suspected of being located in Gaza.	https://www.zdnet.com/article/arid-viper-hackers-strike-palestine-with-political-lures-and-trojans/	https://www.zdnet.com/a/img/resize/20bd8d60a4db4594161c3039ba0dcea2118a987b/2018/08/23/549238a0-a1ae-4b18-b272-8a2eae611d79/lovely-trojan-horse.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-02-02 13:00:01+01	zdnet	t	2022-02-02 15:00:02.114465+01	zdnet/Arid-Viper-hackers-strike-Palestine-with-political-lures---and-Trojans--ZDNet
 1302	Charming Kitten Sharpens Its Claws with PowerShell Backdoor	The notorious Iranian APT is fortifying its arsenal with new malicious tools and evasion tactics and may even be behind the Memento ransomware.	https://kasperskycontenthub.com/threatpost-global/?p=178158	https://media.threatpost.com/wp-content/uploads/sites/103/2022/02/02085054/Kitten-scaled-e1643809874722.jpg	Elizabeth Montalbano	2022-02-02 14:58:34+01	threatpost	t	2022-02-02 15:00:02.114465+01	threatpost/Charming-Kitten-Sharpens-Its-Claws-with-PowerShell-Backdoor
 1303	SEO poisoning pushes malware-laced Zoom, TeamViewer, Visual Studio installers	A new SEO poisoning campaign is underway, dropping the Batloader and Atera Agent malware onto the systems of targeted professionals searching for productivity tool downloads, such as Zoom, TeamViewer, and Visual Studio.	https://www.bleepingcomputer.com/news/security/seo-poisoning-pushes-malware-laced-zoom-teamviewer-visual-studio-installers/	https://www.bleepstatic.com/content/hl-images/2021/10/28/poison.jpg	Bill Toulas	2022-02-02 15:46:34+01	bleepingcomputer	t	2022-02-02 16:00:02.190587+01	bleepingcomputer/SEO-poisoning-pushes-malware-laced-Zoom-TeamViewer-Visual-Studio-installers
+1304	Thousands of Malicious npm Packages Threaten Web Apps	Attackers increasingly are using malicious JavaScript packages to steal data, engage in cryptojacking and unleash botnets, offering a wide supply-chain attack surface for threat actors.	https://kasperskycontenthub.com/threatpost-global/?p=178137	https://media.threatpost.com/wp-content/uploads/sites/103/2021/01/22125253/NPM-e1611337986238.jpg	Elizabeth Montalbano	2022-02-02 15:00:23+01	threatpost	t	2022-02-02 17:00:01.832981+01	threatpost/Thousands-of-Malicious-npm-Packages-Threaten-Web-Apps
 \.
 
 
@@ -1307,7 +1308,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1303, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1304, true);
 
 
 --
