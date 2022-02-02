@@ -1,0 +1,105 @@
+# Business services provider Morley discloses ransomware incident
+### Morley Companies Inc. disclosed a data breach after suffering a ransomware attack on August 1st, 2021, allowing threat actors to steal data before encrypting files.
+
+## Information:
++ Source: Bleeping Computer
++ Link: https://www.bleepingcomputer.com/news/security/business-services-provider-morley-discloses-ransomware-incident/
++ Date: 2022-02-02T11:02:58-05:00
++ Author: Bill Toulas
+
+
+## Article:
+![Article Image](https://www.bleepstatic.com/content/hl-images/2022/02/02/building.jpg)
+
+![building](https://www.bleepstatic.com/content/hl-images/2022/02/02/building.jpg?rand=1311961093)
+
+
+Morley Companies Inc. disclosed a data breach after suffering a ransomware attack on August 1st, 2021, allowing threat actors to steal data before encrypting files.
+
+
+Morley is a US company offering business services to Fortune 500 and Global 100 firms, including meeting management, back-office processing, contact centers, the creation of trade show exhibits, and more.
+
+
+In notifications released today and yesterday, Morley Companies states that they suffered a ransomware attack on August 1st, 2021, that led to their data becoming unavailable. 
+
+
+After investigating the attack, the company determined that the threat actors stole the personal information of 521,046 individuals during the attack, including data for Morley's employees, contractors, and clients.
+
+
+"As a result, Morley learned that additional data may have been obtained from its digital environment," explained Morley's [security incident notification](http://morleycompanies.com/about/cyber-security-incident/).
+
+
+"Morley thereafter began collecting contact information needed to provide notice to potentially affected individuals, which was completed in early 2022."
+
+
+According to the announcement, the threat actors may have stolen the following types of data during the attack:
+
+
+* Full name
+* Social Security number
+* Date of birth
+* Client ID number
+* Medical diagnostic and treatment information
+* Health insurance information
+
+Although the firm’s investigation hasn’t determined malicious use of the stolen information, Morley will cover the cost of 24 months of identity theft protection services through IDX for all affected individuals.
+
+
+Those determined as impacted will receive notifications with instructions on how to enroll in IDX’s program.
+
+
+Lengthy investigation
+---------------------
+
+
+Morley said they had to contract a cybersecurity specialist to understand why they could no longer access their files.
+
+
+Upon learning about the cause, which was a ransomware infection, they engaged with experts in the field to analyze the evidence and determine all the impacted parties.
+
+
+"Special programming was required and unique processes had to be built in order to begin analyzing the data. The data complexity also required special processes to search for and identify key information," explains a [notification](https://apps.web.maine.gov/online/aeviewer/ME/40/9779e52a-a15b-4cde-884e-7b25e4a56b80.shtml) filed with Maine's Office of the Attorney General.
+
+
+"This process was lengthy but necessary to ensure appropriate notification occurred. On January 18, 2022, it was confirmed that your information was involved. Importantly, Morley Companies is not aware of any misuse of your personal information due to this incident."
+
+
+Although this sounds reassuring, the cyber-intelligence platform [HackNotice claims](https://hacknotice.com/2022/01/25/morley-companies-inc/) to have seen Morley's data on the dark web last week.
+
+
+This is typically a sign that the data may be abused by other threat actors in future attacks, such as targeted phishing campaigns.
+
+
+Significance of incident
+------------------------
+
+
+Apart from its own 2,500 employees, the pool of exposed individuals may include members of the workforce of large companies that enjoyed Morley's services.
+
+
+For now, employees and clients should be on the lookout for suspicious emails that claim to be from Morley that ask for sensitive information or that provide new bank account information.
+
+
+For now, Morley should be contacted directly to confirm that it was them who sent the email before responding or sending payments to new bank accounts.
+
+
+We have reached out to Morley to request more details on the scope of the data breach but have not heard back at this time.
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Attor]] [[action.malware.name=njRAT]] [[action.malware.name=S-Type]] [[action.malware.name=Tor]]
+
+#### Industry:
+[[victim.industry.name=Finance]] [[victim.industry.name=Finance]] [[victim.industry.name=Healthcare]]
+
+#### Location:
+[[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Morley]] [[Ransomware]] [[Bleeping Computer]]
+
