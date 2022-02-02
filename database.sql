@@ -1288,6 +1288,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1289	Fending off ransomware attacks using AI-powered tools | ZDNet	Why Cohesity believes zero-trust security by itself isn't enough to stop an increasing number of sophisticated ransomware attacks.	https://www.zdnet.com/article/fending-off-ransomware-attacks-using-ai-powered-tools/	https://www.zdnet.com/a/img/resize/f4efb40bab7f08bb3eee21abb7879d429caf491e/2022/02/01/55eea121-ad46-4a83-a47f-e07b861332eb/cohesity-sign.jpg?width=770&height=578&fit=crop&auto=webp	Chris Preimesberger	2022-02-01 22:16:32+01	zdnet	t	2022-02-02 00:00:02.272029+01	zdnet/Fending-off-ransomware-attacks-using-AI-powered-tools--ZDNet
 1290	FBI warns of fake job postings used to steal money, personal info	Scammers are trying to steal job seekers' money and personal information through phishing campaigns using fake advertisements posted on recruitment platforms.	https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-job-postings-used-to-steal-money-personal-info/	https://www.bleepstatic.com/content/hl-images/2022/01/06/FBI.jpg	Sergiu Gatlan	2022-02-01 23:14:31+01	bleepingcomputer	t	2022-02-02 00:00:02.272029+01	bleepingcomputer/FBI-warns-of-fake-job-postings-used-to-steal-money-personal-info
 1291	Malicious CSV text files used to install BazarBackdoor malware	A new phishing campaign is using specially crafted CSV text files to infect users' devices with the BazarBackdoor malware.	https://www.bleepingcomputer.com/news/security/malicious-csv-text-files-used-to-install-bazarbackdoor-malware/	https://www.bleepstatic.com/content/hl-images/2021/04/16/malware-phishing-header.jpg	Lawrence Abrams	2022-02-01 22:59:18+01	bleepingcomputer	t	2022-02-02 00:00:02.272029+01	bleepingcomputer/Malicious-CSV-text-files-used-to-install-BazarBackdoor-malware
+1292	Update now: Samba prior to 4.13.17 hit with remote root code execution bug | ZDNet	Vulnerability lies in vfs_fruit module that helps Samba and OS X clients work better.	https://www.zdnet.com/article/update-now-samba-prior-to-4-13-17-hit-with-remote-root-code-execution-bug/	https://www.zdnet.com/a/img/resize/05ce9e2c4d28b1c4b3e0c154d2bbb2e1e2b84d79/2022/01/21/521374b7-5ef6-415f-883f-e322108a1f5b/linux-security.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2022-02-01 23:13:00+01	zdnet	t	2022-02-02 01:00:02.765331+01	zdnet/Update-now-Samba-prior-to-41317-hit-with-remote-root-code-execution-bug--ZDNet
+1293	FBI: Use a Burner Phone at the Olympics	The warning follows a Citizen Lab report that found the official, mandatory app has an encryption flaw that can be trivially sidestepped. Besides burners, here are more tips on staying cyber-safe at the Games.	https://kasperskycontenthub.com/threatpost-global/?p=178153	https://media.threatpost.com/wp-content/uploads/sites/103/2022/02/01174755/Beijing-Olympics-scaled-e1643755692103.jpg	Lisa Vaas	2022-02-02 00:06:53+01	threatpost	t	2022-02-02 01:00:02.765331+01	threatpost/FBI-Use-a-Burner-Phone-at-the-Olympics
 \.
 
 
@@ -1295,7 +1297,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1291, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1293, true);
 
 
 --
