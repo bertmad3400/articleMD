@@ -1290,6 +1290,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1291	Malicious CSV text files used to install BazarBackdoor malware	A new phishing campaign is using specially crafted CSV text files to infect users' devices with the BazarBackdoor malware.	https://www.bleepingcomputer.com/news/security/malicious-csv-text-files-used-to-install-bazarbackdoor-malware/	https://www.bleepstatic.com/content/hl-images/2021/04/16/malware-phishing-header.jpg	Lawrence Abrams	2022-02-01 22:59:18+01	bleepingcomputer	t	2022-02-02 00:00:02.272029+01	bleepingcomputer/Malicious-CSV-text-files-used-to-install-BazarBackdoor-malware
 1292	Update now: Samba prior to 4.13.17 hit with remote root code execution bug | ZDNet	Vulnerability lies in vfs_fruit module that helps Samba and OS X clients work better.	https://www.zdnet.com/article/update-now-samba-prior-to-4-13-17-hit-with-remote-root-code-execution-bug/	https://www.zdnet.com/a/img/resize/05ce9e2c4d28b1c4b3e0c154d2bbb2e1e2b84d79/2022/01/21/521374b7-5ef6-415f-883f-e322108a1f5b/linux-security.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2022-02-01 23:13:00+01	zdnet	t	2022-02-02 01:00:02.765331+01	zdnet/Update-now-Samba-prior-to-41317-hit-with-remote-root-code-execution-bug--ZDNet
 1293	FBI: Use a Burner Phone at the Olympics	The warning follows a Citizen Lab report that found the official, mandatory app has an encryption flaw that can be trivially sidestepped. Besides burners, here are more tips on staying cyber-safe at the Games.	https://kasperskycontenthub.com/threatpost-global/?p=178153	https://media.threatpost.com/wp-content/uploads/sites/103/2022/02/01174755/Beijing-Olympics-scaled-e1643755692103.jpg	Lisa Vaas	2022-02-02 00:06:53+01	threatpost	t	2022-02-02 01:00:02.765331+01	threatpost/FBI-Use-a-Burner-Phone-at-the-Olympics
+1294	Google One VPN is now available on iOS devices | ZDNet	Access to Google One's VPN service has been expanded to 10 more European countries.	https://www.zdnet.com/article/google-one-vpn-is-now-available-on-ios-devices/	https://www.zdnet.com/a/img/resize/972def1bba30b1ef2db3a22016ef33018b774c71/2022/02/02/5ace62d4-586f-4e56-916c-89346919a05f/google-one-vpn-ios.gif?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-02-02 03:53:30+01	zdnet	t	2022-02-02 05:00:02.695649+01	zdnet/Google-One-VPN-is-now-available-on-iOS-devices--ZDNet
 \.
 
 
@@ -1297,7 +1298,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1293, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1294, true);
 
 
 --
