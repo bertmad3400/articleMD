@@ -1398,6 +1398,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1399	Fortune 500 service provider says ransomware attack led to leak of more than 500k SSNs | ZDNet	Morley Companies said 521,046 people were affected by a data breach that resulted from a ransomware attack.	https://www.zdnet.com/article/fortune-500-service-provider-says-ransomware-attack-led-to-leak-of-more-than-500k-ssns-more/	https://www.zdnet.com/a/img/resize/4a06d1168f3d7d2de8b19b89aac91b5769f6dc16/2022/01/18/3f0faa93-f8cb-4509-b6d8-fc5216afde09/shutterstock-611317976.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-05 12:30:02+01	zdnet	t	2022-02-05 14:00:02.280803+01	zdnet/Fortune-500-service-provider-says-ransomware-attack-led-to-leak-of-more-than-500k-SSNs--ZDNet
 1400	What's new in Windows 11 Sun Valley 2 Update, arriving this year	In 2022, Microsoft is planning to launch the first big update for Windows 11. The update is reportedly codenamed Sun Valley 2 and it is expected to ship with a new Task Manager, improvements to Start Menu and Taskbar, and more.	https://www.bleepingcomputer.com/news/microsoft/whats-new-in-windows-11-sun-valley-2-update-arriving-this-year/	https://www.bleepstatic.com/content/hl-images/2021/10/21/windows-11-gradient-header.jpg	Mayank Parmar	2022-02-05 18:17:08+01	bleepingcomputer	t	2022-02-05 19:00:01.959918+01	bleepingcomputer/Whats-new-in-Windows-11-Sun-Valley-2-Update-arriving-this-year
 1401	FBI shares Lockbit ransomware technical details, defense tips	The Federal Bureau of Investigation (FBI) has released technical details and indicators of compromise associated with Lockbit ransomware attacks in a new flash alert published this Friday.	https://www.bleepingcomputer.com/news/security/fbi-shares-lockbit-ransomware-technical-details-defense-tips/	https://www.bleepstatic.com/content/hl-images/2021/07/27/Lockbit-1.jpg	Sergiu Gatlan	2022-02-05 16:00:00+01	bleepingcomputer	t	2022-02-05 19:00:01.959918+01	bleepingcomputer/FBI-shares-Lockbit-ransomware-technical-details-defense-tips
+1402	BlackCat (ALPHV) ransomware linked to BlackMatter, DarkSide gangs	The Black Cat ransomware gang, also known as ALPHV, has confirmed they are former members of the notorious BlackMatter/DarkSide ransomware operation.	https://www.bleepingcomputer.com/news/security/blackcat-alphv-ransomware-linked-to-blackmatter-darkside-gangs/	https://www.bleepstatic.com/content/hl-images/2021/12/09/blackcat-alphv.jpg	Lawrence Abrams	2022-02-05 23:29:54+01	bleepingcomputer	t	2022-02-06 00:00:02.472542+01	bleepingcomputer/BlackCat-ALPHV-ransomware-linked-to-BlackMatter-DarkSide-gangs
 \.
 
 
@@ -1405,7 +1406,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1401, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1402, true);
 
 
 --
