@@ -1392,6 +1392,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1393	Investment in data privacy in Brazil falls below global average | ZDNet	Local companies invest an average of $2.2million a year, according to research	https://www.zdnet.com/article/investment-in-data-privacy-in-brazil-falls-below-global-average/	https://www.zdnet.com/a/img/resize/c804d0cda0a0358dfe654262f339be94a9ca0005/2022/01/13/59335fb6-356a-47b2-a3be-72ab993f7951/shutterstock-1911837382.jpg?width=770&height=578&fit=crop&auto=webp	Angelica Mari	2022-02-04 19:46:00+01	zdnet	t	2022-02-04 22:00:02.208512+01	zdnet/Investment-in-data-privacy-in-Brazil-falls-below-global-average--ZDNet
 1394	Argo CD releases patch for zero-day vulnerability | ZDNet	Malicious actors can load a Kubernetes Helm Chart YAML file to the vulnerability and hop from their application ecosystem to other applications' data outside of the user's scope, says Apiiro.	https://www.zdnet.com/article/argo-cd-releases-patch-for-0-day-vulnerability/	https://www.zdnet.com/a/img/resize/3fe0307532cdfe058268e332ef1a4487ee3a2927/2021/09/20/b29a89e4-b35a-4af8-8f8b-f24910c85801/shutterstock-724512826.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-04 21:34:00+01	zdnet	t	2022-02-04 23:00:02.285907+01	zdnet/Argo-CD-releases-patch-for-zero-day-vulnerability--ZDNet
 1395	Mozilla adds four privacy-centric orgs to Data Futures Lab, awards each with $100,000 | ZDNet	Place Trust, Driver's Seat Cooperative, Drivers Coop and Digital Democracy will get access to a network of experts.	https://www.zdnet.com/article/mozilla-adds-four-privacy-centric-orgs-to-data-futures-lab-awards-each-with-100000/	https://www.zdnet.com/a/img/resize/5c6553f999d883ae739ed7f38c922e09672fa94c/2020/11/19/4da7f391-c50a-4987-b32c-a208cb745974/mozilla-logo.png?width=770&height=578&fit=crop&format=pjpg&auto=webp	Jonathan Greig	2022-02-04 22:26:00+01	zdnet	t	2022-02-05 00:00:01.856336+01	zdnet/Mozilla-adds-four-privacy-centric-orgs-to-Data-Futures-Lab-awards-each-with-100000--ZDNet
+1396	Why Cyber Change Outpaces Boardroom Engagement	This article speaks to why C-suite executives are perpetually at odds with IT leaders and why cyber change outpaces boardroom engagement.	https://www.trendmicro.com/en_us/research/22/b/why-cyber-change-outpaces-boardroom-engagement.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/b/why-cyber-change-outpaces-boardroom-engagement/cyber-change.jpg	\N	2022-02-04 00:00:00+01	trendmicro	t	2022-02-05 01:00:02.466831+01	trendmicro/Why-Cyber-Change-Outpaces-Boardroom-Engagement
 \.
 
 
@@ -1399,7 +1400,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1395, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1396, true);
 
 
 --
