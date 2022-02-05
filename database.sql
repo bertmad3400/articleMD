@@ -1395,6 +1395,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1396	Why Cyber Change Outpaces Boardroom Engagement	This article speaks to why C-suite executives are perpetually at odds with IT leaders and why cyber change outpaces boardroom engagement.	https://www.trendmicro.com/en_us/research/22/b/why-cyber-change-outpaces-boardroom-engagement.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/b/why-cyber-change-outpaces-boardroom-engagement/cyber-change.jpg	\N	2022-02-04 00:00:00+01	trendmicro	t	2022-02-05 01:00:02.466831+01	trendmicro/Why-Cyber-Change-Outpaces-Boardroom-Engagement
 1397	The Week in Ransomware - February 4th 2022 - Critical Infrastructure	Critical infrastructure suffered ransomware attacks, with threat actors targeting an oil petrol distributor and oil terminals in major ports in different attacks.	https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-february-4th-2022-critical-infrastructure/	https://www.bleepstatic.com/content/hl-images/2022/02/04/2_1_0_fuel.jpg	Lawrence Abrams	2022-02-05 01:15:26+01	bleepingcomputer	t	2022-02-05 02:00:02.37977+01	bleepingcomputer/The-Week-in-Ransomware---February-4th-2022---Critical-Infrastructure
 1398	Microsoft disables MSIX protocol handler abused in Emotet attacks	Microsoft has disabled the MSIX ms-appinstaller protocol handler exploited in malware attacks to install malicious apps directly from a website via a Windows AppX Installer spoofing vulnerability.	https://www.bleepingcomputer.com/news/microsoft/microsoft-disables-msix-protocol-handler-abused-in-emotet-attacks/	https://www.bleepstatic.com/content/hl-images/2021/07/09/Windows.jpg	Sergiu Gatlan	2022-02-05 01:10:06+01	bleepingcomputer	t	2022-02-05 02:00:02.37977+01	bleepingcomputer/Microsoft-disables-MSIX-protocol-handler-abused-in-Emotet-attacks
+1399	Fortune 500 service provider says ransomware attack led to leak of more than 500k SSNs | ZDNet	Morley Companies said 521,046 people were affected by a data breach that resulted from a ransomware attack.	https://www.zdnet.com/article/fortune-500-service-provider-says-ransomware-attack-led-to-leak-of-more-than-500k-ssns-more/	https://www.zdnet.com/a/img/resize/4a06d1168f3d7d2de8b19b89aac91b5769f6dc16/2022/01/18/3f0faa93-f8cb-4509-b6d8-fc5216afde09/shutterstock-611317976.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-05 12:30:02+01	zdnet	t	2022-02-05 14:00:02.280803+01	zdnet/Fortune-500-service-provider-says-ransomware-attack-led-to-leak-of-more-than-500k-SSNs--ZDNet
 \.
 
 
@@ -1402,7 +1403,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1398, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1399, true);
 
 
 --
