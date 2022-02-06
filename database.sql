@@ -1400,6 +1400,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1401	FBI shares Lockbit ransomware technical details, defense tips	The Federal Bureau of Investigation (FBI) has released technical details and indicators of compromise associated with Lockbit ransomware attacks in a new flash alert published this Friday.	https://www.bleepingcomputer.com/news/security/fbi-shares-lockbit-ransomware-technical-details-defense-tips/	https://www.bleepstatic.com/content/hl-images/2021/07/27/Lockbit-1.jpg	Sergiu Gatlan	2022-02-05 16:00:00+01	bleepingcomputer	t	2022-02-05 19:00:01.959918+01	bleepingcomputer/FBI-shares-Lockbit-ransomware-technical-details-defense-tips
 1402	BlackCat (ALPHV) ransomware linked to BlackMatter, DarkSide gangs	The Black Cat ransomware gang, also known as ALPHV, has confirmed they are former members of the notorious BlackMatter/DarkSide ransomware operation.	https://www.bleepingcomputer.com/news/security/blackcat-alphv-ransomware-linked-to-blackmatter-darkside-gangs/	https://www.bleepstatic.com/content/hl-images/2021/12/09/blackcat-alphv.jpg	Lawrence Abrams	2022-02-05 23:29:54+01	bleepingcomputer	t	2022-02-06 00:00:02.472542+01	bleepingcomputer/BlackCat-ALPHV-ransomware-linked-to-BlackMatter-DarkSide-gangs
 1403	$4.4 million stolen in attack on blockchain infrastructure Meter | ZDNet	The Meter and Moonriver networks were affected by the cyberattack.	https://www.zdnet.com/article/4-4-million-stolen-in-attack-on-blockchain-infrastructure-meter/	https://www.zdnet.com/a/img/resize/699a6b2877a9dd94b2ee7a1223ddffef0f94078c/2019/07/15/bc57c400-ec17-4fcf-968f-17314e68a653/blockchain-566x372.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-06 11:00:01+01	zdnet	t	2022-02-06 13:00:01.815509+01	zdnet/44-million-stolen-in-attack-on-blockchain-infrastructure-Meter--ZDNet
+1404	Law enforcement action push ransomware gangs to surgical attacks	The numerous law enforcement operations leading to the arrests and takedown of ransomware operations in 2021 have forced threat actors to narrow their targeting scope and maximize the efficiency of their operations.	https://www.bleepingcomputer.com/news/security/law-enforcement-action-push-ransomware-gangs-to-surgical-attacks/	https://www.bleepstatic.com/content/hl-images/2022/01/12/ransomware.jpg	Bill Toulas	2022-02-06 16:17:34+01	bleepingcomputer	t	2022-02-06 20:00:02.803078+01	bleepingcomputer/Law-enforcement-action-push-ransomware-gangs-to-surgical-attacks
 \.
 
 
@@ -1407,7 +1408,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1403, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1404, true);
 
 
 --
