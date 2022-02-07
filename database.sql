@@ -1415,6 +1415,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1416	Microsoft: We've switched off this 'critical' MSIX protocol handler but we're working to bring it back | ZDNet	But disabling the protocol has also made it harder for enterprise organizations to distribute apps from a web page.	https://www.zdnet.com/article/microsoft-weve-switched-off-this-critical-msix-protocol-handler-but-were-working-to-bring-it-back/	https://www.zdnet.com/a/img/resize/4d6efe55c71ac9e4a8a686519ae71817dfddff45/2021/11/16/7c0cdc25-9d34-4c8b-958a-14ae16877a83/the-hands-of-a-computer-hacker-over-a-keyboard.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2022-02-07 14:43:23+01	zdnet	t	2022-02-07 16:00:02.253497+01	zdnet/Microsoft-Weve-switched-off-this-critical-MSIX-protocol-handler-but-were-working-to-bring-it-back--ZDNet
 1417	Roaming Mantis Android malware campaign sets sights on Europe	The Roaming Mantis SMS phishing campaign has finally reached Europe, as researchers detect campaigns targeting Android and iPhone users in Germany and France with malicious apps and phishing pages.	https://www.bleepingcomputer.com/news/security/roaming-mantis-android-malware-campaign-sets-sights-on-europe/	https://www.bleepstatic.com/content/hl-images/2022/02/07/praying-mantis.jpg	Bill Toulas	2022-02-07 15:47:54+01	bleepingcomputer	t	2022-02-07 16:00:02.253497+01	bleepingcomputer/Roaming-Mantis-Android-malware-campaign-sets-sights-on-Europe
 1418	Microsoft fixes Windows Active Directory bug caused by Jan updates	Microsoft says it has fixed a known issue triggered by last month's Windows updates that would cause apps using Microsoft .NET to experience problems, close, or throw errors when acquiring or setting Active Directory Forest Trust Information.	https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-active-directory-bug-caused-by-jan-updates/	https://www.bleepstatic.com/content/hl-images/2022/01/12/windows-server.jpg	Sergiu Gatlan	2022-02-07 16:00:00+01	bleepingcomputer	t	2022-02-07 17:00:02.61985+01	bleepingcomputer/Microsoft-fixes-Windows-Active-Directory-bug-caused-by-Jan-updates
+1419	Medusa malware ramps up Android SMS phishing attacks	The Medusa Android banking Trojan is seeing increased infection rates as it targets more geographic regions to steal online credentials and perform financial fraud.	https://www.bleepingcomputer.com/news/security/medusa-malware-ramps-up-android-sms-phishing-attacks/	https://www.bleepstatic.com/content/hl-images/2021/07/07/Android-headpic.jpg	Bill Toulas	2022-02-07 17:38:44+01	bleepingcomputer	t	2022-02-07 18:00:02.121756+01	bleepingcomputer/Medusa-malware-ramps-up-Android-SMS-phishing-attacks
 \.
 
 
@@ -1422,7 +1423,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1418, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1419, true);
 
 
 --
