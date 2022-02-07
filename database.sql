@@ -1405,6 +1405,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1404	Law enforcement action push ransomware gangs to surgical attacks	The numerous law enforcement operations leading to the arrests and takedown of ransomware operations in 2021 have forced threat actors to narrow their targeting scope and maximize the efficiency of their operations.	https://www.bleepingcomputer.com/news/security/law-enforcement-action-push-ransomware-gangs-to-surgical-attacks/	https://www.bleepstatic.com/content/hl-images/2022/01/12/ransomware.jpg	Bill Toulas	2022-02-06 16:17:34+01	bleepingcomputer	t	2022-02-06 20:00:02.803078+01	bleepingcomputer/Law-enforcement-action-push-ransomware-gangs-to-surgical-attacks
 1406	FCC gets $5.6 billion in requests to access $1.9 billion pot for ripping out Huawei and ZTE | ZDNet	US Federal Communications Commission has received 181 applications from small carriers to access its funding.	https://www.zdnet.com/article/fcc-gets-5-6-billion-in-requests-to-access-1-9-billion-pot-for-ripping-out-huawei-and-zte/	https://www.zdnet.com/a/img/resize/19f45e9f3906fe463c697571d825ef4087a7e231/2021/06/09/a9b16407-57b7-40ed-8320-bc9e54f4a0bd/huawei-hq.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2022-02-07 00:38:53+01	zdnet	t	2022-02-07 02:00:01.942874+01	zdnet/FCC-gets-56-billion-in-requests-to-access-19-billion-pot-for-ripping-out-Huawei-and-ZTE--ZDNet
 1408	PJCIS concerned TSSR's 'do your best' requirements are not enough anymore | ZDNet	Committee recommends an Australian telecommunications security working group be established as it says the Telco Act is not enough to secure the nation.	https://www.zdnet.com/article/pjcis-concerned-tssrs-do-your-best-requirements-are-not-enough-anymore/	https://www.zdnet.com/a/img/resize/b17c90144bfd375e3f9bc1bc1a109cc2168e09ad/2021/05/21/55b074f7-c43e-4c98-becf-e69458121603/telco-server-rack-gettyimages.jpg?width=770&height=578&fit=crop&auto=webp	Chris Duckett	2022-02-07 06:13:16+01	zdnet	t	2022-02-07 08:00:02.763232+01	zdnet/PJCIS-concerned-TSSRs-do-your-best-requirements-are-not-enough-anymore--ZDNet
+1409	Microsoft temporarily disables MSIX protocol handler following malware abuse	Microsoft has temporarily disabled the MSIX protocol handler in Windows installations after the Emotet gang has abused it over the past three months to deploy malware on user systems.	https://therecord.media/microsoft-temporarily-disables-msix-protocol-handler-following-malware-abuse/	https://therecord.media/wp-content/uploads/2022/02/windows-microsoft.jpg	Catalin Cimpanu	2022-02-07 12:43:20+01	therecord	t	2022-02-07 13:00:02.221977+01	therecord/Microsoft-temporarily-disables-MSIX-protocol-handler-following-malware-abuse
 \.
 
 
@@ -1412,7 +1413,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1408, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1409, true);
 
 
 --
