@@ -1,0 +1,82 @@
+# Microsoft to make it difficult to enable macros in downloaded docs
+### Microsoft announced today that it will make it difficult to enable VBA macros downloaded from the Internet in several Microsoft Office apps starting in early April, effectively killing a popular distribution method for malware.
+
+## Information:
++ Source: Bleeping Computer
++ Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-to-make-it-difficult-to-enable-macros-in-downloaded-docs/
++ Date: 2022-02-07T13:35:05-05:00
++ Author: Sergiu Gatlan
+
+
+## Article:
+![Article Image](https://www.bleepstatic.com/content/hl-images/2021/09/05/Microsoft.jpg)
+
+![Microsoft](https://www.bleepstatic.com/content/hl-images/2021/09/05/Microsoft.jpg)
+
+
+Microsoft announced today that it will make it difficult to enable VBA macros downloaded from the Internet in several Microsoft Office apps starting in early April, effectively killing a popular distribution method for malware.
+
+
+Using VBA macros embedded in malicious Office documents is a very popular method to push [a wide range of malware families](https://www.bleepingcomputer.com/news/security/the-most-common-malicious-email-attachments-infecting-windows/) in phishing attacks, including [Emotet](https://www.bleepingcomputer.com/news/security/emotet-malwares-new-red-dawn-attachment-is-just-as-dangerous/), [TrickBot](https://www.bleepingcomputer.com/news/security/new-trickbot-campaign-spamming-malicious-complaint-doc-attachments/), [Qbot](https://www.bleepingcomputer.com/news/security/qbot-uses-windows-defender-antivirus-phishing-bait-to-infect-pcs/), and [Dridex](https://www.bleepingcomputer.com/news/security/dridex-omicron-phishing-taunts-with-funeral-helpline-number/).
+
+
+"VBA macros obtained from the internet will now be blocked by default. This change only affects Office on devices running Windows and only affects the following applications: Access, Excel, PowerPoint, Visio, and Word," the Microsoft Office Product Group said today.
+
+
+"The change will begin rolling out in Version 2203, starting with Current Channel (Preview) in early April 2022."
+
+
+After this change rolls out, Office users will no longer be able to enable macros with a click of a button after they're automatically blocked.
+
+
+This will automatically thwart attacks that deliver malware on home and enterprise networks via malicious Office docs, including various information-stealing trojans and malicious tools used by ransomware gangs.
+
+
+Now, until the new autoblock defaults go into effect, when Office opens a document, it checks if it is tagged with a "Mark of the Web" (MoTW), which means it was downloaded from the Internet.
+
+
+If this tag is found, Microsoft opens the document in read-only mode, blocking the exploit unless users click on the 'Enable Editing' or 'Enable Content' button shown at the top of the document.
+
+
+By removing these buttons, which allow users to remove the MoTW, and blocking macros from untrusted sources by default, most malicious documents will no longer be executed, stopping malware attacks abusing this weakness in their tracks.
+
+
+
+![Office macros security alert](https://www.bleepstatic.com/images/news/u/1109292/2022/Office_macros_security_alert.png)*Mockup of new Office macros security alert (BleepingComputer)*
+According to Microsoft, this significant security improvement will roll out to other Office update channels such as Current Channel, Monthly Enterprise Channel, and Semi-Annual Enterprise Channel at a later date.
+
+
+This update will also be pushed to Office LTSC, Office 2021, Office 2019, Office 2016, and Office 2013 users at a future date.
+
+
+"We will continue to adjust our user experience for macros, as we’ve done here, to make it more difficult to trick users into running malicious code via social engineering while maintaining a path for legitimate macros to be enabled where appropriate via Trusted Publishers and/or Trusted Locations," [said](https://techcommunity.microsoft.com/t5/microsoft-365-blog/helping-users-stay-safe-blocking-internet-macros-by-default-in/ba-p/3071805) Tristan Davis, a Partner Group Program Manager for Microsoft's Office Platform.
+
+
+After the Office update rolls out and blocks one-click enabling macros in documents downloaded from the Internet, you will still be able to enable them by going into the documents' properties and checking the "Unlock" button on the bottom right.
+
+
+
+![Unblock VBA macros](https://www.bleepstatic.com/images/news/u/1109292/2022/Unblock_VBA_macros.png)*Unblocking VBA macros (Microsoft)*
+You can find more info on the security risk behind macros, safe practices to thwart phishing and malware attacks, as well as instructions on how to enable these macros if you're sure they're safe [on this support page](https://support.microsoft.com/en-us/topic/a-potentially-dangerous-macro-has-been-blocked-0952faa0-37e7-4316-b61d-5b5ed6024216).
+
+
+Last month, Microsoft also said [Excel 4.0 (XLM) macros will be disabled by default](https://www.bleepingcomputer.com/news/microsoft/microsoft-disables-excel-40-macros-by-default-to-block-malware/) to protect customers from malicious documents designed to infect them with malware.
+
+
+That change was first announced in October when Redmond first revealed that it [would disable XLM macros in all tenants](https://www.bleepingcomputer.com/news/microsoft/microsoft-is-disabling-excel-40-macros-by-default-to-protect-users/) if the users or the admins hadn't manually toggled the feature on or off.
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=at]] [[action.malware.name=Conti]] [[action.malware.name=Dridex]] [[action.malware.name=Elise]] [[action.malware.name=Emotet]] [[action.malware.name=Net]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=QakBot]] [[action.malware.name=TrickBot]]
+
+#### Location:
+[[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Microsoft]] [[Malware]] [[Vba]] [[Bleeping Computer]]
+

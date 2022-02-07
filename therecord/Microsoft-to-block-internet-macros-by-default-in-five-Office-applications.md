@@ -1,0 +1,79 @@
+# Microsoft to block internet macros by default in five Office applications
+### In one of the most impactful changes made in recent years, Microsoft has announced today that it is now blocking by default the execution of VBA macro scripts inside five Office applications.
+
+## Information:
++ Source: The Record
++ Link: https://therecord.media/microsoft-blocks-internet-macros-by-default-in-five-office-applications/
++ Date: 2022-02-07T18:24:20+00:00
++ Author: Catalin Cimpanu
+
+
+## Article:
+![Article Image](https://therecord.media/wp-content/uploads/2022/02/office-macro.png)
+
+In one of the most impactful changes made in recent years, Microsoft has announced today that it will block by default the execution of VBA macro scripts inside five Office applications.
+
+
+Starting with early April 2022, Access, Excel, PowerPoint, Visio, and Word users will not be able to enable macro scripts inside untrusted documents that they downloaded from the internet.
+
+
+The change, which security researchers have been requesting for years, is expected to put a serious roadblock for malware gangs, which have relied on tricking users into enabling the execution of a macro script as a way to install malware on their systems.
+
+
+In these attacks, users typically receive a document via email or which they are instructed to download from an internet website. When they open the file, the attacker typically leaves a message instructing the user to enable the execution of the macro script.
+
+
+While users with some technical and cybersecurity knowledge may be able to recognize this as a lure to get infected with malware, many day-to-day Office users are still unaware of this technique and end up following the provided instructions, effectively infecting themselves with malware.
+
+
+![macro-document](https://therecord.media/wp-content/uploads/2022/02/macro-document.png)Image: Fortinet
+Dealing with this problem has been a thorn in Microsoft’s foot since VBA macro scripts are often used inside companies to automate certain operations and tasks when opening certain files, such as importing data and updating content inside the document from dynamic sources.
+
+
+Since the early 2000s, Microsoft has tried addressing this issue by showing a mild security warning in the form of a toolbar at the top of the document, but this warning also contained controls allowing users to execute the macro scripts.
+
+
+![VBAMacros-previous](https://therecord.media/wp-content/uploads/2022/02/VBAMacros-previous.png)Image: Microsoft
+After this change will roll out to end users, this warning will change to show a red alert bar notifying the user that the document contains macros but which cannot be enabled for security reasons.
+
+
+![VBAMacrosBlockedTrustBar](https://therecord.media/wp-content/uploads/2022/02/VBAMacrosBlockedTrustBar.png)Image: Microsoft
+Microsoft announced its plans today in a [blog post](https://techcommunity.microsoft.com/t5/microsoft-365-blog/helping-users-stay-safe-blocking-internet-macros-by-default-in/ba-p/3071805) on its Tech Community portal. The blog post also contains a description of the logic that the five Office apps will follow when deciding if to allow or block the execution of macro scripts inside a document.
+
+
+![VBA-macros](https://therecord.media/wp-content/uploads/2022/02/VBA-macros.png)Image: Microsoft
+Microsoft said the decision to block VBA macros by default only affects Access, Excel, PowerPoint, Visio, and Word on Windows. Documents that contain VBA macros that have been created and obtained from inside an organization’s trusted network will still be allowed to execute.
+
+
+“The change will begin rolling out in Version 2203, starting with Current Channel (Preview) in early April 2022,” Microsoft said today.
+
+
+“Later, the change will be available in the other update channels, such as Current Channel, Monthly Enterprise Channel, and Semi-Annual Enterprise Channel.”
+
+
+The change will roll out to all Microsoft 365 customers and the OS maker said it also plans to backport the change to other Office versions, such as Office LTSC, Office 2021, Office 2019, Office 2016, and Office 2013.
+
+
+Once completed, the move will impact the distribution of a large number of commodity malware strains, but also many financially and politically-motivated espionage campaigns; however, these operations will most likely continue using other techniques.
+
+
+Previously, Microsoft also blocked the execution of [Excel 4.0 (XLM) macro scripts](https://therecord.media/microsoft-to-disable-excel-4-0-macros-one-of-the-most-abused-office-features/) after similar abuse from malware gangs.
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Conti]] [[action.malware.name=Net]] [[action.malware.name=njRAT]]
+
+#### Industry:
+[[victim.industry.name=Accomodation]]
+
+#### Location:
+[[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Microsoft]] [[Malware]] [[Vba]] [[The Record]]
+
