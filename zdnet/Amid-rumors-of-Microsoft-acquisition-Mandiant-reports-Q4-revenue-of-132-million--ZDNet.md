@@ -1,0 +1,62 @@
+# Amid rumors of Microsoft acquisition, Mandiant reports Q4 revenue of $132 million | ZDNet
+### The company reported a loss per share of $0.09 for the quarter.
+
+## Information:
++ Source: ZDNet
++ Link: https://www.zdnet.com/article/mandiant-reports-q4-revenue-of-132-million-as-microsoft-eyes-deal/
++ Date: 2022-02-08 21:36:00
++ Author: Jonathan Greig
+
+
+## Article:
+![Article Image](https://www.zdnet.com/a/img/resize/0d8afb02ad14070f3546d9d260adab2cc0b69498/2021/12/06/e458798d-bb26-421f-8bcd-10b37bc4793d/train-cyber-security.jpg?width=770&height=578&fit=crop&auto=webp)
+
+Mandiant, one of the world's largest security firms, beat Wall Street expectations for Q4 as the company adjusts following the sale of a major part of its business. The earnings report came as Bloomberg [reported](https://www.bloomberg.com/news/articles/2022-02-08/microsoft-is-said-to-pursue-deal-for-cybersecurity-firm-mandiant) Microsoft was considering acquiring the company.
+
+The company [reported](https://www.businesswire.com/news/home/20220208006095/en/Mandiant-Reports-Financial-Results-for-Fourth-Quarter-and-Full-Year-2021) a loss per share of $0.10 for the quarter on revenue of $132.9 million. For the full fiscal year, Mandiant said it had a revenue of $483 million, representing a 21% increase year over year. They also reported a non-GAAP net loss per share of 51 cents
+
+Wall Street was expecting a Q4 loss of $0.13 per share on revenue of $131.57 million. The report sent Mandiant's shares down 2% in late trading.
+
+"We achieved a significant milestone in Q4, divesting the FireEye Products business and positioning Mandiant to deliver accelerating growth and extend our leadership position in expertise and intelligence," said Kevin Mandia, CEO of Mandiant. 
+
+"We are uniquely positioned to address an enormous market need and can concentrate all of our attention on helping organizations close their cyber security gap. We had record billings and revenue for Threat Intelligence and Consulting in the fourth quarter, and our overall performance highlights the early financial and operational success in the relaunch of our company."
+
+Mandiant completed the sale of the FireEye Products business to McAfee Enterprise on October 8, 2021. Mandiant was [split from the FireEye Products business](https://www.zdnet.com/article/fireeye-sells-fireeye-products-unit-to-stg-for-1-2-billion/) last year in a June 2021 deal with a consortium led by Symphony Technology Group for $1.2 billion, dramatically changing the company's outlook. [The all-cash deal](https://www.businesswire.com/news/home/20210602005783/en/FireEye-Announces-Sale-of-FireEye-Products-Business-to-Symphony-Technology-Group-for-1.2-Billion) closed at the end of the fourth quarter. FireEye initially [acquired](https://www.zdnet.com/article/fireeye-acquires-mandiant-for-1-billion-broadens-security-footprint/) Mandiant in 2013 for $1 billion. 
+
+Mandiant said that the deal separated FireEye's network, email, endpoint and cloud security products from Mandiant's software and services. FireEye Products and Mandiant Solutions continued to be one entity until the transaction closed. Symphony Technology Group and FireEye will maintain reselling and collaboration agreements.
+
+
+
+
+
+
+Mandia said in June that the deal was made because FireEye wants to scale its software platforms. But they projected that its products and related subscriptions and support revenue would fall 10% to 11% in 2021 compared to 2020.
+
+"The Mandiant Solutions business continued to deliver strong growth in revenue and annualized recurring revenue for the second quarter ended June 30, 2021," Mandia said.
+
+For the first quarter of fiscal 2022, Mandiant expects non-GAAP net loss between 15 cents and 13 cents a share and a revenue between $128 million and $131 million.
+
+For the entire 2022 fiscal year, the company is expecting a loss per share between 38 cents and 36 cents as well as a revenue between $555 million and $565 million. 
+
+In August, Mandia [told investors](https://www.crn.com/news/security/mandiant-forges-bond-with-microsoft-as-fireeye-sale-nears) that a quarter of its new Managed Defense customers were using Mandiant's MDR services in conjunction with Microsoft's Windows Defender endpoint security product. The two companies apparently forged closer ties in April 2021 as Mandiant sought to unravel itself from FireEye's tools.
+
+In December 2020, the company [disclosed](https://www.zdnet.com/article/fireeye-one-of-the-worlds-largest-security-firms-discloses-security-breach/) that it was the target of a massive international cyber espionage campaign. 
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Conti]] [[action.malware.name=Net]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=Tor]]
+
+#### Industry:
+[[victim.industry.name=Accomodation]]
+
+#### Location:
+[[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Mandiant]] [[Fireeye]] [[Mandia]] [[Q4]] [[ZDNet]]
+

@@ -1467,6 +1467,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1468	DOJ seizes $3.6 billion in crypto from 2016 Bitfinex hack, arrests New York couple | ZDNet	Ilya Lichtenstein and his wife Heather Morgan are accused of laundering the proceeds of 119,754 bitcoin that were stolen from Bitfinex's platform in 2016.	https://www.zdnet.com/article/doj-seizes-3-6-billion-in-crypto-from-bitfinex-hack-arrests-new-york-couple/	https://www.zdnet.com/a/img/resize/5ad1b28ba8dac63d56d945dc63a774130eaade4e/2018/02/07/c42efd4f-479f-49c2-bd3f-8f6ac6bb0db0/158214905.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-08 19:24:41+01	zdnet	t	2022-02-08 21:00:02.087863+01	zdnet/DOJ-seizes-36-billion-in-crypto-from-2016-Bitfinex-hack-arrests-New-York-couple--ZDNet
 1469	Kimsuki hackers use commodity RATs with custom Gold Dragon malware	South Korean researchers have spotted a new wave of activity from the Kimsuky hacking group, involving commodity open-source remote access tools dropped with their custom backdoor, Gold Dragon.	https://www.bleepingcomputer.com/news/security/kimsuki-hackers-use-commodity-rats-with-custom-gold-dragon-malware/	https://www.bleepstatic.com/content/hl-images/2022/02/08/gold-dragon.jpg	Bill Toulas	2022-02-08 21:35:47+01	bleepingcomputer	t	2022-02-08 22:00:02.434437+01	bleepingcomputer/Kimsuki-hackers-use-commodity-RATs-with-custom-Gold-Dragon-malware
 1470	No Critical Bugs for Microsoft February 2022 Patch Tuesday, 1 Zero-Day	This batch had zero critical CVEs, which is unheard of. Most (50) of the patches are labeled Important, so don't delay to apply the patches, security experts said.	https://kasperskycontenthub.com/threatpost-global/?p=178286	https://media.threatpost.com/wp-content/uploads/sites/103/2021/07/26141726/Windows-Abstract.jpg	Lisa Vaas	2022-02-08 21:24:17+01	threatpost	t	2022-02-08 22:00:02.434437+01	threatpost/No-Critical-Bugs-for-Microsoft-February-2022-Patch-Tuesday-1-Zero-Day
+1471	Amid rumors of Microsoft acquisition, Mandiant reports Q4 revenue of $132 million | ZDNet	The company reported a loss per share of $0.09 for the quarter.	https://www.zdnet.com/article/mandiant-reports-q4-revenue-of-132-million-as-microsoft-eyes-deal/	https://www.zdnet.com/a/img/resize/0d8afb02ad14070f3546d9d260adab2cc0b69498/2021/12/06/e458798d-bb26-421f-8bcd-10b37bc4793d/train-cyber-security.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-08 21:36:00+01	zdnet	t	2022-02-08 23:00:02.470793+01	zdnet/Amid-rumors-of-Microsoft-acquisition-Mandiant-reports-Q4-revenue-of-132-million--ZDNet
+1472	Google fixes remote escalation of privileges bug on Android	Google has released the February 2022 Android security updates, addressing two critical vulnerabilities, one being a remote escalation of privilege that requires no user interaction.	https://www.bleepingcomputer.com/news/security/google-fixes-remote-escalation-of-privileges-bug-on-android/	https://www.bleepstatic.com/content/hl-images/2021/10/21/Android.jpg	Bill Toulas	2022-02-08 22:25:48+01	bleepingcomputer	t	2022-02-08 23:00:02.470793+01	bleepingcomputer/Google-fixes-remote-escalation-of-privileges-bug-on-Android
 \.
 
 
@@ -1474,7 +1476,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1470, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1472, true);
 
 
 --
