@@ -1451,6 +1451,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1453	Poland Army adds new cyber component with offensive capabilities	The Polish government has announced today the creation of a new cyber component inside its Army Forces that will be tasked with carrying out operations in cyber-space.	https://therecord.media/poland-army-adds-new-cyber-component-with-offensive-capabilities/	https://therecord.media/wp-content/uploads/2022/02/Poland-Army-Cyber.jpg	Catalin Cimpanu	2022-02-08 15:55:12+01	therecord	t	2022-02-08 16:00:02.727264+01	therecord/Poland-Army-adds-new-cyber-component-with-offensive-capabilities
 1454	China Suspected of News Corp Cyberespionage Attack	Attackers infiltrated the media giant’s network using BEC, while Microsoft moved to stop such attacks by blocking VBA macros in 5 Windows apps. Included: more ways to help stop BEC.	https://kasperskycontenthub.com/threatpost-global/?p=178277	https://media.threatpost.com/wp-content/uploads/sites/103/2022/02/08091000/China-cyberespionage-scaled-e1644329424934.jpg	Elizabeth Montalbano	2022-02-08 15:14:59+01	threatpost	t	2022-02-08 16:00:02.727264+01	threatpost/China-Suspected-of-News-Corp-Cyberespionage-Attack
 1452	Google has auto enrolled 150 million users in 2-step verification | ZDNet	2 million YouTube users have also been required to enable 2-step verification.	https://www.zdnet.com/article/google-has-auto-enrolled-150-million-users-in-2-step-verification/	https://www.zdnet.com/a/img/resize/579d97e0a896e52f6cb8a5ab3ff2a95e1e1d58f6/2019/08/19/6f985463-ce3f-4e51-9d74-8693f869a8a3/google-to-android-users-no-passwords-you-5d55586bbac36000019f86db-1-aug-19-2019-21-14-36-poster.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-08 14:27:00+01	zdnet	t	2022-02-08 16:00:02.727264+01	zdnet/Google-has-auto-enrolled-150-million-users-in-2-step-verification--ZDNet
+1455	Vodafone Portugal 4G and 5G services down after cyberattack	Vodafone Portugal suffered a cyberattack causing country-wide service outages, including the disruption of 4G/5G data networks, SMS texts, and television services.	https://www.bleepingcomputer.com/news/security/vodafone-portugal-4g-and-5g-services-down-after-cyberattack/	https://www.bleepstatic.com/content/hl-images/2022/02/08/Vodafone__headpic.jpg	Bill Toulas	2022-02-08 16:49:10+01	bleepingcomputer	t	2022-02-08 17:00:02.509981+01	bleepingcomputer/Vodafone-Portugal-4G-and-5G-services-down-after-cyberattack
 \.
 
 
@@ -1458,7 +1459,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1454, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1455, true);
 
 
 --
