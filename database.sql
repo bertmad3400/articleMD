@@ -1435,6 +1435,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1436	CISA Orders Federal Agencies to Fix Actively Exploited Windows Bug	Feb. 18 is the deadline to patch a bug that affects all unpatched versions of Windows 10 and requires zero user interaction to exploit.	https://kasperskycontenthub.com/threatpost-global/?p=178270	https://media.threatpost.com/wp-content/uploads/sites/103/2021/06/01131125/Bug-Digital.jpeg	Lisa Vaas	2022-02-07 23:39:28+01	threatpost	t	2022-02-08 00:00:02.734716+01	threatpost/CISA-Orders-Federal-Agencies-to-Fix-Actively-Exploited-Windows-Bug
 1437	Medusa Malware Joins Flubot’s Android Distribution Network	Two powerful trojans with spyware and RAT capabilities are being delivered in side-by-side campaigns using a common infrastructure.	https://kasperskycontenthub.com/threatpost-global/?p=178258	https://media.threatpost.com/wp-content/uploads/sites/103/2022/02/07164718/Medusa-scaled-e1644270458949.jpeg	Tara Seals	2022-02-07 23:13:29+01	threatpost	t	2022-02-08 00:00:02.734716+01	threatpost/Medusa-Malware-Joins-Flubots-Android-Distribution-Network
 1438	LockBit, BlackCat, Swissport, Oh My! Ransomware Activity Stays Strong	However, groups are rebranding and recalibrating their profiles and tactics to respond to law enforcement and the security community's focus on stopping ransomware attacks.	https://kasperskycontenthub.com/threatpost-global/?p=178261	https://media.threatpost.com/wp-content/uploads/sites/103/2021/11/05121727/ransomware7-e1636129059903.jpg	Becky Bracken	2022-02-07 23:09:27+01	threatpost	t	2022-02-08 00:00:02.734716+01	threatpost/LockBit-BlackCat-Swissport-Oh-My-Ransomware-Activity-Stays-Strong
+1439	Washington State licensing agency reports cyber incident, data from thousands potentially exposed | ZDNet	More than 250,000 professionals in Washington State may have had their information exposed during an incident involving the Washington State Department of Licensing database.	https://www.zdnet.com/article/washington-state-licensing-agency-reports-cyber-incident-data-from-thousands-potentially-exposed/	https://www.zdnet.com/a/img/resize/42128f44a0124d436bbca3a9377087a9fe4b6a30/2019/11/01/5b4d0413-dafd-44fd-849a-1934fd689c14/istock-938732700.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-07 23:21:04+01	zdnet	t	2022-02-08 01:00:02.639755+01	zdnet/Washington-State-licensing-agency-reports-cyber-incident-data-from-thousands-potentially-exposed--ZDNet
 \.
 
 
@@ -1442,7 +1443,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1438, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1439, true);
 
 
 --
