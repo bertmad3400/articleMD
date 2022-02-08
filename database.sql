@@ -1442,6 +1442,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1443	NetWalker ransomware affiliate sentenced to seven years in prison	A Canadian man who worked as an affiliate for the NetWalker ransomware gang was sentenced last week to seven years in prison for his crimes.	https://therecord.media/netwalker-ransomware-affiliate-sentenced-to-seven-years-in-prison/	https://therecord.media/wp-content/uploads/2021/07/prison-jail.jpg	Catalin Cimpanu	2022-02-08 03:35:06+01	therecord	t	2022-02-08 04:00:02.479889+01	therecord/NetWalker-ransomware-affiliate-sentenced-to-seven-years-in-prison
 1444	Chinese telecom Hytera charged for allegedly recruiting Motorola employees to steal trade secrets | ZDNet	The firm allegedly conspired with employees to steal digital radio technology.	https://www.zdnet.com/article/chinese-telecom-hytera-indicted-for-alleged-insider-scheme-for-theft-of-motorola-trade-secrets/	https://www.zdnet.com/a/img/resize/8b1282ce97f50bec7d8e571cca062f195daf81ec/2014/10/14/6cccaf4f-280b-4a80-b32c-65ef0a934d67/gavel-law.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-02-08 09:36:00+01	zdnet	t	2022-02-08 11:00:02.010106+01	zdnet/Chinese-telecom-Hytera-charged-for-allegedly-recruiting-Motorola-employees-to-steal-trade-secrets--ZDNet
 1445	Qbot needs only 30 minutes to steal your credentials, emails	The widespread malware known as Qbot (aka Qakbot or QuakBot) has recently returned to light-speed attacks, and according to analysts, it only takes around 30 minutes to steal sensitive data after the initial infection.	https://www.bleepingcomputer.com/news/security/qbot-needs-only-30-minutes-to-steal-your-credentials-emails/	https://www.bleepstatic.com/content/hl-images/2020/12/09/Qbot.jpg	Bill Toulas	2022-02-08 09:12:24+01	bleepingcomputer	t	2022-02-08 11:00:02.010106+01	bleepingcomputer/Qbot-needs-only-30-minutes-to-steal-your-credentials-emails
+1446	Pay to play PrivateLoader spreads Smokeloader, Redline, Vidar malware | ZDNet	The pay-per-install malware is one of the most popular loaders on the market today.	https://www.zdnet.com/article/pay-to-play-privateloader-spreads-smokeloader-redline-vidar-malware/	https://www.zdnet.com/a/img/resize/c51c1c8b15fe68ae5737168381d06342c479c587/2020/05/13/d1afe7a2-5005-422b-ae9f-c8ed5ee91c87/concept-of-malware-notification-or-error-red-alert-warning-of-spam-vector-id11422269351.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-02-08 10:00:02+01	zdnet	t	2022-02-08 12:00:01.823025+01	zdnet/Pay-to-play-PrivateLoader-spreads-Smokeloader-Redline-Vidar-malware--ZDNet
+1447	Cyberattack brings down Vodafone Portugal mobile, voice, and TV services	Vodafone Portugal said today that a large chunk of its customer data services went offline overnight following a deliberate and malicious cyberattack intended to cause damage and disruption.	https://therecord.media/cyberattack-brings-down-vodafone-portugal-mobile-voice-and-tv-services/	https://therecord.media/wp-content/uploads/2022/02/vodafone.jpg	Catalin Cimpanu	2022-02-08 11:39:51+01	therecord	t	2022-02-08 12:00:01.823025+01	therecord/Cyberattack-brings-down-Vodafone-Portugal-mobile-voice-and-TV-services
 \.
 
 
@@ -1449,7 +1451,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1445, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1447, true);
 
 
 --
