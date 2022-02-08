@@ -1439,6 +1439,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1440	Russia arrests third hacking group, reportedly seizes carding forums	Russia arrested six people today, allegedly part of a hacking group that was involved in the theft and selling of stolen credit cards.	https://www.bleepingcomputer.com/news/security/russia-arrests-third-hacking-group-reportedly-seizes-carding-forums/	https://www.bleepstatic.com/content/hl-images/2021/05/07/Russian-flag-headpic.jpg	Lawrence Abrams	2022-02-07 22:39:38+01	bleepingcomputer	t	2022-02-08 02:00:02.37168+01	bleepingcomputer/Russia-arrests-third-hacking-group-reportedly-seizes-carding-forums
 1441	PJCIS backs expansion of intelligence oversight powers for IGIS and itself | ZDNet	The PJCIS wants its intelligence oversight responsibilities to eventually expand to the Australian Federal Police and AUSTRAC.	https://www.zdnet.com/article/pjcis-backs-expansion-of-intelligence-oversight-powers-for-igis-and-itself/	https://www.zdnet.com/a/img/resize/c4b3d5d5323a013cfcdb5e80ebd999123c0e7e6c/2019/05/26/8b40d24b-ef39-4c03-9401-83992b7c0dee/canberra-parliament-house.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-02-08 00:45:20+01	zdnet	t	2022-02-08 02:00:02.37168+01	zdnet/PJCIS-backs-expansion-of-intelligence-oversight-powers-for-IGIS-and-itself--ZDNet
 1442	Signal now allows you to keep messages and groups after changing phone numbers	Users will still need to be able to send and receive Signal messages on their old number in order to port.	https://www.zdnet.com/article/signal-now-allows-you-to-keep-messages-and-groups-after-changing-phone-numbers/	https://www.zdnet.com/a/img/resize/e5fda87c333153b1ff2f859e5f70e7ac64ea32f9/2022/02/08/a1b5e8ae-34bf-45bf-8d48-6d9e8428e1a6/signal-change-number-banner.png?width=770&height=578&fit=crop&format=pjpg&auto=webp	Chris Duckett	2022-02-08 00:36:37+01	zdnet	t	2022-02-08 02:00:02.37168+01	zdnet/Signal-now-allows-you-to-keep-messages-and-groups-after-changing-phone-numbers
+1443	NetWalker ransomware affiliate sentenced to seven years in prison	A Canadian man who worked as an affiliate for the NetWalker ransomware gang was sentenced last week to seven years in prison for his crimes.	https://therecord.media/netwalker-ransomware-affiliate-sentenced-to-seven-years-in-prison/	https://therecord.media/wp-content/uploads/2021/07/prison-jail.jpg	Catalin Cimpanu	2022-02-08 03:35:06+01	therecord	t	2022-02-08 04:00:02.479889+01	therecord/NetWalker-ransomware-affiliate-sentenced-to-seven-years-in-prison
 \.
 
 
@@ -1446,7 +1447,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1442, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1443, true);
 
 
 --
