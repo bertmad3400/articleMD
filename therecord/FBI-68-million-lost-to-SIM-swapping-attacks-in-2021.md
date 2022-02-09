@@ -1,0 +1,84 @@
+# FBI: $68 million lost to SIM swapping attacks in 2021
+### The US Federal Bureau of Investigation said that Americans lost more than $68 million to SIM swapping attacks in 2021, a number that has been exponentially increasing since 2018 when the agency first began tracking this threat.
+
+## Information:
++ Source: The Record
++ Link: https://therecord.media/fbi-68-million-lost-to-sim-swapping-attacks-in-2021/
++ Date: 2022-02-09T16:00:30+00:00
++ Author: Catalin Cimpanu
+
+
+## Article:
+![Article Image](https://therecord.media/wp-content/uploads/2021/09/SIM-swapping.jpg)
+
+The US Federal Bureau of Investigation said that Americans lost more than $68 million to SIM swapping attacks in 2021, a number that has been exponentially increasing since 2018 when the agency first began tracking this threat.
+
+
+To put the scale of the problem into perspective, the FBI said that during last year alone, its Internet Crime Complaint Center (IC3) received complaints about 1,611 SIM swapping attacks alone, compared to the 320 complaints it received in 2018, 2019, and 2020 combined, all of which amounted to losses of only $12 million, a sum 5.6 time smaller than the losses recorded last year.
+
+
+The [FBI public service announcement](https://www.ic3.gov/Media/Y2022/PSA220208) comes to warn both mobile carriers and home consumers to take steps to protect against this new trend among cybercriminals.
+
+
+[SIM swapping](https://en.wikipedia.org/wiki/SIM_swap_scam), also known as the port-out scam or SIM-jacking, refers to a technique where a threat actor calls a target’s mobile carrier. The attacker poses as the account owner and requests that the victim’s phone number be ported to a new SIM card, citing various reasons such as a defective SIM card or a phone change.
+
+
+If the tech support staff of the mobile carrier fails to verify the caller, or if the attacker provides the correct information, the attacker effectively takes control of the victim’s phone number on a smartphone under their control.
+
+
+Threat actors then immediately begin changing passwords to a victim’s accounts, using the control they have over a victim’s phone number to bypass any identity checks and multi-factor authentication (MFA) challenges.
+
+
+Initial SIM swapping attacks have been used to hijack high-value social media accounts, most of which were immediately resold online.
+
+
+Subsequent attacks focused on gaining access to cryptocurrency and bank accounts, from where the attackers stole the victim’s funds.
+
+
+However, in recent years, the technique has also been used for more complex hacks, such as bypassing authentication on corporate accounts for data theft.
+
+
+Some mobile carriers have taken steps to improve their port-out procedures, but SIM swapping attacks are still happening, usually in three scenarios: (1) when the attacker knows answers to identity verification procedures, (2) when the attacker works with a mobile carrier employee, and (3) when the attacker exploits vulnerabilities in a mobile carrier’s IT network to change phone and SIM numbers.
+
+
+The FBI’s PSA asks both individuals and mobile carriers to take a series of basic protections to make SIM swapping attacks against them harder.
+
+
+Individuals:
+
+
+* Do not advertise information about financial assets, including ownership or investment of cryptocurrency, on social media websites and forums.
+* Do not provide your mobile number account information over the phone to representatives that request your account password or pin. Verify the call by dialing the customer service line of your mobile carrier.
+* Avoid posting personal information online, such as mobile phone number, address, or other personal identifying information.
+* Use a variation of unique passwords to access online accounts.
+* Be aware of any changes in SMS-based connectivity.
+* Use strong multi-factor authentication methods such as biometrics, physical security tokens, or standalone authentication applications to access online accounts.
+* Do not store passwords, usernames, or other information for easy login on mobile device applications.
+
+
+Mobile carriers:
+
+
+* Educate employees and conduct training sessions on SIM swapping.
+* Carefully inspect incoming email addresses containing official correspondence for slight changes that can make fraudulent addresses appear legitimate and resemble actual clients’ names.
+* Set strict security protocols enabling employees to effectively verify customer credentials before changing their numbers to a new device.
+* Authenticate calls from third party authorized retailers requesting customer information.
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Net]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=Tor]]
+
+#### Industry:
+[[victim.industry.name=Finance]] [[victim.industry.name=Retail]]
+
+#### Location:
+[[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[]] [[The Record]]
+
