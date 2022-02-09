@@ -1471,6 +1471,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1472	Google fixes remote escalation of privileges bug on Android	Google has released the February 2022 Android security updates, addressing two critical vulnerabilities, one being a remote escalation of privilege that requires no user interaction.	https://www.bleepingcomputer.com/news/security/google-fixes-remote-escalation-of-privileges-bug-on-android/	https://www.bleepstatic.com/content/hl-images/2021/10/21/Android.jpg	Bill Toulas	2022-02-08 22:25:48+01	bleepingcomputer	t	2022-02-08 23:00:02.470793+01	bleepingcomputer/Google-fixes-remote-escalation-of-privileges-bug-on-Android
 1473	SAP releases patches for ICMAD vulnerabilities, log4j issues, more | ZDNet	One of the vulnerabilities has a risk score of 10 and would allow attackers to execute serious malicious activities on SAP users.	https://www.zdnet.com/article/sap-releases-patches-for-icmad-vulnerabilities/	https://www.zdnet.com/a/img/resize/f60e683c7a06da49e8d34505118376c28380458f/2021/11/12/41131561-f18b-47f0-9b2b-da9dbb88dc65/sap.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-08 22:18:00+01	zdnet	t	2022-02-09 00:00:02.43976+01	zdnet/SAP-releases-patches-for-ICMAD-vulnerabilities-log4j-issues-more--ZDNet
 1474	NetWalker ransomware gang affiliate pleads guilty, slapped with 7-year sentence | ZDNet	Sebastien Vachon-Desjardins caused at least $2.8 million in damages in Canada and will also be facing charges in the US.	https://www.zdnet.com/article/netwalker-ransomware-gang-affiliate-pleads-guilty-slapped-with-7-year-sentence/	https://www.zdnet.com/a/img/resize/b39f32b35b2f8243cbd43aa00de74920fc01c8eb/2020/08/03/7ace386f-b84d-4c52-88c5-a4d6f429ba11/netwalker.png?width=770&height=578&fit=crop&format=pjpg&auto=webp	Jonathan Greig	2022-02-08 23:21:00+01	zdnet	t	2022-02-09 01:00:02.156516+01	zdnet/NetWalker-ransomware-gang-affiliate-pleads-guilty-slapped-with-7-year-sentence--ZDNet
+1475	Lazarus hackers target defense industry with fake Lockheed Martin job offers | ZDNet	The APT has previously masqueraded as Northrop Grumman and BAE Systems.	https://www.zdnet.com/article/lazarus-hackers-target-defense-industry-with-fake-lockheed-martin-job-offers/	https://www.zdnet.com/a/img/resize/fdfea955ff090c234e9b45387c3d41e42db24ea6/2021/08/20/892938aa-dec1-45a5-a40a-5e1dcd76ce6d/shutterstock-327882299.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-02-09 09:31:42+01	zdnet	t	2022-02-09 11:00:02.691856+01	zdnet/Lazarus-hackers-target-defense-industry-with-fake-Lockheed-Martin-job-offers--ZDNet
 \.
 
 
@@ -1478,7 +1479,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1474, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1475, true);
 
 
 --
