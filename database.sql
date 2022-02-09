@@ -1479,6 +1479,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1480	This malware is reading your email 30 minutes after the first infection | ZDNet	Qbot is old malware but it's operators appreciate efficiency.	https://www.zdnet.com/article/this-malware-is-reading-your-email-30-minutes-after-the-first-infection/	https://www.zdnet.com/a/img/resize/2a759937b32599cabbaed3a0f19af1b99d7cfaf8/2021/06/28/20a585a6-81ff-4046-bba5-b4f43a73ca87/aws-bugfest-competition-to-find-and-fix-amazon-bugs.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2022-02-09 12:01:11+01	zdnet	t	2022-02-09 14:00:01.820628+01	zdnet/This-malware-is-reading-your-email-30-minutes-after-the-first-infection--ZDNet
 1481	Fake Windows 11 upgrade installers infect you with RedLine malware	Threat actors have started distributing fake Windows 11 upgrade installers to users of Windows 10, tricking them into downloading and executing RedLine stealer malware.	https://www.bleepingcomputer.com/news/security/fake-windows-11-upgrade-installers-infect-you-with-redline-malware/	https://www.bleepstatic.com/content/hl-images/2022/02/09/Windows__11.jpg	Bill Toulas	2022-02-09 13:58:50+01	bleepingcomputer	t	2022-02-09 14:00:01.820628+01	bleepingcomputer/Fake-Windows-11-upgrade-installers-infect-you-with-RedLine-malware
 1482	FBI warns of criminals escalating SIM swap attacks to steal millions	The Federal Bureau of Investigation (FBI) says criminals have escalated SIM swap attacks to steal millions by hijacking victims' phone numbers.	https://www.bleepingcomputer.com/news/security/fbi-warns-of-criminals-escalating-sim-swap-attacks-to-steal-millions/	https://www.bleepstatic.com/content/hl-images/2021/01/18/Phone-Call.jpg	Sergiu Gatlan	2022-02-09 13:30:09+01	bleepingcomputer	t	2022-02-09 14:00:01.820628+01	bleepingcomputer/FBI-warns-of-criminals-escalating-SIM-swap-attacks-to-steal-millions
+1483	CISA and SAP warn about major vulnerability	German enterprise software maker SAP and the US Cybersecurity and Infrastructure Security Agency have issued security advisories on Tuesday to warn SAP customers to install the company's February security patches as soon as possible in order to prevent the exploitation of a major vulnerability in a ubiquitous SAP component.	https://therecord.media/cisa-and-sap-warn-about-major-vulnerability/	https://therecord.media/wp-content/uploads/2021/04/SAP.jpg	Catalin Cimpanu	2022-02-09 14:59:43+01	therecord	t	2022-02-09 15:00:02.287527+01	therecord/CISA-and-SAP-warn-about-major-vulnerability
 \.
 
 
@@ -1486,7 +1487,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1482, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1483, true);
 
 
 --
