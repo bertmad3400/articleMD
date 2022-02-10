@@ -1499,6 +1499,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1501	3 Tips for Facing the Harsh Truths of Cybersecurity in 2022, Part I	Sonya Duffin, ransomware and data-protection expert at Veritas Technologies, shares three steps organizations can take today to reduce cyberattack fallout.	https://kasperskycontenthub.com/threatpost-global/?p=178311	https://media.threatpost.com/wp-content/uploads/sites/103/2021/09/29112739/nuclear-bomb-explosion-1478796377Hhl.jpeg	Sonya Duffin	2022-02-09 22:06:38+01	threatpost	t	2022-02-09 23:00:02.545915+01	threatpost/3-Tips-for-Facing-the-Harsh-Truths-of-Cybersecurity-in-2022-Part-I
 1499	PHP Everywhere RCE flaws threaten thousands of WordPress sites	Researchers found three critical remote code execution (RCE) vulnerabilities in the PHP Everywhere plugin for WordPress, used by over 30,000 websites worldwide.	https://www.bleepingcomputer.com/news/security/php-everywhere-rce-flaws-threaten-thousands-of-wordpress-sites/	https://www.bleepstatic.com/content/hl-images/2021/02/11/WordPress-headpic.jpg	Bill Toulas	2022-02-09 22:33:18+01	bleepingcomputer	t	2022-02-09 23:00:02.545915+01	bleepingcomputer/PHP-Everywhere-RCE-flaws-threaten-thousands-of-WordPress-sites
 1502	Target Released “Merry-Maker” Card Skimmer Scanner As Open Source	Target has used its Merry-Maker card skimmer scanning tool for over 1 million website scans before releasing it as open source.	https://latesthackingnews.com/2022/02/09/merry-maker-card-skimmer-scanner-tool-released-as-open-source/	https://latesthackingnews.com/wp-content/uploads/2022/02/Target.jpg	Abeerah Hashim	2022-02-09 00:00:00+01	latesthackingnews	t	2022-02-10 02:00:02.314432+01	latesthackingnews/Target-Released-Merry-Maker-Card-Skimmer-Scanner-As-Open-Source
+1503	Australia's anti-trolling Bill enters Parliament retaining defamation focus | ZDNet	The anti-trolling Bill is focused on defamation rather than reducing troll and harmful content.	https://www.zdnet.com/article/australias-anti-trolling-bill-enters-parliament-retaining-defamation-focus/	https://www.zdnet.com/a/img/resize/5618f4d4599c45053ab29d1e7ab36788a5f4871b/2021/04/23/082f0657-50f2-4c6a-bf41-ad5d10232d23/social-media.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-02-10 01:13:18+01	zdnet	t	2022-02-10 03:00:02.809002+01	zdnet/Australias-anti-trolling-Bill-enters-Parliament-retaining-defamation-focus--ZDNet
 \.
 
 
@@ -1506,7 +1507,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1502, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1503, true);
 
 
 --
