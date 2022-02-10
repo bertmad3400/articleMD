@@ -1500,6 +1500,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1499	PHP Everywhere RCE flaws threaten thousands of WordPress sites	Researchers found three critical remote code execution (RCE) vulnerabilities in the PHP Everywhere plugin for WordPress, used by over 30,000 websites worldwide.	https://www.bleepingcomputer.com/news/security/php-everywhere-rce-flaws-threaten-thousands-of-wordpress-sites/	https://www.bleepstatic.com/content/hl-images/2021/02/11/WordPress-headpic.jpg	Bill Toulas	2022-02-09 22:33:18+01	bleepingcomputer	t	2022-02-09 23:00:02.545915+01	bleepingcomputer/PHP-Everywhere-RCE-flaws-threaten-thousands-of-WordPress-sites
 1502	Target Released “Merry-Maker” Card Skimmer Scanner As Open Source	Target has used its Merry-Maker card skimmer scanning tool for over 1 million website scans before releasing it as open source.	https://latesthackingnews.com/2022/02/09/merry-maker-card-skimmer-scanner-tool-released-as-open-source/	https://latesthackingnews.com/wp-content/uploads/2022/02/Target.jpg	Abeerah Hashim	2022-02-09 00:00:00+01	latesthackingnews	t	2022-02-10 02:00:02.314432+01	latesthackingnews/Target-Released-Merry-Maker-Card-Skimmer-Scanner-As-Open-Source
 1503	Australia's anti-trolling Bill enters Parliament retaining defamation focus | ZDNet	The anti-trolling Bill is focused on defamation rather than reducing troll and harmful content.	https://www.zdnet.com/article/australias-anti-trolling-bill-enters-parliament-retaining-defamation-focus/	https://www.zdnet.com/a/img/resize/5618f4d4599c45053ab29d1e7ab36788a5f4871b/2021/04/23/082f0657-50f2-4c6a-bf41-ad5d10232d23/social-media.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-02-10 01:13:18+01	zdnet	t	2022-02-10 03:00:02.809002+01	zdnet/Australias-anti-trolling-Bill-enters-Parliament-retaining-defamation-focus--ZDNet
+1504	Australian inquiry backs Taiwan CPTPP accession but doesn't do the same for China | ZDNet	Accession of Taiwan into the CPTPP could also lead to a bilateral free trade agreement between Australia and Taiwan, an Australian inquiry has concluded.	https://www.zdnet.com/article/australia-backs-taiwan-accession-into-cptpp-but-remains-wary-of-china-membership/	https://www.zdnet.com/a/img/resize/40b8979533fd8cf2169789b2e45c5796f05e76fc/2019/07/02/4f57beb5-3ede-40ff-abb6-b3f00de648e1/canberra-parliament-house-zoomed.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-02-10 06:00:58+01	zdnet	t	2022-02-10 08:00:53.885266+01	zdnet/Australian-inquiry-backs-Taiwan-CPTPP-accession-but-doesnt-do-the-same-for-China--ZDNet
 \.
 
 
@@ -1507,7 +1508,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1503, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1504, true);
 
 
 --
