@@ -1,0 +1,87 @@
+# FTC says Americans lost $547 million to romance scams in 2021
+### The US Federal Trade Commission (FTC) said that Americans reported record high losses of $547 million to romance scams in 2021, up almost 80% compared to 2020 and over six times compared to losses reported in 2017.
+
+## Information:
++ Source: Bleeping Computer
++ Link: https://www.bleepingcomputer.com/news/security/ftc-says-americans-lost-547-million-to-romance-scams-in-2021/
++ Date: 2022-02-10T11:13:44-05:00
++ Author: Sergiu Gatlan
+
+
+## Article:
+![Article Image](https://www.bleepstatic.com/content/hl-images/2022/02/10/Romance_scam.jpg)
+
+![Romance scam](https://www.bleepstatic.com/content/hl-images/2022/02/10/Romance_scam.jpg)
+
+
+The US Federal Trade Commission (FTC) said that Americans reported record high losses of $547 million to romance scams in 2021, up almost 80% compared to 2020 and over six times compared to losses reported in 2017.
+
+
+Financial losses stemming from romance scams have skyrocketed during recent years, with a total of $1.3 billion lost over the past five years.
+
+
+This type of fraud (also known as confidence fraud) can lead to devastating emotional scars and significant financial losses. The crooks use fake online identities that help them gain potential victims' trust on social media platforms or [dating sites](https://www.bleepingcomputer.com/news/security/interpol-trading-scammers-lure-love-struck-victims-via-dating-apps/).
+
+
+Once they lure their targets in, the criminals take advantage of the illusion of a romantic relationship to manipulate the victims into sending money or financial info, which can be used for other types of fraud schemes, such as [investment scams](https://www.bleepingcomputer.com/news/security/fbi-warns-investors-of-fraudsters-posing-as-brokers-and-advisers/).
+
+
+Last month, the FTC also revealed that over 95,000 US consumers [reported losses of around $770 million](https://www.bleepingcomputer.com/news/security/ftc-americans-lost-770-million-from-social-media-fraud-surge/) after getting scammed on social media platforms, with romance scams being the second most profitable fraud after online shopping scams.
+
+
+"Reports about romance scams increased for every age group in 2021. The increase was most striking for people ages 18 to 29. For this age group, the number of reports increased more than tenfold from 2017 to 2021," the FTC [said today](https://www.ftc.gov/news-events/blogs/data-spotlight/2022/02/reports-romance-scams-hit-record-highs-2021).
+
+
+"But the reported median loss increased with age: people 70 and older reported the highest individual median losses at $9,000, compared to $750 for the 18 to 29 age group."
+
+
+
+How to spot a romance scammer
+-----------------------------
+
+
+In September, the FBI [warned of a massive spike of online romance scams in 2021](https://www.bleepingcomputer.com/news/security/fbi-113-million-lost-to-online-romance-scams-this-year/) after receiving more than 1,800 complaints linked to $113 million in losses. 
+
+
+The FBI also revealed that [romance scam victims could also be recruited as money mules](https://www.bleepingcomputer.com/news/security/fbi-warns-of-romance-scams-turning-victims-into-money-mules/) and persuaded to transfer stolen funds on the fraudsters' behalf.
+
+
+To further illustrate the scale of this massive problem, the US Justice Department's website [lists hundreds of cases](https://search.justice.gov/search?query=%22romance+scam%22&op=Search&affiliate=justice) where criminals were found guilty of running large-scale romance scam fraud schemes targeting and stealing millions from US citizens.
+
+
+The FTC shared the following tips to spot scammers when looking for love online:
+
+
+* Nobody legit will ever ask you to help by sending cryptocurrency, giving the numbers on a gift card, or by wiring money. Anyone who does is a scammer.
+* Never send or forward money to someone you haven’t met in person, and don’t act on their investment advice.
+* Talk to friends or family about a new love interest and pay attention if they’re concerned.
+* Try a reverse-image search of profile pictures. If the details don’t match up, it’s a scam.
+
+If you have fallen prey to a romance scammer, the FBI urges you to stop all contact immediately and file a complaint at [www.ic3.gov](https://www.ic3.gov/).
+
+
+You should also reach out to your bank to see if the financial transactions you might have made after the scammer reached out can be stopped or reversed.
+
+
+
+
+
+## Tags:
+
+#### Threatactor:
+[[threatactor.name=Rocke]] [[threatactor.name=RTM]]
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Ping]] [[action.malware.name=Ping]] [[action.malware.name=RTM]] [[action.malware.name=S-Type]] [[action.malware.name=Zen]]
+
+#### Industry:
+[[victim.industry.name=Finance]]
+
+#### Location:
+[[victim.country.name=Oman]] [[victim.continent.name=Asia]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Scammer]] [[Ftc]] [[Bleeping Computer]]
+#### urls
+www.ic3.gov.
+
