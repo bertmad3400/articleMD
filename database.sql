@@ -1508,6 +1508,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1509	PHP Everywhere Bugs Put 30K+ WordPress Sites at Risk of RCE	The plug-in’s default settings spawned flaws that could allow for full site takeover but have since been fixed in an update that users should immediately install, Wordfence researchers said.	https://kasperskycontenthub.com/threatpost-global/?p=178338	https://media.threatpost.com/wp-content/uploads/sites/103/2019/04/23131246/WordPress-plugin-exploit.jpg	Elizabeth Montalbano	2022-02-10 14:58:07+01	threatpost	t	2022-02-10 15:00:34.992597+01	threatpost/PHP-Everywhere-Bugs-Put-30K-WordPress-Sites-at-Risk-of-RCE
 1510	FritzFrog botnet returns with new attacks after more than a year of inactivity	After causing havoc throughout 2020, the operators of the FritzFrog botnet have returned with new attacks in 2022 after ceasing any activity last year.	https://therecord.media/fritzfrog-botnet-returns-with-new-attacks-after-more-than-a-year-of-inactivity/	https://therecord.media/wp-content/uploads/2022/02/FritzFrog.png	Catalin Cimpanu	2022-02-10 15:00:41+01	therecord	t	2022-02-10 15:00:34.992597+01	therecord/FritzFrog-botnet-returns-with-new-attacks-after-more-than-a-year-of-inactivity
 1511	Ransomware victims paid more than $600 million to cybercriminals in 2021	More than $600 million in cryptocurrency could be tied to ransomware payments in 2021, with the Conti ransomware gang accounting for nearly one-third of those payments, blockchain analysis firm Chainalysis said in a report today.	https://therecord.media/ransomware-victims-paid-more-than-600-million-to-cybercriminals-in-2021/	https://therecord.media/wp-content/uploads/2021/07/Bitcoin-BTC.png	Adam Janofsky	2022-02-10 14:01:37+01	therecord	t	2022-02-10 15:00:34.992597+01	therecord/Ransomware-victims-paid-more-than-600-million-to-cybercriminals-in-2021
+1512	FritzFrog botnet returns to attack healthcare, education, government sectors | ZDNet	The botnet managed to strike at least 500 government and enterprise SSH servers in eight months.	https://www.zdnet.com/article/fritzfrog-botnet-strikes-healthcare-education-government-sectors/	https://www.zdnet.com/a/img/resize/7b2e093917fa73490365ebd31e1919a87c2b183b/2021/07/23/7a429a9c-d2fa-400a-ba78-4b68185b54d5/cloud-security-malware.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-02-10 14:00:00+01	zdnet	t	2022-02-10 16:00:30.176715+01	zdnet/FritzFrog-botnet-returns-to-attack-healthcare-education-government-sectors--ZDNet
+1513	FritzFrog botnet grows 10x, hits healthcare, edu, and govt systems	The FritzFrog botnet that's been active for more than two years has resurfaced with an alarming infection rate, growing ten times in just a month of hitting healthcare, education, and government systems with an exposed SSH server.	https://www.bleepingcomputer.com/news/security/fritzfrog-botnet-grows-10x-hits-healthcare-edu-and-govt-systems/	https://www.bleepstatic.com/content/hl-images/2022/02/10/frog.jpg	Bill Toulas	2022-02-10 15:08:24+01	bleepingcomputer	t	2022-02-10 16:00:30.176715+01	bleepingcomputer/FritzFrog-botnet-grows-10x-hits-healthcare-edu-and-govt-systems
 \.
 
 
@@ -1515,7 +1517,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1511, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1513, true);
 
 
 --
