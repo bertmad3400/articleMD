@@ -1501,6 +1501,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1502	Target Released “Merry-Maker” Card Skimmer Scanner As Open Source	Target has used its Merry-Maker card skimmer scanning tool for over 1 million website scans before releasing it as open source.	https://latesthackingnews.com/2022/02/09/merry-maker-card-skimmer-scanner-tool-released-as-open-source/	https://latesthackingnews.com/wp-content/uploads/2022/02/Target.jpg	Abeerah Hashim	2022-02-09 00:00:00+01	latesthackingnews	t	2022-02-10 02:00:02.314432+01	latesthackingnews/Target-Released-Merry-Maker-Card-Skimmer-Scanner-As-Open-Source
 1503	Australia's anti-trolling Bill enters Parliament retaining defamation focus | ZDNet	The anti-trolling Bill is focused on defamation rather than reducing troll and harmful content.	https://www.zdnet.com/article/australias-anti-trolling-bill-enters-parliament-retaining-defamation-focus/	https://www.zdnet.com/a/img/resize/5618f4d4599c45053ab29d1e7ab36788a5f4871b/2021/04/23/082f0657-50f2-4c6a-bf41-ad5d10232d23/social-media.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-02-10 01:13:18+01	zdnet	t	2022-02-10 03:00:02.809002+01	zdnet/Australias-anti-trolling-Bill-enters-Parliament-retaining-defamation-focus--ZDNet
 1504	Australian inquiry backs Taiwan CPTPP accession but doesn't do the same for China | ZDNet	Accession of Taiwan into the CPTPP could also lead to a bilateral free trade agreement between Australia and Taiwan, an Australian inquiry has concluded.	https://www.zdnet.com/article/australia-backs-taiwan-accession-into-cptpp-but-remains-wary-of-china-membership/	https://www.zdnet.com/a/img/resize/40b8979533fd8cf2169789b2e45c5796f05e76fc/2019/07/02/4f57beb5-3ede-40ff-abb6-b3f00de648e1/canberra-parliament-house-zoomed.jpg?width=770&height=578&fit=crop&auto=webp	Campbell Kwan	2022-02-10 06:00:58+01	zdnet	t	2022-02-10 08:00:53.885266+01	zdnet/Australian-inquiry-backs-Taiwan-CPTPP-accession-but-doesnt-do-the-same-for-China--ZDNet
+1505	PHP Everywhere code execution bugs impact thousands of WordPress websites | ZDNet	The remote code execution flaws are of critical severity.	https://www.zdnet.com/article/php-everywhere-wordpress-plugin-code-execution-bug-impacts-thousands-of-websites/	https://www.zdnet.com/a/img/resize/8af56126196f3e1aa2d232eaf6780b618875724f/2021/07/13/be508002-8cf0-44ea-9c76-7acf34523388/wordpress-free-website-builder.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-02-10 09:53:51+01	zdnet	f	2022-02-10 11:00:38.616127+01	\N
 \.
 
 
@@ -1508,7 +1509,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1504, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1505, true);
 
 
 --
