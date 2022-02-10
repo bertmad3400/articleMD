@@ -1515,6 +1515,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1516	SAP to Give Threat Briefing on Uber-Severe ‘ICMAD’ Bugs	SAP’s Patch Tuesday brought fixes for a trio of flaws in the ubiquitous ICM component in internet-exposed apps. One of them, with a risk score of 10, could allow attackers to hijack identities, steal data and more.	https://kasperskycontenthub.com/threatpost-global/?p=178344	https://media.threatpost.com/wp-content/uploads/sites/103/2021/04/06142606/SAP2-e1617733579541.jpg	Lisa Vaas	2022-02-10 17:39:04+01	threatpost	t	2022-02-10 18:03:13.916356+01	threatpost/SAP-to-Give-Threat-Briefing-on-Uber-Severe-ICMAD-Bugs
 1517	Qbot, Lokibot malware switch back to Windows Regsvr32 delivery	Malware distributors have turned to an older trick known as Squiblydoo to spread Qbot and Lokibot via Microsoft Office document using regsvr32.exe.	https://www.bleepingcomputer.com/news/security/qbot-lokibot-malware-switch-back-to-windows-regsvr32-delivery/	https://www.bleepstatic.com/content/hl-images/2021/10/05/Windows-keyboard.jpg	Bill Toulas	2022-02-10 17:25:10+01	bleepingcomputer	t	2022-02-10 18:03:13.916356+01	bleepingcomputer/Qbot-Lokibot-malware-switch-back-to-Windows-Regsvr32-delivery
 1518	FTC says Americans lost $547 million to romance scams in 2021	The US Federal Trade Commission (FTC) said that Americans reported record high losses of $547 million to romance scams in 2021, up almost 80% compared to 2020 and over six times compared to losses reported in 2017.	https://www.bleepingcomputer.com/news/security/ftc-says-americans-lost-547-million-to-romance-scams-in-2021/	https://www.bleepstatic.com/content/hl-images/2022/02/10/Romance_scam.jpg	Sergiu Gatlan	2022-02-10 17:13:44+01	bleepingcomputer	t	2022-02-10 18:03:13.916356+01	bleepingcomputer/FTC-says-Americans-lost-547-million-to-romance-scams-in-2021
+1519	Adobe urges customers to upgrade after 500 stores breached through Magento platform | ZDNet	Adobe ended support for the Magento 1 e-commerce platform in 2020 but hundreds of companies still use it.	https://www.zdnet.com/article/adobe-urges-customers-to-upgrade-after-500-stores-breached-through-magento-platform/	https://www.zdnet.com/a/img/resize/cc4b2f0e6fefef4225f672d4714c5708d4f03cb2/2021/10/13/96368351-25fc-4a59-ade3-059e8eb15a54/e-commerce.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-10 17:55:51+01	zdnet	t	2022-02-10 19:03:38.426183+01	zdnet/Adobe-urges-customers-to-upgrade-after-500-stores-breached-through-Magento-platform--ZDNet
 \.
 
 
@@ -1522,7 +1523,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1518, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1519, true);
 
 
 --
