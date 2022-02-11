@@ -1536,6 +1536,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1537	Beware of spies and radicalisation attempts online: ASIO chief | ZDNet	Mike Burgess warns of espionage via social media and dating sites, and a surge in the online radicalisation of minors. But on the plus side, good cybersecurity is achievable.	https://www.zdnet.com/article/beware-of-spies-and-radicalisation-attempts-online-asio-chief/	https://www.zdnet.com/a/img/resize/9ec262c6bed1a87984f557ca0f2c23a4af330a91/2022/02/11/6006a5c5-f893-4d96-b76a-ba3b581c0052/online-security-gettyimages-1148031053.jpg?width=770&height=578&fit=crop&auto=webp	Stilgherrian 	2022-02-11 04:22:55+01	zdnet	t	2022-02-11 06:03:15.309813+01	zdnet/Beware-of-spies-and-radicalisation-attempts-online-ASIO-chief--ZDNet
 1538	This Week in Security News - February 11, 2022	Hidden scams in malicious scans, and feds arrest couple who allegedly laundered $1 Billion in stolen bitcoins	https://www.trendmicro.com/en_us/research/22/b/this-week-in-security-news-february-11-2022.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news.jpg	\N	2022-02-11 00:00:00+01	trendmicro	t	2022-02-11 08:02:56.579251+01	trendmicro/This-Week-in-Security-News---February-11-2022
 1539	$1.3 billion lost to romance scams in the past five years: FTC | ZDNet	Romance scams are reaching record-highs, regulators warn.	https://www.zdnet.com/article/1-3-billion-lost-to-romance-scams-in-the-past-five-years-ftc/	https://www.zdnet.com/a/img/resize/06b4d08d839220c51aec67963f8698175044d678/2021/09/20/661ec493-76d3-49b3-9ccd-e52e44947136/romance-scam.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-02-11 08:27:20+01	zdnet	t	2022-02-11 10:03:03.204934+01	zdnet/13-billion-lost-to-romance-scams-in-the-past-five-years-FTC--ZDNet
+1540	Spanish police arrest suspects in SIM-swapping ring | ZDNet	Fraudsters used photocopies and stolen data to obtain duplicate SIM cards.	https://www.zdnet.com/article/spanish-police-arrest-suspects-in-sim-swapping-ring/	https://www.zdnet.com/a/img/resize/a1c520bbc5a70cc1f743c2e2c26c7d932793a1a2/2021/01/20/4cc84e24-2c46-416b-9ab6-53f0111796ad/istock-1134890323.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-02-11 09:45:17+01	zdnet	f	2022-02-11 11:03:09.85875+01	\N
 \.
 
 
@@ -1543,7 +1544,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1539, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1540, true);
 
 
 --
