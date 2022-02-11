@@ -1,0 +1,81 @@
+# CISA orders federal agencies to update iPhones until Feb 25th
+### The US Cybersecurity and Infrastructure Security Agency (CISA) has added a new flaw to its catalog of vulnerabilities exploited in the wild, an Apple WebKit remote code execution bug used to target iPhones, iPads, and Macs.
+
+## Information:
++ Source: Bleeping Computer
++ Link: https://www.bleepingcomputer.com/news/security/cisa-orders-federal-agencies-to-update-iphones-until-feb-25th/
++ Date: 2022-02-11T12:45:00-05:00
++ Author: Sergiu Gatlan
+
+
+## Article:
+![Article Image](https://www.bleepstatic.com/content/hl-images/2021/12/14/CISA.jpg)
+
+![CISA orders federal agencies to update iPhones until Feb 25th](https://www.bleepstatic.com/content/hl-images/2021/12/14/CISA.jpg)
+
+
+The US Cybersecurity and Infrastructure Security Agency (CISA) has added a new flaw to its catalog of vulnerabilities exploited in the wild, an Apple WebKit remote code execution bug used to target iPhones, iPads, and Macs.
+
+
+According to the [binding operational directive (BOD 22-01)](https://www.bleepingcomputer.com/news/security/cisa-orders-federal-agencies-to-fix-hundreds-of-exploited-security-flaws/) issued by CISA in November, federal agencies are now required to patch their systems against this actively exploited vulnerability impacting iOS, iPadOS, and macOS devices.
+
+
+CISA said that all Federal Civilian Executive Branch Agencies (FCEB) agencies have to patch the vulnerability tracked as CVE-2022-22620 [[1](http://support.apple.com/en-us/HT213093), [2](https://support.apple.com/en-us/HT213092)] until February 25th, 2022.
+
+
+"These types of vulnerabilities are a frequent attack vector for malicious cyber actors of all types and pose significant risk to the federal enterprise," the cybersecurity agency [said](https://www.cisa.gov/uscert/ncas/current-activity/2022/02/11/cisa-adds-one-known-exploited-vulnerability-catalog).
+
+
+"Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice."
+
+
+Yesterday, CISA also [asked FCEB agencies to patch 15 other vulnerabilities](https://www.bleepingcomputer.com/news/security/cisa-urges-orgs-to-patch-actively-exploited-windows-serioussam-bug/) tagged as being under active exploitation, with [CVE-2021-36934](https://www.bleepingcomputer.com/tag/cve-2021-36934/) — a Microsoft Windows SAM (Security Accounts Manager) bug allowing privilege escalation and credential theft — having a February 24th patch deadline.
+
+
+Third zero-day patched by Apple this year
+-----------------------------------------
+
+
+The CVE-2022-22620 is the third zero-day Apple has patched since the start of 2022 and is a WebKit [Use After Free](https://cwe.mitre.org/data/definitions/416.html) issue exploitable for OS crashes and code execution on vulnerable devices.
+
+
+Successful exploitation enables attackers to execute arbitrary code on iPhones, iPads, and Macs after opening maliciously crafted web pages using Safari.
+
+
+"In particular, all browsers for iOS and iPadOS are based on this open source engine — that is, not only iPhone’s default Safari, but also Google Chrome, Mozilla Firefox and any others," [Kaspersky said](https://www.kaspersky.com/blog/webkit-vulnerability-cve-2022-22620/43650/) today. "So even if you do not use Safari, this vulnerability still affects you directly."
+
+
+"Apple is aware of a report that this issue may have been actively exploited," the company added when describing the zero-day.
+
+
+Apple has addressed the vulnerability with improved memory management in iOS 15.3.1, iPadOS 15.3.1, and macOS Monterey 12.2.1.
+
+
+The complete list of impacted devices is quite extensive, and it includes iPhone 6s and later, multiple iPad models, and Macs running macOS Monterey.
+
+
+Even though this flaw was likely only used in a small number of targeted attacks, it's still highly recommended to install the updates as soon as possible to block potential attack attempts, just as CISA urged earlier today.
+
+
+In January, [Apple also patched two other actively exploited zero-days](https://www.bleepingcomputer.com/news/apple/apple-fixes-new-zero-day-exploited-to-hack-macos-ios-devices/) that can let attackers track browsing activity and users' identities in real-time (CVE-2022-22594) and gain arbitrary code execution with kernel privileges (CVE-2022-22587).
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=at]] [[action.malware.name=Elise]] [[action.malware.name=S-Type]] [[action.malware.name=Tor]]
+
+#### Industry:
+[[victim.industry.name=Agriculture]] [[victim.industry.name=Information]]
+
+#### Location:
+[[victim.country.name=Mali]] [[victim.continent.name=Africa]] [[victim.city.name=Rome]] [[victim.country.name=Italy]] [[victim.continent.name=Europe]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Cisa]] [[Ipados]] [[Macos]] [[Zero-day]] [[Bleeping Computer]]
+#### CVE's
+[[CVE-2022-22620]] [[CVE-2021-36934]] [[CVE-2022-22594]] [[CVE-2022-22587]]
+
