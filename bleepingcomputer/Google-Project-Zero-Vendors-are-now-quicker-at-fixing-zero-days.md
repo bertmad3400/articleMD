@@ -1,0 +1,103 @@
+# Google Project Zero: Vendors are now quicker at fixing zero-days
+### Google's Project Zero has published a report showing that organizations took less time to address the zero-day vulnerabilities that the team reported last year.
+
+## Information:
++ Source: Bleeping Computer
++ Link: https://www.bleepingcomputer.com/news/security/google-project-zero-vendors-are-now-quicker-at-fixing-zero-days/
++ Date: 2022-02-11T12:40:01-05:00
++ Author: Bill Toulas
+
+
+## Article:
+![Article Image](https://www.bleepstatic.com/content/hl-images/2022/02/11/zero.jpg)
+
+![Google Project Zero: vendors are quicker at fixing zero-day bugs](https://www.bleepstatic.com/content/hl-images/2022/02/11/zero.jpg?rand=2095138719)
+
+
+Google’s Project Zero has published a report showing that organizations took less time to address the zero-day vulnerabilities that the team reported last year.
+
+
+As the data shows, the average period software vendors needed to issue security fixes reported by Project Zero last year was 52 days, down from 80 days three years ago.
+
+
+Moreover, almost all vendors addressed the flaw within the standard industry deadline of 90 days, plus a grace period of two weeks.
+
+
+Flaws you can't ignore
+----------------------
+
+
+Zero-day vulnerabilities are security issues unknown to the software developer at the time of their discovery or are known but haven’t been patched.
+
+
+They typically offer hackers a window of opportunity even after a patch becomes available because [not everyone can fix the problem immediately](https://www.bleepingcomputer.com/news/security/night-sky-ransomware-uses-log4j-bug-to-hack-vmware-horizon-servers/).
+
+
+As such, responding to zero-day vulnerability reports quickly is of utmost importance and it also demonstrates how serious software vendors are about the security of their products, how efficient they are with the development cycle.
+
+
+For security analysts who discover them, the period of disclosure cannot be extended indefinitely, as there's always a chance they were not the first to find out about them.
+
+
+The zero-day landscape
+----------------------
+
+
+According to 2019-2021 stats based on 376 zero-day findings and reports from Project Zero, 26% concern Microsoft, 23% Apple, and 16% Google.
+
+
+These three software giants account for 65% of the total findings, reflecting the complexity and high volume of their software products, inevitably creating gaps or dark spots for their otherwise crowded and capable security teams.
+
+
+
+![Zero-day fixing stats from 2021](https://www.bleepstatic.com/images/news/u/1220909/Tables/table(5).jpg)**Zero-day fixing stats from 2019-2021** *(Google)*
+The best performers in terms of patching within the deadline were Linux, Mozilla, and Google, while the worst were Oracle, Microsoft, and Samsung. Microsoft also had the most fixes within the grace period, marginally pushing them right before they were made public.
+
+
+In the highly competitive field of mobile OS, Google reports the same performance from both iOS and Android, with the former having an average fix time of 70 days, with the latter needing 72 days.
+
+
+In the web browser category, Chrome beats everyone with an average bug-fixing period of 29.9 days, while Firefox comes second with 37.8 days.
+
+
+
+![Browser fix performance](https://www.bleepstatic.com/images/news/u/1220909/Tables/browsers.jpg)**Browser zero-day fix performance** *(Google)*
+ 
+
+
+Apple took more than double that time to fix WebKit flaws, which have been plaguing Safari in the past couple of years, needing an average of 72.7 days.
+
+
+
+![Diagram illustrating the patching difference in terms of time](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)**Diagram illustrating the patching difference in terms of time** *(Google)*
+As Google’s Project Zero team comments in [the report](https://googleprojectzero.blogspot.com/2022/02/a-walk-through-project-zero-metrics.html): 
+
+
+
+> 
+> WebKit is the outlier in this analysis, with the longest number of days to release a patch at 73 days. Their time to land the fix publicly is in the middle between Chrome and Firefox, but unfortunately this leaves a very long amount of time for opportunistic attackers to find the patch and exploit it prior to the fix being made available to users.
+> 
+> 
+> 
+
+
+In conclusion, Google's security analysts have recognized some clear marks of improvement, but vendors can and should do more in the future as adversaries are keeping an eye out for bug reports for a chance to find a new attack avenue.
+
+
+
+
+
+## Tags:
+
+#### Action:
+[[action.malware.name=at]] [[action.malware.name=Ping]] [[action.malware.name=Ping]]
+
+#### Industry:
+[[victim.industry.name=Information]]
+
+#### Location:
+[[victim.city.name=Tunis]] [[victim.country.name=Tunisia]] [[victim.continent.name=Africa]] [[victim.city.name=Rome]] [[victim.country.name=Italy]] [[victim.continent.name=Europe]] [[victim.city.name=]] [[victim.country.name=Haiti]] [[victim.continent.name=North and Central America]]
+
+### Autogenerated Tags:
+[[Google]] [[Zero-day]] [[Microsoft]] [[(google)]] [[Bleeping Computer]]
+
