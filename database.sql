@@ -1529,6 +1529,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1530	Nearly $700 million spent on ransomware payments in 2020 alone: report | ZDNet	The Chainalysis report says the Conti ransomware group alone brought in $180 million in 2021 from ransoms.	https://www.zdnet.com/article/nearly-700-million-spent-on-ransomware-payments-in-2020-report/	https://www.zdnet.com/a/img/resize/1a114fceee3dde2b1ce019b288f7fce891335bfe/2019/09/17/2b29f76a-a335-4062-a367-27ba7ba638ef/internet-cash.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-10 22:23:00+01	zdnet	t	2022-02-11 00:04:07.219852+01	zdnet/Nearly-700-million-spent-on-ransomware-payments-in-2020-alone-report--ZDNet
 1531	Cloudflare reports $656 million revenue in 2021, strong Q4 | ZDNet	Cloudflare brought in $193.6 million in Q4, a 54% year over year increase.	https://www.zdnet.com/article/cloudflare-reports-656-million-revenue-in-2021-strong-q4/	https://www.zdnet.com/a/img/resize/edde794b2aee9ad582a26e1de1c3e6e949757f03/2019/08/13/1edd1eb3-3415-4533-9339-fa0a84f4265c/cloudflare-terminates-service-to-8chan-a-5d4ac517bd6c070001cf1a8c-1-aug-13-2019-11-14-03-poster.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-10 21:30:00+01	zdnet	t	2022-02-11 00:04:07.219852+01	zdnet/Cloudflare-reports-656-million-revenue-in-2021-strong-Q4--ZDNet
 1532	Sharp SIM-Swapping Spike Causes $68M in Losses	The attacks, which lead to 2FA defeat and account takeover, have accelerated by several hundred percent in one year, leading to thousands of drained bank accounts.	https://kasperskycontenthub.com/threatpost-global/?p=178358	https://media.threatpost.com/wp-content/uploads/sites/103/2019/08/28144011/abstract-mobile-sim-card.jpg	Tara Seals	2022-02-10 23:13:33+01	threatpost	t	2022-02-11 00:04:07.219852+01	threatpost/Sharp-SIM-Swapping-Spike-Causes-68M-in-Losses
+1533	Moxa customers urged to patch five vulnerabilities found in MXview network management software | ZDNet	Collectively, ICS-CERT scored these vulnerabilities a 10.0, its highest criticality score.	https://www.zdnet.com/article/moxa-customers-urged-to-patch-five-vulnerabilities-found-in-mxview-network-management-software/	https://www.zdnet.com/a/img/resize/db72cd2cddf7280e9bf17e7fec78eab6237b11ba/2021/08/11/9a58774e-7724-45e0-9e32-91ac72b3a93b/extreme-networks-acquires-ipanema.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-10 23:44:50+01	zdnet	t	2022-02-11 01:03:08.203963+01	zdnet/Moxa-customers-urged-to-patch-five-vulnerabilities-found-in-MXview-network-management-software--ZDNet
+1534	Decryptor Keys Published for Maze, Egregor, Sekhmet Ransomwares	The Maze gang are purportedly never going back to ransomware and have destroyed all of their ransomware source code, said somebody claiming to be the developer.	https://kasperskycontenthub.com/threatpost-global/?p=178363	https://media.threatpost.com/wp-content/uploads/sites/103/2022/02/10181321/maze-scaled-e1644534824618.jpeg	Lisa Vaas	2022-02-11 00:16:44+01	threatpost	t	2022-02-11 01:03:08.203963+01	threatpost/Decryptor-Keys-Published-for-Maze-Egregor-Sekhmet-Ransomwares
 \.
 
 
@@ -1536,7 +1538,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1532, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1534, true);
 
 
 --
