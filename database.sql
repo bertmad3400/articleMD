@@ -1541,6 +1541,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1542	These cybercriminals plant criminal evidence on human rights defender, lawyer devices | ZDNet	There's more than one way to silence civil rights activists, it seems.	https://www.zdnet.com/article/these-cybercriminals-plant-criminal-evidence-on-human-rights-activists-lawyer-pcs/	https://www.zdnet.com/a/img/resize/4d6efe55c71ac9e4a8a686519ae71817dfddff45/2021/11/16/7c0cdc25-9d34-4c8b-958a-14ae16877a83/the-hands-of-a-computer-hacker-over-a-keyboard.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-02-11 12:10:03+01	zdnet	t	2022-02-11 14:00:02.274393+01	zdnet/These-cybercriminals-plant-criminal-evidence-on-human-rights-defender-lawyer-devices--ZDNet
 1543	CISA urges orgs to patch actively exploited Windows SeriousSAM bug	The U.S. Cybersecurity & Infrastructure Security Agency (CISA) has added to the catalog of vulnerabilities another 15 security issues actively used in cyberattacks.	https://www.bleepingcomputer.com/news/security/cisa-urges-orgs-to-patch-actively-exploited-windows-serioussam-bug/	https://www.bleepstatic.com/content/hl-images/2021/08/19/CISA_headpic.jpg	Bill Toulas	2022-02-11 14:01:01+01	bleepingcomputer	t	2022-02-11 15:00:02.676157+01	bleepingcomputer/CISA-urges-orgs-to-patch-actively-exploited-Windows-SeriousSAM-bug
 1544	Apple Patches Actively Exploited WebKit Zero Day	A memory issue affects myriad iPhone, iPad and MacOS devices and allows attackers to execute arbitrary code after processing malicious web content.	https://kasperskycontenthub.com/threatpost-global/?p=178370	https://media.threatpost.com/wp-content/uploads/sites/103/2020/03/06103714/0day.jpg	Elizabeth Montalbano	2022-02-11 14:45:45+01	threatpost	t	2022-02-11 15:00:02.676157+01	threatpost/Apple-Patches-Actively-Exploited-WebKit-Zero-Day
+1545	Get updating: Apple releases iOS 15.3.1 patch for 'actively exploited' security flaw | ZDNet	Apple has released a patch for a remotely exploitable flaw affecting Safari on iPhones and Macs.	https://www.zdnet.com/article/get-updating-apple-releases-ios-15-3-1-patch-for-actively-exploited-security-flaw/	https://www.zdnet.com/a/img/resize/a4dac55e24d9ac0f1e619de92dc7630175b7f37d/2020/07/20/ace2276d-e0ed-46df-9b93-97f6513bab46/istock-1154990382.jpg?width=770&height=578&fit=crop&auto=webp	Liam Tung	2022-02-11 14:07:10+01	zdnet	t	2022-02-11 16:00:02.598833+01	zdnet/Get-updating-Apple-releases-iOS-1531-patch-for-actively-exploited-security-flaw--ZDNet
+1546	Jailed Indian activist was targeted by state-linked hacking group, report says	California-based cybersecurity firm SentinelOne released an investigative report Wednesday revealing the decade-long work of hackers known to plant incriminating evidence on the devices of activists, human rights defenders, journalists, academics, and lawyers in India. 	https://therecord.media/jailed-indian-activist-was-targeted-by-state-linked-hacking-group-report-says/	https://therecord.media/wp-content/uploads/2022/02/elephant-sentinelone.jpg	Emma Vail	2022-02-11 15:32:32+01	therecord	t	2022-02-11 16:00:02.598833+01	therecord/Jailed-Indian-activist-was-targeted-by-state-linked-hacking-group-report-says
 \.
 
 
@@ -1548,7 +1550,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1544, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1546, true);
 
 
 --
