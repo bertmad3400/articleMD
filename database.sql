@@ -1537,6 +1537,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1538	This Week in Security News - February 11, 2022	Hidden scams in malicious scans, and feds arrest couple who allegedly laundered $1 Billion in stolen bitcoins	https://www.trendmicro.com/en_us/research/22/b/this-week-in-security-news-february-11-2022.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news.jpg	\N	2022-02-11 00:00:00+01	trendmicro	t	2022-02-11 08:02:56.579251+01	trendmicro/This-Week-in-Security-News---February-11-2022
 1539	$1.3 billion lost to romance scams in the past five years: FTC | ZDNet	Romance scams are reaching record-highs, regulators warn.	https://www.zdnet.com/article/1-3-billion-lost-to-romance-scams-in-the-past-five-years-ftc/	https://www.zdnet.com/a/img/resize/06b4d08d839220c51aec67963f8698175044d678/2021/09/20/661ec493-76d3-49b3-9ccd-e52e44947136/romance-scam.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-02-11 08:27:20+01	zdnet	t	2022-02-11 10:03:03.204934+01	zdnet/13-billion-lost-to-romance-scams-in-the-past-five-years-FTC--ZDNet
 1540	Spanish police arrest suspects in SIM-swapping ring | ZDNet	Fraudsters used photocopies and stolen data to obtain duplicate SIM cards.	https://www.zdnet.com/article/spanish-police-arrest-suspects-in-sim-swapping-ring/	https://www.zdnet.com/a/img/resize/a1c520bbc5a70cc1f743c2e2c26c7d932793a1a2/2021/01/20/4cc84e24-2c46-416b-9ab6-53f0111796ad/istock-1134890323.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-02-11 09:45:17+01	zdnet	t	2022-02-11 11:03:09.85875+01	zdnet/Spanish-police-arrest-suspects-in-SIM-swapping-ring--ZDNet
+1541	Detecting PwnKit (CVE-2021-4034) Using Trend Micro™ Vision One™ and Cloud One™	This blog discusses how CVE-2021-4034 can be detected and blocked using Trend Micro™ Vision One™ and Trend Micro Cloud One™.	https://www.trendmicro.com/en_us/research/22/b/detecting-pwnkit-cve20214034-using-trend-micro-vision-one-cloud-one.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/b/detecting-pwnkit-cve-2021-4034-using-trend-micro-vision-one-and-cloud-one/cover-detecting-pwnkit-cve20214034-trend-micro-vision-one-cloud-one.jpg	\N	2022-02-11 00:00:00+01	trendmicro	t	2022-02-11 14:00:02.274393+01	trendmicro/Detecting-PwnKit-CVE-2021-4034-Using-Trend-Micro-Vision-One-and-Cloud-One
+1542	These cybercriminals plant criminal evidence on human rights defender, lawyer devices | ZDNet	There's more than one way to silence civil rights activists, it seems.	https://www.zdnet.com/article/these-cybercriminals-plant-criminal-evidence-on-human-rights-activists-lawyer-pcs/	https://www.zdnet.com/a/img/resize/4d6efe55c71ac9e4a8a686519ae71817dfddff45/2021/11/16/7c0cdc25-9d34-4c8b-958a-14ae16877a83/the-hands-of-a-computer-hacker-over-a-keyboard.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-02-11 12:10:03+01	zdnet	t	2022-02-11 14:00:02.274393+01	zdnet/These-cybercriminals-plant-criminal-evidence-on-human-rights-defender-lawyer-devices--ZDNet
 \.
 
 
@@ -1544,7 +1546,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1540, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1542, true);
 
 
 --
