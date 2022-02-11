@@ -1553,6 +1553,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1554	Google says nearly $9 million given out in 2021 vulnerability rewards | ZDNet	For Android, payouts doubled compared to 2020, with almost $3 million being rewarded to researchers.	https://www.zdnet.com/article/google-says-9-million-given-out-in-2021-vulnerability-rewards/	https://www.zdnet.com/a/img/resize/8f2789ee9dca3ecc404495bebd51d21a40743feb/2020/09/30/06bcfe54-aeea-4bdb-835e-346f24fbceab/google-hq-sign.png?width=770&height=578&fit=crop&format=pjpg&auto=webp	Jonathan Greig	2022-02-11 19:44:00+01	zdnet	t	2022-02-11 21:00:02.173719+01	zdnet/Google-says-nearly-9-million-given-out-in-2021-vulnerability-rewards--ZDNet
 1555	Croatian phone carrier data breach impacts 200,000 clients	Croatian phone carrier 'A1 Hrvatska' has disclosed a data breach exposing the personal information of 10% of its customers, roughly 200,000 people.	https://www.bleepingcomputer.com/news/security/croatian-phone-carrier-data-breach-impacts-200-000-clients/	https://www.bleepstatic.com/content/hl-images/2022/02/11/antenna.jpg	Bill Toulas	2022-02-11 20:29:48+01	bleepingcomputer	t	2022-02-11 21:00:02.173719+01	bleepingcomputer/Croatian-phone-carrier-data-breach-impacts-200000-clients
 1556	Cybercrooks Frame Targets by Planting Incriminating Evidence	The ‘ModifiedElephant’ threat actors are technically unimpressive, but they’ve evaded detection for a decade, hacking human rights advocates' systems with dusty old keyloggers and off-the-shelf RATs.	https://kasperskycontenthub.com/threatpost-global/?p=178384	https://media.threatpost.com/wp-content/uploads/sites/103/2022/02/11143537/elephant-scaled-e1644608152556.jpeg	Lisa Vaas	2022-02-11 20:57:34+01	threatpost	t	2022-02-11 21:00:02.173719+01	threatpost/Cybercrooks-Frame-Targets-by-Planting-Incriminating-Evidence
+1557	Q&A: CISO sees 'enterprise' browser as easier way to monitor employee web use	Bob Schuetter, CISO at Ashland Specialty Chemicals, has been piloting a new enterprise-specific browser as a way to secure web traffic and company data associated with SaaS applications.	https://www.computerworld.com/article/3648968/qa-ciso-sees-enterprise-browser-as-easier-way-to-monitor-employee-web-use.html	https://images.idgesg.net/images/article/2019/11/cso_browser_security_by_thinkstock_497418668_1200x800-100817200-large.jpg?auto=webp&quality=85,70	Lucas Mearian	2022-02-04 09:00:00+01	computerworld	t	2022-02-11 22:00:02.228729+01	computerworld/QA-CISO-sees-enterprise-browser-as-easier-way-to-monitor-employee-web-use
 \.
 
 
@@ -1560,7 +1561,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1556, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1557, true);
 
 
 --
