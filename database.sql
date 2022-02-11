@@ -1531,6 +1531,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1532	Sharp SIM-Swapping Spike Causes $68M in Losses	The attacks, which lead to 2FA defeat and account takeover, have accelerated by several hundred percent in one year, leading to thousands of drained bank accounts.	https://kasperskycontenthub.com/threatpost-global/?p=178358	https://media.threatpost.com/wp-content/uploads/sites/103/2019/08/28144011/abstract-mobile-sim-card.jpg	Tara Seals	2022-02-10 23:13:33+01	threatpost	t	2022-02-11 00:04:07.219852+01	threatpost/Sharp-SIM-Swapping-Spike-Causes-68M-in-Losses
 1533	Moxa customers urged to patch five vulnerabilities found in MXview network management software | ZDNet	Collectively, ICS-CERT scored these vulnerabilities a 10.0, its highest criticality score.	https://www.zdnet.com/article/moxa-customers-urged-to-patch-five-vulnerabilities-found-in-mxview-network-management-software/	https://www.zdnet.com/a/img/resize/db72cd2cddf7280e9bf17e7fec78eab6237b11ba/2021/08/11/9a58774e-7724-45e0-9e32-91ac72b3a93b/extreme-networks-acquires-ipanema.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-10 23:44:50+01	zdnet	t	2022-02-11 01:03:08.203963+01	zdnet/Moxa-customers-urged-to-patch-five-vulnerabilities-found-in-MXview-network-management-software--ZDNet
 1534	Decryptor Keys Published for Maze, Egregor, Sekhmet Ransomwares	The Maze gang are purportedly never going back to ransomware and have destroyed all of their ransomware source code, said somebody claiming to be the developer.	https://kasperskycontenthub.com/threatpost-global/?p=178363	https://media.threatpost.com/wp-content/uploads/sites/103/2022/02/10181321/maze-scaled-e1644534824618.jpeg	Lisa Vaas	2022-02-11 00:16:44+01	threatpost	t	2022-02-11 01:03:08.203963+01	threatpost/Decryptor-Keys-Published-for-Maze-Egregor-Sekhmet-Ransomwares
+1535	Microsoft fixes Defender flaw letting hackers bypass antivirus scans	Microsoft has recently addressed a weakness in the Microsoft Defender Antivirus on Windows that allowed attackers to plant and execute malicious payloads without triggering Defender's malware detection engine.	https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-defender-flaw-letting-hackers-bypass-antivirus-scans/	https://www.bleepstatic.com/content/hl-images/2022/02/10/0_Microsoft-Defender.jpg	Sergiu Gatlan	2022-02-11 01:20:20+01	bleepingcomputer	t	2022-02-11 02:03:24.642679+01	bleepingcomputer/Microsoft-fixes-Defender-flaw-letting-hackers-bypass-antivirus-scans
 \.
 
 
@@ -1538,7 +1539,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1534, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1535, true);
 
 
 --
