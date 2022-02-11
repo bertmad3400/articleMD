@@ -1534,6 +1534,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1535	Microsoft fixes Defender flaw letting hackers bypass antivirus scans	Microsoft has recently addressed a weakness in the Microsoft Defender Antivirus on Windows that allowed attackers to plant and execute malicious payloads without triggering Defender's malware detection engine.	https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-defender-flaw-letting-hackers-bypass-antivirus-scans/	https://www.bleepstatic.com/content/hl-images/2022/02/10/0_Microsoft-Defender.jpg	Sergiu Gatlan	2022-02-11 01:20:20+01	bleepingcomputer	t	2022-02-11 02:03:24.642679+01	bleepingcomputer/Microsoft-fixes-Defender-flaw-letting-hackers-bypass-antivirus-scans
 1536	French privacy regulator finds using Google Analytics can breach GDPR | ZDNet	French websites may have to rejig how they track and report website traffic after regulators found that using Google Analytics can sometimes breach the GDPR.	https://www.zdnet.com/article/french-privacy-regulator-finds-using-google-analytics-can-breach-gdpr/	https://www.zdnet.com/a/img/resize/3f7ab37e0da34ff1fba048139875e9141c5b6c50/2017/11/17/98a7f39f-5a9b-45a2-b371-a892ce62390f/google-analytics-website-traffic-business.png?width=770&height=578&fit=crop&format=pjpg&auto=webp	Campbell Kwan	2022-02-11 01:32:46+01	zdnet	t	2022-02-11 03:03:34.752068+01	zdnet/French-privacy-regulator-finds-using-Google-Analytics-can-breach-GDPR--ZDNet
 1537	Beware of spies and radicalisation attempts online: ASIO chief | ZDNet	Mike Burgess warns of espionage via social media and dating sites, and a surge in the online radicalisation of minors. But on the plus side, good cybersecurity is achievable.	https://www.zdnet.com/article/beware-of-spies-and-radicalisation-attempts-online-asio-chief/	https://www.zdnet.com/a/img/resize/9ec262c6bed1a87984f557ca0f2c23a4af330a91/2022/02/11/6006a5c5-f893-4d96-b76a-ba3b581c0052/online-security-gettyimages-1148031053.jpg?width=770&height=578&fit=crop&auto=webp	Stilgherrian 	2022-02-11 04:22:55+01	zdnet	t	2022-02-11 06:03:15.309813+01	zdnet/Beware-of-spies-and-radicalisation-attempts-online-ASIO-chief--ZDNet
+1538	This Week in Security News - February 11, 2022	Hidden scams in malicious scans, and feds arrest couple who allegedly laundered $1 Billion in stolen bitcoins	https://www.trendmicro.com/en_us/research/22/b/this-week-in-security-news-february-11-2022.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news.jpg	\N	2022-02-11 00:00:00+01	trendmicro	t	2022-02-11 08:02:56.579251+01	trendmicro/This-Week-in-Security-News---February-11-2022
 \.
 
 
@@ -1541,7 +1542,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1537, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1538, true);
 
 
 --
