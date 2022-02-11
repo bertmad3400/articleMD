@@ -1545,6 +1545,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1546	Jailed Indian activist was targeted by state-linked hacking group, report says	California-based cybersecurity firm SentinelOne released an investigative report Wednesday revealing the decade-long work of hackers known to plant incriminating evidence on the devices of activists, human rights defenders, journalists, academics, and lawyers in India. 	https://therecord.media/jailed-indian-activist-was-targeted-by-state-linked-hacking-group-report-says/	https://therecord.media/wp-content/uploads/2022/02/elephant-sentinelone.jpg	Emma Vail	2022-02-11 15:32:32+01	therecord	t	2022-02-11 16:00:02.598833+01	therecord/Jailed-Indian-activist-was-targeted-by-state-linked-hacking-group-report-says
 1547	Amazon steps in to close exposed FlexBooker bucket after December data breach | ZDNet	vpnMentor said FlexBooker's AWS S3 bucket held information about COVID-19 tests, babysitters and pet euthanizations.	https://www.zdnet.com/article/amazon-steps-in-to-close-exposed-flexbooker-bucket-after-december-data-breach/	https://www.zdnet.com/a/img/resize/3ee8fc6b7bbeb64052de803cfdf568492eb0e045/2020/02/28/9d07c878-7f1a-4287-997c-1e8c522a108f/istock-1159096313.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-11 15:37:46+01	zdnet	t	2022-02-11 17:00:02.088845+01	zdnet/Amazon-steps-in-to-close-exposed-FlexBooker-bucket-after-December-data-breach--ZDNet
 1548	Third-party risk management: No one size fits all | ZDNet	Despite predictions in the early days of the pandemic that firms would rein in outsourcing strategies, the third-party ecosystem continues to grow.	https://www.zdnet.com/article/setting-the-record-straight-on-the-third-party-risk-management-market/	https://www.zdnet.com/a/img/resize/1199fae3706d34e77de059588944b39956b16256/2014/09/18/a7ad0b1f-3efd-11e4-b6a0-d4ae52e95e57/security-risk-management-where-companies-fail-and-succeed.jpg?width=770&height=578&fit=crop&auto=webp	Forrester Research	2022-02-11 15:02:00+01	zdnet	t	2022-02-11 17:00:02.088845+01	zdnet/Third-party-risk-management-No-one-size-fits-all--ZDNet
+1549	Thousands of npm accounts use email addresses with expired domains	An academic research project found that thousands of JavaScript developers are using an email address with an expired domain for their npm accounts, leaving their projects exposed to easy hijacks.	https://therecord.media/thousands-of-npm-accounts-use-email-addresses-with-expired-domains/	https://therecord.media/wp-content/uploads/2022/02/npm.png	Catalin Cimpanu	2022-02-11 17:28:12+01	therecord	t	2022-02-11 18:00:02.510908+01	therecord/Thousands-of-npm-accounts-use-email-addresses-with-expired-domains
 \.
 
 
@@ -1552,7 +1553,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1548, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1549, true);
 
 
 --
