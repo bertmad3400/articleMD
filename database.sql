@@ -1539,6 +1539,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1540	Spanish police arrest suspects in SIM-swapping ring | ZDNet	Fraudsters used photocopies and stolen data to obtain duplicate SIM cards.	https://www.zdnet.com/article/spanish-police-arrest-suspects-in-sim-swapping-ring/	https://www.zdnet.com/a/img/resize/a1c520bbc5a70cc1f743c2e2c26c7d932793a1a2/2021/01/20/4cc84e24-2c46-416b-9ab6-53f0111796ad/istock-1134890323.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-02-11 09:45:17+01	zdnet	t	2022-02-11 11:03:09.85875+01	zdnet/Spanish-police-arrest-suspects-in-SIM-swapping-ring--ZDNet
 1541	Detecting PwnKit (CVE-2021-4034) Using Trend Micro™ Vision One™ and Cloud One™	This blog discusses how CVE-2021-4034 can be detected and blocked using Trend Micro™ Vision One™ and Trend Micro Cloud One™.	https://www.trendmicro.com/en_us/research/22/b/detecting-pwnkit-cve20214034-using-trend-micro-vision-one-cloud-one.html	https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/b/detecting-pwnkit-cve-2021-4034-using-trend-micro-vision-one-and-cloud-one/cover-detecting-pwnkit-cve20214034-trend-micro-vision-one-cloud-one.jpg	\N	2022-02-11 00:00:00+01	trendmicro	t	2022-02-11 14:00:02.274393+01	trendmicro/Detecting-PwnKit-CVE-2021-4034-Using-Trend-Micro-Vision-One-and-Cloud-One
 1542	These cybercriminals plant criminal evidence on human rights defender, lawyer devices | ZDNet	There's more than one way to silence civil rights activists, it seems.	https://www.zdnet.com/article/these-cybercriminals-plant-criminal-evidence-on-human-rights-activists-lawyer-pcs/	https://www.zdnet.com/a/img/resize/4d6efe55c71ac9e4a8a686519ae71817dfddff45/2021/11/16/7c0cdc25-9d34-4c8b-958a-14ae16877a83/the-hands-of-a-computer-hacker-over-a-keyboard.jpg?width=770&height=578&fit=crop&auto=webp	Charlie Osborne	2022-02-11 12:10:03+01	zdnet	t	2022-02-11 14:00:02.274393+01	zdnet/These-cybercriminals-plant-criminal-evidence-on-human-rights-defender-lawyer-devices--ZDNet
+1543	CISA urges orgs to patch actively exploited Windows SeriousSAM bug	The U.S. Cybersecurity & Infrastructure Security Agency (CISA) has added to the catalog of vulnerabilities another 15 security issues actively used in cyberattacks.	https://www.bleepingcomputer.com/news/security/cisa-urges-orgs-to-patch-actively-exploited-windows-serioussam-bug/	https://www.bleepstatic.com/content/hl-images/2021/08/19/CISA_headpic.jpg	Bill Toulas	2022-02-11 14:01:01+01	bleepingcomputer	t	2022-02-11 15:00:02.676157+01	bleepingcomputer/CISA-urges-orgs-to-patch-actively-exploited-Windows-SeriousSAM-bug
+1544	Apple Patches Actively Exploited WebKit Zero Day	A memory issue affects myriad iPhone, iPad and MacOS devices and allows attackers to execute arbitrary code after processing malicious web content.	https://kasperskycontenthub.com/threatpost-global/?p=178370	https://media.threatpost.com/wp-content/uploads/sites/103/2020/03/06103714/0day.jpg	Elizabeth Montalbano	2022-02-11 14:45:45+01	threatpost	t	2022-02-11 15:00:02.676157+01	threatpost/Apple-Patches-Actively-Exploited-WebKit-Zero-Day
 \.
 
 
@@ -1546,7 +1548,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1542, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1544, true);
 
 
 --
