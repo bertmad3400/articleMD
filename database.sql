@@ -1532,6 +1532,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1533	Moxa customers urged to patch five vulnerabilities found in MXview network management software | ZDNet	Collectively, ICS-CERT scored these vulnerabilities a 10.0, its highest criticality score.	https://www.zdnet.com/article/moxa-customers-urged-to-patch-five-vulnerabilities-found-in-mxview-network-management-software/	https://www.zdnet.com/a/img/resize/db72cd2cddf7280e9bf17e7fec78eab6237b11ba/2021/08/11/9a58774e-7724-45e0-9e32-91ac72b3a93b/extreme-networks-acquires-ipanema.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-10 23:44:50+01	zdnet	t	2022-02-11 01:03:08.203963+01	zdnet/Moxa-customers-urged-to-patch-five-vulnerabilities-found-in-MXview-network-management-software--ZDNet
 1534	Decryptor Keys Published for Maze, Egregor, Sekhmet Ransomwares	The Maze gang are purportedly never going back to ransomware and have destroyed all of their ransomware source code, said somebody claiming to be the developer.	https://kasperskycontenthub.com/threatpost-global/?p=178363	https://media.threatpost.com/wp-content/uploads/sites/103/2022/02/10181321/maze-scaled-e1644534824618.jpeg	Lisa Vaas	2022-02-11 00:16:44+01	threatpost	t	2022-02-11 01:03:08.203963+01	threatpost/Decryptor-Keys-Published-for-Maze-Egregor-Sekhmet-Ransomwares
 1535	Microsoft fixes Defender flaw letting hackers bypass antivirus scans	Microsoft has recently addressed a weakness in the Microsoft Defender Antivirus on Windows that allowed attackers to plant and execute malicious payloads without triggering Defender's malware detection engine.	https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-defender-flaw-letting-hackers-bypass-antivirus-scans/	https://www.bleepstatic.com/content/hl-images/2022/02/10/0_Microsoft-Defender.jpg	Sergiu Gatlan	2022-02-11 01:20:20+01	bleepingcomputer	t	2022-02-11 02:03:24.642679+01	bleepingcomputer/Microsoft-fixes-Defender-flaw-letting-hackers-bypass-antivirus-scans
+1536	French privacy regulator finds using Google Analytics can breach GDPR | ZDNet	French websites may have to rejig how they track and report website traffic after regulators found that using Google Analytics can sometimes breach the GDPR.	https://www.zdnet.com/article/french-privacy-regulator-finds-using-google-analytics-can-breach-gdpr/	https://www.zdnet.com/a/img/resize/3f7ab37e0da34ff1fba048139875e9141c5b6c50/2017/11/17/98a7f39f-5a9b-45a2-b371-a892ce62390f/google-analytics-website-traffic-business.png?width=770&height=578&fit=crop&format=pjpg&auto=webp	Campbell Kwan	2022-02-11 01:32:46+01	zdnet	t	2022-02-11 03:03:34.752068+01	zdnet/French-privacy-regulator-finds-using-Google-Analytics-can-breach-GDPR--ZDNet
 \.
 
 
@@ -1539,7 +1540,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1535, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1536, true);
 
 
 --
