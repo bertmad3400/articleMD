@@ -1558,6 +1558,8 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 1559	Europe's biggest car dealer hit with ransomware attack | ZDNet	Emil Frey confirmed that the ransomware attack took place in January.	https://www.zdnet.com/article/europes-biggest-car-dealer-hit-with-ransomware-attack/	https://www.zdnet.com/a/img/resize/9a61e8a23ec816e45ec6355c2a72700eddade70c/2019/08/13/5b48b138-4a4e-4282-b949-5c620a65597d/car-correct-side-of-road.png?width=770&height=578&fit=crop&format=pjpg&auto=webp	Jonathan Greig	2022-02-11 21:43:00+01	zdnet	t	2022-02-11 23:00:02.28247+01	zdnet/Europes-biggest-car-dealer-hit-with-ransomware-attack--ZDNet
 1560	Microsoft, Oracle, Apache and Apple vulnerabilities added to CISA catalog | ZDNet	One of the vulnerabilities -- a Microsoft Windows SAM local privilege escalation vulnerability -- has a remediation date of February 24.	https://www.zdnet.com/article/15-vulnerabilities-added-to-cisa-catalog/	https://www.zdnet.com/a/img/resize/52e3f2e72bae0c6668ad15efdacedf52ed9ac8dc/2022/01/31/d2733fd0-3a2e-438e-8745-268bd8675c8f/xyw1ujya-400x400.jpg?width=770&height=578&fit=crop&auto=webp	Jonathan Greig	2022-02-11 21:15:00+01	zdnet	t	2022-02-11 23:00:02.28247+01	zdnet/Microsoft-Oracle-Apache-and-Apple-vulnerabilities-added-to-CISA-catalog--ZDNet
 1561	Critical MQTT-Related Bugs Open Industrial Networks to RCE Via Moxa	A collection of five security vulnerabilities with a collective CVSS score of 10 out of 10 threaten critical infrastructure environments that use Moxa MXview.	https://kasperskycontenthub.com/threatpost-global/?p=178399	https://media.threatpost.com/wp-content/uploads/sites/103/2019/09/03102603/Software-Patch.jpg	Tara Seals	2022-02-11 22:51:28+01	threatpost	t	2022-02-11 23:00:02.28247+01	threatpost/Critical-MQTT-Related-Bugs-Open-Industrial-Networks-to-RCE-Via-Moxa
+1562	Signal App Launches Change Number Feature While Retaining Old Data	This feature doesn't require a user to re-register on Signal to change phone number. However, the old number should be available for porting.	https://latesthackingnews.com/2022/02/12/signal-app-launches-change-number-feature-while-retaining-old-data/	https://latesthackingnews.com/wp-content/uploads/2019/10/Signal.jpg	Abeerah Hashim	2022-02-12 00:00:00+01	latesthackingnews	t	2022-02-12 15:00:02.467152+01	latesthackingnews/Signal-App-Launches-Change-Number-Feature-While-Retaining-Old-Data
+1563	Deal alert: These 10 e-learning bundles teach ethical hacking, cryptocurrency trading, more | ZDNet	An outstanding Valentine's Day present lasts for a long time, but the very best gift is one that can build a better future. Gift one of these bundles during our holiday sale!	https://www.zdnet.com/article/give-your-partner-the-gift-of-learning-this-valentines-day-with-10-deals-on-e-learning-bundles/	https://www.zdnet.com/a/img/resize/edcfdbb85510b50683e648c85c14998603081ceb/2021/12/08/e03a81ac-8f55-4197-83b1-f828caa41c1d/shutterstock-1854623104.jpg?width=770&height=578&fit=crop&auto=webp	ZDNet Academy	2022-02-12 14:00:02+01	zdnet	t	2022-02-12 15:00:02.467152+01	zdnet/Deal-alert-These-10-e-learning-bundles-teach-ethical-hacking-cryptocurrency-trading-more--ZDNet
 \.
 
 
@@ -1565,7 +1567,7 @@ COPY public.articles (id, title, description, url, image_url, author, publish_da
 -- Name: articles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.articles_id_seq', 1561, true);
+SELECT pg_catalog.setval('public.articles_id_seq', 1563, true);
 
 
 --
